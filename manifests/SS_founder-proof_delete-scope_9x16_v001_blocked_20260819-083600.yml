@@ -1,0 +1,43 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-083600-delete-scope-v001
+angle_slug: delete-scope
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_delete-scope_9x16_v001_blocked_20260819-083600.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-delete-confirmation-affected-record-summary-dependency-warning-unlink-versus-delete-or-undo-restoration-surface
+product_version: null
+proof_capture_approved: false
+delete_confirmation_status: missing
+affected_record_summary_status: missing
+dependency_warning_status: missing
+unlink_delete_choice_status: missing
+undo_restoration_status: unverified
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no delete-preview, dependency-analysis, source-derived-warning, undo, restoration, or guaranteed-recalculation claim
+  - no real financial, project, sample, tester, or personal data without rights and privacy review
+  - illustrative caution does not prove actual product dependency behavior
+  - generated text and fictional cards are not product UI truth
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private delete confirmation, affected-record summary, dependency warning, unlink-versus-delete choice, or undo/restoration proof capture or registry entry with product version/date and exact labels, then rerun all Director gates.

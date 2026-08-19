@@ -1171,3 +1171,46 @@ Do not claim Stitch & Scale has context locks, cross-device sync, interruption c
 [100] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
 
 [101] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+## Fortieth wide-research question: what exactly leaves when a record is deleted? — 2026-08-19
+
+### Research question
+When an independent designer deletes an expense, sample, test-knit record, or source item, how can they know exactly what will be removed, what derived totals will change, and what will remain—without claiming Stitch & Scale has undo, restoration, or dependency analysis?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers managing local design, expense, sample, testing, and business records. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| GOV.UK Design System backlog, “Confirm an action” issue #9 | 2026-08-19; public issue checked | The issue proposes confirming serious or irreversible actions such as deleting an account or cancelling an application. Discussion notes that undo can be friendlier where possible, while recognizing that undo is not always possible. | An open backlog discussion rather than final current component guidance; not proof of Stitch & Scale delete or undo behavior. | A destructive-action concept should name the affected record and consequence, offer undo only if current proof exists, and otherwise remain a human-confirmed blocker. |
+| MOJ Design System, “Interruption card” | 2026-08-19; official component previously checked | The component explains possible errors and serious actions before the user continues. Its non-contextual-error example describes when one answer affects other sections and what may need to be copied or deleted. | Government component guidance, not Stitch & Scale product proof. | Show the concrete consequence and affected record, not a generic “Are you sure?” dialog. |
+| Craft-business records contract | 2026-08-19; internal contract | The contract says to preserve history, distinguish source records from derived rollups, confirm destructive deletion, preserve unrelated records, and test restoration before calling a workflow durable. | Internal product-design contract, not current UI proof. | Select `delete-scope`: distinguish deleting a source record from removing a derived view or unlinking a record; do not claim undo or restoration. |
+| Mobile-maker workflows contract | 2026-08-19; internal contract | Destructive actions should name the affected record, be confirmed, preserve unrelated records, and make feedback visible on mobile. | Internal product-design contract, not current UI proof. | Keep the affected record, consequence, and cancel path in one reachable mobile frame. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for delete confirmations, affected-record summaries, dependency warnings, unlink-versus-delete choices, undo, restoration, or source-versus-derived relationship surfaces. All 40 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic data-loss anxiety into **delete scope before deletion**. The fresh concept is `delete-scope`: a designer pauses to distinguish `DELETE SOURCE RECORD`, `REMOVE FROM VIEW`, and `UNLINK EVIDENCE`, then names which totals or history may change. The visual device is a fictional consequence card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no delete, undo, restoration, or dependency behavior is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `recovery-proof`, which focuses on proving restoration after loss or interruption. `delete-scope` moves earlier to the decision boundary before destruction and asks what exactly leaves, what remains, and which derived view may change. The hook changes to “Delete the record, not the story around it.” The visual metaphor changes from a restored workspace to a source record splitting into `DELETE / REMOVE FROM VIEW / UNLINK EVIDENCE`. The proof surface changes from recovery evidence to a current delete confirmation, affected-record summary, dependency warning, unlink-versus-delete choice, or undo/restoration surface. The emotional turn changes from relief after recovery to confidence through named consequences before deletion. The final line changes to “Name what leaves. Name what stays.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale has undo, restoration, dependency analysis, deletion previews, or source/derived relationship warnings without current proof. Do not imply deletion is reversible or that totals recalculate correctly. Do not display real records, names, expenses, samples, or private data without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[102] [GOV.UK Design System backlog — Confirm an action, issue #9](https://github.com/alphagov/govuk-design-system-backlog/issues/9)
+
+[103] [MOJ Design System — Interruption card](https://design-patterns.service.justice.gov.uk/components/interruption-card/)
+
+[104] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[105] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

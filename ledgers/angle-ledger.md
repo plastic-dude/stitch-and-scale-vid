@@ -419,3 +419,13 @@ The nearest prior angle is `feedback-loop`, which focuses on what happens after 
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `size-boundary`, which focuses on the limits of the size range and honest coverage. `context-lock` changes the pain to the same field meaning different things when project, size, or unit context is unclear. It changes the hook to “The dangerous part is not the number. It is which number you are editing,” the visual metaphor from a boundary line around supported sizes to `PROJECT / SIZE / UNIT / EDITING`, the proof surface from coverage boundaries to an active-context header, project/size/unit indicator, unsaved-state marker, route-back surface, or context-change checkpoint, the emotional turn from knowing size-range limits to quiet confidence in the active record, and the final line to “Name the context before you trust the number.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — delete scope — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `delete-scope` | A destructive action can erase a source record, linked evidence, or derived understanding without naming what leaves and what remains | “Delete the record, not the story around it.” | One current, approved delete confirmation, affected-record summary, dependency warning, unlink-versus-delete choice, or undo/restoration surface with exact labels | Confidence through named consequences before deletion rather than generic warning or recovery certainty | “Name what leaves. Name what stays.” | blocked; product proof, record-data rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `recovery-proof`, which focuses on proving restoration after loss or interruption. `delete-scope` moves earlier to the decision boundary before destruction and asks what exactly leaves, what remains, and which derived view may change. It changes the hook to “Delete the record, not the story around it,” the visual metaphor from a restored workspace to `DELETE / REMOVE FROM VIEW / UNLINK EVIDENCE`, the proof surface from recovery evidence to a delete confirmation, affected-record summary, dependency warning, unlink-versus-delete choice, or undo/restoration surface, the emotional turn from relief after recovery to confidence through named consequences before deletion, and the final line to “Name what leaves. Name what stays.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
