@@ -5474,3 +5474,47 @@ Do not claim that Stitch & Scale currently exposes locale identifiers, language 
 ### Research limit
 
 These sources establish locale-sensitive formatting, identifier/data versioning, accessible language metadata, and localization principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes locale identifiers, language metadata, locale-aware number/unit/date formats, RTL handling, localized labels, caption language, or locale-aware export. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-twenty-sixth wide-research question: previewed is not printed — 20260819-195834
+
+### Research question
+
+When a screen preview becomes a PDF, chart, schematic, or printed page, what proves that page breaks, scale, margins, reading order, labels, tables, and chart geometry remain usable in the target medium?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| W3C CSS Paged Media Module Level 3 | 2026-08-19 | Paged output has page boxes, page size/orientation/margins, printable and non-printable areas, page breaks, page progression, and content that can fall outside a page box. | Specification; not a Stitch & Scale product claim. | Frame preview fidelity around the target medium and page geometry, not screen appearance alone. |
+| Adobe Acrobat — Create and verify PDF accessibility | 2026-08-19 | PDF accessibility checks cover tags, reading order, document language, tables, images, contrast, and manual checks; automatic pass status is not the same as complete human review. | Vendor guidance; no product behavior evidence. | Require a manual and automated review distinction in the proof surface. |
+| Section508.gov — Create accessible PDFs | 2026-08-19 | Accessible PDF authoring requires documented baseline/checklist processes and review of conformance, not only generation. | Government guidance; no Stitch & Scale evidence. | Include target-medium acceptance evidence rather than a “generated” claim. |
+| Modern Daily Knitting — Knitting graph paper | 2026-08-19 | Knit charts depend on gauge and stitch geometry; ordinary square grid can distort the intended knitted shape, so chart geometry and gauge must be reviewed in the target medium. | Practitioner reference, not a standard and not Stitch & Scale evidence. | Preserve chart geometry and test knitting as distinct human evidence gates. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Preview, print, chart, schematic, localization, accessibility, and human evidence gates remain distinct; a screen preview is not proof of final export or physical readability. | Internal contracts, not current product behavior. | Block until one preview is linked to a final artifact plus device and target-medium review. |
+
+### Research synthesis and decision shift
+
+Previewed is not printed. Candidate angle: `preview-state`. Hook: “Previewed is not printed.” Fictional proof surface: `PREVIEW VERSION / RENDER TARGET / PAGE SIZE / SCALE / PAGE BREAKS / MARGINS / READING ORDER / FINAL CHECK`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: a phone preview unfolds into page boxes and splits at a page break before a final fidelity check. Emotional turn: preview confidence becomes target-medium accountability. Final line: “Name the medium before you trust the preview.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies preview version identity, render target, page size, scale, page-break behavior, margins, reading order, chart geometry, schematic scale, PDF tags, document language, or physical print fidelity. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `locale-state`, which concerns locale-sensitive display and meaning across records, screens, charts, schematics, captions, and exports. `preview-state` changes the pain to **an on-screen preview failing to prove that the rendered, exported, printed, or target-medium artifact preserves layout, scale, labels, reading order, and chart geometry**. It changes the hook to “Previewed is not printed”; the visual metaphor from locale-specific display paths to a phone preview unfolding into page boxes and splitting at a page break; the proof surface from locale/language/number-format/unit-display/rounding/label/date-format/export-reviewed to preview-version/render-target/page-size/scale/page-breaks/margins/reading-order/final-check; the emotional turn from semantic continuity to target-medium accountability; and the final line to “Name the medium before you trust the preview.”
+
+It is distinct from `version-lock`, `locale-state`, `unit-state`, `selection-state`, `publication-readiness`, and physical print review because those concepts respectively concern exact artifact identity, locale-sensitive meaning, unit attachment, selected-context propagation, release readiness, and a human evidence gate. `preview-state` focuses on the difference between an on-screen preview and the rendered/exported/printed target artifact. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes preview version links, render targets, page-break checks, scale controls, reading-order checks, chart-geometry checks, PDF tags, or physical print fidelity. Do not use `PREVIEW VERSION`, `RENDER TARGET`, `PAGE SIZE`, `SCALE`, `PAGE BREAKS`, `MARGINS`, `READING ORDER`, or `FINAL CHECK` as current product UI. Do not claim preview-to-export fidelity, print fidelity, chart geometry, PDF accessibility, fit, calculation accuracy, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[720] [W3C — CSS Paged Media Module Level 3](https://www.w3.org/TR/css-page-3/)
+[721] [Adobe — Create and verify PDF accessibility](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html)
+[722] [Section508.gov — Create accessible PDFs](https://www.section508.gov/create/pdfs/)
+[723] [Modern Daily Knitting — Pro Tip: Knitting Graph Paper](https://www.moderndailyknitting.com/community/pro-tip-knitting-graph-paper/)
+[724] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish paged-media, PDF accessibility, chart-geometry, print-review, and target-medium fidelity principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes preview version links, render targets, page-break checks, scale controls, reading-order checks, chart-geometry checks, PDF tags, or physical print fidelity. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
