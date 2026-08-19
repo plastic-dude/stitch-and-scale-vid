@@ -269,3 +269,13 @@ The nearest prior angle is `measurement-moment`, which concerns preserving a mea
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `material-notes`, which concerns preserving assumptions behind yarn selection or substitution. `source-note` changes the pain to an unmarked statement presented as fact, the hook to “Before you call it a fact, name where it came from,” the visual metaphor from material cards to `OBSERVED / LABEL / TEST KNIT / EXTERNAL` source tabs with `RECONFIRM`, the proof surface from materials/gauge/substitution to source-note/provenance/evidence status, the emotional turn from material rechecking to epistemic humility, and the final line to “Name the source. Mark the recheck.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — size boundary — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `size-boundary` | A range label can be mistaken for a promise that every body will fit or that the range is universally inclusive | “Show the range. Name the boundary. Don’t promise the fit.” | One current, approved size-range, grading, schematic, or ease surface with exact labels | Fit-honest transparency rather than universal-fit or inclusive-size certainty | “Show the range. Name the boundary.” | blocked; product proof, body-data rights review, and fit-boundary wording missing; distinct from `measurement-moment`, `gauge-reality`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `measurement-moment`, which concerns preserving a captured measurement’s unit, size, body/garment context, and project identity. `size-boundary` changes the pain to a communicated range being mistaken for a fit promise, the hook to “Show the range. Name the boundary. Don’t promise the fit,” the visual metaphor from measurement capture to `BODY / FINISHED / EASE / RANGE` cards and `CHECK THE SCHEMATIC`, the proof surface from measurement/grading entry to size-range/grading/schematic/ease, the emotional turn from maker control through context to fit-honest transparency, and the final line to “Show the range. Name the boundary.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

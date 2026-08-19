@@ -668,3 +668,31 @@ Research changed the concept from generic citation or fact-checking into **sourc
 [53] [Craft Yarn Council — Yarn Label Information](https://www.craftyarncouncil.com/standards/yarn-label-information)
 
 [54] [Craft Yarn Council — Congratulations! You’ve Received the Go Ahead](https://www.craftyarncouncil.com/industry.html)
+
+## Twenty-fifth wide-research question: show the range without promising the fit — 2026-08-19
+
+### Research question
+How can a knitwear pattern communicate size range, grading boundaries, body measurements, finished measurements, and ease without claiming universal fit, size inclusivity, or current Stitch & Scale grading capability?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| One Wild Designs, “Guide to Size-Inclusive Knitting Patterns” | 2026-08-19; live page dated 9 July 2024 | The guide describes grading as taking one size and turning it into a multi-sized pattern, gives example bust series, and says its size-inclusion snapshot looks at one measurement while acknowledging other measurements matter. It discusses why a designer may choose one series over another and why the intended fit can affect visualization. | Designer/practitioner guidance, not a universal threshold, legal standard, fit guarantee, or proof of Stitch & Scale size range. Its snapshot is not a product requirement. | The concept should show the difference between a listed range, body measurement, finished measurement, and design intent; it must not call the range “inclusive” without an explicit, reviewed basis. |
+| Craft Yarn Council, “Standard Body Measurements/Sizing” | 2026-08-19; live page | CYC distinguishes general sizing information and finished-garment schematics from actual body-measurement charts, and states that fit and length charts are guidelines; individual changes may alter a garment’s appearance. | CYC standards guidance, not proof of universal fit, current Stitch & Scale grading, or any result for an individual maker. | Show `BODY / FINISHED / EASE / RANGE` as separate context cards and retain a human fit/review boundary. |
+| Local knitwear QA and mobile-maker contracts | 2026-08-19; repository source | Canonical grading data and human evidence gates must remain distinct; active size, units, and project context should stay adjacent to measurement/grading actions. | Internal workflow guidance, not proof of current size-range or grading UI. | The proof surface must be a current approved size-range/grading/schematic surface; absent proof, use a blocker card. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for size ranges, grading coverage, body measurements, finished measurements, ease labels, inclusive-size claims, schematics, or size-selection behavior. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`size-boundary`**: the tension is a range label being mistaken for a promise that every body will fit or that the range is universally inclusive. The hook is “Show the range. Name the boundary. Don’t promise the fit.” The visual metaphor is a fictional size-range strip opening into `BODY / FINISHED / EASE / RANGE`, with `CHECK THE SCHEMATIC` rather than a fit badge. The proof surface must be one current, approved size-range, grading, schematic, or ease surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic size inclusion into **range transparency plus fit boundary**. The script must not claim universal fit, size inclusivity, accuracy, or current grading capabilities. It may distinguish body and finished measurements, show ease as context, and invite current product proof for the exact surface.
+
+### References
+
+[55] [One Wild Designs — Guide to Size-Inclusive Knitting Patterns](https://onewilddesigns.com/pages/guide-to-size-inclusive-knitting-patterns)
+
+[56] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)

@@ -1,0 +1,17 @@
+message_id: MSG-20260819-075400-director-027
+sender: director
+recipient: production
+created_at: '2026-08-19T07:54:00+01:00'
+plan_id: PLAN-20260819-075400-size-boundary-v001
+angle_slug: size-boundary
+status: blocked
+subject: Size-boundary concept blocked pending current range proof
+body: >-
+  Fresh size-range research moved the concept from generic size inclusion into range transparency plus a fit
+  boundary. Do not generate or upload. No current approved size-range, grading, schematic, or ease surface is
+  available, and no universal-fit, size-inclusion, accuracy, personalized-fit, or grading-capability claim is
+  authorized. Next action: provide one current approved non-private proof surface with product version/date and
+  exact visible labels, then rerun claims, body-data rights, privacy, captions, audio, platform, and acceptance
+  validation.
+do_not_generate: true
+do_not_upload: true
