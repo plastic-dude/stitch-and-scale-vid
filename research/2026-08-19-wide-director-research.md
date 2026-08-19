@@ -1646,3 +1646,45 @@ Do not claim Stitch & Scale exposes reference-object metadata, comparison linkin
 [148] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
 
 [149] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## Fifty-first wide-research question: where does the measure begin and end? — 2026-08-19
+
+### Research question
+How can a designer make the start/end points of a body or garment measurement explicit so two people do not record different quantities under the same label—without claiming Stitch & Scale provides measurement-point diagrams or guided capture?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers recording body or garment measurements before a pattern, sample, publication, or business decision. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Standard Body Measurements/Sizing” | 2026-08-19; current page checked | CYC gives explicit measurement landmarks: fullest chest/bust, base of neck to wrist, shoulder to shoulder, armpit to wrist, widest upper arm, shoulder to armpit, natural waist, widest hip, and named hand/foot points. It also specifies posture or tape behavior for some measures. | Craft-industry guidance, not a universal fit method and not Stitch & Scale proof. | A fresh concept should show the landmark and direction of a measurement, not only a field name and number. |
+| NIST, “Metrological Traceability: Frequently Asked Questions and NIST Policy” | 2026-08-19; current page checked | NIST defines traceability through documented measurement processes and chains to specified references; its metrology terminology distinguishes the quantity intended to be measured from an unqualified result. | Measurement-science guidance, not a knitwear standard and not Stitch & Scale product proof. | Use `measure-point`: expose `WHAT / FROM / TO / HOW / UNIT` before interpreting a value, without claiming metrological traceability. |
+| Knitwear QA and mobile-maker contracts | 2026-08-19; internal contracts | Measurement capture should preserve units, context, source, and human review; mobile makers need clear landmarks and low-ambiguity interactions. | Internal design contracts, not current UI proof. | Select `measure-point`: make the measurement landmark and direction explicit before a value is compared or used. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for measurement-point diagrams, landmark instructions, from/to labels, measurement direction, body/garment location notes, guided capture, landmark validation, posture detection, or camera measurement. All 51 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic measurement context into **where the measurement begins and ends, which landmark it follows, and how the tape or line is oriented**. The fresh concept is `measure-point`: a fictional card separates `WHAT / FROM / TO / HOW / UNIT`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no guided-capture, landmark-validation, posture-detection, or camera-measurement behavior is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `measurement-moment`, which focuses on when a measurement is captured and whether a state remains legible. `measure-point` changes the pain to **the landmark and direction of the quantity itself**. The hook changes to “A label is not a landmark.” The visual metaphor changes from timing/state cards to `WHAT / FROM / TO / HOW / UNIT`. The proof surface changes from a measurement timestamp or capture-state surface to a measurement-point diagram, landmark instruction, from/to label, measurement direction, body/garment location note, or guided-capture surface. The emotional turn changes from temporal context to reproducible human measurement through explicit landmarks. The final line changes to “Name the points before you trust the number.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale provides measurement-point diagrams, guided capture, camera measurement, landmark validation, posture detection, or automatic fit guidance without current proof. Do not claim a landmark convention is universal beyond the cited source. Do not use real body photos, customer measurements, or private pattern files without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[150] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+
+[151] [NIST — Metrological Traceability: Frequently Asked Questions and NIST Policy](https://www.nist.gov/metrology/metrological-traceability)
+
+[152] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[153] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

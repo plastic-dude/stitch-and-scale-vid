@@ -529,3 +529,13 @@ The nearest prior angle is `basis-label`, which focuses on whether a value is me
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `basis-label`, which focuses on whether a value is measured, estimated, planned, or derived. `comparison-frame` changes the pain to which object or standard the value is being compared against and what scope the comparison has. It changes the hook to “A comparison is only as clear as its reference,” the visual metaphor from value-basis cards to `REFERENCE / MEASURED / COMPARED / SCOPE`, the proof surface from value-status/provenance to a reference-object, measured-reference, comparison-frame, source-target, or scoped-comparison surface, the emotional turn from epistemic humility about a value’s basis to meaningful comparison through named reference and scope, and the final line to “Name the reference before you compare the result.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — measure point — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `measure-point` | Two people can record different quantities under the same measurement label when landmarks and direction are unnamed | “A label is not a landmark.” | One current, approved measurement-point diagram, landmark instruction, from/to label, measurement direction, body/garment location note, or guided-capture surface with exact labels | Reproducible human measurement through explicit landmarks rather than guided-capture or fit certainty | “Name the points before you trust the number.” | blocked; product proof, body/record rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `measurement-moment`, which focuses on when a measurement is captured and whether a state remains legible. `measure-point` changes the pain to the landmark and direction of the quantity itself. It changes the hook to “A label is not a landmark,” the visual metaphor from timing/state cards to `WHAT / FROM / TO / HOW / UNIT`, the proof surface from a timestamp or capture-state surface to a measurement-point, landmark, from/to, direction, body/garment location, or guided-capture surface, the emotional turn from temporal context to reproducible human measurement through explicit landmarks, and the final line to “Name the points before you trust the number.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
