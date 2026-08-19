@@ -1730,3 +1730,50 @@ Do not claim Stitch & Scale detects prerequisites, blocks out-of-order work, val
 [156] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
 
 [157] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Fifty-third wide-research question: does the distinction survive the color? — 2026-08-19
+
+### Research question
+How can a designer ensure chart lines, symbols, colors, and stitch distinctions remain perceivable in print, on screens, and without color—without claiming Stitch & Scale performs contrast analysis or accessibility validation?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers preparing charts, schematics, or proof pages for screens and print. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| W3C WCAG 2.2 Understanding 1.4.3, Contrast (Minimum) | 2026-08-19; current page checked | W3C states that text and images of text generally need a minimum contrast ratio of 4.5:1, with 3:1 for large-scale text, and explains that sufficient contrast helps people with low vision or impaired contrast perception. It recommends text over images of text where possible because images of text scale and adapt less well. | WCAG guidance concerns accessibility criteria; it does not prove Stitch & Scale performs contrast analysis or is certified compliant. | Require contrast, resize, and non-color distinction review for any chart, legend, proof text, or fictional card; do not claim an automated accessibility result. |
+| Craft Yarn Council, “Knit Chart Symbols” | 2026-08-19; current page checked | CYC says stitch charts may supplement or replace words, provides standardized symbols, and warns that there are many symbol variants, so makers should always refer to the pattern key for variations. | Craft-industry guidance, not a universal symbol standard and not Stitch & Scale proof. | A fresh concept should show that contrast and symbol/key distinction are separate obligations; color alone cannot carry the chart meaning. |
+| GOV.UK accessible-document guidance and chart checklist | 2026-08-19; previously checked current sources | Public guidance supports checking colour contrast, accessibility of documents, and alternative ways to convey chart meaning. | General publishing guidance, not product evidence. | Include print/screen/grayscale and text/legend alternatives in acceptance gates without claiming tagged-PDF or chart-accessibility tooling. |
+| Stitch & Scale publishing/export and pattern-QA contracts | 2026-08-19; internal contracts | Publication readiness requires print/mobile review, chart readability, localization, and human technical checks; no automatic contrast analyser or accessibility certification is established. | Internal operating contract, not current UI proof. | Treat the concept as a human review boundary and block any product-capability claim. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for contrast checks, non-color chart distinctions, symbol/line-style legends, grayscale/print previews, accessible chart exports, or chart-readability review records. All 53 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic chart readability into **whether the visual distinctions survive contrast loss, grayscale, resizing, and color-vision differences**. The fresh concept is `contrast-proof`: a fictional chart card separates `COLOR / SHAPE / LINE / KEY / GRAYSCALE`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no automated contrast analysis, non-color validation, accessibility certification, tagged-PDF export, or automatic chart-readability behavior is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `chart-parity`, which focuses on whether chart and written instructions agree. `contrast-proof` changes the pain to **whether a distinction remains perceivable when color, print, screen, resize, or viewing condition changes**. The hook changes to “If color disappears, does the stitch still exist?” The visual metaphor changes from chart-versus-text comparison to `COLOR / SHAPE / LINE / KEY / GRAYSCALE`. The proof surface changes from parity evidence to a contrast check, non-color chart distinction, symbol/line-style legend, grayscale/print preview, accessible chart export, or chart-readability review record. The emotional turn changes from semantic agreement to visual meaning surviving a changed viewing condition. The final line changes to “Make the distinction survive the color.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale performs contrast analysis, non-color validation, accessibility certification, tagged-PDF export, or automatic chart-readability checks without current proof. Do not claim W3C ratios certify a knitting chart or whole product. Do not claim CYC symbols are universal or that a chart is correct because it uses a familiar symbol. Do not use real charts, pattern pages, screenshots, or customer projects without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[158] [W3C — Understanding Success Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum)
+
+[159] [Craft Yarn Council — Knit Chart Symbols](https://www.craftyarncouncil.com/standards/knit-chart-symbols)
+
+[160] [GOV.UK — Publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents)
+
+[161] [Government Analysis Function — Accessible charts: a checklist of the basics](https://analysisfunction.civilservice.gov.uk/policy-store/charts-a-checklist/)
+
+[162] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[163] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)

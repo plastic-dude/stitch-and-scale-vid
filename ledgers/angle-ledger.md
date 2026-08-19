@@ -549,3 +549,13 @@ The nearest prior angle is `measurement-moment`, which focuses on when a measure
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `sequence-map`, which focuses on where a maker moves through pattern sections and related documents. `prerequisite-state` changes the pain to what must already be true before the next step is safe or meaningful to begin. It changes the hook to “A step can be clear and still be too early,” the visual metaphor from a route/sequence map to `REQUIRED BEFORE / READY / NOT READY / WHY`, the proof surface from navigation/sequence mapping to a prerequisite, readiness, dependency, preflight, gauge/measurement-readiness, or eligibility surface, the emotional turn from knowing where to go next to informed readiness without automatic blocking, and the final line to “Show what must be true before the step begins.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — contrast proof — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `contrast-proof` | A chart distinction can disappear when color, print, screen, resize, or viewing condition changes | “If color disappears, does the stitch still exist?” | One current, approved contrast check, non-color chart distinction, symbol/line-style legend, grayscale/print preview, accessible chart export, or chart-readability review record with exact labels | Visual meaning survives a changed viewing condition rather than accessibility-certification certainty | “Make the distinction survive the color.” | blocked; product proof, chart/pattern rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `chart-parity`, which focuses on whether chart and written instructions agree. `contrast-proof` changes the pain to whether a distinction remains perceivable when color, print, screen, resize, or viewing condition changes. It changes the hook to “If color disappears, does the stitch still exist?”, the visual metaphor from chart-versus-text comparison to `COLOR / SHAPE / LINE / KEY / GRAYSCALE`, the proof surface from parity evidence to a contrast, non-color, symbol/line-style, grayscale/print, accessible-export, or chart-readability-review surface, the emotional turn from semantic agreement to visual meaning surviving a changed viewing condition, and the final line to “Make the distinction survive the color.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

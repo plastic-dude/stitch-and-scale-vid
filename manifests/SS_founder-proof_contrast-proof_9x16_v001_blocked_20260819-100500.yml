@@ -1,0 +1,45 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-100500-contrast-proof-v001
+angle_slug: contrast-proof
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_contrast-proof_9x16_v001_blocked_20260819-100500.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-contrast-check-non-color-chart-distinction-symbol-line-style-legend-grayscale-print-preview-accessible-chart-export-or-chart-readability-review-record
+product_version: null
+proof_capture_approved: false
+contrast_check_status: missing
+non_color_distinction_status: missing
+symbol_line_style_legend_status: missing
+gray_scale_print_preview_status: missing
+accessible_chart_export_status: missing
+chart_readability_review_status: missing
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no automated contrast-analysis, non-color-validation, accessibility-certification, tagged-PDF, or automatic chart-readability claim
+  - W3C contrast ratios do not certify a whole chart or product
+  - CYC symbols are source guidance and can vary; consult the relevant pattern key
+  - no real chart, pattern page, screenshot, customer project, or personal data without rights and privacy review
+  - fictional chart cards are not product UI truth
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private contrast check, non-color chart distinction, symbol/line-style legend, grayscale/print preview, accessible chart export, or chart-readability review record proof capture or registry entry with product version/date and exact labels, then rerun all Director gates.
