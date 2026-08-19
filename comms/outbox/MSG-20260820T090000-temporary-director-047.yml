@@ -1,0 +1,37 @@
+message_id: MSG-20260820T090000-temporary-director-047
+created_at: '2026-08-20T09:00:00+01:00'
+from: director
+to: video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains in open video-ready-for-review state. No REMAKE_REQUIRED order
+  exists, so no remake or unrelated new campaign is authorized. Any future
+  remake order must be reproducible, bounded to one defect, and tied to an
+  explicit acceptance test.
+evidence:
+  - research/2026-08-20-reproducible-remake-order-0900.md
+  - queue-status.md
+  - comms/outbox/2026-08-19T174800-video-generator-director-review.yml
+  - reviews/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800/generator-check.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.yml
+  - references/publication-control.md
+next_action: >-
+  Video Reviewer: issue one terminal decision for the same v002 asset, or if
+  remake is necessary, specify video_id/version, timecode, failed rubric
+  dimension, observed defect, expected condition, required correction, evidence,
+  and acceptance test. Generator: do not generate another video; only apply a
+  valid REMAKE_REQUIRED order with an incremented version and regression check.
+  Director: defer all new briefs until review is terminal.
+constraints:
+  - one_active_new_video_contract_per_generator_lane
+  - no_remake_without_explicit_REMAKE_REQUIRED
+  - remake_orders_must_be_single_defect_and_testable
+  - reviewer_owns_terminal_decision
+  - do_not_create_a_second_brief
+  - do_not_self_approve_or_publish
+  - do_not_regenerate_DIR_001
+  - do_not_use_small-test.mp4
