@@ -1,0 +1,33 @@
+receipt_id: PUB-20260820-owner-response-window-6e6a15e
+created_at: '2026-08-20T15:30:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+local_commit: 6e6a15e
+remote_commit: 6e6a15e
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-owner-response-window-1530.md
+  - comms/outbox/MSG-20260820T153000-temporary-director-060.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  How can a pending review receive a measurable response window and escalation
+  threshold without converting silence into an approval or remake?
+research_decision: >-
+  Require named owner acknowledgement, a bounded response deadline, and a named
+  escalation target. A timeout escalates the review but is not a quality verdict.
+next_action: >-
+  Human owner must acknowledge V002 and supply the deadline/escalation target;
+  Video Reviewer must publish the terminal packet. Until then, preserve V002,
+  keep the Generator lane closed, and create no second brief.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
