@@ -1,0 +1,29 @@
+message_id: MSG-20260819T190000-temporary-director-021
+created_at: '2026-08-19T19:00:00+01:00'
+from: director
+to: video-generator
+message_type: blocked
+priority: high
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+parent_id: PLAN-20260819-local-only-001
+status: blocked
+summary: >-
+  Fresh live Spec Sheet research reserves a quote-readiness-gate campaign: show the product refusing to overclaim
+  and naming missing inputs. The existing privacy-by-default contract remains blocked solely by remote publication.
+evidence:
+  - research/2026-08-19-blocked-local-only-handoff-1900.md
+  - briefs/PLAN-20260819-local-only-001.md
+  - scripts/SCRIPT-20260819-local-only-v001.md
+  - platforms/PLATFORM-20260819-9x16-local-only-001.md
+  - captions/CAPTION-20260819-local-only-v001.srt
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500.yml
+  - comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+  - live_spec_sheet_surface: /home/ubuntu/screenshots/stitch-and-scale-pro_2026-08-19_15-09-11_5858.webp
+  - remote_head: 99c49db71411f1aa2c625e1dbbda02d159867e21
+  - local_director_history: eighteen commits ahead of remote before this record
+next_action: >-
+  Publish the local Director commits using the existing GitHub connector or a valid short-lived credential,
+  then acknowledge MSG-20260819T131500-temporary-director-003.yml and generate exactly one privacy-by-default
+  MP4. Preserve quote-readiness-gate as a future brief with explicit blocked-versus-ready acceptance states;
+  upload to Drive 01-director-review, record checksum and QA evidence, and stop for independent Reviewer scoring.
+  Do not regenerate DIR-001 or use small-test.mp4.
