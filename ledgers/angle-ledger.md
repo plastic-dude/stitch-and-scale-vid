@@ -519,3 +519,13 @@ The nearest prior angle is `fit-intent`, which focuses on the meaning of body, f
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `basis-label`, which focuses on whether a value is measured, estimated, planned, or derived. `default-state` changes the pain to whether the value’s origin is a system starting point, an inherited record, an active user choice, or an absent answer. It changes the hook to “A filled field is not a confirmed choice,” the visual metaphor from measurement-basis cards to `DEFAULT / INHERITED / USER CONFIRMED / NOT PROVIDED`, the proof surface from value-status/provenance to a default, inherited-value, changed-versus-unchanged, confirmation/check-answers, not-provided, or source-of-value surface, the emotional turn from epistemic humility about what a number means to deliberate confirmation before consequential use, and the final line to “Name the origin before you trust the choice.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — comparison frame — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `comparison-frame` | A value can be misapplied when the reference object and comparison scope are unnamed | “A comparison is only as clear as its reference.” | One current, approved reference-object label, measured-versus-reference pair, comparison frame, source/target relationship, or scoped comparison record with exact labels | Meaningful comparison through named reference and scope rather than fit or accuracy certainty | “Name the reference before you compare the result.” | blocked; product proof, garment/record rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `basis-label`, which focuses on whether a value is measured, estimated, planned, or derived. `comparison-frame` changes the pain to which object or standard the value is being compared against and what scope the comparison has. It changes the hook to “A comparison is only as clear as its reference,” the visual metaphor from value-basis cards to `REFERENCE / MEASURED / COMPARED / SCOPE`, the proof surface from value-status/provenance to a reference-object, measured-reference, comparison-frame, source-target, or scoped-comparison surface, the emotional turn from epistemic humility about a value’s basis to meaningful comparison through named reference and scope, and the final line to “Name the reference before you compare the result.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

@@ -1604,3 +1604,45 @@ Do not claim Stitch & Scale exposes default markers, inherited values, confirmat
 [144] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [145] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Fiftieth wide-research question: what is the reference? — 2026-08-19
+
+### Research question
+When a designer measures a body, favorite garment, swatch, schematic, or sample, how can they name the reference object and comparison frame so one value is not misapplied elsewhere—without claiming Stitch & Scale exposes reference-object metadata or comparison linking?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers comparing body measurements, favorite garments, swatches, schematics, samples, and pattern records before making a size, fit, or business decision. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Standard Body Measurements/Sizing” | 2026-08-19; current page checked | CYC says a person may measure a garment that fits the way they want and use those measurements as a guide. It distinguishes actual body measurements, completed-garment measurements, and detailed schematics, and says all sizing information should be reviewed before beginning. | Craft-industry guidance, not a universal fit method and not Stitch & Scale proof. | A fresh concept should name the reference object and comparison frame instead of letting one number travel between body, favorite garment, schematic, and sample contexts. |
+| NIST, “Metrological Traceability: Frequently Asked Questions and NIST Policy” | 2026-08-19; current page checked | NIST describes traceability as an unbroken, explicitly described, documented chain of calibrations or comparisons to specified reference standards, linking measured values and uncertainties. It says providers must document the measurement process and the chain used for the claim. | Measurement-science guidance, not a knitwear standard and not Stitch & Scale product proof. | Use `comparison-frame`: expose the reference object, measured object, relationship, and scope before treating the comparison as meaningful. |
+| Knitwear QA, publishing/export, and craft-business contracts | 2026-08-19; internal contracts | Pattern QA and publication review require preserved context, units, source project, human review, and explicit limits; a value does not carry its meaning without its data shape and context. | Internal design contracts, not current UI proof. | Select `comparison-frame`: show `REFERENCE / MEASURED / COMPARED / SCOPE` and stop short of fit or accuracy claims. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for reference-object metadata, measured-versus-reference pairs, comparison frames, source/target relationships, scoped comparison records, or measurement traceability surfaces. All 50 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic measurement context into **which object or standard a value is being compared against and what the comparison does or does not claim**. The fresh concept is `comparison-frame`: a fictional card separates `REFERENCE / MEASURED / COMPARED / SCOPE`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product reference-linking, traceability, or fit comparison behavior is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `basis-label`, which focuses on whether a value is measured, estimated, planned, or derived. `comparison-frame` changes the pain to **which object or standard the value is being compared against and what scope the comparison has**. The hook changes to “A comparison is only as clear as its reference.” The visual metaphor changes from value-basis cards to `REFERENCE / MEASURED / COMPARED / SCOPE`. The proof surface changes from value-status/provenance to a current reference-object label, measured-versus-reference pair, comparison frame, source/target relationship, or scoped comparison record. The emotional turn changes from epistemic humility about a value’s basis to meaningful comparison through named reference and scope. The final line changes to “Name the reference before you compare the result.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale exposes reference-object metadata, comparison linking, source/target relationships, measurement traceability, or fit comparison without current proof. Do not claim a favorite garment, body measurement, swatch, schematic, or sample is an authoritative reference for every decision. Do not use real garments, body data, customer measurements, or private pattern files without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[146] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+
+[147] [NIST — Metrological Traceability: Frequently Asked Questions and NIST Policy](https://www.nist.gov/metrology/metrological-traceability)
+
+[148] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[149] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
