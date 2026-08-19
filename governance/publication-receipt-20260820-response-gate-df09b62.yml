@@ -1,0 +1,39 @@
+receipt_id: PUB-20260820-response-gate-df09b62
+created_at: '2026-08-20T23:30:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: e1dfb81
+remote_commit_after_blocker: df09b62888bd29183ce2d0a3d2a08b0e557b87e3
+merge_required: true
+merge_type: no-rewrite-ort
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-review-escalation-response-gate-2330.md
+  - comms/outbox/MSG-20260820T233000-temporary-director-077.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  How can a recurring Director run strengthen an unresolved handoff without
+  manufacturing a quality verdict, duplicating a blocker indefinitely, or
+  releasing the single-flight Generator lane?
+research_decision: >-
+  Use one append-only blocker with missing handoff fields, immutable evidence,
+  and explicit terminal/non-terminal events. Do not infer approval, rejection,
+  or REMAKE_REQUIRED from silence, timeout, acknowledgement, or repeated holds.
+next_action: >-
+  Human owner must provide the responsible owner, bounded response deadline, and
+  escalation target. Video Reviewer must publish the independent terminal
+  packet. Until then, preserve V002 and keep the Generator lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
