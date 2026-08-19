@@ -1,0 +1,42 @@
+receipt_id: PUB-20260820-remote-reconciliation-d05048a
+created_at: '2026-08-20T06:51:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: b9bf7f9e18a8d4ac2b01595016ab94a7cba75ee3
+remote_commit_after_reconciliation: b9bf7f9e18a8d4ac2b01595016ab94a7cba75ee3
+remote_commit_after_blocker: d05048af69b806b657e452c139da2ed09ef3a7f1
+merge_required: true
+merge_type: fast-forward
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-remote-reconciliation-review-gate-0651.md
+  - comms/outbox/MSG-20260820T065100-temporary-director-094.yml
+  - references/publication-control.md
+  - queue-status.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  When origin/main advances independently while V002 is still under review, how
+  can the Director reconcile the newer record without allowing synchronization
+  to become an implicit quality decision?
+research_decision: >-
+  Remote reconciliation is publication hygiene, not a quality verdict. Only an
+  explicit terminal Reviewer event or explicit published terminal resolution
+  may clear the lane.
+next_action: >-
+  Human owner must provide accountable owner, bounded review deadline, and
+  escalation target. Video Reviewer must publish the independent terminal
+  packet. Preserve V002 and keep the lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
