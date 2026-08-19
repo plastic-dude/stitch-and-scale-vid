@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Safe,DejaVu Sans,25,&H00E7EFF3,&H00E7EFF3,&H003A4631,&H003A4631,0,0,0,0,100,100,0,0,1,1,0,8,90,90,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.60,Safe,,0,0,0,,At 11:47 PM, the design is still yours.
+Dialogue: 0,0:00:05.60,0:00:11.30,Safe,,0,0,0,,The math has taken over the room.
+Dialogue: 0,0:00:11.30,0:00:18.90,Safe,,0,0,0,,One size is in the sketch. The rest are\Nin a grid of cells, formulas, and decisions.
+Dialogue: 0,0:00:18.90,0:00:24.50,Safe,,0,0,0,,That is not a failure of creativity.
+Dialogue: 0,0:00:24.50,0:00:31.60,Safe,,0,0,0,,It is a workflow asking you to become\Nits spreadsheet.
+Dialogue: 0,0:00:31.60,0:00:40.70,Safe,,0,0,0,,Stitch & Scale gives the decisions a surface\Nyou can question: gauge, tolerance, yarn bill.
+Dialogue: 0,0:00:40.70,0:00:46.00,Safe,,0,0,0,,And when the sheet says blocked, it does not\Npretend the work is ready for a quote.
+Dialogue: 0,0:00:46.00,0:00:52.60,Safe,,0,0,0,,I do not know how to knit. My late mother did.\NI wrote the math so you do not fight Excel at 11 PM.
+Dialogue: 0,0:00:52.60,0:00:55.00,Safe,,0,0,0,,Try the demo. Check the work.\NTell me where the math fails.

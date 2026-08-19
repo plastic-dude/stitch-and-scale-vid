@@ -1,0 +1,32 @@
+video_id: SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800
+campaign_id: CAMPAIGN-20260819-founder-receipt
+filename: SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.mp4
+angle_slug: spreadsheet-11pm
+format: 16x9 / 1920x1080
+runtime_seconds: 55
+version: v001
+status: director-review
+objective: founding-tester recruitment through a proof-led product story
+platform_profile: PLATFORM-20260819-16x9-proof-short-001
+script_version: SCRIPT-20260819-spreadsheet-11pm-v001
+plan_version: PLAN-20260819-spreadsheet-11pm-001
+caption_version: CAPTION-20260819-spreadsheet-11pm-v001
+caption_file: CAPTION-20260819-spreadsheet-11pm-v001.ass
+audio_version: AUDIO-20260819-spreadsheet-11pm-v001
+research_note: research/2026-08-19-first-director-research.md
+external_store: Google Drive
+external_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+external_folder_name: 01-director-review
+drive_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
+drive_url: https://drive.google.com/file/d/1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp/view
+sha256: 889f89ad5d19c1763e97aad06b9e406512634670e836498a22fce6dfea9acfdd
+created_at: 2026-08-19T10:18:00+01:00
+completed_at: 2026-08-19T10:32:00+01:00
+qa: passed-generator-review-pending
+qa_report: reviews/SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800/generator-check.md
+rights_status: project-owned-proof-plus-original-generated-broll
+source_asset_commit: c38411d93093e79756ddda8b59e8d82336814da6
+source_asset_sha256: 4bc09368df4b69ec2e920895afeaf259cf75645033d05cfec96a2a0126e9f2a9
+source_remake_order: null
+next_action: Video Reviewer to score and either approve or issue an ordered remake; do not self-approve for public campaign use.
+notes: One actual MP4 generated from the approved DIR-001 brief and exact Director script. Product/UI evidence is limited to the approved Spec Sheet Lab capture; generated b-roll intentionally contains no readable UI text.
