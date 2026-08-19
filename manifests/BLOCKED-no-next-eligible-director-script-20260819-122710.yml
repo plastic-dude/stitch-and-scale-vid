@@ -1,0 +1,68 @@
+schema_version: 1
+run_id: VIDEO-GENERATOR-20260819-122710
+video_id: null
+filename: null
+status: BLOCKED_NO_NEXT_ELIGIBLE_DIRECTOR_SCRIPT
+run_started_at: '2026-08-19T12:27:10+01:00'
+run_completed_at: '2026-08-19T12:28:21+01:00'
+repository: https://github.com/plastic-dude/stitch-and-scale-vid
+repository_head_before_record: 9bd2cff439c5d0b62e08ba023c5b5063885ccda1
+source_contract:
+  brief: null
+  script: null
+  remake_order: null
+  reason: >-
+    The repository contains only the already-consumed DIR-001 approved brief/script pair;
+    orders/ is empty and no open REMAKE_REQUIRED order is present.
+queue_scan:
+  briefs_scanned:
+    - briefs/PLAN-20260819-spreadsheet-11pm-001.md
+  scripts_scanned:
+    - scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+  orders_scanned: []
+  already_produced:
+    - video_id: SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800
+      status: director-review
+      git_commit: 9bd2cff439c5d0b62e08ba023c5b5063885ccda1
+  reviewer_state: state/video-reviewer-queue.yml
+  remake_required_orders: 0
+research:
+  note: research/2026-08-19-blocked-no-next-director-script-122710.md
+  wide_research_completed: true
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/media/av/captions/
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+production:
+  create_video_activated: false
+  reason: No eligible Director contract remained after priority and sequential-cursor checks.
+  mp4_generated: false
+  exact_metadata: null
+  sha256: null
+  captions: null
+  audio: null
+external_storage:
+  provider: Google Drive via connected Google Workspace connector
+  archive_root_folder_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  destination_folder_id: null
+  upload_attempted: false
+  upload_verified: false
+  drive_file_id: null
+  drive_url: null
+  reason: No authorized MP4 existed to upload.
+qa:
+  report: reviews/BLOCKED-no-next-eligible-director-script-20260819-122710/generator-check.md
+  result: BLOCKED_BEFORE_GENERATION
+  checksum: NOT_APPLICABLE
+  watch_through: NOT_APPLICABLE
+  captions_off: NOT_APPLICABLE
+  captions_on: NOT_APPLICABLE
+records:
+  manifest: manifests/BLOCKED-no-next-eligible-director-script-20260819-122710.yml
+  research_note: research/2026-08-19-blocked-no-next-director-script-122710.md
+  qa_report: reviews/BLOCKED-no-next-eligible-director-script-20260819-122710/generator-check.md
+  communication_event: comms/outbox/2026-08-19T122710-video-generator-blocked.yml
+  git_commit: PENDING_FIRST_RECORD_COMMIT
+next_action: >-
+  On the next firing, refresh the repository and select the earliest newly added eligible Director
+  brief/script or the first open REMAKE_REQUIRED order; do not regenerate DIR-001.

@@ -1,0 +1,35 @@
+event_type: video-generator-run
+run_id: VIDEO-GENERATOR-20260819-122710
+occurred_at: '2026-08-19T12:27:10+01:00'
+agent: video-generator
+status: BLOCKED_NO_NEXT_ELIGIBLE_DIRECTOR_SCRIPT
+video_id: null
+filename: null
+source_contract:
+  brief: null
+  script: null
+  remake_order: null
+reason: >-
+  Repository refresh found one approved Director brief/script pair, DIR-001, which is already
+  produced and in director-review. No additional eligible brief/script pair and no open
+  REMAKE_REQUIRED order were present. Generating again would violate sequential catch-up and
+  duplicate prevention.
+wide_research:
+  completed: true
+  note: research/2026-08-19-blocked-no-next-director-script-122710.md
+create_video:
+  activated: false
+  reason: Source-contract prerequisite failed; no generic or improvised video was permitted.
+external_storage:
+  provider: Google Drive via connected Google Workspace connector
+  upload_attempted: false
+  reason: No authorized MP4 existed to upload; this is not a Drive outage.
+records:
+  manifest: manifests/BLOCKED-no-next-eligible-director-script-20260819-122710.yml
+  qa_report: reviews/BLOCKED-no-next-eligible-director-script-20260819-122710/generator-check.md
+  research_note: research/2026-08-19-blocked-no-next-director-script-122710.md
+  communication_event: comms/outbox/2026-08-19T122710-video-generator-blocked.yml
+  git_commit: PENDING_FIRST_RECORD_COMMIT
+next_action: >-
+  On the next firing, refresh the repository and prioritize the earliest newly added eligible
+  Director script or open REMAKE_REQUIRED order. Do not regenerate DIR-001.
