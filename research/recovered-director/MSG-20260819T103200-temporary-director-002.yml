@@ -1,0 +1,25 @@
+message_id: MSG-20260819T103200-temporary-director-002
+created_at: 2026-08-19T10:32:00Z
+from: temporary-director
+to: product-proof-owner, director-planner
+message_type: blocked
+priority: high
+video_id: null
+parent_id: DIRECTOR-20260819-1028-002
+status: blocked
+summary: The fresh stale-number angle is strategically distinct but blocked because current product evidence does not show an input change, derived-value update, or stale-value warning.
+evidence:
+  - research/2026-08-19-director-stale-number-research.md
+  - references/brand-voice-brief.md
+  - references/archive-digest.md
+  - ledgers/angle-ledger.md
+  - briefs/PLAN-20260819-spreadsheet-11pm-001.md
+  - product repository commit: c38411d93093e79756ddda8b59e8d82336814da6
+  - product source: https://github.com/plastic-dude/stitch-and-scale-pro/tree/c38411d93093e79756ddda8b59e8d82336814da6
+reason: The approved capture visibly supports gauge, tolerance, yarn bill, POM rows XS–5XL, Local only, and a blocked Quote-readiness state, but it does not prove live recalculation, dependency invalidation, stale-value detection, or warning behavior. Research sources support the workflow risk as a verification concern, not as a measured prevalence or current Stitch & Scale capability.
+rights_status: The central proof asset for the proposed angle is not yet available as a current, rights-cleared interaction capture.
+platform_status: No new platform matrix or filename reservation created because the angle is not generation-ready.
+next_action: Provide one current, rights-cleared product capture or reproducible screen recording showing a single input change, the affected derived value, and the exact visible warning or state change; then rerun Director research before creating any stale-number brief.
+related_open_handoff: comms/outbox/MSG-20260819T102000-temporary-director-001.yml
+no_video_generated: true
+no_video_approved: true

@@ -1,0 +1,59 @@
+message_id: MSG-20260819T102700Z-director-blocked
+created_at: 2026-08-19T10:27:00Z
+from: director
+to: video-generator
+message_type: blocked
+priority: high
+video_id: null
+parent_id: research/2026-08-19-director-vertical-proof-research.md
+status: blocked
+summary: >-
+  Generation is blocked because the repository has no complete approved Director
+  brief, exact version-matched script, current product-proof package, or fully
+  verified production prerequisites.
+evidence:
+  - repository_commit: c7e4f4cb11b68a7af2696947624ba992dbe0ad21
+  - product_repository_commit: 43978d8201067f62ae29649ae9d179a2718452a9
+  - research/2026-08-19-director-vertical-proof-research.md
+  - manifests/blocked-first-catch-up-20260819-0825.yml
+  - reviews/small-test/REV-small-test-archive-connectivity-20260819.md
+  - comms/outbox/2026-08-19-first-catch-up-blocked.yml
+  - references/communication-protocol.md
+selected_angle:
+  angle_slug: honest-price
+  objective: founding-tester recruitment
+  audience: independent knitwear designers pricing handmade work
+  form: 45-60 second 9x16 vertical short-form cut
+  platforms: YouTube Shorts; Instagram Reels; TikTok only after current profile verification
+  distinct_from_nearest_prior: >-
+    The prior small-test asset is an unregistered 103-second 16x9 feature/explainer
+    connectivity test. This angle changes the pain to hidden labor and fees, the hook
+    to an object-cost contradiction, the visual metaphor to a receipt/cost chain,
+    the proof surface to one readable price derivation, the emotional turn to fair
+    pricing answering to labor, and the final line to a tester invitation.
+blocking_reason: >-
+  No briefs/ or scripts/ item is approved-for-generation. No current product-proof
+  registry or approved capture IDs, exact script, claim ledger, rights ledger,
+  platform matrix, caption map, audio plan, or reserved production filename exists.
+  The only MP4, small-test.mp4, is explicitly an archive-connectivity test and is
+  not eligible for generation or review. Archive OAuth authorization is also not
+  confirmed for the Generator/Reviewer path.
+required_unblock_package:
+  - brief_status: approved-for-generation
+  - exact_script: version-matched and stored under scripts/
+  - current_product_proof: approved capture IDs showing one cost/yield/price chain or receipt proof
+  - claim_ledger: every spoken/on-screen claim mapped to current evidence; no price claim
+  - rights_ledger: approved media, music, voices, and product captures
+  - platform_matrix: YouTube Shorts and Instagram Reels current profiles; TikTok verified or explicitly excluded
+  - caption_map: declared safe-zone coordinates that do not cover proof, numbers, hands, buttons, or primary actions
+  - audio_plan: one narrator family and rights-cleared music/effects plan
+  - archive: confirmed external destination and Generator access
+  - filename: SS_honest-price_honest-price_9x16_v001_approved-for-generation_20260819-XXXXXX.mp4
+next_action: >-
+  Do not generate or upload an MP4. On the next Generator firing, re-scan the latest
+  repository state and consume exactly one earliest eligible approved-for-generation
+  brief only after the complete unblock package above exists; otherwise write one
+  blocker and stop.
+quality_gate_decision: blocked_before_generation
+video_created: false
+drive_upload: not_attempted
