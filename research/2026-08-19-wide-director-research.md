@@ -6702,3 +6702,52 @@ The nearest prior angle is `applicability-state`, which asks whether a rule or r
 [834]: https://www.craftyarncouncil.com/pitfalls.html "Craft Yarn Council, Designer Pitfalls"
 [835]: https://www.section508.gov/create/synchronized-media/ "Section508.gov, Video and Other Synchronized Media"
 [836]: https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads "TikTok for Business, Auction In-Feed Ads"
+
+## One-hundred-fifty-seventh wide-research question: visible is not contained — 20260819-214500
+
+**Question.** When a craft record or output is suspect, what evidence shows that it was held from propagation with its reason, evidence snapshot, review queue, owner, review window, release condition, and released-or-retained disposition still attached?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between noticing or routing a suspect output and actually preventing that output from propagating; audience is makers, reviewers, and developers who need an honest hold boundary; form is a 45-second 9:16 vertical explainer; tone is calm, precise, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST response boundary.** NIST SP 800-61 Rev. 3, published in April 2025, frames incident response within risk management and emphasizes detection, response, and recovery. Used only as a process analogy, this supports separating detection from evidence preservation, limiting further propagation, and later response or recovery. It does not establish a craft workflow or a Stitch & Scale hold, quarantine, freeze, release, or recovery feature. [837]
+
+**Craft standards boundary.** The Craft Yarn Council says industry members developed guidelines and symbols to bring uniformity to yarn, needle, hook, and pattern labeling, with the goal of helping industry prepare consumer-friendly products and consumers select materials and complete projects. This supports preserving the suspect variant with its labels and evidence intact while it is held; it does not prove that the product detects variants, freezes records, quarantines exports, or guarantees project success. [838]
+
+**Accessibility boundary.** W3C's prerecorded-caption guidance requires synchronized captions for prerecorded audio, including dialogue, speaker identification, and meaningful non-speech information. The treatment therefore uses one narrator family, a reserved caption lane, labeled hold/release sound cues only when meaningful, and human review of caption-on and caption-free masters. The source does not establish product caption or containment behavior. [839]
+
+**Platform boundary.** TikTok's June 2026 Auction In-Feed Ads guidance recommends 9:16 vertical video at least 540×960 pixels for non-Spark ads and says safe-zone size depends on dimension, ad-caption length, and additional formats; it warns that preview and live rendering may differ. This is ad-specific guidance, not a universal organic-post rule. The package keeps the held proof card central and requires current platform-profile review. [840]
+
+**Selected angle.** `containment-state` — “Visible is not contained.”
+
+**Primary pain.** A suspect result can remain visible and even be routed while still being copied, exported, or reused as if it were safe. The missing element is a hold boundary that preserves the evidence and states the condition for release or retention.
+
+**Hook.** “Visible is not contained.”
+
+**Dramatic engine.** Subject: one fictional suspect output card. Desire: preserve the evidence while preventing accidental reuse. Obstacle: the output is labeled only `VISIBLE` and continues moving into copies. Stakes: an unresolved variant propagates into a craft record, export, or publication decision. Change: the card expands with reason-for-hold, evidence snapshot, propagation blocked, review queue, owner, review window, release condition, and released-or-retained disposition. Contradiction: a warning can be visible while the output remains movable. Escalation: three copies begin to propagate until a hold boundary stops them. Final image: one retained suspect card with its evidence attached and `RELEASE CONDITION: REVIEW REQUIRED`; no product approval or automatic quarantine claim.
+
+**Visual grammar.** Neutral evidence board; one restrained amber hold marker; a thin boundary line stops duplicate cards; red is reserved for unresolved risk, not alarm. Use large high-contrast labels, close readable proof holds, no real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, or product claims. Captions occupy a fixed lane that never covers the held proof card, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `SUSPECT_OUTPUT / REASON_FOR_HOLD / EVIDENCE_SNAPSHOT / PROPAGATION_BLOCKED / REVIEW_QUEUE / OWNER / REVIEW_WINDOW / RELEASE_CONDITION / RELEASED_OR_RETAINED`.
+
+**Research decision.** Research changed the treatment from a generic “flag and route” message to a hold-and-preserve demonstration: a suspect output is visibly stopped from propagation with its reason, evidence snapshot, review queue, owner, review window, release condition, and final retained-or-released state still attached. Containment is the creative question; escalation may happen later but is not the proof surface. No source proves a Stitch & Scale containment feature.
+
+**Distinctness decision.** The nearest prior angle is `escalation-state`, which asks who carries a finding next through severity, evidence, route, owner, next action, due point, acknowledgment, response, and disposition. `containment-state` changes the pain to whether a suspect output is prevented from propagating while its evidence and release condition remain attached. It differs from `backup-state`, which concerns recoverability after loss; from `closure-state`, which concerns whether a process is actually closed; from `applicability-state`, which concerns the boundary of a rule or result; from `release-gate-roster`, which remains an imported blocked human-gate roster; and from `false-completion`, which remains an imported blocked false-closure concept. The hook changes to “Visible is not contained”; the visual metaphor changes from one finding drifting through unlabeled queues to one suspect output creating copies until a hold boundary stops it; the proof surface changes to suspect-output/reason-for-hold/evidence-snapshot/propagation-blocked/review-queue/owner/review-window/release-condition/released-or-retained; the emotional turn changes from accountable follow-through to propagation-risk awareness; and the final line becomes “Hold it until the evidence can travel.” No imported reservation is reopened or consumed.
+
+**Final line.** “Hold it until the evidence can travel.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed hold, freeze, quarantine, propagation block, release condition, or retained/released state. No generation or upload is authorized.
+
+## Wide-research Director decision — containment state — 20260819-214500
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `containment-state` | A suspect result can remain visible and routed while still being copied, exported, or reused without a hold boundary | “Visible is not contained.” | Fictional suspect-output/reason-for-hold/evidence-snapshot/propagation-blocked/review-queue/owner/review-window/release-condition/released-or-retained card | From “It was flagged” to “It cannot travel yet” | “Hold it until the evidence can travel.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-214500
+The nearest prior angle is `escalation-state`, which asks who carries a finding next through severity, evidence, route, owner, next action, due point, acknowledgment, response, and disposition. `containment-state` changes the question to whether a suspect output is prevented from propagating while its evidence and release condition remain attached. It changes the hook to “Visible is not contained”; the visual metaphor from one finding drifting through unlabeled queues to one suspect output creating copies until a hold boundary stops it; the proof surface from finding/severity/evidence/route/owner/next-action/due/acknowledged/response/disposition to suspect-output/reason-for-hold/evidence-snapshot/propagation-blocked/review-queue/owner/review-window/release-condition/released-or-retained; the emotional turn from accountable follow-through to propagation-risk awareness; and the final line to “Hold it until the evidence can travel.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [837]–[840]
+
+[837]: https://csrc.nist.gov/pubs/sp/800/61/r3/final "NIST SP 800-61 Rev. 3, Incident Response Recommendations"
+[838]: https://www.craftyarncouncil.com/standards "Craft Yarn Council, Standards and Guidelines for Crochet and Knitting"
+[839]: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html "W3C WAI, Understanding SC 1.2.2: Captions (Prerecorded)"
+[840]: https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads "TikTok for Business, Auction In-Feed Ads"
