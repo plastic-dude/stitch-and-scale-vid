@@ -689,3 +689,13 @@ The nearest prior angle is `hands-busy`, which focuses on working while hands ar
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `error-language`, which focuses on how an error is worded. `repair-state` changes the pain to what happened to a discovered issue after it was reported. It changes the hook to “Found is not fixed,” the visual metaphor from error labels to `OBSERVED / SCOPE / ACTION / RECHECK / OPEN RISK / SOURCE / VERSION / STATUS`, the proof surface from wording to a current issue-disposition surface, the emotional turn from naming the problem fairly to keeping its resolution status honest, and the final line to “Name what changed—and what is still open.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — measurement provenance — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `measurement-provenance` | A maker cannot trace whether a number came from the body, ease, finished garment, sample, or calculation, and may treat unlike values as interchangeable | “A measurement needs a before.” | One current, approved measurement-provenance surface with body, ease, finished, sample, derived, method, date, source, and status labels | Understanding a number’s lineage without a fit promise | “Show where the number came from.” | blocked; product proof, technical review, rights/privacy, provenance, fit-validation evidence, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `measure-point`, which focuses on where a measurement starts and ends. `measurement-provenance` changes the pain to whether the maker can trace a number’s origin and transformation. It changes the hook to “A measurement needs a before,” the visual metaphor from a measurement line to `BODY / EASE / FINISHED / SAMPLE / DERIVED / METHOD / DATE / SOURCE / STATUS`, the proof surface from a measurement point to a current measurement-provenance surface, the emotional turn from locating the line to understanding the number’s lineage without a fit promise, and the final line to “Show where the number came from.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

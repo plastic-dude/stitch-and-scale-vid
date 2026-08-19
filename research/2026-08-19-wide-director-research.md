@@ -2361,3 +2361,49 @@ Do not claim Stitch & Scale diagnoses knitting errors, recommends repairs, appli
 [229] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [230] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Sixty-seventh wide-research question: where did the number come from? — 2026-08-19
+
+### Research question
+When a knitwear pattern shows a measurement, how can a maker distinguish body measurement, intended ease, finished-garment measurement, sample measurement, and derived/calculated value—including method, date, and source—without claiming Stitch & Scale provides measurement provenance or fit validation?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers interpreting a pattern’s numbers before using them. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Standard Body Measurements/Sizing” | 2026-08-19; current page checked | CYC distinguishes actual body measurements from completed-garment sizing information and schematics; it explains ease as added or subtracted relative to body measurements and says fit/length charts are guidelines. | CYC does not provide a full provenance record for every pattern value, sample measurement, method, date, or calculated result. | Separate body, ease, finished garment, schematic/sample, and derived values; retain method/source/date/status. |
+| Truly Myrtle, “Measurements & You – how to read a schematic” route | 2026-08-19; route redirected to robot challenge | The route could not be passively reviewed because the site presented a security challenge. | No claims, metadata, or competitor weakness may be inferred from the challenge screen. | Use only CYC public evidence and product-proof boundaries; do not cite the inaccessible page as substantive evidence. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Measurement point, body/garment distinction, basis, source, date, units, technical editing, schematic/print review, and test knitting are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for measurement provenance. | Block provenance capture, derived-value explanation, and fit-validation claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for measurement provenance, automatic ease calculation, sample measurement capture, derived-value explanation, or fit validation. All 67 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “measurement display” into **whether a number’s origin and transformation remain visible from body or sample through garment or calculation**. The fresh concept is `measurement-provenance`: a fictional card places `BODY / EASE / FINISHED / SAMPLE / DERIVED / METHOD / DATE / SOURCE / STATUS`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no provenance capture, automatic calculation, derived-value explanation, or fit-validation claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `measure-point`, which focuses on where a measurement starts and ends. `measurement-provenance` changes the pain to **whether the maker can trace a number’s origin and transformation**. The hook changes to “A measurement needs a before.” The visual metaphor changes from a measurement line to `BODY / EASE / FINISHED / SAMPLE / DERIVED / METHOD / DATE / SOURCE / STATUS`. The proof surface changes from a measurement point to a current measurement-provenance surface. The emotional turn changes from locating the line to understanding the number’s lineage without a fit promise. The final line changes to “Show where the number came from.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale provides measurement provenance, automatic ease calculation, sample measurement capture, derived-value explanations, or fit validation without current product proof and qualified technical review. Do not use real customer measurements, private patterns, screenshots, logos, or copyrighted schematics without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[231] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+
+[232] [Truly Myrtle — Measurements & You / robot-challenge route](https://trulymyrtle.com/blogs/knitting/measurements-you-how-to-read-a-schematic)
+
+[233] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[234] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[235] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[236] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

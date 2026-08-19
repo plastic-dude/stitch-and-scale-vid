@@ -1,0 +1,51 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-124600-measurement-provenance-v001
+angle_slug: measurement-provenance
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_measurement-provenance_9x16_v001_blocked_20260819-124600.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-measurement-provenance-surface-with-body-ease-finished-sample-derived-method-date-source-status
+product_version: null
+proof_capture_approved: false
+body_measurement_status: missing
+ease_status: missing
+finished_measurement_status: missing
+sample_measurement_status: missing
+derived_value_status: missing
+method_status: missing
+date_status: missing
+source_status: missing
+provenance_status: missing
+automatic_ease_status: unverified
+fit_validation_status: prohibited_without_proof
+technical_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no provenance, automatic-ease, derived-explanation, sample-capture, or fit-validation claim
+  - CYC guidance is context, not product behavior
+  - inaccessible schematic route supplies no substantive evidence
+  - body, ease, finished, sample, and derived values are not interchangeable
+  - fictional lineage cards are not product UI, customer measurements, or patterns
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private measurement-provenance surface with exact body, ease, finished, sample, derived, method, date, source, and status labels, then rerun provenance, fit, claims, technical, caption, audio, platform, rights, privacy, and Director gates.
