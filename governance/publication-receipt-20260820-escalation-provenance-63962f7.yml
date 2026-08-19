@@ -1,0 +1,39 @@
+receipt_id: PUB-20260820-escalation-provenance-63962f7
+created_at: '2026-08-20T21:00:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: c1bcf29
+remote_commit_after_blocker: 63962f70303db548fc32c7d6d306b18d8d93bf90
+merge_required: true
+merge_type: no-rewrite-ort
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-review-escalation-provenance-2100.md
+  - comms/outbox/MSG-20260820T210000-temporary-director-071.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  How should a recurring Director handoff prove that escalation has progressed
+  without changing the underlying V002 quality state or releasing the
+  single-flight lane?
+research_decision: >-
+  Use one append-only blocker with unresolved handoff prerequisites, immutable
+  evidence references, and explicit terminal events. Do not infer a quality
+  outcome from silence, timeout, acknowledgement, or repeated holds.
+next_action: >-
+  Human owner must provide the responsible owner, bounded response deadline, and
+  escalation target. Video Reviewer must publish the independent terminal
+  packet. Until then, preserve V002 and keep the Generator lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
