@@ -1,0 +1,36 @@
+event_id: 2026-08-19T155006-video-generator-blocked
+message_type: video_generator_bounded_run
+run_type: bounded_video_generator_execution
+occurred_at: '2026-08-19T15:50:06+01:00'
+status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+outcome: blocked
+source_brief: null
+source_script: null
+source_remake_order: null
+video_filename: null
+video_sha256: null
+summary: >-
+  Fresh repository and all fetched Director branches were inspected. No open
+  REMAKE_REQUIRED order exists. The only exact approved-for-generation pair is
+  DIR-001's already-consumed brief/script pair, so no new MP4 was authorized or
+  generated. No generic or substitute concept was used.
+wide_research:
+  completed: true
+  note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-155006.md
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+generator_qa: reviews/BLOCKED-no-eligible-director-contract-20260819-155006/generator-check.md
+manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-155006.yml
+drive:
+  status: available_not_used
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  upload_attempted: false
+  reason: no_authorized_mp4
+next_action: >-
+  On the next firing, refresh all refs, prioritize any new REMAKE_REQUIRED order,
+  and otherwise select the earliest newly added Director brief with exact status
+  approved-for-generation. Do not regenerate DIR-001.
+credential_handling: scoped_runtime_only_not_exposed

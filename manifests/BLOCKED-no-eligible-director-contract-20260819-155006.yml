@@ -1,0 +1,68 @@
+run_id: BLOCKED-no-eligible-director-contract-20260819-155006
+run_type: bounded_video_generator_execution
+run_started_at: '2026-08-19T15:50:06+01:00'
+status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+outcome: blocked
+video_generated: false
+video_filename: null
+video_sha256: null
+source_contract: null
+source_brief: null
+source_script: null
+source_remake_order: null
+queue:
+  repository: https://github.com/plastic-dude/stitch-and-scale-vid
+  inspected_head: 1e62c79e828d8f71fe555a52e8b1d2a5ec8954c2
+  open_remake_required_orders: []
+  approved_pairs_found:
+    - brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+      script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+      status: approved-for-generation
+      consumed_by: DIR-001
+      decision: do_not_regenerate
+  remote_branch_candidates:
+    - ref: origin/director/2026-08-19-release-gate-roster
+      head: 9171eb6a4cf6bd0e8f636b2524277eb11f6359f2
+      decision: not_eligible_pending_proof_and_gate_ownership
+    - ref: origin/director/false-completion-human-gates-20260819
+      head: 17fa997
+      decision: not_eligible_blocked_pending_current_product_proof
+    - ref: origin/director/publication-readiness-second-shift-20260819
+      head: 068a899
+      decision: not_eligible_director_review_or_blocked_and_requires_current_product_rights_proof
+  decision: no_unprocessed_eligible_director_contract
+research:
+  note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-155006.md
+  wide_research_required: true
+  wide_research_completed: true
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+platform:
+  target: YouTube 16:9 product explainer
+  profile_id: PLATFORM-20260819-16x9-proof-short-001
+external_storage:
+  connector: Google Workspace
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  archive_root_url: https://drive.google.com/drive/folders/1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  director_review_folder_url: https://drive.google.com/drive/folders/1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  existing_dir_001_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
+  availability: verified
+  upload_required: true
+  upload_attempted: false
+  upload_block_reason: no_authorized_mp4
+  storage_status: available_not_used
+records:
+  qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-155006/generator-check.md
+  communication_event: comms/outbox/2026-08-19T155006-video-generator-blocked.yml
+  git_commit_initial: null
+  git_commit_final: null
+quality:
+  create_video_activated: false
+  reason_not_activated: no_eligible_director_contract
+  self_approval: false
+  reviewer_owns_final_score: true
+next_action: rescan_all_branches_prioritize_remake_required_then_select_earliest_new_approved_for_generation_contract
+credential_handling: scoped_runtime_only_not_exposed
