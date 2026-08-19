@@ -589,3 +589,13 @@ The nearest prior angle is `count-check`, which focuses on whether stitch or row
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `rounding-rule`, which focuses on the rule used to round a result. `locale-number-format` changes the pain to whether a maker can interpret the same measurement when decimal/grouping punctuation, unit, language, and body-versus-garment context change. It changes the hook to “The number did not change. The punctuation did,” the visual metaphor from a rounding decision to `LOCALE / SEPARATOR / UNIT / CONTEXT`, the proof surface from a rounding rule to a current locale-aware number/unit/context display or export, the emotional turn from knowing a rule to trusting an interpreted value without conversion certainty, and the final line to “Name the locale before trusting the number.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — price basis — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `price-basis` | A designer cannot tell which economic category and evidence status a price-like number belongs to | “The price is not the whole story.” | One current, approved price/cost/record surface with displayed price, recorded cost, status, currency, date, and source labels | Making a business record accountable without promising profit | “Name the basis before you name the price.” | blocked; product proof, financial-safety review, rights/privacy, export/print review, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `basis-label`, which focuses on the basis of a measurement or calculation number. `price-basis` changes the pain to which economic category and evidence status a price-like number belongs to. It changes the hook to “The price is not the whole story,” the visual metaphor from calculation provenance to `DISPLAYED PRICE / RECORDED COST / PLATFORM FEE / TAX OR OTHER CHARGE / ESTIMATE`, the proof surface from a number-basis label to a current business-record or price/cost surface with date, currency, source, and status labels, the emotional turn from understanding a calculation to making a business record accountable without promising profit, and the final line to “Name the basis before you name the price.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

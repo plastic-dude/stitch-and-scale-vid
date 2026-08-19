@@ -1,0 +1,48 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-104200-price-basis-v001
+angle_slug: price-basis
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_price-basis_9x16_v001_blocked_20260819-104200.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-price-cost-record-surface-with-displayed-price-recorded-cost-status-currency-date-source
+product_version: null
+proof_capture_approved: false
+displayed_price_status: missing
+recorded_cost_status: missing
+planned_cost_status: missing
+platform_fee_status: missing
+tax_other_charge_status: missing
+recorded_estimated_status_labels: missing
+currency_status: missing
+date_status: missing
+source_note_status: missing
+financial_safety_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no pricing advice, accounting, tax, profit, margin, reconciliation, fee-computation, currency-conversion, or financial-outcome claim
+  - Etsy fee policy is platform-specific, not universal
+  - recorded transaction, planned cost, estimate, and assumption are distinct
+  - fictional price-like cards are not product UI, financial records, or customer data
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private price/cost/record surface with exact displayed-price, recorded-cost, status, currency, date, and source labels, then rerun financial-safety, records, export, caption, audio, platform, rights, privacy, and Director gates.

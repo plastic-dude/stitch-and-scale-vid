@@ -1908,3 +1908,48 @@ Do not claim Stitch & Scale localizes every export, converts units automatically
 [176] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [177] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Fifty-seventh wide-research question: what is this price actually for? — 2026-08-19
+
+### Research question
+When a pattern or design record shows a price, how can a designer distinguish customer-facing displayed price, recorded cost, platform fee, tax/other charge, and estimate—without claiming Stitch & Scale provides pricing, accounting, tax, or profitability analysis?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers keeping design, sample, testing, editing, and sales records. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Etsy, “Fees & Payments Policy” | 2026-08-19; current policy page checked | Etsy separates listing, transaction, payment-related, advertising/promotional, tax, and other charges. Its transaction-fee section says the 6.5% fee is based on displayed listing price plus shipping and gift wrapping, with conditions and jurisdictional distinctions. | Platform-specific and subject to seller location, service, and policy changes; not a universal marketplace model or Stitch & Scale proof. | Show `DISPLAYED PRICE / RECORDED COST / PLATFORM FEE / TAX OR OTHER CHARGE` as separate bases rather than implying one total is profit or earnings. |
+| Craft Yarn Council, `designer-pitfalls` URL | 2026-08-19; page checked | The legacy URL redirects to a new-website notice and does not provide the promised designer-pitfall content at that path. | Source is stale/migrated; no specific cost or pricing claims can be drawn from it. | Treat source migration as a caution: never fill a missing pricing basis with invented industry assumptions. |
+| Stitch & Scale craft-business-records contract | 2026-08-19; contract re-read | The workflow distinguishes recorded transaction, calculated estimate, planned cost, and designer assumption; it requires event/date/amount/currency/source notes and identifies rollup sources. | Internal contract, not proof that a pricing surface currently exists in the app. | Block the concept pending exact proof of any price/cost/fee surface; never imply accounting, tax, profit, or financial advice. |
+| Stitch & Scale mobile-maker and publishing/export contracts | 2026-08-19; contracts re-read | Mobile records should keep save feedback and recorded-versus-estimated distinction explicit; export must preserve labels, units, locale, and readable tables. | Internal quality contract; no product surface proof. | Use close, readable fictional cards and retain human export/print review as separate gates. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for displayed price, recorded cost, planned cost, platform fee, tax/other charge, currency, source note, or profitability surface. All 57 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from a generic pricing story into **which economic basis a number represents and whether it is recorded, estimated, planned, or platform-derived**. The fresh concept is `price-basis`: a fictional card places `DISPLAYED PRICE / RECORDED COST / PLATFORM FEE / TAX OR OTHER CHARGE / ESTIMATE` beside the currency and source. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no pricing recommendation, accounting, tax, profit, margin, reconciliation, or financial outcome is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `basis-label`, which focuses on the basis of a measurement or calculation number. `price-basis` changes the pain to **which economic category and evidence status a price-like number belongs to**. The hook changes to “The price is not the whole story.” The visual metaphor changes from calculation provenance to `DISPLAYED PRICE / RECORDED COST / PLATFORM FEE / TAX OR OTHER CHARGE / ESTIMATE`. The proof surface changes from a number-basis label to a current business-record or price/cost surface with date, currency, source, and status labels. The emotional turn changes from understanding a calculation to making a business record accountable without promising profit. The final line changes to “Name the basis before you name the price.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale provides pricing recommendations, accounting, tax advice, profit, margin, reconciliation, platform-fee computation, currency conversion, or financial outcomes without current product proof. Do not use Etsy’s fee schedule as a universal marketplace rule. Do not invent designer income, adoption, customer outcomes, pricing, testimonials, urgency, or product capability. Do not use real sales, costs, customer orders, tax records, or private business data without scoped rights and privacy review. Preserve recorded-versus-estimated labels and the distinct technical editing, physical print review, chart readability, schematic scale, and test knitting gates.
+
+### References
+
+[178] [Etsy — Fees & Payments Policy](https://www.etsy.com/legal/fees/)
+
+[179] [Craft Yarn Council — migrated designer-pitfalls URL](https://www.craftyarncouncil.com/standards/designer-pitfalls)
+
+[180] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[181] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[182] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
