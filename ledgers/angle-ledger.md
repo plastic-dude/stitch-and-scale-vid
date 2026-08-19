@@ -229,3 +229,13 @@ The nearest prior angle is `feedback-loop`, which concerns what happens after a 
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `material-notes`, which concerns the assumptions behind selecting or substituting yarn. `care-context` changes the pain to care meaning becoming detached from fiber, sample, source, or substitution, the hook to “A care symbol without its material context is only half a promise,” the visual metaphor from yarn/substitution cards to an unbranded care card, swatch, and sample note joined by `FIBER / SOURCE / CARE / RECHECK`, the proof surface from materials/gauge/substitution to a care/material/sample-record surface, the emotional turn from substitution rechecking to responsible care communication, and the final line to “Keep the care with the context.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — technique profile — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `technique-profile` | A broad project-level label can hide the techniques, tools, sequences, and prerequisites a maker may need | “A label is a starting point. The techniques are the real invitation.” | One current, approved technique, prerequisite, or project-context surface with exact labels | Maker agency without ease, objective-difficulty, or success promises | “Name the work. Let the maker choose.” | blocked; product proof, symbol-rights review, and maker-agency wording missing; distinct from `readability-under-load`, `care-context`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `readability-under-load`, which concerns dense information becoming hard to scan on mobile. `technique-profile` changes the pain to a broad project-level label hiding techniques and prerequisites, the hook to “A label is a starting point. The techniques are the real invitation,” the visual metaphor from density and scanning to a level badge opening into `SKILLS / TOOLS / SEQUENCES / PREREQUISITES`, the proof surface from readability proof to a technique/prerequisite surface, the emotional turn from calm scanning to maker agency, and the final line to “Name the work. Let the maker choose.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

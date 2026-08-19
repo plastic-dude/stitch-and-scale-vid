@@ -556,3 +556,31 @@ Research changed the concept from generic garment-care advice into **care contex
 [45] [Craft Yarn Council — Care Symbols](https://www.craftyarncouncil.com/standards/care-symbols)
 
 [46] [The Woolmark Company — How to wash a wool sweater](https://www.woolmark.com/care/how-to-wash-wool-sweater/)
+
+## Twenty-first wide-research question: a difficulty label is not a maker profile — 2026-08-19
+
+### Research question
+How can a knitwear pattern communicate technique load and prerequisites without turning a broad skill-level label into a promise of ease, beginner success, or objective difficulty?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Project Levels” | 2026-08-19; live page | CYC describes Basic, Easy, Intermediate, and Complex project levels as general explanations of techniques that may appear in pattern instructions, such as basic stitches, increases/decreases, simple or involved stitch patterns, colorwork, shaping, and multiple techniques simultaneously. It asks publications using its downloadable symbols to provide credit and notify CYC. | General standards guidance, not an objective difficulty score, user-success prediction, or Stitch & Scale feature. Any downloadable symbol/artwork would also need source/credit compliance. | Show a broad level as a starting context only, then expose technique/prerequisite notes. Do not use a “beginner-friendly” promise or recreate CYC artwork without clearance. |
+| Natalie in Stitches, “Knitting Pattern Skill Levels: Why I Dislike Labels” | 2026-08-19; live page dated 27 Nov. 2024 | The practitioner argues that beginner/intermediate/advanced labels are relative and subjective, that knitters may choose projects for emotional reasons rather than difficulty, and that time spent knitting does not map cleanly to a person’s skill range. The page suggests thinking in terms of a personal skills profile and needed techniques. | Practitioner opinion, not a universal standard or product evidence. It does not reject all project-level guidance or prove any current Stitch & Scale technique-profile surface. | The concept should shift from “rate this pattern” to **name the techniques and prerequisites behind the label**. Keep the maker’s agency and avoid claiming fit, ease, or success. |
+| Local mobile-maker workflow contract | 2026-08-19; repository source | Mobile maker workflows require active context, visible labels, safe reflow, clear validation, and no reliance on a distant tab or color alone. | Internal workflow guidance, not proof of a live skill-profile surface. | The visual proof should be a current technique/prerequisite surface that stays legible on mobile; otherwise use a blocker card. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for skill-level labels, technique lists, prerequisite profiles, project-level symbols, or maker-facing complexity guidance. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`technique-profile`**: the tension is a broad level label that hides the specific techniques a maker may need. The hook is “A label is a starting point. The techniques are the real invitation.” The visual metaphor is a fictional level badge opening into `SKILLS / TOOLS / SEQUENCES / PREREQUISITES`, with a maker-choice question rather than a pass/fail meter. The proof surface must be one current, approved technique or prerequisite profile surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic difficulty labeling into **technique transparency plus maker agency**. The script must not claim beginner friendliness, ease, objective difficulty, pattern correctness, or individual success. It may show a level as broad context and a technique list as the more informative question, then invite current product proof for the exact surface.
+
+### References
+
+[47] [Craft Yarn Council — Project Levels](https://www.craftyarncouncil.com/standards/project-levels)
+
+[48] [Natalie in Stitches — Knitting Pattern Skill Levels: Why I Dislike Labels](https://natalieinstitches.com/2024/11/27/knitting-pattern-skill-levels-why-i-dislike-labels/)
