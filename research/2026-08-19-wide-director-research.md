@@ -4221,3 +4221,59 @@ Do not claim that Stitch & Scale verifies claims, maps evidence automatically, c
 ### Research limit
 
 NIST and NASA sources establish objective-evidence and traceability concepts but do not establish a Stitch & Scale feature, evidence sufficiency, release approval, or human-gate completion. NIST AI RMF is voluntary governance guidance and the page notes active revision; no product conformance is inferred. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact evidence-coverage surface and labels.
+
+## One-hundred-first wide-research question: evidence is not interchangeable — 2026-08-19
+
+### Research question
+Can an observation, calculation, source guideline, technical edit, physical print review, chart readability review, schematic check, or test knit be substituted for another kind of evidence? What should a record say each evidence type supports, does not support, and under which conditions, without claiming Stitch & Scale selects or completes the human gate?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NIST CSRC verification glossary | Current page checked 2026-08-19 | Verification is confirmation through objective evidence that specified requirements have been fulfilled; definitions include applicable requirements and phase conditions. | Multiple context-specific definitions; not a Stitch & Scale feature or product-accuracy claim. | Require every evidence item to name the question or requirement it supports. |
+| NIST metrological traceability policy and FAQ | Current page checked 2026-08-19 | Traceability requires a documented unbroken calibration chain; traceability alone does not guarantee fitness for purpose. Provider supports a traceability claim; user assesses validity. Calibration/test results apply to the specific instrument or standard at the time unless otherwise stated. | Measurement-science context; no calibration, traceability, or fitness certification for Stitch & Scale. | Make evidence type and purpose explicit; do not let traceability language turn one measurement into a universal result. |
+| Craft Yarn Council body-sizing guidance | Current page checked 2026-08-19 | Actual body measurements, finished garment measurements, pattern sizing, schematics, ease, and fit/length charts are different information; charts and guidelines require pattern and individual context. | General craft guidance; no individual fit guarantee. | Treat a sizing chart or schematic as a different evidence type from an observed body or garment measurement. |
+| Craft Yarn Council yarn-weight system | Current page checked 2026-08-19 | Yarn-category gauge and needle ranges are explicitly guidelines; the stated pattern gauge should be followed. | Category ranges do not prove project-specific gauge or outcome. | Distinguish source guideline from project observation and test evidence. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform checks support particular access or distribution questions, not product fit, quality, or all modes. | Scope remains surface- and condition-specific. | Include `supports` and `does not support` fields; do not substitute a caption review for a product claim. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts distinguish calculation, record, estimate, technical edit, print review, chart readability, schematic scale, test knit, rights, captions, audio, platform, and mobile evidence. | Internal operating contracts, not independent validation. | Use a question-to-evidence-type record and preserve each human gate as separate. |
+
+### Research synthesis
+
+The research changes the creative center from “more evidence” to **evidence-type fit**. NIST’s verification language ties evidence to specified requirements; NIST’s traceability policy warns that even a documented measurement chain does not guarantee fitness for purpose; Craft Yarn Council separates body measurements, finished measurements, schematics, ease, and pattern-specific gauge guidance. A record can therefore be rich and still answer the wrong question.
+
+The fresh visual opportunity is a fictional evidence card with a question on the left and an evidence type on the right. A `BODY MEASUREMENT` supports `PERSONAL DIMENSION`; it does not support `FINISHED GARMENT MEASUREMENT`. A `SCHEMATIC` supports a pattern’s stated dimensions; it does not support `PHYSICAL PRINT READABILITY`. A `TEST KNIT` supports physical sample observations; it does not replace a technical edit. Each card gains `SUPPORTS / DOES NOT SUPPORT / CONDITIONS / STATUS`. The card is labelled `ILLUSTRATIVE — NOT PRODUCT UI`. Final line: “Match the evidence to the question.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying an evidence-type record, supports/does-not-support surface, evidence-purpose classification, or human-gate mapping. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 101 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a general evidence-gap concept into **a record that prevents one evidence type from being treated as a substitute for another**. The fresh concept is `evidence-type`: a fictional set of cards identifies the question an evidence type can support, what it cannot support, and its conditions. No product human-gate selection, evidence classification, verification, or quality guarantee is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `evidence-coverage`, which maps multiple claims or requirements to evidence and exposes covered, partial, and gap cells. `evidence-type` changes the pain to **a single evidence item being treated as interchangeable with a different kind of evidence, even when the questions differ**. It changes the hook to “Evidence is not interchangeable”; the visual metaphor from a claim/evidence coverage matrix to paired question/evidence-type cards with `SUPPORTS / DOES NOT SUPPORT`; the proof surface to question, evidence type, supports, does not support, conditions, and status; the emotional turn from seeing an uncovered claim to respecting the limits of each evidence form; and the final line to “Match the evidence to the question.”
+
+It is distinct from `evidence-coverage` because it classifies evidence affordance rather than mapping claim coverage; from `provenance-chain` because it is not source-to-result history; from `applicability-scope` because it is not intended-use transfer; from `acceptance-criteria` because it is not pass/fail semantics; from `technical-edit`, `test-knit`, and other human-gate concepts because it does not claim a gate is completed or replace one gate with another; from `gauge-reality` because it is not a gauge observation; from `decision-ledger` because it is not record/estimate classification; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale selects, classifies, validates, or completes the correct evidence type; that a source guideline, measurement, schematic, chart review, technical edit, print review, or test knit proves a different claim; or that NIST traceability language establishes product quality, fit, or accuracy. Do not use the evidence-type cards as a release checklist. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party reports without rights/privacy clearance. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[504] [NIST CSRC — Verification Glossary](https://csrc.nist.gov/glossary/term/verification)
+[505] [NIST — Metrological Traceability](https://www.nist.gov/metrology/metrological-traceability)
+[506] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+[507] [Craft Yarn Council — Standard Yarn Weight System](https://www.craftyarncouncil.com/standards/yarn-weight-system)
+[508] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[509] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[510] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[511] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[512] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NIST and Craft Yarn Council sources establish general evidence, measurement, sizing, and gauge boundaries but do not establish a Stitch & Scale feature, evidence classification, fit outcome, or human-gate completion. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact evidence-type surface and labels.
