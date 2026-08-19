@@ -950,3 +950,31 @@ Research changed the concept from generic error handling into **constructive ins
 [74] [GOV.UK Design System — Error message](https://design-system.service.gov.uk/components/error-message/)
 
 [75] [Home Office User-Centred Design Manual — Error messages](https://design.homeoffice.gov.uk/accessibility/interactivity/error-messages)
+
+## Thirty-fifth wide-research question: what does a blank workspace actually mean? — 2026-08-19
+
+### Research question
+How can a designer distinguish no record yet, incomplete work, and unavailable data so a blank workspace is honest without claiming Stitch & Scale has onboarding, sync, loading, or recovery behavior?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Government Analysis Function, “Data visualisation: testing dashboards for design and accessibility” | 2026-08-19; page published 6 February 2026 | The guidance emphasizes knowing the target audience, organizing user testing, collecting feedback, engaging accessibility experts, and making metadata such as source data, last update, relevant dates, period, definitions, methodology, quality information, and commentary clear. | Dashboard guidance, not proof of Stitch & Scale onboarding, sync, loading, recovery, or a dashboard component. | Treat an empty state as a meaning-and-status question, not a decorative welcome screen. |
+| GOV.UK content and publishing guidance, “Tables” | 2026-08-19; current guidance page | The guidance says tables should use `no data` or `not applicable` instead of empty cells and avoid ambiguous multi-item cells, especially for assistive-technology users. | Content guidance for tables, not proof of any current Stitch & Scale table or empty-state implementation. | Distinguish `NO RECORD YET`, `INCOMPLETE`, `NOT APPLICABLE`, and `UNAVAILABLE` rather than leaving blank fields. |
+| Local craft-business and mobile-maker contracts | 2026-08-19; repository sources | The record model distinguishes recorded, estimated, planned, and unverified values; mobile work should keep active context, save state, interruption, and recovery feedback visible. | Internal project guidance, not proof of current empty-state UI or persistence behavior. | Select `first-record` and block pending a current empty-state or first-record proof surface. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for empty states, first-record actions, onboarding, loading, unavailable-data states, incomplete records, metadata panels, or record-status labels. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`first-record`**: the tension is a blank project workspace that does not say whether nothing has been created, a record is incomplete, or information is unavailable. The hook is “A blank page needs a truthful label.” The visual metaphor is a fictional workspace changing from `EMPTY` to `NO RECORD YET / INCOMPLETE / UNAVAILABLE / NEXT SAFE ACTION`, with no onboarding-success or data-recovered badge. The proof surface must be one current, approved empty-state, first-record, record-status, or unavailable-data surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic onboarding into **honest state labeling at the first record**. The script must not claim ease, onboarding completion, sync, data recovery, persistence, or record creation. It may ask the product to state what the blank means and offer one safe next action, then invite current proof for the exact surface.
+
+### References
+
+[76] [Government Analysis Function — Data visualisation: testing dashboards for design and accessibility](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-testing-dashboards-for-design-and-accessibility/)
+
+[77] [GOV.UK Content and publishing guidance — Tables](https://guidance.publishing.service.gov.uk/formatting-content/text-formatting/tables/)

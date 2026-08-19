@@ -369,3 +369,13 @@ The nearest prior angle is `measurement-moment`, which concerns preserving body/
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `count-check`, which concerns placing meaningful stitch and row checkpoints around numbers. `error-language` changes the pain to a warning that says something is wrong without saying what to inspect next, the hook to “A warning should tell you what to inspect, not who to blame,” the visual metaphor from `START / WORK / COUNT / PAUSE` to a generic `ERROR` card transforming into `INSPECT / COMPARE / DECIDE` while preserving source context, the proof surface from count/checkpoint/arithmetic/review to warning/QA/validation-summary/error-summary/corrective-guidance context, the emotional turn from deliberate checkpoint ownership to constructive non-accusatory inspection, and the final line to “Name the next inspection.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — first record — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `first-record` | A blank or partial workspace does not explain whether nothing has been created, the work is incomplete, the field does not apply, or information is unavailable | “A blank page needs a truthful label.” | One current, approved empty-state, first-record, record-status, or unavailable-data surface with exact labels | Calm orientation before creating or editing a record rather than onboarding, sync, or recovery certainty | “Label the blank before you fill it.” | blocked; product proof, empty-state rights, and state-label review missing; distinct from `decision-ledger`, `data-minimum`, `offline-continuity`, `recovery-proof`, `error-language`, and `hands-busy` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `decision-ledger`, which distinguishes recorded, derived, estimated, and planned values. `first-record` changes the pain to a blank or partial workspace not explaining what absence means, the hook to “A blank page needs a truthful label,” the visual metaphor from typed record categories to `NO RECORD YET / INCOMPLETE / NOT APPLICABLE / UNAVAILABLE / NEXT SAFE ACTION`, the proof surface from ledger record types to empty-state, first-record, record-status, or unavailable-data behavior, the emotional turn from value classification to calm orientation before creating or editing a record, and the final line to “Label the blank before you fill it.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

@@ -1,0 +1,17 @@
+message_id: MSG-20260819-090400-director-037
+sender: director
+recipient: production
+created_at: '2026-08-19T09:04:00+01:00'
+plan_id: PLAN-20260819-090400-first-record-v001
+angle_slug: first-record
+status: blocked
+subject: First-record concept blocked pending current empty-state proof
+body: >-
+  Fresh Government Analysis Function and GOV.UK table-label research moved the concept from generic onboarding
+  into honest state labeling at the first record. Do not generate or upload. No current approved empty-state,
+  first-record, record-status, or unavailable-data surface is available, and no onboarding, sync, loading, recovery,
+  persistence, or record-creation claim is authorized. Next action: provide one current approved non-private proof
+  surface with product version/date and exact visible labels, then rerun claims, source rights, privacy, captions,
+  audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true
