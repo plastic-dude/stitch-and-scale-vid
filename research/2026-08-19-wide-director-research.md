@@ -234,3 +234,31 @@ Research changed the concept from a generic founder-origin montage to a **bounda
 [22] [Federal Trade Commission — FTC’s Endorsement Guides: What People Are Asking](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking)
 
 [23] [Journal of Brand Management — The role of storytelling in the branding of SMEs](https://link.springer.com/article/10.1057/s41262-025-00418-8)
+
+## Tenth wide-research question: event window without deadline pressure — 2026-08-19
+
+### Research question
+How can a craft-pattern team plan around an event or seasonal window without turning a calendar date into a sales promise, fake urgency, or permission to skip technical editing, physical print review, chart readability, schematic scale, and test knitting?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Industry Alliance, “Resources” | 2026-08-19; live page | The resource library groups craft-business support into business planning, bookkeeping, events, marketing, photography/video, productivity, legal, sourcing, and social-media planning. It lists a 2026 craft conferences and trade shows resource, conference packing checklist, craft-fair packing checklist, and seasonal/social calendars. | Resource index, not proof that any particular event creates demand or that Stitch & Scale integrates a calendar. Some underlying resources require membership. | Frame the event as a planning constraint and context, not a demand signal. The dramatic conflict is “the date is real; the evidence still has to be real.” |
+| Modern Daily Knitting, “Get Ready: Bang Out a Sweater 2026 Is Coming!” | 2026-08-19; live page | The page names January 30, 2026 as a start date and says the community’s goal was a finished sweater by the end of the month, while explicitly saying the finish month is up to the participant and that the fun is to knit boldly rather than treat the date as a hard requirement. | One community event example, not a universal seasonal rule, launch deadline, audience-size claim, or sales forecast. The page does not prove Stitch & Scale’s event features. | The concept should use a calendar page and a deliberately softened deadline, avoiding countdown urgency and claims that an event will drive sales or adoption. |
+| Internal production/playbook contract | 2026-08-19; repository source | Technical editing, physical print review, chart readability, schematic scale, and test knitting are distinct human evidence gates and cannot be collapsed into a generic green status or calendar check. | Internal operating contract, not external market evidence. | A product capture may show only a current scheduling or planning surface; the film must not imply that a calendar replaces human evidence. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for a calendar, event plan, seasonal window, submission schedule, or release timeline. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames. No event integration, audience demand, sales lift, or urgency capability is proven.
+
+### Creative implication
+The fresh concept is **`event-window`**: the tension is a real event date pressing against a pattern’s slower evidence work. The hook is “The date can be fixed. The proof cannot be rushed.” The visual metaphor is a calendar page held beside a stack of distinct human-gate cards—technical edit, print review, chart readability, schematic scale, test knit—without turning the stack into a fake product roster. The proof surface must be one current, approved planning or release-context surface; absent that proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic launch urgency to **event-window discipline**. The script must not say an event will increase sales, create scarcity, guarantee readiness, or make every gate complete. It may show a date as context while preserving human evidence gates and inviting current product proof only for the exact visible surface.
+
+### References
+
+[24] [Craft Industry Alliance — Resources](https://craftindustryalliance.org/resources-3/)
+
+[25] [Modern Daily Knitting — Get Ready: Bang Out a Sweater 2026 Is Coming!](https://www.moderndailyknitting.com/community/bang-out-a-sweater-2026-is-coming/)

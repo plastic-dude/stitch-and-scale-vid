@@ -119,3 +119,13 @@ The nearest prior angle is `offline-continuity`, which focuses on work remaining
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `decision-ledger`, which focuses on distinguishing recorded, derived, estimated, and planned values before a business decision. `inherited-thread` changes the pain to borrowed authority in founder storytelling, the hook to “I inherited the reason, not the craft,” the visual metaphor from record-state cards to an abstract thread approaching and stopping at a proof surface, the proof surface from a business-record state to one current product surface, the emotional turn from calm agency about numbers to respectful credibility through a stated limitation, and the final line to “Let the work show what the story cannot.” It does not reopen or consume the occupied imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — event window — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `event-window` | A fixed event date can pressure a slower evidence workflow and make unchecked work look ready | “The date can be fixed. The proof cannot be rushed.” | One current, approved planning, submission, or release-context surface | Calm discipline under a real calendar rather than fake urgency | “Keep the date. Keep the evidence.” | blocked; product proof and event rights missing; distinct from `decision-ledger`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `decision-ledger`, which focuses on distinguishing recorded, derived, estimated, and planned values before a business decision. `event-window` changes the pain to deadline pressure against a slower evidence workflow, the hook to “The date can be fixed. The proof cannot be rushed,” the visual metaphor from truth-state record cards to a calendar beside five distinct human evidence cards, the proof surface from a business-record state to a planning/submission/release-context surface, the emotional turn from calm agency about numbers to calm discipline under a real calendar, and the final line to “Keep the date. Keep the evidence.” It is not the imported generic or rostered human-gate concept; `false-completion` and `release-gate-roster` remain blocked and their filenames remain occupied.
