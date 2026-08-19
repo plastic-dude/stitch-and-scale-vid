@@ -29,3 +29,13 @@ This angle is intentionally distinct from `test-knit-coverage`, `show-the-math`,
 ### Conflict rule
 
 These two imported concepts are related but not interchangeable. `release-gate-roster` is the later, narrower refinement and must be preferred only if current proof verifies the roster surface. If proof verifies only a generic human-gate state, `false-completion` may be reconsidered through a new Director review; neither concept may be regenerated, renamed, or marked `approved-for-generation` from the imported outputs alone. Both reserved filenames remain occupied by blocked planning reservations.
+
+## Wide-research Director decision — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `reader-handoff` | A pattern author knows the intended meaning, while a reader must make a size, ease, chart, schematic, or instruction decision without being in the room | “The person who made the pattern already knows what this line means. The reader doesn’t.” | One current, readable reader-facing size/ease, chart-key, schematic, instruction, or export-preflight surface | The film moves from author certainty to empathy for the reader arriving cold | “Show me where the reader has to guess.” | blocked; proof missing; distinct from `false-completion` and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `publication-second-shift`; the imported `false-completion` and `release-gate-roster` concepts were inspected before selection. `reader-handoff` changes the pain from false closure or unowned tester evidence to interpretation after authorship, the visual metaphor from checkbox/roster to a physical handoff across a desk, and the proof surface from human-gate status to a reader-facing size/ease, chart-key, schematic, instruction, or export-preflight decision. It remains blocked until current product proof verifies the exact surface.
