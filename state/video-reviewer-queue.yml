@@ -1,0 +1,13 @@
+schema_version: 1
+queue_name: stitch-scale-video-reviewer
+last_scan_at: 2026-08-19T04:10:00+01:00
+last_reviewed_video_id: small-test
+last_reviewed_version: UNVERIFIED
+last_reviewed_at: 2026-08-19T04:10:00+01:00
+last_outcome: BLOCKED
+next_cursor_key: small-test|UNVERIFIED
+blocked_reason: "Archive connectivity test had no manifest, brief, claim ledger, platform profile, checksum, rights record, or Generator acknowledgement; it was not a production queue item."
+last_research_note: research/2026-08-19-video-reviewer-platform-and-caption-research.md
+last_review_record: reviews/small-test/REV-small-test-archive-connectivity-20260819.md
+continuation_rule: "On every run, scan for new VIDEO GENERATOR output since last_scan_at, prioritize open remake orders, then new output, then never-reviewed eligible assets, and select the first eligible item after next_cursor_key with one wrap-around pass."
+updated_at: 2026-08-19T04:10:00+01:00

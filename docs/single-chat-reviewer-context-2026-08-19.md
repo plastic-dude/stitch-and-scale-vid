@@ -37,3 +37,9 @@ The **single-chat rule** supersedes the historical isolated-task behavior. No sc
 ## Corrective action taken
 
 The published reviewer playbook was rewritten at `prompts/video-reviewer-loop-hourly.md` to enforce reviewer-only scope, current-chat continuity, no child tasks, no isolated runs, no separate Generator handoff, one bounded review per firing, and the reconciled requirements above. The hourly schedule must be updated to use this playbook without fresh-task execution.
+
+## Queue continuation correction
+
+Each run must first check for output produced by **VIDEO GENERATOR** since the durable cursor timestamp. New or updated manifests, Generator acknowledgements, Drive assets, checksums, and review-ready statuses are candidates. The reviewer prioritizes open remake orders, then newly generated output, then never-reviewed eligible assets, then the oldest eligible item, using a stable `video_id` and version tie-breaker.
+
+The cursor is persisted in `state/video-reviewer-queue.yml` and records the last scan, last reviewed asset and version, outcome, blocker, and next deterministic queue key. The next run starts after that key and wraps once only after checking the remaining queue. It must not restart at the first asset, rely on chat memory alone, re-review the same version without changed evidence, or review a second asset in one firing. After each review or blocker, the cursor is committed with the outcome and next position.
