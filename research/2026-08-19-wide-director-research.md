@@ -3010,3 +3010,68 @@ Do not claim Stitch & Scale prevents silent coercion, stores nulls distinctly, v
 [322] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [323] [Stitch & Scale — Craft business records, pattern QA, publishing/export, and mobile-maker contracts](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+## Eightieth wide-research question: one change can have a long shadow — 2026-08-19
+
+### Research question
+When a source measurement, gauge, size rule, or design input changes, how can an independent knitwear designer see which derived counts, measurements, quantities, or exports may be affected without claiming Stitch & Scale automatically recalculates or audits everything?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers moving between phone, tablet, and desktop while revising a graded pattern or related record. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No recalculation, accuracy, completeness, adoption, or customer-outcome claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Microsoft Support, “Display the relationships between formulas and cells” | 2026-08-19; current page checked | Microsoft distinguishes precedent cells, which provide data to a formula, from dependent cells, whose formulas reference a cell. Excel provides Trace Precedents and Trace Dependents to display and follow those relationships across multiple levels. | Excel guidance is not Stitch & Scale product proof and does not establish that the product exposes a dependency graph, re-runs all downstream work, or can trace outside sources. | Frame the fresh concept around naming source, dependent output, affected scope, and recheck status rather than simply warning about one stale number. |
+| NIST AI RMF Playbook, Map function | 2026-08-19; current page checked | NIST’s Map function frames context and documentation as inputs to understanding and managing system risks, including documenting assumptions, limitations, users, and potential impacts. | AI-risk guidance is not a knitwear standard, product proof, or permission to use NIST branding in a video. | Add source, date, owner, assumptions, limitations, and impact notes to the fictional dependency record. |
+| Sister Mountain, “How to Grade Knitting Patterns Using a Spreadsheet” | 2026-08-19; current page checked | The workflow separates size setup, body measurements, gauge, intended ease, units, formulas, and derived stitch/row counts; it keeps intended ease in a separate row and uses formulas to derive values across sizes. | Practitioner workflow, not Stitch & Scale product validation or a universal grading standard. | Show a source measurement or gauge change flowing to dependent counts or sections, but do not claim the product automatically identifies every affected output. |
+| W3C WAI, WCAG 2.2 Understanding SC 3.3.1 and 3.3.3 | 2026-08-19; current pages checked | W3C distinguishes omitted required input and invalid/out-of-range input, identifies the affected field, and recommends correction suggestions when known. | Informative accessibility guidance; does not prove Stitch & Scale validation or dependency behavior. | Treat an affected-output list and recheck status as separate evidence from input validation or accessibility conformance. |
+| Ranganathan & Hunsberger, “Handling missing data in research” | 2026-08-19; 2024 open-access article checked | Missing data can arise through different mechanisms; inappropriate handling can bias or reduce precision; imputed values carry uncertainty and should not be treated as observed facts. | Research-data guidance is not a knitting standard or product data model. | If a source input is missing or estimated, mark downstream impact as unknown rather than pretending all dependent outputs are safe. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove product behavior or accessibility. | Plan 9:16 at 1080×1920, leave dependency cards clear of overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-19; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep the organic-first master under one minute, center the impact card, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish campaign audio clearance or product claims. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove caption accuracy or semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Internal contracts separate source inputs, derived views, record facts, estimates, planned values, technical editing, print review, chart readability, schematic scale, and test knitting. They require visible context, interruption/recovery checks, and explicit export preflight. | Internal contracts; no current product-proof registry entry for dependency impact. | Block product-specific source/dependent, recheck, recompute, or impact-completeness claims pending exact evidence. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying dependency graphs, source/dependent links, affected-output scope, recompute status, or downstream recheck. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 80 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from “a stale number exists” into **a source change may affect multiple downstream outputs whose scope is not visible**. The fresh concept is `impact-scope`: an original dependency card places `SOURCE INPUT / CHANGED VALUE / DEPENDENT OUTPUTS / AFFECTED SIZE OR SECTION / RECHECK NEEDED / RECOMPUTE STATUS / SOURCE / DATE / OWNER / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no automatic recalculation or completeness claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `stale-number`, which focuses on one changed input leaving yesterday’s derived number inside instructions. `impact-scope` changes the pain to **knowing the set of dependent outputs touched by one changed source before trusting the revision**. The hook changes to “One change can have a long shadow.” The visual metaphor changes from one stale-value warning to an impact tree from one source input to affected sizes, sections, quantities, charts, and exports. The proof surface changes from one live derived value to a current source/dependent impact surface with affected-scope and recheck labels. The emotional turn changes from catching one stale number before release to bounded review of what a change touches. The final line changes to “Show what the change touches before you trust the new number.”
+
+This is distinct from `change-notice` (communicating what changed to a tester), `correction-trace` (linking a post-release correction to the copy a reader uses), `artifact-status` (identifying which file/state someone holds), `context-lock` (identifying active project/size/unit context), `repro-note` (making a report inspectable), `grade-transparency` (explaining why one size differs), `value-state` (classifying blank/zero/invalid/derived/planned states), `recovery-proof` (restoring work), `export-portability` (transporting meaning), and `quantity-basis` (requirement/plan/actual quantity basis). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale automatically traces precedents or dependents, recalculates every downstream output, detects all affected artifacts, prevents stale output, guarantees completeness, or proves an export is current without current product/data evidence. Do not claim a changed source always affects every shown dependent; impact may be conditional or unknown. Do not use real private records, customer/tester data, copyrighted spreadsheets, third-party screenshots, health records, or NIST-branded assets without permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[324] [Microsoft Support — Display the relationships between formulas and cells](https://support.microsoft.com/en-us/excel/display-the-relationships-between-formulas-and-cells)
+
+[325] [NIST AI RMF Playbook — Map](https://airc.nist.gov/airmf-resources/playbook/map/)
+
+[326] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+
+[327] [W3C WAI — Understanding SC 3.3.1 Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
+
+[328] [W3C WAI — Understanding SC 3.3.3 Error Suggestion](https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html)
+
+[329] [Ranganathan & Hunsberger — Handling missing data in research](https://pmc.ncbi.nlm.nih.gov/articles/PMC11101000/)
+
+[330] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[331] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[332] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[333] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[334] [Stitch & Scale — Mobile maker, craft records, pattern QA, and publishing/export contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
