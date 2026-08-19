@@ -444,3 +444,31 @@ Research changed the concept from a generic accessibility promise to **equivalen
 [37] [W3C — Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
 
 [38] [ACM — Stitching together the experiences of disabled knitters](https://dl.acm.org/doi/abs/10.1145/3411764.3445521)
+
+## Seventeenth wide-research question: the material assumption travels too — 2026-08-19
+
+### Research question
+How can a knitwear pattern preserve the material assumptions behind a sample when a designer or maker substitutes yarn, without claiming a yarn database, automatic substitution, or fit guarantee from Stitch & Scale?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Purl Soho, “Yarn Substitution Made Easy” | 2026-08-19; page was blocked by a Cloudflare challenge | Search discovery identifies a current craft-publisher guide focused on choosing yarn substitutions. | No body text was verified because the page was blocked; no detailed claims are taken from it. | Do not use this source as substantive evidence; seek material-specific guidance elsewhere. |
+| Kate Atherley, “On Yarn Substitutions” | 2026-08-19; live page | The technical-editor/designer guidance says yarn-weight names are categories rather than precise measures, stockinette gauge can help identify thickness, pattern-stitch gauge helps identify needle needs, and patterns should include clear yarn and gauge information. | Expert guidance, not a product specification or universal substitution guarantee. It does not prove any current Stitch & Scale yarn or material feature. | The creative focus becomes **material assumptions**, not “find a match.” The film should show fiber/yarn/gauge notes travelling with the sample and an explicit `SUBSTITUTION — RECHECK` boundary. |
+| Local craft-business record contract | 2026-08-19; repository source | Sample and design records should preserve yarn/materials, gauge, source notes, and recorded-versus-estimated distinctions; test knitting and other human gates remain separate. | Internal workflow guidance, not proof of the live product’s materials record. | The new angle should invite a material record and a recheck, not promise automatic fit or substitution correctness. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for yarn/material fields, fiber content, yarn source, gauge notes, substitution flags, material assumptions, or recheck workflows. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`material-notes`**: the tension is a yarn substitution that keeps the name of the yarn but loses the assumptions that made the sample interpretable. The hook is “A substitute can match the label and still change the work.” The visual metaphor is a yarn band, a swatch, and a pattern card connected by `FIBER / GAUGE / STITCH / RECHECK` cards. The proof surface must be one current, approved materials/gauge/substitution surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from a generic yarn-substitution tip into **material provenance plus a human recheck**. The script must not claim that Stitch & Scale recommends substitutes, predicts behavior, determines fit, or confirms a match. It may show a material note and an explicit recheck boundary, then invite current product proof for the exact surface.
+
+### References
+
+[39] [Purl Soho — Yarn Substitution Made Easy](https://www.purlsoho.com/create/yarn-substitution-made-easy/)
+
+[40] [Kate Atherley — On Yarn Substitutions](https://kateatherley.com/yarnsubs/)

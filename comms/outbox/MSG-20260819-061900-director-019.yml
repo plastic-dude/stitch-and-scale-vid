@@ -1,0 +1,17 @@
+message_id: MSG-20260819-061900-director-019
+sender: director
+recipient: production
+created_at: '2026-08-19T06:19:00+01:00'
+plan_id: PLAN-20260819-061900-material-notes-v001
+angle_slug: material-notes
+status: blocked
+subject: Material-notes concept blocked pending current material proof
+body: >-
+  Fresh yarn-substitution research moved the concept from a generic substitution tip to material provenance
+  plus a human recheck. Do not generate or upload. No current approved materials, gauge, substitution, or
+  recheck product surface is available, and no match, fit, behavior, or automatic-recommendation claim is
+  authorized. Next action: provide one current approved non-private proof surface with product version/date
+  and exact visible labels, then rerun claims, rights, privacy, captions, audio, platform, and acceptance
+  validation.
+do_not_generate: true
+do_not_upload: true

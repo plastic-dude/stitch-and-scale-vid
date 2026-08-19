@@ -189,3 +189,13 @@ The nearest prior angle is `sample-chain`, which concerns physical sample locati
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `chart-parity`, which concerns whether visual charts and written instructions stay semantically aligned. `equivalent-meaning` changes the pain to pattern meaning being unavailable across access modes, the hook to “If the chart changes, the meaning must not disappear,” the visual metaphor from two pattern representations to a chart tile transforming into large text, spoken description, and a keyboard-focus path, the proof surface from chart/written parity to an accessible chart/description/semantic surface, the emotional turn from parity confidence to inclusive participation through disabled-maker review, and the final line to “Keep the meaning within reach.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — material notes — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `material-notes` | A yarn substitution can keep a broad label while losing the material assumptions that made the sample interpretable | “A substitute can match the label and still change the work.” | One current, approved materials, gauge, source, or substitution surface with exact labels | Traceable rechecking rather than a match, fit, or behavior promise | “Keep the note. Recheck the work.” | blocked; product proof, materials-rights review, and recheck plan missing; distinct from `gauge-reality`, `sample-chain`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `gauge-reality`, which concerns whether mathematical gauge assumptions survive physical fabric behavior. `material-notes` changes the pain to a substitution losing material assumptions, the hook to “A substitute can match the label and still change the work,” the visual metaphor from gauge math versus fabric to yarn, swatch, and pattern cards linked by `FIBER / GAUGE / STITCH / SOURCE / RECHECK`, the proof surface from gauge/reality to a materials, source, gauge, or substitution surface, the emotional turn from material humility to traceable rechecking, and the final line to “Keep the note. Recheck the work.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
