@@ -38,3 +38,17 @@ The FTC advertising-substantiation policy states that advertisers and agencies n
 [1]: https://support.google.com/youtube/answer/1722171?hl=en
 [2]: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
 [3]: https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+
+## Fresh source extraction captured for this run
+
+The current YouTube Help page states: container MP4; audio codec AAC-LC, Opus, or Eclipsa Audio; video codec H.264 [1].
+
+The current W3C WCAG 2.2 understanding page states that captions are provided for all prerecorded audio content in synchronized media, and explains that captions include dialogue plus meaningful non-speech information. Its key terms explicitly state that captions should not obscure or obstruct relevant information in the video [2].
+
+The FTC policy statement says advertisers and agencies must have a reasonable basis for express and implied claims before dissemination, and that objective claims represent that the advertiser has a reasonable basis supporting them. This reinforces the decision not to generate from unresolved product-proof material [3].
+
+Sources accessed fresh for this run:
+
+[1]: https://support.google.com/youtube/answer/1722171?hl=en
+[2]: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+[3]: https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation

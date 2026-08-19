@@ -1,0 +1,68 @@
+run_id: "VIDEO-GENERATOR-20260819-150630"
+run_type: "bounded-production-execution"
+status: "BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT"
+created_at: "2026-08-19T15:06:30+01:00"
+completed_at: null
+repository:
+  url: "https://github.com/plastic-dude/stitch-and-scale-vid"
+  local_path: "/home/ubuntu/stitch-and-scale-vid-run"
+  inspected_head: "5549072dde3d030d3b1bc69485b1f07706302376"
+  credential_policy: "scoped Git-dude.txt runtime-only; token not printed, exposed, persisted, committed, or uploaded"
+queue:
+  reviewer_orders_checked_first: true
+  open_remake_required_orders: 0
+  eligible_approved_contracts_found: 0
+  consumed_contracts_skipped:
+    - "PLAN-20260819-spreadsheet-11pm-001 / SCRIPT-20260819-spreadsheet-11pm-v001 / DIR-001 already produced"
+  branch_evidence:
+    - branch: "origin/director/2026-08-19-release-gate-roster"
+      revision: "9171eb6a4cf6bd0e8f636b2524277eb11f6359f2"
+      brief: "briefs/SS_founder-proof_release-gate-roster_9x16_v001_director-review_20260819-030616.md"
+      script: "scripts/SS_founder-proof_release-gate-roster_9x16_v001_director-review_20260819-030616.md"
+      decision: "director-review; not approved-for-generation"
+      blocker: "Current approved product-proof roster and evidence-gate ownership must be confirmed before generation."
+    - branch: "origin/director/false-completion-human-gates-20260819"
+      revision: "17fa997b4b45659df6934578df8a02f86c0b4766"
+      brief: "briefs/SS_founder-testers_false-completion_9x16_v001_blocked_20260819-030020.md"
+      script: "scripts/SS_founder-testers_false-completion_v001_blocked.md"
+      decision: "blocked; provisional script skeleton not approved for generation"
+      blocker: "Required product proof and human-gate evidence remain unresolved."
+    - branch: "origin/director/publication-readiness-second-shift-20260819"
+      revision: "019bde8ca9a50d8bf100c2f38f189f5a47d46ad6"
+      brief: "briefs/SS_publication-readiness_second-shift_campaign-v001_director-review_20260819-022500.md"
+      script: "scripts/SS_publication-readiness_second-shift_v001.md"
+      decision: "director-review; next action is not automatic generation"
+      blocker: "Current UI proof capture/registry and written rights confirmations must be confirmed; otherwise leave director-review."
+research:
+  wide_research_required: true
+  note: "research/2026-08-19-blocked-no-eligible-director-contract-144738.md"
+  sources:
+    - "https://support.google.com/youtube/answer/1722171?hl=en"
+    - "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html"
+    - "https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation"
+video:
+  create_video_activated: false
+  reason: "No Director contract met exact approved-for-generation eligibility; generating would violate Director blockers and queue authority."
+  output_filename: null
+  sha256: null
+  drive_file_id: null
+  drive_url: null
+external_storage:
+  provider: "Google Drive via configured Google Workspace connector"
+  archive_root_id: "1mLIi-uAmmOY06pLUpJBfQRf942sj0exl"
+  archive_root_name: "Stitch & Scale Video Archive"
+  director_review_folder_id: "1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2"
+  director_review_folder_name: "01-director-review"
+  connector_reachable: true
+  upload_required_for_eligible_mp4: true
+  upload_attempted: false
+  upload_block_reason: "No authorized MP4 existed; not an external-storage failure."
+records:
+  qa_report: "reviews/BLOCKED-no-eligible-director-contract-20260819-150630/generator-check.md"
+  communication_event: "comms/outbox/2026-08-19T150630-video-generator-blocked.yml"
+  initial_record_commit: null
+  final_repository_commit: null
+next_action: "On the next firing, refresh all branches, prioritize any new REMAKE_REQUIRED order, and otherwise select the earliest newly added Director brief with exact status approved-for-generation."
+quality_owner: "Video Reviewer; generator must not self-approve public campaign assets."
+credential_rotation_recommended: true
+# The GitHub token value is intentionally not recorded anywhere in this manifest.
