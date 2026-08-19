@@ -1,0 +1,38 @@
+receipt_id: PUB-20260820-decision-state-56cada3
+created_at: '2026-08-20T18:00:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 29cfe04
+remote_commit_after_blocker: 56cada3139f6482228a5130e257e215b91c9377c
+merge_required: true
+merge_type: no-rewrite-ort
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-escalation-threshold-and-decision-state-1800.md
+  - comms/outbox/MSG-20260820T180000-temporary-director-065.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  How should the Director distinguish an operational escalation threshold from a
+  quality decision when a human review remains pending across repeated firings?
+research_decision: >-
+  Keep the operational escalation clock separate from the quality state. A
+  missed deadline or acknowledgement is metadata only and cannot infer approval,
+  rejection, or REMAKE_REQUIRED.
+next_action: >-
+  Human owner must record the responsible owner, bounded deadline, and escalation
+  target. Video Reviewer must publish the independent terminal packet. Until
+  then, preserve V002 and keep the Generator lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
