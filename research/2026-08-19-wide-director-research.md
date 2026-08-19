@@ -2407,3 +2407,51 @@ Do not claim Stitch & Scale provides measurement provenance, automatic ease calc
 [235] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [236] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Sixty-eighth wide-research question: what rule made the size change? — 2026-08-19
+
+### Research question
+When sizes differ across a knitwear pattern, what must a designer be able to distinguish—base size, grade increment, rule/formula, rounding, exception, manual override, and review status—without claiming Stitch & Scale exposes grading math or validates every grade?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and technical reviewers examining size-to-size differences. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Standard Body Measurements/Sizing” and designer guidance | 2026-08-19; current pages checked | CYC provides body-size charts, fit/ease guidance, garment measurement context, and guidance to list measurements for each size and identify the size made. | CYC does not define a universal grading formula, expose every exception, or prove Stitch & Scale’s grading behavior. | Separate base/body inputs, finished outputs, ease, grade increments, exceptions, source, and review status. |
+| Sister Mountain, “How to Grade Knitting Patterns Using a Spreadsheet” | 2026-08-19; article dated 2025-05-28 | The article presents a structured spreadsheet workflow: choose sizes, add body measurements, use a swatch/gauge, record intended ease separately, calculate stitch/row counts, and keep the layout clear. It distinguishes displayed decimal formatting from underlying calculation data. | Educational workflow, not a universal grading standard or Stitch & Scale product proof. | Show `BASE / SIZE / INCREMENT / RULE / ROUNDING / EXCEPTION / OVERRIDE / REVIEW` rather than a black-box size spread. |
+| Stitch & Scale pattern-QA, craft-business-records, publishing/export, and mobile-maker contracts | 2026-08-19; contracts re-read | Grading, canonical engine outputs, rounding, exceptions, source/version, technical editing, print/chart review, and test knitting are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for grading explanation or grade audit. | Block grading-math exposure, automatic validation, and size-accuracy claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for grading formula exposure, increment explanation, exception handling, manual overrides, grade audit, or size-accuracy validation. All 68 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “grading math” into **whether a size difference can be explained as a visible rule rather than a mysterious output**. The fresh concept is `grade-transparency`: a fictional card places `BASE / SIZE / INCREMENT / RULE / ROUNDING / EXCEPTION / OVERRIDE / REVIEW / SOURCE / VERSION`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no grading-math exposure, automatic validation, or size-accuracy claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `rounding-rule`, which focuses on which rule changed a result at the rounding step. `grade-transparency` changes the pain to **why a size differs from another size across the whole grade path**. The hook changes to “A size changed. Show the rule.” The visual metaphor changes from one result’s rule to `BASE / SIZE / INCREMENT / RULE / ROUNDING / EXCEPTION / OVERRIDE / REVIEW / SOURCE / VERSION`. The proof surface changes from a rounding explanation to a current grade-audit surface. The emotional turn changes from understanding one output to seeing the grade path without claiming it is correct. The final line changes to “Show the grade, not just the size.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale exposes grading formulas, validates every size, guarantees accuracy, recommends increments, resolves exceptions, or confirms manual overrides without current product proof and qualified technical review. Do not use real customer grading sheets, private patterns, screenshots, logos, or copyrighted schematics without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[237] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+
+[238] [Craft Yarn Council — Designer Guidelines](https://www.craftyarncouncil.com/industry.html)
+
+[239] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+
+[240] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[241] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[242] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[243] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

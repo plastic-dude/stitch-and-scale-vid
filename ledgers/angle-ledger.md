@@ -699,3 +699,13 @@ The nearest prior angle is `error-language`, which focuses on how an error is wo
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `measure-point`, which focuses on where a measurement starts and ends. `measurement-provenance` changes the pain to whether the maker can trace a number’s origin and transformation. It changes the hook to “A measurement needs a before,” the visual metaphor from a measurement line to `BODY / EASE / FINISHED / SAMPLE / DERIVED / METHOD / DATE / SOURCE / STATUS`, the proof surface from a measurement point to a current measurement-provenance surface, the emotional turn from locating the line to understanding the number’s lineage without a fit promise, and the final line to “Show where the number came from.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — grade transparency — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `grade-transparency` | A designer cannot explain why one size differs from another across the grade path and may treat a mysterious output as trustworthy | “A size changed. Show the rule.” | One current, approved grade-audit surface with base, size, increment, rule, rounding, exception, override, review, source, and version labels | Seeing the grade path without claiming it is correct | “Show the grade, not just the size.” | blocked; product proof, technical review, rights/privacy, grade validation, accuracy evidence, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `rounding-rule`, which focuses on which rule changed a result at the rounding step. `grade-transparency` changes the pain to why a size differs from another size across the whole grade path. It changes the hook to “A size changed. Show the rule,” the visual metaphor from one result’s rule to `BASE / SIZE / INCREMENT / RULE / ROUNDING / EXCEPTION / OVERRIDE / REVIEW / SOURCE / VERSION`, the proof surface from a rounding explanation to a current grade-audit surface, the emotional turn from understanding one output to seeing the grade path without claiming it is correct, and the final line to “Show the grade, not just the size.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
