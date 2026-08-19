@@ -2685,3 +2685,49 @@ Do not claim Stitch & Scale monitors live inventory, knows a yarn is currently a
 [272] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [273] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Seventy-fourth wide-research question: a drawing is not automatically to scale — 2026-08-19
+
+### Research question
+When a knitwear schematic or line drawing is shown, how can a maker distinguish not-to-scale illustration, measurement labels, units, orientation, garment part, and reference status without claiming Stitch & Scale renders, scales, or validates schematics?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers using schematics to understand shape and measurements. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Schematics” | 2026-08-19; current page checked | CYC defines a schematic as a visual rendering of a knit or crochet piece with relevant measurements indicated. It says a schematic provides an overview of size/shape, a reference for determining garment fit, and a template for modifying size; it recommends reviewing the schematic before starting and comparing it with a well-fitting garment. | CYC guidance does not establish that every drawing is to scale, does not prove Stitch & Scale renders schematics, and does not prove export or zoom behavior. | Separate visual rendering, measurement labels, units, orientation, garment part, reference status, and any scale claim. |
+| W3C WAI, “Complex Images” tutorial | 2026-08-19; current page checked | W3C says complex diagrams and illustrations may need a two-part text alternative: a short description and a long textual representation of essential information; it notes that complex images can be difficult for low-vision, learning-disabled, and less-experienced users. | Accessibility image alternatives are not geometric accuracy, print fidelity, or Stitch & Scale conformance proof. | Treat a schematic as both a visual and an information surface; require equivalent-text review without claiming product support. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Schematic scale, chart readability, physical print review, technical editing, measurements, export, equivalent text, and test knitting are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for schematic rendering, scaling, or validation. | Block schematic rendering, scaling, print, zoom, geometry, and drawing-based fit claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for schematic rendering, geometric scale, print/zoom fidelity, equivalent-text behavior, or drawing-based fit validation. All 74 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “show the schematic” into **whether a schematic’s visual geometry is being trusted as a measurement or scale promise without an explicit status**. The fresh concept is `schematic-scale`: a fictional card places `GARMENT PART / VIEW / MEASUREMENT LABELS / UNITS / ORIENTATION / SCALE STATUS / REFERENCE STATUS / SOURCE / DATE / REVIEW`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no rendering, scaling, geometry-preservation, print/zoom, or drawing-based fit claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `chart-description`, which focuses on describing a chart or visual sequence. `schematic-scale` changes the pain to **whether a line drawing is being trusted as a scale or measurement promise**. The hook changes to “A drawing can show shape without being to scale.” The visual metaphor changes from chart description fields to `GARMENT PART / VIEW / MEASUREMENT LABELS / UNITS / ORIENTATION / SCALE STATUS / REFERENCE STATUS / SOURCE / DATE / REVIEW`. The proof surface changes from chart-description evidence to a current schematic-context surface. The emotional turn changes from describing a visual to making its measurement and scale status explicit. The final line changes to “Label the drawing before you measure from it.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale renders schematics, guarantees scale, preserves geometry across readers, validates measurement labels, provides zoom/print fidelity, or confirms fit from a drawing without current product proof and qualified technical review. Do not use real copyrighted schematics, private patterns, screenshots, logos, or publisher assets without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[274] [Craft Yarn Council — Schematics](https://www.craftyarncouncil.com/standards/schematics)
+
+[275] [W3C WAI — Complex Images](https://www.w3.org/WAI/tutorials/images/complex/)
+
+[276] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[277] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[278] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[279] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

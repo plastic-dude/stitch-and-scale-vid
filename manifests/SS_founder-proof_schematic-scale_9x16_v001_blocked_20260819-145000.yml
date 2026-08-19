@@ -1,0 +1,55 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-145000-schematic-scale-v001
+angle_slug: schematic-scale
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_schematic-scale_9x16_v001_blocked_20260819-145000.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-schematic-context-surface-with-garment-part-view-measurement-labels-units-orientation-scale-status-reference-status-source-date-review
+product_version: null
+proof_capture_approved: false
+garment_part_status: missing
+view_status: missing
+measurement_labels_status: missing
+units_status: missing
+orientation_status: missing
+scale_status: missing
+reference_status: missing
+source_status: missing
+date_status: missing
+review_status: missing
+schematic_rendering_status: unverified
+geometry_preservation_status: unverified
+print_zoom_fidelity_status: unverified
+equivalent_text_status: unverified
+drawing_fit_validation_status: unverified
+technical_review_status: pending
+accessibility_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no rendering, scale, geometry preservation, print/zoom, equivalent-text, accessibility-conformance, or drawing-based fit claim
+  - CYC schematic guidance and W3C complex-image guidance are context, not product behavior
+  - garment part, view, labels, units, orientation, scale, reference, source, date, and review cannot be collapsed into one schematic badge
+  - fictional line drawings are not product UI or exact technical diagrams
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private schematic-context surface with exact garment part, view, measurement labels, units, orientation, scale status, reference status, source, date, and review labels, then rerun schematic, accessibility, technical, print, export, claims, caption, audio, platform, rights, privacy, and Director gates.

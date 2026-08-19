@@ -759,3 +759,13 @@ The nearest prior angle is `locale-number-format`, which focuses on decimal symb
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `material-trace`, which focuses on the identity of the yarn actually used in a project. `availability-status` changes the pain to whether a material recommendation is being mistaken for a current supply fact. It changes the hook to “Recommended is not available,” the visual metaphor from material identity fields to `RECOMMENDED YARN / AVAILABILITY BASIS / CURRENT AS-OF / DISCONTINUED OR SEASONAL / SUBSTITUTE STATUS / SOURCE / CONFIDENCE / REVIEW STATUS`, the proof surface from a material-trace record to a current availability-context surface, the emotional turn from tracing what was used to time-stamping what is known about supply without a live-inventory or replacement promise, and the final line to “Date the availability before you name the yarn.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — schematic scale — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `schematic-scale` | A schematic’s visual geometry may be trusted as a scale or measurement promise without explicit status | “A drawing can show shape without being to scale.” | One current, approved schematic-context surface with garment part, view, measurement labels, units, orientation, scale status, reference status, source, date, and review labels | Making a line drawing an honest measurement reference without silently making a scaled geometry claim | “Label the drawing before you measure from it.” | blocked; product proof, scale/geometry, print/zoom, equivalent-text, technical review, rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `chart-description`, which focuses on describing a chart or visual sequence. `schematic-scale` changes the pain to whether a line drawing is being trusted as a scale or measurement promise. It changes the hook to “A drawing can show shape without being to scale,” the visual metaphor from chart-description fields to `GARMENT PART / VIEW / MEASUREMENT LABELS / UNITS / ORIENTATION / SCALE STATUS / REFERENCE STATUS / SOURCE / DATE / REVIEW`, the proof surface from chart-description evidence to a current schematic-context surface, the emotional turn from describing a visual to making its measurement and scale status explicit, and the final line to “Label the drawing before you measure from it.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

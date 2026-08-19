@@ -1,0 +1,17 @@
+message_id: MSG-20260819-145000-director-076
+created_at: '2026-08-19T14:50:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260819-145000-schematic-scale-v001
+parent_id: briefs/SS_founder-proof_schematic-scale_9x16_v001_blocked_20260819-145000.md
+status: blocked
+summary: Schematic-scale concept blocked because current schematic-context proof, geometric/print evidence, equivalent-text review, rights, privacy, and product capability evidence are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#seventy-fourth-wide-research-question-a-drawing-is-not-automatically-to-scale---2026-08-19
+  - briefs/SS_founder-proof_schematic-scale_9x16_v001_blocked_20260819-145000.md
+  - manifests/SS_founder-proof_schematic-scale_9x16_v001_blocked_20260819-145000.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private schematic-context surface with exact garment part, view, measurement labels, units, orientation, scale status, reference status, source, date, and review labels, then rerun schematic, accessibility, technical, print, export, claims, captions, audio, platform, rights, privacy, and acceptance validation.
