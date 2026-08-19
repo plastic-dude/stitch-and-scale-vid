@@ -2777,3 +2777,49 @@ Do not claim Stitch & Scale creates reminders, syncs calendars, handles timezone
 [284] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [285] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Seventy-sixth wide-research question: required is not purchased — 2026-08-19
+
+### Research question
+When a knitwear pattern lists yarn quantity, how can a designer distinguish per-size requirement, planned purchase, actual used, leftover, reserve/overage, units, source/date, and status without claiming Stitch & Scale calculates yardage, predicts leftovers, or manages inventory?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers who need a trustworthy material quantity record before buying, knitting, or reporting a project. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Designer Pitfalls” | 2026-08-19; current page checked | CYC says yarn colors and precise amounts are frequently missing, warns against vague quantities such as “a small amount of yarn,” notes missing accessory quantities, and flags discontinued yarn colors. | The guidance does not prove Stitch & Scale quantity calculation, leftover prediction, inventory management, or sourcing. | Separate per-size requirement, planned purchase, actual used, leftover, reserve/overage, units, source/date, and status; do not collapse them into one amount. |
+| Craft Yarn Council, “Yarn Label Information” | 2026-08-19; current page checked | CYC presents yarn-weight symbols used on labels and in patterns, describes a ball/skein weight category from 0–7, and shows how yarn and skill-level symbols can appear on labels and patterns. | Label context does not establish a project-specific yardage requirement, skein estimate, leftover prediction, inventory state, or Stitch & Scale behavior. | Keep label-provided material context separate from pattern requirement, planned purchase, actual use, leftover, and reserve/overage. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Pattern QA distinguishes calculation, record, technical edit, and test knit; business records distinguish recorded, planned, estimated, and unverified values; export requires units and source labels; mobile records require visible save and status feedback. | Internal contracts; no current product-proof registry entry for quantity calculation, actual-use capture, leftovers, inventory, or purchase reconciliation. | Block quantity calculation, leftover, inventory, and reconciliation claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for per-size quantity calculation, planned-purchase capture, actual-use capture, leftover prediction, reserve/overage recommendation, inventory, or purchase reconciliation. All 76 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “materials list” into **whether a quantity is a requirement, a plan, or an observed record**. The fresh concept is `quantity-basis`: a fictional card places `SIZE / REQUIRED QUANTITY / PLANNED PURCHASE / ACTUAL USED / LEFTOVER / RESERVE OR OVERAGE / UNIT / SOURCE / DATE / STATUS`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no calculation, leftover, inventory, or purchase-reconciliation claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `material-trace`, which uses skeins and yardage to identify a material with fiber, weight, color, dye lot, source, date, and project use. `quantity-basis` changes the pain to **whether a quantity is a requirement, a plan, or an observed record**. The hook changes to “Required is not purchased.” The visual metaphor changes from material identity fields to `SIZE / REQUIRED QUANTITY / PLANNED PURCHASE / ACTUAL USED / LEFTOVER / RESERVE OR OVERAGE / UNIT / SOURCE / DATE / STATUS`. The proof surface changes from a material-trace surface to a current quantity-context surface. The emotional turn changes from tracing material identity to making the quantity’s basis explicit without pretending an estimate is a measured fact. The final line changes to “Label the quantity before you buy the yarn.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale calculates yardage or skeins, predicts leftovers, tracks inventory, recommends reserve, reconciles purchase to use, or confirms a per-size requirement without current product proof and qualified review. Do not use real private purchase records, retailer screens, supplier data, logos, or copyrighted pattern materials lists without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[286] [Craft Yarn Council — Designer Pitfalls](https://www.craftyarncouncil.com/pitfalls.html)
+
+[287] [Craft Yarn Council — Yarn Label Information](https://www.craftyarncouncil.com/standards/yarn-label-information)
+
+[288] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[289] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[290] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[291] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

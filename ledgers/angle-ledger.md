@@ -779,3 +779,13 @@ The nearest prior angle is `chart-description`, which focuses on describing a ch
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `change-notice`, which focuses on what changed and how to communicate a change. `deadline-truth` changes the pain to whether a date is being mistaken for a commitment or outcome. It changes the hook to “A date is not a promise,” the visual metaphor from change fields to `DATE TYPE / TARGET OR HARD / EVENT OR PUBLICATION / LOCAL TIME / UTC OFFSET / OWNER / SOURCE / STATUS / NOTES`, the proof surface from a change record to a current deadline-context surface, the emotional turn from noticing a changed artifact to typing a date so its obligation and evidence are explicit, and the final line to “Type the date before you trust the deadline.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — quantity basis — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `quantity-basis` | A quantity may be a requirement, a purchase plan, or an observed record without an explicit basis | “Required is not purchased.” | One current, approved quantity-context surface with size, required quantity, planned purchase, actual used, leftover, reserve/overage, unit, source, date, and status labels | Making a quantity traceable without pretending an estimate is measured use or current inventory | “Label the quantity before you buy the yarn.” | blocked; product proof, calculation/record evidence, technical review, rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `material-trace`, which uses skeins and yardage to identify a material with fiber, weight, color, dye lot, source, date, and project use. `quantity-basis` changes the pain to whether a quantity is a requirement, a plan, or an observed record. It changes the hook to “Required is not purchased,” the visual metaphor from material identity fields to `SIZE / REQUIRED QUANTITY / PLANNED PURCHASE / ACTUAL USED / LEFTOVER / RESERVE OR OVERAGE / UNIT / SOURCE / DATE / STATUS`, the proof surface from a material-trace surface to a current quantity-context surface, the emotional turn from tracing material identity to making the quantity’s basis explicit without pretending an estimate is a measured fact, and the final line to “Label the quantity before you buy the yarn.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
