@@ -4927,3 +4927,53 @@ Do not claim that Stitch & Scale autosaves, saves instantly, stores locally at a
 ### Research limit
 
 These sources provide principles or platform-specific guidance, not evidence of Stitch & Scale’s actual save UI, persistence semantics, interruption behavior, restore behavior, sync, backup, or accessibility implementation. Product truth remains unverified until a versioned approved capture or proof-registry entry supplies the exact current surface and labels.
+
+## One-hundred-fourteenth wide-research question: zero is not missing — 20260819-183453
+
+### Research question
+
+When a numeric or record field is empty, what distinguishes a real zero from not entered, not applicable, unknown, not available, or not checked, and how should that distinction affect calculations, validation, exports, and a maker’s next action?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| Understanding Society — Missing values | Page checked 2026-08-19 | The survey documentation distinguishes a real zero from dedicated missing codes such as “don’t know,” “refused,” “valid skip,” and “missing by error or implausible.” It warns analysts to read the code definitions before using substantive information. | Survey metadata context; not a Stitch & Scale data model. | Make the creative about the meaning of a non-value rather than a generic blank-field warning. |
+| DataONE — Identify missing values and define missing value codes | Page checked 2026-08-19 | Missing values should be consistently coded, defined in metadata, and kept distinct from valid data; `Not applicable`, `None`, and `Pending assignment` can have different meanings. Character codes should not be placed in an otherwise numeric field. | Environmental data-management guidance; not a product specification. | Add explicit `STATUS`, `REASON`, and calculation/export inclusion fields to the fictional proof surface. |
+| University of Wisconsin REDCap — Missing Data Codes | Page checked 2026-08-19 | Missing-data codes can preserve why a field lacks a value, must not collide with valid values, can be displayed in reports/exports, and can distinguish `Not asked`, `Unknown`, `Not applicable`, `Not available`, and `Not present`. | REDCap-specific behavior; no evidence Stitch & Scale supports these codes. | Show that an absence reason is a record, not a substitute number, and keep export behavior blocked pending proof. |
+| W3C WCAG 2.2 — Error Identification | Page checked 2026-08-19 | Automatically detected input errors must identify the affected item and describe the error in text; merely redisplaying an unsuccessful form is insufficient. | Accessibility guidance; not proof of product validation or conformance. | Require named field feedback and an explicit next action rather than color or a blank state alone. |
+| W3C WAI Forms — Notifications | Page checked 2026-08-19 | Feedback should communicate success or error; error lists should identify the control, describe the issue, explain correction, and link to the affected control. Visual cues supplement text. | Web-form guidance; no product finding. | Keep `CHECKED?` and `NEXT ACTION` visible, caption-safe, and separate from the numeric value. |
+| Sister Mountain — grading patterns with a spreadsheet | Page checked 2026-08-19 | A grading workflow combines body measurements, ease, finished measurements, gauges, formulas, multiple sizes, and design decisions; the author separates referenced values, calculated values, and design choices. | Practitioner tutorial, not a Stitch & Scale specification. | Place the absence decision before a formula or rollup, without claiming the product currently does so. |
+| Stitch & Scale local QA, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | QA requires valid measurements and safe outputs; craft records distinguish recorded facts, derived values, estimates, and planned values; mobile workflows require visible validation and interruption feedback. | Internal workflow contracts, not current product proof. | Keep the package blocked until exact field-state labels, calculation inclusion, and export behavior are proven. |
+
+### Research synthesis
+
+A blank, zero, `N/A`, unknown, and not checked can lead to different next actions. The visual opportunity is a fictional numeric cell splitting into five labelled paths — `0`, `NOT ENTERED`, `NOT APPLICABLE`, `UNKNOWN`, and `NOT CHECKED` — before a formula or rollup can proceed. Candidate angle: `absence-state`. Hook: “Zero is not missing.” Proof surface: `VALUE / STATUS / REASON / ASKED? / APPLIES? / CHECKED? / COUNTS-INCLUDED?`, explicitly illustrative until product proof verifies exact labels. Emotional turn: false precision becomes honest next-action clarity. Final line: “Name the absence before you calculate.”
+
+### Product-state reconciliation
+
+No current product-proof registry or approved capture verifies the exact field-state labels, missing-value semantics, calculation inclusion rules, export behavior, or next-action controls. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+### Candidate distinctness
+
+The nearest prior angle is `commit-state`, which concerns immediate save acknowledgement and interruption/return behavior. `absence-state` changes the pain to **a non-value being silently interpreted as a real value or a single kind of missingness**. It changes the hook to “Zero is not missing”; the visual metaphor from a save-status timeline to one numeric cell branching into semantic absence paths; the proof surface from edit/save/return labels to value, status, reason, asked, applies, checked, and calculation-inclusion labels; the emotional turn from save confidence to honest calculation readiness; and the final line to “Name the absence before you calculate.”
+
+It is distinct from `value-state`, which focuses on recorded, derived, estimated, and planned business values; `uncertainty-context`, which focuses on context attached to uncertain measurements; `data-minimum`, which focuses on limiting person-level collection; `stale-number`, which focuses on old values after input changes; `availability-status`, which focuses on resource availability; `first-record`, which focuses on initial capture; `default-state`, which focuses on defaults; and `backup-state`/`commit-state`, which focus on recovery and save acknowledgement. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently supports missing-value codes, `N/A` semantics, semantic field states, calculation exclusion rules, export annotations, or accessibility-compliant field errors. Do not use `VALUE`, `STATUS`, `REASON`, `ASKED?`, `APPLIES?`, `CHECKED?`, or `COUNTS-INCLUDED?` as current product UI. Do not convert external survey or data-management codes into a Stitch & Scale data model. Do not claim quality, fit, accuracy, adoption, revenue, security, privacy, customer outcomes, or legal compliance. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[626] [Understanding Society — Missing values](https://www.understandingsociety.ac.uk/documentation/mainstage/user-guides/main-survey-user-guide/missing-values/)
+[627] [DataONE — Identify missing values and define missing value codes](https://dataoneorg.github.io/Education/bestpractices/identify-missing-values)
+[628] [University of Wisconsin REDCap — Missing Data Codes](https://kb.wisc.edu/smph/informatics/108107)
+[629] [W3C — Understanding Success Criterion 3.3.1: Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
+[630] [W3C WAI — Forms: Notifications](https://www.w3.org/WAI/tutorials/forms/notifications/)
+[631] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+[632] [Stitch & Scale local skill contracts — pattern QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+The sources establish distinctions and design principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently supports missing-value codes, field-state semantics, calculations that exclude non-values, or export annotations. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
