@@ -919,3 +919,13 @@ The nearest prior angle is `correction-trace`, which links a released correction
 ### Distinctness note — 2026-08-20
 
 The nearest prior angle is `default-state`, which separates a default suggestion from a committed value. `exception-scope` changes the pain to a local adjustment being silently treated as a general rule for every size, item, or project. It changes the hook to “An exception is not the rule,” the visual metaphor from default/committed cards to a baseline rule with one scoped exception bracketed to a specific size/item, the proof surface from default semantics to bounded exception context, the emotional turn from avoiding uncommitted defaults to preventing scope leakage, and the final line to “Name the scope before you generalize the exception.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — conversion trace — 2026-08-20
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `conversion-trace` | A transformed number can be mistaken for the original observation when raw value, units, factor, rounding, or source disappear | “Converted is not observed.” | One current, approved conversion surface with raw/converted values and units, factor/rule, rounding/precision, source/date, status, and notes | Measurement humility about what was observed versus calculated rather than conversion, accuracy, or technical-correctness certainty | “Keep the original before you trust the conversion.” | blocked; product/data proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 2026-08-20
+
+The nearest prior angle is `locale-number-format`, which focuses on how numbers are displayed for a locale. `conversion-trace` changes the pain to a transformed number being mistaken for the original observation because raw value, units, factor, rounding, or source disappear. It changes the hook to “Converted is not observed,” the visual metaphor from locale display cards to a raw-value card linked by a visible factor/rule arrow to a converted-value card, the proof surface from display conventions to raw/transformed lineage, the emotional turn from readable localization to measurement humility about what was observed versus calculated, and the final line to “Keep the original before you trust the conversion.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

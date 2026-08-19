@@ -3580,3 +3580,57 @@ Do not claim Stitch & Scale applies overrides, defines rule precedence, detects 
 [402] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [403] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Ninetieth wide-research question: converted is not observed — 2026-08-20
+
+### Research question
+How can a designer preserve raw measurements, converted values, units, conversion rules, rounding, source/date, and status so a transformed number is not mistaken for the original observation?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers handling metric/imperial measurements, gauge, grading, yarn quantities, or exported pattern values. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and measurement-literate. The brief tier is a standard single-original-video planning package. No conversion engine, raw-value preservation, accuracy, or technical-correctness claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| NIST Guide to the SI, Appendix B: Conversion Factors | 2026-08-20; current page checked | NIST provides factors for converting quantities expressed in different units into SI or other accepted units and explains that conversion factors and selected prefixes affect the resulting numerical magnitude. | Measurement/unit guidance is not a Stitch & Scale conversion engine, pattern-accuracy guarantee, or proof that raw inputs are preserved. | Preserve raw value/unit, converted value/unit, factor/rule, rounding/precision, source/date, and status separately; do not overwrite an observation with a converted display value. |
+| Sister Mountain, “How to Grade Knitting Patterns Using a Spreadsheet” | 2026-08-20; current page checked; dated 2025-05-28 | The workflow keeps one unit consistent through spreadsheet calculations and describes a formula column for converting centimetre values into inches. | Practitioner workflow, not product proof, conversion validation, or technical-editing approval. | Show raw and converted values as related but separate fields, with unit and rounding visible. |
+| Stitch & Scale mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts | 2026-08-20; contracts re-read | Internal contracts preserve source/date, recorded-versus-derived distinction, gauge/measurement context, localization, export identity, and distinct technical-editing, print, chart, schematic, and test-knit evidence. | Internal contracts; no product-proof registry entry for conversion lineage. | Block product claims about conversion, raw preservation, validation, or accuracy. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-20; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove conversion semantics or product behavior. | Plan 9:16 at 1080×1920, keep raw/converted cards and units away from overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-20; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep organic-first master under one minute, center one value pair at a time, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-20; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish conversion semantics or product accuracy. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-20; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove numeric or unit semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying raw/converted pairs, units, conversion factors, rounding/precision, source/date, or transformed-value status. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 90 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “convert centimetres to inches” into **preserve raw observation and transformed representation as separate linked fields with unit, factor/rule, rounding/precision, source/date, and status**. The fresh concept is `conversion-trace`: an original record card places `ITEM / RAW VALUE / RAW UNIT / CONVERTED VALUE / CONVERTED UNIT / FACTOR OR RULE / ROUNDING OR PRECISION / SOURCE / DATE / STATUS / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no conversion or accuracy claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `locale-number-format`, which focuses on how numbers are displayed for a locale. `conversion-trace` changes the pain to **a transformed number being mistaken for the original observation because the raw value, units, factor, rounding, or source disappear**. The hook changes to “Converted is not observed.” The visual metaphor changes from locale display cards to a raw-value card linked by a visible factor/rule arrow to a converted-value card, followed by rounding, source/date, and status cards. The proof surface changes from display conventions to raw/transformed lineage. The emotional turn changes from readable localization to measurement humility about what was observed versus calculated. The final line changes to “Keep the original before you trust the conversion.”
+
+This is distinct from `rounding-rule` (rounding policy), `measurement-provenance` (who/when measured), `value-state` (blank/zero/invalid/unverified), `translation-scope` (language transformation), `substitution-basis` (substitute basis), `locale-number-format` (display convention), and `exception-scope` (local override). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale converts measurements, preserves raw inputs, applies NIST factors, validates conversions, guarantees accuracy, or provides technical-editing approval. A converted display value is not proof of the raw measurement, factor, rounding, unit, source, or status. Do not use private measurements, customer/tester records, third-party spreadsheets, editor comments, or copyrighted patterns without permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[404] [NIST — Guide to the SI, Appendix B: Conversion Factors](https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors)
+
+[405] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+
+[406] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[407] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[408] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[409] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[410] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
