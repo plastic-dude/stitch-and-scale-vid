@@ -1,0 +1,17 @@
+message_id: MSG-20260819-110200-director-061
+created_at: '2026-08-19T11:02:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260819-110200-export-portability-v001
+parent_id: briefs/SS_founder-proof_export-portability_9x16_v001_blocked_20260819-110200.md
+status: blocked
+summary: Export-portability concept blocked because current exported-file/preflight proof, reader matrix, rights, privacy, accessibility, and human export/print/chart evidence are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#fifty-ninth-wide-research-question-what-survives-outside-the-app---2026-08-19
+  - briefs/SS_founder-proof_export-portability_9x16_v001_blocked_20260819-110200.md
+  - manifests/SS_founder-proof_export-portability_9x16_v001_blocked_20260819-110200.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private exported file plus manifest/preflight or reader-proof surface with product version/date and exact labels, then rerun file-integrity, reader, chart, metadata, print, accessibility, rights, privacy, and acceptance validation.

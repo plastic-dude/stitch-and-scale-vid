@@ -609,3 +609,13 @@ The nearest prior angle is `basis-label`, which focuses on the basis of a measur
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `hands-busy`, which focuses on what survives while a maker’s hands are occupied. `spoken-index` changes the pain to the semantic fields and ordering required for a spoken instruction to remain auditable, plus the equivalent text that must remain available. It changes the hook to “A spoken instruction cannot point at the punctuation,” the visual metaphor from occupied hands to `ROW/ROUND → SIDE → SIZE → NUMBER → UNIT → ACTION → REPEAT`, the proof surface from hand-state workflow to a spoken-instruction or audio-alternative surface with equivalent text and speaker/voice labeling, the emotional turn from physical convenience to semantic confidence without claiming product audio, and the final line to “Say the context before the action.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — export portability — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `export-portability` | A downloaded file may open while identity, resources, metadata, page/chart meaning, locale labels, or reader behavior remain unreviewed | “Opening the file is not the same as carrying the pattern.” | One current, approved exported file plus manifest/preflight or reader-proof surface with exact labels and version/date | Transport confidence without standards claims | “Check the file after it leaves the app.” | blocked; product proof, reader matrix, rights/privacy, accessibility, export/print/chart review, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `paper-proof`, which focuses on whether a printed page remains usable. `export-portability` changes the pain to whether a file’s identity, resources, metadata, page/chart meaning, and reader behavior survive before and beyond print. It changes the hook to “Opening the file is not the same as carrying the pattern,” the visual metaphor from paper inspection to `FILE / READER / PAGE / CHART / METADATA`, the proof surface from a printed-page close-up to a current exported file with manifest/preflight record, version, locale/unit, metadata, embedded resources, page/chart checks, and device/reader review, the emotional turn from physical confidence to transport confidence without standards claims, and the final line to “Check the file after it leaves the app.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

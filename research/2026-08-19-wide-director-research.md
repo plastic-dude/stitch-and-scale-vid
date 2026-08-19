@@ -1998,3 +1998,46 @@ Do not claim Stitch & Scale offers TTS, spoken pattern mode, audio exports, audi
 [186] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
 
 [187] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## Fifty-ninth wide-research question: what survives outside the app? — 2026-08-19
+
+### Research question
+When a knitwear pattern leaves the app as a file, what must remain identifiable, readable, versioned, and technically intact across PDF/print/mobile readers—without claiming Stitch & Scale’s export is portable or standards-conformant?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers who download, print, share, archive, or read pattern exports across phones, tablets, desktops, and paper. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| W3C, “EPUB 3.3” | 2026-08-19; Recommendation dated 2026-01-13 | EPUB 3.3 defines authoring requirements for EPUB publications and a distribution/interchange format for digital publications and documents; it covers resources, package structure, media types, metadata, and reading-system conformance. | EPUB is not PDF and does not prove Stitch & Scale supports EPUB, responsive reflow, or equivalent chart behavior. | Treat export format as a contract: format identity, package/resource integrity, reader compatibility, and exact technical content must be named separately. |
+| Library of Congress, “PDF/A-1, PDF for Long-term Preservation” | 2026-08-19; current format description checked | PDF/A-1 is a constrained PDF 1.4 form intended for long-term preservation and aims at device independence, self-containment, and self-documentation. It requires embedded, legally embeddable fonts, device-independent colors, standards-based metadata, and disallows encryption; PDF/A-1b addresses visual appearance, not structural or semantic properties. | Preservation conformance does not prove chart readability, print correctness, accessibility, pattern grading, or product export behavior. | Do not call a file portable, accessible, print-perfect, or technically complete merely because it is PDF/A-like or opens in one reader. |
+| Stitch & Scale publishing/export contract | 2026-08-19; contract re-read | Export must preserve identity, locale, units, filename, metadata, page breaks, chart legibility, schematic scale, and phone/tablet/desktop/print behavior; rendering alone is insufficient and warnings need owners. | Internal contract; no current export-proof registry entry. | Block any export-portability claim pending exact current capture, file inspection, reader matrix, and human print/chart review. |
+| Stitch & Scale mobile-maker contract | 2026-08-19; contract re-read | Mobile reading should avoid clipped controls and unreadable dense tables, preserve active context, and test interruption/recovery across device conditions. | Internal workflow contract; no proof that every export has passed. | Use a fictional `FILE / READER / PAGE / CHART / METADATA` card and require multi-device review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for portable export, PDF/A, EPUB, embedded resources, reader compatibility, stable metadata, or file-integrity preflight. All 59 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “export quality” into **whether the exported file retains identity, resources, metadata, page/chart meaning, locale labels, and reader behavior after leaving the app**. The fresh concept is `export-portability`: a fictional card places `FILE / READER / PAGE / CHART / METADATA` beside a version and locale. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no PDF/A, EPUB, portability, accessibility, print-perfect, or reader-independent claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `paper-proof`, which focuses on whether a printed page remains usable. `export-portability` changes the pain to **whether a file’s identity, resources, metadata, chart/page meaning, and reader behavior survive before and beyond print**. The hook changes to “Opening the file is not the same as carrying the pattern.” The visual metaphor changes from paper inspection to `FILE / READER / PAGE / CHART / METADATA`. The proof surface changes from a printed-page close-up to one current exported file with manifest/preflight record, version, locale/unit, metadata, embedded resources, page/chart checks, and device/reader review. The emotional turn changes from physical confidence to transport confidence without standards claims. The final line changes to “Check the file after it leaves the app.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale exports are portable, PDF/A-conformant, EPUB-compatible, accessible, print-perfect, or reader-independent without current file proof and human review. Do not equate opening a file with preserving chart scale, semantic structure, locale labels, or metadata. Do not use real customer patterns, private exports, or copyrighted charts without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[188] [W3C — EPUB 3.3](https://www.w3.org/TR/epub-33/)
+
+[189] [Library of Congress — PDF/A-1, PDF for Long-term Preservation](https://www.loc.gov/preservation/digital/formats/fdd/fdd000125.shtml)
+
+[190] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[191] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
