@@ -5822,3 +5822,47 @@ Do not claim that Stitch & Scale currently exposes side-by-side comparison, disc
 ### Research limit
 
 These sources establish integrity, comparison, provenance, responsibility, derivation, and discrepancy concepts, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes side-by-side comparison, discrepancy detection, compare-at timestamp, resolution decision, owner, follow-up, reconciliation status, audit comparison, or integrity outcomes. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-thirty-fourth wide-research question: omitted is not excluded — 20260819-205412
+
+### Research question
+
+When a record is missing from a grading or export result, what proves it was intentionally excluded rather than accidentally omitted?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| NIST CSRC Glossary — Data Integrity | 2026-08-19 | NIST definitions cover data integrity during storage, processing, and transit, including data not changed, destroyed, or lost in unauthorized or accidental ways. | Integrity definition; not a Stitch & Scale filter or export behavior. | Frame missing output membership as an integrity question, not a blank-value question. |
+| NIST SP 800-53 Rev. 5 publication page | 2026-08-19 | NIST describes functionality and assurance separately, lists system/information integrity as a control family, and cautions that mappings do not prove equivalence. | Security/privacy control catalog; not current product evidence. | Require a bounded output scope and evidence of the exclusion decision. |
+| W3C PROV-DM | 2026-08-19 | PROV models entities, activities, usage, generation, derivation, invalidation, and time, allowing a record of what was used, produced, transformed, or made unavailable. | Provenance model; not a current Stitch & Scale data shape. | Treat source record, output activity, and exclusion event as separate illustrative evidence. |
+| W3C PROV-O | 2026-08-19 | PROV-O represents entity/activity/agent responsibility, derivation, generation, usage, invalidation, and interoperable provenance chains. | Ontology reference; not product capability evidence. | Name who reviewed output membership and why a source left the output. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Missing output membership needs intentional scope and reason separated from accidental omission; filters, exports, charts, schematics, and human gates remain distinct. | Internal contracts, not current product behavior. | Block until one source record is traced through inclusion/exclusion and output. |
+
+### Research synthesis and decision shift
+
+Omitted is not excluded. Candidate angle: `exclusion-state`. Hook: “Omitted is not excluded.” Fictional proof surface: `SOURCE / EXPECTED IN OUTPUT / INCLUDED? / EXCLUSION REASON / SCOPE / FILTER / REVIEWED / OUTPUT`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: a source record approaches an output gate; one path is intentional exclusion with reason and scope, the other is an omission that stops for review. Emotional turn: silent-output anxiety becomes bounded export scope. Final line: “Name what left the output.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies output inclusion scope, excluded records, exclusion reasons, filter criteria, review state, or output membership summaries. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `absence-state`, which asks what a non-value means. `exclusion-state` changes the pain to **the explicit decision to leave a source record out of a particular output and the evidence that the omission was not accidental**. It changes the hook to “Omitted is not excluded”; the visual metaphor from a number branching into zero/not entered/not applicable/unknown/not checked to a source record approaching an output gate with an intentional-exclusion path and an omission-review path; the proof surface from value/status/reason/asked/applies/checked/counts-included to source/expected-in-output/included/exclusion-reason/scope/filter/reviewed/output; the emotional turn from false-precision anxiety to bounded export scope; and the final line to “Name what left the output.”
+
+It is distinct from `absence-state`, `dependency-state`, `selection-state`, `preview-state`, `reconciliation-state`, `provenance-chain`, and `actionability-state` because it focuses on output membership and the reason a source was left out, not what a non-value means, which outputs are stale, whether a selection applied, whether a preview survived export, whether two populated records were reconciled, where a fact came from, or whether one finding is actionable. It does not reopen or consume imported reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes output inclusion scope, excluded records, exclusion reasons, filter criteria, review state, output membership summaries, omission detection, or completeness controls. Do not use `SOURCE`, `EXPECTED IN OUTPUT`, `INCLUDED?`, `EXCLUSION REASON`, `SCOPE`, `FILTER`, `REVIEWED`, or `OUTPUT` as current product UI. Do not claim intentional exclusion, omission detection, filter semantics, export membership, output completeness, audit, integrity, completion, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[759] [NIST CSRC Glossary — Data Integrity](https://csrc.nist.gov/glossary/term/data_integrity)
+[760] [NIST — SP 800-53 Rev. 5: Security and Privacy Controls](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
+[761] [W3C — PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/)
+[762] [W3C — PROV-O: The PROV Ontology](https://www.w3.org/TR/prov-o/)
+[763] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish integrity, assurance, output-processing, provenance, usage, derivation, invalidation, and responsibility concepts, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes output inclusion scope, excluded records, exclusion reasons, filter criteria, review state, output membership summaries, omission detection, or completeness controls. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.

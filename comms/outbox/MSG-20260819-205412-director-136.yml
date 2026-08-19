@@ -1,0 +1,19 @@
+message_id: MSG-20260819-205412-director-136
+created_at: 2026-08-19T20:54:12+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_exclusion-state_9x16_v001_blocked_20260819-205412
+parent_id: BRF-founder-proof-exclusion-state-9x16-v001
+status: blocked
+summary: Exclusion-state concept is blocked because no current approved product proof verifies output membership, intentional exclusion reason, scope/filter, review, or resulting output.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass134-browser-findings.md
+  - briefs/SS_founder-proof_exclusion-state_9x16_v001_blocked_20260819-205412.md
+  - scripts/SS_founder-proof_exclusion-state_9x16_v001_blocked_20260819-205412.md
+  - platforms/SS_founder-proof_exclusion-state_9x16_v001_matrix_20260819-205412.md
+  - ledgers/20260819-exclusion-state.md
+  - manifests/SS_founder-proof_exclusion-state_9x16_v001_blocked_20260819-205412.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one source record, expected-output status, inclusion or exclusion decision, reason, scope or filter, review, and resulting output; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
