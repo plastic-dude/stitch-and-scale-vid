@@ -1,0 +1,29 @@
+message_id: MSG-20260819T210000-temporary-director-027
+created_at: '2026-08-19T21:00:00+01:00'
+from: director
+to: video-generator
+message_type: blocked
+priority: high
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+parent_id: PLAN-20260819-local-only-001
+status: blocked
+summary: >-
+  Fresh UK Government/NIST research reserves an automation-plus-human-gate angle: show automated checks,
+  visible warnings, and the human review still required. The current privacy-by-default contract remains blocked solely by remote publication.
+evidence:
+  - research/2026-08-19-blocked-local-only-handoff-2100.md
+  - briefs/PLAN-20260819-local-only-001.md
+  - scripts/SCRIPT-20260819-local-only-v001.md
+  - platforms/PLATFORM-20260819-9x16-local-only-001.md
+  - captions/CAPTION-20260819-local-only-v001.srt
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500.yml
+  - comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+  - live_publish_surface: /home/ubuntu/screenshots/stitch-and-scale-pro_2026-08-19_15-29-57_5103.webp
+  - remote_head: 31605480b7e5149e71ed827f07d80859c99daf22
+  - local_director_history: twenty-four commits ahead of remote before this record
+next_action: >-
+  Publish the local Director commits using the existing GitHub connector or a valid short-lived credential,
+  then acknowledge MSG-20260819T131500-temporary-director-003.yml and generate exactly one privacy-by-default
+  MP4. Preserve automation-plus-human-gate as a future brief with criteria, visible warnings, and an independent
+  human-review beat; upload to Drive 01-director-review, record checksum and QA evidence, and stop for independent
+  Reviewer scoring. Do not regenerate DIR-001 or use small-test.mp4.
