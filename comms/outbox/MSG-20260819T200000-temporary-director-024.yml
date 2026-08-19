@@ -1,0 +1,29 @@
+message_id: MSG-20260819T200000-temporary-director-024
+created_at: '2026-08-19T20:00:00+01:00'
+from: director
+to: video-generator
+message_type: blocked
+priority: high
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+parent_id: PLAN-20260819-local-only-001
+status: blocked
+summary: >-
+  Fresh live Publish research reserves a credibility-with-receipts angle: show automated checks, visible warnings,
+  and the boundary between a score and actual fit or market success. The current privacy-by-default contract remains blocked solely by remote publication.
+evidence:
+  - research/2026-08-19-blocked-local-only-handoff-2000.md
+  - briefs/PLAN-20260819-local-only-001.md
+  - scripts/SCRIPT-20260819-local-only-v001.md
+  - platforms/PLATFORM-20260819-9x16-local-only-001.md
+  - captions/CAPTION-20260819-local-only-v001.srt
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500.yml
+  - comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+  - live_publish_surface: /home/ubuntu/screenshots/stitch-and-scale-pro_2026-08-19_15-29-57_5103.webp
+  - remote_head: e0f5297fbd7dd64481651467269dd0218e20c227
+  - local_director_history: twenty-one commits ahead of remote before this record
+next_action: >-
+  Publish the local Director commits using the existing GitHub connector or a valid short-lived credential,
+  then acknowledge MSG-20260819T131500-temporary-director-003.yml and generate exactly one privacy-by-default
+  MP4. Preserve credibility-with-receipts as a future brief with visible warnings and no fit/market guarantee;
+  upload to Drive 01-director-review, record checksum and QA evidence, and stop for independent Reviewer scoring.
+  Do not regenerate DIR-001 or use small-test.mp4.
