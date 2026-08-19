@@ -4821,3 +4821,55 @@ Do not claim that Stitch & Scale retains, deletes, anonymizes, sanitizes, schedu
 ### Research limit
 
 The ICO page is specific guidance and does not establish a Stitch & Scale retention or legal-compliance feature. NIST SP 800-88 describes media sanitization, not ordinary record retention or product deletion. NARA schedules apply to a federal records-management context and are not a universal private-business rule. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact retention-state surface and labels.
+
+## One-hundred-twelfth wide-research question: a backup is not a restore — 2026-08-19
+
+### Research question
+What distinguishes a backup copy from proven recovery, and how should a trustworthy record name backup scope, snapshot time, storage location, integrity check, restore test, recovered state, RPO, RTO, owner, and status without claiming Stitch & Scale creates, stores, tests, restores, or guarantees backups?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| CISA — Back Up Business Data | Page checked 2026-08-19; current page | CISA defines a backup as a secure copy of critical data stored separately from primary systems. It recommends inventorying what matters, understanding access, using the 3-2-1 rule as a trusted guideline, protecting copies, and performing scheduled recovery tests to verify integrity, full/partial restoration, RPOs, and RTOs. | Business cybersecurity guidance; not evidence of Stitch & Scale backup, cloud sync, encryption, restore, or recovery capability. | Shift the concept from “backup exists” to a backup/recovery record that separates copy, scope, integrity, restore test, recovered state, RPO, RTO, owner, and status. |
+| NIST NCCoE — Protecting Data from Ransomware and Other Data Loss | Published 2020-04-24; page checked 2026-08-19 | NIST describes a backup file as a copy made to facilitate recovery and frames backups as conducted, maintained, and tested under a cybersecurity framework subcategory. It says recommendations are applicable to unique organizational needs. | MSP and cybersecurity context; no universal backup rule and no Stitch & Scale system claim. | Preserve “copy” versus “tested usefulness” and do not invent storage or restore behavior. |
+| NIST — Recovery Time Objective glossary | Definition page checked 2026-08-19; sourced to SP 800-34 Rev. 1 | NIST defines RTO as the overall length of time components can remain in recovery before negatively affecting mission or business processes. | Planning definition, not a measured result or Stitch & Scale target. | Include RTO only as an explicitly fictional planning field; do not claim an observed recovery time. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption and safe-area checks cannot substitute for restore evidence; captions must not cover the fictional backup/recovery record. | Accessibility/platform context; no backup authority. | Preserve proof-safe caption placement and caption-on/caption-free review. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts require local-first persistence, readable export/backup paths, explicit save and recovery feedback, interruption-safe workflows, recorded-versus-estimated labels, and distinct calculation, technical-edit, print, chart, schematic, and test-knit evidence gates. | Internal workflow contracts, not backup infrastructure evidence. | Treat backup and restore as separate evidence states; a stored copy or export is not proven recovery. |
+
+### Research synthesis
+
+CISA and NIST both distinguish a copy from tested recovery usefulness. CISA emphasizes scope inventory, separate storage, integrity, full/partial restore testing, and RPO/RTO planning. NIST defines RTO as a planning threshold for time in recovery, not a product outcome. The visual opportunity is a fictional backup record labelled `ILLUSTRATIVE — NOT PRODUCT UI` with `BACKUP ID / SCOPE / SNAPSHOT AT / STORAGE LOCATION / INTEGRITY CHECK / RESTORE TEST AT / RECOVERED STATE / RPO / RTO / OWNER / STATUS`, ending at `STATUS: RESTORE UNVERIFIED`. Final line: “Name the restore test before you call it recoverable.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying backup, storage, snapshot, integrity, restore-test, recovered-state, RPO, RTO, owner, or backup-status surfaces. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 112 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “backup” into **a copy-versus-recovery evidence record**: the presence of a backup does not silently prove integrity, successful restoration, currentness, recovery point, recovery time, or recoverability. The fresh concept is `backup-state`. No product backup, export, cloud sync, encryption, restore, recovery, RPO/RTO measurement, or disaster-recovery capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `retention-state`, which focuses on why stored material remains and how its purpose, basis, review, access, disposal, and exceptions are bounded. `backup-state` changes the pain to **a copy being treated as recoverable without a scope, snapshot, integrity check, restore test, recovered state, or recovery objective record**. It changes the hook to “A backup is not a restore”; the visual metaphor from a purpose-to-review retention timeline to a backup-to-recovery test path; the proof surface to backup ID, scope, snapshot at, storage location, integrity check, restore test at, recovered state, RPO, RTO, owner, and status; the emotional turn from making continued storage answerable to confronting whether a copy can actually return the work; and the final line to “Name the restore test before you call it recoverable.”
+
+It is distinct from `retention-state` because it is not purpose-bounded storage or disposal; from `withdrawal-state` because it is not permission-change impact; from `recovery-path` candidates because it is not a generic route or owner; from `drift-state` because it is not measurement drift; from `provenance-chain` because it is not source lineage; from `response-state` because it is not operational action lifecycle; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale creates, stores, encrypts, schedules, maintains, tests, restores, syncs, backs up, or guarantees data recovery. Do not use `BACKUP ID`, `SCOPE`, `SNAPSHOT AT`, `STORAGE LOCATION`, `INTEGRITY CHECK`, `RESTORE TEST AT`, `RECOVERED STATE`, `RPO`, `RTO`, `OWNER`, or `RESTORE UNVERIFIED` as current product UI. Do not show recognizable people, private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, music, clips, artwork, or branded property without explicit rights/privacy clearance. Do not invent a 3-2-1 implementation, seven-day rollback, recovery time, recovery point, cloud provider, encryption, or successful restore. Do not make cybersecurity, resilience, disaster-recovery, legal-compliance, quality, fit, accuracy, adoption, revenue, or customer-outcome claims. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[609] [CISA — Back Up Business Data](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/back-up-business-data)
+[610] [NIST NCCoE — Protecting Data from Ransomware and Other Data Loss](https://csrc.nist.gov/pubs/other/2020/04/24/protecting-data-from-ransomware-and-other-data-los/final)
+[611] [NIST CSRC — Recovery Time Objective](https://csrc.nist.gov/glossary/term/recovery_time_objective)
+[612] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[613] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[614] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[615] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[616] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+CISA and NIST provide cybersecurity and contingency-planning guidance, not a Stitch & Scale product specification. RPO and RTO are planning concepts here, not measured outcomes. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact backup-state surface and labels.
