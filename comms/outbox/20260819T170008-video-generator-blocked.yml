@@ -1,0 +1,37 @@
+event_type: video_generator_bounded_run
+run_id: VIDEO-GENERATOR-20260819-170008
+created_at: '2026-08-19T17:00:08+01:00'
+timezone: Africa/Lagos
+channel: canonical_single_chat
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+message: >-
+  One bounded production run completed. No MP4 was generated because no open
+  REMAKE_REQUIRED order and no unprocessed exact approved-for-generation
+  Director brief/script pair existed. DIR-001 was already consumed and was not
+  regenerated. The connected Google Drive archive was verified reachable. No
+  Drive upload was attempted because no authorized MP4 existed. The next run
+  must refresh all refs, prioritize any new REMAKE_REQUIRED order, and then
+  select the earliest newly added exact approved-for-generation pair.
+source_evidence:
+  repository_head_before_run: 31605480b7e5149e71ed827f07d80859c99daf22
+  fetched_refs:
+    - origin/main
+    - origin/director/2026-08-19-release-gate-roster
+    - origin/director/false-completion-human-gates-20260819
+    - origin/director/publication-readiness-second-shift-20260819
+  research_note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-170008.md
+  qa_record: reviews/BLOCKED-no-eligible-director-contract-20260819-170008/generator-check.md
+  manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-170008.yml
+drive:
+  connector_available: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  existing_dir001_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
+  new_upload: false
+git:
+  commit: pending
+  pushed: false
+security:
+  github_token_exposed: false
+  oauth_or_drive_credentials_exposed: false
+next_action: refresh_refs_prioritize_REMAKE_REQUIRED_then_earliest_unprocessed_approved_for_generation
