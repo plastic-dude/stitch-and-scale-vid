@@ -479,3 +479,13 @@ The nearest prior angle is `chart-parity`, which focuses on whether chart counts
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `size-boundary`, which focuses on what supported size range or boundary is available. `fit-intent` changes the pain to whether the number refers to the body, the finished garment, the difference between them, or an intended fit. It changes the hook to “A size number is not a fit instruction,” the visual metaphor from a boundary warning to `BODY / FINISHED GARMENT / EASE / FIT NOTE`, the proof surface from size eligibility/boundary to a sizing, finished-measurement, ease/fit, body-garment, schematic, or size-selection surface, the emotional turn from knowing the available boundary to choosing with context without a fit guarantee, and the final line to “Name the measurement before you name the size.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — work scope — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `work-scope` | A tester can be asked to labor without seeing what is required, optional, due, rewarded, or pausable | “Before you ask for a test, name the work.” | One current, approved test-call scope, required/optional task list, materials/techniques field, deadline/milestone panel, reward/terms panel, or pause/decline path with exact labels | Consent through clarity rather than deadline enforcement or tester-performance judgment | “Make the ask clear enough to accept—or decline.” | blocked; product proof, tester-asset rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `brief-before-knit`, which focuses on whether the designer’s intention and expectations are clear before work begins. `work-scope` changes the pain to the boundary of requested labor: what is required, what is optional, what is due, what is rewarded, and what to do if the scope no longer fits. It changes the hook to “Before you ask for a test, name the work,” the visual metaphor from a design-brief card to `REQUIRED / OPTIONAL / MATERIALS / DEADLINE / REWARD OR TERMS / PAUSE OR ASK`, the proof surface from brief/intention language to a test-call scope, task list, materials/techniques, deadline/milestone, terms, or pause/decline surface, the emotional turn from understanding design intent to consent through clarity, and the final line to “Make the ask clear enough to accept—or decline.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

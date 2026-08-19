@@ -1436,3 +1436,45 @@ Do not claim Stitch & Scale exposes ease, fit intent, body-versus-garment labels
 [128] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [129] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Forty-sixth wide-research question: what exactly is the ask? — 2026-08-19
+
+### Research question
+How can a designer state the required work, optional context, expected effort, and deadline for a test knit so a tester can consent to the scope—without claiming Stitch & Scale estimates tasks or manages deadlines?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers preparing test calls and human review requests. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Yarnpond, “System description” | 2026-08-19; current page checked | Yarnpond describes test-call details including techniques, yarn and needle requirements, deadline, sizes, tester requirements, milestones, and rewards. It also describes designer-controlled milestone dates and updates, tester progress marking, and new-version availability in that system. | Observed platform workflow, not a universal test-knit standard and not Stitch & Scale proof. The page includes capability claims about Yarnpond only. | A fresh concept should separate required work, optional context, deadline, milestone, size, materials, reward, and exit/ask path before requesting tester labor. |
+| Elizabeth Smith Knits, “Do you want to be a test knitter?” | 2026-08-19; URL opened but browser returned no readable article content and no screenshot | The page was located, but no factual claim is taken from it because content did not load in this session. | No evidence from this failed page. | Retain uncertainty; do not cite this page as support. |
+| Craft-business records and mobile-maker contracts | 2026-08-19; internal contracts | Work records should preserve scope, status, dates, human ownership, and next action; mobile surfaces should keep required context visible and avoid hidden obligations. | Internal design contracts, not current UI proof. | Select `work-scope`: make the requested work and boundary legible before labor begins. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for test-call scope, required/optional task lists, materials and techniques fields, deadline/milestone panels, reward/terms panels, pause/decline paths, or task estimates. All 46 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from general brief clarity into **the boundary of requested labor**. The fresh concept is `work-scope`: a fictional request card separates `REQUIRED / OPTIONAL / MATERIALS / DEADLINE / REWARD OR TERMS / PAUSE OR ASK`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product test-call, deadline, reward, or tester workflow is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `brief-before-knit`, which focuses on whether the designer’s intention and expectations are clear before work begins. `work-scope` changes the pain to **the boundary of requested labor: what is required, what is optional, what is due, what is rewarded, and what to do if the scope no longer fits**. The hook changes to “Before you ask for a test, name the work.” The visual metaphor changes from a design-brief card to `REQUIRED / OPTIONAL / MATERIALS / DEADLINE / REWARD OR TERMS / PAUSE OR ASK`. The proof surface changes from brief/intention language to a current test-call scope, required/optional task list, materials and techniques field, deadline/milestone panel, reward/terms panel, or pause/decline path. The emotional turn changes from understanding design intent to consent through clarity. The final line changes to “Make the ask clear enough to accept—or decline.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale manages test calls, deadlines, milestones, rewards, tester applications, pause/decline paths, or task estimates without current proof. Do not imply a tester must finish, that a deadline is reasonable, or that a reward exists. Do not use real tester names, messages, pattern files, photos, or private terms without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[130] [Yarnpond — System description](https://www.yarnpond.com/system_description)
+
+[131] [Elizabeth Smith Knits — Do you want to be a test knitter?](https://elizabethsmithknits.com/testknitting/)
+
+[132] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[133] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
