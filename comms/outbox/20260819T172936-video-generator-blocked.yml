@@ -44,7 +44,7 @@ records:
   research: research/2026-08-19-blocked-no-eligible-director-contract-20260819-172936.md
   manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-172936.yml
   qa: reviews/BLOCKED-no-eligible-director-contract-20260819-172936/generator-check.md
-  final_commit: PENDING
+  final_commit: ceb6092db2d9646b7a455d031cb3dfb18f911c46
 
 next_action: refresh_all_refs_then_prioritize_new_remake_required_or_earliest_new_approved_for_generation_pair
 credential_note: rotate_classic_github_credential_after_use; token_not_exposed

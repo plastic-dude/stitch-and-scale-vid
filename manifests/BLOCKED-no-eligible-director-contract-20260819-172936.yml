@@ -84,5 +84,5 @@ qa:
 traceability:
   research_record: research/2026-08-19-blocked-no-eligible-director-contract-20260819-172936.md
   communication_record: comms/outbox/20260819T172936-video-generator-blocked.yml
-  final_commit: PENDING
+  final_commit: ceb6092db2d9646b7a455d031cb3dfb18f911c46
   next_action: check_for_remake_or_new_approved_director_contract_on_next_firing
