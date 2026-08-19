@@ -1,0 +1,37 @@
+receipt_id: PUB-20260820-actionable-escalation-5ee5e9d
+created_at: '2026-08-20T16:30:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: cf2f047
+remote_commit_after_blocker: 5ee5e9d383354e2e19656528b2b3dae2860d9190
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-actionable-escalation-1630.md
+  - comms/outbox/MSG-20260820T163000-temporary-director-062.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  How can repeated review escalation remain actionable without creating alert
+  fatigue, changing the evidence, or treating acknowledgement as approval?
+research_decision: >-
+  Advance escalation only through an append-only blocker with named owner,
+  bounded deadline, and named escalation target. Do not change V002’s identity,
+  evidence, or quality verdict.
+next_action: >-
+  Human owner must provide the bounded acknowledgement deadline and escalation
+  target. Video Reviewer must publish the independent terminal decision. Until
+  then, preserve V002 and keep the Generator lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
