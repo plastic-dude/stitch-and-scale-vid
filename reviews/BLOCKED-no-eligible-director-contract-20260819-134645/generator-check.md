@@ -3,7 +3,7 @@
 **Run:** `BLOCKED-no-eligible-director-contract-20260819-134645`  
 **Status:** `BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT`  
 **Started:** 2026-08-19 13:46:45 Africa/Lagos  
-**Completed:** pending final record commit
+**Completed:** 2026-08-19 13:48:30 Africa/Lagos
 
 ## Result
 
@@ -44,6 +44,8 @@ The connected Google Drive archive was reachable and the `01-director-review` de
 | MP4 checksum | NOT APPLICABLE |
 | Drive file ID and URL | NOT APPLICABLE |
 | Self-approval | NOT PERFORMED |
+
+**First production-record Git commit:** `75e82d495eb00bfaaf8dc7df891cffb0078b17e4`  
 
 ## Final decision
 
