@@ -1,0 +1,41 @@
+event_id: 20260819T164357-video-generator-blocked
+run_id: VIDEO-GENERATOR-20260819-164357
+timestamp: '2026-08-19T16:43:57+01:00'
+channel: existing-single-chat
+workflow: stitch-and-scale-video-generator
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+message: >-
+  Bounded run stopped with one blocked outcome. No open REMAKE_REQUIRED order
+  and no unprocessed Director brief/script pair with exact
+  approved-for-generation status was found. DIR-001 was already consumed and
+  was not regenerated. No MP4 was created. Google Drive was verified reachable,
+  but no upload was applicable. Fresh WIDE RESEARCH was completed and the
+  records were committed to GitHub.
+queue:
+  refs_checked:
+    - origin/main
+    - origin/director/2026-08-19-release-gate-roster
+    - origin/director/false-completion-human-gates-20260819
+    - origin/director/publication-readiness-second-shift-20260819
+  remake_required_orders: 0
+  eligible_contracts: 0
+  consumed_contract:
+    brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+    script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+    production_id: DIR-001
+research_note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-164357.md
+qa_record: reviews/BLOCKED-no-eligible-director-contract-20260819-164357/generator-check.md
+manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-164357.yml
+drive:
+  connector_status: available
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  new_upload: false
+schedule:
+  task_id: vYATwJ375SsaI2LpkY2lZH
+  interval_seconds: 900
+  run_as_new_task: false
+next_action: >-
+  On the next firing, refresh all refs, prioritize any new REMAKE_REQUIRED order,
+  and otherwise select the earliest newly added exact approved-for-generation
+  Director brief/script pair. Do not regenerate DIR-001.
