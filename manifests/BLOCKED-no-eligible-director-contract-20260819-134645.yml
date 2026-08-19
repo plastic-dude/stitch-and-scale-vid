@@ -1,0 +1,63 @@
+run_id: BLOCKED-no-eligible-director-contract-20260819-134645
+video_id: null
+filename: null
+status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+run_started_at: '2026-08-19T13:46:45+01:00'
+run_completed_at: null
+repository: https://github.com/plastic-dude/stitch-and-scale-vid
+repository_head_before_record: b67a76b8702f4d2ba691fc63c796b8ec6abdfc9f
+source_contract:
+  brief: null
+  script: null
+  source_remake_order: null
+  reason: >-
+    No open REMAKE_REQUIRED order exists. The only approved-for-generation brief/script pair is
+    DIR-001, already produced. Newer publication-readiness materials remain director-review and
+    lack an exact approved-for-generation status.
+queue_evidence:
+  main_approved_pair: PLAN-20260819-spreadsheet-11pm-001 / SCRIPT-20260819-spreadsheet-11pm-v001
+  main_pair_status: approved-for-generation, already consumed by DIR-001
+  fetched_branches_checked: true
+  approved_new_pairs_found: false
+  remake_orders_found: false
+  latest_candidate_status: director-review
+  latest_candidate_blockers:
+    - current product-proof capture not confirmed
+    - rights confirmations not complete
+research:
+  note: research/2026-08-19-blocked-no-eligible-director-contract-134645.md
+  freshness: fresh_for_this_run
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+production:
+  create_video_activated: false
+  mp4_generated: false
+  output_count: 0
+  bounded_outcome_count: 1
+  reason: no_eligible_director_contract
+  duplicate_prevented: DIR-001_not_regenerated
+drive:
+  connector: Google Workspace / Drive
+  archive_folder_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  connectivity_check: PASS
+  upload_status: NOT_ATTEMPTED
+  upload_reason: no_authorized_mp4_existed
+  file_id: null
+  url: null
+  destination_folder_id: null
+  filename: null
+  byte_size: null
+  sha256: null
+git_record:
+  manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-134645.yml
+  research_note: research/2026-08-19-blocked-no-eligible-director-contract-134645.md
+  qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-134645/generator-check.md
+  communication_event: comms/outbox/2026-08-19T134645-video-generator-blocked.yml
+  git_commit: PENDING_FIRST_RECORD_COMMIT
+next_action: >-
+  On the next firing, refresh all branches, prioritize any new REMAKE_REQUIRED order, and otherwise
+  select the earliest newly added Director brief with exact status approved-for-generation. Do not
+  regenerate DIR-001 or use the blocked publication-readiness pair.
