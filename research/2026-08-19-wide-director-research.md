@@ -4331,3 +4331,58 @@ Do not claim that Stitch & Scale performs FMEA/FMECA, hazard analysis, risk scor
 ### Research limit
 
 NASA and NIST sources establish general failure-mode, risk, uncertainty, and traceability concepts but do not establish a Stitch & Scale feature, risk score, safety claim, or mitigation behavior. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact failure-mode surface and labels.
+
+## One-hundred-third wide-research question: a warning needs a trigger — 2026-08-19
+
+### Research question
+When a risk or warning is shown, does the record define the observable threshold or event that changes the status, the action to take, the owner, the deadline, and the review time? How can this be made useful without claiming Stitch & Scale monitors risk, executes mitigation, or establishes a safety posture?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NASA Technical Risk Management | Current page checked 2026-08-19; page dated 2023-07-26 | NASA says risk plans should identify what will trigger actions and how activities will be communicated. It describes thresholds that trigger mitigation action plans, stakeholders, periodic monitoring, and implementation of mitigation/contingency plans. | NASA systems-engineering context; no Stitch & Scale trigger engine, risk monitoring, or mitigation authority is claimed. | Narrow the concept from failure analysis to trigger/action binding: a warning without a threshold or event is not actionable. |
+| NIST Risk Management Framework | Current page checked 2026-08-19; updated 2026-07-24 | NIST describes a flexible, repeatable, measurable seven-step process for managing information-security and privacy risk and links current publications/resources. | Governance framework; no product implementation or NIST conformance is inferred. | Keep the fictional record as a planning principle, not a product risk posture. |
+| NASA Agency Risk Management Office | Current page checked 2026-08-19 | NASA describes objectives-driven risk management with identification, analysis, communication, monitoring, management, leadership, accountability, and updates as risk evolves. | NASA agency context; not a craft-business workflow or product capability. | Include owner, deadline, review time, and evolving status rather than a static warning badge. |
+| NIST Measurement Uncertainty and metrological-traceability guidance from prior pass | Current pages checked 2026-08-19 | Uncertainty and fitness-for-purpose limits affect whether an observable can support an action; traceability does not itself guarantee fitness. | Measurement science does not define an app trigger interface. | Do not treat a threshold as universal; name observable, conditions, and scope. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform failures have specific conditions and response needs. | These checks do not establish risk monitoring or action automation. | Video itself needs a visible trigger/action boundary while retaining caption-safe layout. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts require status ownership, interruption/recovery, truthful blockers, claims boundaries, rights/privacy, caption/audio review, and separate human gates. | Internal operating contracts, not independent validation. | Use `OBSERVABLE / THRESHOLD-OR-EVENT / TRIGGER CONDITION / ACTION / OWNER / DEADLINE / STATUS / REVIEWED AT`. |
+
+### Research synthesis
+
+NASA’s risk guidance distinguishes a warning from an actionable risk record by requiring a trigger or threshold connected to an action, stakeholder, monitoring cadence, and mitigation/contingency plan. NIST supplies a current governance context but does not certify a product. The fresh visual opportunity is a fictional warning card that initially says `WATCH`, then reveals that `TRIGGER CONDITION`, `ACTION`, `OWNER`, `DEADLINE`, and `REVIEWED AT` are blank. The status changes to `WARNING UNBOUND`; no alert sound or safety badge is used. The card is labelled `ILLUSTRATIVE — NOT PRODUCT UI`. Final line: “Name the trigger before you call it actionable.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a risk-trigger record, observable threshold/event, trigger condition, action, owner, deadline, review time, monitoring, or mitigation surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 103 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a general warning/limitation concept into **an unbound warning that cannot become actionable until its observable trigger, response, owner, deadline, and review time are explicit**. The fresh concept is `risk-trigger`: a fictional card refuses the label `ACTIONABLE` while the trigger or action fields are blank. No product monitoring, risk scoring, alerting, or mitigation capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `failure-mode`, which describes a possible scenario, initiating event, failure mode, effect, detection, and mitigation path. `risk-trigger` changes the pain to **a warning being treated as actionable even though the event or threshold that should trigger a response is not defined**. It changes the hook to “A warning needs a trigger”; the visual metaphor from a full failure-mode path to a warning card with a missing trigger-to-action bridge; the proof surface to observable, threshold/event, trigger condition, action, owner, deadline, status, and reviewed-at; the emotional turn from making failure visible to making response conditions explicit; and the final line to “Name the trigger before you call it actionable.”
+
+It is distinct from `failure-mode` because it is not a full scenario/effect analysis; from `evidence-type` because it is not evidence-purpose classification; from `evidence-coverage` because it is not claim-to-evidence mapping; from `provenance-chain` because it is not source-to-result history; from `uncertainty-context` because it is not the meaning of a precise number; from `assumption-register` because it is not a hidden input; from `acceptance-criteria` because it is not pass/fail semantics; from `next-owner` because it is not status ownership alone; from `monitoring`-adjacent concepts because it is the binding of trigger to action, not a promise of continuous monitoring; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale monitors risk, calculates thresholds, triggers alerts, assigns mitigation, executes contingency, or establishes a safety posture. Do not use `ACTIONABLE`, `WARNING UNBOUND`, or any threshold as current product UI. Do not imply that naming a trigger makes a result safe, correct, fit, accurate, accessible, publication-ready, or approved. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party reports without rights/privacy clearance. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[522] [NASA — 6.4 Technical Risk Management](https://www.nasa.gov/reference/6-4-technical-risk-management/)
+[523] [NIST CSRC — Risk Management Framework](https://csrc.nist.gov/projects/risk-management)
+[524] [NASA Safety and Mission Assurance — Risk Management](https://sma.nasa.gov/sma-disciplines/risk-management)
+[525] [NIST — Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty)
+[526] [NIST — Metrological Traceability](https://www.nist.gov/metrology/metrological-traceability)
+[527] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[528] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[529] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[530] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[531] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NASA and NIST sources establish general trigger, threshold, risk-management, monitoring, uncertainty, and traceability concepts but do not establish a Stitch & Scale feature, alert engine, safety posture, or mitigation behavior. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact risk-trigger surface and labels.
