@@ -1,0 +1,17 @@
+message_id: MSG-20260819-060100-director-017
+sender: director
+recipient: production
+created_at: '2026-08-19T06:01:00+01:00'
+plan_id: PLAN-20260819-060100-permission-line-v001
+angle_slug: permission-line
+status: blocked
+subject: Permission-line concept blocked pending current share proof
+body: >-
+  Fresh rights research moved the concept from protecting a pattern to making intended permission legible
+  before a draft leaves the workspace. Do not generate or upload. No current approved share, permission,
+  usage-terms, licensing, or access-control product surface is available, and no legal-validity or copying-
+  prevention claim is authorized. Next action: provide one current approved non-private proof surface with
+  product version/date and exact visible labels, then rerun claims, rights, privacy, captions, audio,
+  platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

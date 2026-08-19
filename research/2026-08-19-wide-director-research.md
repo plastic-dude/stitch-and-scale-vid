@@ -377,3 +377,42 @@ Research changed the concept from a broad supply-chain/trust story to **small-wo
 [33] [Fashion for Good — Transparency and Traceability](https://www.fashionforgood.com/topic_area/transparency-and-traceability/)
 
 [34] [ScienceDirect — A RFID-case-based sample management system for fashion product development](https://www.sciencedirect.com/science/article/pii/S0952197608001656)
+
+## Fifteenth wide-research question: permission travels with the pattern — 2026-08-19
+
+### Research question
+How can an independent designer share a draft, pattern, image, or collaborator handoff while making the intended permission visible, without turning a planning video into jurisdiction-specific legal advice or claiming Stitch & Scale has rights-management controls?
+
+### Evidence gathered so far
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Anti Copying in Design (ACID), “What Intellectual Property (IP) Protection Do Crochet and Knitting Designs Have?” | 2026-08-19; live page dated Feb. 23, 2026 | ACID’s UK-focused guide says copyright can protect original written patterns, charts, diagrams, and original stitch arrangements; it distinguishes protected creative works from individual stitches, techniques, and methods. It says buyers generally receive a licence to use a pattern rather than copyright itself, and stresses clear permissions, dated drafts, notes, photographs, and evidence trails. | UK-focused member/trade guidance, not universal law and not legal advice for the user’s jurisdiction. It does not prove Stitch & Scale has permission controls, watermarking, licensing, or rights metadata. | The next concept should focus on **permission clarity**, not legal protection or infringement enforcement: a share action must say what is being shared, with whom, and for what allowed use. Product proof remains mandatory. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for draft sharing, collaborator permissions, export audience, rights metadata, usage terms, access controls, or pattern licensing. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Provisional creative direction
+The provisional concept is **`permission-line`**: the tension is a draft leaving the designer’s workspace while the intended permission remains ambiguous. The hook candidate is “Sharing the pattern is not the same as giving away the right to use it.” The visual metaphor is a draft envelope with three separate cards—`VIEW`, `EDIT`, `SHARE`—and a handwritten `ASK FIRST` boundary. The proof surface would be one current approved share/permission or usage-terms surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+The concept is intended to be distinct from `sample-chain` because it concerns permission semantics for digital or draft sharing, not the physical location and return of a sample. It is distinct from `recovery-proof` because it concerns who may use a work, not whether the work can be restored. It is not an infringement, legal-outcome, or rights-guarantee story.
+
+### Research decision pending
+The research direction is sufficiently distinct to continue, but no final angle will be selected until a second authoritative source is checked. The script must not claim that any permission is legally valid, that a platform prevents copying, or that Stitch & Scale controls access without current product proof.
+
+### References
+
+[35] [Anti Copying in Design (ACID) — What Intellectual Property (IP) Protection Do Crochet and Knitting Designs Have?](https://www.acid.uk.com/what-intellectual-property-ip-protection-do-crochet-and-knitting-designs-have/)
+
+### Cross-check: UK Intellectual Property Office / GOV.UK KAM Guide
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| GOV.UK / Intellectual Property Office, “KAM Guide: Intellectual property management” | 2026-08-19; live government guidance | The guide separates intellectual-property rights, copyright, confidential information, disclosure, identification/control, and infringement/defence as distinct management areas. Its structure supports treating disclosure and permissions as explicit workflow decisions rather than assuming that a file’s existence explains who may use it. | UK government guidance; not universal legal advice and not a product specification. It does not prove any rights-management feature in Stitch & Scale. | Finalize `permission-line` as a rights-aware workflow story: define the intended permission before sharing, keep evidence of the draft, and do not imply legal validity or platform enforcement. |
+
+### Final research decision
+The concept is **`permission-line`**. The research changed the direction from “protect the pattern” to “make the permission legible before the pattern leaves.” The script may distinguish `VIEW`, `EDIT`, and `SHARE` as illustrative permission questions, but it must not present them as current product controls or legally sufficient terms. A current approved share/permission/usage surface is mandatory for any product insert.
+
+### References
+
+[36] [GOV.UK / Intellectual Property Office — KAM Guide: Intellectual property management](https://www.gov.uk/government/publications/knowledge-asset-management-kam-hub/kam-guide-intellectual-property-management)
