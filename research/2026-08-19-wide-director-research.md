@@ -5208,3 +5208,47 @@ Do not claim that Stitch & Scale currently exposes origin markers, dirty flags, 
 ### Research limit
 
 These sources establish form-state, input-purpose, autofill, and data-origin principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes origin markers, dirty flags, autofill semantics, input-purpose metadata, or origin-aware grading/export. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-twentieth wide-research question: within range is not understood — 20260819-191624
+
+### Research question
+
+When a knitwear measurement differs from a target, what proves whether the difference is intentional ease, allowed tolerance, measurement uncertainty, rounding, or an actual failure?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| NIST — Measurement Uncertainty | 2026-08-19; page updated 2025-03-17 | A measurement has numerical magnitude and a reference; uncertainty characterizes dispersion of values reasonably attributable to the measurand and reflects incomplete knowledge. | Metrology guidance; not a Stitch & Scale product claim. | Make the concept about the decision boundary and its explanation, not a generic error badge. |
+| NIST — Guidelines for Expressing Measurement Uncertainties and 4:1 Test Uncertainty Ratio | 2026-08-19 | The method used to calculate uncertainty affects reported uncertainty and its relationship with tolerance; smaller reported uncertainty alone does not prove better measurement quality. | Calibration context; not a product behavior claim. | Show uncertainty and tolerance as separate cards. |
+| Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet | 2026-08-19 | Grading separates body measurements, intended ease, finished measurements, gauge, conversions, and stitch/row calculations; ease is a design choice and can be positive, negative, or zero. | Practitioner education, not a standard and not Stitch & Scale evidence. | Make intentional ease distinct from an error or failure. |
+| W3C WCAG 2.2 — Error Identification | 2026-08-19 | Automatically detected input errors should identify the affected item and describe the error in text; a value automatically changed into an allowed range still requires describing the change. | Accessibility guidance; no product evidence. | Require a textual reason and corrected action rather than color-only pass/fail. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Grading, gauge, ease, measurements, charts, schematics, exports, and human reviews remain separate evidence boundaries; a displayed state is not physical or technical proof. | Internal contracts, not current product behavior. | Block until one target/observed comparison and downstream use are directly verified. |
+
+### Research synthesis and decision shift
+
+Within range is not understood. Candidate angle: `tolerance-state`. Hook: “Within range is not understood.” Fictional proof surface: `TARGET / OBSERVED / DIFFERENCE / EASE OR TOLERANCE / UNCERTAINTY / ROUNDING / DECISION / EXPLANATION`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: observed value, target, and uncertainty band meet an intentional ease/tolerance band; the decision pauses until its reason is named. Emotional turn: a pass/fail verdict becomes an explainable measurement decision. Final line: “Name the range before you call it a failure.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies target/observed comparison, tolerance or ease bands, uncertainty display, rounding explanation, decision reasons, or accessible error text. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `input-state`, which concerns whether a visible value was manually entered, defaulted, copied, inherited, estimated, autofilled, or system-derived. `tolerance-state` changes the pain to **a difference from target being called a failure without naming ease, tolerance, uncertainty, rounding, or decision reason**. It changes the hook to “Within range is not understood”; the visual metaphor from an origin branch before downstream use to target/observed bands meeting at a decision boundary; the proof surface from origin/actor/default/copy/inheritance/estimate/review/use to target/observed/difference/ease-or-tolerance/uncertainty/rounding/decision/explanation; the emotional turn from silent assumption to explainable measurement decision; and the final line to “Name the range before you call it a failure.”
+
+It is distinct from `acceptance-criteria`, `rounding-rule`, `uncertainty-context`, `fit-intent`, `comparison-frame`, `value-state`, `gauge-reality`, and `absence-state` because those concepts respectively concern pass requirements, precision changes, uncertainty context, intended fit, comparison setup, semantic value type, gauge observation, and non-values. `tolerance-state` focuses on the boundary between target, observed difference, intentional ease/tolerance, uncertainty, rounding, and explanation. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes tolerance/ease bands, target/observed comparisons, uncertainty, rounding explanations, decision reasons, accessible error text, or pass/fail controls. Do not use `TARGET`, `OBSERVED`, `DIFFERENCE`, `EASE OR TOLERANCE`, `UNCERTAINTY`, `ROUNDING`, `DECISION`, or `EXPLANATION` as current product UI. Do not claim fit, measurement quality, calculation accuracy, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[689] [NIST — Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty)
+[690] [NIST — Guidelines for Expressing Measurement Uncertainties and 4:1 Test Uncertainty Ratio](https://www.nist.gov/publications/guidelines-expressing-measurement-uncertainties-and-41-test-uncertainty-ratio)
+[691] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+[692] [W3C — Understanding Success Criterion 3.3.1: Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
+[693] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish measurement-uncertainty, tolerance, ease, comparison, and error-language principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes tolerance bands, ease fields, uncertainty, target/observed comparisons, decision explanations, or accessible pass/fail controls. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
