@@ -121,3 +121,21 @@ The research supports a film about making the target fabric visible, but it does
 [11] [Craft Yarn Council — Standard Yarn Weight System](https://www.craftyarncouncil.com/standards/yarn-weight-system)
 
 [12] [Purl Soho — Yarn Substitution Made Easy](https://www.purlsoho.com/create/yarn-substitution-made-easy/)
+
+## Fifth wide-research question: readability under real conditions
+
+A fresh question examined how pattern readers use instructions in bright studios, on small screens, with low vision, or while attention is split between text, charts, hands, and fabric. W3C WCAG 2.2 guidance states a 4.5:1 minimum contrast ratio for normal text and images of text, with exceptions for large text, incidental text, and logos; it also notes that images of text do not scale as well as real text and can make contrast changes harder. Source: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
+
+A knitwear-specific accessibility discussion by Kate Atherley on Stitchmastery describes low-vision layouts as cleaner and easier to read, recommends uncluttered single-column presentation, large sans-serif or monospaced text, defined abbreviations, full written instructions alongside charts, large chart keys, and testing a pattern with charts removed. It also distinguishes accessibility presentation from a claim about a particular user. Source: https://stitchmastery.com/on-accessibility-guest-post-by-kate-atherley/
+
+## Research decision changed
+
+The next distinct opportunity is **readability under load**: a pattern can be mathematically sound and still fail a reader when text, chart, key, hands, light, and attention compete. This is distinct from reader-handoff because it focuses on legibility and cognitive/visual load rather than meaning transfer alone; distinct from locale drift because the words need not change; distinct from gauge-reality because the fabric is not the obstacle; and distinct from correction-trace because no post-release change is required.
+
+The research does not prove that Stitch & Scale currently provides an accessible PDF mode, reflow, contrast checking, low-vision layout, or chart-to-text equivalence. Those claims remain blocked without current product proof.
+
+## References
+
+[13] [W3C WCAG 2.2 — Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
+
+[14] [Stitchmastery — On accessibility, guest post by Kate Atherley](https://stitchmastery.com/on-accessibility-guest-post-by-kate-atherley/)

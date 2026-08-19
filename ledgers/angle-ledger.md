@@ -69,3 +69,13 @@ The nearest prior angle is `reader-handoff`, which focuses on a reader interpret
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `locale-drift`, which focuses on pattern meaning changing across locale terminology and keys. `gauge-reality` changes the pain to material behavior being mistaken for a category label, the hook to same weight producing a different fabric, the visual metaphor from aligned locale pages to label-to-swatch transformation, the proof surface from locale/export comparison to gauge, swatch, substitution, yarn, or preflight evidence, the emotional turn from inclusive language confidence to tactile material confidence, and the final line to “Show me the fabric the label cannot.” It remains blocked until current product proof and asset rights are verified.
+
+## Wide-research Director decision — readability under load — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `readability-under-load` | A pattern can be mathematically correct yet difficult to use when chart, key, text, hands, light, and attention compete | “A pattern can be correct and still be hard to use.” | One current, readable accessible-PDF, contrast, reflow, chart/key, or publication-preflight surface | Relief through uncluttered use rather than a compliance badge | “Make the next line easy to find.” | blocked; proof missing; distinct from `locale-drift` and `gauge-reality` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `locale-drift`, which focuses on meaning changing across locale terminology and keys. `readability-under-load` changes the pain to visual and cognitive load during real use, the hook to correctness not guaranteeing usability, the visual metaphor from aligned locale pages to a page competing with glare, zoom, hands, chart, and key, the proof surface from locale/export comparison to accessible-PDF, contrast, reflow, chart/key, or preflight evidence, the emotional turn from inclusive language confidence to relief through uncluttered use, and the final line to “Make the next line easy to find.” The package is blocked until current product proof verifies the surface.
