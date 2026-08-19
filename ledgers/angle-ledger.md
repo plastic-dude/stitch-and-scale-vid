@@ -89,3 +89,13 @@ The nearest prior angle is `locale-drift`, which focuses on meaning changing acr
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `readability-under-load`, which focuses on legibility and cognitive/visual load. `chart-parity` changes the pain to semantic divergence between two representations, the hook to two forms agreeing, the visual metaphor from a busy page becoming clear to chart and text snapping into alignment at a boundary, the proof surface from accessible-PDF or contrast behavior to chart/written comparison and repeat logic, the emotional turn from relief through readability to trust through equivalence, and the final line to “Show me where the chart and the words agree.” It remains blocked until current proof verifies the surface.
+
+## Wide-research Director decision — offline continuity — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `offline-continuity` | A critical local task or record can become ambiguous when connectivity disappears and local, pending, stale, and remote states are not explicit | “The signal can disappear without taking the work with it.” | One current, readable local/offline/freshness/synchronization surface | Calm resilience through honest state visibility rather than silent magic | “Show me what stayed safe when the signal left.” | blocked; proof missing; distinct from `correction-trace` and `readability-under-load` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `correction-trace`, which focuses on a known post-release change and which copy carries it. `offline-continuity` changes the pain to work continuity under intermittent connectivity, the hook to signal loss not taking the work, the visual metaphor from old/new copies to device state moving from connected to local and honestly labeled pending/stale, the proof surface from version/errata to local/offline/freshness/synchronization behavior, the emotional turn from maintenance accountability to calm resilience, and the final line to “Show me what stayed safe when the signal left.” It remains blocked until current product proof verifies the surface.

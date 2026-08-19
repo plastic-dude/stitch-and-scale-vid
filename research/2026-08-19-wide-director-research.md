@@ -157,3 +157,21 @@ The research does not prove that Stitch & Scale currently compares chart and wri
 [15] [Stitchmastery — On Writing Instructions for Using Charts](https://stitchmastery.com/on-writing-instructions-for-using-charts-post-by-kate-atherley/)
 
 [16] [Brooklyn Tweed — How To: Reading Charts](https://brooklyntweed.com/pages/reading-charts)
+
+## Seventh wide-research question: continuity when connectivity disappears
+
+A fresh question examined how an independent designer keeps working when studio, workshop, market, or travel connectivity is intermittent. MDN explains that offline operation in a PWA depends on a service worker and local caching, and that cache-first or network-first choices create different freshness and fallback behavior. It warns that a cache-first approach can return stale responses, so offline support must be designed with its use case in mind. Source: https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation
+
+Android’s current offline-first architecture guidance defines offline-first as keeping all or a critical subset of core functionality usable without internet access. It recommends local data immediately, a local data source as the canonical source for reads, and explicit handling of the fact that local state can lag network state until connectivity returns. Source: https://developer.android.com/topic/architecture/data-layer/offline-first
+
+## Research decision changed
+
+The next distinct opportunity is **offline continuity**: the real story is not “the app works offline” as a slogan, but whether a designer can keep a local record safe, know what is local or stale, and continue a critical task without pretending synchronization already happened. This is distinct from correction trace because it concerns connectivity state rather than post-release updates; distinct from readability, chart parity, locale, and gauge because the obstacle is continuity of work; and distinct from human-gate concepts because it does not claim the app replaces review.
+
+The research does not prove that Stitch & Scale currently provides complete offline operation, background sync, conflict resolution, or a freshness indicator. Those claims remain blocked without current product proof.
+
+## References
+
+[17] [MDN — Offline and background operation](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation)
+
+[18] [Android Developers — Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first)
