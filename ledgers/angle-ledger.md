@@ -619,3 +619,13 @@ The nearest prior angle is `hands-busy`, which focuses on what survives while a 
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `paper-proof`, which focuses on whether a printed page remains usable. `export-portability` changes the pain to whether a file’s identity, resources, metadata, page/chart meaning, and reader behavior survive before and beyond print. It changes the hook to “Opening the file is not the same as carrying the pattern,” the visual metaphor from paper inspection to `FILE / READER / PAGE / CHART / METADATA`, the proof surface from a printed-page close-up to a current exported file with manifest/preflight record, version, locale/unit, metadata, embedded resources, page/chart checks, and device/reader review, the emotional turn from physical confidence to transport confidence without standards claims, and the final line to “Check the file after it leaves the app.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — care path — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `care-path` | A maker cannot tell which source and evidence support a washing or blocking decision, or whether yarn-label guidance is being mistaken for finished-garment proof | “The yarn label is not the finished garment.” | One current, approved care/evidence surface with source, method, warning, date, and evidence labels | Pausing before irreversible care without a universal method | “Name the evidence before you wash the work.” | blocked; product proof, qualified care review, rights/privacy, export/print review, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `prerequisite-state`, which focuses on what must be true before a workflow step. `care-path` changes the pain to which source and evidence support a washing or blocking decision, and whether yarn-label guidance is being mistaken for finished-garment proof. It changes the hook to “The yarn label is not the finished garment,” the visual metaphor from readiness state to `YARN LABEL / FINISHED PIECE / METHOD / WARNING / EVIDENCE`, the proof surface from a prerequisite card to a care/evidence surface with source, date, method, warning, and test status, the emotional turn from step readiness to pausing before irreversible care without a universal method, and the final line to “Name the evidence before you wash the work.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

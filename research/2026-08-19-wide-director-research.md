@@ -2041,3 +2041,48 @@ Do not claim Stitch & Scale exports are portable, PDF/A-conformant, EPUB-compati
 [190] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [191] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Sixtieth wide-research question: what evidence supports the wash? — 2026-08-19
+
+### Research question
+Before a finished knit is washed or blocked, how can a maker distinguish yarn-label care, finished-garment care, blocking method, warning, and evidence status—without claiming Stitch & Scale provides care instructions, textile compliance, or wash prediction?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers preparing a swatch or finished garment for washing, blocking, or care documentation. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Federal Trade Commission, “Clothes Captioning: Complying with the Care Labeling Rule” | 2026-08-19; current page checked | FTC says its Care Labeling Rule requires manufacturers/importers to attach care instructions to covered garments and piece goods; instructions/warnings need a reasonable basis and reliable evidence for the whole garment when components differ. | U.S.-specific regulatory guidance with defined scope; not a universal global rule, knitwear pattern contract, or Stitch & Scale proof. | Separate yarn-label evidence, finished-garment care instruction, warning, and test/evidence status; never present a guessed wash method as safe. |
+| Craft Yarn Council, “Care Symbols” | 2026-08-19; page checked | CYC identifies five basic care-symbol categories: washing, bleaching, drying, ironing, and professional textile care. | Category guidance does not determine a specific yarn, blend, finished garment, blocking method, or care instruction. | Use `YARN LABEL / FINISHED PIECE / METHOD / WARNING / EVIDENCE` as distinct fictional fields. |
+| Stitch & Scale pattern-QA and craft-business-records contracts | 2026-08-19; contracts re-read | Human test knitting, technical editing, physical print review, and record source/evidence status remain separate; recorded facts must be distinguished from estimates and assumptions. | Internal contracts; no current care-instruction, yarn-label, or wash-evidence product surface is proven. | Block care-instruction, wash-prediction, or compliance claims pending exact proof and human evidence. |
+| Stitch & Scale publishing/export and mobile-maker contracts | 2026-08-19; contracts re-read | Export must keep labels, units, locale, and warnings readable across phone, tablet, desktop, print, and long text; mobile workflows keep context adjacent and feedback visible. | Internal quality contract; no product proof. | Use close, readable care cards; preserve captions, warnings, and print review as separate gates. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for yarn-label care, finished-garment care, wash/block method, warnings, care-symbol interpretation, evidence status, wash prediction, or textile compliance. All 60 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “care instructions” into **whether a care action is supported by the right material and finished-garment evidence rather than a copied or guessed symbol**. The fresh concept is `care-path`: a fictional card places `YARN LABEL / FINISHED PIECE / METHOD / WARNING / EVIDENCE` beside a source/date. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no wash prediction, textile compliance, or safe-care outcome is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `prerequisite-state`, which focuses on what must be true before a workflow step. `care-path` changes the pain to **which source and evidence support a washing or blocking decision, and whether yarn-label guidance is being mistaken for finished-garment proof**. The hook changes to “The yarn label is not the finished garment.” The visual metaphor changes from readiness state to `YARN LABEL / FINISHED PIECE / METHOD / WARNING / EVIDENCE`. The proof surface changes from a prerequisite card to a current care/evidence surface with source, date, method, warning, and test status. The emotional turn changes from step readiness to pausing before irreversible care without a universal method. The final line changes to “Name the evidence before you wash the work.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale provides wash instructions, blocking recommendations, care-symbol interpretation for every yarn, textile compliance, damage prediction, or safe finished-garment outcomes without current product proof and qualified review. Do not apply a yarn-label symbol automatically to every finished garment. Do not use real customer projects, private yarn labels, or care instructions without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[192] [Federal Trade Commission — Clothes Captioning: Complying with the Care Labeling Rule](https://www.ftc.gov/business-guidance/resources/clothes-captioning-complying-care-labeling-rule)
+
+[193] [Craft Yarn Council — Care Symbols](https://www.craftyarncouncil.com/standards/care-symbols)
+
+[194] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[195] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[196] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
