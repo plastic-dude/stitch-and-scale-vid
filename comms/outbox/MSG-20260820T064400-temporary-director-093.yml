@@ -1,0 +1,60 @@
+message_id: MSG-20260820T064400-temporary-director-093
+created_at: '2026-08-20T06:44:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains open and non-terminal. Repeated holds with no materially new
+  state must be deduplicated; they cannot substitute for the named owner
+  callback, bounded deadline, escalation target, or independent Reviewer
+  terminal decision required to clear the lane.
+research:
+  - research/2026-08-20-review-lane-deduplication-terminal-state-0644.md
+immutable_evidence:
+  - comms/outbox/2026-08-19T174800-video-generator-director-review.yml
+  - reviews/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800/generator-check.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.yml
+  - governance/publication-receipt-20260820-review-hold-signal-d9da246.yml
+required_material_state:
+  owner_callback:
+    responsible_owner: null
+    bounded_review_deadline: null
+    escalation_target: null
+    acknowledgement_is_not_quality_verdict: true
+  reviewer_callback:
+    terminal_decision: null
+    permitted_terminal_events:
+      - explicit_independent_reviewer_approval
+      - explicit_independent_reviewer_rejection
+      - explicit_REMAKE_REQUIRED_order
+      - explicit_published_terminal_resolution
+non_terminal_events:
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+  - repeated_hold_record_without_new_state
+next_action: >-
+  Human owner must publish the missing accountable owner, bounded deadline, and
+  escalation target. Video Reviewer must publish the independent terminal
+  decision packet. Until then preserve V002’s Drive ID, SHA-256, and immutable
+  evidence. Do not create a brief, generate an MP4, self-approve, reject, or
+  remake.
+escalation_rule: >-
+  A future timeout escalation is valid only after a bounded deadline exists and
+  must reference the unchanged video_id, checksum, and evidence. It is metadata
+  for escalation, never a terminal quality decision.
+constraints:
+  - append_only
+  - preserve_v002_identity_and_checksum
+  - preserve_reviewer_evidence
+  - deduplicate_no_new_state
+  - single_flight_lane_closed
+  - no_duplicate_brief_or_filename
+  - no_generation_without_terminal_review_state
+  - no_silent_approval
+  - no_force_push
+  - no_credentials
