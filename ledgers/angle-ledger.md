@@ -289,3 +289,13 @@ The nearest prior angle is `measurement-moment`, which concerns preserving a cap
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `source-note`, which concerns where a statement came from and whether it was rechecked. `as-of` changes the pain to a visible note being treated as current merely because it is visible, the hook to “Visible is not the same as current,” the visual metaphor from source tabs to `AS OF / REVISION / REVIEWED?` with an unanswered `CURRENT?`, the proof surface from provenance/evidence status to as-of/version/revision/review state, the emotional turn from source humility to time-aware orientation, and the final line to “Name the revision. Mark the moment.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — notation key — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `notation-key` | Shorthand can appear familiar while its local meaning is absent or inconsistent | “Shorter words need a longer welcome.” | One current, approved abbreviation, notation, terminology, or key surface with exact labels | Generous definition before decoding rather than validation certainty | “Define the shorthand. Keep the maker moving.” | blocked; product proof, notation-rights review, and understanding wording missing; distinct from `readability-under-load`, `chart-parity`, `equivalent-meaning`, `source-note`, `as-of`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `readability-under-load`, which concerns legibility and comprehension under dense or mobile reading conditions. `notation-key` changes the pain to shorthand appearing familiar while its local meaning is absent or inconsistent, the hook to “Shorter words need a longer welcome,” the visual metaphor from dense reading to `KEY / FIRST USE / LOCAL TERM / RECHECK`, the proof surface from typography/readability to abbreviation/notation/terminology/key, the emotional turn from calm pacing to generous definition before decoding, and the final line to “Define the shorthand. Keep the maker moving.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

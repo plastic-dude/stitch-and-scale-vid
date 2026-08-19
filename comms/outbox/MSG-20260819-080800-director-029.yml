@@ -1,0 +1,17 @@
+message_id: MSG-20260819-080800-director-029
+sender: director
+recipient: production
+created_at: '2026-08-19T08:08:00+01:00'
+plan_id: PLAN-20260819-080800-notation-key-v001
+angle_slug: notation-key
+status: blocked
+subject: Notation-key concept blocked pending current terminology proof
+body: >-
+  Fresh CYC abbreviation and Digital.gov plain-language research moved the concept from generic pattern
+  readability into local notation meaning plus understanding review. Do not generate or upload. No current
+  approved abbreviation, notation, terminology, or key surface is available, and no terminology-validation,
+  correctness, universal-readability, or accessibility-compliance claim is authorized. Next action: provide one
+  current approved non-private proof surface with product version/date and exact visible labels, then rerun
+  claims, source rights, privacy, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

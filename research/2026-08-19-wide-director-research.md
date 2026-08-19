@@ -724,3 +724,31 @@ Research changed the concept from generic version history into **currentness lab
 [57] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
 
 [58] [GOV.UK Content and Publishing Guidance — Writing to GOV.UK standards](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/)
+
+## Twenty-seventh wide-research question: does the shorthand carry its meaning? — 2026-08-19
+
+### Research question
+How can a knitting pattern keep an abbreviation or symbol interpretable across the document without claiming Stitch & Scale validates terminology, chart correctness, or universal readability?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Knitting Abbreviations Master List” | 2026-08-19; live page | CYC publishes a table mapping knitting abbreviations such as `k`, `p`, `inc`, `dec`, `k2tog`, `ssk`, and `yo` to descriptions. It notes that designers may use special abbreviations not found on the list and that a definition is generally given at the beginning of a book or pattern. | CYC reference guidance, not proof of a current Stitch & Scale terminology key, abbreviation validator, or correctness. Special abbreviations remain pattern-specific. | The concept should make a notation key and local definition explicit, with no “standard means verified” inference. Use original typography rather than CYC symbol artwork. |
+| Digital.gov, “Plain language guide series” | 2026-08-19; live page | Digital.gov describes plain language as clear and easy to understand, emphasizes audience-specific content, and provides separate guidance for principles, writing, design, and testing for understanding. | U.S. government communication guidance, not craft-specific, not a legal conclusion for this product, and not proof of a pattern-language validator. | Add a human read-through or maker-understanding review gate; show notation clarity as a communication task, not an accuracy or accessibility guarantee. |
+| Local pattern QA and mobile-maker contracts | 2026-08-19; repository source | Pattern QA must preserve canonical data shapes, chart/readability checks, localization, and human technical editing; mobile surfaces must keep active context and labels visible. | Internal workflow guidance, not proof of current notation support. | The proof surface must be a current approved abbreviation/notation/key surface; absent proof, use a blocker card. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for abbreviation keys, custom notation definitions, term consistency, chart-symbol explanations, localized terminology, or notation validation. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`notation-key`**: the tension is shorthand appearing familiar while its local meaning is absent or inconsistent. The hook is “Shorter words need a longer welcome.” The visual metaphor is a fictional instruction line splitting into `KEY / FIRST USE / LOCAL TERM / RECHECK`, with a definition card instead of a correctness badge. The proof surface must be one current, approved abbreviation, notation, terminology, or key surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic pattern readability into **local notation meaning plus understanding review**. The script must not claim terminology validation, correctness, universal readability, or accessibility compliance. It may ask a designer to define special shorthand at first use and test whether a maker understands it, then invite current product proof for the exact surface.
+
+### References
+
+[59] [Craft Yarn Council — Knitting Abbreviations Master List](https://www.craftyarncouncil.com/standards/knitting-abbreviations)
+
+[60] [Digital.gov — Plain language guide series](https://digital.gov/guides/plain-language)
