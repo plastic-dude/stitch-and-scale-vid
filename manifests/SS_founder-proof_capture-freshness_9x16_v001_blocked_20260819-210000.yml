@@ -1,0 +1,58 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-210000-capture-freshness-v001
+angle_slug: capture-freshness
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_capture-freshness_9x16_v001_blocked_20260819-210000.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_artifact_surface_status: missing
+capture_status: missing
+product_version_status: missing
+captured_at_status: missing
+source_status: missing
+device_viewport_status: missing
+scope_status: missing
+known_limits_status: missing
+reviewed_at_status: missing
+proof_status: missing
+rights_status: missing
+notes_status: missing
+freshness_semantics_status: missing
+currentness_status: unverified
+completeness_status: unverified
+accessibility_status: unverified
+release_state_status: unverified
+provenance_status: unverified
+proof_registry_status: unverified
+product_version: null
+proof_capture_approved: false
+technical_editorial_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no proof registry, stale-capture invalidation, lineage tracking, currentness, completeness, accessibility, or release-state claim
+  - NIST provenance guidance is context, not product behavior or proof-artifact standard
+  - GitHub release/tag guidance is context, not product behavior or a freshness guarantee
+  - version/date do not prove current UI, feature completeness, or accessibility
+  - fictional proof-artifact cards are not product UI, current captures, or completeness evidence
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private proof-artifact package with exact capture/product-version/captured-at/source/device-or-viewport/scope/known-limits/reviewed-at/status/rights/notes labels and evidence that currentness and completeness are not being inferred, then rerun product/data, rights/privacy, claims, caption, audio, platform, and Director gates.

@@ -3304,3 +3304,57 @@ Do not claim Stitch & Scale attaches comments to lines, detects stale feedback, 
 [365] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [366] [Stitch & Scale — Pattern QA, publishing/export, and mobile-maker contracts](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## Eighty-fifth wide-research question: a screenshot has a date, not a warranty — 2026-08-19
+
+### Research question
+How can a product capture, screenshot, or proof card be dated, versioned, and bounded so viewers know what it proves and what it does not, without implying that Stitch & Scale captures remain current or represent all product behavior?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and early testers evaluating a local-first pattern workflow or reviewing planning proof on phone, tablet, or desktop. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and evidence-aware. The brief tier is a standard single-original-video planning package. No currentness guarantee, complete feature coverage, accessibility conformance, adoption, accuracy, or customer-outcome claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| NIST CSRC Glossary, “data provenance” | 2026-08-19; current page checked | NIST defines data provenance in the cited context as information about how information was generated, transmitted, and stored, allowing its origin to be traced; the page directs readers to the source document for context. | Cybersecurity/law-enforcement glossary context, not a product screenshot standard, currentness guarantee, or Stitch & Scale feature. | Preserve origin, generation/capture time, transmission/storage path where relevant, version, source, and scope; provenance metadata does not prove the captured behavior remains current. |
+| GitHub Docs, “About releases” | 2026-08-19; current page checked | GitHub describes releases as deployable iterations based on Git tags marking a specific repository point; tag date may differ from release date, and release assets show creation dates. | GitHub release/tag semantics are not a Stitch & Scale capture registry, freshness guarantee, or proof that a screenshot covers every feature. | Preserve product version, capture time, release/tag, asset date, and reviewed-at separately; do not treat a release label or asset date as proof of current UI behavior. |
+| Stitch & Scale publishing/export, pattern-QA, and mobile-maker contracts | 2026-08-19; contracts re-read | Internal contracts require export identity, product/version context, source/date, device/readability checks, stale UI rejection, print/chart/schematic/test-knit separation, and human review before release or distribution. | Internal contracts; no product-proof registry entry for capture freshness or proof-artifact lineage. | Block product claims that a screenshot is current, exhaustive, or representative without exact capture context and review. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove proof freshness, product behavior, or accessibility. | Plan 9:16 at 1080×1920, keep proof metadata and scope cards clear of overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-19; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep organic-first master under one minute, center the proof-context card, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish campaign audio clearance or product proof freshness. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove screenshot currentness or semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying capture timestamp, product version, source, device/viewport, scope, known limits, reviewed-at state, rights, or freshness semantics. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 85 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “show the UI” into **bound the proof artifact itself: what was captured, when, from which version/source, on what device or viewport, for what scope, with which known limits, and when it was last reviewed**. The fresh concept is `capture-freshness`: an original record card places `CAPTURE / PRODUCT VERSION / CAPTURED AT / SOURCE / DEVICE OR VIEWPORT / SCOPE / KNOWN LIMITS / REVIEWED AT / STATUS / RIGHTS / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no currentness or completeness claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `as-of`, which focuses on what a date means for a record or obligation. `capture-freshness` changes the pain to **a screenshot or proof artifact being treated as current and complete when its version, scope, and review time are unknown**. The hook changes to “A screenshot has a date, not a warranty.” The visual metaphor changes from a date context card to a proof artifact with provenance metadata and a visible scope boundary. The proof surface changes from an as-of field to a current capture-context record. The emotional turn changes from clarifying date meaning to evidence humility about what a capture can support. The final line changes to “Date the proof before you trust the capture.”
+
+This is distinct from `artifact-status` (what copy/state is held), `availability-status` (material supply currentness), `stale-number` (one stale derived value), `evidence-over-output` (language versus craft evidence), `paper-proof` (tactile/print meaning), `before-download` (pre-download context), `review-anchor` (a comment’s exact revision/location), `export-portability` (meaning outside the app), and `source-note` (general provenance). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale maintains a proof registry, invalidates stale screenshots, tracks capture lineage, guarantees currentness, represents every feature, proves accessibility, or verifies release state without current product proof. Do not use stale/private captures, real customer/tester data, third-party screenshots, or copyrighted UI without permission and privacy review. Do not treat a product version or timestamp as proof of feature completeness. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[367] [NIST CSRC Glossary — data provenance](https://csrc.nist.gov/glossary/term/data_provenance)
+
+[368] [GitHub Docs — About releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)
+
+[369] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[370] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[371] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[372] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[373] [Stitch & Scale — Publishing/export, pattern-QA, and mobile-maker contracts](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)

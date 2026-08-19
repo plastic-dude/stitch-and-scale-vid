@@ -869,3 +869,13 @@ The nearest prior angle is `permission-line`, which focuses on who may act or ac
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `correction-trace`, which links a post-release correction to the copy a reader uses. `review-anchor` changes the pain to a review comment losing its exact revision, size, section, or round context before correction. It changes the hook to “A comment without a version is a loose thread,” the visual metaphor from a correction trail to a comment pin attached to a fictional artifact/version/size/section card with review-round and response fields, the proof surface from post-release errata linkage to current review-context anchoring, the emotional turn from reader correction safety to reviewer/designer clarity before a revision, and the final line to “Anchor the comment before you correct the pattern.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — capture freshness — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `capture-freshness` | A screenshot or proof artifact may be treated as current and complete when its version, scope, source, and review time are unknown | “A screenshot has a date, not a warranty.” | One current, approved proof-artifact surface with capture, product version, captured at, source, device/viewport, scope, known limits, reviewed at, status, rights, and notes | Evidence humility about what a capture can support rather than freshness, completeness, accessibility, or release certainty | “Date the proof before you trust the capture.” | blocked; product/data proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `as-of`, which focuses on what a date means for a record or obligation. `capture-freshness` changes the pain to a screenshot or proof artifact being treated as current and complete when its version, scope, and review time are unknown. It changes the hook to “A screenshot has a date, not a warranty,” the visual metaphor from a date context card to a proof artifact with provenance metadata and a visible scope boundary, the proof surface from an as-of field to a current capture-context record, the emotional turn from clarifying date meaning to evidence humility about what a capture can support, and the final line to “Date the proof before you trust the capture.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
