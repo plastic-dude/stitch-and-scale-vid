@@ -49,3 +49,13 @@ The nearest prior angle is `publication-second-shift`; the imported `false-compl
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `reader-handoff`, which focuses on first interpretation by a reader arriving cold. `correction-trace` changes the pain to post-release maintenance and version trust, the hook to a correction that cannot be found, the visual metaphor from a physical author-to-reader handoff to a marked page traveling from old copy to current copy, the proof surface from reader-facing sizing/ease/chart/instruction to a current version or defect-history state, the emotional turn from empathy for an uncertain reader to accountable maintenance, and the final line to “Show me what changed, and which copy carries it.” The package is blocked until current proof verifies the surface.
+
+## Wide-research Director decision — locale drift — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `locale-drift` | One canonical pattern can change reader meaning across locales even when stitch counts remain stable | “Same stitches. Different words. One meaning still has to survive.” | One current, readable locale/export comparison or localized pattern surface | Confidence that intended meaning travels inclusively rather than becoming an accidental convention mismatch | “Show me what survived the translation.” | blocked; proof and language review missing; distinct from `reader-handoff` and `correction-trace` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `reader-handoff`, which focuses on a reader interpreting one published instruction. `locale-drift` changes the pain to meaning changing across locales, the hook to same counts with different conventions, the visual metaphor from a physical handoff to aligned locale pages, the proof surface from a reader-facing decision or correction record to locale/export comparison and keys, the emotional turn from individual uncertainty or maintenance responsibility to inclusive confidence, and the final line to “Show me what survived the translation.” The concept is blocked until a current localized product surface and qualified language review exist.

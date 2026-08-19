@@ -85,3 +85,21 @@ The research supports a film about a correction becoming visible and responsibly
 [7] [KnitPicks — Pattern Errata Resources](https://www.knitpicks.com/support/resources/pattern-errata)
 
 [8] [arXiv — A Graph Model and a Layout Algorithm for Knitting Patterns](https://arxiv.org/abs/2406.13800)
+
+## Third wide-research question: locale and terminology drift
+
+A fresh question examined how pattern meaning survives across languages and locale conventions. The Craft Yarn Council’s pattern-reading guide explains that knitting patterns use abbreviations and symbols to save space and make patterns easier to read, but that the shorthand can be confusing until the reader learns the conventions. It also shows how asterisks, brackets, and parentheses encode repetition and grouping. Source: https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern
+
+The Craft Yarn Council’s abbreviation list says designers and publishers commonly use a shared set of abbreviations, while special abbreviations may be defined at the beginning of a pattern. It identifies these definitions as U.S. terminology and explicitly lists U.S./Canada differences such as bind off/cast off, gauge/tension, and slip stitch variants. Source: https://www.craftyarncouncil.com/standards/knitting-abbreviations
+
+## Research decision changed
+
+The next distinct opportunity is **locale drift**: the same pattern can preserve its stitch counts while its words, abbreviations, measurement conventions, or symbol keys change the reader’s interpretation. This is distinct from reader-handoff because the conflict is not merely author versus reader; it is one canonical pattern moving across locales. It is distinct from correction-trace because the conflict is not a post-release fix; it is a multi-locale meaning contract.
+
+The research does not prove that Stitch & Scale currently performs translation QA or locale comparison. A campaign may show only a current approved locale/export surface if one is supplied. Otherwise it remains blocked and uses an original neutral prop labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+## References
+
+[9] [Craft Yarn Council — How to Read a Knitting Pattern](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern)
+
+[10] [Craft Yarn Council — Knitting Abbreviations Master List](https://www.craftyarncouncil.com/standards/knitting-abbreviations)
