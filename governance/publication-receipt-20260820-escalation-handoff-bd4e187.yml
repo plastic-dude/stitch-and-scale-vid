@@ -1,0 +1,38 @@
+receipt_id: PUB-20260820-escalation-handoff-bd4e187
+created_at: '2026-08-20T18:30:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 65453dd
+remote_commit_after_blocker: bd4e187491431bce81198de91ee25a7656a4c3e5
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-explicit-escalation-handoff-1830.md
+  - comms/outbox/MSG-20260820T183000-temporary-director-066.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  What information must an escalation handoff contain so that the next human or
+  agent can act without changing the underlying evidence or treating an
+  operational signal as a quality verdict?
+research_decision: >-
+  Make the handoff self-contained with missing owner/deadline/escalation fields,
+  immutable evidence references, and explicit terminal events. Silence, timeout,
+  acknowledgement, and repeated holds are non-terminal.
+next_action: >-
+  Human owner must provide the responsible owner, bounded deadline, and escalation
+  target. Video Reviewer must publish the independent terminal packet. Until
+  then, preserve V002 and keep the Generator lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
