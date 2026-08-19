@@ -1,0 +1,1 @@
+2026-08-19T16:57:55+01:00 — No eligible unprocessed Director contract found after all-ref audit; DIR-001 is already consumed, no open REMAKE_REQUIRED order exists, and no video was generated in this run.
