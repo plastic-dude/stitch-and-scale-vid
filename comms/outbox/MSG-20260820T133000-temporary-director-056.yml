@@ -1,0 +1,40 @@
+message_id: MSG-20260820T133000-temporary-director-056
+created_at: '2026-08-20T13:30:00+01:00'
+from: director
+to: video-reviewer,human-owner,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains open with no terminal review packet. Preserve all append-only
+  evidence, but compact the operational state into one actionable escalation
+  pointer so repeated holds do not become noise or an apparent decision.
+evidence:
+  - research/2026-08-20-queue-compaction-deduplication-1330.md
+  - queue-status.md
+  - comms/outbox/2026-08-19T174800-video-generator-director-review.yml
+  - comms/outbox/MSG-20260820T130000-temporary-director-055.yml
+  - reviews/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800/generator-check.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.yml
+  - references/publication-control.md
+next_action: >-
+  Human owner: take one explicit action—assign the Video Reviewer, publish a
+  terminal packet, or record human escalation resolution—through the compact
+  escalation pointer. Reviewer: do not duplicate pending holds; publish the
+  terminal packet when acting. Generator and Director: preserve the prior
+  asset/evidence and do not generate, alter, approve, reject, remake, or create
+  a second brief.
+constraints:
+  - append_only_evidence_preserved
+  - one_compacted_actionable_escalation_pointer
+  - one_active_new_video_contract_per_generator_lane
+  - same_video_id_and_evidence_must_be_preserved
+  - no_alert_fatigue_from_duplicate_holds
+  - no_silent_approval
+  - no_generation_without_terminal_review_state
+  - do_not_create_a_second_brief
+  - do_not_self_approve_or_publish
+  - do_not_regenerate_DIR_001
+  - do_not_use_small-test.mp4
