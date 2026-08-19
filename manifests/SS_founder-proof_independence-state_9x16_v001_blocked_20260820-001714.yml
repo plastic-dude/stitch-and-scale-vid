@@ -1,0 +1,74 @@
+manifest_version: 1
+video_id: SS_founder-proof_independence-state_9x16_v001_blocked_20260820-001714
+brief_id: BRF-founder-proof-independence-state-9x16-v001
+campaign: founder-proof
+angle_slug: independence-state
+format: 9x16
+version: v001
+status: blocked
+created_at: 2026-08-20T00:17:14+01:00
+filename_reservation: SS_founder-proof_independence-state_9x16_v001_blocked_20260820-001714.mp4
+research_record: research/2026-08-19-wide-director-research.md
+browser_findings: research/2026-08-20-pass170-browser-findings.md
+brief_path: briefs/SS_founder-proof_independence-state_9x16_v001_blocked_20260820-001714.md
+script_path: scripts/SS_founder-proof_independence-state_9x16_v001_blocked_20260820-001714.md
+platform_matrix_path: platforms/SS_founder-proof_independence-state_9x16_v001_matrix_20260820-001714.md
+continuity_path: ledgers/20260820-independence-state.md
+media_path: null
+media_generated: false
+media_uploaded: false
+product_proof:
+  registry_entry: null
+  approved_capture: null
+  exact_surface_verified: false
+  author_reviewer_roles_verified: false
+  same_person_detection_verified: false
+  recusal_exception_verified: false
+  independence_basis_verified: false
+  finding_disposition_verified: false
+claims:
+  product_exposes_author_reviewer_role_separation_same_person_recusal_independence_or_release_disposition_controls: prohibited
+  product_provides_independent_review_role_enforcement_release_gating_or_approval: prohibited
+  product_adopts_nist_sp_800_53_or_govuk_defra_service_assessment: prohibited
+  product_guarantees_correctness_accessibility_conformance_fit_recommendation_or_outcomes: prohibited
+  product_provides_secure_processing_or_legal_compliance: prohibited
+  imported_roster_or_false_completion_is_authorized: prohibited
+  necessity_replaces_human_gates: prohibited
+  accuracy_adoption_revenue_outcomes: prohibited
+  founder_knitwear_identity: prohibited
+human_evidence_gates:
+  calculation: separate
+  technical_edit: separate
+  physical_print_review: separate
+  chart_readability: separate
+  schematic_scale: separate
+  test_knit: separate
+narrator:
+  family: one approved narrator family only
+  status: pending
+captions:
+  human_review_required: true
+  caption_on_master: pending
+  caption_free_master: pending
+  proof_obstruction_allowed: false
+audio:
+  cleared_voice_required: true
+  cleared_music_or_original_only: true
+  foley: neutral card placement, role link reveal, neutral review tone
+rights_privacy:
+  status: required_not_approved
+  private_records_allowed: false
+  recognizable_people_allowed: false
+  copyrighted_patterns_allowed: false
+  unlicensed_music_clips_artwork_allowed: false
+  current_ui_without_approved_capture_allowed: false
+review_state:
+  reviews_dir_checked: true
+  orders_dir_checked: true
+  comms_inbox_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked_filename_occupied
+  release_gate_roster: blocked_filename_occupied
+next_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing a real release record with author, reviewer, prepared_at, reviewed_at, same_person status, recusal or exception, independence_basis, finding, and disposition before presenting independence behavior; then rerun all gates.
+generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.

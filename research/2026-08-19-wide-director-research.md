@@ -7309,3 +7309,41 @@ No current product-proof registry or approved non-private capture verifies undo,
 [877]: https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html "W3C Understanding SC 3.3.4: Error Prevention (Legal, Financial, Data)"
 [878]: https://m3.material.io/components/snackbar/guidelines "Material Design 3 — Snackbar Guidelines"
 [879]: https://design.va.gov/components/button/design-decisions/ "VA Design System — Button Design Decisions"
+
+
+## Wide-research Director question 170 — independence state — 20260820-001714
+
+**Fresh research question.** When the person who prepares a release also marks it ready, what evidence shows that the review was independent enough to catch a blind spot rather than merely record an assignment?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest release-review pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise, governance reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [880] | NIST, *SP 800-53 Rev. 5, Updated 1*, published 2020 with planning note for Release 5.2.0 on 2025-08-27; accessed 2026-08-20: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final | NIST presents SP 800-53 as a catalog of security and privacy controls spanning access control, audit/accountability, assessment/authorization, configuration, incident response, risk assessment, and related domains. The page also warns that mappings are not one-to-one equivalence. | The official landing page does not prove that Stitch & Scale is in NIST scope or implements separation-of-duties control AC-5. Use the concept as governance vocabulary only. |
+| [881] | GOV.UK, *Service Manual*, accessed 2026-08-20: https://www.gov.uk/service-manual | The manual links service assessments and the Service Standard with guidance on design, user research, technology, accessibility, delivery, and team roles. | GOV.UK service guidance is not a requirement for this product and does not prove an independent-review feature. |
+| [882] | Defra Digital, *Service Assessments*, accessed 2026-08-20: https://digital.defra.gov.uk/service-assessments | Defra states that transactional services receive independent assessment, describes peer review and subject-matter assessors, and emphasizes user needs, access needs, technical constraints, multidisciplinary work, and testing risky assumptions. It warns against committing to a solution too early or building production code before discovery evidence. | This is a government service-assurance process, not evidence that Stitch & Scale has independent assessment, role separation, or release gating. |
+| [883] | Craft Yarn Council, *Reading Instructions & Other Basics* and *Gauge and Why It Is Important*, previously recorded refs [871]–[872], accessed again 2026-08-20: https://www.craftyarncouncil.com/read_instructions.html and https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important | The craft context keeps human verification visible: reading instructions, gauge, calculations, physical print review, chart readability, schematic scale, and test knitting are separate evidence activities rather than one generic “approved” label. | CYC guidance does not prove a product role model, author/reviewer separation, release workflow, or outcome. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from “someone is assigned to the release” to “the author and reviewer relationship is visible enough to reveal independence, recusal, or a declared exception.” The fictional proof surface is `RELEASE R-001 / AUTHOR / PREPARED_AT / REVIEWER / REVIEWED_AT / SAME_PERSON / RECUSAL / INDEPENDENCE_BASIS / FINDING / DISPOSITION`. The story must show that a reviewer label alone does not establish independence and that a same-person review can be disclosed without being silently treated as approval.
+
+The selected angle is `independence-state`, hook **“Assigned is not independent.”** The final line is **“Name who was not the author.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `accountability-state`, which asks who answers for the next action. `independence-state` changes the pain to whether the person making the release judgment is sufficiently separate from its preparation to catch a blind spot. It is not `reviewability-state`, which asks whether evidence can be inspected consistently; `audit-state`, which asks whether a trace exists; `authority-state`, which asks who may decide; `rationale-state`, which asks why a decision follows; `release-gate-roster`, which is an imported blocked roster concept; or `false-completion`, which is an imported broad false-closure concept. The visual metaphor changes to two name cards connected by an author/reviewer line with a same-person conflict marker and an explicit recusal/exception field, rather than an owner card, review structure, audit trail, decision rationale, or roster. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies author/reviewer roles, same-person detection, recusal, independent-review basis, findings, or disposition behavior. The evidence cards must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with separation of duties, independent review, recusal, role enforcement, release gating, approval, auditability, correctness, or compliance. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [880]–[883]
+
+[880]: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final "NIST SP 800-53 Rev. 5, Updated 1"
+[881]: https://www.gov.uk/service-manual "GOV.UK Service Manual"
+[882]: https://digital.defra.gov.uk/service-assessments "Defra Service Assessments"
+[883]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
+[884]: https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important "Craft Yarn Council, Gauge and Why It Is Important"
