@@ -3922,3 +3922,65 @@ Do not claim that Stitch & Scale provides undo, rollback, version history, errat
 ### Research limit
 
 The NIST and Git sources support explicit rollback/reversal recording but do not establish a product feature. Publisher errata archives support scoped correction practice but do not establish the exact Stitch & Scale data model. Search-result material was used only as a lead; the NIST glossary, Git documentation, Vogue archive, Laine archive, and Knitting Magazine archive were opened or extracted. Platform guidance may vary by account, region, format, and future UI. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and fields.
+
+## Ninety-sixth wide-research question: assumed is not observed — 2026-08-19
+
+### Research question
+When a knitwear calculation, sizing choice, gauge interpretation, or business estimate produces a clean result, which assumptions must remain visible so a reader does not mistake an input choice or model assumption for an observed fact? The question is about explicit assumption records and derived-result context—not about Stitch & Scale identifying, validating, or correcting assumptions unless a current approved product capture proves that surface.
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NASA Systems Engineering Handbook, SEH 4.0 System Design Processes | Page updated 2019; current page checked 2026-08-19 | NASA describes design as iterative and recursive; stakeholder expectations include objectives, constraints, design drivers, operational objectives, and success criteria. It stresses traceability and documenting original design decisions so future changes can be assessed against them. | General systems-engineering guidance, not a knitwear workflow or Stitch & Scale feature. | Make assumptions and constraints explicit inputs to a result, with source, scope, version, and rationale; do not let a derived result appear context-free. |
+| Craft Yarn Council, Standard Body Measurements/Sizing | Current page checked 2026-08-19 | Sizing uses actual body measurements, finished-garment measurements, schematics, and ease; fit and length charts are guidelines, and individual changes may alter a project’s appearance. | Standards guidance does not prove a product’s sizing behavior or fit outcome. | The visual card must separate observed body/garment measurement, assumed ease, chosen size, and derived target; no fit guarantee. |
+| Craft Yarn Council, Standard Yarn Weight System | Current page checked 2026-08-19 | Yarn-category gauge and needle ranges are labelled guidelines only; readers are told to follow the gauge stated in the pattern. | Category ranges are broad and do not describe a particular yarn, swatch, fabric, or finished garment. | A category label or default gauge cannot be shown as an observed gauge; the card must mark default/assumed versus measured. |
+| NIST Simple Guide for Evaluating and Expressing Measurement Uncertainty | Current page checked 2026-08-19 | NIST discusses measurement models, model inputs, observation equations, measurement equations, and expressing uncertainty. | Measurement-science guidance does not define product fields or knitwear acceptance. | A derived result must show model/input assumptions and uncertainty context rather than only the final number; no accuracy claim. |
+| NIST Technical Note 1297 | Current page and prior research checked 2026-08-19 | NIST provides a framework for evaluating and expressing measurement uncertainty. | Prior source is measurement guidance, not product behavior. | Keep assumptions separate from observations and from uncertainty; do not collapse them into a confidence badge. |
+| W3C WCAG 2.2 and Section 508 caption guidance | Current pages checked 2026-08-19 | Captions must be synchronized, complete, readable, and include meaningful non-speech audio; captions should not obscure relevant information. Section 508 guidance recommends planning visible text outside the lower caption area and human-editing auto-captions. | Accessibility guidance applies to the video artifact, not truth of a product record. | Put the assumption/observation/result cards in the upper proof area; require caption-on and caption-free review. |
+| Instagram accessibility guidance | Current page checked 2026-08-19 | Instagram documents caption and alternative-text features and notes the importance of captions for Deaf/hard-of-hearing and sound-off viewing. | Page and platform behavior may vary by account, region, and future release. | Captions are required, but no retention or engagement claim is made. |
+| TikTok safe-zone specifications | Last updated June 2026; current page checked 2026-08-19 | Key text and logos can be covered or cropped; safe-zone size depends on format and caption length; preview is recommended. | Paid/add-on guidance is not a universal organic rule. | Keep proof cards conservative and require an account-specific preview before derivatives. |
+| YouTube caption guidance | Current page checked 2026-08-19 | Uploaded, manual, auto-synced, and translated captions are supported; automatic captions are default-language only. | Tool behavior and upload UI may change. | Require human-reviewed captions; auto-captions are not final evidence. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts distinguish calculation, record, estimate, technical edit, test knit; require source/version context, visible warnings, assumptions, and interruption-safe mobile records. | Internal operating contracts, not independent external validation. | Use `OBSERVED / ASSUMED / DERIVED / SOURCE / SCOPE / DATE-VERSION / STATUS / NOTES` and preserve human gates. |
+
+### Research synthesis
+
+A clean result can still be assumption-heavy. NASA’s traceability guidance and the measurement model language in NIST’s uncertainty guide both point to the same discipline: keep inputs and constraints visible so the result can be interpreted and revisited. In knitwear, the Craft Yarn Council makes the same practical boundary explicit: body measurements, finished measurements, ease, schematics, and gauge categories are not interchangeable, and category/gauge ranges are guidelines rather than observations.
+
+The fresh visual opportunity is a fictional result card that begins with a large derived number. A split reveals the inputs: `OBSERVED`, `ASSUMED`, and `DERIVED`. The result changes to `CONTEXT REQUIRED` when a default gauge, ease choice, unit, or sizing standard is not identified. The card is labelled `ILLUSTRATIVE — NOT PRODUCT UI`. The dramatic engine is not “the app catches bad assumptions”; it is the moment a neat output loses its false certainty when the hidden assumption is named. Final line: “Name the assumption before you trust the result.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying an assumption register, observed/assumed/derived labels, model-input disclosure, or assumption-to-result trace. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 96 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic “show your inputs” message into **separating observed facts, explicit assumptions, and derived results in one scoped record**. The fresh concept is `assumption-register`: a fictional derived-result card reveals the assumptions behind it and changes from `RESULT` to `CONTEXT REQUIRED` until those assumptions are named. No product computation, accuracy, fit, sizing, or estimation capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `uncertainty-context`, which focuses on a precise number retaining uncertainty context. `assumption-register` changes the pain to **a result silently depending on a chosen input or model assumption that is being mistaken for an observation**. It changes the hook to “Assumed is not observed”; the visual metaphor from a number surrounded by uncertainty to a clean result split into observed, assumed, and derived layers; the proof surface to observed/assumed/derived/source/scope/date-version/status/notes; the emotional turn from tolerating uncertainty to exposing the input choice that created the result; and the final line to “Name the assumption before you trust the result.”
+
+It is distinct from `value-state` because it is not recorded-versus-zero or blank-versus-value; from `comparison-basis` because it is not comparing two records; from `gauge-reality` because it is not fabric behavior versus yarn category; from `grade-transparency` because it is not showing grading math; from `basis-label` because it is a complete assumption-to-result record, not a label for a comparison basis; from `acceptance-criteria` because it is not status semantics; from `decision-reversal` because it is not a rollback path; and from imported `false-completion`/`release-gate-roster` because it is neither a checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale detects assumptions, validates inputs, computes accurate fit, guarantees sizing, proves gauge, selects ease, estimates financial outcomes, or replaces technical editing, physical print review, chart readability, schematic scale, or test knitting. Do not use private measurements, customer/tester data, copyrighted patterns, real business records, or third-party reports without rights/privacy clearance. Any default value in the fictional card must be labelled as an assumption, not a product default. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[454] [NASA — SEH 4.0 System Design Processes](https://www.nasa.gov/reference/4-0-system-design-processes/)
+[455] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+[456] [Craft Yarn Council — Standard Yarn Weight System](https://www.craftyarncouncil.com/standards/yarn-weight-system)
+[457] [NIST — Simple Guide for Evaluating and Expressing Uncertainty of NIST Measurement Results](https://www.nist.gov/publications/simple-guide-evaluating-and-expressing-uncertainty-nist-measurement-results)
+[458] [NIST — Technical Note 1297](https://www.nist.gov/pml/nist-technical-note-1297)
+[459] [W3C — Understanding Captions (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[460] [Section508.gov — Captions and Transcripts](https://www.section508.gov/create/captions-transcripts/)
+[461] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[462] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[463] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[464] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NASA’s guidance is general systems engineering and the NIST guide is measurement science; neither establishes a Stitch & Scale feature. Craft Yarn Council ranges and fit charts are guidelines, not a guarantee for an individual garment. Platform behavior may vary by account, region, format, and future UI. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact assumption/observation/result surface.
