@@ -696,3 +696,31 @@ Research changed the concept from generic size inclusion into **range transparen
 [55] [One Wild Designs — Guide to Size-Inclusive Knitting Patterns](https://onewilddesigns.com/pages/guide-to-size-inclusive-knitting-patterns)
 
 [56] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+
+## Twenty-sixth wide-research question: what was true when? — 2026-08-19
+
+### Research question
+How can a designer distinguish a current note or pattern document from an older one by recording an as-of date, revision identifier, or review state, without claiming live synchronization, current accuracy, or automatic version control?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Industry Standards and Guidelines for Designers” | 2026-08-19; live page | CYC says its guidelines were assembled in response to pattern complaints, cover challenges across pattern production, and do not replace individual company guidelines. The page also describes submission-specific communication and timing in its context. | CYC guidance is contextual, not a universal version-control protocol and not evidence of Stitch & Scale revision tracking or currentness labels. | The concept should separate an as-of/review label from a correctness or approval badge and should not reuse the CYC guidance as product proof. |
+| GOV.UK Content and Publishing Guidance, “Writing to GOV.UK standards” | 2026-08-19; live guidance | The guidance covers clear/helpful content, user needs, planning new or changed content, tone, and accessibility requirements. It is a publishing standard context, not a claim that every document has live freshness. | Government editorial guidance, not craft-specific, not legal advice, and not proof of Stitch & Scale versioning, sync, or review behavior. | Show `AS OF / REVISION / REVIEWED?` as an editorial prompt, not a live-status or accuracy signal. |
+| Local craft-business and release-trust contracts | 2026-08-19; repository source | Pattern records should preserve stable IDs, version/revision notes, proof status, correction trace, release state, and publication metadata; stale or unsupported UI must not be presented as current truth. | Internal workflow guidance, not proof of a current as-of or revision surface. | The proof surface must be a current approved as-of/revision/review-state surface; absent proof, use a blocker card. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for version labels, as-of dates, last-reviewed timestamps, revision identifiers, freshness status, correction summaries, or currentness indicators. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`as-of`**: the tension is a note or document being treated as current simply because it is visible. The hook is “Visible is not the same as current.” The visual metaphor is a fictional pattern card splitting into `AS OF / REVISION / REVIEWED?`, with `CURRENT?` left unanswered rather than a green freshness badge. The proof surface must be one current, approved version, as-of, revision, or review-state surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic version history into **currentness labeling without a freshness promise**. The script must not claim live sync, current accuracy, automatic version control, correction completion, or publication approval. It may ask when a note was last reviewed and what revision it belongs to, then invite current product proof for the exact surface.
+
+### References
+
+[57] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
+
+[58] [GOV.UK Content and Publishing Guidance — Writing to GOV.UK standards](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/)

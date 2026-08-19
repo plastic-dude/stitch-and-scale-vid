@@ -1,0 +1,17 @@
+message_id: MSG-20260819-080100-director-028
+sender: director
+recipient: production
+created_at: '2026-08-19T08:01:00+01:00'
+plan_id: PLAN-20260819-080100-as-of-v001
+angle_slug: as-of
+status: blocked
+subject: As-of concept blocked pending current version proof
+body: >-
+  Fresh CYC and GOV.UK editorial research moved the concept from generic version history into currentness
+  labeling without a freshness promise. Do not generate or upload. No current approved as-of, version, revision,
+  or review-state surface is available, and no live-sync, current-accuracy, automatic-version-control,
+  correction-complete, or publication-approval claim is authorized. Next action: provide one current approved
+  non-private proof surface with product version/date and exact visible labels, then rerun claims, source rights,
+  privacy, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

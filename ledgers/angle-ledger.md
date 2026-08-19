@@ -279,3 +279,13 @@ The nearest prior angle is `material-notes`, which concerns preserving assumptio
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `measurement-moment`, which concerns preserving a captured measurement’s unit, size, body/garment context, and project identity. `size-boundary` changes the pain to a communicated range being mistaken for a fit promise, the hook to “Show the range. Name the boundary. Don’t promise the fit,” the visual metaphor from measurement capture to `BODY / FINISHED / EASE / RANGE` cards and `CHECK THE SCHEMATIC`, the proof surface from measurement/grading entry to size-range/grading/schematic/ease, the emotional turn from maker control through context to fit-honest transparency, and the final line to “Show the range. Name the boundary.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — as of — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `as-of` | A visible note can be treated as current simply because it is visible | “Visible is not the same as current.” | One current, approved as-of, version, revision, or review-state surface with exact labels | Time-aware orientation rather than freshness, sync, or approval certainty | “Name the revision. Mark the moment.” | blocked; product proof, version-rights review, and currentness wording missing; distinct from `source-note`, `correction-trace`, `offline-continuity`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `source-note`, which concerns where a statement came from and whether it was rechecked. `as-of` changes the pain to a visible note being treated as current merely because it is visible, the hook to “Visible is not the same as current,” the visual metaphor from source tabs to `AS OF / REVISION / REVIEWED?` with an unanswered `CURRENT?`, the proof surface from provenance/evidence status to as-of/version/revision/review state, the emotional turn from source humility to time-aware orientation, and the final line to “Name the revision. Mark the moment.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

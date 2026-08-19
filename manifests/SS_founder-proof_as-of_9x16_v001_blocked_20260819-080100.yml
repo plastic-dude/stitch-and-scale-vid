@@ -1,0 +1,40 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-080100-as-of-v001
+angle_slug: as-of
+status: blocked
+format: 9x16
+runtime_seconds: 44
+reserved_filename: SS_founder-proof_as-of_9x16_v001_blocked_20260819-080100.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-as-of-version-revision-or-review-state-surface
+product_version: null
+proof_capture_approved: false
+version_rights_status: unverified
+currentness_context_status: missing
+fictional_temporal_fixture_status: required_not_approved
+founder_disclosure: David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor.
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no live sync, current accuracy, automatic version control, correction completion, publication approval, or freshness claim
+  - AS OF, REVISION, REVIEWED?, CURRENT?, NOTE, and CURRENTNESS are illustrative unless current proof verifies exact labels
+  - no real pattern pages, correction records, product versions, approval stamps, private data, or third-party UI
+  - temporal orientation remains distinct from correction history, source provenance, and network continuity
+asset_rights_status: unverified
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+open_remake_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+next_action: Provide one current approved non-private as-of, version, revision, or review-state proof capture or registry entry with product version/date and exact visible labels, then rerun Director validation without claiming live synchronization, current accuracy, automatic version control, correction completion, or publication approval.
