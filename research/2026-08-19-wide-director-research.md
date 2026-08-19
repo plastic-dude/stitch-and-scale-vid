@@ -2131,3 +2131,50 @@ Do not claim Stitch & Scale recommends substitutes, scores compatibility, predic
 [200] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [201] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## Sixty-second wide-research question: what should be visible before the download? — 2026-08-19
+
+### Research question
+Before a maker buys or downloads a knitwear pattern, which facts must be visible—skill level, finished measurements, gauge, materials, techniques, format, language, and accessibility context—without claiming Stitch & Scale provides a marketplace listing, buyer guidance, or complete pattern metadata?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers who need a factual pre-download context panel before spending money or committing time. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Project Levels” | 2026-08-19; current page checked | CYC describes Basic, Easy, Intermediate, and Complex project levels by stitches, shaping, colorwork, and techniques used; it calls them general explanations and symbols to assist people in determining techniques that might be included. | A level label is not a complete difficulty guarantee, skill assessment, accessibility statement, finished-measurement record, or proof of every technique. | Treat skill level as one pre-download field among measurements, gauge, materials, techniques, format, language, and accessibility context. |
+| Ravelry pattern-database route | 2026-08-19; route redirected to login | The public route was not available for passive listing review in this session; it redirected to a login page. The page describes Ravelry as a free website for knitters, crocheters, and fiber artists. | No listing metadata, pattern facts, or competitor weakness may be inferred from the login wall. | Keep competitor/platform evidence bounded and use only CYC’s public guidance plus current product proof if supplied. |
+| Stitch & Scale publishing/export and mobile-maker contracts | 2026-08-19; contracts re-read | Dense metadata, labels, units, warnings, long text, and technical tables need readable mobile, desktop, and print review; generated text is not product UI truth. | Internal contract; no product-proof registry entry for marketplace listing or pre-download panel. | Block claims that Stitch & Scale provides a complete pattern listing, buyer guidance, or marketplace metadata surface. |
+| Stitch & Scale pattern-QA and craft-business-records contracts | 2026-08-19; contracts re-read | Skill, materials, gauge, sizing, technical editing, test knitting, source notes, and record statuses are separate evidence surfaces. | Internal quality contract; no current product proof. | Use a fictional `BEFORE YOU START` card with field/status labels, never a fictional marketplace listing presented as live UI. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for marketplace listing, pre-download context, complete pattern metadata, skill-fit guidance, or accessibility statement. All 62 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “pattern listing” into **whether a maker can judge “is this for me?” before spending money or committing time, using named facts rather than an attractive image or vague level tag**. The fresh concept is `before-download`: a fictional card places `LEVEL / FINISHED MEASUREMENTS / GAUGE / MATERIALS / TECHNIQUES / FORMAT / LANGUAGE / ACCESSIBILITY CONTEXT` beside source/date and a review state. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no marketplace, buyer-guidance, skill-fit, or accessibility claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `work-scope`, which focuses on the scope of the designer’s ask inside a workflow. `before-download` changes the pain to **whether a maker can decide before purchase or download using factual context**. The hook changes to “Before the download, show the work.” The visual metaphor changes from an internal scope card to `BEFORE YOU START / LEVEL / MEASUREMENTS / GAUGE / MATERIALS / TECHNIQUES / FORMAT / LANGUAGE`. The proof surface changes from an internal request boundary to a current pre-download context panel with source/date and status. The emotional turn changes from defining the task to giving the reader a fair, factual pause. The final line changes to “Let the maker decide with the facts.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale operates a marketplace, provides buyer guidance, guarantees skill fit, predicts ease, supplies complete metadata, or makes accessibility claims without current product proof. Do not infer listing quality from the Ravelry login wall. Do not use real customer patterns, private listings, marketplace screenshots, logos, or copyrighted project images without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[202] [Craft Yarn Council — Project Levels](https://www.craftyarncouncil.com/standards/project-levels)
+
+[203] [Ravelry — Pattern route / public site context](https://www.ravelry.com/patterns)
+
+[204] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[205] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+[206] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[207] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)

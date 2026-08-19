@@ -639,3 +639,13 @@ The nearest prior angle is `prerequisite-state`, which focuses on what must be t
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `care-path`, which focuses on evidence supporting washing or blocking. `substitution-basis` changes the pain to whether a yarn swap has been compared across material and technical fields before commitment. It changes the hook to “Same weight is not the same yarn,” the visual metaphor from care evidence to `ORIGINAL / SUBSTITUTE / FIBER / WEIGHT / GAUGE / YARDAGE / NEEDLE / CARE / SWATCH`, the proof surface from a care/evidence surface to a substitution comparison with source/date and explicit review state, the emotional turn from pausing before care to replacing “similar” with a checklist, and the final line to “Compare the evidence before you change the yarn.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — before download — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `before-download` | A maker cannot decide whether a pattern is for them before spending money or time because an image or vague level tag hides factual context | “Before the download, show the work.” | One current, approved pre-download context surface with level, measurements, gauge, materials, techniques, format, language, accessibility-context, source, date, and status labels | Giving the reader a fair factual pause | “Let the maker decide with the facts.” | blocked; product proof, complete metadata, technical review, rights/privacy, accessibility evidence, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `work-scope`, which focuses on the scope of the designer’s ask inside a workflow. `before-download` changes the pain to whether a maker can decide before purchase or download using factual context. It changes the hook to “Before the download, show the work,” the visual metaphor from an internal scope card to `BEFORE YOU START / LEVEL / MEASUREMENTS / GAUGE / MATERIALS / TECHNIQUES / FORMAT / LANGUAGE`, the proof surface from an internal request boundary to a current pre-download context panel with source/date and status, the emotional turn from defining the task to giving the reader a fair factual pause, and the final line to “Let the maker decide with the facts.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

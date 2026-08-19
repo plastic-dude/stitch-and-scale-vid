@@ -1,0 +1,17 @@
+message_id: MSG-20260819-113700-director-064
+created_at: '2026-08-19T11:37:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260819-113700-before-download-v001
+parent_id: briefs/SS_founder-proof_before-download_9x16_v001_blocked_20260819-113700.md
+status: blocked
+summary: Before-download concept blocked because current pre-download context proof, complete metadata, technical review, rights, privacy, and accessibility evidence are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#sixty-second-wide-research-question-what-should-be-visible-before-the-download---2026-08-19
+  - briefs/SS_founder-proof_before-download_9x16_v001_blocked_20260819-113700.md
+  - manifests/SS_founder-proof_before-download_9x16_v001_blocked_20260819-113700.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private pre-download context surface with exact level, measurements, gauge, materials, techniques, format, language, accessibility-context, source, date, and status labels, then rerun claims, technical, captions, audio, platform, rights, privacy, and acceptance validation.
