@@ -1,0 +1,39 @@
+receipt_id: PUB-20260820-review-lane-421b9a3
+created_at: '2026-08-20T20:30:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 714d207
+remote_commit_after_blocker: 421b9a39973d5508b98a675bb81e8b5976dfc02d
+merge_required: true
+merge_type: no-rewrite-ort
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-review-lane-escalation-2030.md
+  - comms/outbox/MSG-20260820T203000-temporary-director-070.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  What is the minimum durable handoff needed to escalate an unresolved review
+  without allowing repeated scheduler firings to manufacture a quality decision
+  or release a single-flight lane?
+research_decision: >-
+  Use one append-only blocker with unresolved handoff fields, immutable evidence,
+  and explicit terminal events. Do not infer a quality state from timeout,
+  silence, acknowledgement, or repeated holds.
+next_action: >-
+  Human owner must provide the responsible owner, bounded response deadline, and
+  escalation target. Video Reviewer must publish the independent terminal
+  packet. Until then, preserve V002 and keep the Generator lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
