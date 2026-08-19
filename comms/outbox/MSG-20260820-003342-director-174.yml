@@ -1,0 +1,20 @@
+message_id: MSG-20260820-003342-director-174
+created_at: 2026-08-20T00:33:42+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_propagation-state_9x16_v001_blocked_20260820-003342
+parent_id: BRF-founder-proof-propagation-state-9x16-v001
+status: blocked
+summary: Replacement pass-172 propagation-state is blocked because no current approved product proof verifies an upstream source/version change reaching downstream nodes, expected and observed updates, the first propagation gap, stale-value handling, review, and disposition.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-20-pass172-browser-findings.md
+  - briefs/SS_founder-proof_propagation-state_9x16_v001_blocked_20260820-003342.md
+  - scripts/SS_founder-proof_propagation-state_9x16_v001_blocked_20260820-003342.md
+  - platforms/SS_founder-proof_propagation-state_9x16_v001_matrix_20260820-003342.md
+  - ledgers/20260820-propagation-state.md
+  - manifests/SS_founder-proof_propagation-state_9x16_v001_blocked_20260820-003342.yml
+collision_handling: The earlier pass-172 sensitivity-state draft was discarded before commit when the complete angle ledger revealed an occupied sensitivity-state entry; no duplicate sensitivity artifacts remain and the occupied angle was not reopened.
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one real upstream change with source/version/downstream_nodes/expected_updates/observed_updates/propagation_gap/stale_value_handling/reviewed/disposition before presenting propagation behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

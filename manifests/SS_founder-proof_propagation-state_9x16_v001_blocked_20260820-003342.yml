@@ -1,0 +1,77 @@
+manifest_version: 1
+video_id: SS_founder-proof_propagation-state_9x16_v001_blocked_20260820-003342
+brief_id: BRF-founder-proof-propagation-state-9x16-v001
+campaign: founder-proof
+angle_slug: propagation-state
+format: 9x16
+version: v001
+status: blocked
+created_at: 2026-08-20T00:33:42+01:00
+filename_reservation: SS_founder-proof_propagation-state_9x16_v001_blocked_20260820-003342.mp4
+research_record: research/2026-08-19-wide-director-research.md
+browser_findings: research/2026-08-20-pass172-browser-findings.md
+brief_path: briefs/SS_founder-proof_propagation-state_9x16_v001_blocked_20260820-003342.md
+script_path: scripts/SS_founder-proof_propagation-state_9x16_v001_blocked_20260820-003342.md
+platform_matrix_path: platforms/SS_founder-proof_propagation-state_9x16_v001_matrix_20260820-003342.md
+continuity_path: ledgers/20260820-propagation-state.md
+media_path: null
+media_generated: false
+media_uploaded: false
+product_proof:
+  registry_entry: null
+  approved_capture: null
+  exact_surface_verified: false
+  source_version_verified: false
+  downstream_nodes_verified: false
+  expected_observed_updates_verified: false
+  propagation_gap_verified: false
+  stale_value_handling_verified: false
+  review_disposition_verified: false
+claims:
+  product_exposes_data_lineage_provenance_version_history_or_persistent_identifiers: prohibited
+  product_provides_automatic_downstream_updates_stale_value_detection_or_integrity_protection: prohibited
+  product_provides_security_controls_attack_mitigation_or_legal_compliance: prohibited
+  product_guarantees_accessibility_conformance_fit_recommendation_or_outcomes: prohibited
+  occupied_sensitivity_state_is_reopened_or_authorized: prohibited
+  imported_roster_or_false_completion_is_authorized: prohibited
+  necessity_replaces_human_gates: prohibited
+  accuracy_adoption_revenue_outcomes: prohibited
+  founder_knitwear_identity: prohibited
+human_evidence_gates:
+  calculation: separate
+  technical_edit: separate
+  physical_print_review: separate
+  chart_readability: separate
+  schematic_scale: separate
+  test_knit: separate
+narrator:
+  family: one approved narrator family only
+  status: pending
+captions:
+  human_review_required: true
+  caption_on_master: pending
+  caption_free_master: pending
+  proof_obstruction_allowed: false
+audio:
+  cleared_voice_required: true
+  cleared_music_or_original_only: true
+  foley: source-change tick, restrained node ticks, neutral review tone
+rights_privacy:
+  status: required_not_approved
+  private_records_allowed: false
+  recognizable_people_allowed: false
+  copyrighted_patterns_allowed: false
+  unlicensed_music_clips_artwork_allowed: false
+  current_ui_without_approved_capture_allowed: false
+review_state:
+  reviews_dir_checked: true
+  orders_dir_checked: true
+  comms_inbox_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked_filename_occupied
+  release_gate_roster: blocked_filename_occupied
+collision_handling:
+  sensitivity_state: occupied_prior_angle; duplicate_draft_discarded_before_commit
+next_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing a real upstream change with source/version, downstream nodes, expected and observed update states, propagation gap, stale-value handling, review, and disposition before presenting propagation behavior; then rerun all gates.
+generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.

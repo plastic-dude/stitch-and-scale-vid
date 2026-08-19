@@ -7382,3 +7382,38 @@ No current product-proof registry or approved non-private capture verifies proce
 [885]: https://opentelemetry.io/docs/what-is-opentelemetry/ "OpenTelemetry — What is OpenTelemetry?"
 [886]: https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html "W3C Understanding SC 4.1.3: Status Messages"
 [887]: https://csrc.nist.gov/pubs/sp/800/137/final "NIST SP 800-137: Information Security Continuous Monitoring"
+
+
+## Wide-research Director question 172 — propagation state — 20260820-003342
+
+**Fresh research question.** When an upstream input changes, can each downstream artifact show whether the change reached it, or can stale downstream values look current?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest downstream-staleness pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise, chain-of-change reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [891] | W3C, *Data on the Web Best Practices*, Recommendation published 2017; accessed 2026-08-20: https://www.w3.org/TR/dwbp/ | W3C identifies structural metadata, data quality, provenance, licensing, usage, version indicators, version history, persistent identifiers, and stable references as distinct practices that help people and machines understand and reuse data. | This is data-publication guidance, not proof that Stitch & Scale implements metadata, provenance, version history, persistent identifiers, or downstream update tracking. |
+| [892] | OpenLineage, *About OpenLineage*, accessed 2026-08-20: https://openlineage.io/docs/ | OpenLineage describes an extensible framework for lineage metadata around dataset, job, and run entities, making it possible to collect and analyze lineage events. | This is an external open standard, not evidence that Stitch & Scale uses OpenLineage, jobs, runs, facets, lineage events, or a backend. |
+| [893] | NIST NCCoE, *Data Integrity: Identifying and Protecting Assets Against Ransomware and Other Destructive Events*, accessed 2026-08-20: https://www.nccoe.nist.gov/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other-destructive-events | NIST describes identifying and protecting assets against data-integrity attacks and using reference designs to mitigate risks. | This concerns cybersecurity and data-integrity protection, not proof that Stitch & Scale protects integrity, detects propagation gaps, or mitigates attacks. |
+
+### Research synthesis and changed decision
+
+The replacement decision changes the concept from “how sensitive is the output?” to “did the upstream change reach every dependent output, and can the chain show where propagation stopped?” The fictional proof surface is `CHANGE C-001 / SOURCE / VERSION / DOWNSTREAM_NODE / EXPECTED_UPDATE / OBSERVED_UPDATE / PROPAGATION_GAP / STALE_VALUE / REVIEWED / DISPOSITION`. A recorded source change is not treated as evidence that every downstream artifact updated.
+
+The selected angle is `propagation-state`, hook **“Changed upstream is not changed downstream.”** The final line is **“Show where the change stopped.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `conversion-trace`, which asks how an input becomes an output. `propagation-state` changes the pain to whether a recorded upstream change reaches each downstream node and exposes the first propagation gap or stale value. It is not `dependency-state`, which asks whether a prerequisite exists; `divergence-state`, which asks whether derived values are identical; `freshness-state`, which asks whether evidence is current; `sensitivity-state`, which is an occupied earlier angle and asks how much an output responds to an input; `lineage-state`, which asks where an artifact came from; `provenance-chain`, which asks about origin; or `observability-state`, which asks whether a running process exposes state. The visual metaphor changes to a source version moving through downstream nodes and stopping at an explicit gap, rather than a dependency checklist, conversion path, comparison card, freshness stamp, sensitivity card, origin chain, or state signal. The occupied `sensitivity-state` concept is not reopened or modified; its failed replacement attempt is discarded, and this angle receives a new reservation.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies source versions, downstream update status, propagation gaps, stale values, lineage events, version history, or disposition behavior. The evidence cards must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with data lineage, provenance, version history, dependency propagation, integrity protection, automatic update, stale-value detection, security controls, or product capability. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [891]–[893]
+
+[891]: https://www.w3.org/TR/dwbp/ "W3C Data on the Web Best Practices"
+[892]: https://openlineage.io/docs/ "OpenLineage — About OpenLineage"
+[893]: https://www.nccoe.nist.gov/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other-destructive-events "NIST NCCoE — Data Integrity"
