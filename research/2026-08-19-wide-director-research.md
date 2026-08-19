@@ -5028,3 +5028,49 @@ Do not claim that Stitch & Scale currently exposes a source-of-truth registry, l
 ### Research limit
 
 These sources establish provenance, lineage, dependency, and maintenance principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes a source-of-truth registry, lineage graph, override controls, or affected-output map. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-sixteenth wide-research question: current is not the same version — 20260819-185012
+
+### Research question
+
+When a brief cites a product capture, source note, or prior output, what binds the claim to the exact artifact state rather than a later or altered version?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| Digital Preservation Coalition — Persistent identifiers | Page checked 2026-08-19 | A persistent identifier combines a unique identifier with a service that locates a resource over time; persistence requires ongoing human and service maintenance, not just a unique string. | Preservation guidance; not a Stitch & Scale product claim. | Make the concept about exact artifact binding, not generic freshness. |
+| RFC 7089 — Memento | Page checked 2026-08-19 | Resources can have frozen prior states; datetime negotiation, TimeMaps, and original/timegate/memento relationships distinguish a past state from the current resource. | Informational RFC; no evidence Stitch & Scale supports this protocol. | Add frozen snapshot and captured-at fields, with “latest” explicitly separated from the cited state. |
+| Semantic Versioning 2.0.0 | Page checked 2026-08-19 | Released version contents must not be modified; changes are released as a new version, and version changes communicate meaning only against a declared public API. | Software-versioning specification; not a product-version claim. | Require version/snapshot identity and prohibit changing a cited artifact in place. |
+| W3C PROV-DM | Page checked 2026-08-19 | Provenance records entities, activities, agents, generation, usage, derivation, and responsibility; prior state or derivation must not be inferred from a bare label. | Domain-agnostic; no product-proof evidence. | Bind the claim to an artifact ID and state rather than a URL or “latest” label alone. |
+| Stitch & Scale publishing/export and QA contracts | Re-read 2026-08-19 | Publication records need versioned assets, filenames, localization/device previews, and integrity boundaries; QA separates current calculations, physical print, charts, schematics, and test knits. | Internal contracts, not current product behavior. | Keep the package blocked until exact version identity, capture state, and claim binding are proven. |
+
+### Research synthesis
+
+“Latest” is not an artifact identity. The visual opportunity is a claim card pointing to one frozen capture while a “latest” card moves away; the claim pauses until the bound artifact is named. Candidate angle: `version-lock`. Hook: “Current is not the same version.” Proof surface: `ARTIFACT ID / VERSION OR SNAPSHOT / CAPTURED AT / REFERENCED AS / CHANGED SINCE / SUPERSEDES / USES / OWNER`, explicitly illustrative until product proof verifies exact labels. Emotional turn: citation anxiety becomes bounded evidence confidence without claiming truth. Final line: “Bind the claim to the version you actually saw.”
+
+### Product-state reconciliation
+
+No current product-proof registry or approved capture verifies exact version labels, snapshot identifiers, immutable artifact semantics, supersedes relationships, or claim-to-capture binding. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+### Candidate distinctness
+
+The nearest prior angle is `authority-state`, which maps the control relationship among source, transformation, display, override, owner, review, and downstream impact. `version-lock` changes the pain to **a claim or review pointing at the wrong artifact state because “latest” displaced the exact item actually seen**. It changes the hook to “Current is not the same version”; the visual metaphor from a source-to-output dependency map to a claim card anchored to one frozen snapshot while a latest card changes; the proof surface from control relationships to artifact ID, version/snapshot, capture time, reference, change, supersession, use, and owner; the emotional turn from duplicate-data anxiety to bounded evidence confidence; and the final line to “Bind the claim to the version you actually saw.”
+
+It is distinct from `capture-freshness`, which asks whether a capture is current enough; `supersession-state`, which records replacement relationships; `review-expiry`, which sets review currency; `retention-state`, which governs storage and disposal; `provenance-chain`, which records source lineage; `authority-state`, which maps which field controls an output; `commit-state`, which addresses save acknowledgement; and `export-portability`, which addresses whether an export travels safely. `version-lock` focuses on exact artifact identity and frozen state binding at the moment a claim or planning decision is made.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes immutable releases, snapshot IDs, revision history, a claim-to-capture registry, audit trails, archives, content hashing, or version-aware UI. Do not use `ARTIFACT ID`, `VERSION OR SNAPSHOT`, `CAPTURED AT`, `REFERENCED AS`, `CHANGED SINCE`, `SUPERSEDES`, `USES`, or `OWNER` as current product UI. Do not claim accuracy, quality, fit, adoption, revenue, security, privacy, governance, or customer outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[654] [Digital Preservation Coalition — Persistent identifiers](https://www.dpconline.org/handbook/technical-solutions-and-tools/persistent-identifiers)
+[655] [RFC 7089 — HTTP Framework for Time-Based Access to Resource States: Memento](https://www.rfc-editor.org/info/rfc7089)
+[656] [Semantic Versioning 2.0.0](https://semver.org/)
+[657] [W3C — PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/)
+[658] [Stitch & Scale local skill contracts — publishing/export and pattern QA workflows](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+### Research limit
+
+These sources establish version identity, frozen-state, and preservation principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes immutable releases, snapshot IDs, revision history, or claim-to-capture binding. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
