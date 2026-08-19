@@ -459,3 +459,13 @@ The nearest prior angle is `basis-label`, which focuses on whether a value is me
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `change-notice`, which focuses on disclosing that a test or requirement changed. `artifact-status` changes the pain to not knowing which copy/state a person is holding before they begin. It changes the hook to “The file is not ready until its state is readable,” the visual metaphor from a changed-version card to `DRAFT / REVIEW / TEST COPY / RELEASE` with audience and change-note fields, the proof surface from a change notice to an artifact header, state badge, version/date marker, change-note panel, release-state label, or artifact metadata surface, the emotional turn from understanding a change to knowing what one is holding, and the final line to “Name the copy before you hand it over.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — chart description — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `chart-description` | A visual chart or schematic can carry meaning that is unavailable in an equivalent text or structured form | “A chart is not explained by its title.” | One current, approved chart-description field, alt-text/long-description surface, accessible table/structured chart alternative, schematic text summary, or tagged-export proof with exact labels | Access to meaning without requiring sight rather than accessible-export or compliance certainty | “Describe the meaning, not just the picture.” | blocked; product proof, pattern-asset rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `chart-parity`, which focuses on whether chart counts and written instructions match. `chart-description` changes the pain to whether the visual chart’s meaning exists in an equivalent text or structured form for someone who cannot see the grid. It changes the hook to “A chart is not explained by its title,” the visual metaphor from two numeric representations matching to `WHAT THE GRID MEANS / HOW TO READ IT / TEXT ALTERNATIVE`, the proof surface from chart parity to a chart-description, alt-text/long-description, structured-chart, schematic-summary, or tagged-export surface, the emotional turn from numerical agreement to access to meaning without requiring sight, and the final line to “Describe the meaning, not just the picture.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

@@ -1349,3 +1349,48 @@ Do not claim Stitch & Scale has version history, release labels, change notes, a
 [119] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
 
 [120] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## Forty-fourth wide-research question: can the chart’s meaning be read another way? — 2026-08-19
+
+### Research question
+How can a knitting chart or schematic carry its meaning to a reader who cannot see the grid, legend, or visual linework—without claiming Stitch & Scale has accessible chart descriptions, tagged PDFs, or alternative-text tooling?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers preparing charts, schematics, and pattern exports for testers and readers with varied access needs. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| W3C WAI, Understanding WCAG 2.1 SC 1.1.1 Non-text Content | 2026-08-19; current guidance checked | W3C says non-text content needs a text alternative serving an equivalent purpose. For charts, diagrams, and other complex visuals, short and long alternatives may be needed; alternatives can render information through different modalities. | Informative WCAG Understanding guidance, not proof of Stitch & Scale chart descriptions, tagged PDFs, or alt-text tooling. | A visual chart or schematic should have an equivalent text/structured explanation plan, not only a caption naming the image. |
+| GOV.UK, “Publishing accessible documents” | 2026-08-19; current guidance checked; published 18 August 2020 and updated 9 October 2025 | For images or charts, GOV.UK offers two options: make the same point in the document’s text, or provide alt text for the person converting/uploading the document. | Government document guidance, not a knitwear-specific standard and not product proof. | Treat the chart/schematic explanation as essential content and plan a text alternative or structured description; do not claim export accessibility. |
+| ONS Service Manual, “PDF and Word documents” | 2026-08-19; current page checked in prior run | ONS says essential information should be available elsewhere as HTML because PDF-only content can be difficult for assistive technology. | ONS publishing guidance, not Stitch & Scale output proof. | Keep the chart meaning in a text-readable companion or handoff plan, not only inside a visual grid. |
+| Chart parity and publishing contracts | 2026-08-19; internal contracts | Human chart readability, schematic scale, localization, and export review are distinct gates; chart parity is not the same as an accessible description. | Internal design contracts, not current UI proof. | Select `chart-description` as a separate angle from `chart-parity`, `caption-clearance`, and `readability-under-load`. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for chart-description fields, alt-text/long-description surfaces, accessible table or structured chart alternatives, schematic text summaries, tagged exports, or accessible chart PDFs. All 44 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from general chart readability into **equivalent meaning beyond the picture**. The fresh concept is `chart-description`: a fictional visual chart is paired with `WHAT THE GRID MEANS / HOW TO READ IT / TEXT ALTERNATIVE`, without pretending that a caption or title is an equivalent alternative. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product chart-description or accessible-export behavior is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `chart-parity`, which focuses on whether chart counts and written instructions match. `chart-description` changes the pain to **whether the visual chart’s meaning exists in an equivalent text or structured form for someone who cannot see the grid**. The hook changes to “A chart is not explained by its title.” The visual metaphor changes from two numeric representations matching to a visual grid beside `WHAT THE GRID MEANS / HOW TO READ IT / TEXT ALTERNATIVE`. The proof surface changes from chart parity to a current chart-description field, alt-text/long-description surface, accessible table/structured chart alternative, schematic text summary, or tagged-export proof. The emotional turn changes from confidence in numerical agreement to access to meaning without requiring sight. The final line changes to “Describe the meaning, not just the picture.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale has accessible chart descriptions, alt-text tooling, tagged PDFs, structured chart alternatives, or accessible exports without current proof. Do not equate captions, a chart title, color contrast, or a visual legend with an equivalent text alternative. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[121] [W3C WAI — Understanding Success Criterion 1.1.1: Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)
+
+[122] [GOV.UK — Publishing accessible documents](https://www.gov.uk/guidance/publishing-accessible-documents)
+
+[123] [ONS Service Manual — PDF and Word documents](https://service-manual.ons.gov.uk/content/content-types/pdf-and-word-documents)
+
+[124] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[125] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
