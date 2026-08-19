@@ -7237,3 +7237,38 @@ The nearest prior angle is `audience-control-state`, which asks who receives whi
 [870]: https://www.nist.gov/privacy-framework "NIST Privacy Framework"
 [871]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
 [872]: https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important "Craft Yarn Council, Gauge and Why It Is Important"
+
+
+## Wide-research Director question 168 — interruptibility state — 20260820-000310
+
+**Fresh research question.** When a workflow is started, can a person pause or stop it without losing the current step, creating an ambiguous partial state, or allowing an automatic update to outrun review?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for founding testers and craft-business reviewers: objective = education and tester recruitment through an honest workflow pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise, suspenseful reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [873] | W3C, *Web Content Accessibility Guidelines (WCAG) 2.2*, Recommendation published 2024-12-12; accessed 2026-08-20: https://www.w3.org/TR/WCAG22/ | WCAG 2.2 is a testable accessibility standard for web content on desktop and mobile devices. It requires captions for prerecorded synchronized media at Level A and recognizes that accessibility evaluation combines automated testing with human evaluation. | WCAG applicability to a hypothetical Stitch & Scale workflow is not proof of product conformance or a safe-stop feature. |
+| [874] | W3C, *Understanding SC 2.2.2: Pause, Stop, Hide*, accessed 2026-08-20: https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html | Automatically started moving, blinking, scrolling, or auto-updating information presented alongside other content needs a user mechanism to pause, stop, or hide unless essential. W3C defines paused content as stopped by user request and not resumed until requested; it also distinguishes resuming from the last point versus jumping to the current display for real-time status. | The criterion is specifically about moving, blinking, scrolling, and auto-updating content, not a general workflow checkpoint or transaction rollback. The package must not convert it into a product claim. |
+| [875] | NIST, *AI RMF 1.0 Appendix C: AI Risk Management and Human-AI Interaction*, 2023; accessed 2026-08-20: https://airc.nist.gov/airmf-resources/airmf/appendices/app-c-ai-risk-management-and-human-ai-interaction/ | NIST says human roles and responsibilities in decision-making and AI oversight should be clearly defined and differentiated; configurations range from autonomous to manual; some systems specifically require human oversight; and the frequency and rationale of human challenges or overrides may be useful to collect. | This is risk-management guidance, not evidence that Stitch & Scale uses AI, supports override, exposes an interruption state, or follows NIST. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from a generic pause control to an inspectable interruption state. The story should show that a started operation can stop without pretending it completed, while preserving the current step, saved/unsaved boundary, resume conditions, owner, review, and disposition. The key distinction is between **stopped** and **safe to resume**: a pause button alone does not prove what state the work occupies.
+
+The selected angle is `interruptibility-state`, hook **“Started is not interruptible.”** The proof surface is a fictional workflow card with `RUN`, `CURRENT_STEP`, `PAUSE_REQUESTED`, `SAFE_STATE`, `SAVED`, `UNSAVED`, `RESUME_CONDITIONS`, `OWNER`, `REVIEWED`, and `DISPOSITION`. The emotional turn is from “the operation stopped” to “the person can inspect what stopped before deciding what happens next.” The final line is **“Name what survives the stop.”**
+
+### Distinctness decision
+
+The nearest prior angle is `necessity-state`, which asks why a permitted field should remain for a declared decision. `interruptibility-state` changes the pain to whether a started workflow can be stopped into a truthful, inspectable state before review. It is not `resume-point` or `resume-state`: those prior concepts ask where to continue, while this concept asks whether the stop itself preserves a safe, explicit boundary and whether continuation is authorized. It is not `closure-state`, which asks whether work is actually closed; `completion-state`-adjacent `false-completion`, which remains an imported blocked reservation; `pause` as an accessibility control, because the proof surface includes saved/unsaved state, current step, owner, resume conditions, review, and disposition; or `recovery-proof`, which asks whether recovery is evidenced after failure. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies a pause, stop, safe-state, saved/unsaved, resume-condition, owner, review, or disposition surface. The evidence cards must therefore remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with an interruptibility feature, checkpointing, recovery, autosave, rollback, human override, AI oversight, WCAG conformance, data persistence guarantee, or zero-loss outcome. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, or technical editor. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [873]–[875]
+
+[873]: https://www.w3.org/TR/WCAG22/ "W3C Web Content Accessibility Guidelines (WCAG) 2.2"
+[874]: https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html "W3C Understanding SC 2.2.2: Pause, Stop, Hide"
+[875]: https://airc.nist.gov/airmf-resources/airmf/appendices/app-c-ai-risk-management-and-human-ai-interaction/ "NIST AI RMF Appendix C: AI Risk Management and Human-AI Interaction"
