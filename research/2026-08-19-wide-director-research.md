@@ -4442,3 +4442,60 @@ Do not claim that Stitch & Scale executes actions, authorizes work, tracks opera
 ### Research limit
 
 NIST and NASA sources establish general response lifecycle, action tracking, verification, risk, uncertainty, and traceability concepts but do not establish a Stitch & Scale feature, operational workflow, verification authority, or outcome. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact response-state surface and labels.
+
+## One-hundred-fifth wide-research question: done is not improved — 2026-08-19
+
+### Research question
+After an action is completed, does the record distinguish the intended effect, observed measure, baseline, follow-up period, trend, residual state, recommendation, and status? How can the distinction be shown without claiming Stitch & Scale measures outcomes, improvement, fit, accuracy, adoption, or business performance?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NASA Technical Assessment | Current page checked 2026-08-19; page dated 2023-07-26 | NASA distinguishes status reporting from assessment: status shows where a project stands against a defined measure, while assessment converts reported output into trends and variances that can inform decision analysis and corrective action. It recommends historical data for trend identification and capturing results, findings, recommendations, decisions, rationale, assumptions, and lessons learned. | Systems-engineering context; no Stitch & Scale outcome measurement or trend feature is claimed. | Move the concept beyond response completion to a fictional after-action record separating action completion from observed effect and residual state. |
+| NASA Technical Risk Management | Current page checked 2026-08-19 | NASA describes mitigation/contingency plans being implemented when thresholds trigger them, monitoring results, reporting actions and results, and continuing mitigation until residual risk or consequence impacts are acceptable. | NASA risk-management context; no product residual-risk capability. | Include residual state and follow-up period, but prohibit any claim that the product monitors or resolves risk. |
+| NIST Cybersecurity Framework page | Current page checked 2026-08-19 | NIST frames the CSF as helping organizations understand and improve cybersecurity risk management and points to outcome and evidence-ready reporting resources. | Cybersecurity governance context; not knitwear or Stitch & Scale product proof. | Use “outcome record” only as a general recordkeeping metaphor and retain the fictional disclaimer. |
+| NIST CSF 2.0 PDF | Official PDF located 2026-08-19; extraction was binary/encoded | The HTML page is used for the bounded governance/outcome locator; no unsupported PDF quotation is used. | No additional verbatim claim taken from the binary extraction. | Keep claims limited to the accessible HTML source. |
+| NIST uncertainty/traceability guidance from prior passes | Current pages checked 2026-08-19 | Completion or traceability does not itself establish fitness for purpose, an observed effect, or a verified outcome without scoped evidence. | Measurement-science context; no app outcome feature. | Require baseline, observed measure, follow-up period, and residual state rather than infer improvement from completion. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform checks may be status records, but a completed check is not evidence that every intended outcome occurred. | Accessibility/platform context; no outcome-monitoring authority. | Preserve caption-safe layout and avoid visual language implying success, improvement, or automation. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts distinguish deterministic calculation, saved records, technical edit, print review, chart readability, schematic scale, test knitting, estimates, planned values, and observed outcomes. | Internal operating contracts, not independent validation. | Add explicit `RECORDED / ESTIMATED / PLANNED / UNVERIFIED` boundaries and separate human evidence gates. |
+
+### Research synthesis
+
+NASA’s assessment guidance separates reported status from analytical assessment, trends, variances, findings, recommendations, and decisions. NASA risk guidance separates action-plan implementation from monitoring results and residual state. The research supports a narrow operational distinction: an action can be complete while its intended effect remains unobserved, its measure lacks a baseline, its follow-up period is incomplete, or its residual state is unknown. The visual opportunity is a fictional after-action record that shows `ACTION COMPLETED` but leaves `INTENDED EFFECT`, `OBSERVED MEASURE`, `BASELINE`, `FOLLOW-UP PERIOD`, `TREND`, `RESIDUAL STATE`, `RECOMMENDATION`, and `STATUS` explicit. It ends at `STATUS: EFFECT UNVERIFIED`, labelled `ILLUSTRATIVE — NOT PRODUCT UI`. Final line: “Name the outcome before you call it improved.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying an after-action outcome record, intended-effect field, observed-measure/baseline surface, trend display, residual-state field, recommendation field, or outcome status. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 105 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic “result” concept into **the separation of action completion from observed effect and residual state**. The fresh concept is `outcome-proof`: a fictional after-action card shows a completed action but refuses to call the intended effect improved until a scoped baseline, observed measure, follow-up period, and residual state exist. No product measurement, improvement, outcome, fit, accuracy, adoption, revenue, or business-performance claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `response-state`, which distinguishes plan, authorization, start, completion, and verification states. `outcome-proof` changes the pain to **completion being treated as evidence of improvement even when the intended effect and observed outcome are unmeasured or unverified**. It changes the hook to “Done is not improved”; the visual metaphor from a response-state timeline to an after-action outcome card; the proof surface to action completed, intended effect, observed measure, baseline, follow-up period, trend, residual state, recommendation, and status; the emotional turn from distinguishing action lifecycle states to separating activity from effect; and the final line to “Name the outcome before you call it improved.”
+
+It is distinct from `response-state` because it is not plan/action/completion/verification transition logic; from `risk-trigger` because it is not trigger binding; from `failure-mode` because it is not scenario/effect analysis; from `evidence-type` because it is not evidence-purpose classification; from `evidence-coverage` because it is not claim-to-evidence mapping; from `provenance-chain` because it is not source-to-result history; from `acceptance-criteria` because it is not criterion semantics; from `uncertainty-context` because it is not uncertainty around a number; from `feedback-loop` and `repair-state` because it is not tester issue response or repair disposition; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale measures outcomes, improvement, effectiveness, fit, quality, accuracy, adoption, revenue, customer outcomes, risk reduction, residual risk, or business performance. Do not use `EFFECT UNVERIFIED` or any outcome label as current product UI. Do not imply that action completion makes a result successful, safe, correct, fit, accurate, accessible, publication-ready, or approved. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party reports without rights/privacy clearance. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[543] [NASA — 6.7 Technical Assessment](https://www.nasa.gov/reference/6-7-technical-assessment/)
+[544] [NASA — 6.4 Technical Risk Management](https://www.nasa.gov/reference/6-4-technical-risk-management/)
+[545] [NIST — Cybersecurity Framework](https://www.nist.gov/cyberframework)
+[546] [NIST CSWP 29 — Cybersecurity Framework (CSF) 2.0](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf)
+[547] [NIST — Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty)
+[548] [NIST — Metrological Traceability](https://www.nist.gov/metrology/metrological-traceability)
+[549] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[550] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[551] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[552] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[553] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NASA and NIST sources establish general assessment, risk, residual-state, measure, trend, recommendation, and outcome-reporting concepts but do not establish a Stitch & Scale feature, outcome-monitoring workflow, validation authority, or improvement. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact after-action outcome surface and labels.
