@@ -6601,3 +6601,55 @@ The nearest prior angle is `divergence-state`, which asks how two derived output
 [825]: https://doi.org/10.6028/NIST.SP.800-128 "NIST SP 800-128, Guide for Security-Focused Configuration Management of Information Systems"
 [826]: https://www.w3.org/TR/prov-dm/ "W3C PROV-DM, The PROV Data Model"
 [827]: https://www.craftyarncouncil.com/standards/body-sizing "Craft Yarn Council, Standard Body Measurements/Sizing"
+
+## One-hundred-fifty-fifth wide-research question: a rule is not universal — 20260819-213200
+
+**Question.** How should a craft measurement, warning, review result, or change decision declare the exact subject, size, unit, context, intended use, exception, and disposition for which it applies, rather than being silently generalized to every record or situation?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of teaching disciplined evidence boundaries; audience is makers, reviewers, and developers who need to inspect craft records without confusing one scoped result for a universal rule; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST configuration boundary.** NIST SP 800-128 describes configuration management for information systems and associated operating environments, with a goal of managing and monitoring configurations while supporting desired functionality and minimizing risk. Used only as an analogy, this supports identifying the object and environment to which a rule or change applies instead of treating a conclusion as global. It does not establish a Stitch & Scale configuration item, scope control, or any product behavior. [828]
+
+**Configuration-item framing.** NIST's glossary describes a configuration item as an aggregation of system components designated for configuration management and treated as a single entity in the configuration-management process. For the craft adaptation, the Director separates `SUBJECT`, `RULE_OR_RESULT`, `SCOPE`, `SIZE`, `UNIT`, `CONTEXT`, `INTENDED_USE`, `EXCEPTION`, `REVIEWED`, and `DISPOSITION`. This is a planning vocabulary, not a claim that the product has a configuration-item model. [829]
+
+**Craft workflow evidence.** The Craft Yarn Council describes a schematic as a visual rendering of a knit or crochet piece with relevant measurements. It presents the schematic as an overview of size and shape, a point of reference for fit, and a template for modifying size; it advises reviewing the schematic before starting and comparing a well-fitting garment with the schematic when deciding whether modifications are needed. This supports a video about scope: a measurement or fit conclusion belongs to a named piece, size, unit, and intended fit context. It does not prove grading correctness, fit outcome, or automatic applicability. [830]
+
+**Caption and accessibility evidence.** W3C's WCAG 2.2 understanding guidance says prerecorded synchronized media captions include dialogue, identify who is speaking, and include meaningful non-speech information conveyed through sound. The plan therefore uses one narrator family, labels any meaningful sound cue, and keeps captions in a reserved zone separate from the proof card. W3C guidance does not establish platform-specific safe-zone coordinates. [831]
+
+**Platform and visual constraints.** Meta's Business Help Center says text overlays and logos in 9:16 Stories/Reels/Feed ads should remain within the safe zone, and notes that critical elements can be cropped or covered by interface UI; it also gives an ad-specific bottom-40% caution for disclaimers. This is treated as ad-specific guidance, not a universal organic-post rule. The package keeps proof cards and captions central and requires platform-specific review before any release. [832]
+
+**Selected angle.** `applicability-state` — “A rule is not universal.”
+
+**Primary pain.** A valid result for one size, unit, subject, or intended use can be repeated as if it applies to every record. The error is not necessarily a wrong number; it is an unmarked boundary.
+
+**Hook.** “A rule is not universal.”
+
+**Dramatic engine.** Subject: one fictional craft record and one rule/result card. Desire: a reviewer wants a quick, confident decision. Obstacle: the card omits the subject, scope, and exception. Stakes: a scoped observation is misread as a general instruction. Change: the reviewer expands the card into explicit scope fields. Contradiction: the result can be correct for its subject and still be wrong to generalize. Escalation: one card is copied across size, unit, and intended-use variants until the missing boundary is visible. Final image: the original card is restored to one named subject with a clear boundary and unresolved review/disposition, not an approval stamp.
+
+**Visual grammar.** Neutral paper/grid background; one accent color for scope boundary; red is reserved for unresolved risk, not failure theatrics; labels use large high-contrast type; no real UI, people, private records, copyrighted patterns, or brand marks; captions occupy a fixed central-lower lane that never covers the proof card or primary action; any dense field cluster receives a close readable hold.
+
+**Proof surface.** `SUBJECT / RULE_OR_RESULT / SCOPE / SIZE / UNIT / CONTEXT / INTENDED_USE / EXCEPTION / REVIEWED / DISPOSITION`.
+
+**Audience and platform research decision.** The research changed the decision from a generic “be careful with changes” message to a scope-specific demonstration: show one result moving across three fictional contexts, then stop the generalization until the subject and exception fields are named. Meta guidance reinforces central safe-zone placement for critical text in 9:16 ad contexts; W3C guidance reinforces caption completeness and meaningful sound labeling. Platform-specific organic safe areas remain uncertain and must be reviewed on each platform profile before any release.
+
+**Distinctness decision.** The nearest prior angle is `baseline-state`, which asks whether a named, reviewed reference exists before comparing a current state. `applicability-state` changes the pain to the scope of a rule or result: even with a valid baseline, the result may apply only to one subject, size, unit, context, or intended use. It also differs from `context-state`, which concerns whether metadata is attached; from `coverage-state`, which is an availability question; from `exception-state`, which would focus on handling an exception; and from `divergence-state`, which compares two drifting outputs. The hook changes to “A rule is not universal”; the visual metaphor changes from baseline/current cards to one scoped result being copied across three contexts until the boundary stops the copy; the proof surface changes to subject/rule-or-result/scope/size/unit/context/intended-use/exception/reviewed/disposition; the emotional turn changes from reference ambiguity to overgeneralization awareness; and the final line becomes “Name where this applies.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name where this applies.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed applicability surface, labels, scope logic, exceptions, review, or disposition. No generation or upload is authorized.
+
+## Wide-research Director decision — applicability state — 20260819-213200
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `applicability-state` | A valid result for one subject, size, unit, context, or intended use may be generalized as if it applies everywhere | “A rule is not universal.” | Fictional subject/rule-or-result/scope/size/unit/context/intended-use/exception/reviewed/disposition card | From “This worked here” to “Where does this apply?” | “Name where this applies.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-213200
+The nearest prior angle is `baseline-state`, which asks whether a named, reviewed, time-bound reference exists before a current state is compared. `applicability-state` changes the pain to whether the resulting rule or decision is bounded to the correct subject, size, unit, context, intended use, and exception. It changes the hook to “A rule is not universal”; the visual metaphor from baseline/current comparison cards to one scoped result being copied across three fictional contexts until a boundary stops the copy; the proof surface from baseline/baseline-version/baseline-date/current/current-version/context/measure/unit/size/ease/intended-use/allowed-change/observed-change/reviewed/disposition to subject/rule-or-result/scope/size/unit/context/intended-use/exception/reviewed/disposition; the emotional turn from reference ambiguity to overgeneralization awareness; and the final line to “Name where this applies.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [828]–[832]
+
+[828]: https://csrc.nist.gov/pubs/sp/800/128/upd1/final "NIST SP 800-128 publication page"
+[829]: https://csrc.nist.gov/glossary/term/configuration_item "NIST CSRC, configuration item glossary"
+[830]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
+[831]: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html "W3C WAI, Understanding SC 1.2.2: Captions (Prerecorded)"
+[832]: https://www.facebook.com/business/help/980593475366490 "Meta Business Help Center, text overlays and safe zones for ads"
