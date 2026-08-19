@@ -3,7 +3,7 @@ video_id: null
 filename: null
 status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
 run_started_at: '2026-08-19T14:26:33+01:00'
-run_completed_at: null
+run_completed_at: '2026-08-19T14:27:58+01:00'
 repository: https://github.com/plastic-dude/stitch-and-scale-vid
 repository_head_before_record: c6b0a6a9ab71297098d1468f5b08fc8cd9f151e6
 source_contract:
@@ -74,7 +74,7 @@ records:
   research_note: research/2026-08-19-blocked-no-eligible-director-contract-142633.md
   qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-142633/generator-check.md
   communication_event: comms/outbox/2026-08-19T142633-video-generator-blocked.yml
-  git_commit: PENDING_FIRST_RECORD_COMMIT
+  git_commit: 430cea8f1a7f3047a773d151dba72af4ac6854c7
 next_action: >-
   On the next firing, refresh all branches, prioritize any new REMAKE_REQUIRED order, and otherwise
   select the earliest newly added Director brief with exact status approved-for-generation. Do not

@@ -4,7 +4,8 @@
 
 **Status:** `BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT`  
 **Run:** `BLOCKED-no-eligible-director-contract-20260819-142633`  
-**Run timestamp:** 2026-08-19 14:26:33 Africa/Lagos
+**Run timestamp:** 2026-08-19 14:26:33 Africa/Lagos  
+**Completed:** 2026-08-19 14:27:58 Africa/Lagos
 
 No MP4 was generated. This is one bounded blocked outcome, not a batch and not a substitute deliverable.
 
@@ -36,7 +37,7 @@ No MP4 was generated. This is one bounded blocked outcome, not a batch and not a
 | Google Drive archive | PASS | Connected archive and `01-director-review` folder reachable |
 | MP4 upload | NOT ATTEMPTED | No authorized MP4 existed |
 | Checksum | NOT APPLICABLE | No MP4 output |
-| Git record | PENDING | To be recorded after this run’s four files are committed |
+| Git record | PASS | First production-record commit: `430cea8f1a7f3047a773d151dba72af4ac6854c7` |
 
 ## Research gate
 
