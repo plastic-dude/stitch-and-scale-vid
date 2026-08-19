@@ -929,3 +929,13 @@ The nearest prior angle is `default-state`, which separates a default suggestion
 ### Distinctness note — 2026-08-20
 
 The nearest prior angle is `locale-number-format`, which focuses on how numbers are displayed for a locale. `conversion-trace` changes the pain to a transformed number being mistaken for the original observation because raw value, units, factor, rounding, or source disappear. It changes the hook to “Converted is not observed,” the visual metaphor from locale display cards to a raw-value card linked by a visible factor/rule arrow to a converted-value card, the proof surface from display conventions to raw/transformed lineage, the emotional turn from readable localization to measurement humility about what was observed versus calculated, and the final line to “Keep the original before you trust the conversion.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — uncertainty context — 2026-08-20
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `uncertainty-context` | A precise-looking number can be mistaken for measurement certainty when type, method, conditions, spread, tolerance, or information basis disappear | “A precise number can still be uncertain.” | One current, approved measurement-context surface with value/type/unit/method/conditions/uncertainty-or-range/source/date/status/notes | Humility about what a number means rather than confidence, tolerance, accuracy, or technical-correctness certainty | “Name what you know before you measure what you want.” | blocked; product/data proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 2026-08-20
+
+The nearest prior angle is `rounding-rule`, which focuses on how a number is rounded or displayed. `uncertainty-context` changes the pain to a precise-looking number being mistaken for measurement certainty because its type, method, conditions, spread, tolerance, or information basis disappear. It changes the hook to “A precise number can still be uncertain,” the visual metaphor from rounding examples to one value card surrounded by separate value-type, method, conditions, uncertainty/range, and status cards, the proof surface from display precision to uncertainty context, the emotional turn from readable numeric formatting to humility about what the number actually means, and the final line to “Name what you know before you measure what you want.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
