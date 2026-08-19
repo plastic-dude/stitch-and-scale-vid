@@ -6228,3 +6228,39 @@ Do not claim that Stitch & Scale currently exposes label/concept definitions, sc
 [792] [W3C — SKOS Simple Knowledge Organization System Reference](https://www.w3.org/TR/skos-reference/)
 [793] [Craft Yarn Council — Knitting Abbreviations Master List](https://www.craftyarncouncil.com/standards/knitting-abbreviations)
 [794] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-forty-fifth wide-research question: discouraged is not gone — 20260819-213556
+
+### Research question
+
+When a pattern record, grading result, or publication asset has been replaced or is no longer recommended, what proves the older item is marked for deprecation so it is not silently reused?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| W3C, *Version Management in W3C Technical Reports* | 2026-08-19 | W3C distinguishes current/latest/canonical and dated historical versions and lists lifecycle states including obsolete, superseded, rescinded, retired, and outdated. It says status should clearly state when a newer version supersedes an earlier one and that historical versions remain identifiable through dated URLs. | Technical-report guidance; not a Stitch & Scale lifecycle contract or product proof. The occupied `supersession-state` concept already covers explicit predecessor/current replacement relationships. | Focus this pass on no-longer-recommended status, reason, scope, migration, historical link, review, and decision without consuming the supersession concept. |
+| Craft Yarn Council, *Industry Standards and Guidelines for Designers* | 2026-08-19 | CYC describes pattern-quality concerns and review across production from designer through editing/printing; it emphasizes company-specific requirements and explains that guidelines do not replace them. | Craft industry guidance; not product deprecation, retirement, or update behavior. | Ground the pain in preventing discouraged or outdated work from re-entering a workflow, not in claiming a universal retirement control. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Versioning, publication, records, rights, human review, and mobile workflow have separate evidence boundaries; a newer artifact does not automatically erase historical or operational obligations. | Internal workflow contracts, not current product proof. | Keep `deprecation-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Discouraged is not gone. Candidate angle: `deprecation-state`. Hook: “Discouraged is not gone.” Fictional proof surface: `ITEM / STATUS / DEPRECATED-AT / REASON / AFFECTED SCOPE / REPLACEMENT / MIGRATION / HISTORICAL LINK / REVIEWED / DECISION`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: an older pattern card receives a clear deprecation ribbon while remaining available for historical reference; a new card points to the replacement without silently deleting the old one. Emotional turn: “It is discouraged” becomes “The workflow knows what not to start next.” Final line: “Name what should not start again.”
+
+The candidate is distinct from the occupied `supersession-state` angle, which asks for an explicit predecessor/current replacement relationship. `deprecation-state` changes the pain to communicating that an item is no longer recommended for new use, with reason, effective date, affected scope, replacement, migration, historical link, review, and decision. It is also distinct from `version-lock` (which version is current), `identity-state` (which entity a record became), `withdrawal-state` (whether an item is withdrawn), `review-expiry` (whether review is fresh), `closure-state` (whether work is resolved), `publication-readiness` (release readiness), and `portability-state` (semantic preservation during transfer).
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 144; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies deprecation status, effective date, reason, affected scope, replacement, migration guidance, historical link, review, decision semantics, retirement, or exact product labels. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one older craft item marked no-longer-recommended with reason, date, affected scope, replacement or migration guidance, historical link, and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes deprecation status, effective date, reason, affected scope, replacement, migration guidance, historical link, review, decision semantics, retirement, or exact lifecycle labels. Do not use `ITEM`, `STATUS`, `DEPRECATED-AT`, `REASON`, `AFFECTED SCOPE`, `REPLACEMENT`, `MIGRATION`, `HISTORICAL LINK`, `REVIEWED`, or `DECISION` as current product UI. Do not claim that a newer record automatically invalidates an older one or that deprecation replaces calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[795] [W3C — Version Management in W3C Technical Reports](https://www.w3.org/guide/editor/versioning.html)
+[796] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
+[797] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
