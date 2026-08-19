@@ -7417,3 +7417,38 @@ No current product-proof registry or approved non-private capture verifies sourc
 [891]: https://www.w3.org/TR/dwbp/ "W3C Data on the Web Best Practices"
 [892]: https://openlineage.io/docs/ "OpenLineage — About OpenLineage"
 [893]: https://www.nccoe.nist.gov/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other-destructive-events "NIST NCCoE — Data Integrity"
+
+
+## Wide-research Director question 173 — handoff state — 20260820-003810
+
+**Fresh research question.** When a file or record leaves one person's workspace, what makes it a usable handoff rather than an export with no recipient, context, required action, or receipt?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest handoff pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise, recipient-centered reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [894] | NICE, *Quality statement 4: Structured patient handovers*, accessed 2026-08-20: https://www.nice.org.uk/guidance/qs174/chapter/quality-statement-4-structured-patient-handovers | NICE describes structured handover during transitions, complete and up-to-date information, clearly defined roles and responsibilities, tasks still to do, communication needs, and action by the receiving provider. | This is clinical service guidance used only as an information-design analogy; it is not clinical advice and does not prove a product handoff feature. |
+| [895] | NCBI Bookshelf / NICE guideline, *Structured patient handovers*, accessed 2026-08-20: https://www.ncbi.nlm.nih.gov/books/NBK564933/ | The chapter defines handover as transferring responsibility and information, warns that incomplete or delayed information can compromise safety and quality, and emphasizes that a handover must be useful to the receiving context rather than merely imparting information. | The evidence is healthcare-specific and cannot be generalized into a Stitch & Scale outcome, safety, or quality claim. |
+| [896] | GOV.UK, *Service Manual*, accessed 2026-08-20: https://www.gov.uk/service-manual | The manual organizes service work across accessibility, delivery, technology, team roles, user research, and service assessments, supporting an explicit recipient context and accessible handoff review. | GOV.UK guidance does not prove Stitch & Scale has delivery workflow, recipient tracking, read receipt, task assignment, or service-assessment functionality. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from “the file was exported” to “the receiving person has the context, version, required action, accessibility needs, rights boundary, and receipt state needed to continue.” The fictional proof surface is `HANDOFF H-001 / SENDER / RECIPIENT / CONTEXT / VERSION / REQUIRED_ACTION / OPEN_ITEMS / RIGHTS / ACCESS_NEEDS / RECEIPT / DISPOSITION`.
+
+The selected angle is `handoff-state`, hook **“Exported is not handed off.”** The final line is **“Name what the next person needs.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `reader-handoff`, which asks whether a reader can continue from an exported pattern or document. `handoff-state` changes the pain to whether responsibility and context actually transfer between sender and recipient, including required action, open items, rights, access needs, receipt, and disposition. It is not `export-state`, which asks whether an export was produced; `receipt-state`, which asks whether delivery was acknowledged; `transfer-state`, which asks whether ownership moved; `continuity-state`, which asks whether the work remains coherent; `portability-state`, which asks whether the artifact travels; `handoff-proof`, if present, which asks whether a handoff claim is evidenced; or `reader-handoff`, which is document-reader continuity. The visual metaphor changes to a sender card crossing to a named recipient with context and open items attached, rather than an export button, receipt marker, transfer arrow, portability bridge, or reader sequence. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies recipient tracking, handoff context, version, required action, open items, rights boundary, access needs, receipt, or disposition. The evidence cards must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with export workflow, recipient assignment, read receipt, task assignment, ownership transfer, access-needs handling, rights enforcement, or handoff completion. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [894]–[896]
+
+[894]: https://www.nice.org.uk/guidance/qs174/chapter/quality-statement-4-structured-patient-handovers "NICE Quality Statement 4: Structured Patient Handovers"
+[895]: https://www.ncbi.nlm.nih.gov/books/NBK564933/ "NCBI Bookshelf — Structured Patient Handovers"
+[896]: https://www.gov.uk/service-manual "GOV.UK Service Manual"
