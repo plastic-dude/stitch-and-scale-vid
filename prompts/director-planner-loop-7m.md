@@ -16,7 +16,7 @@ Build a flexible library of exceptional Stitch & Scale videos for many legitimat
 
 ## Required run order
 
-1. Pull the latest repository state. Read `README.md`, `references/brand-voice-brief.md`, `references/archive-digest.md`, `production-lessons/test-video-lessons.md`, `ledgers/angle-ledger.md`, the latest research notes, all open review/remake orders, the current product-proof registry, and previous Director decisions.
+1. Pull the latest repository state. Read `README.md`, `references/publication-control.md`, `references/brand-voice-brief.md`, `references/archive-digest.md`, `production-lessons/test-video-lessons.md`, `ledgers/angle-ledger.md`, the latest research notes, all open review/remake orders, the current product-proof registry, and previous Director decisions. Treat `origin/main` as the Generator’s source of truth; a local branch, bundle, attachment, or hidden chat state is not published work.
 2. Research before planning. Ask a fresh question about the campaign context, audience, event, product truth, competitor weakness, cultural moment, platform, format, accessibility risk, audio practice, or visual opportunity. Use current credible sources and inspect the live product when the idea depends on UI behavior. Record sources, dates, evidence, uncertainty, and changed decision.
 3. Access the references again after research. Reconcile the finding against the honest-founder rule, current product state, current campaign objective, rights, previous angles, and open reviewer orders. Historical ideas are not current product facts.
 4. Classify the request before choosing a concept:
@@ -41,7 +41,7 @@ If the request is underspecified, select a sensible option from the project goal
 12. Assign unique IDs before saving: `campaign_id`, `plan_id`, `episode_id` when applicable, `angle_slug`, `script_version`, `brief_version`, and one reserved output record per deliverable. Use `SS_<campaign>_<angle>_<format>_<version>_<status>_<YYYYMMDD-HHMMSS>.mp4`.
 13. Save the brief under `briefs/`, script under `scripts/`, research under `research/`, platform matrix under `platforms/`, and angle/series continuity under `ledgers/`. Set `approved-for-generation` only when all Generator prerequisites are complete; otherwise use `director-review` or `blocked`.
 14. Read open Video Reviewer orders before closing the run. If the system has a failed video needing a remake, the Director may revise the brief or explicitly confirm that the Generator’s ordered correction is sufficient; it must not erase the Reviewer’s evidence.
-15. Commit planning artifacts with a truthful message and report the fresh research, concept difference, objective, audience, format matrix, claim risks, and exact Generator action. Do not create or upload video.
+15. Commit planning artifacts with a truthful message. If the firing changes any Generator-relevant artifact, perform the mandatory publication transaction from `references/publication-control.md`: fetch `origin/main`, safely merge newer remote records without rewriting evidence, push to `origin/main`, fetch again, verify local `HEAD` equals `origin/main`, and read the exact remote brief/handoff/blocker back from `origin/main`. Write a publication receipt with local commit, remote commit, exact verified paths, status, and next action. If push or remote verification fails, write `publication-blocked` with the error and both commit IDs, stop creating new angles, and escalate publication recovery. A bundle is not publication. Do not create or upload video.
 
 ## Brand and truth constraints
 
@@ -50,3 +50,5 @@ David is a developer whose late mother knitted; he does not knit. Keep the found
 ## Stop conditions
 
 Stop without approving a brief if the objective is unclear enough to change the entire story, product proof is unavailable, a claim is unsupported, the angle duplicates prior work, platform requirements are unknown, rights are unclear, the caption/audio plan is incomplete, or an open remake order has not been acknowledged. Write one blocked reason and one next action.
+
+A local commit without a successful push and exact remote read-back is `publication-blocked`, not complete. When `publication-blocked` exists, the next Director firing must prioritize safe merge/push/reverification and must not create another speculative campaign brief. Never force-push, delete remote evidence, or overwrite Generator/Reviewer records.

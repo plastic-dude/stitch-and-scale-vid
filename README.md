@@ -26,7 +26,11 @@ The video team exists to recruit founding testers for Stitch & Scale through hon
 
 ## Agent cadence
 
-The intended schedules are a 7-minute repeated Director/Planner run and a 15-minute repeated Video Generator run. Main Worker, Reviewer, and Crawler operate on 15-minute repeated runs. Every firing must research a fresh question and leave a durable report. The Video Generator creates one video per firing and then stops.
+The intended schedules are a 7-minute repeated Director/Planner run and a 15-minute repeated Video Generator run. Main Worker, Reviewer, and Crawler operate on 15-minute repeated runs. Every firing must research a fresh question and leave a durable report. The Video Generator creates one video per firing and then stops. Each schedule must preserve the configured single-chat continuity and must read the published remote repository state before acting.
+
+## Publication is a hard gate
+
+The Video Generator sees `origin/main`, not a Director’s local worktree. A local commit, bundle, attachment, or chat message is not published. Every Director firing that changes a Generator-relevant artifact must fetch, safely merge newer remote evidence, push, fetch again, verify local `HEAD` equals `origin/main`, read the exact remote paths back, and write a publication receipt. If any step fails, the state is `publication-blocked`; the Director must stop creating new campaign ideas and restore remote visibility. After two consecutive Generator runs report no eligible contract while a local package is known to exist, the Generator writes one `PUBLICATION_ESCALATION_REQUIRED` record instead of repeating ordinary starvation blockers. See `references/publication-control.md`.
 
 ## Media boundary
 
