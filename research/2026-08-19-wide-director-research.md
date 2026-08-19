@@ -5518,3 +5518,47 @@ Do not claim that Stitch & Scale currently exposes preview version links, render
 ### Research limit
 
 These sources establish paged-media, PDF accessibility, chart-geometry, print-review, and target-medium fidelity principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes preview version links, render targets, page-break checks, scale controls, reading-order checks, chart-geometry checks, PDF tags, or physical print fidelity. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-twenty-seventh wide-research question: shown is not acknowledged — 20260819-200524
+
+### Research question
+
+When an important warning, review request, or result appears, what proves it was delivered, seen, acknowledged, acted upon, or escalated rather than merely displayed?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| W3C WCAG 2.2 — Status Messages | 2026-08-19 | Status messages can report action results, waiting/progress, or errors; important changes should be programmatically determinable to assistive technology without taking focus; delivery should avoid unnecessary interruption. | Accessibility guidance; not a Stitch & Scale product claim. | Frame warning proof around a lifecycle rather than a visible toast or badge. |
+| W3C ARIA19 — role=alert or live regions | 2026-08-19 | Error messages injected into a live region can be announced without moving focus; repeated submissions and context should remain understandable to assistive technology. | Technique guidance; no product behavior evidence. | Include accessible announcement as a separate proof field, not as assumed delivery. |
+| Apple HIG — Managing Notifications | 2026-08-19 | Notifications require permission; delivery can be filtered or scheduled; interruption levels should represent urgency accurately; time-sensitive interruption should be reserved for relevant events; marketing notifications require explicit agreement. | Apple platform guidance; no product behavior evidence. | Separate delivery, urgency, permission, and acknowledgement; never imply notification reach. |
+| Apple HIG — Alerts | 2026-08-19 | Alerts should provide essential information and useful actions, be used sparingly, and describe the actual situation and result clearly. | Apple platform guidance; no product behavior evidence. | Require action/result evidence after a warning, not only display. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Warning, review, consent, save, response, caption, audio, and human evidence states remain distinct; displayed text is not evidence of delivery, comprehension, acknowledgement, or action. | Internal contracts, not current product behavior. | Block until one handoff lifecycle is captured and rights-cleared. |
+
+### Research synthesis and decision shift
+
+Shown is not acknowledged. Candidate angle: `acknowledgement-state`. Hook: “Shown is not acknowledged.” Fictional proof surface: `MESSAGE / RECIPIENT / DELIVERED / SEEN / ACKNOWLEDGED / ACTION / ESCALATION / EXPIRES`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: a warning travels through delivery, seen, acknowledgement, action, escalation, and expiry gates. Emotional turn: notification anxiety becomes accountable handoff. Final line: “Name the acknowledgement before you close the loop.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies recipient routing, delivery state, seen state, acknowledgement controls, action records, escalation, expiry, accessible status-message announcement, notification permission, interruption level, or marketing-notification consent. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `preview-state`, which concerns whether a screen preview survives rendering, export, device presentation, chart/schematic use, and physical or target-medium review. `acknowledgement-state` changes the pain to **a displayed warning or result failing to prove that the right recipient received it and recorded an action**. It changes the hook to “Shown is not acknowledged”; the visual metaphor from a preview unfolding into page boxes to a warning travelling through delivery, seen, acknowledgement, action, escalation, and expiry gates; the proof surface from preview-version/render-target/page-size/scale/page-breaks/margins/reading-order/final-check to message/recipient/delivered/seen/acknowledged/action/escalation/expires; the emotional turn from target-medium accountability to accountable handoff; and the final line to “Name the acknowledgement before you close the loop.”
+
+It is distinct from `risk-trigger`, which concerns whether a warning has a trigger; `consent-state`, which concerns permission; `response-state`, which concerns a plan versus enacted response; `intent-state`, which concerns action scope before execution; `commit-state`, which concerns save acknowledgement; `outcome-proof`, which concerns improved outcome; `review-expiry`, which concerns review freshness; and `accessibility-state`, which concerns accessibility configuration. `acknowledgement-state` focuses on the lifecycle between a message/result being emitted and a human or system recording that it was received and acted upon. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes recipient routing, delivery/seen/acknowledged/action/escalation/expiry states, accessible status announcements, or notification permission/urgency controls. Do not use `MESSAGE`, `RECIPIENT`, `DELIVERED`, `SEEN`, `ACKNOWLEDGED`, `ACTION`, `ESCALATION`, or `EXPIRES` as current product UI. Do not claim notification reach, message comprehension, completion, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[725] [W3C — Understanding Success Criterion 4.1.3: Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)
+[726] [W3C — Technique ARIA19: Using ARIA role=alert or Live Regions to Identify Errors](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA19)
+[727] [Apple Developer — Human Interface Guidelines: Managing Notifications](https://developer.apple.com/design/human-interface-guidelines/managing-notifications)
+[728] [Apple Developer — Human Interface Guidelines: Alerts](https://developer.apple.com/design/human-interface-guidelines/alerts)
+[729] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish status-message announcement, live-region error delivery, notification permission/urgency, and accountable handoff principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes recipient routing, delivery/seen/acknowledged/action/escalation/expiry states, accessible status announcements, or notification permission/urgency controls. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
