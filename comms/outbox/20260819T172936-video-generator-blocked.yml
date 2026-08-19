@@ -1,0 +1,50 @@
+event:
+  event_id: 20260819T172936-video-generator-blocked
+  timestamp_local: '2026-08-19T17:29:36+01:00'
+  timezone: Africa/Lagos
+  type: video-generator-run-result
+  outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+  bounded_run: true
+  same_chat: true
+  child_task_created: false
+
+run:
+  repository_head_before_run: 55312f80d19f6b7a9eb88d77cbc47b29c11cbaf1
+  create_video_activated: false
+  mp4_created: false
+  output_filename: null
+  sha256: null
+  drive_file_id: null
+  drive_upload_verified: false
+
+queue:
+  remake_required_orders: 0
+  eligible_new_director_pairs: 0
+  consumed_pair_excluded: DIR-001
+  consumed_brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+  consumed_script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+  decision: no_eligible_director_contract
+
+research:
+  fresh_wide_research: true
+  record: research/2026-08-19-blocked-no-eligible-director-contract-20260819-172936.md
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+
+storage:
+  connector_available: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  existing_dir001_drive_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
+  blocked_external_storage: false
+
+records:
+  research: research/2026-08-19-blocked-no-eligible-director-contract-20260819-172936.md
+  manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-172936.yml
+  qa: reviews/BLOCKED-no-eligible-director-contract-20260819-172936/generator-check.md
+  final_commit: PENDING
+
+next_action: refresh_all_refs_then_prioritize_new_remake_required_or_earliest_new_approved_for_generation_pair
+credential_note: rotate_classic_github_credential_after_use; token_not_exposed

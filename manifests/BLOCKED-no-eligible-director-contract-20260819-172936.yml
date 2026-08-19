@@ -1,0 +1,88 @@
+run:
+  run_id: SS-video-generator-20260819-172936
+  timestamp_local: '2026-08-19T17:29:36+01:00'
+  timezone: Africa/Lagos
+  outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+  bounded_run: true
+  single_chat_continuity: true
+  child_task_created: false
+  videos_created: 0
+  videos_delivered: 0
+  create_video_activated: false
+  stop_after_one_outcome: true
+
+repository:
+  url: https://github.com/plastic-dude/stitch-and-scale-vid
+  local_path: /home/ubuntu/stitch-and-scale-vid-run
+  branch: main
+  head_before_run: 55312f80d19f6b7a9eb88d77cbc47b29c11cbaf1
+  worktree_clean_before_records: true
+  worktree_clean_after_commit: true
+  scoped_credential_used_runtime_only: true
+  credential_exposed: false
+  credential_persisted: false
+
+queue:
+  selection_policy: reviewer_remake_first_then_first_run_catch_up
+  fetched_refs_inspected: true
+  remake_orders_path_found: false
+  open_remake_required_orders: 0
+  exact_new_approved_for_generation_pairs: 0
+  consumed_contracts_excluded: 1
+  excluded_contract:
+    id: DIR-001
+    brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+    script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+    prior_status: director-review
+    prior_video: videos/SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.mp4
+  eligibility_decision: no_eligible_contract
+  generation_authorized: false
+
+research:
+  fresh_wide_research_completed: true
+  note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-172936.md
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+  production_lessons_read: true
+
+storage:
+  connector_required: true
+  connector_available: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  existing_dir001_drive_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
+  existing_dir001_drive_mime_type: video/mp4
+  new_mp4_created: false
+  new_mp4_uploaded: false
+  external_storage_blocked: false
+
+schedule:
+  name: VIDEO GENERATOR — single chat
+  interval_seconds: 900
+  enabled: true
+  repeated: true
+  run_as_new_task: false
+  timezone: Africa/Lagos
+
+output:
+  filename: null
+  sha256: null
+  mime_type: null
+  resolution: null
+  duration_seconds: null
+  drive_file_id: null
+  drive_url: null
+
+qa:
+  record: reviews/BLOCKED-no-eligible-director-contract-20260819-172936/generator-check.md
+  video_level_qa_applicable: false
+  result: blocked_before_generation
+  hard_rejection_triggered: false
+
+traceability:
+  research_record: research/2026-08-19-blocked-no-eligible-director-contract-20260819-172936.md
+  communication_record: comms/outbox/20260819T172936-video-generator-blocked.yml
+  final_commit: PENDING
+  next_action: check_for_remake_or_new_approved_director_contract_on_next_firing
