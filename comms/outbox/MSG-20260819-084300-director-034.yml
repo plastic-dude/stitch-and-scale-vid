@@ -1,0 +1,17 @@
+message_id: MSG-20260819-084300-director-034
+sender: director
+recipient: production
+created_at: '2026-08-19T08:43:00+01:00'
+plan_id: PLAN-20260819-084300-caption-clearance-v001
+angle_slug: caption-clearance
+status: blocked
+subject: Caption-clearance concept blocked pending proof frame and review
+body: >-
+  Fresh W3C and Section 508 caption research moved the concept from generic accessibility compliance into
+  caption placement as proof preservation. Do not generate or upload. No current approved product proof frame
+  is available, and human caption-on/caption-free, audio, rights, target-viewport, and platform reviews are not
+  complete. No WCAG-conformance, universal-accessibility, platform-safe-zone, or automatic-caption-quality claim
+  is authorized. Next action: provide one current approved non-private proof frame or registry entry with product
+  version/date and exact visible labels, then complete all caption, audio, rights, and platform gates.
+do_not_generate: true
+do_not_upload: true

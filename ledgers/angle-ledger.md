@@ -339,3 +339,13 @@ The nearest prior angle is `notation-key`, which concerns local shorthand meanin
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `sequence-map`, which concerns prerequisite, repeat scope, branch conditions, and what must happen before the next action. `count-check` changes the pain to numbers being present without a meaningful pause-and-compare point, the hook to “A number becomes useful when you know when to check it,” the visual metaphor from `BEFORE / DO / REPEAT / THEN` to `START / WORK / COUNT / PAUSE` with a pencil checkpoint, the proof surface from sequence/dependency context to count/checkpoint/arithmetic/review context, the emotional turn from procedural orientation to deliberate verification ownership, and the final line to “Give the number a checkpoint.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — caption clearance — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `caption-clearance` | Caption text can cover hands, charts, tables, numbers, logos, buttons, menus, or the product proof needed to understand a demonstration | “If the caption covers the stitch, you lost the proof.” | One current, approved product proof frame or registry entry plus caption-on/caption-free review | Disciplined audiovisual composition rather than accessibility or caption-quality certainty | “Keep the words clear. Keep the proof visible.” | blocked; product proof, caption rights, caption-on/off masters, audio, and platform review missing; distinct from `equivalent-meaning`, `readability-under-load`, `paper-proof`, `chart-parity`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `equivalent-meaning`, which concerns preserving pattern meaning across screen readers, large text, spoken description, and non-visual access. `caption-clearance` changes the pain to caption text covering visual proof in a demonstration video, the hook to “If the caption covers the stitch, you lost the proof,” the visual metaphor from alternate pattern semantics to a caption box moving away from hands and proof into a reserved lane, the proof surface from an accessible chart or semantic product surface to a current product proof frame plus caption-on/caption-free review, the emotional turn from inclusive access through semantics to disciplined audiovisual composition, and the final line to “Keep the words clear. Keep the proof visible.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

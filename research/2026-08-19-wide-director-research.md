@@ -866,3 +866,31 @@ Research changed the concept from generic math correctness into **human-facing c
 [68] [Craft Yarn Council — How to Read a Knitting Pattern](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern)
 
 [69] [Snickerdoodle Knits — A Knitting Pattern Designer’s Guide to Tech Editing](https://www.snickerdoodleknits.com/post/a-knitting-pattern-designers-guide-to-tech-editing-what-why-and-how-pattern-tech-editing-works)
+
+## Thirty-second wide-research question: where can the caption go without hiding the proof? — 2026-08-19
+
+### Research question
+How can craft-pattern demonstration videos keep captions readable without covering hands, charts, tables, numbers, logos, buttons, menus, or primary proof, while avoiding any claim that Stitch & Scale currently meets accessibility requirements?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| W3C WAI, “Understanding Success Criterion 1.2.2: Captions (Prerecorded)” | 2026-08-19; current WCAG 2.2 Understanding page | W3C states that prerecorded synchronized media should provide captions; captions include dialogue, speaker identification, and meaningful sound effects. | The page explains WCAG guidance; it is not proof of Stitch & Scale conformance, product caption controls, or a universal layout recipe for every platform. | Make caption placement a visual-proof decision and review sound information, not merely a transcript overlay. |
+| Section508.gov, “Video and Other Synchronized Media” | 2026-08-19; current U.S. government guidance | The guidance distinguishes captions from subtitles and transcripts, says auto-captioning can omit speaker changes, punctuation, synchronization, and meaningful sound information, and recommends planning for captions rather than relying solely on auto-captioning. | U.S. federal guidance; not a legal conclusion for Stitch & Scale or its social distribution. It does not supply platform-specific safe-zone measurements. | Require human caption review, caption-on and caption-free masters, one narrator family, and visual proof clearance before generation. |
+| Local production lessons | 2026-08-19; repository source | Captions may not cover faces, hands, proof, tables, numbers, logos, buttons, menus, or primary actions; dense proof requires close readable shots. | Internal production contract, not platform conformance proof. | Select the fresh concept `caption-clearance` and block it pending a real proof surface plus caption/audio/rights review. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for the product surface to be shown. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`caption-clearance`**: the tension is a caption helping access while covering the hands, chart, table, numbers, or product proof that the viewer needs to understand. The hook is “If the caption covers the stitch, you lost the proof.” The visual metaphor is a caption box moving away from hands and proof into a deliberately reserved lower-third lane, with a caption-free review card. The proof surface must be one current, approved product capture or proof frame; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic accessibility compliance into **caption placement as a proof-preservation decision**. The script must not claim WCAG conformance, universal accessibility, platform-safe zones, or automatic caption quality. It must require human caption review, speaker/audio mapping, caption-on and caption-free versions, and a clean proof frame before any generation request.
+
+### References
+
+[70] [W3C WAI — Understanding Success Criterion 1.2.2: Captions (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+
+[71] [Section508.gov — Video and Other Synchronized Media](https://www.section508.gov/create/synchronized-media/)
