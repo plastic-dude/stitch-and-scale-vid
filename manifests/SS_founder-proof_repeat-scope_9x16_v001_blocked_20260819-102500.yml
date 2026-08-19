@@ -1,0 +1,45 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-102500-repeat-scope-v001
+angle_slug: repeat-scope
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_repeat-scope_9x16_v001_blocked_20260819-102500.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-notation-scope-display-repeat-group-highlight-repeat-from-cue-grouping-parentheses-explanation-size-specific-branch-exception-marker-or-parsed-instruction-preview
+product_version: null
+proof_capture_approved: false
+notation_scope_display_status: missing
+repeat_group_highlight_status: missing
+repeat_from_cue_status: missing
+grouping_parentheses_explanation_status: missing
+size_specific_branch_status: missing
+exception_marker_status: missing
+parsed_instruction_preview_status: missing
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no notation-parsing, automatic-scope-highlighting, repeat-validation, branch-detection, or count-confirmation claim
+  - punctuation convention is source-specific, not universal
+  - no real pattern file, copyrighted instruction, screenshot, customer project, or personal data without rights and privacy review
+  - fictional notation cards are not product UI truth
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private notation scope display, repeat-group highlight, repeat-from cue, grouping/parentheses explanation, size-specific branch, exception marker, or parsed-instruction preview proof capture or registry entry with product version/date and exact labels, then rerun all Director gates.

@@ -569,3 +569,13 @@ The nearest prior angle is `chart-parity`, which focuses on whether chart and wr
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `sequence-map`, which focuses on where a maker moves through pattern sections and related documents. `direction-cue` changes the pain to which way this row or round should be read and what side of the work the symbol represents. It changes the hook to “The chart did not change. Your reading direction did,” the visual metaphor from a route/sequence map to `ROW / SIDE / READ / TURN / KEY`, the proof surface from navigation/sequence mapping to a row arrow, side indicator, round cue, highlighted-row, direction-key, or direction-aware chart surface, the emotional turn from knowing where to go next to orientation before action, and the final line to “Show the direction before the symbol.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — repeat scope — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `repeat-scope` | A maker cannot tell which tokens belong to a group, how often it repeats, where it stops, or what exception follows | “The asterisk is not the whole instruction.” | One current, approved notation scope display, repeat-group highlight, `repeat from` cue, grouping/parentheses explanation, size-specific branch, exception marker, or parsed-instruction preview with exact labels | Inspectable sequence boundaries without parser certainty | “Show what repeats before you repeat it.” | blocked; product proof, pattern/record rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `count-check`, which focuses on whether stitch or row totals reconcile. `repeat-scope` changes the pain to which tokens belong to a group, how often that group repeats, where it ends, and what exception follows. It changes the hook to “The asterisk is not the whole instruction,” the visual metaphor from count arithmetic to `START / GROUP / REPEAT / STOP / EXCEPTION`, the proof surface from a count check to a notation scope, repeat-group, repeat-from, grouping, size-branch, exception, or parsed-preview surface, the emotional turn from numeric verification to inspectable sequence boundaries, and the final line to “Show what repeats before you repeat it.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

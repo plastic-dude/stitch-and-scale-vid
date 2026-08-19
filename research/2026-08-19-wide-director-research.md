@@ -1821,3 +1821,45 @@ Do not claim Stitch & Scale provides row arrows, highlighted current rows, right
 [167] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [168] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## Fifty-fifth wide-research question: what exactly repeats? — 2026-08-19
+
+### Research question
+When a knitwear pattern uses asterisks, parentheses, brackets, or repeat-from markers, how can a maker see exactly what is grouped, repeated, optional, or size-specific—without claiming Stitch & Scale parses notation or validates repeat scope?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers writing, editing, or following repeat-heavy pattern instructions on screens and print. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “How to Read a Knitting Pattern” | 2026-08-19; current page checked | CYC explains that asterisks indicate repeated steps; brackets enclose a group repeated a specified number of times; parentheses can either group stitches worked together or be used in a repeat-like way depending on the instruction. It gives examples such as `*K2, P2; rep from * across` and `[YO, K2tog] 6 times`. | Craft-industry guidance, not a universal punctuation convention and not Stitch & Scale proof. | A fresh concept should expose the scope, grouping, repeat count, and stopping condition rather than assuming punctuation is self-explanatory. |
+| GOV.UK content and publishing guidance, “Understand content design” | 2026-08-19; current page checked | GOV.UK says good content helps users quickly find what they need to know or do, starts with user needs, considers amount/format/place, and should be clear, accessible, and maintained. | General content-design guidance, not knitting notation guidance and not Stitch & Scale proof. | Use `repeat-scope`: make `START / GROUP / REPEAT / STOP / EXCEPTION` visible before a sequence is followed. |
+| Stitch & Scale pattern-QA and publishing/export contracts | 2026-08-19; internal contracts | Technical editing, count checks, chart readability, localization, and human publication review remain distinct; no notation parser or scope validator is established. | Internal operating contract, not current UI proof. | Treat the concept as an explanatory notation boundary and block parsing, automatic scope, or repeat-validation claims. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for notation scope displays, repeat-group highlights, `repeat from` cues, grouping/parentheses explanations, size-specific branches, exception markers, or parsed-instruction previews. All 55 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic notation into **which tokens belong to a group, how many times that group repeats, where it stops, and what exception follows**. The fresh concept is `repeat-scope`: a fictional instruction card separates `START / GROUP / REPEAT / STOP / EXCEPTION`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no notation parsing, automatic scope highlighting, repeat validation, size-branch detection, or parsed-instruction behavior is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `count-check`, which focuses on whether stitch or row totals reconcile. `repeat-scope` changes the pain to **which tokens belong to a group, how often it repeats, where it ends, and what exception follows**. The hook changes to “The asterisk is not the whole instruction.” The visual metaphor changes from count arithmetic to `START / GROUP / REPEAT / STOP / EXCEPTION`. The proof surface changes from a count check to a notation scope display, repeat-group highlight, `repeat from` cue, grouping/parentheses explanation, size-specific branch, exception marker, or parsed-instruction preview. The emotional turn changes from numeric verification to inspectable sequence boundaries without parser certainty. The final line changes to “Show what repeats before you repeat it.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale parses notation, validates repeat scope, highlights groups automatically, detects size-specific branches, or confirms counts without current proof. Do not claim punctuation conventions are universal beyond the cited source. Do not use real pattern files, copyrighted instructions, screenshots, or customer projects without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[169] [Craft Yarn Council — How to Read a Knitting Pattern](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern)
+
+[170] [GOV.UK Content and publishing guidance — Understand content design](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/plan-manage-content/understand-content-design/)
+
+[171] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[172] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
