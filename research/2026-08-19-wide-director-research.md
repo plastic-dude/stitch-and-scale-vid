@@ -103,3 +103,21 @@ The research does not prove that Stitch & Scale currently performs translation Q
 [9] [Craft Yarn Council — How to Read a Knitting Pattern](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern)
 
 [10] [Craft Yarn Council — Knitting Abbreviations Master List](https://www.craftyarncouncil.com/standards/knitting-abbreviations)
+
+## Fourth wide-research question: yarn identity versus fabric gauge
+
+A fresh question examined how designers communicate yarn substitution without reducing fabric behavior to a category label. The Craft Yarn Council’s Standard Yarn Weight System lists yarn categories, typical knit-gauge ranges, and needle ranges, but explicitly labels those ranges as guidelines only and tells readers to follow the gauge stated in the pattern. Source: https://www.craftyarncouncil.com/standards/yarn-weight-system
+
+A current Purl Soho yarn-substitution guide appeared behind a security-verification page in the browser, so its search-result description was treated only as a lead and not as verified evidence. No product or claim was based on the blocked page. Source: https://www.purlsoho.com/create/yarn-substitution-made-easy/
+
+## Research decision changed
+
+The next distinct opportunity is **gauge reality**: a yarn category or label is not the finished fabric, and substitution decisions must be grounded in the stated gauge and swatch behavior. This is distinct from locale drift, correction trace, and reader handoff because the conflict is material behavior versus category shorthand, not language, version, or first interpretation.
+
+The research supports a film about making the target fabric visible, but it does not prove that Stitch & Scale currently tracks swatches, yarn substitutions, fiber behavior, or gauge validation. Those claims remain blocked without current product proof.
+
+## References
+
+[11] [Craft Yarn Council — Standard Yarn Weight System](https://www.craftyarncouncil.com/standards/yarn-weight-system)
+
+[12] [Purl Soho — Yarn Substitution Made Easy](https://www.purlsoho.com/create/yarn-substitution-made-easy/)

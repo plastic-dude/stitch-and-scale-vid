@@ -59,3 +59,13 @@ The nearest prior angle is `reader-handoff`, which focuses on first interpretati
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `reader-handoff`, which focuses on a reader interpreting one published instruction. `locale-drift` changes the pain to meaning changing across locales, the hook to same counts with different conventions, the visual metaphor from a physical handoff to aligned locale pages, the proof surface from a reader-facing decision or correction record to locale/export comparison and keys, the emotional turn from individual uncertainty or maintenance responsibility to inclusive confidence, and the final line to “Show me what survived the translation.” The concept is blocked until a current localized product surface and qualified language review exist.
+
+## Wide-research Director decision — gauge reality — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `gauge-reality` | A yarn category or label can be mistaken for the finished fabric and target gauge | “Same weight is not the same fabric.” | One current, readable gauge, swatch, substitution, yarn, or publication-preflight surface | Tactile confidence replaces label-based assumption | “Show me the fabric the label cannot.” | blocked; proof and material rights missing; distinct from `locale-drift` and `correction-trace` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `locale-drift`, which focuses on pattern meaning changing across locale terminology and keys. `gauge-reality` changes the pain to material behavior being mistaken for a category label, the hook to same weight producing a different fabric, the visual metaphor from aligned locale pages to label-to-swatch transformation, the proof surface from locale/export comparison to gauge, swatch, substitution, yarn, or preflight evidence, the emotional turn from inclusive language confidence to tactile material confidence, and the final line to “Show me the fabric the label cannot.” It remains blocked until current product proof and asset rights are verified.
