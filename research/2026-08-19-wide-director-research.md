@@ -175,3 +175,34 @@ The research does not prove that Stitch & Scale currently provides complete offl
 [17] [MDN — Offline and background operation](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation)
 
 [18] [Android Developers — Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first)
+
+## Eighth wide-research question: recorded cost, estimate, and the designer's next decision — 2026-08-19
+
+### Research question
+How should an independent craft or knitwear business communicate the difference between a recorded cost, a derived rollup, and an estimate so that a designer can make a next pricing or production decision without treating a projection as a fact?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Internal Revenue Service, “Why should I keep records?” | 2026-08-19; page shows Feb. 25, 2026 update in search result | The IRS says good records help monitor business progress, prepare financial statements, identify income sources, track deductible expenses, prepare returns, and support reported items. It distinguishes an income statement as income and expenses for a period and says records should support reported income, expenses, and credits. | This is U.S. tax and recordkeeping guidance, not product, pricing, or legal advice for every jurisdiction. It does not authorize a tax claim in campaign content. | The concept must show a **record trail** and label any calculated or planned value separately; it must not frame a derived margin or break-even figure as settled revenue or profit. |
+| U.S. Small Business Administration, “Manage your business” | 2026-08-19; live page | SBA presents bookkeeping and basic financial knowledge as part of managing finances, and separates finance management, marketing/sales, emergency preparation, cybersecurity, and fraud protection as different operating responsibilities. | General small-business guidance, not knitwear-specific and not evidence that Stitch & Scale implements any particular finance surface. | The dramatic engine should be the moment a designer has to decide what is known before committing to a next sample, submission, or price conversation—not a promise that the product automates bookkeeping or makes the decision. |
+| Natalie in Stitches, “FN2N, Part 7 | Economies of Knitting Pattern Production” | 2026-08-19; search discovery | Independent pattern production has economic choices involving labor, materials, testing, editing, and distribution. | Independent practitioner evidence is illustrative, not a universal formula or current product proof. | Use the human work behind a pattern as context, but do not invent any numbers, rates, sales, or profitability outcomes. |
+| Craft-business workflow contract in the local skill record | 2026-08-19; local project guidance | A trustworthy craft-business record distinguishes recorded transactions from calculated estimates and designer assumptions, keeps event history rather than overwriting totals, and labels recorded, estimated, planned, and unverified values. | This is internal workflow guidance, not external market evidence. | Use a **truth-state transition** as the visual opportunity: recorded expense → derived rollup → explicitly labeled estimate → next human decision. Any current UI labels must come from an approved product capture. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for a business-record, design-ledger, expense, sales-rollup, break-even, estimate, or export surface. The application’s existence and internal design-ledger guidance are not sufficient proof of live UI behavior. David is a developer whose late mother knitted; he is not to be described as a knitter, knitwear designer, pattern designer, or technical editor.
+
+### Creative implication
+The fresh concept is **`decision-ledger`**: the tension is not “how much money did this make?” but “what can a maker honestly decide from the records in front of them?” The visual metaphor is a worktable with separate labeled cards—recorded, derived, estimated, planned—rather than a triumphant profit number. The proof surface must be one current, readable design-ledger or record/export surface with exact labels visible. It is distinct from `offline-continuity` because the pain is epistemic classification before a business decision, not connectivity loss; distinct from `correction-trace` because it does not follow a published change; and distinct from `false-completion` / `release-gate-roster` because it is not a generic or rostered human release gate.
+
+### Research decision changed
+Research changed the concept from a generic “price your work” story to a **truth-state decision story**. The script must avoid pricing advice, tax advice, profitability claims, revenue claims, final pricing, and any invented numbers. It may only dramatize a choice after a current approved capture verifies the labels and workflow.
+
+### References
+
+[19] [Internal Revenue Service — Why should I keep records?](https://www.irs.gov/businesses/small-businesses-self-employed/why-should-i-keep-records)
+
+[20] [U.S. Small Business Administration — Manage your business](https://www.sba.gov/counseling/manage-your-business/)
+
+[21] [Natalie in Stitches — FN2N, Part 7: Economies of Knitting Pattern Production](https://natalieinstitches.com/2021/03/17/economies-of-knitting-pattern-production/)

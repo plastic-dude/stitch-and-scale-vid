@@ -1,0 +1,18 @@
+message_id: MSG-20260819-050900-director-010
+sender: director
+recipient: production
+created_at: '2026-08-19T05:09:00+01:00'
+plan_id: PLAN-20260819-050900-decision-ledger-v001
+angle_slug: decision-ledger
+status: blocked
+subject: Decision-ledger concept blocked pending current record-surface proof
+body: >-
+  Fresh research moved the concept from generic pricing language to a truth-state decision story:
+  recorded is not derived, derived is not estimated, and planned is not paid. The package is planning-only.
+  Do not generate or upload. The product has no current approved proof-registry entry or capture for a
+  design-ledger, expense, sales-rollup, estimate, or export surface in the checked state. Imported
+  false-completion and release-gate-roster remain blocked with occupied filenames. Next action: provide
+  one current approved non-private proof surface with product version/date and exact visible labels, then
+  rerun claims, assets, rights, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

@@ -99,3 +99,13 @@ The nearest prior angle is `readability-under-load`, which focuses on legibility
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `correction-trace`, which focuses on a known post-release change and which copy carries it. `offline-continuity` changes the pain to work continuity under intermittent connectivity, the hook to signal loss not taking the work, the visual metaphor from old/new copies to device state moving from connected to local and honestly labeled pending/stale, the proof surface from version/errata to local/offline/freshness/synchronization behavior, the emotional turn from maintenance accountability to calm resilience, and the final line to “Show me what stayed safe when the signal left.” It remains blocked until current product proof verifies the surface.
+
+## Wide-research Director decision — decision ledger — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `decision-ledger` | A designer can mistake a derived rollup or estimate for a recorded transaction before a production or pricing decision | “Before you price the next step, know what kind of number you’re looking at.” | One current, readable design-ledger, expense, sales-rollup, estimate, or export surface with exact labels | Calm agency through explicit truth states rather than a triumphant total | “Show me what I know before I decide.” | blocked; proof missing; distinct from `offline-continuity`, `correction-trace`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `offline-continuity`, which focuses on work remaining usable and honestly labeled when network access disappears. `decision-ledger` changes the pain to epistemic classification before a business decision, the hook to distinguishing the kind of number, the visual metaphor from local/pending/stale device state to separate recorded/derived/estimated/planned cards, the proof surface from offline/freshness/synchronization behavior to a current design-ledger or record/export surface, the emotional turn from calm resilience under signal loss to calm agency through explicit truth states, and the final line to “Show me what I know before I decide.” It is not a generic human release gate and does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
