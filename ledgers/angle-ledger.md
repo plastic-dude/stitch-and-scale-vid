@@ -79,3 +79,13 @@ The nearest prior angle is `locale-drift`, which focuses on pattern meaning chan
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `locale-drift`, which focuses on meaning changing across locale terminology and keys. `readability-under-load` changes the pain to visual and cognitive load during real use, the hook to correctness not guaranteeing usability, the visual metaphor from aligned locale pages to a page competing with glare, zoom, hands, chart, and key, the proof surface from locale/export comparison to accessible-PDF, contrast, reflow, chart/key, or preflight evidence, the emotional turn from inclusive language confidence to relief through uncluttered use, and the final line to “Make the next line easy to find.” The package is blocked until current product proof verifies the surface.
+
+## Wide-research Director decision — chart parity — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `chart-parity` | A chart and written instruction can look polished while encoding different repeats, boundaries, special stitches, shaping, or start points | “Two ways to read it. One pattern still has to agree.” | One current, readable chart/written comparison, repeat boundary, special-stitch, shaping, or publication-preflight surface | Trust through equivalence rather than mere duplication | “Show me where the chart and the words agree.” | blocked; proof missing; distinct from `readability-under-load` and `locale-drift` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `readability-under-load`, which focuses on legibility and cognitive/visual load. `chart-parity` changes the pain to semantic divergence between two representations, the hook to two forms agreeing, the visual metaphor from a busy page becoming clear to chart and text snapping into alignment at a boundary, the proof surface from accessible-PDF or contrast behavior to chart/written comparison and repeat logic, the emotional turn from relief through readability to trust through equivalence, and the final line to “Show me where the chart and the words agree.” It remains blocked until current proof verifies the surface.

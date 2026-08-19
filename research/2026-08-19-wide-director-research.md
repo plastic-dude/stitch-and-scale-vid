@@ -139,3 +139,21 @@ The research does not prove that Stitch & Scale currently provides an accessible
 [13] [W3C WCAG 2.2 — Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
 
 [14] [Stitchmastery — On accessibility, guest post by Kate Atherley](https://stitchmastery.com/on-accessibility-guest-post-by-kate-atherley/)
+
+## Sixth wide-research question: chart parity
+
+A fresh question examined how charted and written instructions can remain equivalent when patterns include repeats, partial repeats, special stitches, shaping, and multiple sizes. Stitchmastery’s publication guidance argues that providing both charted and written instructions is reader-friendly, but that the pattern must explain how they relate; otherwise a chart can become decorative rather than usable. The guidance recommends naming the stitch pattern, presenting written instructions beside the chart, explaining partial repeats and boundaries, and making clear that readers may use either equivalent form. Source: https://stitchmastery.com/on-writing-instructions-for-using-charts-post-by-kate-atherley/
+
+Brooklyn Tweed’s chart-reading guide explains that chart legends can differ between designers, that symbols can span multiple stitches, that shaping can change chart shape, that “no stitch” placeholders preserve alignment, and that direction-of-reading and chart start/stop context must be explicit. Source: https://brooklyntweed.com/pages/reading-charts
+
+## Research decision changed
+
+The next distinct opportunity is **chart parity**: a chart and its written counterpart can both look polished while encoding different repeat boundaries, special-stitch meaning, shaping, or reader start points. This is distinct from readability-under-load because the issue is semantic equivalence rather than legibility; distinct from reader-handoff because it is a dual-representation contract; distinct from locale drift because language need not change; and distinct from correction trace because no post-release fix is required.
+
+The research does not prove that Stitch & Scale currently compares chart and written instructions or guarantees equivalence. Those claims remain blocked without current product proof.
+
+## References
+
+[15] [Stitchmastery — On Writing Instructions for Using Charts](https://stitchmastery.com/on-writing-instructions-for-using-charts-post-by-kate-atherley/)
+
+[16] [Brooklyn Tweed — How To: Reading Charts](https://brooklyntweed.com/pages/reading-charts)
