@@ -5,6 +5,8 @@
 - Run ID: `BLOCKED-no-eligible-director-contract-20260819-144738`
 - Run started/completed: 2026-08-19 bounded execution
 - Repository HEAD at refresh: `63f66c19b732a2c0a0679a3dcb1c0bf22baf19d5`
+- Completed at: `2026-08-19T14:48:54+01:00`
+- Initial production-record commit: `af6169dc64df29eaca659354760dcaca4fa15874`
 - Outcome: `blocked`
 - MP4 generated: **No**
 
