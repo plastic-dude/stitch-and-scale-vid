@@ -6192,3 +6192,39 @@ Do not claim that Stitch & Scale currently exposes portable exports, metadata re
 [789] [W3C — Data on the Web Best Practices](https://www.w3.org/TR/dwbp/)
 [790] [Craft Yarn Council — Schematics](https://www.craftyarncouncil.com/standards/schematics)
 [791] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## One-hundred-forty-fourth wide-research question: displayed is not understood — 20260819-213158
+
+### Research question
+
+When a craft label, abbreviation, symbol, or status is displayed, what proves the receiving maker will interpret the intended concept rather than merely see the same string?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| W3C, *SKOS Simple Knowledge Organization System Reference* | 2026-08-19 | SKOS supports concepts with preferred, alternative, and hidden labels, notations, documentation, and relationships; a displayed string is not the whole concept. Labels and concept documentation help users distinguish meaning and links between concepts. | 2009 Recommendation; knowledge-organization model, not a Stitch & Scale UI contract or current product proof. | Separate a visible label from the concept, definition, scope note, language, notation, example, confirmation, and decision it is intended to convey. |
+| Craft Yarn Council, *Knitting Abbreviations Master List* | 2026-08-19 | CYC maps common abbreviations to descriptions, notes that designers/publishers may use special abbreviations, and says definitions for special abbreviations are generally supplied at the beginning of a book or pattern. It records U.S./Canada terminology differences including gauge/tension and bind off/cast off. | Craft terminology guidance; not product labels, localization proof, or reader-comprehension guarantee. | Ground the concept in shared terminology and explicit definitions, not a generic “label is accessible” claim. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Localization, accessibility, labels, charts, records, exports, and human review have distinct evidence boundaries; displayed text is not automatically understood. | Internal workflow contracts, not current product proof. | Keep `interpretation-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Displayed is not understood. Candidate angle: `interpretation-state`. Hook: “Displayed is not understood.” Fictional proof surface: `LABEL / CONCEPT / DEFINITION / SCOPE NOTE / LANGUAGE / NOTATION / EXAMPLE / CONFIRMED / DECISION`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: one label sits between two concept cards; only a definition, scope note, notation, example, and confirmation converge the meanings. Emotional turn: “The label is visible” becomes “The meaning is shared.” Final line: “Name what the label means here.”
+
+The candidate is distinct from `locale-state` (localized language/meaning), `unit-state` (unit attached to a number), `context-state` (what a value belongs to), `authority-state` (which source controls), `schema-state` (record structure), `portability-state` (semantic preservation during transfer), and `accessibility-state` (whether information can be perceived and used). It focuses on concept interpretation of a displayed label or notation, including definition, scope note, language, notation, example, confirmation, and decision—not localization, unit attachment, semantic ownership, source authority, structure, transfer preservation, or perceptual access.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 143; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies label/concept definitions, scope notes, notation mapping, examples, language behavior, reader confirmation, interpretation status, decision semantics, or exact product labels. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one craft label or notation with its exact concept, definition, scope, language, example, confirmation, and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes label/concept definitions, scope notes, notation mapping, examples, language behavior, reader confirmation, interpretation status, or decision semantics. Do not use `LABEL`, `CONCEPT`, `DEFINITION`, `SCOPE NOTE`, `LANGUAGE`, `NOTATION`, `EXAMPLE`, `CONFIRMED`, or `DECISION` as current product UI. Do not claim that a visible label is understood or that interpretation status replaces calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[792] [W3C — SKOS Simple Knowledge Organization System Reference](https://www.w3.org/TR/skos-reference/)
+[793] [Craft Yarn Council — Knitting Abbreviations Master List](https://www.craftyarncouncil.com/standards/knitting-abbreviations)
+[794] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)

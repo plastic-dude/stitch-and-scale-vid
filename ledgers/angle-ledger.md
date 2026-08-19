@@ -1542,3 +1542,13 @@ The nearest prior angle is `tolerance-state`, which asks whether a value lies wi
 ### Distinctness note — 20260819-212846
 
 The nearest prior angle is `disclosure-state`, which asks whether visible data is safe or intended to be shared. `portability-state` changes the pain to whether meaning survives movement into a receiving tool or handoff. It changes the hook to “Exported is not portable”; the visual metaphor from a visible record approaching a share gate to one record crossing an export bridge while units and context fall away unless checked; the proof surface from audience/purpose/fields-shown/fields-redacted/recipient/channel/expiry/reviewed to source-record/format/metadata/units/relationships/version/provenance/receiver-check/decision; the emotional turn from disclosure boundary anxiety to semantic-survival anxiety; and the final line to “Name what survived the export.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+## Wide-research Director decision — interpretation state — 20260819-213158
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `interpretation-state` | A craft label, abbreviation, symbol, or status may be visible without a shared concept, definition, scope, or reader confirmation | “Displayed is not understood.” | Fictional label/concept/definition/scope-note/language/notation/example/confirmed/decision card | From “The label is visible” to “The meaning is shared” | “Name what the label means here.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-213158
+
+The nearest prior angles are `locale-state` and `portability-state`, which respectively concern localized meaning and semantic preservation during a transfer. `interpretation-state` changes the pain to whether a displayed label or notation resolves to a shared concept. It changes the hook to “Displayed is not understood”; the visual metaphor from translation or export bridges to one label between two concept cards that converge only after definition and confirmation; the proof surface from translation/source-locale/target-locale/number/date/term/reviewed or source-record/format/metadata/units/relationships/version/provenance/receiver-check/decision to label/concept/definition/scope-note/language/notation/example/confirmed/decision; the emotional turn from localized/export anxiety to shared-meaning anxiety; and the final line to “Name what the label means here.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
