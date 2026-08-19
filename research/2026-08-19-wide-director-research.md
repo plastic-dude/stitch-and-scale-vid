@@ -4164,3 +4164,60 @@ Do not claim that Stitch & Scale maintains provenance, data lineage, chain of cu
 ### Research limit
 
 W3C PROV, NIST provenance, and NASA traceability establish general source-to-result concepts but do not establish a Stitch & Scale feature, legal chain of custody, source integrity, or product accuracy. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact provenance-chain surface and labels.
+
+## One-hundredth wide-research question: evidence is not coverage — 2026-08-19
+
+### Research question
+When a project has evidence, does that evidence cover each specific claim or requirement, or is one source being stretched across several unsupported conclusions? How can a record show claim/evidence coverage, mismatches, gaps, scope, and ownership without becoming a human release checklist or claiming Stitch & Scale performs verification?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NIST CSRC verification glossary | Current page checked 2026-08-19 | Verification confirms through objective evidence that specified requirements have been fulfilled; NIST also describes evidence sufficient to demonstrate applicable requirements or characteristics and phase conditions. | General verification terminology, not a Stitch & Scale feature, accuracy claim, or publication approval. | Treat evidence as tied to a specified requirement, not as a universal proof token. |
+| NASA Science Traceability Matrix guidance | Current page checked 2026-08-19 | NASA describes a logical flow from goals/objectives to requirements and data products. Objectives should be testable, and measurement requirements bridge objectives to instrument requirements; the matrix summarizes what is achieved and how. | NASA science-mission context, not a knitwear workflow or product surface. | Use a claim/requirement-to-evidence matrix with coverage type, scope, and gap; do not use a single evidence item as blanket support. |
+| NASA Software Engineering Handbook traceability guidance from pass 99 | Current page checked 2026-08-19 | Bidirectional traceability reveals missing or extra links and ties requirements to design, implementation, verification, and non-conformances. | Software-engineering guidance, not product proof. | Add both covered and uncovered directions; distinguish evidence present from requirement actually covered. |
+| NIST AI Risk Management Framework | Current page checked 2026-08-19 | NIST presents the AI RMF as voluntary guidance to incorporate trustworthiness considerations into design, development, use, and evaluation; the page notes current revision work and the 2024 Generative AI Profile. | Governance framework does not establish a Stitch & Scale AI feature, conformity, or risk score. | Use governance language as a research context only; do not imply the product follows NIST or that a coverage matrix is a certification. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform checks each address particular criteria, surfaces, modes, or derivatives. | These checks do not cover product truth, fit, pattern quality, or all accessibility contexts. | Each evidence item gets a coverage type and scope; a caption pass cannot cover a fit claim. |
+| Craft Yarn Council sizing/gauge guidance from prior passes | Current pages checked 2026-08-19 | Body measurements, finished measurements, ease, schematics, gauge categories, and pattern-specific instructions are different evidence/record types. | Guidance is not a fit guarantee or product proof. | A sizing source can cover a terminology claim but not an individual fit outcome or physical test result. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts separate calculation, record, estimate, technical edit, print review, chart readability, schematic scale, test knit, business records, and platform/caption gates. | Internal operating contracts, not independent product validation. | Make the matrix claim-specific and keep human evidence gates separate; a gap is a safe status, not a hidden failure. |
+
+### Research synthesis
+
+Evidence exists on a spectrum from present to relevant to sufficient for a specified claim. NIST’s verification definition binds evidence to requirements; NASA’s traceability matrix binds objectives through requirements to data products; NASA’s bidirectional guidance makes missing and extra links visible. The central creative distinction is therefore **coverage**, not provenance: provenance asks how one result was made, while coverage asks whether every claim has the right evidence at all.
+
+The fresh visual opportunity is a fictional matrix with three claims and one evidence item. The first claim reads `COVERED`, the second `PARTIAL`, and the third `GAP`. A source citation remains visible, but the card refuses a blanket status because evidence relevance, scope, and requirement mapping differ. The card is labelled `ILLUSTRATIVE — NOT PRODUCT UI`. The dramatic engine is not “the app certifies completeness”; it is the relief of seeing the uncovered claim before it becomes a public statement. Final line: “Map the evidence before you call it covered.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a claim/evidence coverage matrix, requirement-to-evidence mapping, coverage types, gap state, scope, or owner fields. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 100 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic “more evidence” message into **a claim-to-evidence coverage record that labels each claim `COVERED / PARTIAL / GAP` according to the specified evidence and scope**. The fresh concept is `evidence-coverage`: a fictional matrix exposes one evidence item that covers one claim but only partially supports another and leaves a third uncovered. No product verification, evidence sufficiency, or release approval capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `provenance-chain`, which focuses on the path from source through activities and responsibility to one result. `evidence-coverage` changes the pain to **a set of claims or requirements being mistaken as covered because some evidence exists, even when the evidence is mismatched or incomplete for individual claims**. It changes the hook to “Evidence is not coverage”; the visual metaphor from a bidirectional source-to-result chain to a claim/evidence matrix with `COVERED / PARTIAL / GAP`; the proof surface to claim, requirement, evidence item, coverage type, scope, owner, gap, and status; the emotional turn from accountability for how a result was made to seeing the uncovered claim before publication or decision; and the final line to “Map the evidence before you call it covered.”
+
+It is distinct from `provenance-chain` because it evaluates claim coverage rather than source-to-result history; from `acceptance-criteria` because it is not pass/fail semantics; from `false-completion` and `release-gate-roster` because it is not a human gate checklist or roster and must not be read as one; from `applicability-scope` because it is not intended-use transfer; from `assumption-register` because it is not hidden model input; from `uncertainty-context` because it is not uncertainty around a number; from `review-coverage`-adjacent concepts because it maps evidence to claims, not reviewer workload or approval authority; and from `decision-ledger` because it is not record/estimate classification.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale verifies claims, maps evidence automatically, calculates coverage, identifies gaps, certifies trustworthiness, uses NIST AI RMF, or approves release. Do not call a `COVERED` fictional cell a product result. Do not use the matrix as a substitute for technical editing, physical print review, chart readability, schematic scale, test knitting, accessibility review, rights clearance, or platform QA. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party reports without rights/privacy clearance. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[495] [NIST CSRC — Verification Glossary](https://csrc.nist.gov/glossary/term/verification)
+[496] [NASA HESTO — Science Traceability Matrix](https://hesto.smce.nasa.gov/focused-topics/)
+[497] [NASA Software Engineering Handbook — Bidirectional Traceability](https://swehb.nasa.gov/plugins/viewsource/viewpagesrc.action?pageId=215777306)
+[498] [NIST — AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+[499] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[500] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[501] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[502] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[503] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NIST and NASA sources establish objective-evidence and traceability concepts but do not establish a Stitch & Scale feature, evidence sufficiency, release approval, or human-gate completion. NIST AI RMF is voluntary governance guidance and the page notes active revision; no product conformance is inferred. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact evidence-coverage surface and labels.
