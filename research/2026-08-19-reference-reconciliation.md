@@ -30,3 +30,7 @@ An open `CRITICAL` or `HIGH` reviewer verdict or remake order outranks new creat
 ## Next-run instruction
 
 At the next firing, pull the latest repository state, inspect `origin/main` and all relevant Director branches, check `reviews/`, `orders/remake/`, `orders/acknowledged/`, `manifests/`, `comms/inbox/`, and `comms/outbox/`, and verify whether the product-proof registry now exists. If proof is still missing, research a fresh question but do not create a product claim or generate a video. Record one blocker and one exact next action.
+
+## Expanded playbook update
+
+The user subsequently supplied an expanded authoritative payload containing two explicit same-chat continuation clauses at the end of the playbook. The active schedule now stores both clauses, both planning-only/no-video safeguards, and the fresh-research requirement. This is intentional redundancy for schedule survivability, not a second execution path.
