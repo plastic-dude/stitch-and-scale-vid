@@ -3247,3 +3247,60 @@ Do not claim Stitch & Scale collects consent, manages rights, obtains releases, 
 [357] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [358] [Stitch & Scale — Craft records, publishing/export, and mobile-maker contracts](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+## Eighty-fourth wide-research question: a comment without a version is a loose thread — 2026-08-19
+
+### Research question
+How can a knitwear designer tie feedback to the exact project version, size, section, and review round so comments do not float across revisions, without claiming Stitch & Scale provides versioned review threads or correction tracking?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers moving through pattern review, technical editing, test knitting, or revision on phone, tablet, or desktop. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No versioned review-thread, stale-comment detection, automatic correction, accuracy, or customer-outcome claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| GitHub Docs, “Reviewing proposed changes in a pull request” | 2026-08-19; current page checked | GitHub describes reviewing each changed file, leaving comments on specific changes, marking files viewed, and submitting a review with comment/approve/request-changes outcomes. The review process is tied to a particular pull request and changed-file context. | GitHub review semantics are not a knitwear workflow, not Stitch & Scale product proof, and do not establish pattern-version, size, review-round, or stale-comment fields in the product. | Anchor a review record to project, artifact/version, size/unit, section/location, review round, comment, severity, status, source/date, owner, and next action. |
+| Sister Mountain, “A Beginner’s Guide to Working with Tech Editors” | 2026-08-19; current page checked | The article says a tech editor identifies errors or inconsistencies and the designer makes pattern changes based on comments; comments can be used to correct and clarify a pattern, and service scope should be confirmed because editors differ. | Practitioner guidance, not a universal technical-edit standard or Stitch & Scale proof. David must not be described as a tech editor. | Preserve reviewer role/scope, exact artifact/version, size/section, round, comment, and designer response separately; do not collapse a comment into an automatic correction. |
+| Craft Yarn Council, “Industry Standards and Guidelines for Designers” | 2026-08-19; current page checked | CYC frames pattern production as a process involving designer, editor, final editing/printing, project-specific requirements, and standards; individual companies may have different requirements. | CYC guidance does not define a review-thread data model, version anchor, or product behavior. | Keep reviewer role and review round explicit; do not treat a generic comment as a universal acceptance or release gate. |
+| Stitch & Scale pattern-QA, publishing/export, and mobile-maker contracts | 2026-08-19; contracts re-read | Internal contracts preserve project/size/unit context, technical editing, test knitting, chart readability, schematic scale, print review, export identity, recovery, source/date, and issue reproducibility as separate evidence. | Internal contracts; no product-proof registry entry for anchored comments, stale-thread handling, or version mapping. | Block product claims about attached comments, mapped revisions, stale feedback detection, or correction history. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove review-thread behavior or accessibility. | Plan 9:16 at 1080×1920, keep comment/context cards clear of overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-19; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep organic-first master under one minute, center the review-context card, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish campaign audio clearance or product review claims. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove comment/version accuracy or semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying version/size/section/review-round anchors, comment severity, stale-thread handling, correction mapping, or review status transitions. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 84 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “capture feedback” into **anchor each review comment to the exact artifact/version, size, section, and round it concerns before treating it as actionable**. The fresh concept is `review-anchor`: an original record card places `PROJECT / VERSION OR ARTIFACT / SIZE / UNIT / SECTION OR LOCATION / REVIEW ROUND / COMMENT / SEVERITY / STATUS / SOURCE / DATE / OWNER / NEXT ACTION`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no versioned review-thread or correction-tracking claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `correction-trace`, which links a post-release correction to the copy a reader uses. `review-anchor` changes the pain to **a review comment losing its exact revision, size, section, or round context before correction**. The hook changes to “A comment without a version is a loose thread.” The visual metaphor changes from a correction trail to a comment pin attached to a fictional artifact/version/size/section card, with review-round and response fields. The proof surface changes from post-release errata linkage to current review-context anchoring. The emotional turn changes from reader correction safety to reviewer/designer clarity before a revision. The final line changes to “Anchor the comment before you correct the pattern.”
+
+This is distinct from `change-notice` (communicating what changed), `feedback-loop` (routing feedback), `inherited-thread` (carrying a conversation), `repro-note` (making a report inspectable), `artifact-status` (which copy/state someone holds), `context-lock` (active project/size/unit context), `quote-permission` (whether feedback may be published), `next-owner` (who acts next), `source-note` (general provenance), and `submission-state` (editorial/contract/publication state). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale attaches comments to lines, detects stale feedback, maps comments across revisions, preserves review history, auto-corrects a pattern, or guarantees that a comment applies to every size. Do not use real private patterns, editor/tester comments, customer data, support tickets, third-party screenshots, or copyrighted review documents without permission and privacy review. Do not collapse technical editing, physical print review, chart readability, schematic scale, and test knitting into one “reviewed” badge. Preserve reviewer role/scope and designer response separately.
+
+### References
+
+[359] [GitHub Docs — Reviewing proposed changes in a pull request](https://docs.github.com/en/pull-requests/how-tos/review-pull-requests/reviewing-proposed-changes-in-a-pull-request)
+
+[360] [Sister Mountain — A Beginner’s Guide to Working with Tech Editors](https://www.sistermountain.com/blog/tech-editing-beginners-guide)
+
+[361] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
+
+[362] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[363] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[364] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[365] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[366] [Stitch & Scale — Pattern QA, publishing/export, and mobile-maker contracts](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)

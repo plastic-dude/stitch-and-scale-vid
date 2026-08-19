@@ -1,0 +1,58 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-200000-review-anchor-v001
+angle_slug: review-anchor
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_review-anchor_9x16_v001_blocked_20260819-200000.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+review_context_surface_status: missing
+project_status: missing
+artifact_version_status: missing
+size_status: missing
+unit_status: missing
+section_location_status: missing
+review_round_status: missing
+comment_status: missing
+severity_status: missing
+review_status: missing
+source_date_status: missing
+owner_next_action_status: missing
+stale_thread_status: missing
+cross_version_mapping_status: missing
+size_scope_status: missing
+product_version: null
+proof_capture_approved: false
+attached_comment_status: unverified
+auto_correction_status: unverified
+review_history_status: unverified
+size_completeness_status: unverified
+technical_editorial_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no attached comments, stale-feedback detection, cross-version mapping, auto-correction, review-history, or size-completeness claim
+  - GitHub review guidance is context, not product behavior or endorsement
+  - Sister Mountain is practitioner context, not universal technical-editing standard or proof of product behavior
+  - a comment in one artifact/size/round is not assumed to apply to all sizes/revisions
+  - fictional review-anchor cards are not product UI, real patterns, comment evidence, or correction records
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private review-context proof package with exact project/version-or-artifact/size/unit/section-or-location/review-round/comment/severity/status/source/date/owner/next-action labels and evidence for stale-thread and cross-version behavior, then rerun product/data, rights/privacy, claims, caption, audio, platform, and Director gates.

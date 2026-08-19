@@ -859,3 +859,13 @@ The nearest prior angle is `submission-state`, which distinguishes a sent projec
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `permission-line`, which focuses on who may act or access a record. `quote-permission` changes the pain to whether feedback may be reused publicly and exactly under what scope. It changes the hook to “Feedback is not permission,” the visual metaphor from an access boundary to a quote card passing through `PRIVATE FEEDBACK → QUOTE CANDIDATE → CONSENT SCOPE → DISCLOSURE/REDACTION → PUBLISHED / HOLD`, the proof surface from actor permission to a current evidence-rights record, the emotional turn from access control to respect for the speaker’s actual words and intended audience, and the final line to “Record the scope before you publish the quote.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — review anchor — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `review-anchor` | A review comment can lose its exact artifact/version, size, section, or review-round context before correction | “A comment without a version is a loose thread.” | One current, approved review-context surface with project, artifact/version, size, unit, section/location, review round, comment, severity, status, source/date, owner, and next action | Reviewer/designer clarity before a revision rather than stale-thread detection, automatic correction, or size coverage | “Anchor the comment before you correct the pattern.” | blocked; product/data proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `correction-trace`, which links a post-release correction to the copy a reader uses. `review-anchor` changes the pain to a review comment losing its exact revision, size, section, or round context before correction. It changes the hook to “A comment without a version is a loose thread,” the visual metaphor from a correction trail to a comment pin attached to a fictional artifact/version/size/section card with review-round and response fields, the proof surface from post-release errata linkage to current review-context anchoring, the emotional turn from reader correction safety to reviewer/designer clarity before a revision, and the final line to “Anchor the comment before you correct the pattern.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
