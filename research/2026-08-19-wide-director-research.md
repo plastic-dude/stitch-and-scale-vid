@@ -978,3 +978,58 @@ Research changed the concept from generic onboarding into **honest state labelin
 [76] [Government Analysis Function — Data visualisation: testing dashboards for design and accessibility](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-testing-dashboards-for-design-and-accessibility/)
 
 [77] [GOV.UK Content and publishing guidance — Tables](https://guidance.publishing.service.gov.uk/formatting-content/text-formatting/tables/)
+
+## Thirty-sixth wide-research question: what does a credit line actually authorize? — 2026-08-19
+
+### Research question
+When a test knitter, sample maker, or reviewer contributes labor and images, how can a designer distinguish permission to use an asset, the contributor's preferred credit, and compensation or participation terms before publication?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers who may invite test knitters or sample makers. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Creative Commons, “Recommended practices for attribution” | 2026-08-19; guidance page updated 4 December 2024 | Creative Commons recommends Title, Author, Source, and License (TASL) for reuse of CC-licensed works. It also notes that a licensor may request a company, institution, pseudonym, or no attribution, and that reuse must still respect the license terms. | CC attribution guidance is not a test-knit contract, payment rule, or Stitch & Scale policy. | Treat identity preference, attribution, source, and permission as explicit fields; never assume a public credit preference. |
+| UK Government, “Using somebody else's intellectual property: Copyright” | 2026-08-19; current GOV.UK guidance | Copyright use generally requires a licence, acquisition, or applicable exception. A licence can be limited by purpose, time, or place. Creators may retain moral rights to recognition and to object to damaging alteration or false attribution; performers may retain rights even when copyright is bought. | General UK guidance, not legal advice and not a test-knitter agreement. | Separate permission, permitted use, credit preference, compensation or participation terms, and endorsement. A credit line is not permission; permission is not proof of payment or endorsement. |
+| Yarnpond, “System description” | 2026-08-19; current public page checked | A test-call can include photos, techniques, yarn and needle requirements, deadline, sizes needed, tester requirements, milestones, and rewards. Testers can apply for a size; designers approve participants; progress can be marked; in-progress photos can be uploaded; and the test can end with ratings. | This describes Yarnpond's platform, not a universal test-knitting norm or Stitch & Scale feature set. | Make the audience pain concrete: a test invitation contains multiple terms and states beyond “tester wanted.” Do not claim Stitch & Scale manages them. |
+| Yarnpond, current public open-call listing | 2026-08-19; public listing checked | The listing exposes filters for testing versus sample making, craft type, category, language, deadline flexibility, technical-edit status, difficulty, and sorting. | Listing structure is one platform's information architecture; captured page did not establish compensation terms for every listing. | Show `REWARD / PAYMENT — CONFIRM` as an explicit unknown, not a presumed free pattern or payment. |
+| Edie Eckman, “Pattern Testing Questions & Answers” | 2026-08-19; article dated 13 November 2020 | The article describes testing as usually volunteer work with the tester providing yarn and notions; a final pattern may be the designer's payment. It distinguishes paid sample stitchers from testers and technical editors, and stresses deadlines, gauge, photos, and immediate issue reporting. | One designer's educational Q&A from 2020; it does not set a universal current compensation or credit standard. | Preserve the distinct human roles: test knitting, sample knitting, and technical editing are not interchangeable. |
+| YouTube Help, “Add subtitles & captions” | 2026-08-19; page footer ©2026 Google | YouTube supports adding captions during upload or later, including uploading a file, auto-sync, manual typing, and auto-translate; automatic captions default to the video's default language. | This documents YouTube tooling, not caption correctness, safe-zone coordinates, or campaign performance. | Retain an editable caption source and require human review; keep caption-on and caption-free masters. |
+| TikTok Support, “Accessibility for your videos” | 2026-08-19; dynamic page did not expose readable text in this session | Search identified the official accessibility page, but the opened dynamic page returned only a support shell in this environment. | Do not make detailed TikTok-control claims from a search snippet. | Keep TikTok controls and safe areas as approval-time validation gates. |
+| Little Skein, “Let's talk about the good and the bad of test knitting” | 2026-08-19; article dated 27 July 2025 | Community commentary frames test knitting as feedback on an unreleased pattern and discusses good and bad experiences. | Personal/community commentary, not a standards body or universal norm; extraction was partial. | Use as audience-pain context only; do not state a universal community rule. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for contributor terms, tester contracts, sample-maker records, asset rights, credit preferences, consent capture, rewards, payment, or publication-credit workflow. All 36 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from a generic test-knit invitation into **terms before attribution**. The fresh concept is `credit-line`: a designer pauses before publication because a contributor's role, size, deadline, materials, feedback duty, asset permission, credit preference, and reward or payment term are not the same decision. The visual device is a fictional terms card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product surface is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `brief-before-knit`, which asks for scope, time, yarn flexibility, sample expectations, feedback path, and exchange before work starts. `credit-line` moves later in the chain to publication and asset use: it separates a contributor's role and work terms from the right to reuse an image, voice, or name and from the credit the contributor prefers. The hook changes to “A credit line is not a permission slip.” The visual metaphor changes from a pre-work brief to a contributor card splitting into `ROLE / ASSET USE / CREDIT / REWARD OR PAYMENT — CONFIRM`. The proof surface changes from a tester brief or participation record to a current contributor-terms, asset-rights, attribution, or publication-credit surface. The emotional turn changes from informed choice before labor to respectful recognition and clear boundaries before publication. The final line changes to “Name the permission. Honor the credit. Keep the terms.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale has contributor contracts, tester payment, credit management, consent capture, rights management, publication workflow, or asset reuse controls without current proof. Do not imply that a visible credit proves permission, that permission proves compensation, or that compensation proves endorsement. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. Use only original fictional cards or current approved proof; never treat generated text as UI truth.
+
+### References
+
+[78] [Creative Commons — Recommended practices for attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution)
+
+[79] [GOV.UK — Using somebody else's intellectual property: Copyright](https://www.gov.uk/using-somebody-elses-intellectual-property/copyright)
+
+[80] [Yarnpond — System description](https://www.yarnpond.com/system_description)
+
+[81] [Yarnpond — Public open calls](https://www.yarnpond.com/public_open_calls)
+
+[82] [Edie Eckman — Pattern Testing Questions & Answers](https://www.edieeckman.com/2020/11/10/pattern-testing-questions-and-answers/)
+
+[83] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[84] [TikTok Support — Accessibility for your videos](https://support.tiktok.com/en/using-tiktok/creating-videos/accessibility)
+
+[85] [Little Skein — Let's talk about the good and the bad of test knitting](https://littleskein.substack.com/p/lets-talk-about-the-good-and-the)

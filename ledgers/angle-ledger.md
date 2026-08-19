@@ -379,3 +379,13 @@ The nearest prior angle is `count-check`, which concerns placing meaningful stit
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `decision-ledger`, which distinguishes recorded, derived, estimated, and planned values. `first-record` changes the pain to a blank or partial workspace not explaining what absence means, the hook to “A blank page needs a truthful label,” the visual metaphor from typed record categories to `NO RECORD YET / INCOMPLETE / NOT APPLICABLE / UNAVAILABLE / NEXT SAFE ACTION`, the proof surface from ledger record types to empty-state, first-record, record-status, or unavailable-data behavior, the emotional turn from value classification to calm orientation before creating or editing a record, and the final line to “Label the blank before you fill it.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — credit line — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `credit-line` | At publication, a contributor's role, asset-use permission, preferred credit, and reward or payment term can be conflated into one flattering but unclear gesture | “A credit line is not a permission slip.” | One current, approved contributor-terms, asset-rights, attribution, or publication-credit surface with exact labels | Respectful recognition and clear boundaries before publication, without endorsement, legal, payment, or product-capability certainty | “Name the permission. Honor the credit. Keep the terms.” | blocked; product proof, contributor rights, credit preference, compensation/participation terms, and platform review missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `brief-before-knit`, which focuses on scope, time, yarn flexibility, sample expectations, feedback path, and exchange before labor begins. `credit-line` changes the pain to the publication boundary where contributor role, asset use, credit preference, and reward or payment can be conflated. It changes the hook to “A credit line is not a permission slip,” the visual metaphor from a pre-work tester brief to `ROLE / ASSET USE / CREDIT / REWARD OR PAYMENT — CONFIRM`, the proof surface from a tester-brief or participation record to a current contributor-terms, asset-rights, attribution, or publication-credit surface, the emotional turn from informed choice before labor to respectful recognition and clear boundaries before publication, and the final line to “Name the permission. Honor the credit. Keep the terms.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
