@@ -1,0 +1,17 @@
+message_id: MSG-20260819-063300-director-021
+sender: director
+recipient: production
+created_at: '2026-08-19T06:33:00+01:00'
+plan_id: PLAN-20260819-063300-brief-before-knit-v001
+angle_slug: brief-before-knit
+status: blocked
+subject: Brief-before-knit concept blocked pending tester-brief proof
+body: >-
+  Fresh test-knit recruitment research moved the concept from a generic recruitment or roster story to
+  expectation clarity before participation. Do not generate or upload. No current approved tester-brief or
+  participation-record surface is available, and no fair-pay, consent, recruitment-success, participant-
+  coverage, or tester-outcome claim is authorized. Next action: provide one current approved non-private proof
+  surface with product version/date and exact visible labels, then rerun claims, participant rights, privacy,
+  captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

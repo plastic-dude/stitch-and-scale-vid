@@ -209,3 +209,13 @@ The nearest prior angle is `gauge-reality`, which concerns whether mathematical 
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is the imported `false-completion` concept, a broader blocked story about premature completion across human gates. `feedback-loop` changes the pain to a specific tester observation disappearing or being mistaken for approval without a response path, the hook to “A note is not resolved because someone read it,” the visual metaphor from generic completion to `OBSERVED / RESPONDED / RECHECK / UNRESOLVED`, the proof surface from a generic human-gate story to a feedback or issue-response record, the emotional turn from fear of false closure to accountable respect for tester labor, and the final line to “Show me what happened after the note.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — brief before knit — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `brief-before-knit` | A maker can be asked for work before scope, time, yarn flexibility, sample expectations, feedback path, and exchange are visible | “Before the first stitch, make the ask clear.” | One current, approved tester-brief or participation-record surface with exact labels | Informed choice before labor begins rather than a recruitment or fairness promise | “Make the ask clear before the first stitch.” | blocked; product proof, participant-rights review, and terms mapping missing; distinct from `feedback-loop`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `feedback-loop`, which concerns what happens after a test-knit observation is received. `brief-before-knit` changes the pain to a maker being asked for work before scope and expectations are visible, the hook to “Before the first stitch, make the ask clear,” the visual metaphor from response states to `SCOPE / TIME / YARN / SAMPLE / FEEDBACK` prompt cards followed by `ASK — CONSENT — RESPOND`, the proof surface from feedback/issue response to a tester-brief or participation record, the emotional turn from response accountability to informed choice before labor begins, and the final line to “Make the ask clear before the first stitch.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

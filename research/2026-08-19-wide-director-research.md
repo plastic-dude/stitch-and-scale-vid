@@ -500,3 +500,31 @@ Research changed the concept from a generic tester-story to **response accountab
 [41] [A Bee In The Bonnet — Tech Editing and Test Knitting: When Do You Need Them?](https://www.abeeinthebonnet.com/blog/tech-editing-and-test-knitting-when-do-you-need-them/)
 
 [42] [Craft Industry Alliance — Webinars](https://craftindustryalliance.org/webinars/)
+
+## Nineteenth wide-research question: the brief is part of the consent — 2026-08-19
+
+### Research question
+How can a designer state the scope, timeline, yarn flexibility, sample expectations, and compensation or exchange clearly before asking a test knitter to participate, without claiming a tester marketplace, fair-pay outcome, or current recruitment feature in Stitch & Scale?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| A Bee In The Bonnet, “Test Knit Red Flags: Part Two of Test Knitters Tell All” | 2026-08-19; live page dated June 21, 2021 | The practitioner page identifies onerous processes, inflexible yarn requirements, unclear or short timelines, and asking for a sample after knitting as red flags. It says a garment test may need a longer timeline than an accessory and that indie designers often do not pay testers, while still emphasizing support for the tester experience. | Practitioner testimony from 2021, not a universal labor standard, legal rule, compensation benchmark, or current product requirement. It does not prove outcomes or represent every tester. | The next concept should focus on **making the test brief legible before participation**: scope, timeline, yarn flexibility, sample request, feedback path, and exchange must be explicit. Do not claim fairness or compensation adequacy. |
+| A Bee In The Bonnet, “Tech Editing and Test Knitting: When Do You Need Them?” | 2026-08-19; live page checked in the prior section | The source distinguishes technical editing and test knitting and notes that test knitters can have varied experience and language backgrounds. | Practitioner guidance; not proof of Stitch & Scale or universal process. | Keep tester expectations separate from technical-edit, print-review, chart, schematic, and release gates. |
+| Local craft-business workflow contract | 2026-08-19; repository source | Test-knit round and coverage are operational records; sample location/return, submissions, and technical editing are separate records and gates. | Internal workflow guidance, not proof of a live recruitment or tester-brief feature. | The proof surface should be a current tester brief or participation record, not a roster or approval state. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for tester briefs, scope, timeline, yarn flexibility, compensation/exchange, sample requests, consent, participant status, or test-knit recruitment. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`brief-before-knit`**: the tension is a maker being asked for real work before the scope and expectations are visible. The hook is “Before the first stitch, make the ask clear.” The visual metaphor is a fictional tester brief with five cards: `SCOPE / TIME / YARN / SAMPLE / FEEDBACK`, followed by `ASK — CONSENT — RESPOND`. The proof surface must be one current, approved tester-brief or participation-record surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from a generic recruitment or tester-roster story to **expectation clarity before participation**. The script must not claim fair pay, paid work, tester success, a complete recruitment system, or consent obtained. It may show an illustrative brief that makes expectations visible and invites current product proof for the exact workflow.
+
+### References
+
+[43] [A Bee In The Bonnet — Test Knit Red Flags: Part Two of Test Knitters Tell All](https://www.abeeinthebonnet.com/blog/test-knit-red-flags/)
+
+[44] [A Bee In The Bonnet — Tech Editing and Test Knitting: When Do You Need Them?](https://www.abeeinthebonnet.com/blog/tech-editing-and-test-knitting-when-do-you-need-them/)
