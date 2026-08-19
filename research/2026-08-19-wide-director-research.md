@@ -65,3 +65,23 @@ The reader-handoff angle can be made more specific: a pattern does not merely co
 [5] [W3C Web Accessibility Initiative — Captions/Subtitles](https://www.w3.org/WAI/media/av/captions/)
 
 [6] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+## Second wide-research question: corrections and version trust
+
+A fresh question examined how a pattern’s trust survives after publication: how do designers expose corrections, version changes, and reader-facing fixes without pretending the first release was perfect?
+
+KnitPicks maintains a pattern-errata support resource intended to help readers find corrections and updates for patterns, although the page did not render readable body content in this session. Source: https://www.knitpicks.com/support/resources/pattern-errata
+
+The academic paper *A Graph Model and a Layout Algorithm for Knitting Patterns* describes hand-knitting pattern publication as involving lengthy testing periods and numerous knitters, and frames graph modeling as a way to support error detection and pattern validation. It does not establish that Stitch & Scale uses graph modeling or automatically validates patterns. Source: https://arxiv.org/abs/2406.13800
+
+## Research decision changed
+
+The next distinct opportunity is **correction traceability after the first release**: not whether a checklist is complete, not who tested a size, and not whether a reader can interpret the first handoff, but whether a known change remains legible to the person using or maintaining the pattern. The concept must show a real version or defect-history surface if one exists; otherwise it remains blocked and must use a neutral prop rather than fabricated UI.
+
+The research supports a film about a correction becoming visible and responsibly carried forward, but it does not prove that the current product has public errata, version history, automatic validation, or update delivery. Those claims remain prohibited without current product proof.
+
+## References
+
+[7] [KnitPicks — Pattern Errata Resources](https://www.knitpicks.com/support/resources/pattern-errata)
+
+[8] [arXiv — A Graph Model and a Layout Algorithm for Knitting Patterns](https://arxiv.org/abs/2406.13800)

@@ -1,0 +1,21 @@
+message_id: MSG-20260819-040208-director-004
+created_at: 2026-08-19T04:02:08Z
+from: director
+to: product-archive-owner
+message_type: blocked
+priority: high
+video_id: SS-VID-20260819-CORRECTION-TRACE-9X16-V001
+parent_id: PLAN-20260819-040208-correction-trace-v001
+status: blocked
+generation: Do not generate or upload video.
+summary: Wide research supports a distinct correction-trace concept, but generation is blocked because no current product-proof registry or approved version, defect-history, errata, or publication-preflight capture exists.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - briefs/SS_founder-proof_correction-trace_9x16_v001_blocked_20260819-040208.md
+  - scripts/SS_founder-proof_correction-trace_9x16_v001_blocked_20260819-040208.md
+  - platforms/SS_founder-proof_correction-trace_matrix_v001.md
+  - ledgers/2026-08-19-correction-trace-continuity.md
+  - manifests/SS_founder-proof_correction-trace_9x16_v001_blocked_20260819-040208.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - Prior blocked concepts inspected: false-completion, release-gate-roster, and reader-handoff
+next_action: Add a current approved proof-registry entry or capture for one version, correction, defect-history, errata, or publication-preflight surface, including product version/date and exact visible labels; then rerun Director claims, assets, rights, captions, audio, platform, and acceptance validation.

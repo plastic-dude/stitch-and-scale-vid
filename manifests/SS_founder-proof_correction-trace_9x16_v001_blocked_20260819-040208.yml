@@ -1,0 +1,20 @@
+video_id: SS-VID-20260819-CORRECTION-TRACE-9X16-V001
+filename: SS_founder-proof_correction-trace_9x16_v001_blocked_20260819-040208.mp4
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+angle_slug: correction-trace
+format: 9x16
+version: v001
+status: blocked
+script_version: scripts/SS_founder-proof_correction-trace_9x16_v001_blocked_20260819-040208.md
+plan_version: briefs/SS_founder-proof_correction-trace_9x16_v001_blocked_20260819-040208.md
+platform_matrix: platforms/SS_founder-proof_correction-trace_matrix_v001.md
+continuity_ledger: ledgers/2026-08-19-correction-trace-continuity.md
+caption_version: pending-proof
+audio_version: pending-proof
+research_note: research/2026-08-19-wide-director-research.md
+external_archive_file_id: null
+external_archive_url: null
+sha256: null
+qa_report_path: null
+rights_status: unverified
+notes: Planning reservation only. No video exists. Generation is prohibited until current product proof, approved assets, rights, voice, captions, audio, and acceptance gates are validated.
