@@ -1,0 +1,44 @@
+message_id: MSG-20260820T180000-temporary-director-065
+created_at: '2026-08-20T18:00:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains non-terminal. The operational escalation clock is still missing a
+  named owner, bounded deadline, and escalation target; the independent terminal
+  Reviewer packet is also absent. These operational gaps do not alter V002’s
+  quality state.
+research:
+  - research/2026-08-20-escalation-threshold-and-decision-state-1800.md
+prior_evidence:
+  - comms/outbox/MSG-20260820T173000-temporary-director-064.yml
+  - comms/outbox/MSG-20260820T170000-temporary-director-063.yml
+  - comms/outbox/2026-08-19T174800-video-generator-director-review.yml
+  - governance/publication-receipt-20260820-bounded-escalation-c7b441d.yml
+next_action: >-
+  Human owner: record the responsible owner, bounded acknowledgement deadline,
+  and escalation target, explicitly stating that acknowledgement is not a quality
+  verdict. Video Reviewer: publish the independent terminal packet. Generator
+  and Director: preserve V002 and all evidence; do not generate, alter, approve,
+  reject, remake, or create a second brief.
+escalation_rule: >-
+  If the stated deadline is missed, append review-timeout-escalated with the same
+  video_id, version, checksum, and evidence references. A timeout is escalation
+  metadata only; it is not approval, rejection, or REMAKE_REQUIRED.
+state_transition: >-
+  Only an explicit terminal Reviewer decision or explicit REMAKE_REQUIRED order
+  may clear the single-flight lane.
+constraints:
+  - append_only
+  - preserve_v002_identity_and_checksum
+  - preserve_reviewer_evidence
+  - single_flight_lane_closed
+  - no_duplicate_brief_or_filename
+  - no_generation_without_terminal_review_state
+  - no_silent_approval
+  - no_force_push
+  - no_credentials
