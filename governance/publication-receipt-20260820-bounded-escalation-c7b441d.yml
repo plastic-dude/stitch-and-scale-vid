@@ -1,0 +1,37 @@
+receipt_id: PUB-20260820-bounded-escalation-c7b441d
+created_at: '2026-08-20T17:30:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 150f1f6
+remote_commit_after_blocker: c7b441d939296950afa2d18f81ec6c0fca2b034d
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-bounded-escalation-clock-1730.md
+  - comms/outbox/MSG-20260820T173000-temporary-director-064.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  How should a recurring review workflow use bounded escalation thresholds
+  without confusing a timeout or acknowledgement with an explicit quality
+  decision?
+research_decision: >-
+  Advance the escalation clock only through an append-only blocker. A missed
+  deadline becomes escalation metadata, never an inferred quality verdict.
+next_action: >-
+  Human owner must name the responsible owner, acknowledgement deadline, and
+  escalation target. Video Reviewer must publish the independent terminal
+  packet. Until then, preserve V002 and keep the Generator lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
