@@ -7043,3 +7043,52 @@ The nearest prior angle is `freshness-state`, which asks whether a record remain
 [858]: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/800-171Ar3/NIST.SP.800-171Ar3.html "NIST SP 800-171Ar3, Assessing Security Requirements"
 [859]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
 [860]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
+
+## One-hundred-sixty-fourth wide-research question: explained is not justified — 20260819-223500
+
+**Question.** What proves why a bounded craft decision was reached, including the question, evidence, criteria, assumptions, alternatives, tradeoff, reason, limit, reviewer, and disposition, rather than merely showing where the record came from or that someone reviewed it?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between provenance/review and an explicit decision rationale; audience is makers, reviewers, and developers who need to see why a decision was made; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST decision boundary.** NIST's Risk Management Framework overview describes a repeatable seven-step process and separates assessment from authorization and monitoring. Assessment asks whether controls are in place, operating as intended, and producing desired results; authorization is a senior official's risk-based decision to allow operation; monitoring is ongoing. Used only as a process analogy, this supports a rationale card that connects evidence and criteria to a bounded decision while keeping assessment separate from authorization. It does not prove a Stitch & Scale risk workflow, authorization, assessment, monitoring, recommendation, or compliance. [861]
+
+**W3C provenance boundary.** W3C PROV-DM defines provenance as information about entities, activities, and people involved in producing a data item or thing, and distinguishes entities/activities, derivations, agents/responsibility, and time. Used only as a boundary, this supports separating source/derivation/agent history from a rationale that explains why a decision followed. Provenance does not itself establish criteria, alternatives considered, decision reason, approval, or correctness. [862]
+
+**Craft decision context.** Previously verified Craft Yarn Council schematics guidance supports a specific piece, size, shape, fit reference, and modification context. CYC standards and reading-instructions material can motivate fictional question/evidence/criteria fields without claiming a product recommendation, pattern correctness, fit result, or consumer outcome. [863] [864]
+
+**Accessibility boundary.** W3C prerecorded-caption guidance remains the production constraint: captions must carry dialogue, speaker identification, and meaningful sound information. Pass 164 reserves a fixed caption lane, one narrator family, caption-on and caption-free review masters, and no caption over decision, question, evidence, criteria, assumptions, alternatives, tradeoff, reason, limit, reviewer, or disposition fields. [848]
+
+**Selected angle.** `rationale-state` — “Explained is not justified.”
+
+**Primary pain.** A decision can have evidence, provenance, and a reviewer while still lacking an explicit account of why the evidence and criteria led to that decision. The missing element is a rationale that links the question, evidence, criteria, assumptions, alternatives, tradeoff, reason, limit, reviewer, and disposition.
+
+**Hook.** “Explained is not justified.”
+
+**Dramatic engine.** Subject: two fictional decision cards for one craft record. Desire: let a second reviewer understand why one bounded choice was made. Obstacle: the first card has evidence and provenance but no criteria, alternatives, assumptions, tradeoff, or explicit reason; the second card includes a reason without linking it to evidence. Stakes: a reader may mistake a source history or a confident explanation for a justified decision. Change: the card gains question, evidence, criteria, assumptions, alternatives, tradeoff, reason, limit, reviewer, and disposition, with a separate provenance strip. Contradiction: an explanation can sound plausible without showing the decision path. Escalation: an alternative is visible but the tradeoff is missing; the card stops at `RATIONALE INCOMPLETE`. Final image: one bounded decision card with `DISPOSITION: HUMAN REVIEW REQUIRED`, not approved.
+
+**Visual grammar.** Neutral evidence board; two decision cards for `RECORD R-001`; a provenance strip separated from a rationale bridge; arrows from evidence to criteria to reason to decision; amber for missing rationale links; red only for `RATIONALE INCOMPLETE`; no green approval state. No real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, legal language, product claim, or reviewer identity. Captions occupy a fixed lane that never covers decision, question, evidence, criteria, assumptions, alternatives, tradeoff, reason, limit, reviewer, disposition, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `DECISION / QUESTION / EVIDENCE / CRITERIA / ASSUMPTIONS / ALTERNATIVES / TRADEOFF / REASON / LIMIT / REVIEWER / DISPOSITION`.
+
+**Research decision.** Research changed the treatment from a generic decision card to an explicit rationale bridge: provenance remains a separate origin/history strip, while the decision path must link question, evidence, criteria, assumptions, alternatives, tradeoff, reason, limit, reviewer, and disposition. No source proves a product rationale feature.
+
+**Distinctness decision.** The nearest prior angle is `reviewability-state`, which asks whether a reviewer can consistently inspect and compare a bounded record. `rationale-state` changes the pain to whether the decision's reason is explicit and connected to evidence, criteria, assumptions, alternatives, tradeoffs, limits, reviewer, and disposition. It differs from `provenance-state`, which asks where an entity, activity, or agent came from; `confidence-state`, which asks how strongly a person should trust a result; `authority-state`, which asks who can authorize; `audit-state`, which asks whether an audit ran; `relevance-state`, which asks whether evidence belongs to a decision; `sufficiency-state`, which asks whether the minimum evidence is met; and imported `false-completion` / `release-gate-roster`, which remain blocked human-gate concepts. The hook changes to “Explained is not justified”; the visual metaphor changes from two repeated review cards with unstable labels to a provenance strip feeding a rationale bridge whose evidence/criteria/alternatives/reason links are incomplete; the proof surface changes to decision/question/evidence/criteria/assumptions/alternatives/tradeoff/reason/limit/reviewer/disposition; the emotional turn changes from structured inspection to accountable decision logic; and the final line becomes “Name why this decision follows.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name why this decision follows.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed rationale link, criteria, assumptions, alternative, tradeoff, reason, limit, reviewer, or disposition surface. No generation or upload is authorized.
+
+## Wide-research Director decision — rationale state — 20260819-223500
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `rationale-state` | A decision can have evidence, provenance, and a reviewer while still lacking an explicit account of why the evidence and criteria led to that decision | “Explained is not justified.” | Fictional decision/question/evidence/criteria/assumptions/alternatives/tradeoff/reason/limit/reviewer/disposition card | From “It sounds plausible” to “The decision path is inspectable” | “Name why this decision follows.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-223500
+The nearest prior angle is `reviewability-state`, which asks whether a reviewer can consistently inspect and compare a bounded record. `rationale-state` changes the question to whether the decision's reason is explicit and connected to evidence, criteria, assumptions, alternatives, tradeoffs, limits, reviewer, and disposition. It changes the hook to “Explained is not justified”; the visual metaphor from two repeated review cards with unstable labels to a provenance strip feeding a rationale bridge whose evidence/criteria/alternatives/reason links are incomplete; the proof surface from review-target/scope/method/evidence/criteria/observation/decision/reviewer/reviewed-at/limit to decision/question/evidence/criteria/assumptions/alternatives/tradeoff/reason/limit/reviewer/disposition; the emotional turn from structured inspection to accountable decision logic; and the final line to “Name why this decision follows.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [861]–[864]
+
+[861]: https://csrc.nist.gov/projects/risk-management "NIST Risk Management Framework"
+[862]: https://www.w3.org/TR/prov-dm/ "W3C PROV-DM: The PROV Data Model"
+[863]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
+[864]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
