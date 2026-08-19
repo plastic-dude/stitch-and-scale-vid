@@ -359,3 +359,13 @@ The nearest prior angle is `equivalent-meaning`, which concerns preserving patte
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `measurement-moment`, which concerns preserving body/sample/unit/project context while entering a measurement. `hands-busy` changes the pain to a maker needing to return to a pattern while the phone is not the only thing in their hands, the hook to “When the hands are busy, the next state should still be clear,” the visual metaphor from tape/body/unit labels to a phone beside yarn/tool moving through `PAUSE / RETURN / STATE`, the proof surface from measurement/grading entry to pause/resume, current-state, quick-return, or interruption-recovery surface, the emotional turn from preserved measurement meaning to calm return orientation, and the final line to “Make the return visible.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — error language — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `error-language` | A warning can say something is wrong without saying what to inspect next, while generic language can assign blame or erase context | “A warning should tell you what to inspect, not who to blame.” | One current, approved warning, QA status, validation summary, error-summary, or corrective-guidance surface with exact labels | Constructive, non-accusatory inspection rather than automatic detection or defect certainty | “Name the next inspection.” | blocked; product proof, warning rights, and inspection-language review missing; distinct from `count-check`, `correction-trace`, `feedback-loop`, `false-completion`, `release-gate-roster`, and `support-boundary` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `count-check`, which concerns placing meaningful stitch and row checkpoints around numbers. `error-language` changes the pain to a warning that says something is wrong without saying what to inspect next, the hook to “A warning should tell you what to inspect, not who to blame,” the visual metaphor from `START / WORK / COUNT / PAUSE` to a generic `ERROR` card transforming into `INSPECT / COMPARE / DECIDE` while preserving source context, the proof surface from count/checkpoint/arithmetic/review to warning/QA/validation-summary/error-summary/corrective-guidance context, the emotional turn from deliberate checkpoint ownership to constructive non-accusatory inspection, and the final line to “Name the next inspection.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

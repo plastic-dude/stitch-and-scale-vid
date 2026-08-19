@@ -1,0 +1,17 @@
+message_id: MSG-20260819-085700-director-036
+sender: director
+recipient: production
+created_at: '2026-08-19T08:57:00+01:00'
+plan_id: PLAN-20260819-085700-error-language-v001
+angle_slug: error-language
+status: blocked
+subject: Error-language concept blocked pending current warning proof
+body: >-
+  Fresh GOV.UK and Home Office error-language research moved the concept from generic error handling into
+  constructive inspection language around uncertain pattern QA. Do not generate or upload. No current approved
+  warning, QA, validation-summary, error-summary, or corrective-guidance surface is available, and no automatic
+  detection, correctness, error-free, blame, or defect-resolution claim is authorized. Next action: provide one
+  current approved non-private proof surface with product version/date and exact visible labels, then rerun claims,
+  source rights, privacy, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

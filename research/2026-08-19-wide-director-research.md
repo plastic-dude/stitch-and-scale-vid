@@ -922,3 +922,31 @@ Research changed the concept from generic mobile ergonomics into **state clarity
 [72] [W3C WAI — Understanding Success Criterion 2.5.8: Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)
 
 [73] [Apple Developer — Human Interface Guidelines: Controls](https://developer.apple.com/design/human-interface-guidelines/controls)
+
+## Thirty-fourth wide-research question: what should a warning ask the maker to inspect? — 2026-08-19
+
+### Research question
+How can a knitwear pattern QA warning tell a designer what to inspect and what remains unknown without assigning blame or claiming Stitch & Scale automatically detects errors?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| GOV.UK Design System, “Error message” | 2026-08-19; current component page | The guidance says an error message should explain what went wrong and how to fix it, preserve the user’s entered information, associate the message with the relevant field, use clear and concise plain language, avoid blame-oriented or vague wording, and provide specific context. | Government-service guidance, not proof of Stitch & Scale validation, error detection, or a universal craft QA message standard. | Make the concept about actionable inspection language and preserved context, not error certainty or automatic detection. |
+| Home Office User-Centred Design Manual, “Error messages” | 2026-08-19; current guidance page | The guidance says users need to know what went wrong so they can fix it; recommends clear descriptive text, review/correct/confirm flows, text rather than color alone, cause and location, corrective guidance, and programmatic association where relevant. | General design guidance, not legal advice, current product proof, or evidence that Stitch & Scale has error summaries or validation states. | Require an explicit `INSPECT / COMPARE / DECIDE` warning path and keep original context visible. |
+| Local production lessons and QA contract | 2026-08-19; repository source | The project preserves technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. | Internal production contract, not proof of automated product validation. | Select `error-language` and block pending a current warning or QA proof surface. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for warning messages, QA statuses, validation summaries, error summaries, field associations, count discrepancies, or corrective guidance. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`error-language`**: the tension is a warning that says something is wrong without saying what to inspect next. The hook is “A warning should tell you what to inspect, not who to blame.” The visual metaphor is a fictional warning card changing from `ERROR` to `INSPECT / COMPARE / DECIDE`, with the original context preserved and no automatic-detection badge. The proof surface must be one current, approved warning, QA status, validation summary, or corrective-guidance surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic error handling into **constructive inspection language around uncertain pattern QA**. The script must not claim automated detection, correctness, validation, error-free output, or a resolved defect. It may ask designers to identify the relevant context, compare the source, decide ownership, and route the issue to human review, then invite current product proof for the exact surface.
+
+### References
+
+[74] [GOV.UK Design System — Error message](https://design-system.service.gov.uk/components/error-message/)
+
+[75] [Home Office User-Centred Design Manual — Error messages](https://design.homeoffice.gov.uk/accessibility/interactivity/error-messages)
