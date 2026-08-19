@@ -1,0 +1,42 @@
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+filename: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500.mp4
+campaign_id: CAMPAIGN-20260819-ownership-receipt
+angle_slug: privacy-by-default
+format: 9x16
+version: v001
+status: approved-for-generation
+objective: product trust and founding-tester recruitment
+audience: independent knitwear designers wary of surrendering project files
+runtime_target_seconds: 45
+script_version: SCRIPT-20260819-local-only-v001
+plan_version: PLAN-20260819-local-only-001
+platform_profile: PLATFORM-20260819-9x16-local-only-001
+caption_version: CAPTION-20260819-local-only-v001
+caption_policy: accurate_access_captions
+caption_safe_zone: central proof-safe region with per-shot blank-margin coordinates recorded by Generator
+narrator_family: one warm close first-person narrator; single continuous voice treatment
+audio_version: AUDIO-20260819-local-only-v001-silence-or-cleared-room-tone
+research_note: research/live-product-observation-20260819-1300.md
+approved_assets:
+  - asset_id: ASSET-LIVE-HOME-20260819
+    path: assets/live-local-first-home-20260819.webp
+    sha256: 0a37313b97311f59ccd2b36b35cb603100e7e1dd0e95626e650ad9d02ae5013c
+  - asset_id: ASSET-LIVE-NEW-20260819
+    path: assets/live-local-first-new-project-20260819.webp
+    sha256: 433d99def8d13162c205d75313443ed3fa1b2bf2596bafd6b78f1c712260764d
+external_store: Google Drive
+external_archive_folder_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+external_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+drive_file_id: null
+drive_url: null
+sha256: null
+created_at: '2026-08-19T13:15:00+01:00'
+rights_status: owned product captures; single declared narrator family; no unlicensed music or stock media
+qa:
+  status: pending-generator
+  report_path: reviews/SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500/generator-check.md
+  reviewer_score: null
+notes: >-
+  This is a Director-approved generation contract, not public approval. Generate exactly one MP4,
+  upload it to 01-director-review, record Drive ID and checksum, then stop for independent Reviewer scoring.
+  Do not regenerate DIR-001, use small-test.mp4, claim cloud backup, or invent UI text.

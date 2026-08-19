@@ -1,0 +1,29 @@
+1
+00:00:00,000 --> 00:00:04,200
+Your pattern should not need my server
+to stay yours.
+
+2
+00:00:04,200 --> 00:00:11,300
+Stitch & Scale starts with a local project.
+No account just to begin.
+
+3
+00:00:11,300 --> 00:00:20,200
+But local is not magic. Clear your browser data,
+and the notice says your local projects go with it.
+
+4
+00:00:20,200 --> 00:00:29,300
+That is the trade: no forced upload,
+and a responsibility to back up what you cannot afford to lose.
+
+5
+00:00:29,300 --> 00:00:38,200
+I would rather show you the warning
+than hide behind a promise.
+
+6
+00:00:38,200 --> 00:00:45,000
+Keep the work on your machine.
+Then help us test what comes next.
