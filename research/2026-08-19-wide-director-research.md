@@ -6653,3 +6653,52 @@ The nearest prior angle is `baseline-state`, which asks whether a named, reviewe
 [830]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
 [831]: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html "W3C WAI, Understanding SC 1.2.2: Captions (Prerecorded)"
 [832]: https://www.facebook.com/business/help/980593475366490 "Meta Business Help Center, text overlays and safe zones for ads"
+
+## One-hundred-fifty-sixth wide-research question: noticed is not escalated — 20260819-213900
+
+**Question.** After a finding is observed in a craft record, review, or product-proof surface, what evidence shows that its significance was assessed, routed to an accountable owner, given a next action and due point, acknowledged, responded to, and explicitly dispositioned rather than silently treated as complete?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between noticing a problem and routing its next response; audience is makers, reviewers, and developers who need an honest handoff between evidence and action; form is a 45-second 9:16 vertical explainer; tone is calm, direct, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST incident-response process.** NIST SP 800-61 Rev. 3, published in April 2025, frames incident response as part of cybersecurity risk management and emphasizes detection, response, and recovery activities. Used only as a process analogy, this supports separating a finding from its assessed significance, route, accountable owner, next response, and disposition. It does not establish a Stitch & Scale issue workflow, escalation feature, severity model, or outcome. [833]
+
+**Craft-specific failure evidence.** The Craft Yarn Council lists pitfalls such as missing or poorly calculated body measurements, incomplete sizing, gauge swatches that do not match the submitted project, missing material detail, and pattern or instruction problems. The creative decision is therefore to keep a finding visible and route it to the appropriate human evidence gate rather than imply that a finding has been fixed or closed. The source does not establish that the product detects, assigns, escalates, or resolves these issues. [834]
+
+**Accessibility and audio evidence.** Section508.gov explains that captions for synchronized media include dialogue, speaker identification, and meaningful sounds, and warns that automatic captions can have transcription, punctuation, speaker-change, synchronization, and sound-description errors. It recommends planning accessibility during production. The package therefore uses one narrator family, a caption-on master, a caption-free master, a readable route card, and human caption/audio review. [835]
+
+**Platform constraint.** TikTok's June 2026 Auction In-Feed Ads guidance recommends 9:16 vertical video at least 540×960 pixels for non-Spark ads and states that safe-zone size depends on dimension, caption length, and additional formats. It warns that previews may differ from live device rendering. This is ad-specific guidance, not a universal organic-post rule; pass 156 keeps finding, route, owner, and next-action fields central and requires current platform-profile review before release. [836]
+
+**Selected angle.** `escalation-state` — “Noticed is not escalated.”
+
+**Primary pain.** A visible finding can still disappear into a status label if nobody records its significance, route, owner, next action, due point, acknowledgment, response, and disposition. The missing element is not more alarm; it is accountable follow-through.
+
+**Hook.** “Noticed is not escalated.”
+
+**Dramatic engine.** Subject: one fictional finding card from a craft review. Desire: a reviewer wants the issue safely carried forward. Obstacle: the card says only `FOUND` and `OPEN`. Stakes: the finding is forgotten, routed to the wrong human gate, or falsely read as resolved. Change: the card expands into severity/evidence/route/owner/next-action/due/acknowledged/response/disposition. Contradiction: visibility can increase without accountability. Escalation: the same finding is passed through three unlabeled inboxes until a route and owner stop the drift. Final image: a single acknowledged handoff with a named next action and unresolved disposition, not a completion stamp.
+
+**Visual grammar.** Neutral review board; one finding card with a restrained amber severity marker; route arrows are thin and labeled; red is reserved for unresolved risk; no alarms, countdowns, urgency, or fear. Use large high-contrast labels, close readable proof holds, no real UI, private record, recognizable person, copyrighted pattern, customer data, or product claim. Captions occupy a fixed lane that never covers the finding card, numbers, tables, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `FINDING / SEVERITY / EVIDENCE / ROUTE / OWNER / NEXT_ACTION / DUE / ACKNOWLEDGED / RESPONSE / DISPOSITION`.
+
+**Research decision.** Research changed the treatment from a generic “review the finding” message to a visible route: show a finding moving through unlabeled queues, then stop the drift with an accountable owner, next action, due point, acknowledgment, response, and explicit disposition. NIST supplies process structure; Craft Yarn Council supplies realistic craft failure categories; Section 508 supplies human caption/audio review requirements; TikTok supplies current ad-specific safe-zone variability. No source proves a Stitch & Scale escalation surface.
+
+**Distinctness decision.** The nearest prior angle is `applicability-state`, which asks whether a rule or result is bounded to the correct subject, scope, size, unit, context, intended use, and exception. `escalation-state` changes the pain to what happens after a finding is observed: significance, route, accountable owner, next action, due point, acknowledgment, response, and disposition. It differs from `closure-state`, which concerns whether a process is actually closed; from `actionability-state`, which is already occupied and concerns whether an insight can be acted on; from `sequence-state`, which concerns order; from `release-gate-roster`, which remains an imported blocked human-gate concept; and from `false-completion`, which remains an imported blocked false-closure concept. The hook changes to “Noticed is not escalated”; the visual metaphor changes from one scoped result copied across contexts to one finding drifting through unlabeled queues until a route and owner stop it; the proof surface changes to finding/severity/evidence/route/owner/next-action/due/acknowledged/response/disposition; the emotional turn changes from overgeneralization awareness to accountable follow-through; and the final line becomes “Name who carries it next.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name who carries it next.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed finding, severity, route, owner, next-action, acknowledgment, response, or disposition surface. No generation or upload is authorized.
+
+## Wide-research Director decision — escalation state — 20260819-213900
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `escalation-state` | A visible finding can disappear into a status label without assessed significance, route, owner, next action, due point, acknowledgment, response, or disposition | “Noticed is not escalated.” | Fictional finding/severity/evidence/route/owner/next-action/due/acknowledged/response/disposition card | From “Someone saw it” to “Someone carries it next” | “Name who carries it next.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-213900
+The nearest prior angle is `applicability-state`, which asks whether a rule or result is bounded to a named subject, scope, size, unit, context, intended use, and exception. `escalation-state` changes the question to what happens after a finding is observed: how its significance is assessed, where it is routed, who owns the next action, when it is due, whether it was acknowledged, what response occurred, and how it is dispositioned. It changes the hook to “Noticed is not escalated”; the visual metaphor from one scoped result copied across contexts to one finding drifting through unlabeled queues until a route and owner stop it; the proof surface from subject/rule-or-result/scope/size/unit/context/intended-use/exception/reviewed/disposition to finding/severity/evidence/route/owner/next-action/due/acknowledged/response/disposition; the emotional turn from overgeneralization awareness to accountable follow-through; and the final line to “Name who carries it next.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [833]–[836]
+
+[833]: https://csrc.nist.gov/pubs/sp/800/61/r3/final "NIST SP 800-61 Rev. 3, Incident Response Recommendations"
+[834]: https://www.craftyarncouncil.com/pitfalls.html "Craft Yarn Council, Designer Pitfalls"
+[835]: https://www.section508.gov/create/synchronized-media/ "Section508.gov, Video and Other Synchronized Media"
+[836]: https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads "TikTok for Business, Auction In-Feed Ads"
