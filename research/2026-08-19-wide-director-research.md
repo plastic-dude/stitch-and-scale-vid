@@ -1214,3 +1214,46 @@ Do not claim Stitch & Scale has undo, restoration, dependency analysis, deletion
 [104] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [105] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Forty-first wide-research question: what is the basis of this number? — 2026-08-19
+
+### Research question
+When a number appears in a designer’s pattern, sample, expense, or planning record, how can they tell whether it is measured, estimated, planned, or derived before trusting it—without claiming Stitch & Scale exposes provenance labels, uncertainty, or calculation lineage?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers managing pattern, sample, material, measurement, and business records. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| NIST Technical Note 2156, “Metrological Traceability: Frequently Asked Questions and NIST Policy” | 2026-08-19; current page checked | NIST defines traceability as a measurement result related to a reference through a documented unbroken chain of calibrations, each contributing to measurement uncertainty. It also states that traceability alone does not guarantee fitness for purpose and that the provider supports a traceability claim while the user assesses validity. | Metrology guidance for calibrated measurement, not knitwear recordkeeping and not proof of Stitch & Scale provenance or uncertainty fields. | A number should not be presented as self-authorizing: retain source/method and uncertainty or status where relevant, and separate provenance from fitness-for-purpose. |
+| Government Analysis Function, “Labelling official statistics” | 2026-08-19; current page checked; publication date 15 October 2019 | Guidance says estimates should be presented with transparency about methods and assumptions, limitations should be explained, and data should not be materially misleading by creating unwarranted certainty. | Guidance for official statistics, not a craft-business record standard and not product proof. | Use explicit status labels such as `MEASURED / ESTIMATED / PLANNED / DERIVED / SOURCE NOTE` in an illustrative card; never imply a calculation or measurement is more certain than its basis. |
+| Craft-business records contract | 2026-08-19; internal contract | The contract distinguishes recorded, estimated, planned, and derived values and requires source notes, units, active context, and validation state. | Internal product-design contract, not current UI proof. | Select `basis-label`: make a value’s basis visible before it enters a pattern, sample, expense, or decision record. |
+| Mobile-maker workflows contract | 2026-08-19; internal contract | The contract requires active context, units, validation state, and readable mobile records, including when work is interrupted or resumed. | Internal product-design contract, not current UI proof. | Keep the basis label adjacent to the value and readable on a small screen; do not rely on hidden metadata or color alone. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for measured-versus-estimated labels, value provenance, uncertainty, source/method notes, calculation lineage, or validation-state indicators. All 41 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from a generic source note into **basis before use**. The fresh concept is `basis-label`: a value card asks whether a number is `MEASURED`, `ESTIMATED`, `PLANNED`, or `DERIVED`, and optionally shows a `SOURCE NOTE` without pretending that a label guarantees fitness for purpose. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product provenance or calculation lineage is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `source-note`, which focuses on where a record came from. `basis-label` changes the pain to **what kind of value this is and how much certainty its basis supports**. The hook changes to “A number needs a basis before it gets a job.” The visual metaphor changes from a citation/source card to a value card splitting into `MEASURED / ESTIMATED / PLANNED / DERIVED`. The proof surface changes from a source note to a current value-status label, uncertainty or estimate marker, source/method note, calculation lineage, or measured-versus-derived indicator. The emotional turn changes from traceability to calm honesty about what is known and provisional. The final line changes to “Label the basis before you trust the result.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale exposes provenance, uncertainty, source/method notes, calculation lineage, or measured-versus-derived indicators without current proof. Do not suggest a label makes a value fit for purpose. Do not invent values, accuracy, or customer outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[106] [NIST — Metrological Traceability: Frequently Asked Questions and NIST Policy](https://www.nist.gov/metrology/metrological-traceability)
+
+[107] [Government Analysis Function — Labelling official statistics](https://analysisfunction.civilservice.gov.uk/policy-store/labelling-official-statistics/)
+
+[108] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[109] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

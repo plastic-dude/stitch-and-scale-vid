@@ -429,3 +429,13 @@ The nearest prior angle is `size-boundary`, which focuses on the limits of the s
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `recovery-proof`, which focuses on proving restoration after loss or interruption. `delete-scope` moves earlier to the decision boundary before destruction and asks what exactly leaves, what remains, and which derived view may change. It changes the hook to “Delete the record, not the story around it,” the visual metaphor from a restored workspace to `DELETE / REMOVE FROM VIEW / UNLINK EVIDENCE`, the proof surface from recovery evidence to a delete confirmation, affected-record summary, dependency warning, unlink-versus-delete choice, or undo/restoration surface, the emotional turn from relief after recovery to confidence through named consequences before deletion, and the final line to “Name what leaves. Name what stays.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — basis label — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `basis-label` | A clean number can look authoritative even when its method, assumption, source, or status is unknown | “A number needs a basis before it gets a job.” | One current, approved value-status label, uncertainty/estimate marker, source/method note, calculation lineage, or measured-versus-derived indicator with exact labels | Calm honesty about what is known and provisional rather than false precision | “Label the basis before you trust the result.” | blocked; product proof, record-data rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `source-note`, which focuses on where a record came from. `basis-label` changes the pain to what kind of value this is and how much certainty its basis supports. It changes the hook to “A number needs a basis before it gets a job,” the visual metaphor from a citation/source card to `MEASURED / ESTIMATED / PLANNED / DERIVED`, the proof surface from a source note to a value-status, uncertainty, source/method, calculation-lineage, or measured-versus-derived surface, the emotional turn from traceability to calm honesty about what is known and provisional, and the final line to “Label the basis before you trust the result.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
