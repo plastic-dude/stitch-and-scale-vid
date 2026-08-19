@@ -1,0 +1,16 @@
+message_id: MSG-20260819-081500-director-030
+sender: director
+recipient: production
+created_at: '2026-08-19T08:15:00+01:00'
+plan_id: PLAN-20260819-081500-design-intent-v001
+angle_slug: design-intent
+status: blocked
+subject: Design-intent concept blocked pending rationale proof
+body: >-
+  Fresh knitwear-development research moved the concept from a generic design diary into rationale alongside
+  evidence. Do not generate or upload. No current approved design-note, rationale, or decision-context surface
+  is available, and no intent-capture, design-correctness, fit, or automated-reasoning claim is authorized.
+  Next action: provide one current approved non-private proof surface with product version/date and exact visible
+  labels, then rerun claims, source rights, privacy, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

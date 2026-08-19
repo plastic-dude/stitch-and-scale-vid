@@ -299,3 +299,13 @@ The nearest prior angle is `source-note`, which concerns where a statement came 
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `readability-under-load`, which concerns legibility and comprehension under dense or mobile reading conditions. `notation-key` changes the pain to shorthand appearing familiar while its local meaning is absent or inconsistent, the hook to “Shorter words need a longer welcome,” the visual metaphor from dense reading to `KEY / FIRST USE / LOCAL TERM / RECHECK`, the proof surface from typography/readability to abbreviation/notation/terminology/key, the emotional turn from calm pacing to generous definition before decoding, and the final line to “Define the shorthand. Keep the maker moving.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — design intent — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `design-intent` | A technical record can preserve what changed while losing why the designer chose the construction | “The number tells you what changed. The note can tell you why.” | One current, approved design-note, rationale, or decision-context surface with exact labels | Creative reasoning preserved beside evidence rather than treated as proof | “Keep the why beside the proof.” | blocked; product proof, rationale-rights review, and evidence-link wording missing; distinct from `decision-ledger`, `source-note`, `as-of`, `correction-trace`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `decision-ledger`, which distinguishes recorded costs, derived rollups, estimates, and planned values. `design-intent` changes the pain to a technical record preserving what changed while losing why the construction was chosen, the hook to “The number tells you what changed. The note can tell you why,” the visual metaphor from value-status cards to `INTENT / ASSUMPTION / TEST / GATE`, the proof surface from design-ledger classifications to design-note/rationale/decision context, the emotional turn from numeric honesty to creative reasoning beside evidence, and the final line to “Keep the why beside the proof.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

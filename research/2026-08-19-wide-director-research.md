@@ -752,3 +752,31 @@ Research changed the concept from generic pattern readability into **local notat
 [59] [Craft Yarn Council — Knitting Abbreviations Master List](https://www.craftyarncouncil.com/standards/knitting-abbreviations)
 
 [60] [Digital.gov — Plain language guide series](https://digital.gov/guides/plain-language)
+
+## Twenty-eighth wide-research question: preserve the why without calling it proof — 2026-08-19
+
+### Research question
+How can a designer preserve why a construction, proportion, ease, material, or technique choice was made without confusing rationale with technical proof or claiming Stitch & Scale captures design intent?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Natalie in Stitches, “FN2N, Part 5 — Knitwear Design Process 3: Development” | 2026-08-19; page dated 3 March 2021 | The practitioner describes development as the stage where ideas move into reality, says testing and swatching can be part of innovation, and connects pattern development with writing pattern “code” and debugging. | Practitioner reflection, not a formal standard, not proof of a current product field, and not evidence that rationale or debugging is automated. | Show design intent as a separate note beside swatch/test evidence; do not turn the rationale into correctness or fit proof. |
+| GoSadi, “Knitwear Design Process: How to Design Your Own Knit Patterns” | 2026-08-19; page returned no extractable text or screenshot | Search result identified a six-step SWATCH Framework source about knitwear design process, but the page could not be read in this session. No detailed claims were used. | Source extraction failed; search snippet alone is insufficient for substantive evidence. | Keep the concept grounded primarily in the readable practitioner source and local workflow contract; do not repeat unverified framework details. |
+| Local knitwear QA and craft-business records contracts | 2026-08-19; repository source | Design records may preserve rationale, assumptions, samples, costs, grading decisions, and evidence status; rationale must remain distinct from technical editing, physical print review, chart readability, schematic scale, and test knitting. | Internal workflow guidance, not proof of a current design-intent or rationale surface. | The proof surface must be a current approved rationale/design-note/context surface; absent proof, use a blocker card. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for design rationale, intent notes, decision context, swatch rationale, construction reasoning, or design-note history. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`design-intent`**: the tension is a technical record preserving what changed while losing why the designer chose the construction. The hook is “The number tells you what changed. The note can tell you why.” The visual metaphor is a fictional design card splitting into `INTENT / ASSUMPTION / TEST / GATE`, with rationale beside evidence rather than replacing it. The proof surface must be one current, approved design-note, rationale, or decision-context surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from a generic design diary into **rationale alongside evidence**. The script must not claim intent capture, design correctness, fit, or automated reasoning. It may ask a designer to preserve the reason for a choice and link it to a test or human gate, then invite current product proof for the exact surface.
+
+### References
+
+[61] [Natalie in Stitches — FN2N, Part 5: Knitwear Design Process 3: Development](https://natalieinstitches.com/2021/03/03/fn2n-part-5-design-process-3-development/)
+
+[62] [GoSadi — Knitwear Design Process: How to Design Your Own Knit Patterns](https://gosadi.com/blog/unraveling-my-knitwear-design-process-the-swatch-framework/)
