@@ -3358,3 +3358,57 @@ Do not claim Stitch & Scale maintains a proof registry, invalidates stale screen
 [372] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [373] [Stitch & Scale — Publishing/export, pattern-QA, and mobile-maker contracts](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## Eighty-sixth wide-research question: two sources disagree. That is a state. — 2026-08-19
+
+### Research question
+When two sources or records disagree in a knitwear project, how can a designer preserve both inputs, identify the conflict, document evidence and decision, and avoid silently choosing a winner, without claiming Stitch & Scale reconciles data or selects a source of truth?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers handling measurements, grading inputs, yarn notes, sales records, or review evidence from more than one source. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and epistemically careful. The brief tier is a standard single-original-video planning package. No reconciliation, source-of-truth selection, accuracy, completeness, or customer-outcome claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| NIST, “Guidelines, Information Quality Standards and Administrative Mechanism” | 2026-08-19; current page checked | NIST describes information quality through utility, integrity, and objectivity, with quality levels appropriate to the nature and timeliness of information. It treats pre-dissemination review as part of the process and emphasizes source transparency, methods, review, and correction processes. | NIST guidance concerns information disseminated by NIST; it is not a product data-reconciliation standard, legal advice, or Stitch & Scale behavior. | Preserve both conflicting inputs, their sources/dates, scope, evidence, decision, resolver, decided-at, and unresolved status; do not silently overwrite one record. |
+| IBM, “What Is Data Reconciliation?” | 2026-08-19; current page checked | IBM describes reconciliation as comparing and verifying information across systems to maintain integrity, accuracy, and consistency. Its process distinguishes extraction, standardization, comparison, discrepancy identification, resolution/correction, validation, and audit logging, and notes that some discrepancies require manual contextual judgment. | IBM overview is general data-management context, not Stitch & Scale capability or a basis for claiming automatic reconciliation, accuracy, or audit compliance. | Keep source A, source B, conflict type, evidence, decision, decided-by, decided-at, status, and follow-up separate; unresolved conflict must remain visible. |
+| Stitch & Scale craft-business-records, pattern-QA, publishing/export, and mobile-maker contracts | 2026-08-19; contracts re-read | Internal contracts preserve source/date, recorded-versus-derived values, provenance, local-first records, explicit uncertainty, grading/measurement context, export identity, and separate technical-editing, print, chart, schematic, and test-knit evidence. | Internal contracts; no product-proof registry entry for conflict preservation, reconciliation, or silent-overwrite behavior. | Block product claims about conflict detection, source-of-truth selection, automatic resolution, or audit logging. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove conflict semantics, product behavior, or accessibility. | Plan 9:16 at 1080×1920, keep both source cards and resolution status clear of overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-19; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep organic-first master under one minute, center the conflict record, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish campaign audio clearance, conflict resolution, or product accuracy. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove conflict preservation or semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying conflict records, source A/source B preservation, conflict type, evidence, decision, resolver, decided-at, unresolved status, or silent-overwrite behavior. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 86 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “check whether numbers match” into **preserve the disagreement as a first-class record: name both sources, the observed values, scope, conflict type, evidence, decision, resolver, decision time, current status, and follow-up**. The fresh concept is `conflict-state`: an original record card places `ITEM / SOURCE A / VALUE A / SOURCE B / VALUE B / OBSERVED AT / SCOPE / CONFLICT TYPE / EVIDENCE / DECISION / DECIDED BY / DECIDED AT / STATUS / FOLLOW-UP`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no reconciliation or source-of-truth claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `value-state`, which separates blank, zero, not-applicable, invalid, derived, planned, and unverified values. `conflict-state` changes the pain to **two otherwise meaningful records disagreeing and the disagreement being silently collapsed before a human decision**. The hook changes to “Two sources disagree. That is a state.” The visual metaphor changes from value-status cards to two source cards connected by a red conflict line, followed by evidence, decision, resolver, and follow-up cards. The proof surface changes from a value-state field set to a source-comparison/conflict record. The emotional turn changes from null/zero humility to preserving disagreement long enough for a bounded human decision. The final line changes to “Name the conflict before you choose the record.”
+
+This is distinct from `impact-scope` (downstream effects), `comparison-frame` (reference object and comparison scope), `decision-ledger` (decision rationale generally), `source-note` (provenance), `value-state` (value semantics), `review-anchor` (comment version/location), `correction-trace` (released correction linkage), `capture-freshness` (proof artifact currentness), and `payment-state` (money lifecycle). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale reconciles sources, selects a source of truth, detects conflicts, preserves both records, prevents overwrite, automatically resolves discrepancies, validates accuracy, or provides audit compliance. Do not present a fictional conflict card as product UI or real data. Do not use private measurements, customer/tester records, sales records, editor comments, third-party spreadsheets, or copyrighted documents without permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[374] [NIST — Guidelines, Information Quality Standards and Administrative Mechanism](https://www.nist.gov/director/nist-information-quality-standards)
+
+[375] [IBM — What Is Data Reconciliation?](https://www.ibm.com/think/topics/data-reconciliation)
+
+[376] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[377] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[378] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[379] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[380] [Stitch & Scale — Craft records, pattern-QA, publishing/export, and mobile-maker contracts](file:///home/ubuntu/skills/craft-business-records/SKILL.md)

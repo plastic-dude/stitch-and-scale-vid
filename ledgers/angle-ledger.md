@@ -879,3 +879,13 @@ The nearest prior angle is `correction-trace`, which links a post-release correc
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `as-of`, which focuses on what a date means for a record or obligation. `capture-freshness` changes the pain to a screenshot or proof artifact being treated as current and complete when its version, scope, and review time are unknown. It changes the hook to “A screenshot has a date, not a warranty,” the visual metaphor from a date context card to a proof artifact with provenance metadata and a visible scope boundary, the proof surface from an as-of field to a current capture-context record, the emotional turn from clarifying date meaning to evidence humility about what a capture can support, and the final line to “Date the proof before you trust the capture.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — conflict state — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `conflict-state` | Two otherwise meaningful records can disagree and be silently collapsed before a human decision | “Two sources disagree. That is a state.” | One current, approved conflict-context surface with item, source A/value A, source B/value B, observed at, scope, conflict type, evidence, decision, decided by/at, status, and follow-up | Preserving disagreement long enough for a bounded human decision rather than reconciliation, source-of-truth, or accuracy certainty | “Name the conflict before you choose the record.” | blocked; product/data proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `value-state`, which separates blank, zero, not-applicable, invalid, derived, planned, and unverified values. `conflict-state` changes the pain to two otherwise meaningful records disagreeing and the disagreement being silently collapsed before a human decision. It changes the hook to “Two sources disagree. That is a state,” the visual metaphor from value-status cards to two source cards connected by a red conflict line, followed by evidence, decision, resolver, and follow-up cards, the proof surface from value-state semantics to a source-comparison/conflict record, the emotional turn from null/zero humility to preserving disagreement long enough for a bounded human decision, and the final line to “Name the conflict before you choose the record.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

@@ -1,0 +1,63 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-220000-conflict-state-v001
+angle_slug: conflict-state
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_conflict-state_9x16_v001_blocked_20260819-220000.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+conflict_context_surface_status: missing
+item_status: missing
+source_a_status: missing
+value_a_status: missing
+source_b_status: missing
+value_b_status: missing
+observed_at_status: missing
+scope_status: missing
+conflict_type_status: missing
+evidence_status: missing
+decision_status: missing
+decided_by_status: missing
+decided_at_status: missing
+status_field_status: missing
+follow_up_status: missing
+source_preservation_status: missing
+unresolved_state_status: missing
+silent_overwrite_status: missing
+reconciliation_status: unverified
+source_of_truth_selection_status: unverified
+conflict_detection_status: unverified
+automatic_resolution_status: unverified
+accuracy_validation_status: unverified
+audit_logging_status: unverified
+product_version: null
+proof_capture_approved: false
+technical_editorial_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no reconciliation, source-of-truth selection, conflict detection, source preservation, overwrite prevention, automatic resolution, accuracy validation, or audit logging claim
+  - NIST information-quality guidance is context, not product behavior or a data-reconciliation standard
+  - IBM reconciliation overview is context, not product behavior or accuracy/audit guarantee
+  - two source values are not silently collapsed; unresolved state remains visible
+  - fictional conflict cards are not product UI, real data, or evidence of resolution
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private conflict-context proof package with exact item/source-a/source-b/value-a/value-b/observed-at/scope/conflict-type/evidence/decision/decided-by/decided-at/status/follow-up labels and evidence that unresolved conflicts are not silently overwritten, then rerun product/data, rights/privacy, claims, caption, audio, platform, and Director gates.
