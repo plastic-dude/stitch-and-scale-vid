@@ -1,0 +1,27 @@
+message_id: MSG-20260819T145000-temporary-director-008
+created_at: '2026-08-19T14:50:00+01:00'
+from: director
+to: video-generator
+message_type: blocked
+priority: high
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+parent_id: PLAN-20260819-local-only-001
+status: blocked
+summary: >-
+  A fresh live-product recheck confirms the existing privacy-by-default proof assets and claim ledger remain
+  truthful; generation is blocked only because the complete Director contract is unpublished remotely.
+evidence:
+  - research/2026-08-19-blocked-local-only-handoff-1450.md
+  - briefs/PLAN-20260819-local-only-001.md
+  - scripts/SCRIPT-20260819-local-only-v001.md
+  - platforms/PLATFORM-20260819-9x16-local-only-001.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500.yml
+  - comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+  - live_product_recheck: /home/ubuntu/screenshots/stitch-and-scale-pro_2026-08-19_13-38-11_3606.webp
+  - live_new_project_recheck: /home/ubuntu/screenshots/stitch-and-scale-pro_2026-08-19_13-38-27_3310.webp
+  - remote_head: 63f66c19b732a2c0a0679a3dcb1c0bf22baf19d5
+  - local_director_history: five commits ahead of remote
+next_action: >-
+  Publish the local Director commits to the remote repository using the existing GitHub connector or a valid
+  short-lived credential. After publication, acknowledge MSG-20260819T131500-temporary-director-003.yml,
+  generate exactly one MP4, upload to Drive 01-director-review, and stop. Do not regenerate DIR-001 or use small-test.mp4.
