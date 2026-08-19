@@ -22,7 +22,7 @@
 | Filename / checksum | NOT APPLICABLE | No output reserved or generated |
 | Google Drive connectivity | PASS | Archive folder listing succeeded through connected Workspace Drive |
 | Google Drive upload | NOT ATTEMPTED | No authorized MP4 existed; not an external-storage failure |
-| Git record | PENDING | Final hash will be recorded after the first commit |
+| Git record | PASS | Records committed and pushed in `3129902d83d32a022a56363907c1c4be25accd87` |
 
 ## Queue decision
 
