@@ -1,0 +1,17 @@
+message_id: MSG-20260819-082900-director-041
+created_at: '2026-08-19T08:29:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260819-082900-context-lock-v001
+parent_id: briefs/SS_founder-proof_context-lock_9x16_v001_blocked_20260819-082900.md
+status: blocked
+summary: Context-lock concept blocked because current active-context proof and record/device rights are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#thirty-ninth-wide-research-question-which-context-is-active---2026-08-19
+  - briefs/SS_founder-proof_context-lock_9x16_v001_blocked_20260819-082900.md
+  - manifests/SS_founder-proof_context-lock_9x16_v001_blocked_20260819-082900.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private active-context header, project/size/unit indicator, unsaved-state marker, route-back surface, or context-change checkpoint with product version/date and exact labels, then rerun claims, captions, audio, platform, rights, privacy, and acceptance validation.

@@ -1126,3 +1126,48 @@ Do not claim Stitch & Scale has issue templates, bug tracking, automatic reprodu
 [95] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
 
 [96] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+## Thirty-ninth wide-research question: which context is active? — 2026-08-19
+
+### Research question
+When an independent designer switches project, size, unit, or device while editing, what context must remain visible so they do not act on the wrong record—without claiming Stitch & Scale has context locks, device sync, interruption cards, or recovery behavior?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers working between phone, desktop, studio, market, and home contexts. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| GOV.UK, “Government Design Principles” | 2026-08-19; current page checked | The principles say design should start with user needs and understand the context in which people use services, including using a phone or working in different environments. | General government design principles, not proof of Stitch & Scale context persistence, device continuity, or navigation behavior. | Make project, size, unit, and active editing context visible in the frame; do not assume the user is at a desk or remembers which context is active. |
+| Ministry of Justice Design System, “Interruption card” | 2026-08-19; official component updated December 2024 | The component pauses a journey with important information, can help users understand possible errors and avoid mistakes, and for non-contextual errors explains when one changed answer affects other sections. It says users may need to copy prior answers before sections are deleted and should acknowledge important content before continuing. | Component guidance for a government service, not proof of Stitch & Scale interruption cards, context locks, warnings, or cross-device persistence. | A context switch or changed project/size should be treated as a human checkpoint: name what is active, explain what could be affected, and provide a deliberate return path without claiming automatic protection. |
+| W3C WAI, “Understanding Success Criterion 4.1.3: Status Messages” | 2026-08-19; WCAG 2.2 Understanding page checked | W3C says users should be made aware of important content changes, including users of assistive technology, without unnecessarily moving focus. Updated status text should carry enough surrounding context for the user to understand what changed. | Informative WCAG Understanding guidance, not proof that Stitch & Scale implements accessible status messages, context locks, or device continuity. | Make any proposed active-context surface explicit in visible text and narration; do not rely on color, a hidden status, or an inferred tab position. |
+| Repository mobile-maker workflow contract | 2026-08-19; internal contract | Active context—project, size, units, unsaved state, validation result, and route back to the workspace—must remain visible, including during interruption and recovery. | Internal product-design contract, not current UI proof. | Select `context-lock` as a product-truth research angle, but keep the package blocked pending a current capture. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for active-context headers, project/size/unit indicators, unsaved-state markers, route-back surfaces, context-change checkpoints, context locks, device sync, interruption cards, or recovery behavior. All 39 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic mobile continuity into **context certainty before trusting a number**. The fresh concept is `context-lock`: a designer returns or switches and first confirms `PROJECT / SIZE / UNIT / EDITING` before acting. The visual device is a fictional context card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product context-lock, sync, or recovery surface is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `size-boundary`, which focuses on the limits of the size range and honest coverage. `context-lock` changes the pain to **the same field meaning different things when project, size, or unit context is unclear**. The hook changes to “The dangerous part is not the number. It is which number you are editing.” The visual metaphor changes from a boundary line around supported sizes to a context strip `PROJECT / SIZE / UNIT / EDITING` that must be confirmed before a number is trusted. The proof surface changes from coverage boundaries to a current active-context header, project/size/unit indicator, unsaved-state marker, route-back surface, or context-change checkpoint. The emotional turn changes from knowing the limits of a size range to quiet confidence in the active record. The final line changes to “Name the context before you trust the number.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale has context locks, cross-device sync, interruption cards, automatic recovery, unsaved-change detection, or warnings without current proof. Do not imply that a number is wrong merely because context is unclear. Do not show real project names, private data, or current UI labels without approval. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[97] [GOV.UK — Government Design Principles](https://www.gov.uk/guidance/government-design-principles)
+
+[98] [MOJ Design System — Interruption card](https://design-patterns.service.justice.gov.uk/components/interruption-card/)
+
+[99] [W3C WAI — Understanding Success Criterion 4.1.3: Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)
+
+[100] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+[101] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)

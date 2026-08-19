@@ -409,3 +409,13 @@ The nearest prior angle is `correction-trace`, which focuses on locating a post-
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `feedback-loop`, which focuses on what happens after feedback is received and routed. `repro-note` changes the pain to a report that cannot be inspected without guessing because its context is missing. It changes the hook to “A note is not reproducible until it carries its context,” the visual metaphor from a note travelling through a response loop to `VERSION / SIZE / GAUGE / ROW / EXPECTED / OBSERVED`, the proof surface from feedback routing or response history to an issue-report, feedback-context, QA-note, version/size/gauge, or evidence-attachment surface, the emotional turn from being heard after submission to making an observation actionable before anyone overclaims a defect, and the final line to “Keep the note. Keep the context.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — context lock — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `context-lock` | The same field can mean a different project, size, or unit when active editing context is hidden or assumed | “The dangerous part is not the number. It is which number you are editing.” | One current, approved active-context header, project/size/unit indicator, unsaved-state marker, route-back surface, or context-change checkpoint with exact labels | Quiet confidence in the active record rather than sync, recovery, or protection certainty | “Name the context before you trust the number.” | blocked; product proof, record/device rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `size-boundary`, which focuses on the limits of the size range and honest coverage. `context-lock` changes the pain to the same field meaning different things when project, size, or unit context is unclear. It changes the hook to “The dangerous part is not the number. It is which number you are editing,” the visual metaphor from a boundary line around supported sizes to `PROJECT / SIZE / UNIT / EDITING`, the proof surface from coverage boundaries to an active-context header, project/size/unit indicator, unsaved-state marker, route-back surface, or context-change checkpoint, the emotional turn from knowing size-range limits to quiet confidence in the active record, and the final line to “Name the context before you trust the number.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
