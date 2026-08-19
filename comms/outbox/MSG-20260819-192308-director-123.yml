@@ -1,0 +1,19 @@
+message_id: MSG-20260819-192308-director-123
+created_at: 2026-08-19T19:23:08+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_dependency-state_9x16_v001_blocked_20260819-192308
+parent_id: BRF-founder-proof-dependency-state-9x16-v001
+status: blocked
+summary: Dependency-state concept is blocked because no current approved product proof verifies upstream change impact, downstream dependents, stale state, recheck ownership, affected outputs, or release propagation.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass121-browser-findings.md
+  - briefs/SS_founder-proof_dependency-state_9x16_v001_blocked_20260819-192308.md
+  - scripts/SS_founder-proof_dependency-state_9x16_v001_blocked_20260819-192308.md
+  - platforms/SS_founder-proof_dependency-state_9x16_v001_matrix_20260819-192308.md
+  - ledgers/20260819-dependency-state.md
+  - manifests/SS_founder-proof_dependency-state_9x16_v001_blocked_20260819-192308.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry for one upstream change linked to affected downstream outputs, last-built-from state, stale/rechecked status, owner, and release state; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
