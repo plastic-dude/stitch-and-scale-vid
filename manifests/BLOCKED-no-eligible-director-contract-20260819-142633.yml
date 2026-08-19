@@ -1,0 +1,81 @@
+run_id: BLOCKED-no-eligible-director-contract-20260819-142633
+video_id: null
+filename: null
+status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+run_started_at: '2026-08-19T14:26:33+01:00'
+run_completed_at: null
+repository: https://github.com/plastic-dude/stitch-and-scale-vid
+repository_head_before_record: c6b0a6a9ab71297098d1468f5b08fc8cd9f151e6
+source_contract:
+  brief: null
+  script: null
+  status: none
+  reason: >-
+    The only approved-for-generation pair on main is DIR-001, already consumed. All newer
+    Director candidates inspected on fetched branches are director-review or blocked and are
+    not approved for generation.
+queue_evidence:
+  consumed_approved_pair:
+    brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+    script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+    video_id: DIR-001
+    output: videos/SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.mp4
+  fetched_candidates:
+    - branch: origin/director/2026-08-19-release-gate-roster
+      brief: briefs/SS_founder-proof_release-gate-roster_9x16_v001_director-review_20260819-030616.md
+      script: scripts/SS_founder-proof_release-gate-roster_9x16_v001_director-review_20260819-030616.md
+      status: director-review / blocked; not approved for generation
+      blocker: current product-proof registry and approved roster capture missing
+    - branch: origin/director/false-completion-human-gates-20260819
+      brief: briefs/SS_founder-testers_false-completion_9x16_v001_blocked_20260819-030020.md
+      script: scripts/SS_founder-testers_false-completion_v001_blocked.md
+      status: blocked; not approved for generation
+      blocker: current approved observable product proof missing
+    - branch: origin/director/publication-readiness-second-shift
+      status: no new brief/script contract found
+  reviewer_orders: none found
+research:
+  note: research/2026-08-19-blocked-no-eligible-director-contract-142633.md
+  fresh: true
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+  decision_effect: >-
+    Current delivery and accessibility requirements reinforce the need for exact platform validation,
+    synchronized captions that do not obstruct proof, and evidence before objective product claims.
+production:
+  create_video_activated: false
+  reason: no_eligible_director_contract
+  output_count: 0
+  mp4_generated: false
+  overwrite_performed: false
+  generic_substitute_used: false
+  checksum: null
+  qa_status: blocked_pre_generation
+  hard_rejection_rules_triggered: false
+  unresolved_risk: >-
+    Director candidates remain blocked by missing current product-proof registry/capture and rights/
+    acceptance-gate validation.
+google_drive:
+  connector: Google Workspace / Drive
+  archive_folder_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  archive_folder_name: Stitch & Scale Video Archive
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  director_review_folder_name: 01-director-review
+  connectivity: verified
+  upload_status: NOT_ATTEMPTED
+  upload_reason: no_authorized_mp4_existed
+  file_id: null
+  url: null
+  byte_size: null
+  sha256: null
+records:
+  research_note: research/2026-08-19-blocked-no-eligible-director-contract-142633.md
+  qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-142633/generator-check.md
+  communication_event: comms/outbox/2026-08-19T142633-video-generator-blocked.yml
+  git_commit: PENDING_FIRST_RECORD_COMMIT
+next_action: >-
+  On the next firing, refresh all branches, prioritize any new REMAKE_REQUIRED order, and otherwise
+  select the earliest newly added Director brief with exact status approved-for-generation. Do not
+  regenerate DIR-001 or use any blocked publication-readiness candidate.
