@@ -2947,3 +2947,66 @@ Do not claim Stitch & Scale is accessible, WCAG-conformant, keyboard-complete, o
 [312] [Stitch & Scale — Knitwear Publishing and Export](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [313] [Stitch & Scale — Craft Business Records](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+## Seventy-ninth wide-research question: blank is not zero — 2026-08-19
+
+### Research question
+For an independent knitwear designer entering measurement, grading, or business records, how can a workflow distinguish blank, zero, not applicable, invalid, estimated, and unverified values without silently turning absence into a factual number?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers entering measurement, grading, quantity, or business-record context on phone, tablet, or desktop. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No product accuracy, data-model, validation, accessibility-conformance, revenue, adoption, or customer-outcome claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| W3C WAI, WCAG 2.2 Understanding SC 3.3.1 Error Identification | 2026-08-19; current page checked | When an input error is automatically detected, the field in error must be identified and the error described in text. W3C includes required information omitted and values outside allowed format or values as input errors; it notes that generic native validation may be too vague and may expose only one error at a time. | Informative accessibility guidance; does not prove Stitch & Scale validation, data semantics, or conformance. | Separate blank/omitted from invalid and identify the affected field; do not convert an empty field into zero or imply measurement. |
+| W3C WAI, WCAG 2.2 Understanding SC 3.3.3 Error Suggestion | 2026-08-19; current page checked | Where an input error is detected and known correction suggestions exist, suggestions should be provided; W3C explains that this can reduce effort and clarify how to correct omitted or out-of-range inputs. | Informative guidance; does not prove product behavior or error-copy quality. | A value-state surface should keep `NOT PROVIDED`, `INVALID`, and `OUT OF RANGE` distinct enough for an honest correction path. |
+| Ranganathan & Hunsberger, “Handling missing data in research,” Perspectives in Clinical Research | 2026-08-19; 2024 open-access article checked | Missing data can arise from refusal, technical error, inability to measure, or other mechanisms; missingness can be completely at random, at random, or not at random. Inappropriate handling can bias or reduce precision; imputation fills missing values and must carry uncertainty rather than being treated as an observed fact. | Research-data guidance is not a knitting standard, product data model, or legal/financial advice. | Preserve missing/not-provided state and reason instead of silently replacing absence with zero or a plausible value. |
+| World Health Organization, Data Quality Review: Module 1 | 2026-08-19; current toolkit checked | WHO identifies missing values, bias, measurement error, and human errors in data entry and computation as data-quality limitations, and emphasizes completeness, accuracy, consistency, fit-for-purpose review, and recording limitations. | Health-facility data guidance is not a knitwear workflow. WHO branding and third-party assets are not cleared for video use. | Use only general data-quality context; show state labels and limitations, not a health analogy or endorsement. |
+| Sister Mountain, “How to Grade Knitting Patterns Using a Spreadsheet” | 2026-08-19; current page checked | The grading workflow separates size setup, body measurements, gauge, intended ease, units, formulas, and derived stitch/row counts; it recommends keeping intended ease as a separate row and using a structured layout. | Practitioner workflow, not Stitch & Scale product validation or a universal grading standard. | A state-aware field family can show recorded, derived, planned, not-provided, not-applicable, invalid, and unverified values before calculation. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove product behavior or accessibility. | Plan 9:16 at 1080×1920, leave state cards clear of overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-19; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep an organic-first master under one minute, center the state card, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish campaign audio clearance or product claims. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove caption accuracy or semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Internal contracts distinguish recorded fact, derived view, estimate, planned value, source/date, input validation, technical edit, print review, chart readability, schematic scale, and test knit. | Internal contracts; no current product-proof registry entry for value-state semantics. | Block product-specific value-state, validation, calculation, or accuracy claims pending exact proof. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying value-state labels, null/zero semantics, not-applicable handling, invalid-input behavior, or preservation of recorded-versus-derived status. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 79 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “data validation” into **whether absence, zero, non-applicability, invalidity, planning, derivation, and uncertainty are visible before a designer calculates from a value or treats it as a record**. The fresh concept is `value-state`: a fictional card places `FIELD / VALUE / STATE / UNIT / SOURCE / DATE / VALIDATION / NOTES`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product semantic or accuracy claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `quantity-basis`, which distinguishes requirement, planned purchase, actual use, leftover, reserve, unit, source, date, and status for quantities. `value-state` changes the pain to **whether a field’s absence or invalidity is being mistaken for a valid number**. The hook changes to “Blank is not zero.” The visual metaphor changes from quantity cards to a field-state strip showing `RECORDED / DERIVED / PLANNED / NOT PROVIDED / NOT APPLICABLE / INVALID / UNVERIFIED`. The proof surface changes from quantity context to a current value-context surface with field/value/state/unit/source/date/validation/notes and exact interaction semantics. The emotional turn changes from traceable quantity basis to honest uncertainty before calculation. The final line changes to “Name the value before you calculate from it.”
+
+This is distinct from `default-state` (a filled value may be inherited or defaulted rather than actively chosen), `basis-label` and `decision-ledger` (classification of a number’s basis for a business decision), `measurement-provenance` (where a measurement came from), `grade-transparency` (why a size changed across a grade path), `data-minimum` (which fields are required), `focus-path` (pointer/keyboard reachability), `recovery-proof` (restoration evidence), `quantity-basis` (requirement versus plan versus observed quantity), and all imported human-gate concepts. It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale prevents silent coercion, stores nulls distinctly, validates values, suggests corrections, improves accuracy, or preserves every source field without current product/data evidence. Do not use WHO branding, health records, real measurement records, private customer/tester data, copyrighted spreadsheets, third-party screenshots, or personal disability information. Do not state that blank is always missing; a field may be intentionally not applicable or pending a designer decision. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[314] [W3C WAI — Understanding SC 3.3.1 Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
+
+[315] [W3C WAI — Understanding SC 3.3.3 Error Suggestion](https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html)
+
+[316] [Ranganathan & Hunsberger — Handling missing data in research](https://pmc.ncbi.nlm.nih.gov/articles/PMC11101000/)
+
+[317] [WHO — Data Quality Review: Module 1, Framework and metrics](https://iris.who.int/bitstreams/5507bb74-c49a-4e2e-b922-3b29d9164999/download)
+
+[318] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+
+[319] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[320] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[321] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[322] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[323] [Stitch & Scale — Craft business records, pattern QA, publishing/export, and mobile-maker contracts](file:///home/ubuntu/skills/craft-business-records/SKILL.md)

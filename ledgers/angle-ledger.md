@@ -809,3 +809,13 @@ The nearest prior angle is `deadline-truth`, which focuses on the type and basis
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `spoken-index`, which focuses on semantic fields, ordering, and equivalent text for spoken instructions. `focus-path` changes the pain to whether an interactive task can be reached and completed in a logical pointer/keyboard sequence. It changes the hook to “Visible is not reachable,” the visual metaphor from spoken row/round instruction order to a path of focus states through a maker task, the proof surface from spoken-instruction/equivalent-text fields to a current interaction-context surface with task/context/focus/target/validation/save/recovery evidence, the emotional turn from semantic confidence in audio to agency when the action path is explicit, and the final line to “Show the path before you call the action accessible.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — value state — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `value-state` | A field’s absence or invalidity may be mistaken for a valid number before calculation or record use | “Blank is not zero.” | One current, approved value-context surface with field, value, state, unit, source, date, validation, and notes, including recorded, derived, planned, not provided, not applicable, invalid, and unverified states | Honest uncertainty before calculation rather than silent coercion or false precision | “Name the value before you calculate from it.” | blocked; product/data proof, technical review, rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `quantity-basis`, which distinguishes requirement, planned purchase, actual use, leftover, reserve, unit, source, date, and status for quantities. `value-state` changes the pain to whether a field’s absence or invalidity is being mistaken for a valid number. It changes the hook to “Blank is not zero,” the visual metaphor from quantity cards to a field-state strip showing `RECORDED / DERIVED / PLANNED / NOT PROVIDED / NOT APPLICABLE / INVALID / UNVERIFIED`, the proof surface from quantity context to a current value-context surface with field/value/state/unit/source/date/validation/notes and exact interaction semantics, the emotional turn from traceable quantity basis to honest uncertainty before calculation, and the final line to “Name the value before you calculate from it.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
