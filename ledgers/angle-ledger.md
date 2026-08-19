@@ -1472,3 +1472,13 @@ The nearest prior angle is `input-state`, which asks whether an entered value re
 ### Distinctness note — 20260819-210536
 
 The nearest prior angle is `commit-state`, which asks whether a saved state deserves a green check. `schema-state` changes the pain to the structural contract a stored record must satisfy before it is interpretable or transferable. It changes the hook to “Saved is not shaped”; the visual metaphor from save state versus green check to an unshaped record entering a schema frame where missing required fields and dependency failures remain visible; the proof surface from save event/record state/commit indicator/version/dirty state/reopen result to record type/required fields/constraints/dependencies/validation result/version/reviewed; the emotional turn from save-status uncertainty to inspectable record structure; and the final line to “Name what the record must contain.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+## Wide-research Director decision — identity state — 20260819-210900
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `identity-state` | A reopened, copied, or exported craft record may be mistaken for the same record | “Named is not the same record.” | Fictional record-id/display-name/parent/revision-or-copy/created/derived-from/owner/reviewed card | From duplicate anxiety to traceable record identity | “Name which record this became.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-210900
+
+The nearest prior angle is `version-lock`, which asks whether the current item is the same version. `identity-state` changes the pain to whether a reopened, copied, revised, or exported item is the same entity or a new derived record. It changes the hook to “Named is not the same record”; the visual metaphor from version labels and currentness to two visually similar cards splitting at an identity fork; the proof surface from record/version/current/locked/changed-at/previous-version to record-id/display-name/parent/revision-or-copy/created/derived-from/owner/reviewed; the emotional turn from stale-version uncertainty to traceable record identity; and the final line to “Name which record this became.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.

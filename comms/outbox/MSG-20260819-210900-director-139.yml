@@ -1,0 +1,19 @@
+message_id: MSG-20260819-210900-director-139
+created_at: 2026-08-19T21:09:00+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_identity-state_9x16_v001_blocked_20260819-210900
+parent_id: BRF-founder-proof-identity-state-9x16-v001
+status: blocked
+summary: Identity-state is blocked because no current approved product proof verifies stable record identity, parent or relationship semantics, same-record revision, copy or derivation behavior, attribution, or review.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass137-browser-findings.md
+  - briefs/SS_founder-proof_identity-state_9x16_v001_blocked_20260819-210900.md
+  - scripts/SS_founder-proof_identity-state_9x16_v001_blocked_20260819-210900.md
+  - platforms/SS_founder-proof_identity-state_9x16_v001_matrix_20260819-210900.md
+  - ledgers/20260819-identity-state.md
+  - manifests/SS_founder-proof_identity-state_9x16_v001_blocked_20260819-210900.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one record through reopen, copy or revision, and export with stable identifier, relationship label, created/revised context, attribution, and human review; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

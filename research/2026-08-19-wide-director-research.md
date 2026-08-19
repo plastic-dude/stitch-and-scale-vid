@@ -5940,3 +5940,39 @@ Do not claim that Stitch & Scale currently exposes record schemas, required-fiel
 [768] [JSON Schema — JSON Schema Validation: A Vocabulary for Structural Validation of JSON](https://json-schema.org/draft/2020-12/json-schema-validation)
 [769] [W3C — Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/)
 [770] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## One-hundred-thirty-seventh wide-research question: named is not the same record — 20260819-210900
+
+### Research question
+
+When a craft record is reopened, copied, or exported, what proves it is the same record rather than a duplicate or a new derived record?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| RFC 9562, *Universally Unique Identifiers (UUIDs)* | 2026-08-19 | UUIDs are persistent 128-bit identifiers intended to provide uniqueness across space and time and can serve as database keys, file names, and system identifiers. The specification also documents collision, privacy, variant, and generation considerations. | Identifier standard; a UUID alone does not prove that a user-facing record is the same conceptual entity or that a copy is a revision. | Separate stable identity from display name, version, and copy/derivation relationship. |
+| W3C, *PROV-DM: The PROV Data Model* | 2026-08-19 | PROV distinguishes entities with fixed aspects from activities; generation creates a new entity, usage consumes an existing entity in an activity, derivation connects a generated entity to a used entity, and attribution ascribes an entity to an agent. Presence in one activity is not sufficient to infer derivation. | Provenance model; not a current Stitch & Scale identity, copy, duplicate, revision, or export behavior. | Show identity, parent/relationship, creation or derivation, attribution, and review as separate fictional evidence. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Local-first records, exports, grading data, business records, device interruption, and human review require distinct evidence boundaries; reopening, copying, and exporting must not silently change the meaning of a record. | Internal workflow contracts, not current product proof. | Keep `identity-state` blocked and preserve calculation, technical edit, print, chart, schematic, and test-knit gates. |
+
+### Research synthesis and concept decision
+
+Named is not the same record. Candidate angle: `identity-state`. Hook: “Named is not the same record.” Fictional proof surface: `RECORD ID / DISPLAY NAME / PARENT / REVISION OR COPY / CREATED / DERIVED FROM / OWNER / REVIEWED`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: two visually similar record cards split at an identity fork; one is the same entity being revised, the other is a new copy or derived record, with the relationship named. Emotional turn: duplicate anxiety becomes traceable record identity. Final line: “Name which record this became.”
+
+The candidate is distinct from `version-lock` (current is not the same version), `supersession-state` (new state replaces old), `conversion-trace` (transformation path), `provenance-chain` (where data came from), `commit-state` (saved status), `schema-state` (structural contract), and `authority-state` (which source controls). It focuses on the identity relationship between a record and its reopened, copied, revised, or exported states, not merely version, replacement, transformation, origin, persistence, structure, or authority.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 136 before this package; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies stable record identifiers, parent/child relationships, same-record revision behavior, copy-versus-derivation semantics, ownership attribution, or reviewed identity state. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one record through reopen, copy or revision, and export with stable identifier, relationship label, created/revised context, attribution, and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes stable record identifiers, parent/child relationships, same-record revision behavior, copy-versus-derivation semantics, ownership attribution, or reviewed identity state. Do not use `RECORD ID`, `DISPLAY NAME`, `PARENT`, `REVISION OR COPY`, `CREATED`, `DERIVED FROM`, `OWNER`, or `REVIEWED` as current product UI. Do not infer same-record identity from a matching name, similar values, a timestamp, or persistence alone. Preserve calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[771] [RFC Editor — RFC 9562: Universally Unique Identifiers (UUIDs)](https://www.rfc-editor.org/rfc/rfc9562.html)
+[772] [W3C — PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/)
+[773] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
