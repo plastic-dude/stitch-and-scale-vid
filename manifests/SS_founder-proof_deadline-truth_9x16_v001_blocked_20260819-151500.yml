@@ -1,0 +1,55 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-151500-deadline-truth-v001
+angle_slug: deadline-truth
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_deadline-truth_9x16_v001_blocked_20260819-151500.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-deadline-context-surface-with-date-type-target-hard-event-publication-local-time-utc-offset-owner-source-status-notes
+product_version: null
+proof_capture_approved: false
+date_type_status: missing
+target_hard_status: missing
+event_publication_status: missing
+local_time_status: missing
+utc_offset_status: missing
+owner_status: missing
+source_status: missing
+status_field_status: missing
+notes_status: missing
+reminder_status: unverified
+calendar_sync_status: unverified
+timezone_automation_status: unverified
+notification_status: unverified
+delivery_prediction_status: unverified
+contractual_deadline_status: unverified
+completion_guarantee_status: unverified
+technical_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no reminder, calendar sync, timezone automation, notification, delivery prediction, contractual interpretation, or completion guarantee claim
+  - CYC and GOV.UK guidance are context, not product behavior or legal advice
+  - date type, target/hard, event/publication, local/UTC, owner, source, status, and notes cannot be collapsed into one deadline badge
+  - fictional date cards are not product UI, calendar records, publisher commitments, or client records
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private deadline-context surface with exact date type, target/hard status, event/publication date, local time, UTC offset, owner, source, status, and notes labels, then rerun deadline, accessibility, technical, claims, caption, audio, platform, rights, privacy, and Director gates.

@@ -769,3 +769,13 @@ The nearest prior angle is `material-trace`, which focuses on the identity of th
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `chart-description`, which focuses on describing a chart or visual sequence. `schematic-scale` changes the pain to whether a line drawing is being trusted as a scale or measurement promise. It changes the hook to “A drawing can show shape without being to scale,” the visual metaphor from chart-description fields to `GARMENT PART / VIEW / MEASUREMENT LABELS / UNITS / ORIENTATION / SCALE STATUS / REFERENCE STATUS / SOURCE / DATE / REVIEW`, the proof surface from chart-description evidence to a current schematic-context surface, the emotional turn from describing a visual to making its measurement and scale status explicit, and the final line to “Label the drawing before you measure from it.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — deadline truth — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `deadline-truth` | A date may be mistaken for a commitment, reminder, or outcome without a type, owner, source, timezone, or status | “A date is not a promise.” | One current, approved deadline-context surface with date type, target/hard, event/publication, local time, UTC offset, owner, source, status, and notes labels | Typing a date so its obligation and evidence are explicit without creating a reminder or guarantee | “Type the date before you trust the deadline.” | blocked; product proof, date/time basis, technical review, rights/privacy, automation evidence, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `change-notice`, which focuses on what changed and how to communicate a change. `deadline-truth` changes the pain to whether a date is being mistaken for a commitment or outcome. It changes the hook to “A date is not a promise,” the visual metaphor from change fields to `DATE TYPE / TARGET OR HARD / EVENT OR PUBLICATION / LOCAL TIME / UTC OFFSET / OWNER / SOURCE / STATUS / NOTES`, the proof surface from a change record to a current deadline-context surface, the emotional turn from noticing a changed artifact to typing a date so its obligation and evidence are explicit, and the final line to “Type the date before you trust the deadline.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

@@ -2731,3 +2731,49 @@ Do not claim Stitch & Scale renders schematics, guarantees scale, preserves geom
 [278] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [279] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Seventy-fifth wide-research question: a date is not a promise — 2026-08-19
+
+### Research question
+When a knitwear design workflow shows a date, how can a maker distinguish hard deadline, target date, reminder, event/publication date, timezone, owner, source, and status without claiming Stitch & Scale provides deadline automation, reminders, calendar sync, or delivery prediction?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers who need date clarity across design, submission, test-knit, and publication workflows. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Designer Pitfalls” | 2026-08-19; current page checked | CYC identifies a workflow pitfall where a designer sends a garment to meet a deadline before writing the pattern and then writes from notes. | The guidance does not prove Stitch & Scale has deadline fields, reminders, calendar sync, or delivery prediction. | Distinguish deadline type, target, event/publication date, owner, source, notes, and status; do not reduce a date to a promise. |
+| GOV.UK, “Formatting dates and times in data” | 2026-08-19; updated 2026-01-29 page checked | GOV.UK recommends machine-readable ISO 8601 date/time representation for systems, appropriate accuracy, explicit date/time ordering, and timezone offsets where relevant; it notes local-time assumptions and the need for clarity around midnight. | GOV.UK data standards are not Stitch & Scale calendar behavior, deadline semantics, or outcome proof. | Require a date/time basis, local/UTC offset where needed, deadline type, source, and status; keep human-readable display separate from a machine-readable record. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Design lifecycle, submissions, sample location/return, deadlines, notes, status history, source/date, local-first records, and interruption safety are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for deadline automation, reminders, calendar sync, timezone handling, or delivery prediction. | Block deadline automation, reminder, calendar, notification, prediction, and completion claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for deadline automation, reminders, calendar sync, timezone handling, notifications, delivery prediction, or deadline completion. All 75 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “project dates” into **whether a date is being mistaken for a commitment, reminder, or outcome without a type, owner, source, or timezone**. The fresh concept is `deadline-truth`: a fictional card places `DATE TYPE / TARGET OR HARD / EVENT OR PUBLICATION / LOCAL TIME / UTC OFFSET / OWNER / SOURCE / STATUS / NOTES`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no reminder, calendar, notification, timezone automation, delivery prediction, or completion claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `change-notice`, which focuses on what changed and how to communicate a change. `deadline-truth` changes the pain to **whether a date is being mistaken for a commitment or outcome**. The hook changes to “A date is not a promise.” The visual metaphor changes from change fields to `DATE TYPE / TARGET OR HARD / EVENT OR PUBLICATION / LOCAL TIME / UTC OFFSET / OWNER / SOURCE / STATUS / NOTES`. The proof surface changes from a change record to a current deadline-context surface. The emotional turn changes from noticing a changed artifact to typing a date so its obligation and evidence are explicit. The final line changes to “Type the date before you trust the deadline.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale creates reminders, syncs calendars, handles timezones automatically, predicts delivery, identifies a contractual deadline, sends notifications, or guarantees completion without current product proof and qualified review. Do not use real private calendars, publisher timelines, client names, event logos, screenshots, or confidential submission records without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[280] [Craft Yarn Council — Designer Pitfalls](https://www.craftyarncouncil.com/pitfalls.html)
+
+[281] [GOV.UK — Formatting dates and times in data](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
+
+[282] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[283] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[284] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[285] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
