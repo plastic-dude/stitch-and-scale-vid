@@ -12,3 +12,9 @@
 | `show-the-math` | Tools hide how a number was chosen | “No hidden decisions.” | One derivation, warning, or source at readable scale | Transparency replaces trust theater | “Try the demo and check the work.” | available |
 
 A new concept must explain which five elements differ from the nearest prior concept: pain, hook, visual metaphor, proof surface, emotional turn, and final line. Noun substitution is not angle diversity.
+
+| `publication-second-shift` | The invisible publication labor that begins after the creative design feels finished | “You finished the pattern. The pattern did not finish with you.” | Grading Lab QA, release-evidence checklist, technical-editor ledger, operational records, and one visible human gate | The second shift becomes visible, bounded, and honest rather than a failure to automate | “Try the demo. Tell us where the work still breaks.” | director-review; brief `SS-PLAN-20260819-SECOND-SHIFT-V001` |
+
+### Continuity note — 2026-08-19
+
+This angle is intentionally distinct from `test-knit-coverage`, `show-the-math`, `spreadsheet-11pm`, and `stale-number`. It moves the subject from one defect or one calculation to the broader moment when a designer must turn a beautiful object into a publishable, reviewable record. The visual engine is a room that refills after the designer believes the work is finished. The product proof is a sequence of bounded evidence surfaces, not a single grading table. The film preserves physical print review, chart and schematic readability, technical editing, and test knitting as human gates.

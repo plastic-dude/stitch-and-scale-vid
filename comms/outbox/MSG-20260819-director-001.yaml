@@ -1,0 +1,17 @@
+message_id: MSG-20260819-director-001
+created_at: 2026-08-19T02:25:00Z
+from: director
+to: video-generator
+message_type: brief-ready
+priority: high
+video_id: null
+parent_id: SS-PLAN-20260819-SECOND-SHIFT-V001
+status: open
+summary: "Director brief created for The Pattern After the Pattern, a publication-readiness product-proof film with native 16:9 and 9:16 plans."
+evidence:
+  - briefs/SS_publication-readiness_second-shift_campaign-v001_director-review_20260819-022500.md
+  - scripts/SS_publication-readiness_second-shift_v001.md
+  - platforms/SS_publication-readiness_second-shift_matrix_v001.md
+  - research/2026-08-19-world-class-director-run.md
+  - ledgers/angle-ledger.md
+next_action: "Do not generate until current UI proof captures and cast/garment/location/music rights are confirmed; then generate exactly one 16:9 master using the exact script and return MP4, QA, captions, manifest, and archive record."
