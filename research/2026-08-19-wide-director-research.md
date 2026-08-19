@@ -6992,3 +6992,54 @@ The nearest prior angle is `sufficiency-state`, which asks whether a relevant ev
 [854]: https://csrc.nist.gov/pubs/sp/800/137/final "NIST SP 800-137, Information Security Continuous Monitoring"
 [855]: https://www.w3.org/TR/prov-dm/ "W3C, PROV-DM: The PROV Data Model"
 [856]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
+
+## One-hundred-sixty-third wide-research question: reviewable is not approved — 20260819-222800
+
+**Question.** What proves that a reviewer can inspect and compare one bounded craft record consistently, including a stable review target, scope, method, evidence, criteria, observation, decision, reviewer, review time, and limit, rather than merely seeing a readable or complete record?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between evidence existing and evidence being structured for repeatable human review; audience is makers, reviewers, and developers who need stable review vocabulary; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**W3C reviewability boundary.** W3C WCAG 2.2 says components with the same functionality within a set of pages are identified consistently, and explains that inconsistent labels can confuse users and increase cognitive load. Used only as an accessibility and information-architecture analogy, this supports stable labels and a fixed field order for repeated review cards. It does not prove Stitch & Scale label consistency, accessibility conformance, or a reviewability feature. [857]
+
+**NIST assessment boundary.** The official NIST SP 800-171Ar3 page loaded only a title shell during browser review and did not expose its assessment procedures. It is recorded as a source lead, not relied on for procedural wording. Previously verified NIST RMF and continuous-monitoring sources remain process analogies only. No assessment method, evidence object, review role, or product capability is inferred from the partial page. [858] [854]
+
+**Craft review context.** Previously verified Craft Yarn Council schematics guidance supports a specific piece, size, shape, fit reference, and modification context; its reading-instructions guidance supports named materials, tools, stitch, pattern, and review conditions. This supports a fictional review card with stable target and scope fields, not a claim of product correctness or review automation. [859] [860]
+
+**Accessibility boundary.** W3C prerecorded-caption guidance remains the production constraint: captions must carry dialogue, speaker identification, and meaningful sound information. Pass 163 reserves a fixed caption lane, one narrator family, caption-on and caption-free review masters, and no caption over review target, scope, method, evidence, criteria, observation, decision, reviewer, reviewed-at, or limit fields. [848]
+
+**Research uncertainty.** The NIST SP 800-171Ar3 page returned only a title shell during browser review. This is recorded in `research/2026-08-19-pass163-browser-findings.md`; no missing procedural text or product feature is invented.
+
+**Selected angle.** `reviewability-state` — “Reviewable is not approved.”
+
+**Primary pain.** Evidence may exist, be fresh, and be sufficient while still being difficult to inspect because the reviewer cannot consistently locate the target, scope, method, evidence, criteria, observation, decision, reviewer, review time, and limit. The missing element is a stable, bounded review structure that supports human inspection without implying approval.
+
+**Hook.** “Reviewable is not approved.”
+
+**Dramatic engine.** Subject: two fictional review cards for the same craft record. Desire: let a second reviewer inspect the same decision without learning a new vocabulary. Obstacle: the first card uses one label order and the second rearranges or renames the same roles; target and scope become ambiguous. Stakes: a reviewer may miss a missing criterion, treat an observation as a decision, or mistake readability for approval. Change: both cards gain stable review target, scope, method, evidence, criteria, observation, decision, reviewer, reviewed-at, and limit fields in the same order. Contradiction: a card can be readable and complete while still being hard to review consistently. Escalation: the second card has the same evidence under different labels; the mismatch stops the review at `REVIEW STRUCTURE UNSTABLE`. Final image: one standardized review card with `DECISION: HUMAN REVIEW REQUIRED`, not approved.
+
+**Visual grammar.** Neutral evidence board; two repeated review cards; fixed field rails; same-role labels highlighted when aligned; amber for renamed or displaced fields; red only for `REVIEW STRUCTURE UNSTABLE`; no green approval state. No real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, legal language, product claim, or reviewer identity. Captions occupy a fixed lane that never covers review target, scope, method, evidence, criteria, observation, decision, reviewer, reviewed-at, limits, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `REVIEW_TARGET / SCOPE / METHOD / EVIDENCE / CRITERIA / OBSERVATION / DECISION / REVIEWER / REVIEWED_AT / LIMIT`.
+
+**Research decision.** Research changed the treatment from a generic readable evidence card to a repeatable review structure: repeated roles must use stable labels and fixed order, while observation and decision remain separate. A structured card supports review but never silently becomes approval. No source proves a product reviewability feature.
+
+**Distinctness decision.** The nearest prior angle is `freshness-state`, which asks whether a record remains temporally current for present reuse. `reviewability-state` changes the pain to whether a reviewer can consistently inspect and compare a bounded record. It differs from `sufficiency-state`, which asks whether the minimum evidence is met; `relevance-state`, which asks whether evidence belongs to a decision; `interpretation-state`, which asks whether a label resolves to a shared concept; `legibility-state`, which asks whether content can be visually read; `audit-state`, which asks whether an audit procedure ran; and imported `false-completion` / `release-gate-roster`, which remain blocked human-gate concepts. The hook changes to “Reviewable is not approved”; the visual metaphor changes from a dated record stopping at revalidation to two repeated review cards whose same roles fail to align; the proof surface changes to review-target/scope/method/evidence/criteria/observation/decision/reviewer/reviewed-at/limit; the emotional turn changes from temporal humility to structured human inspection; and the final line becomes “Name the review structure before you trust the review.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name the review structure before you trust the review.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed stable review labels, fixed field order, target, scope, method, evidence, criteria, observation, decision, reviewer, reviewed-at, or limit surface. No generation or upload is authorized.
+
+## Wide-research Director decision — reviewability state — 20260819-222800
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `reviewability-state` | Evidence may exist, be fresh, and be sufficient while still being difficult to inspect consistently | “Reviewable is not approved.” | Fictional review-target/scope/method/evidence/criteria/observation/decision/reviewer/reviewed-at/limit card | From “I can see it” to “I can inspect it consistently” | “Name the review structure before you trust the review.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-222800
+The nearest prior angle is `freshness-state`, which asks whether a record remains temporally current for present reuse. `reviewability-state` changes the question to whether a reviewer can consistently inspect and compare a bounded record. It changes the hook to “Reviewable is not approved”; the visual metaphor from a dated record stopping at revalidation to two repeated review cards whose same roles fail to align; the proof surface from record-id/recorded-at/valid-for/last-reviewed/current-context/change-since-review/revalidation-due/review-owner/disposition to review-target/scope/method/evidence/criteria/observation/decision/reviewer/reviewed-at/limit; the emotional turn from temporal humility to structured human inspection; and the final line to “Name the review structure before you trust the review.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [857]–[860]
+
+[857]: https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification.html "W3C WCAG 2.2, Consistent Identification"
+[858]: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/800-171Ar3/NIST.SP.800-171Ar3.html "NIST SP 800-171Ar3, Assessing Security Requirements"
+[859]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
+[860]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
