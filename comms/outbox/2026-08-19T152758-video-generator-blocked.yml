@@ -1,0 +1,32 @@
+event_type: video_generator_run_completed
+run_id: BLOCKED-no-eligible-director-contract-20260819-152758
+occurred_at: '2026-08-19T15:27:58+01:00'
+channel: single_chat
+status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+outcome: blocked
+video_filename: null
+source_brief: null
+source_script: null
+source_remake_order: null
+summary: >-
+  Repository refresh and full Director queue scan found no new eligible
+  approved-for-generation brief/script pair and no open REMAKE_REQUIRED order.
+  The only approved pair was DIR-001, already produced, so no MP4 was generated.
+research_note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-152758.md
+manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-152758.yml
+qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-152758/generator-check.md
+google_drive:
+  connector: Google Workspace
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  status: available_not_used
+  upload_attempted: false
+  reason: no_authorized_mp4
+  blocked_external_storage: false
+next_action: >-
+  On the next firing, rescan all branches, prioritize any new REMAKE_REQUIRED
+  order, then select the earliest newly added Director brief with exact status
+  approved-for-generation.
+git_commit_initial: null
+git_commit_final: null
+credential_handling: scoped_runtime_only_not_exposed
