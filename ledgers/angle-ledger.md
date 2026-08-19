@@ -1502,3 +1502,13 @@ The nearest prior angle is `identity-state`, which asks which record or entity a
 ### Distinctness note — 20260819-211527
 
 The nearest prior angle is `consent-state`, which asks whether permission exists or is valid. `disclosure-state` changes the pain to the actual boundary of a visible record leaving a local workspace: audience, purpose, fields shown, fields redacted, recipient, channel, expiry, and review. It changes the hook to “Visible is not shareable”; the visual metaphor from a permission request and granted/denied state to a visible record approaching a share gate that separates display from disclosure; the proof surface from subject/purpose/recipient/scope/expiry/status/revocable to audience/purpose/fields-shown/fields-redacted/recipient/channel/expiry/reviewed; the emotional turn from permission uncertainty to deliberate disclosure; and the final line to “Name what left the room.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+## Wide-research Director decision — attestation state — 20260819-211913
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `attestation-state` | A reviewed craft claim may lack named attester, role, evidence, scope, policy, or verification context | “Reviewed is not attested.” | Fictional claim/attester/role/evidence/scope/issued/expires/policy/verified card | From “Someone looked at it” to “What exactly was attested, by whom, and under which rule?” | “Name what the review actually attests.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-211913
+
+The nearest prior angles are `review-expiry` or related review-state concepts, which ask whether a review exists or remains current. `attestation-state` changes the pain to the claim-to-attester relationship: who or what attests, under which role, linked evidence, scope, policy, issued/expiry context, and verification result. It changes the hook to “Reviewed is not attested”; the visual metaphor from a review status or expiry clock to a claim entering an attestation gate where reviewer name alone is insufficient; the proof surface from subject/scope/reviewed-at/expires/status to claim/attester/role/evidence/scope/issued/expires/policy/verified; the emotional turn from stale-review anxiety to bounded claim assurance; and the final line to “Name what the review actually attests.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.

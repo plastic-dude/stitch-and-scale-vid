@@ -6048,3 +6048,39 @@ Do not claim that Stitch & Scale currently exposes audience, purpose, fields sho
 [777] [NIST — Privacy Framework](https://www.nist.gov/privacy-framework)
 [778] [W3C — Data Privacy Vocabulary (DPV), version 2.0](https://www.w3.org/community/reports/dpvcg/CG-FINAL-dpv-20240801/)
 [779] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+## One-hundred-fortieth wide-research question: reviewed is not attested — 20260819-211913
+
+### Research question
+
+When a craft claim is marked reviewed, what proves a named person or evidence source actually attested to the claim, with scope, date, and policy rather than merely appearing in a record?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| W3C, *Verifiable Credentials Data Model v2.0* | 2026-08-19 | A verifiable credential expresses claims made by an issuer in an issuer/holder/verifier ecosystem. W3C explicitly distinguishes verification of authenticity and currency from truth of the claims: verification does not itself imply claim truth; verifiers evaluate issuer, proof, subject, and claims against policy before relying on them. | Credential standard; not a current Stitch & Scale reviewer, attestation, or product-proof system. | Separate a named reviewer or evidence source from the claim, scope, policy, and verification result; never equate “verified” with “true.” |
+| NIST SP 800-63 Digital Identity Guidelines landing page | 2026-08-19 | The page separates identity proofing, authentication, and federation into different guideline volumes and states that SP 800-63-3 was superseded by SP 800-63-4 on 2025-08-01. | Superseded landing page; identity guideline scope, not craft review or Stitch & Scale proof. | Keep identity assurance, claim attestation, and product review semantics separate; do not use NIST to claim reviewer identity. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Human review, calculation, technical edit, print, chart, schematic, test knit, record provenance, rights, and mobile capture have distinct evidence boundaries. A review marker does not silently attest to every claim or gate. | Internal workflow contracts, not current product proof. | Keep `attestation-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Reviewed is not attested. Candidate angle: `attestation-state`. Hook: “Reviewed is not attested.” Fictional proof surface: `CLAIM / ATTESTER / ROLE / EVIDENCE / SCOPE / ISSUED / EXPIRES / POLICY / VERIFIED`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: a claim card approaches an attestation gate; the reviewer name alone is separated from the claim, scope, evidence, policy, and verification state. Emotional turn: “Someone looked at it” becomes “What exactly was attested, by whom, and under which rule?” Final line: “Name what the review actually attests.”
+
+The candidate is distinct from `review-expiry` or other review-state work if present (whether a review exists or remains current), `acknowledgement-state` (whether a warning was seen), `authority-state` (which source controls), `evidence-type`/`evidence-coverage` (what evidence exists and what it covers), `identity-state` (which record it is), `schema-state` (record structure), and `consent-state` (permission). It focuses on the relationship between a claim and the person/evidence/policy that attests to it, including scope and verification, not mere review presence, acknowledgement, source authority, evidence classification, record identity, structure, or permission.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 139 before this package; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies claim-attester relationships, reviewer roles, evidence links, scope, issued/expiry context, policy, verification result, or attestation semantics. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one claim with named attester or evidence source, role, linked evidence, scope, issued/expiry context, policy, and human verification, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes claim-attester relationships, reviewer roles, evidence links, scope, issued/expiry context, policy, verification result, cryptographic proof, or attestation semantics. Do not use `CLAIM`, `ATTESTER`, `ROLE`, `EVIDENCE`, `SCOPE`, `ISSUED`, `EXPIRES`, `POLICY`, or `VERIFIED` as current product UI. Do not infer claim truth from a verification marker, a reviewer name, a timestamp, or a present evidence file. Preserve calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[780] [W3C — Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/)
+[781] [NIST — SP 800-63 Digital Identity Guidelines](https://pages.nist.gov/800-63-3/)
+[782] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
