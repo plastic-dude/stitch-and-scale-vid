@@ -206,3 +206,31 @@ Research changed the concept from a generic “price your work” story to a **t
 [20] [U.S. Small Business Administration — Manage your business](https://www.sba.gov/counseling/manage-your-business/)
 
 [21] [Natalie in Stitches — FN2N, Part 7: Economies of Knitting Pattern Production](https://natalieinstitches.com/2021/03/17/economies-of-knitting-pattern-production/)
+
+## Ninth wide-research question: inherited craft story without borrowed expertise — 2026-08-19
+
+### Research question
+How can a founder tell an inherited craft-origin story in a short social video without borrowing the craftsperson’s expertise, implying a testimonial, or turning family provenance into unsupported product authority?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Federal Trade Commission, “FTC’s Endorsement Guides: What People Are Asking” | 2026-08-19; live page | The FTC states that endorsements must be honest and not misleading, must reflect the endorser’s honest opinion, and cannot make a claim the marketer could not legally make. It also says material connections that consumers would not reasonably expect and that could affect evaluation should be disclosed clearly and conspicuously. The guidance notes that context matters and is not a safe harbor. | U.S. advertising guidance, not a universal legal determination for every market. It does not say a founder-origin story is an endorsement by itself. | The film must not use the founder’s family connection as proof of knitwear expertise, product performance, or customer outcomes. Any paid/employee/founder relationship or testimonial-like statement requires explicit review and disclosure where applicable. |
+| Fluhrer, “The role of storytelling in the branding of SMEs,” Journal of Brand Management | 2026-08-19; live Springer page | The study analyzed 107 effective responses from German start-ups/SMEs and reports a strong relationship between brand storytelling and brand positioning. It distinguishes strategic storytelling—brand as a story—from tactical storytelling—stories about the brand—and notes that founder, history, values, employees, production, and customer-generated stories can all contribute to brand storytelling. | Observational/empirical SME branding evidence; it does not prove conversion, product performance, customer adoption, or that any particular origin story is authentic. | Use a bounded origin story about why the problem matters, not a heroic competence claim. The customer/designer remains the subject; the brand is a supporting ally only if current product proof shows the specific help. |
+| Local brand-voice contract | 2026-08-19; repository source | David is a developer whose late mother knitted; he does not knit and must not be called a knitter, knitwear designer, pattern designer, or technical editor. | Internal project truth, not external evidence. | The founder line must preserve the boundary: inherited reason, not borrowed craft authority. No family photograph, notebook, or heirloom is used without provenance and consent. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for a founder-story, origin, community, or product surface. The story can be planned, but no product capability, audience outcome, or founder expertise can be claimed from the origin alone. There are no open reviewer or remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`inherited-thread`**: the tension is how to honor the reason for building Stitch & Scale without pretending the founder inherited the craft skill itself. The hook is “I inherited the reason, not the craft.” The visual metaphor is a thread that passes from a mother’s hands in an abstract, rights-cleared memory or neutral material prop to a developer’s screen, then stops before crossing into a false identity claim. The proof surface must be one current, approved product surface that shows what the tool actually helps with; absent that proof, use a blocker card and no product claim.
+
+### Research decision changed
+Research changed the concept from a generic founder-origin montage to a **boundary-of-voice story**. The script should state what David knows and what he does not claim to know, then invite the craft community to judge a verified product surface. It must not use testimonials, customer outcomes, borrowed expertise, invented family details, or emotional manipulation. The film remains blocked pending current product proof and provenance/consent for any family or heirloom imagery.
+
+### References
+
+[22] [Federal Trade Commission — FTC’s Endorsement Guides: What People Are Asking](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking)
+
+[23] [Journal of Brand Management — The role of storytelling in the branding of SMEs](https://link.springer.com/article/10.1057/s41262-025-00418-8)

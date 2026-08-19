@@ -109,3 +109,13 @@ The nearest prior angle is `correction-trace`, which focuses on a known post-rel
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `offline-continuity`, which focuses on work remaining usable and honestly labeled when network access disappears. `decision-ledger` changes the pain to epistemic classification before a business decision, the hook to distinguishing the kind of number, the visual metaphor from local/pending/stale device state to separate recorded/derived/estimated/planned cards, the proof surface from offline/freshness/synchronization behavior to a current design-ledger or record/export surface, the emotional turn from calm resilience under signal loss to calm agency through explicit truth states, and the final line to “Show me what I know before I decide.” It is not a generic human release gate and does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — inherited thread — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `inherited-thread` | A founder-origin story can borrow a craftsperson’s authority and turn family provenance into unsupported product proof | “I inherited the reason, not the craft.” | One current, approved product surface that shows what the tool actually does | Respectful credibility through a stated limitation rather than performed expertise | “Let the work show what the story cannot.” | blocked; product proof and provenance/authorization missing; distinct from `decision-ledger`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `decision-ledger`, which focuses on distinguishing recorded, derived, estimated, and planned values before a business decision. `inherited-thread` changes the pain to borrowed authority in founder storytelling, the hook to “I inherited the reason, not the craft,” the visual metaphor from record-state cards to an abstract thread approaching and stopping at a proof surface, the proof surface from a business-record state to one current product surface, the emotional turn from calm agency about numbers to respectful credibility through a stated limitation, and the final line to “Let the work show what the story cannot.” It does not reopen or consume the occupied imported `false-completion` or `release-gate-roster` reservations.

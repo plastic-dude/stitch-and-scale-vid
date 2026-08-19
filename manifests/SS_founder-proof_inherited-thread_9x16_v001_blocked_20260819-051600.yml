@@ -1,0 +1,34 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-051600-inherited-thread-v001
+angle_slug: inherited-thread
+status: blocked
+format: 9x16
+runtime_seconds: 43
+reserved_filename: SS_founder-proof_inherited-thread_9x16_v001_blocked_20260819-051600.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-specific-product-workflow
+product_version: null
+proof_capture_approved: false
+founder_disclosure: David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor.
+origin_asset_status: absent_use_abstract_prop
+family_provenance_status: unverified
+founder_voice_image_authorization: unverified
+claim_risks:
+  - family provenance must not imply craft expertise
+  - origin story must not substitute for product proof
+  - no testimonial, adoption, accuracy, outcome, pricing, revenue, or urgency claim
+  - no fabricated family details or current UI
+asset_rights_status: unverified
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+open_remake_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+next_action: Provide one current approved non-private product-proof capture or registry entry for the exact workflow mentioned, plus written authorization for David voice/image and any non-abstract family asset, then rerun Director validation.

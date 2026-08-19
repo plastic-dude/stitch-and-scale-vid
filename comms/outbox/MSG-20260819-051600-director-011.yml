@@ -1,0 +1,18 @@
+message_id: MSG-20260819-051600-director-011
+sender: director
+recipient: production
+created_at: '2026-08-19T05:16:00+01:00'
+plan_id: PLAN-20260819-051600-inherited-thread-v001
+angle_slug: inherited-thread
+status: blocked
+subject: Inherited-thread founder story blocked pending product proof and provenance authorization
+body: >-
+  Fresh research moved the concept from a generic founder-origin montage to a bounded story: David is a
+  developer whose late mother knitted; he inherited the reason to care, not the craft identity. The origin
+  is not product proof or a testimonial. Do not generate or upload. No current approved product-proof
+  capture/registry entry or authorized family asset exists in the checked state. Next action: provide one
+  current approved non-private product surface for the exact workflow mentioned, plus written authorization
+  for David voice/image and any non-abstract family asset; then rerun claims, rights, captions, audio,
+  platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true
