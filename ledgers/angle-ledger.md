@@ -349,3 +349,13 @@ The nearest prior angle is `sequence-map`, which concerns prerequisite, repeat s
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `equivalent-meaning`, which concerns preserving pattern meaning across screen readers, large text, spoken description, and non-visual access. `caption-clearance` changes the pain to caption text covering visual proof in a demonstration video, the hook to “If the caption covers the stitch, you lost the proof,” the visual metaphor from alternate pattern semantics to a caption box moving away from hands and proof into a reserved lane, the proof surface from an accessible chart or semantic product surface to a current product proof frame plus caption-on/caption-free review, the emotional turn from inclusive access through semantics to disciplined audiovisual composition, and the final line to “Keep the words clear. Keep the proof visible.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — hands busy — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `hands-busy` | A maker needs to return to a pattern while yarn or a tool occupies the hands and the next state may be unclear | “When the hands are busy, the next state should still be clear.” | One current, approved pause/resume, state, quick-return, or interruption-recovery surface with exact labels | Calm return orientation rather than hands-free or automatic-resume certainty | “Make the return visible.” | blocked; product proof, state-rights review, and interruption-review wording missing; distinct from `measurement-moment`, `offline-continuity`, `readability-under-load`, `caption-clearance`, `sequence-map`, `paper-proof`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `measurement-moment`, which concerns preserving body/sample/unit/project context while entering a measurement. `hands-busy` changes the pain to a maker needing to return to a pattern while the phone is not the only thing in their hands, the hook to “When the hands are busy, the next state should still be clear,” the visual metaphor from tape/body/unit labels to a phone beside yarn/tool moving through `PAUSE / RETURN / STATE`, the proof surface from measurement/grading entry to pause/resume, current-state, quick-return, or interruption-recovery surface, the emotional turn from preserved measurement meaning to calm return orientation, and the final line to “Make the return visible.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

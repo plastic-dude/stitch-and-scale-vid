@@ -1,0 +1,17 @@
+message_id: MSG-20260819-085000-director-035
+sender: director
+recipient: production
+created_at: '2026-08-19T08:50:00+01:00'
+plan_id: PLAN-20260819-085000-hands-busy-v001
+angle_slug: hands-busy
+status: blocked
+subject: Hands-busy concept blocked pending current state proof
+body: >-
+  Fresh W3C target-size and Apple controls research moved the concept from generic mobile ergonomics into state
+  clarity during an interrupted hands-busy workflow. Do not generate or upload. No current approved pause/resume,
+  state, quick-return, or interruption-recovery surface is available, and no hands-free, voice, one-handed,
+  accessibility, safe-return, or automatic-resume claim is authorized. Next action: provide one current approved
+  non-private proof surface with product version/date and exact visible labels, then rerun claims, source rights,
+  privacy, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

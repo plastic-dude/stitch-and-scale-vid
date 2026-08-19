@@ -894,3 +894,31 @@ Research changed the concept from generic accessibility compliance into **captio
 [70] [W3C WAI — Understanding Success Criterion 1.2.2: Captions (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
 
 [71] [Section508.gov — Video and Other Synchronized Media](https://www.section508.gov/create/synchronized-media/)
+
+## Thirty-third wide-research question: what survives when the maker’s hands are occupied? — 2026-08-19
+
+### Research question
+How can a phone-first craft workflow let a maker glance, pause, and return to a pattern while holding yarn or a tool, without claiming Stitch & Scale has hands-free, voice, one-handed, or specialized-input capabilities?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| W3C WAI, “Understanding Success Criterion 2.5.8: Target Size (Minimum)” | 2026-08-19; current WCAG 2.2 Understanding page | W3C frames target-size guidance around easier activation, minimum size or sufficient spacing, and reducing accidental activation for people with dexterity limitations; it describes 24×24 CSS pixels as the minimum criterion with exceptions. | Informative guidance, not proof of Stitch & Scale dimensions, accessibility conformance, hands-free support, or a universal interaction prescription. | Make the film about pause/resume and clear control spacing as review questions, not about accessibility certification or one-handed success. |
+| Apple Human Interface Guidelines, “Controls” | 2026-08-19; current Apple Developer page | Apple describes controls as a symbol, title, and optional value, with the title describing what the control relates to and the value representing state. | Apple-platform guidance, not proof of Stitch & Scale implementation, Android behavior, target size, or control-state support. | Use `PAUSE / RETURN / STATE` as illustrative control questions, not current product labels. |
+| Local mobile-maker workflow guidance | 2026-08-19; repository source | Mobile-first maker work includes intermittent connectivity, studio/market movement, focused measurement, export, and destructive-action safeguards; avoid dense controls and preserve user intent. | Internal workflow guidance, not proof of hands-busy or one-handed functionality. | Select `hands-busy` and block pending current control/state proof. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for pause/resume, current-state indicators, one-handed layouts, hands-free/voice control, large targets, spacing, quick return, or interruption recovery. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`hands-busy`**: the tension is a maker needing to return to a pattern while the phone is not the only thing in their hands. The hook is “When the hands are busy, the next state should still be clear.” The visual metaphor is a phone beside yarn and a tool moving through `PAUSE / RETURN / STATE`, with no hands-free or magic-resume badge. The proof surface must be one current, approved pause/resume, state, quick-return, or interruption-recovery surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic mobile ergonomics into **state clarity during an interrupted hands-busy workflow**. The script must not claim one-handed success, voice control, hands-free operation, accessibility conformance, or automatic resume. It may ask whether a maker can see what state they are returning to and invite current product proof for the exact surface.
+
+### References
+
+[72] [W3C WAI — Understanding Success Criterion 2.5.8: Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)
+
+[73] [Apple Developer — Human Interface Guidelines: Controls](https://developer.apple.com/design/human-interface-guidelines/controls)
