@@ -1,0 +1,49 @@
+event_type: video-generator-run
+run_id: VIDEO-GENERATOR-20260819-172001
+occurred_at: '2026-08-19T17:20:01+01:00'
+agent: video-generator
+status: BLOCKED_PRODUCTION_PREREQUISITE_MISMATCH
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+filename: null
+source_remake_order: null
+source_contract:
+  brief: briefs/PLAN-20260819-local-only-001.md
+  script: scripts/SCRIPT-20260819-local-only-v001.md
+  platform: platforms/PLATFORM-20260819-9x16-local-only-001.md
+  captions: captions/CAPTION-20260819-local-only-v001.srt
+  manifest: manifests/SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500.yml
+reason: >-
+  Cue 3 requires a readable Local Storage Notice stating that clearing browser data removes local
+  projects. The manifest authorizes only ASSET-LIVE-HOME-20260819 and ASSET-LIVE-NEW-20260819.
+  Direct inspection found neither that warning nor an equivalent approved capture in those assets.
+  The current public /project/new route instead rendered a different message: “Your work is safe.
+  Your last session closed unexpectedly — all projects were already saved locally.” Using that
+  message would contradict the Director’s exact script, while inventing or rewriting the warning
+  would violate the hard rejection rules. The run therefore cannot safely generate the MP4.
+research:
+  completed: true
+  note: research/2026-08-19-generator-run-local-only-fresh.md
+  visual_findings: /home/ubuntu/current_run_visual_findings.md
+  sources:
+    - https://stitch-and-scale-pro-api-server.vercel.app/
+    - https://support.google.com/youtube/answer/2734796?hl=en
+    - https://creators.instagram.com/blog/beginner-video-editing-guide/
+    - https://www.facebook.com/business/help/980593475366490
+create_video:
+  activated: false
+  reason: Required approved proof surface was missing/contradictory; no generic substitute or improvised UI was permitted.
+external_storage:
+  provider: Google Drive via connected Google Workspace connector
+  upload_attempted: false
+  reason: No authorized MP4 existed to upload.
+records:
+  acknowledgement: orders/acknowledged/MSG-20260819T131500-temporary-director-003.yml
+  manifest: not_created
+  qa_report: not_created
+  mp4: not_created
+next_action: >-
+  Director must either provide a new approved capture/asset ID and matching checksum for the exact
+  Local Storage Notice, or issue a revised script and contract that matches the current live product
+  evidence. On the next firing, re-audit for a new approved contract or open REMAKE_REQUIRED order;
+  do not generate this contract until the contradiction is resolved.
+single_chat_continuity: true
