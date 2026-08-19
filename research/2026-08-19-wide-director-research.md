@@ -5340,3 +5340,47 @@ Do not claim that Stitch & Scale currently exposes selected-context markers, app
 ### Research limit
 
 These sources establish selection semantics, predictable context changes, accessible state/value notification, and knitwear grading workflow principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes selected-context markers, applied-to paths, downstream propagation, selection-change notifications, or selection-aware export. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-twenty-third wide-research question: reopened is not resumed — 20260819-193719
+
+### Research question
+
+After a mobile interruption or process restart, what proves the draft, selected context, pending action, and resume point were restored rather than merely reopening the screen?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| Apple — Preserving your app’s UI across launches | 2026-08-19 | iOS interruptions can terminate apps; state preservation/restoration aims to return the UI to its previous state; UI restoration is not a substitute for persistent data storage, and temporary unsaved input may be separately preserved or discarded. | Apple UIKit guidance; not a Stitch & Scale product claim. | Frame the concept around a resume evidence bundle, not generic persistence. |
+| Android — Save UI states | 2026-08-19; page dated 2026-04-22 | Users expect UI state to remain through system-initiated destruction and temporary app switches; saved state, ViewModel, and local persistence have different lifetimes and guarantees; transient UI state is not long-term app data. | Android architecture guidance; not product behavior evidence. | Separate reopened UI, restored transient state, and durable draft state. |
+| W3C WCAG 2.2 — Interruptions | 2026-08-19 | Users should be able to postpone or suppress non-emergency interruptions so updates do not disrupt focus or cause discontinuity. | Accessibility guidance; no product behavior evidence. | Require a non-disruptive restore notice and explicit verify-before-continue step in the illustrative treatment. |
+| Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet | 2026-08-19 | Grading workflows combine size, measurements, ease, gauge, formulas, and finished measurements; continuity after leaving work matters because the workflow depends on the relationships among these choices. | Practitioner education, not a standard and not Stitch & Scale evidence. | Show draft and selected-context continuity as a workflow dependency, without claiming the product supplies it. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Interruption-safe capture, local-first persistence, grading, charts, schematics, exports, and human reviews are separate evidence boundaries; reopening a view is not proof that the complete working state was restored. | Internal contracts, not current product behavior. | Block until one interruption/restart and one restored-context path are directly verified. |
+
+### Research synthesis and decision shift
+
+Reopened is not resumed. Candidate angle: `resume-state`. Hook: “Reopened is not resumed.” Fictional proof surface: `LAST OPENED / DRAFT STATE / SELECTED CONTEXT / PENDING ACTION / RESUME POINT / RESTORED? / UNSAVED INPUT / VERIFY BEFORE CONTINUE`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: a reopened screen splits into `RESTORED` and `RECONSTRUCTED` paths before continuation is allowed. Emotional turn: comeback uncertainty becomes named continuation. Final line: “Name what came back before you continue.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies restored draft state, selected-context restoration, pending actions, resume points, unsaved-input handling, restore notices, or verification-before-continue controls. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `selection-state`, which concerns a visible selected context being applied to downstream views. `resume-state` changes the pain to **a reopened screen failing to prove whether draft, selected context, pending action, and resume point survived an interruption or process restart**. It changes the hook to “Reopened is not resumed”; the visual metaphor from a selected chip connecting to applied views to a reopened screen splitting into restored and reconstructed paths; the proof surface from selected/applied-to/current-context/downstream-views/last-updated/confirmed/export-use to last-opened/draft-state/selected-context/pending-action/resume-point/restored/unsaved-input/verify-before-continue; the emotional turn from visible choice to named continuation; and the final line to “Name what came back before you continue.”
+
+It is distinct from `commit-state`, `backup-state`, `selection-state`, `retention-state`, `reproducibility-state`, `withdrawal-state`, and interruption guidance because those concepts respectively concern save acknowledgement, backup/restore tests, selected context propagation, retention, rerun consistency, removal, and accessibility interruption control. `resume-state` focuses on the integrity of the user’s return point after an interruption. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes restore notices, resume points, selected-context restoration, pending-action markers, unsaved-input handling, verification-before-continue, or interruption-safe persistence guarantees. Do not use `LAST OPENED`, `DRAFT STATE`, `SELECTED CONTEXT`, `PENDING ACTION`, `RESUME POINT`, `RESTORED?`, `UNSAVED INPUT`, or `VERIFY BEFORE CONTINUE` as current product UI. Do not claim local persistence, restore accuracy, fit, calculation accuracy, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[704] [Apple Developer — Preserving your app’s UI across launches](https://developer.apple.com/documentation/uikit/preserving-your-app-s-ui-across-launches)
+[705] [Android Developers — Save UI states](https://developer.android.com/topic/libraries/architecture/saving-states)
+[706] [W3C — Understanding Success Criterion 2.2.4: Interruptions](https://www.w3.org/WAI/WCAG22/Understanding/interruptions.html)
+[707] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+[708] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish mobile state restoration, transient-versus-persistent state, interruption control, and knitwear workflow continuity principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes restore notices, resume points, selected-context restoration, pending-action markers, unsaved-input handling, or verification-before-continue. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.

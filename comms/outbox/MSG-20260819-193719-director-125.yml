@@ -1,0 +1,19 @@
+message_id: MSG-20260819-193719-director-125
+created_at: 2026-08-19T19:37:19+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_resume-state_9x16_v001_blocked_20260819-193719
+parent_id: BRF-founder-proof-resume-state-9x16-v001
+status: blocked
+summary: Resume-state concept is blocked because no current approved product proof verifies restored draft/context, pending action, resume point, unsaved input, restore notice, or verification-before-continue behavior.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass123-browser-findings.md
+  - briefs/SS_founder-proof_resume-state_9x16_v001_blocked_20260819-193719.md
+  - scripts/SS_founder-proof_resume-state_9x16_v001_blocked_20260819-193719.md
+  - platforms/SS_founder-proof_resume-state_9x16_v001_matrix_20260819-193719.md
+  - ledgers/20260819-resume-state.md
+  - manifests/SS_founder-proof_resume-state_9x16_v001_blocked_20260819-193719.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one interruption/restart and the restored draft, selected context, pending action, resume point, unsaved-input state, restore notice, and verification path; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
