@@ -449,3 +449,13 @@ The nearest prior angle is `source-note`, which focuses on where a record came f
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `basis-label`, which focuses on whether a value is measured, estimated, planned, or derived. `rounding-rule` changes the pain to the hidden transformation between an input and the displayed or used result. It changes the hook to “The last decimal place can change the next instruction,” the visual metaphor from value-status cards to `INPUT / CONVERT / ROUND / USE`, the proof surface from provenance or basis labels to a conversion, rounding, calculation-trace, intermediate-value, precision-control, or formula/method surface, the emotional turn from basis humility to visible transformation before trust, and the final line to “Show the rule before you trust the rounded result.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — artifact status — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `artifact-status` | A draft, review copy, tester copy, and release artifact can look similar while carrying different expectations | “The file is not ready until its state is readable.” | One current, approved artifact header, state badge, version/date marker, change-note panel, release-state label, or accessible artifact metadata surface with exact labels | Knowing what one is holding before work begins rather than release or distribution certainty | “Name the copy before you hand it over.” | blocked; product proof, pattern-file rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `change-notice`, which focuses on disclosing that a test or requirement changed. `artifact-status` changes the pain to not knowing which copy/state a person is holding before they begin. It changes the hook to “The file is not ready until its state is readable,” the visual metaphor from a changed-version card to `DRAFT / REVIEW / TEST COPY / RELEASE` with audience and change-note fields, the proof surface from a change notice to an artifact header, state badge, version/date marker, change-note panel, release-state label, or artifact metadata surface, the emotional turn from understanding a change to knowing what one is holding, and the final line to “Name the copy before you hand it over.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

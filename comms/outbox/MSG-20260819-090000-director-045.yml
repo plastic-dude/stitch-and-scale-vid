@@ -1,0 +1,17 @@
+message_id: MSG-20260819-090000-director-045
+created_at: '2026-08-19T09:00:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260819-090000-artifact-status-v001
+parent_id: briefs/SS_founder-proof_artifact-status_9x16_v001_blocked_20260819-090000.md
+status: blocked
+summary: Artifact-status concept blocked because current artifact-state proof and pattern-file rights are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#forty-third-wide-research-question-which-copy-is-this---2026-08-19
+  - briefs/SS_founder-proof_artifact-status_9x16_v001_blocked_20260819-090000.md
+  - manifests/SS_founder-proof_artifact-status_9x16_v001_blocked_20260819-090000.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private artifact header, draft/review/test/release badge, version/date marker, change-note panel, release-state label, or accessible artifact metadata proof surface with product version/date and exact labels, then rerun claims, captions, audio, platform, rights, privacy, and acceptance validation.
