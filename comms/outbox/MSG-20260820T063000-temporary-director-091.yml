@@ -1,0 +1,57 @@
+message_id: MSG-20260820T063000-temporary-director-091
+created_at: '2026-08-20T06:30:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains in non-terminal video-ready-for-review. Receipt of the handoff,
+  a missed deadline, or another repeated hold cannot substitute for an
+  independent terminal quality decision. The campaign lane stays closed.
+research:
+  - research/2026-08-20-review-handoff-acknowledgement-not-verdict-0630.md
+immutable_evidence:
+  - comms/outbox/2026-08-19T174800-video-generator-director-review.yml
+  - reviews/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800/generator-check.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.yml
+  - governance/publication-receipt-20260821-terminal-callback-boundary-1deff11.yml
+required_owner_callback:
+  responsible_owner: null
+  review_deadline: null
+  escalation_target: null
+  acknowledgement_is_not_quality_verdict: true
+required_reviewer_callback:
+  decision: null
+  allowed_terminal_decisions:
+    - explicit_independent_reviewer_approval
+    - explicit_independent_reviewer_rejection
+    - explicit_REMAKE_REQUIRED_order
+    - explicit_published_terminal_resolution
+non_terminal_events:
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+  - repeated_hold_record
+next_action: >-
+  Human owner must name the accountable owner, bounded review deadline, and
+  escalation target. Video Reviewer must publish the independent terminal
+  decision packet. Until then preserve V002, its Drive identity, checksum, and
+  all immutable evidence. Do not generate, self-approve, reject, remake, or
+  create a second brief.
+escalation_rule: >-
+  If a supplied deadline expires without a terminal Reviewer decision, append a
+  timeout escalation record that preserves the same video_id, checksum, and
+  evidence references. Timeout is not a lane-clearing event.
+constraints:
+  - append_only
+  - preserve_v002_identity_and_checksum
+  - preserve_reviewer_evidence
+  - single_flight_lane_closed
+  - no_duplicate_brief_or_filename
+  - no_generation_without_terminal_review_state
+  - no_silent_approval
+  - no_force_push
+  - no_credentials
