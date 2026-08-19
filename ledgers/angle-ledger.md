@@ -129,3 +129,13 @@ The nearest prior angle is `decision-ledger`, which focuses on distinguishing re
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `decision-ledger`, which focuses on distinguishing recorded, derived, estimated, and planned values before a business decision. `event-window` changes the pain to deadline pressure against a slower evidence workflow, the hook to “The date can be fixed. The proof cannot be rushed,” the visual metaphor from truth-state record cards to a calendar beside five distinct human evidence cards, the proof surface from a business-record state to a planning/submission/release-context surface, the emotional turn from calm agency about numbers to calm discipline under a real calendar, and the final line to “Keep the date. Keep the evidence.” It is not the imported generic or rostered human-gate concept; `false-completion` and `release-gate-roster` remain blocked and their filenames remain occupied.
+
+## Wide-research Director decision — recovery proof — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `recovery-proof` | A designer can possess an export without knowing its scope, destination, integrity, or whether the work can be restored | “A file is not a backup until you can bring the work back.” | One current, approved export, backup, or restore surface with documented restore evidence | Quiet protection through tested recoverability rather than a data-ownership slogan | “Show me what came back.” | blocked; product proof and restore evidence missing; distinct from `offline-continuity`, `decision-ledger`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `offline-continuity`, which focuses on work remaining usable and honestly labeled when connectivity disappears. `recovery-proof` changes the pain to ownership without verified recovery or safe export, the hook to “A file is not a backup until you can bring the work back,” the visual metaphor from local/pending/stale device state to a pattern bundle leaving and returning through scope, destination, and restore checks, the proof surface from offline/freshness/synchronization behavior to a current export/backup/restore surface, the emotional turn from calm resilience under signal loss to quiet protection through tested recoverability, and the final line to “Show me what came back.” It is not a human release gate or roster; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.

@@ -262,3 +262,34 @@ Research changed the concept from generic launch urgency to **event-window disci
 [24] [Craft Industry Alliance — Resources](https://craftindustryalliance.org/resources-3/)
 
 [25] [Modern Daily Knitting — Get Ready: Bang Out a Sweater 2026 Is Coming!](https://www.moderndailyknitting.com/community/bang-out-a-sweater-2026-is-coming/)
+
+## Eleventh wide-research question: ownership you can recover and carry — 2026-08-19
+
+### Research question
+What does an independent craft business need from export and backup workflows to keep ownership of its pattern records, recover after loss, and move information safely without assuming that any current Stitch & Scale export or sync capability exists?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| CISA, “Back Up Business Data” | 2026-08-19; live page | CISA frames backups as protection against data loss and downtime. It recommends testing backup procedures, verifying integrity, and using protections including physical security, encryption, and offline copies. | Cybersecurity guidance for small and medium businesses, not craft-specific and not proof of an app’s backup, encryption, recovery, or export implementation. | The concept must show recovery and ownership as a human verification question, not claim automatic backup, encryption, or restore. A backup that has never been restored is not treated as proven. |
+| UK National Cyber Security Centre, “Design Pattern: Safely Exporting Data” | 2026-08-19; page published/reviewed 13 Dec. 2019 | NCSC says safe export must balance sharing quickly with protecting sensitive information. It identifies information type, source, destination, requester, authorisation, classification, and volume thresholds as relevant, and warns that overly burdensome controls may drive shadow copies and loss of governance. | Older guidance and written for organisations; not a current Stitch & Scale policy or a guarantee of export safety. | The visual story should make export scope, destination, and owner approval visible before the file leaves the workspace. Do not imply that “export” alone means safe portability. |
+| Pattern Keeper, “Export a backup of your progress” | 2026-08-19; search discovery only | A craft-pattern app example shows an explicit user action to export progress from a chart list. | Search-discovered product example was not used as verified evidence because it was not opened in this pass; it does not prove Stitch & Scale behavior. | Keep the craft workflow concrete—pattern progress and records—but do not borrow another product’s UI or feature semantics. |
+| Local craft-business workflow contract | 2026-08-19; repository source | Durable craft records should preserve ownership on the device, keep history explicit, distinguish recorded facts from estimates, provide readable export/backup paths, preserve stable IDs, and test restoration before calling a workflow durable. | Internal workflow guidance, not external product proof. | The final story is **recovery proof**, not a generic “your data is yours” slogan: export a clean, readable bundle, inspect its scope, and verify it can be restored. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for export, backup, restore, encryption, data portability, stable IDs, or recovery testing. The app’s local-first architecture is not sufficient campaign proof of those behaviors. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`recovery-proof`**: the tension is between possessing a file and knowing that the work can be recovered and carried safely. The hook is “A file is not a backup until you can bring the work back.” The visual metaphor is a pattern bundle leaving a workspace, passing a visible scope/destination/owner check, then returning through a clean restore test. The proof surface must be one current, approved export/backup/restore surface; absent that proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic data ownership to **recoverable ownership**. The script must not claim encryption, automatic backup, sync, restoration success, portability, or interoperability. It may show a human reviewing an illustrative export scope and restore result, then invite current product proof for the exact visible surface.
+
+### References
+
+[26] [CISA — Back Up Business Data](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/back-up-business-data)
+
+[27] [UK National Cyber Security Centre — Design Pattern: Safely Exporting Data](https://www.ncsc.gov.uk/guidance/design-pattern-safely-exporting-data)
+
+[28] [Pattern Keeper — Export a backup of your progress](https://patternkeeper.app/help/export-a-backup-of-your-progress/)

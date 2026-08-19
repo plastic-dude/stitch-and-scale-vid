@@ -1,0 +1,32 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-053000-recovery-proof-v001
+angle_slug: recovery-proof
+status: blocked
+format: 9x16
+runtime_seconds: 44
+reserved_filename: SS_founder-proof_recovery-proof_9x16_v001_blocked_20260819-053000.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-export-backup-restore
+product_version: null
+proof_capture_approved: false
+restore_test_status: missing
+founder_disclosure: David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor.
+claim_risks:
+  - export must not be called a verified backup without restore evidence
+  - no automatic backup, encryption, sync, portability, interoperability, or recovery guarantee
+  - scope, destination, and owner approval require current proof if shown as product behavior
+  - no private files, customer records, credentials, or third-party security logos
+asset_rights_status: unverified
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+open_remake_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+next_action: Provide one current approved non-private export/backup/restore proof surface with product version/date and exact visible labels, plus documented restore-test evidence, then rerun Director validation.

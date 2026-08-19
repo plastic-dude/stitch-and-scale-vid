@@ -1,0 +1,17 @@
+message_id: MSG-20260819-053000-director-013
+sender: director
+recipient: production
+created_at: '2026-08-19T05:30:00+01:00'
+plan_id: PLAN-20260819-053000-recovery-proof-v001
+angle_slug: recovery-proof
+status: blocked
+subject: Recovery-proof concept blocked pending current export and restore proof
+body: >-
+  Fresh research moved the concept from generic data-ownership language to recoverable ownership: a file
+  is not a backup until the intended work can be restored and the export scope and destination are known.
+  Do not generate or upload. No current approved export, backup, or restore product surface or documented
+  restore test is available. Next action: provide one current approved non-private proof surface with product
+  version/date and exact visible labels, plus restore-test evidence, then rerun claims, rights, captions,
+  audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true
