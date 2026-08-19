@@ -5694,3 +5694,44 @@ Do not claim that Stitch & Scale currently exposes override controls, original-v
 ### Research limit
 
 These sources establish traceable change/provenance, responsibility, derivation, and accessible status principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes override controls, original-versus-overridden values, reason fields, scope, expiry, reviewer identity, affected-output mapping, audit history, or accessible exception announcements. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-thirty-first wide-research question: closed is not resolved — 20260819-203316
+
+### Research question
+
+When a review item is marked closed, what proves it has an outcome, evidence, owner, and no open follow-up rather than being dismissed, hidden, or merely marked done?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| NIST Incident Response project and SP 800-61 Rev. 3 | 2026-08-19 | NIST’s current incident-response framing separates Detect, Respond, and Recover and adds continuous Improvement; lessons are analyzed, prioritized, and used to inform future functions. | Cybersecurity guidance; not a Stitch & Scale workflow or product claim. | Frame closure as evidence plus follow-up and improvement, not disappearance. |
+| W3C WCAG 2.2 — Status Messages | 2026-08-19 | Status messages communicate success/results, waiting, progress, or errors; status changes should be programmatically determinable without unnecessary focus changes. Removal of a waiting/status message can mislead users unless availability is communicated equivalently. | Accessibility guidance; not product behavior evidence. | Keep closed/reopened/remaining-work state explicit and accessible. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | A closed, hidden, dismissed, acknowledged, responded-to, verified, and improved state must remain distinct; technical, print, chart, schematic, and test-knit gates are not replaced by a done label. | Internal contracts, not current product behavior. | Block until one review item is captured from open through evidence-backed closure. |
+
+### Research synthesis and decision shift
+
+Closed is not resolved. Candidate angle: `closure-state`. Hook: “Closed is not resolved.” Fictional proof surface: `ITEM / OUTCOME / EVIDENCE / OWNER / FOLLOW-UP / VERIFIED / IMPROVEMENT / CLOSED AT`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: a review item passes through outcome, evidence, follow-up, verification, improvement, and closure rather than disappearing. Emotional turn: false completion anxiety becomes accountable closure. Final line: “Name what closed before you call it resolved.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies closure controls, outcome/evidence attachment, owner, follow-up state, verification, improvement linkage, reopened state, or closed-at timestamp. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `outcome-proof`, which asks whether something being done actually improved the result. `closure-state` changes the pain to **the conditions and evidence required to close an item without hiding unresolved follow-up**. It changes the hook to “Closed is not resolved”; the visual metaphor from a done/improved comparison to a review item passing through outcome, evidence, follow-up, verification, improvement, and closure; the proof surface from done/improved/evidence/reviewer/next-action/verified/changed to item/outcome/evidence/owner/follow-up/verified/improvement/closed-at; the emotional turn from false improvement confidence to accountable closure; and the final line to “Name what closed before you call it resolved.”
+
+It is distinct from `outcome-proof`, which concerns whether a completed item produced improvement; `acknowledgement-state`, which concerns message delivery/seen/acknowledged/action; `response-state`, which separates plan from enacted response; `review-expiry`, which concerns freshness; `retention-state`, which concerns storage; imported `false-completion`, which remains blocked and must not be regenerated from continuity alone; and imported `release-gate-roster`, which requires current roster proof. `closure-state` focuses on the closure evidence and remaining follow-up around one review item, not on improvement alone, message acknowledgement, freshness, retention, or roster approval.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes closure controls, outcome/evidence attachment, owner, follow-up, verification, improvement linkage, reopened state, or closed-at timestamps. Do not use `ITEM`, `OUTCOME`, `EVIDENCE`, `OWNER`, `FOLLOW-UP`, `VERIFIED`, `IMPROVEMENT`, or `CLOSED AT` as current product UI. Do not claim resolution, closure, completion, improvement, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[745] [NIST — Incident Response project](https://csrc.nist.gov/projects/incident-response)
+[746] [NIST — SP 800-61 Rev. 3: Incident Response Recommendations and Considerations](https://csrc.nist.gov/pubs/sp/800/61/r3/final)
+[747] [W3C — Understanding Success Criterion 4.1.3: Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)
+[748] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish lifecycle, follow-up, improvement, closure, and accessible status principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes closure controls, outcome/evidence attachment, owner, follow-up, verification, improvement linkage, reopened state, or closed-at timestamps. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
