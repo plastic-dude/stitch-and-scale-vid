@@ -1,0 +1,19 @@
+message_id: MSG-20260819-195107-director-127
+created_at: 2026-08-19T19:51:07+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_locale-state_9x16_v001_blocked_20260819-195107
+parent_id: BRF-founder-proof-locale-state-9x16-v001
+status: blocked
+summary: Locale-state concept is blocked because no current approved product proof verifies locale identifiers, language metadata, locale-sensitive number and unit formatting, label/date behavior, caption language, or export review.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass125-browser-findings.md
+  - briefs/SS_founder-proof_locale-state_9x16_v001_blocked_20260819-195107.md
+  - scripts/SS_founder-proof_locale-state_9x16_v001_blocked_20260819-195107.md
+  - platforms/SS_founder-proof_locale-state_9x16_v001_matrix_20260819-195107.md
+  - ledgers/20260819-locale-state.md
+  - manifests/SS_founder-proof_locale-state_9x16_v001_blocked_20260819-195107.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one locale change across a measurement, chart or schematic label, caption or accessible name, and export, including locale identity and formatting behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

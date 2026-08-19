@@ -5430,3 +5430,47 @@ Do not claim that Stitch & Scale currently exposes target/scope summaries, conse
 ### Research limit
 
 These sources establish error-prevention, confirmation, reversal, action-sheet, and knitwear workflow principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes target/scope summaries, consequence text, undo, review/confirmation, result notices, or accessible intent state. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-twenty-fifth wide-research question: translated is not localized — 20260819-195107
+
+### Research question
+
+When a measurement, size label, date, or number crosses locales, what proves that the language, decimal/grouping format, unit, rounding, label, and export meaning stayed attached?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| W3C — Number, currency, and unit formatting | 2026-08-19 | Number, currency, and unit formats vary by locale; decimal and grouping separators, numeral systems, symbols, spacing, unit names, and rounding can differ; hardcoded formats are brittle. | W3C internationalization guidance; not a Stitch & Scale product claim. | Frame the concept around meaning continuity, not translation completeness. |
+| Unicode UTS #35 — LDML / CLDR | 2026-08-19 | Locale data covers language, region, number, date/time, measurement units, and other formatting; locale identifiers and data should be versioned for stability; language-neutral data should be stored and formatted for the client. | Unicode standard reference; no product behavior evidence. | Require locale identity and formatting rules to travel with a displayed/exported value. |
+| W3C WCAG 2.2 — Language of Page | 2026-08-19 | The default language should be programmatically determinable so assistive technologies, browsers, and caption systems can use correct language and pronunciation behavior. | Accessibility guidance; no product behavior evidence. | Include language metadata and caption/accessible-name review in proof gates. |
+| W3C WCAG 2.2 — Language of Parts | 2026-08-19 | Language changes within content should be programmatically identified so assistive technologies can use correct pronunciation, braille, and language behavior. | Accessibility guidance; no product behavior evidence. | Treat mixed-language labels and technical terms as an explicit review surface. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Localization, unit/measurement meaning, chart/schematic readability, exports, captions, and human reviews remain separate evidence boundaries; translated text is not proof that numeric and measurement semantics survived. | Internal contracts, not current product behavior. | Block until one locale change is traced across measurement, label, caption/accessibility, and export. |
+
+### Research synthesis and decision shift
+
+Translated is not localized. Candidate angle: `locale-state`. Hook: “Translated is not localized.” Fictional proof surface: `LOCALE / LANGUAGE / NUMBER FORMAT / UNIT DISPLAY / ROUNDING / LABEL / DATE FORMAT / EXPORT REVIEWED`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: one measurement passes through locale settings and splits into different displays before a meaning check. Emotional turn: translation uncertainty becomes semantic continuity. Final line: “Name the locale before you trust the number.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies locale identifiers, language metadata, decimal/grouping rules, unit display localization, rounding semantics, label translation, date formatting, right-to-left behavior, text expansion, caption language, or locale-aware export. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `intent-state`, which concerns the exact consequence and scope of a consequential action before execution. `locale-state` changes the pain to **a translated label or number preserving words while losing locale-sensitive measurement, formatting, language, or export meaning**. It changes the hook to “Translated is not localized”; the visual metaphor from an action fanning into scope and reversal paths to one measurement splitting through locale-specific display paths; the proof surface from action/target/scope/consequence/reversible/reviewed/confirmed/result to locale/language/number-format/unit-display/rounding/label/date-format/export-reviewed; the emotional turn from explicit intent to semantic continuity; and the final line to “Name the locale before you trust the number.”
+
+It is distinct from `unit-state`, `input-state`, `version-lock`, `selection-state`, `accessibility-state`, `context-state`, and `conversion-trace` because those concepts respectively concern unit attachment, value origin, exact artifact identity, selected-context propagation, accessibility settings, surrounding context, and conversion steps. `locale-state` focuses on language/locale-sensitive display and meaning across records, screens, charts, schematics, captions, and exports. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes locale identifiers, language metadata, locale-aware number/unit/date formats, RTL handling, localized labels, caption language, or locale-aware export. Do not use `LOCALE`, `LANGUAGE`, `NUMBER FORMAT`, `UNIT DISPLAY`, `ROUNDING`, `LABEL`, `DATE FORMAT`, or `EXPORT REVIEWED` as current product UI. Do not claim localization, locale-preserving measurement semantics, translated export capability, fit, calculation accuracy, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[715] [W3C — Number, currency, and unit formatting](https://w3c.github.io/i18n-drafts/questions/qa-number-format.en.html)
+[716] [Unicode — UTS #35: Unicode Locale Data Markup Language](https://www.unicode.org/reports/tr35/)
+[717] [W3C — Understanding Success Criterion 3.1.1: Language of Page](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html)
+[718] [W3C — Understanding Success Criterion 3.1.2: Language of Parts](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html)
+[719] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish locale-sensitive formatting, identifier/data versioning, accessible language metadata, and localization principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes locale identifiers, language metadata, locale-aware number/unit/date formats, RTL handling, localized labels, caption language, or locale-aware export. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
