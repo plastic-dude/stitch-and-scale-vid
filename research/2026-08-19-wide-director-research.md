@@ -3190,3 +3190,60 @@ Do not claim Stitch & Scale assigns people, routes work, sends reminders, guaran
 [349] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [350] [Stitch & Scale — Mobile maker and craft business records contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Eighty-third wide-research question: feedback is not permission — 2026-08-19
+
+### Research question
+When a tester, customer, collaborator, or reviewer gives feedback, how can a craft campaign distinguish private feedback, an attributable quote, a testimonial/endorsement, consent scope, disclosure, redaction, and publication status without inventing endorsements or making legal claims?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and early testers whose feedback may be recorded during pattern review, test knitting, or project evaluation. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and rights-aware. The brief tier is a standard single-original-video planning package. No testimonial, endorsement, customer outcome, accuracy, adoption, or permission-management claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Federal Trade Commission, “FTC’s Endorsement Guides: What People Are Asking” | 2026-08-19; current page checked | FTC says endorsements must be honest and not misleading, must reflect the endorser’s honest opinion, and cannot be used to make claims the marketer could not legally make. Unexpected material connections that affect evaluation should be disclosed clearly and conspicuously. FTC also says its staff guidance is context-dependent and not a safe harbor. | FTC guidance is advertising/legal context, not a Stitch & Scale feature, not legal advice, and not proof that any tester statement is an endorsement. | Keep source feedback, quote candidate, consent status, usage scope, disclosure, redaction, publication status, and source/date separate; never turn feedback into a testimonial by editing away its uncertainty. |
+| U.S. Copyright Office, “Fair Use (FAQ)” | 2026-08-19; current page checked | The Copyright Office directs users to ask the copyright owner for permission when using someone else’s work and separately points to fair-use analysis; quotes/samples remain context-dependent rather than automatically permitted. | General information, not legal advice, a universal quote rule, or proof of a Stitch & Scale rights workflow. | Keep permission, ownership, fair-use review, attribution, scope, and publication status separate; do not infer permission from public availability or a short quote. |
+| Craft Yarn Council, “Industry Standards and Guidelines for Designers” | 2026-08-19; current page checked | CYC emphasizes the designer’s relationship with a company/magazine, project-specific requirements, contact information, submission path, and the separation between submission, acceptance, fee discussion, contract, and project work. | CYC guidance does not define tester quote rights, marketing releases, or product behavior. | Treat a tester/project record as context, not public endorsement or publication permission. |
+| Stitch & Scale craft-business-records, publishing/export, and mobile-maker contracts | 2026-08-19; contracts re-read | Internal contracts preserve source, date, stable IDs, privacy boundaries, rights/credit, publication/export review, and explicit local-first records; they reject unsupported customer outcomes and separate test knitting, technical edit, print review, chart, and schematic evidence. | Internal contracts; no product-proof registry entry for quote consent, public usage scope, redaction, or testimonial status. | Block any product claim that feedback can be promoted to a public quote or testimonial through the product. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove rights, consent, disclosure, or product behavior. | Plan 9:16 at 1080×1920, keep quote/consent/disclosure cards clear of overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-19; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep organic-first master under one minute, center the rights card, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish campaign audio clearance, quote permission, or product claims. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove quote accuracy, consent, or semantic completeness. | Require human-reviewed caption-on and caption-free masters; preserve quote qualifiers. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying quote-consent fields, usage scope, attribution, disclosure, redaction, expiry/review date, or publication status. No real user/tester quotes or testimonials are authorized. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 83 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “use feedback” into **feedback may be reusable evidence only when the exact quote, attribution, scope, disclosure, redaction, and publication status are separately known**. The fresh concept is `quote-permission`: an original record card places `SOURCE / ORIGINAL FEEDBACK / QUOTE CANDIDATE / ATTRIBUTION / CONSENT STATUS / USAGE SCOPE / CHANNEL / DISCLOSURE / REDACTION / EXPIRY OR REVIEW DATE / PUBLICATION STATUS / SOURCE DATE / OWNER / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no testimonial, endorsement, or rights-management claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `permission-line`, which focuses on who may act or access a record. `quote-permission` changes the pain to **whether feedback may be reused publicly and exactly under what scope**. The hook changes to “Feedback is not permission.” The visual metaphor changes from an access boundary to a quote card passing through `PRIVATE FEEDBACK → QUOTE CANDIDATE → CONSENT SCOPE → DISCLOSURE/REDACTION → PUBLISHED / HOLD`. The proof surface changes from actor permission to a current evidence-rights record. The emotional turn changes from access control to respect for the speaker’s actual words and intended audience. The final line changes to “Record the scope before you publish the quote.”
+
+This is distinct from `credit-line` (attribution identity), `feedback-loop` (routing/review of feedback), `source-note` (where a fact came from), `privacy-by-default` (local ownership/privacy), `submission-state` (project/editorial lifecycle), `next-owner` (next action actor), `false-completion` and `release-gate-roster` (human evidence gates), and `honest-price` or `payment-state` (money). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale collects consent, manages rights, obtains releases, verifies endorsements, publishes testimonials, or guarantees that a quote is legally usable. Do not present private feedback as public endorsement. Do not edit away qualifiers, negative context, uncertainty, or material connection. Do not use real names, images, voices, contact details, private tester/customer records, support tickets, or direct messages without scoped permission and privacy review. Do not treat public posting as permission. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[351] [Federal Trade Commission — FTC’s Endorsement Guides: What People Are Asking](https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking)
+
+[352] [U.S. Copyright Office — Fair Use (FAQ)](https://www.copyright.gov/help/faq/faq-fairuse.html)
+
+[353] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
+
+[354] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[355] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[356] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[357] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[358] [Stitch & Scale — Craft records, publishing/export, and mobile-maker contracts](file:///home/ubuntu/skills/craft-business-records/SKILL.md)

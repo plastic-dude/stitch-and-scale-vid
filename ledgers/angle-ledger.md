@@ -849,3 +849,13 @@ The nearest prior angle is `submission-state`, which distinguishes a sent projec
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `submission-state`, which distinguishes a sent project from acceptance, contract, publication, or rights transfer. `next-owner` changes the pain to a status that names what happened but not who acts next. It changes the hook to “A status without an owner is a waiting room,” the visual metaphor from a submission lifecycle to a handoff card with a single next-action arrow and owner/role, recipient, response window, source, and notes, the proof surface from submission state to current next-action/owner context, the emotional turn from separating status outcomes to restoring agency through a bounded handoff without guaranteeing a response, and the final line to “Name who acts next before you call it moving.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — quote permission — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `quote-permission` | Feedback may be reusable evidence only when the exact quote, attribution, consent scope, disclosure, redaction, and publication status are separately known | “Feedback is not permission.” | One current, approved evidence-rights surface with source feedback, quote candidate, attribution, consent, usage scope, channel, disclosure, redaction, expiry/review date, publication status, source/date, owner, and notes | Respecting the speaker’s actual words and intended audience rather than turning private context into public proof | “Record the scope before you publish the quote.” | blocked; product/data proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `permission-line`, which focuses on who may act or access a record. `quote-permission` changes the pain to whether feedback may be reused publicly and exactly under what scope. It changes the hook to “Feedback is not permission,” the visual metaphor from an access boundary to a quote card passing through `PRIVATE FEEDBACK → QUOTE CANDIDATE → CONSENT SCOPE → DISCLOSURE/REDACTION → PUBLISHED / HOLD`, the proof surface from actor permission to a current evidence-rights record, the emotional turn from access control to respect for the speaker’s actual words and intended audience, and the final line to “Record the scope before you publish the quote.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
