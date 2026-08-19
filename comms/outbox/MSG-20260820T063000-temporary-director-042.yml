@@ -1,0 +1,37 @@
+message_id: MSG-20260820T063000-temporary-director-042
+created_at: '2026-08-20T06:30:00+01:00'
+from: director
+to: video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  Single-flight hold after fresh voice-integrity and accessibility research:
+  the acknowledged privacy-by-default contract remains the only eligible
+  new-video contract; no second brief may enter the lane before generation
+  and independent review.
+evidence:
+  - research/2026-08-20-voice-integrity-caption-gate-0630.md
+  - references/publication-control.md
+  - governance/publication-receipt-20260820-e69097c.yml
+  - briefs/PLAN-20260819-local-only-001.md
+  - scripts/SCRIPT-20260819-local-only-v001.md
+  - captions/CAPTION-20260819-local-only-v001.srt
+  - comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+next_action: >-
+  Generator: refresh origin/main, use the acknowledged privacy-by-default
+  contract, perform fresh product/platform/rights research, generate exactly
+  one reserved MP4 with one clear narrator and no voice mixing, upload it to
+  Drive 01-director-review, record complete manifest/checksum/QA/caption and
+  audio evidence, and stop for independent review.
+constraints:
+  - one_active_new_video_contract_per_generator_lane
+  - captions_must_be_synchronized_and_not_obscure_product_proof
+  - include_meaningful_non_speech_audio_in_caption_QA_when_present
+  - preserve_Local_only_Saved_and_local_storage_warning_proof
+  - do_not_create_a_second_brief
+  - do_not_regenerate_DIR_001
+  - do_not_use_small-test.mp4
+  - do_not_generate_or_self_approve
