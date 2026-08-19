@@ -3860,3 +3860,65 @@ Do not claim that Stitch & Scale validates requirements, chooses acceptance crit
 ### Research limit
 
 The NIST definitions support the criterion/evidence distinction but do not establish a product feature. The practitioner knitting page could not be extracted; only its search-result statement was used, and local project contracts carry the operational separation. Platform guidance is current at the checked URLs but may vary by account, region, format, and future UI changes. Product truth remains unverified until a versioned approved capture or product-proof registry entry supplies the exact surface and fields.
+
+## Ninety-fifth wide-research question: reversal is not erasure — 2026-08-19
+
+### Research question
+When a knitwear workflow changes a decision, correction, or configuration, what must remain visible so the change can be reversed or understood without silently erasing the prior state? The question is about a scoped, recorded reversal path—not about Stitch & Scale providing undo, rollback, version control, errata, or publication maintenance unless a current approved product capture proves that surface.
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NIST National Checklist Program glossary | Current page checked 2026-08-19 | NIST defines `Rollback Capability` as whether checklist-applied product-configuration changes can be rolled back and, if so, how. | General checklist/configuration terminology; does not prove a Stitch & Scale rollback feature or a knitwear decision owner. | A reversal record needs explicit reversibility and rollback method, not a vague “undo” implication. |
+| NIST SP 800-53 revision material | Current search result checked 2026-08-19 | NIST material describes retaining previous baseline configurations to support rollback. | Search result was not treated as a complete reading of the control; no product claim is based on it. | Retain prior state/version as a named reference rather than overwriting it. |
+| Git `revert` documentation | Current page checked 2026-08-19 | Git states that reverting reverses earlier changes by recording new commits, and recommends explaining why the original commit is being reverted. | Git is a software version-control system, not a pattern workflow or Stitch & Scale feature. | The visual model becomes a new, reasoned reversal record linked to the prior decision, not deletion or silent replacement. |
+| Vogue Knitting, Corrections | Current page checked 2026-08-19 | Corrections are posted when available and listed by issue and project number; support requests should include issue, page, and project number. | Publisher-specific practice; it does not prove app errata or rollback. | Scope is essential: identify the affected artifact and location before calling a correction global. |
+| Laine Publishing, Errata | Current page checked 2026-08-19 | The current errata archive groups corrections by book/issue and links specific corrected charts or print runs, including language/edition distinctions. | Archive structure is publisher-specific; it does not define a universal correction standard. | Preserve affected publication, edition/print run, section/chart, and correction asset as separate fields. |
+| Knitting Magazine, Errata | Current page checked 2026-08-19 | Current entries identify exact chart, row, section, needle, yarn amount, size range, or instruction correction. | Publisher archive does not prove current product behavior. | A reversal/correction must name the exact location and scope; “fixed” without a location is inadequate. |
+| W3C WCAG 2.2 and Section 508 caption guidance | Current pages checked 2026-08-19 | Captions must include speech and meaningful sound information, remain synchronized, and not obscure relevant information; planning should avoid lower-third conflicts. | Accessibility guidance concerns the video artifact, not product revision semantics. | The reversal card and prior-state link stay in the upper proof area; caption-on and caption-free versions remain mandatory. |
+| Instagram, TikTok, and YouTube guidance | Current pages checked 2026-08-19 | Caption, safe-zone, and preview constraints require current account/platform verification; TikTok notes that caption length changes safe-zone size. | Platform behavior varies by account, region, format, and future changes. | Keep the master conservative and do not imply platform availability or an app rollback feature. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts require defect ledgers, source/version context, visible warnings, preserved history, explicit recorded-vs-derived labels, interruption safety, and separate human evidence gates. | Internal operating contracts, not external proof of product surfaces. | Use `PRIOR STATE / NEW STATE / SCOPE / RATIONALE / REVERSIBLE? / ROLLBACK METHOD / OWNER / DATE-VERSION / STATUS / NOTES`. |
+
+### Research synthesis
+
+A correction, reversal, or changed decision is not trustworthy merely because the new state looks cleaner. NIST’s rollback terminology makes the ability and method of reversal explicit. Git’s model is especially useful for the visual distinction: a reversal is a new recorded change that points back to an earlier change, not silent deletion of history. Publisher errata archives show the knitwear-specific pain: corrections are scoped to issue, project, page, chart, row, size, edition, or print run, and may include a corrected asset rather than a blanket “fixed” label.
+
+The fresh dramatic engine is therefore **a change that appears complete until its rollback path and affected scope are missing**. The fictional card first says `DECISION UPDATED`, then reveals that it lacks prior state, scope, rationale, reversibility, and rollback method. It changes to `REVERSAL PATH: UNVERIFIED`. The card is labelled `ILLUSTRATIVE — NOT PRODUCT UI`. This is not a story about the app undoing work; it is an educational story about preserving a reversible decision record.
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a decision-reversal, rollback, errata, change-history, or prior-state surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved. All 95 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic version history into **a recorded reversal path with explicit prior state, new state, affected scope, rationale, reversibility, rollback method, owner, date/version, and status**. The fresh concept is `decision-reversal`: a fictional `DECISION UPDATED` card turns into `REVERSAL PATH: UNVERIFIED` when no rollback method or scope is present. No app undo, rollback, version-control, errata, or correction-delivery capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `supersession-state`, which focuses on new information not silently erasing old information. `decision-reversal` changes the pain to **a changed decision that cannot be safely reversed because the prior state, scope, rationale, or rollback method is missing**. It changes the hook to “A reversal needs a record”; the visual metaphor from old-versus-new state cards to a new decision linked back to a prior state with an explicit rollback route; the proof surface to prior state, new state, affected scope, rationale, reversibility, rollback method, owner, date/version, status, and notes; the emotional turn from preserving history to restoring agency without erasure; and the final line to “Record the way back before you change the way forward.”
+
+It is distinct from `correction-trace` because it is not a post-release errata trail; from `artifact-status` because it is not identifying which copy is held; from `change-notice` because it is not merely announcing that a requirement changed; from `decision-ledger` because it focuses on the reversal path and prior-state linkage rather than logging a decision generally; from `next-owner` because the owner is one field in a reversal record, not the primary handoff pain; from `acceptance-criteria` because it is not the semantics of a pass/fail status; and from `false-completion`/`release-gate-roster` because it is neither a checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale provides undo, rollback, version history, errata, correction delivery, change approval, safe reversal, or publication maintenance. Do not imply that a correction fixes every size, edition, chart, row, or print run. Do not use private pattern files, customer/tester records, copyrighted charts, reviewer comments, or real business decisions without rights/privacy clearance. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[442] [NIST National Checklist Program Glossary — Rollback Capability](https://ncp.nist.gov/glossary)
+[443] [NIST SP 800-53 Revision 5 materials](https://csrc.nist.gov/files/pubs/sp/800/53/r5/upd1/final/docs/sp800-53r5-controls.xlsx)
+[444] [Git — git-revert Documentation](https://git-scm.com/docs/git-revert.html)
+[445] [Vogue Knitting — Corrections](https://www.vogueknitting.com/pattern-help/corrections/)
+[446] [Laine Publishing — Errata](https://lainepublishing.com/en-us/pages/errata)
+[447] [Knitting Magazine — Pattern Updates](https://www.knittingmag.com/errata/)
+[448] [W3C — Understanding Captions (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[449] [Section508.gov — Captions and Transcripts](https://www.section508.gov/create/captions-transcripts/)
+[450] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[451] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[452] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[453] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+The NIST and Git sources support explicit rollback/reversal recording but do not establish a product feature. Publisher errata archives support scoped correction practice but do not establish the exact Stitch & Scale data model. Search-result material was used only as a lead; the NIST glossary, Git documentation, Vogue archive, Laine archive, and Knitting Magazine archive were opened or extracted. Platform guidance may vary by account, region, format, and future UI. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and fields.
