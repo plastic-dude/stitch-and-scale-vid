@@ -579,3 +579,13 @@ The nearest prior angle is `sequence-map`, which focuses on where a maker moves 
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `count-check`, which focuses on whether stitch or row totals reconcile. `repeat-scope` changes the pain to which tokens belong to a group, how often that group repeats, where it ends, and what exception follows. It changes the hook to “The asterisk is not the whole instruction,” the visual metaphor from count arithmetic to `START / GROUP / REPEAT / STOP / EXCEPTION`, the proof surface from a count check to a notation scope, repeat-group, repeat-from, grouping, size-branch, exception, or parsed-preview surface, the emotional turn from numeric verification to inspectable sequence boundaries, and the final line to “Show what repeats before you repeat it.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — locale number format — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `locale-number-format` | A maker cannot tell whether punctuation, unit, language, and body-versus-garment context survived a locale transition without changing meaning | “The number did not change. The punctuation did.” | One current, approved locale-aware number/unit/context display or export with exact labels and version/date | Trusting an interpreted value without conversion certainty | “Name the locale before trusting the number.” | blocked; product proof, locale matrix, rights/privacy, print/export review, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `rounding-rule`, which focuses on the rule used to round a result. `locale-number-format` changes the pain to whether a maker can interpret the same measurement when decimal/grouping punctuation, unit, language, and body-versus-garment context change. It changes the hook to “The number did not change. The punctuation did,” the visual metaphor from a rounding decision to `LOCALE / SEPARATOR / UNIT / CONTEXT`, the proof surface from a rounding rule to a current locale-aware number/unit/context display or export, the emotional turn from knowing a rule to trusting an interpreted value without conversion certainty, and the final line to “Name the locale before trusting the number.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

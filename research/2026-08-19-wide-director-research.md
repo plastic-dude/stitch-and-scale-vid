@@ -1863,3 +1863,48 @@ Do not claim Stitch & Scale parses notation, validates repeat scope, highlights 
 [171] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
 
 [172] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## Fifty-sixth wide-research question: did the number change—or the locale? — 2026-08-19
+
+### Research question
+When a pattern measurement or size value moves between locales, how can a maker distinguish decimal separators, grouping separators, units, and body-versus-garment context—without claiming Stitch & Scale currently localizes or converts every export correctly?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers reading, editing, or exporting pattern measurements across language, locale, unit, phone, and print contexts. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Unicode CLDR Project, “Number and currency patterns” | 2026-08-19; current page checked | CLDR explains that number patterns use placeholders for decimal and grouping separators, and that locale equivalents replace those symbols. Its example formats `12345.678` as `12’345,67` when the locale uses an apostrophe for grouping and a comma for decimals. | CLDR is a localization data/specification source, not proof of Stitch & Scale implementation or every supported locale. | Expose locale, decimal/grouping interpretation, and unit label together rather than showing a bare number. |
+| GOV.UK content and publishing guidance, “Consider translations” | 2026-08-19; current page checked | Guidance says translation need should be based on user need and warns that placing translated text alongside English can create assistive-technology problems; translated content should be added according to the content type. | Government publishing guidance, not product localization or numeric-conversion proof. | Do not present “translated” as “localized”; require language, number format, and unit review as separate evidence surfaces. |
+| Craft Yarn Council, “Standard Body Measurements/Sizing” | 2026-08-19; current page checked | CYC states that its sizing charts show actual body measurements in both inches and centimeters and that fit and length charts are guidelines; individual differences and pattern effects remain relevant. | Craft sizing guidance, not a universal grading rule and not proof of app conversion. | Show `BODY / GARMENT / UNIT / LOCALE` context and keep measurements distinct from calculated ease or graded output. |
+| Stitch & Scale publishing/export and mobile-maker contracts | 2026-08-19; contracts re-read | Export review requires locale expansion, punctuation, number formatting, unit display, and label completeness across `en`, `de`, `fr`, `es`, and `pt`; mobile workflows keep active size, units, and project context adjacent to the action. | Internal quality contract; it does not establish that every surface currently passes these checks. | Block the concept pending exact proof of locale/number/unit surface plus human export and print review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for locale-aware number formatting, locale switch behavior, unit conversion, body-versus-garment context, or silent-fallback prevention. All 56 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from a generic “international pattern” story into **whether punctuation, unit, language, and measurement context survive a locale transition without changing meaning**. The fresh concept is `locale-number-format`: a fictional card places `LOCALE / SEPARATOR / UNIT / CONTEXT` beside the value. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no automatic conversion, translation, localization, fallback prevention, or export correctness is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `rounding-rule`, which focuses on the rule used to round a result. `locale-number-format` changes the pain to whether a maker can interpret the same measurement when decimal/grouping punctuation, unit, language, and body-versus-garment context change. The hook changes to “The number did not change. The punctuation did.” The visual metaphor changes from a rounding decision to `LOCALE / SEPARATOR / UNIT / CONTEXT`. The proof surface changes from a rounding rule to a current locale-aware number/unit/context display or export. The emotional turn changes from knowing a rule to trusting an interpreted value without conversion certainty. The final line changes to “Name the locale before trusting the number.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale localizes every export, converts units automatically, preserves numeric meaning across all five locales, or prevents silent fallback without current proof. Do not equate translation with localization. Do not treat a CYC body measurement as a garment measurement, ease recommendation, grade, or fit outcome. Do not use real customer patterns or personal measurement data without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[173] [Unicode CLDR Project — Number and currency patterns](https://cldr.unicode.org/translation/number-currency-formats/number-and-currency-patterns)
+
+[174] [GOV.UK Content and publishing guidance — Consider translations](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/plan-manage-content/consider-translations/)
+
+[175] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+
+[176] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[177] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
