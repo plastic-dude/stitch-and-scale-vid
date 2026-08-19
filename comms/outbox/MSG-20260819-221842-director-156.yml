@@ -1,0 +1,19 @@
+message_id: MSG-20260819-221842-director-156
+created_at: 2026-08-19T22:18:42+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_baseline-state_9x16_v001_blocked_20260819-221842
+parent_id: BRF-founder-proof-baseline-state-9x16-v001
+status: blocked
+summary: Baseline-state is blocked because no current approved product proof verifies a named reviewed baseline and current comparison with date/version/context/measure/unit/size/ease/intended use, allowed or observed change, review, and disposition.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass154-browser-findings.md
+  - briefs/SS_founder-proof_baseline-state_9x16_v001_blocked_20260819-221842.md
+  - scripts/SS_founder-proof_baseline-state_9x16_v001_blocked_20260819-221842.md
+  - platforms/SS_founder-proof_baseline-state_9x16_v001_matrix_20260819-221842.md
+  - ledgers/20260819-baseline-state.md
+  - manifests/SS_founder-proof_baseline-state_9x16_v001_blocked_20260819-221842.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one reviewed baseline and one current comparison with date/version/context/measure/unit/size/ease/intended use, allowed or observed change, review, and disposition before presenting baseline behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

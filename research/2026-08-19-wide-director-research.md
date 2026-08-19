@@ -6556,3 +6556,48 @@ Do not claim that Stitch & Scale currently exposes source-to-derivation links, v
 [821] [NIST — SP 800-128, Guide for Security-Focused Configuration Management of Information Systems](https://csrc.nist.gov/pubs/sp/800/128/upd1/final)
 [822] [Craft Yarn Council — Schematics](https://www.craftyarncouncil.com/standards/schematics)
 [823] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-fifty-fourth wide-research question: current is not baseline — 20260819-221842
+
+**Question.** What evidence distinguishes a current craft record, measurement set, or derived result from a formally reviewed reference state before a change, comparison, export, or publication decision is made?
+
+**Research frame.** The question is deliberately narrower than consistency, dependency, version-lock, provenance, and divergence. It is not asking whether two outputs agree, whether a stale dependent exists, whether a version is pinned, how an output was derived, or whether two results have drifted. It asks whether the comparison has a named, time-bound, reviewed reference at all, and whether the current state is evaluated against that reference in the correct measurement and use context.
+
+**NIST baseline definition.** NIST's CSRC glossary describes a baseline configuration as a documented set of specifications for a system or configuration item that has been formally reviewed and agreed at a given point in time, and which can change only through change-control procedures. The glossary says the baseline is used as a basis for future builds, releases, and changes. This supports separating `BASELINE`, `BASELINE_VERSION`, `BASELINE_DATE`, `CURRENT`, `CURRENT_VERSION`, `OBSERVED_CHANGE`, `REVIEWED`, and `DISPOSITION` rather than treating the latest visible state as the reference. [824]
+
+**NIST implementation context.** NIST SP 800-128 frames configuration management as a process that identifies, implements, controls, monitors, and documents configurations and changes. Its scope is security-focused configuration management for information systems, not craft software; it is used here only as a disciplined analogy for a reviewed reference and controlled change record. It does not establish that Stitch & Scale has a baseline, change-control process, or any corresponding product surface. [825]
+
+**W3C provenance boundary.** W3C PROV-DM treats provenance as information about entities, activities, and agents involved in producing a thing, and distinguishes entities from activities and derivations. It also notes that a derivation or revision relationship is not itself a baseline approval or a decision that a change is acceptable. This keeps `baseline-state` separate from `divergence-state` and `provenance-state`: the planned visual should show the reference/current comparison and disposition, not claim provenance completeness or correctness. [826]
+
+**Craft measurement context.** The Craft Yarn Council says fit work should use body measurements and that patterns may provide completed-garment sizing and schematics across sizes. It also cautions that standard fit and length charts are guidelines, that individual changes may be appropriate, and that changes can alter a garment's appearance. This supports including `CONTEXT`, `MEASURE`, `UNIT`, `SIZE`, `EASE`, and `INTENDED_USE` beside a baseline/current comparison. It does not prove any application feature, grading accuracy, fit outcome, or user result. [827]
+
+**Selected angle.** `baseline-state` — “Current is not baseline.”
+
+**Primary pain.** A current value or output can look plausible while being compared with an unnamed, stale, unreviewed, or context-mismatched reference. Without a defined baseline, a reported change cannot be interpreted safely.
+
+**Hook.** “Current is not baseline.”
+
+**Visual metaphor.** Two abstract record cards sit on a neutral grid: one is labeled `BASELINE` with reviewed date/version/context; the other is labeled `CURRENT` with its own date/version/context. A measured delta is held between them, then an `ALLOWED CHANGE?` gate remains unresolved. No recognizable person, private record, customer data, copyrighted pattern, or real product UI is shown.
+
+**Proof surface.** `BASELINE / BASELINE_VERSION / BASELINE_DATE / CURRENT / CURRENT_VERSION / CONTEXT / MEASURE / UNIT / SIZE / EASE / INTENDED_USE / ALLOWED_CHANGE / OBSERVED_CHANGE / REVIEWED / DISPOSITION`.
+
+**Distinctness decision.** The nearest prior angles are `consistency-state` and `divergence-state`, with adjacent `dependency-state`, `version-lock`, `reproducibility-state`, and `provenance-state`. `baseline-state` changes the question from internal agreement, output drift, stale downstream state, version pinning, rerun ability, or origin trace to whether a reviewed reference exists and whether the current state is comparable to it. The proof surface, emotional turn, visual action, and final line therefore change without reopening or consuming any prior reservation.
+
+**Final line.** “Name the reference before you name the change.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed baseline/current surface, labels, measurement context, comparison, review, or disposition. No generation or upload is authorized.
+
+## Wide-research Director decision — baseline state — 20260819-221842
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `baseline-state` | A plausible current value or output may be compared with an unnamed, stale, unreviewed, or context-mismatched reference | “Current is not baseline.” | Fictional baseline/baseline-version/baseline-date/current/current-version/context/measure/unit/size/ease/intended-use/allowed-change/observed-change/reviewed/disposition card | From “It changed” to “We never named the reference” | “Name the reference before you name the change.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-221842
+The nearest prior angle is `divergence-state`, which asks how two derived outputs from one named source differ across versions, views, or export paths. `baseline-state` instead asks whether a formally reviewed, time-bound reference exists before the current state is compared or a change is accepted. It changes the hook to “Current is not baseline”; the visual metaphor from one source branching into two drifting outputs to a reviewed baseline card beside a current card with context and an unresolved allowed-change gate; the proof surface from source/derivation/version/view/output-A/output-B/difference/reviewed/disposition to baseline/baseline-version/baseline-date/current/current-version/context/measure/unit/size/ease/intended-use/allowed-change/observed-change/reviewed/disposition; the emotional turn from output drift to reference ambiguity; and the final line to “Name the reference before you name the change.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [824]–[827]
+
+[824]: https://csrc.nist.gov/glossary/term/baseline_configuration "NIST CSRC, baseline configuration glossary"
+[825]: https://doi.org/10.6028/NIST.SP.800-128 "NIST SP 800-128, Guide for Security-Focused Configuration Management of Information Systems"
+[826]: https://www.w3.org/TR/prov-dm/ "W3C PROV-DM, The PROV Data Model"
+[827]: https://www.craftyarncouncil.com/standards/body-sizing "Craft Yarn Council, Standard Body Measurements/Sizing"
