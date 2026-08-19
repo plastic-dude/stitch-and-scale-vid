@@ -4665,3 +4665,55 @@ Do not claim that Stitch & Scale approves waivers, accepts residual risk, suppli
 ### Research limit
 
 NIST establishes a general compensating-control distinction and organizational risk-management context, not a Stitch & Scale waiver, exception, approval, risk-acceptance, or equivalent-protection feature. The NASA PDF is an official source locator only because extraction was binary/encoded; no unsupported quote or current NASA requirement is claimed. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact waiver-state surface and labels.
+
+## One-hundred-ninth wide-research question: permission is not blanket consent — 2026-08-19
+
+### Research question
+What distinguishes a specific, informed, purpose-bounded, versioned, and withdrawable permission from blanket consent for every capture, storage, edit, derivative, distribution window, territory, or platform use? How should a record name the subject, purpose, use, storage, distribution, derivative use, version, given-at timestamp, withdrawn-at timestamp, and status without claiming Stitch & Scale obtains, stores, manages, or enforces consent?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| ICO — What is valid consent? | Page checked 2026-08-19; page says guidance is under review after the Data (Use and Access) Act | ICO describes consent as freely given, specific, informed, and unambiguous agreement by statement or clear affirmative action. It emphasizes genuine choice and control, granular purposes/activities, easy withdrawal, and refreshing consent when purposes or activities evolve. | UK data-protection guidance; under review; not legal advice and not a Stitch & Scale consent feature. | Make the concept purpose- and use-specific, with no universal blanket rights or fixed duration claim. |
+| ICO — How should we obtain, record and manage consent? | Page checked 2026-08-19; page says guidance is under review | ICO says requests should be clear, concise, separate from general terms, and not vague or blanket. It says separate opt-ins may be needed for different purposes or processing types; silence, inactivity, defaults, and blanket acceptance are not affirmative consent. Records should demonstrate who, when, what they were told, how they consented, the relevant version, and whether consent was withdrawn. | UK data-protection guidance; under review; records and withdrawal practice are not a product claim. | Add subject, purpose, use, version, given-at, withdrawn-at, and status fields; require a rights/consent record before any real person or private material is used. |
+| WIPO — Rights assessed during clearance for independent filmmakers | Page checked 2026-08-19; current publication | WIPO emphasizes identifying rights and uses in advance, clearing music, clips, images, artwork, personality rights, and derivative/adaptation uses, keeping written licenses/releases and conditions, and maintaining clearance records. A use-specific clearance does not silently authorize different distribution windows, territories, promotion, or adaptations. | General rights-clearance guidance; jurisdiction-specific legal advice may still be needed. | Separate consent/appearance rights, copyright/music/clip rights, distribution windows, territories, promotional use, and derivative-use permissions. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform checks cannot substitute for permission or broaden a license; captions must not cover consent/rights evidence or personal details. | Accessibility/platform context; no consent-management authority. | Preserve caption-safe layout and keep rights proof visible where shown. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts require version/date/context, rights/privacy clearance, local-first records, interruption-safe workflows, recorded-versus-estimated labels, and distinct calculation, technical-edit, print, chart, schematic, and test-knit evidence gates. | Internal operating contracts, not independent legal validation. | Add a rights/consent record as a production planning surface, never as current product UI. |
+
+### Research synthesis
+
+The ICO guidance supports a narrow operational lesson: permission must be specific, informed, purpose- and activity-bounded, affirmative, demonstrable, and easy to withdraw; it should be refreshed when purposes evolve. WIPO adds that audiovisual use needs clearance across the exact media, people, music, clips, distribution, territories, promotion, and adaptations involved. The visual opportunity is a fictional consent card that distinguishes `SUBJECT / PURPOSE / USE / STORAGE / DISTRIBUTION / DERIVATIVE USE / VERSION / GIVEN AT / WITHDRAWN AT / STATUS`, labelled `ILLUSTRATIVE — NOT PRODUCT UI`, ending at `STATUS: SCOPE UNVERIFIED`. Final line: “Name the use before you call it consent.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a consent, rights, permission, withdrawal, purpose-scope, storage, distribution, derivative-use, or consent-management surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 109 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic permission language into **a purpose- and use-bounded consent-state record**: a permission for one capture or distribution context does not silently authorize storage, editing, derivative use, promotion, new territories, new platforms, or indefinite reuse. The fresh concept is `consent-state`. No product consent collection, storage, preference dashboard, withdrawal workflow, rights management, or legal compliance capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `waiver-state`, which focuses on a bounded deviation being mistaken for satisfaction of a requirement. `consent-state` changes the pain to **permission being treated as blanket rights across purposes, uses, storage, derivatives, distribution windows, territories, or platforms**. It changes the hook to “Permission is not blanket consent”; the visual metaphor from a requirement/deviation card to a granular consent/rights card with the original purpose and use still visible; the proof surface to subject, purpose, use, storage, distribution, derivative use, version, given-at, withdrawn-at, and status; the emotional turn from preserving what remains unmet to narrowing what is actually permitted; and the final line to “Name the use before you call it consent.”
+
+It is distinct from `waiver-state` because it is not a requirement deviation; from `rights-scope` because it is not merely the distribution scope of a license; from `quote-permission` because it is not feedback quotation permission; from `feedback-permission` because it is not a tester comment; from `capture-freshness` because it is not date freshness; from `review-expiry` because it is not a review window; from `exception-scope` because it is not a rule exception; from `provenance-chain` because it is not source lineage; from `evidence-coverage` because it is not claim-to-evidence mapping; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale obtains, stores, manages, withdraws, refreshes, or enforces consent; manages rights; verifies legal compliance; or authorizes any use. Do not use `SUBJECT`, `PURPOSE`, `USE`, `STORAGE`, `DISTRIBUTION`, `DERIVATIVE USE`, `WITHDRAWN AT`, or `SCOPE UNVERIFIED` as current product UI. Do not show a recognizable person, private measurement, customer/tester record, copyrighted pattern, real business record, reviewer comment, music, clip, artwork, or branded property without explicit rights/privacy clearance. Do not imply that one permission authorizes all future uses, platforms, territories, promotions, adaptations, or storage. Do not make data-protection or legal-advice claims; the ICO page itself says its guidance is under review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[585] [ICO — What is valid consent?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/consent/what-is-valid-consent/)
+[586] [ICO — How should we obtain, record and manage consent?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/consent/how-should-we-obtain-record-and-manage-consent/)
+[587] [WIPO — Rights assessed during clearance for independent filmmakers](https://www.wipo.int/web-publications/rights-clearance-a-guide-for-independent-filmmakers/en/3-rights-assessed-during-clearance.html)
+[588] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[589] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[590] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[591] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[592] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+The ICO pages provide UK data-protection guidance that is under review and do not establish a Stitch & Scale consent-management or legal-compliance feature. WIPO provides general rights-clearance planning guidance, not a substitute for jurisdiction-specific legal advice or actual licenses/releases. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact consent-state surface and labels.

@@ -1,0 +1,19 @@
+message_id: MSG-20260819-180000-director-111
+created_at: 2026-08-19T18:00:00+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_consent-state_9x16_v001_blocked_20260819-180000
+parent_id: BRF-founder-proof-consent-state-9x16-v001
+status: blocked
+summary: Consent-state concept is blocked because no current approved product proof verifies a consent, rights, permission, withdrawal, purpose-scope, storage, distribution, derivative-use, or consent-management surface.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass109-browser-findings.md
+  - briefs/SS_founder-proof_consent-state_9x16_v001_blocked_20260819-180000.md
+  - scripts/SS_founder-proof_consent-state_9x16_v001_blocked_20260819-180000.md
+  - platforms/SS_founder-proof_consent-state_9x16_v001_matrix_20260819-180000.md
+  - ledgers/2026-08-19-consent-state.md
+  - manifests/SS_founder-proof_consent-state_9x16_v001_blocked_20260819-180000.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing the exact consent-state surface, subject/purpose/use/storage/distribution/derivative-use/version/given-at/withdrawn-at/status labels; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
