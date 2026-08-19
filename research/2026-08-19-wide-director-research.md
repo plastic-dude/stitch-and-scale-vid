@@ -4106,3 +4106,61 @@ Do not claim that Stitch & Scale validates intended use, transfers evidence safe
 ### Research limit
 
 NIST’s validation definition and CYC sizing guidance establish boundaries around intended use and fit context but do not establish a Stitch & Scale feature or a garment outcome. WCAG and platform guidance remain scoped to their respective surfaces and conditions. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact applicability-scope surface and labels.
+
+## Ninety-ninth wide-research question: a source is not a chain — 2026-08-19
+
+### Research question
+When a record or claim cites a source, can a reviewer trace how that source became the extracted input, transformed value, decision, or published result? Which entities, activities, agents, versions, dates, and review links need to remain visible without claiming Stitch & Scale maintains provenance or guarantees source integrity?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| W3C PROV-DM | Recommendation dated 2013; current page checked 2026-08-19 | Provenance describes entities, activities, and agents involved in producing a thing or data. PROV distinguishes entities, activities, derivations, agents, and time; it describes use, generation, responsibility, and transformations. A usage/generation chain is necessary but not sufficient by itself to establish derivation; influence must be determined. | Domain-agnostic model, not a Stitch & Scale feature, data-lineage guarantee, or knitwear outcome. | Make source-to-result links explicit and separate citation from extraction, transformation, responsibility, and derivation. |
+| NIST CSRC data provenance glossary | Current page checked 2026-08-19 | Data provenance includes methods of generation, transmission, and storage used to trace the origin of processed information; the cited context equates it with chain of custody. | Context-specific definition; no legal chain-of-custody claim is made for Stitch & Scale. | Include generation/transmission/storage or custody context only when evidence supports it; do not imply legal custody from a citation. |
+| NASA Software Engineering Handbook, bidirectional traceability | Current page checked 2026-08-19 | NASA requires/uses traceability between requirements, design, implementation, verification, non-conformances, and sources. It explains that bidirectional links reveal missing or extra elements, support change impact analysis, communication, and objective evidence in its context. | NASA software-engineering guidance, not proof of Stitch & Scale implementation, product assurance, or publication approval. | Show both forward and backward trace: source to result and result back to source, with missing-link status. |
+| NIST validation and uncertainty guidance from prior passes | Current pages checked 2026-08-19 | Intended use, method, inputs, conditions, and uncertainty affect what a result can support. | Measurement guidance does not define provenance UI. | Preserve provenance as a companion to applicability and uncertainty, not as a replacement. |
+| Craft Yarn Council sizing/gauge guidance from prior passes | Current pages checked 2026-08-19 | Body measurements, finished measurements, ease, schematics, gauge categories, and pattern-specific instructions are different record types. | Guidelines are not product proof or fit guarantees. | A knitwear result needs a source and transformation path; a yarn category or cited chart must not silently become an observed gauge or fit outcome. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform checks each have a defined surface and condition. | These sources do not prove product data lineage. | Include evidence artifact, surface, reviewer, and derivative/version in the provenance card. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Local contracts require source/version context, records versus estimates, human evidence gates, mobile interruption/recovery, print/chart/schematic/localization checks, rights/privacy, and artifact traceability. | Internal operating contracts, not independent validation. | Use `SOURCE / INPUT / ACTIVITY / AGENT-TOOL / VERSION-DATE / OUTPUT / REVIEWER / STATUS / LIMIT` and keep human gates separate. |
+
+### Research synthesis
+
+A citation points to an origin; provenance explains the path. W3C PROV makes the distinction concrete through entities, activities, agents, time, and derivations. NASA’s bidirectional traceability guidance adds a practical test: a result should trace backward to a source and forward to verification or use, with missing and extra links visible. NIST’s provenance definition adds generation, transmission, and storage context, but its chain-of-custody language must not be overextended into a legal claim.
+
+The fresh visual opportunity is a fictional result card with one source citation and a clean output. A reverse trace opens: `SOURCE → INPUT/EXTRACTION → ACTIVITY/TRANSFORMATION → AGENT/TOOL → VERSION-DATE → OUTPUT → REVIEWER`. One missing link changes the status to `TRACE INCOMPLETE`. The card is labelled `ILLUSTRATIVE — NOT PRODUCT UI`. The dramatic engine is not “the app proves provenance”; it is the realization that a citation is not a path. Final line: “Show how the source became the result.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a provenance chain, data lineage, source-to-result trace, agent/tool field, or bidirectional trace surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 99 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic citation-reminder message into **a source-to-result chain that exposes the missing transformation, agent/tool, version, or review link**. The fresh concept is `provenance-chain`: a fictional output card traces backward from result to source and pauses at `TRACE INCOMPLETE` when a link is absent. No product provenance, chain-of-custody, or source-integrity capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `capture-freshness`, which focuses on a screenshot’s date, version, scope, and review time not being a warranty of current proof. `provenance-chain` changes the pain to **a citation or origin being mistaken for a complete path from source through activity and responsibility to result**. It changes the hook to “A source is not a chain”; the visual metaphor from a dated capture with scope metadata to a bidirectional chain from source/entity through extraction, transformation, agent/tool, version/date, output, and reviewer; the proof surface to source, input, activity, transformation, agent/tool, version/date, output, reviewer, status, and limit; the emotional turn from evidence humility about a capture to accountability for how a result was made; and the final line to “Show how the source became the result.”
+
+It is distinct from `source-note` because it is not merely naming a source; from `source-semantics` because it is not a source’s meaning or interpretation; from `conversion-trace` because it is not only a converted artifact; from `capture-freshness` because it traces activities and responsibility rather than freshness; from `decision-ledger` because it is not recorded/derived/estimated number classification; from `artifact-status` because it is not identifying which copy is held; from `applicability-scope` because it is not intended-use transfer; from `assumption-register` because it is not hidden model inputs; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale maintains provenance, data lineage, chain of custody, source integrity, audit logs, or bidirectional traceability. Do not claim that a citation verifies a result, that a source is authoritative for a specific conclusion, or that an output is accurate because its origin is known. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party artifacts without rights/privacy clearance. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[485] [W3C — PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/)
+[486] [NIST CSRC — Data Provenance Glossary](https://csrc.nist.gov/glossary/term/data_provenance)
+[487] [NASA Software Engineering Handbook — Bidirectional Traceability](https://swehb.nasa.gov/plugins/viewsource/viewpagesrc.action?pageId=215777306)
+[488] [NIST CSRC — Validation Glossary](https://csrc.nist.gov/glossary/term/validation)
+[489] [NIST — Technical Note 1297](https://www.nist.gov/pml/nist-technical-note-1297)
+[490] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[491] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[492] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[493] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[494] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+W3C PROV, NIST provenance, and NASA traceability establish general source-to-result concepts but do not establish a Stitch & Scale feature, legal chain of custody, source integrity, or product accuracy. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact provenance-chain surface and labels.

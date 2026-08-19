@@ -1,0 +1,63 @@
+manifest_version: 1
+video_id: SS_founder-proof_provenance-chain_9x16_v001_blocked_20260819-165000
+brief_id: BRF-founder-proof-provenance-chain-9x16-v001
+campaign: founder-proof
+angle_slug: provenance-chain
+format: 9x16
+version: v001
+status: blocked
+created_at: 2026-08-19T16:50:00+01:00
+filename_reservation: SS_founder-proof_provenance-chain_9x16_v001_blocked_20260819-165000.mp4
+research_record: research/2026-08-19-wide-director-research.md#ninety-ninth-wide-research-question-a-source-is-not-a-chain--2026-08-19
+browser_findings: research/2026-08-19-pass99-browser-findings.md
+brief_path: briefs/SS_founder-proof_provenance-chain_9x16_v001_blocked_20260819-165000.md
+script_path: scripts/SS_founder-proof_provenance-chain_9x16_v001_blocked_20260819-165000.md
+platform_matrix_path: platforms/SS_founder-proof_provenance-chain_9x16_v001_matrix_20260819-165000.md
+continuity_path: ledgers/2026-08-19-provenance-chain.md
+media_path: null
+media_generated: false
+media_uploaded: false
+product_proof:
+  registry_entry: null
+  approved_capture: null
+  exact_surface_verified: false
+  provenance_chain_semantics_verified: false
+claims:
+  product_maintains_provenance_or_lineage: prohibited
+  product_maintains_audit_logs_or_chain_of_custody: prohibited
+  source_proves_accuracy_authority_or_legal_admissibility: prohibited
+  product_replaces_human_gates: prohibited
+  accuracy_adoption_revenue_outcomes: prohibited
+  founder_knitwear_identity: prohibited
+human_evidence_gates:
+  calculation: separate
+  technical_edit: separate
+  physical_print_review: separate
+  chart_readability: separate
+  schematic_scale: separate
+  test_knit: separate
+narrator:
+  family: one approved narrator family only
+  status: pending
+captions:
+  human_review_required: true
+  caption_on_master: pending
+  caption_free_master: pending
+  proof_obstruction_allowed: false
+audio:
+  cleared_voice_required: true
+  cleared_music_or_original_only: true
+  foley: restrained card placement and connector ticks only
+rights_privacy:
+  status: required_not_approved
+  private_records_allowed: false
+review_state:
+  reviews_dir_checked: true
+  orders_dir_checked: true
+  comms_inbox_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked_filename_occupied
+  release_gate_roster: blocked_filename_occupied
+next_action: Provide one versioned non-private approved capture or product-proof registry entry for the exact provenance-chain surface, source/input/activity/agent/version/output/reviewer/limit labels, with rights/privacy clearance; then rerun all gates.
+generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
