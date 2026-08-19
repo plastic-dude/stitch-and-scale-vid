@@ -1,0 +1,19 @@
+message_id: MSG-20260819-211527-director-141
+created_at: 2026-08-19T21:15:27+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_disclosure-state_9x16_v001_blocked_20260819-211527
+parent_id: BRF-founder-proof-disclosure-state-9x16-v001
+status: blocked
+summary: Disclosure-state is blocked because no current approved product proof verifies audience, purpose, fields shown/redacted, recipient, channel, expiry, reviewed disclosure state, or privacy-safe screenshot/export/handoff behavior.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass139-browser-findings.md
+  - briefs/SS_founder-proof_disclosure-state_9x16_v001_blocked_20260819-211527.md
+  - scripts/SS_founder-proof_disclosure-state_9x16_v001_blocked_20260819-211527.md
+  - platforms/SS_founder-proof_disclosure-state_9x16_v001_matrix_20260819-211527.md
+  - ledgers/20260819-disclosure-state.md
+  - manifests/SS_founder-proof_disclosure-state_9x16_v001_blocked_20260819-211527.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one record moving from local display to a defined audience/channel with fields shown and redacted, purpose, recipient, expiry, and human review; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

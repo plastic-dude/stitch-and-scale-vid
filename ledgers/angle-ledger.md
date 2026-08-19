@@ -1492,3 +1492,13 @@ The nearest prior angle is `version-lock`, which asks whether the current item i
 ### Distinctness note — 20260819-211203
 
 The nearest prior angle is `identity-state`, which asks which record or entity a reopened, copied, revised, or exported item became. `context-state` changes the pain to whether a value retains its semantic attachment when reused. It changes the hook to “Attached is not contextualized”; the visual metaphor from two record cards splitting at an identity fork to one measurement card moving through two similar garment contexts and branching when context is lost; the proof surface from record-id/display-name/parent/revision-or-copy/created/derived-from/owner/reviewed to value/subject/location/purpose/method/size/ease/date/source/reviewed; the emotional turn from duplicate anxiety to misplaced-number anxiety; and the final line to “Keep the context attached.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+## Wide-research Director decision — disclosure state — 20260819-211527
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `disclosure-state` | A visible craft record may not be safe or intended for a screenshot, export, or handoff | “Visible is not shareable.” | Fictional audience/purpose/fields-shown/fields-redacted/recipient/channel/expiry/reviewed card | From “I can see it” to “I know who may receive it” | “Name what left the room.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-211527
+
+The nearest prior angle is `consent-state`, which asks whether permission exists or is valid. `disclosure-state` changes the pain to the actual boundary of a visible record leaving a local workspace: audience, purpose, fields shown, fields redacted, recipient, channel, expiry, and review. It changes the hook to “Visible is not shareable”; the visual metaphor from a permission request and granted/denied state to a visible record approaching a share gate that separates display from disclosure; the proof surface from subject/purpose/recipient/scope/expiry/status/revocable to audience/purpose/fields-shown/fields-redacted/recipient/channel/expiry/reviewed; the emotional turn from permission uncertainty to deliberate disclosure; and the final line to “Name what left the room.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.

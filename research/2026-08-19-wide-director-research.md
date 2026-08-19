@@ -6012,3 +6012,39 @@ Do not claim that Stitch & Scale currently exposes context attachment, body-loca
 [774] [W3C — Data on the Web Best Practices](https://www.w3.org/TR/dwbp/)
 [775] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
 [776] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## One-hundred-thirty-ninth wide-research question: visible is not shareable — 20260819-211527
+
+### Research question
+
+When a craft record is visible on a screen, what proves it is safe and intended to disclose in a screenshot, export, or handoff?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| NIST, *Privacy Framework* | 2026-08-19 | NIST describes the Privacy Framework as a voluntary tool to help organizations identify and manage privacy risk while protecting individuals’ privacy. Privacy is framed as a risk-management question for products and services, not merely a screen-visibility question. | Framework guidance; not legal advice, not a product proof source, and not evidence that Stitch & Scale offers privacy controls. | Separate local visibility from intentional sharing, audience, purpose, fields, recipient, channel, and expiry. |
+| W3C Data Privacy Vocabulary (DPV), version 2.0 | 2026-08-19 | DPV enables machine-readable metadata about personal-data use and processing; its model includes purposes, processing operations, context, data source, status, legal bases, rights, risk/impact, and technical/organizational measures. | Community Group report; not a current Stitch & Scale privacy or disclosure model, and not a legal conclusion for any user. | Make disclosure context explicit without claiming consent, compliance, or product privacy behavior. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Private records, exports, mobile capture, captions, rights, business data, and human review have separate evidence boundaries. A visible screen is not automatically cleared for publication or handoff. | Internal workflow contracts, not current product proof. | Keep `disclosure-state` blocked and preserve calculation, technical edit, print, chart, schematic, and test-knit gates. |
+
+### Research synthesis and concept decision
+
+Visible is not shareable. Candidate angle: `disclosure-state`. Hook: “Visible is not shareable.” Fictional proof surface: `AUDIENCE / PURPOSE / FIELDS SHOWN / FIELDS REDACTED / RECIPIENT / CHANNEL / EXPIRY / REVIEWED`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: a visible record approaches a share gate; a disclosure card separates what is shown from what is permitted to leave the local workspace. Emotional turn: “I can see it” becomes “I know who may receive it.” Final line: “Name what left the room.”
+
+The candidate is distinct from `consent-state` (permission or consent), `withdrawal-state` (revocation), `exclusion-state` (why a record left an output), `authority-state` (which source controls), `identity-state` (which record it is), `context-state` (what a value belongs to), and `accessibility-state` (whether it can be perceived). It focuses on disclosure boundary, audience, purpose, fields, recipient, channel, expiry, and review of a visible record, not permission validity, revocation, output membership, source authority, record identity, semantic context, or perceptual access.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 138 before this package; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies audience, purpose, fields shown, fields redacted, recipient, channel, expiry, reviewed disclosure state, or privacy-safe screenshot/export/handoff behavior. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one record moving from local display to a defined audience/channel with fields shown and redacted, purpose, recipient, expiry, and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes audience, purpose, fields shown, fields redacted, recipient, channel, expiry, reviewed disclosure state, privacy-safe screenshot behavior, or privacy compliance. Do not use `AUDIENCE`, `PURPOSE`, `FIELDS SHOWN`, `FIELDS REDACTED`, `RECIPIENT`, `CHANNEL`, `EXPIRY`, or `REVIEWED` as current product UI. Do not infer that visible means shareable, consented, safe, cleared, or intended for publication. Preserve calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[777] [NIST — Privacy Framework](https://www.nist.gov/privacy-framework)
+[778] [W3C — Data Privacy Vocabulary (DPV), version 2.0](https://www.w3.org/community/reports/dpvcg/CG-FINAL-dpv-20240801/)
+[779] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
