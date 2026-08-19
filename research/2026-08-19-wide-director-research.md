@@ -349,3 +349,31 @@ Research changed the concept from a generic mobile-input story to **context-pres
 [31] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
 
 [32] [Apple Developer — Human Interface Guidelines: Text fields](https://developer.apple.com/design/human-interface-guidelines/text-fields)
+
+## Fourteenth wide-research question: the sample has a location — 2026-08-19
+
+### Research question
+How can an independent knitwear workflow keep a physical sample’s pattern identity, current location, custodian, and return status aligned when the sample moves between studio, test knitter, photographer, editor, submission, or event?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Fashion for Good, “Transparency and Traceability” | 2026-08-19; source opened but browser body was not extractable | The source is a current Fashion for Good topic resource focused on transparency and traceability in textile value chains. | Because the body was not extractable, no detailed claim is taken from the page. It does not prove a small designer’s sample workflow or any Stitch & Scale capability. | Keep the research question narrow: physical sample custody and return status, not a broad sustainability or supply-chain claim. |
+| Choy et al., “A RFID-case-based sample management system for fashion product development,” Engineering Applications of Artificial Intelligence | 2026-08-19; abstract and section content opened | The paper describes a sample-management system for iterative fabric-sample selection, with information capture and transmission, a sample library, and real-time swatch tracking/status support for fashion product development. | Enterprise/fashion-product-development research from 2009; uses RFID and a larger organizational context. It does not support claims about Stitch & Scale, independent designers, or RFID. | The creative opportunity is a simple human custody ledger—not a technology or RFID promise. The film should show identity, location, custodian, and return status as explicit questions. |
+| Local craft-business workflow contract | 2026-08-19; repository source | The local workflow explicitly separates sample location and return status from design records, expenses, sales rollups, submissions, test-knit rounds, and wholesale follow-up. | Internal workflow guidance, not proof that the live product exposes a sample ledger. | Treat the sample as an operational record with a physical owner and return obligation, not as a generic release gate or test-knit completion badge. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for sample location, custodian, return status, test-knit handoff, submission handoff, or physical-asset ledger behavior. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`sample-chain`**: the tension is a physical sample leaving the studio while its identity and return path can disappear. The hook is “The sample moved. Did its story move with it?” The visual metaphor is a tagged garment/sample envelope passing through `PROJECT`, `CUSTODIAN`, `LOCATION`, and `RETURN STATUS` cards. The proof surface must be one current, approved sample or handoff ledger surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from a broad supply-chain/trust story to **small-workshop sample custody**. The script must not claim traceability, RFID, inventory automation, delivery guarantees, or that the sample is safe. It may show a human recording a handoff and checking a return status, then invite current product proof for the exact surface.
+
+### References
+
+[33] [Fashion for Good — Transparency and Traceability](https://www.fashionforgood.com/topic_area/transparency-and-traceability/)
+
+[34] [ScienceDirect — A RFID-case-based sample management system for fashion product development](https://www.sciencedirect.com/science/article/pii/S0952197608001656)

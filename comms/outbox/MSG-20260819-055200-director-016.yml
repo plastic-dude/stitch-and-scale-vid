@@ -1,0 +1,17 @@
+message_id: MSG-20260819-055200-director-016
+sender: director
+recipient: production
+created_at: '2026-08-19T05:52:00+01:00'
+plan_id: PLAN-20260819-055200-sample-chain-v001
+angle_slug: sample-chain
+status: blocked
+subject: Sample-chain concept blocked pending current sample handoff proof
+body: >-
+  Fresh research moved the concept from a broad supply-chain story to small-workshop sample custody: a
+  physical sample can move while its project identity, custodian, location, and return status disappear.
+  Do not generate or upload. No current approved sample or handoff-ledger product surface is available,
+  and no traceability, delivery, safety, or automation claim is authorized. Next action: provide one current
+  approved non-private proof surface with product version/date and exact visible labels, then rerun claims,
+  privacy, rights, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

@@ -159,3 +159,13 @@ The nearest prior angle is the imported `false-completion` concept, which is a b
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `reader-handoff`, which concerns a reader interpreting sizing and ease information from a completed pattern. `measurement-moment` changes the pain to context detaching during active maker capture, the hook to “A measurement is only useful when its meaning travels with it,” the visual metaphor from reader-facing sizing information to a tape, phone, and pattern card connected by `BODY / CM / SIZE / PROJECT`, the proof surface from a reader handoff to a current measurement or grading-entry surface, the emotional turn from reader confidence to maker control during capture, and the final line to “Keep the number. Keep what it means.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — sample chain — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `sample-chain` | A physical sample can move while its project identity, custodian, location, and return status disappear | “The sample moved. Did its story move with it?” | One current, approved sample or handoff-ledger surface with exact labels | Tactile care for physical work rather than a logistics or safety promise | “Keep the sample. Keep the handoff.” | blocked; product proof and privacy review missing; distinct from `recovery-proof`, `measurement-moment`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `recovery-proof`, which concerns a digital file leaving a workspace and whether it can be safely restored. `sample-chain` changes the pain to physical sample identity and return context during handoff, the hook to “The sample moved. Did its story move with it?”, the visual metaphor from a digital bundle leaving and returning to a tagged garment/sample envelope moving between custodians, the proof surface from export/backup/restore to a current sample or handoff-ledger surface, the emotional turn from digital recoverability to tactile care for physical work, and the final line to “Keep the sample. Keep the handoff.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
