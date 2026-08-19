@@ -1,0 +1,37 @@
+receipt_id: PUBLICATION-RECEIPT-20260820-e69097c
+created_at: '2026-08-20T03:30:00+01:00'
+owner: temporary-director
+status: published-blocker-and-active-contract
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+remote_commit: e69097c
+local_commit_at_verification: e69097c
+head_equals_origin_main: true
+publication_method: safe-fetch-merge-push-fetch-readback
+active_contract:
+  plan_id: PLAN-20260819-local-only-001
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+  brief_status: approved-for-generation
+  brief: briefs/PLAN-20260819-local-only-001.md
+  script: scripts/SCRIPT-20260819-local-only-v001.md
+  handoff: comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+single_flight_hold:
+  handoff: comms/outbox/MSG-20260820T033000-temporary-director-036.yml
+  research: research/2026-08-20-single-flight-publication-gate-0330.md
+  new_brief_created: false
+  reason: >-
+    Existing privacy-by-default contract remains the only active new-video
+    contract until generation/review reaches a terminal state or a Reviewer
+    creates an explicit REMAKE_REQUIRED order.
+hardening_paths_verified:
+  - references/publication-control.md
+  - prompts/director-planner-loop-7m.md
+  - prompts/video-generator-loop-15m.md
+  - governance/publication-hardening-20260820.md
+  - research/2026-08-20-single-flight-publication-gate-0330.md
+  - comms/outbox/MSG-20260820T033000-temporary-director-036.yml
+next_generator_action: >-
+  Refresh origin/main, acknowledge MSG-20260819T131500-temporary-director-003,
+  research current product/platform/rights facts, generate exactly one reserved
+  privacy-by-default MP4, upload it to Drive 01-director-review, record the
+  manifest/checksum/QA/caption evidence, and stop for independent review.
