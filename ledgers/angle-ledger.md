@@ -249,3 +249,13 @@ The nearest prior angle is `readability-under-load`, which concerns dense inform
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `feedback-loop`, which concerns what happens after an observation is received and whether a response/recheck path is visible. `support-boundary` changes the pain to a question entering the wrong queue, the hook to “The fastest way to lose a question is to give it the wrong owner,” the visual metaphor from response states to `PATTERN / TEST KNIT / TECH EDIT / PRODUCT` ownership categories, the proof surface from feedback/issue response to support-routing or issue-category context, the emotional turn from response accountability to responsible ownership without deflection, and the final line to “Name the question. Name the next owner.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — data minimum — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `data-minimum` | A useful workflow record can expand into unnecessary person-level data | “The task may need a note. It may not need your whole identity.” | One current, approved privacy, record, redaction, consent, data-purpose, or context surface with exact labels | Restraint before collection rather than privacy or compliance reassurance | “Record the task. Not the person.” | blocked; product proof, private-data rights review, and purpose wording missing; distinct from `measurement-moment`, `permission-line`, `support-boundary`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `measurement-moment`, which concerns preserving a measurement’s body/garment, unit, size, and project meaning. `data-minimum` changes the pain to a useful workflow record expanding into unnecessary person-level data, the hook to “The task may need a note. It may not need your whole identity,” the visual metaphor from measurement context to a record card shedding fields until `PURPOSE / NEEDED / KEEP?`, the proof surface from measurement/grading entry to privacy/record/redaction/consent/context, the emotional turn from maker control through context to restraint before collection, and the final line to “Record the task. Not the person.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

@@ -612,3 +612,31 @@ Research changed the concept from a generic help promise into **question routing
 [49] [Craft Industry Alliance — 6 Expert Tips for Writing Precise and Effective Patterns](https://craftindustryalliance.org/s6-expert-tips-for-writing-precise-and-effective-patterns/)
 
 [50] [GoSadi — FAQs on Selling Knitting Patterns Online](https://gosadi.com/blog/knitting-pattern-faqs/)
+
+## Twenty-third wide-research question: record the task, not the person — 2026-08-19
+
+### Research question
+How can an independent craft workflow capture only the information needed for a pattern, sample, or test-knit task without collecting unnecessary body measurements, contact details, names, or identity data, and without claiming Stitch & Scale has privacy controls?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| UK Information Commissioner’s Office, “A guide to the data protection principles” | 2026-08-19; live page updated Mar. 23, 2026 | The ICO lists purpose limitation and data minimisation among the UK GDPR principles and quotes the requirement that personal data be adequate, relevant, and limited to what is necessary for the stated purpose. It also lists accuracy, storage limitation, integrity/confidentiality, and accountability. | UK regulatory guidance; not legal advice, not a universal jurisdictional rule, and not proof of Stitch & Scale’s privacy or deletion behavior. The ICO page itself warns the guidance can change. | The concept should frame a purpose-and-necessity check, not claim compliance or privacy protection. Use fictional non-personal records and request exact product proof before showing any data surface. |
+| NIST, “Privacy Framework” | 2026-08-19; live page | NIST describes its Privacy Framework as a voluntary tool developed with stakeholders to help organizations identify and manage privacy risk while protecting individuals’ privacy. | Voluntary risk-management framework, not certification or legal compliance and not evidence of current Stitch & Scale controls. | Show `PURPOSE / NEEDED / KEEP?` as a planning lens, not a privacy badge, encryption claim, or compliance result. |
+| Local craft-business and mobile-maker contracts | 2026-08-19; repository source | Records should preserve design and workflow context while distinguishing recorded facts from estimates; mobile workflows should keep active context visible, avoid accidental loss, and not imply hidden network or privacy features. | Internal workflow guidance, not proof of a current data-minimization or privacy surface. | The proof surface must be a current approved record/privacy/context surface; absent proof, use a blocker card. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for data-minimization prompts, personal-data fields, privacy settings, deletion controls, consent fields, redaction, tester identity handling, or purpose/retention labels. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`data-minimum`**: the tension is a useful workflow record expanding into unnecessary person-level data. The hook is “The task may need a note. It may not need your whole identity.” The visual metaphor is a fictional record card shedding fields until `PURPOSE / NEEDED / KEEP?` remains, with no personal values. The proof surface must be one current, approved privacy, record, redaction, consent, or context surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic privacy reassurance into **purpose-limited record design**. The script must not claim privacy compliance, encryption, deletion, anonymity, consent management, retention enforcement, or data safety. It may ask whether a field is needed for the task, then invite current product proof for the exact surface.
+
+### References
+
+[51] [UK Information Commissioner’s Office — A guide to the data protection principles](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/)
+
+[52] [NIST — Privacy Framework](https://www.nist.gov/privacy-framework)

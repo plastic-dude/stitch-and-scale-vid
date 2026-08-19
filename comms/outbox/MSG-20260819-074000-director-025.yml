@@ -1,0 +1,17 @@
+message_id: MSG-20260819-074000-director-025
+sender: director
+recipient: production
+created_at: '2026-08-19T07:40:00+01:00'
+plan_id: PLAN-20260819-074000-data-minimum-v001
+angle_slug: data-minimum
+status: blocked
+subject: Data-minimum concept blocked pending current privacy or record proof
+body: >-
+  Fresh ICO and NIST research moved the concept from generic privacy reassurance to purpose-limited record
+  design. Do not generate or upload. No current approved privacy, record, redaction, consent, data-purpose,
+  or context surface is available, and no compliance, encryption, deletion, anonymity, consent-management,
+  retention, or data-safety claim is authorized. Next action: provide one current approved non-private proof
+  surface with product version/date and exact visible labels, then rerun claims, private-data rights, privacy,
+  captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true
