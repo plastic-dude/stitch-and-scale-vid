@@ -10,5 +10,10 @@
 | `test-knit-coverage` | A table can list sizes that nobody tested | “Every size in the PDF needs a real person behind it.” | Test-knit roster by graded size | Coverage is a release decision | “Help us find the size nobody checked.” | available |
 | `outsider-founder` | Designers distrust tools made by people claiming craft authority | “I don’t know how to knit.” | Founder disclosure plus visible math proof | Outsider status becomes an invitation to audit | “Tell me where the math breaks.” | available |
 | `show-the-math` | Tools hide how a number was chosen | “No hidden decisions.” | One derivation, warning, or source at readable scale | Transparency replaces trust theater | “Try the demo and check the work.” | available |
+| `false-completion` | A completed-looking checkbox can hide an unresolved human evidence gate | “A checked box can still be an unanswered question.” | One current, readable state showing an open human gate beside a completion state; unavailable in this run | Relief through honest incompleteness rather than false closure | “Show me the gate, then tell us what still needs a person.” | blocked; brief `SS-PLAN-20260819-FALSE-COMPLETION-V001` |
+
+### Continuity note — 2026-08-19
+
+`false-completion` is materially different from the nearest prior `publication-second-shift`: it narrows the pain from broad post-design labor to false closure, changes the hook from unfinished work after completion to a checked box that remains an unanswered question, changes the visual metaphor from a refilling room to a checked box beside an open human gate, requires one current state-change proof surface instead of a sequence of release surfaces, changes the emotional turn from bounded second-shift labor to relief through honest incompleteness, and changes the final line to an invitation to show the gate. It remains blocked until the product owner supplies current approved proof.
 
 A new concept must explain which five elements differ from the nearest prior concept: pain, hook, visual metaphor, proof surface, emotional turn, and final line. Noun substitution is not angle diversity.
