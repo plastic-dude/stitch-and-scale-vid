@@ -3984,3 +3984,65 @@ Do not claim that Stitch & Scale detects assumptions, validates inputs, computes
 ### Research limit
 
 NASA’s guidance is general systems engineering and the NIST guide is measurement science; neither establishes a Stitch & Scale feature. Craft Yarn Council ranges and fit charts are guidelines, not a guarantee for an individual garment. Platform behavior may vary by account, region, format, and future UI. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact assumption/observation/result surface.
+
+## Ninety-seventh wide-research question: accessible is not one setting — 2026-08-19
+
+### Research question
+When a pattern or product surface is called “accessible,” which tested condition does that label refer to: viewport and zoom, keyboard focus, pointer target size, language, captions/audio, print, chart, or another mode? How can a record expose the checked mode and remaining limits without making a universal accessibility claim?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| W3C WCAG 2.2, Reflow | Current page checked 2026-08-19 | Content should reflow without loss of information/functionality and without two-dimensional scrolling at a 320 CSS pixel equivalent, except where two-dimensional layout is necessary for use or meaning, such as tables. Exceptions are scoped to the relevant section and do not automatically extend to surrounding content. | WCAG is a web accessibility standard, not proof of a Stitch & Scale surface or a complete mobile/print review. | Record viewport/zoom and surface scope; do not allow a table exception to hide clipped headings, controls, pagination, or unrelated content. |
+| W3C WCAG 2.2, Focus Visible | Current page checked 2026-08-19 | A keyboard-operable interface must have a mode where focus is visible and not time-limited. | Focus guidance concerns keyboard-operable interfaces and does not prove touch, screen-reader, print, or chart accessibility. | Accessibility evidence must name the input mode and checked interaction state. |
+| W3C WCAG 2.2, Target Size (Minimum) | Current page checked 2026-08-19 | Pointer targets are at least 24 by 24 CSS pixels or meet spacing/equivalent exceptions; larger targets can still benefit touch, one-handed, tremor, and moving-device users. | Minimum conformance is not the same as comfort or suitability for every person or context. | Record target/input condition and avoid converting a minimum into a universal comfort claim. |
+| W3C WCAG 2.2, Captions (Prerecorded) | Current page checked 2026-08-19 | Prerecorded synchronized media needs captions including dialogue, speaker identification, and meaningful non-speech audio; captions should not obscure relevant information. | Video accessibility is one evidence surface, not proof of product or document accessibility. | Accessibility card must include audio/caption state and a caption-on/caption-free review. |
+| W3C WCAG 2.2, Understanding and test limits | Current pages checked 2026-08-19 | WCAG success criteria have defined scope, exceptions, techniques, and test rules rather than a single undifferentiated “accessible” property. | Conformance is not a universal guarantee for every person, device, assistive technology, or context. | Use `CHECKED CONDITION / EVIDENCE / LIMIT / STATUS`, not a blanket badge. |
+| Stitch & Scale mobile-maker workflow | Re-read 2026-08-19 | The local contract requires viewport matrices, keyboard/focus, reduced motion, themes, overflow, interruption/recovery, and visible feedback; it treats polished visuals as incomplete when recovery or error feedback is missing. | Internal operating contract, not external accessibility certification. | The visual proof surface includes device, input, zoom/theme, audio, language, and recovery context. |
+| Stitch & Scale publishing/export workflow | Re-read 2026-08-19 | The local contract requires phone, tablet, desktop, print, long-text, localization, chart, schematic, and filename checks, and forbids calling a PDF accessible or print-perfect merely because it rendered. | Internal contract, not a product-proof registry entry. | Preserve digital, print, chart, schematic, and localization checks as separate conditions. |
+| Stitch & Scale pattern QA workflow | Re-read 2026-08-19 | Calculation, record, technical edit, and test knit findings prove different things; no one can stand in for another. | Internal contract, not a universal accessibility standard. | Do not let one accessibility or layout check imply technical correctness or physical usability. |
+| Instagram accessibility guidance | Current page checked 2026-08-19 | Instagram documents captions and alternative text, including captions for sound-off and Deaf/hard-of-hearing access. | Platform behavior may vary by account, region, and future release. | Captions remain required for the video, but no engagement or universal accessibility claim is allowed. |
+| TikTok safe-zone specifications | Last updated June 2026; current page checked 2026-08-19 | Key text and logos can be covered/cropped; safe-zone size depends on format and caption length; preview is recommended. | Paid/add-on guidance is not a universal organic rule. | Keep condition cards away from overlays and verify each derivative in current preview. |
+| YouTube caption guidance | Current page checked 2026-08-19 | Uploaded, manual, auto-synced, and translated captions are supported; auto-captions are default-language only. | Tool behavior and upload UI may change. | Require human-reviewed captions and record language. |
+| Knitting accessibility research lead | ACM search result checked 2026-08-19 | A 2021 ACM paper identifies accessibility barriers affecting knitting processes and notes that knitting charts are visual representations using symbols. | Search result alone is not treated as detailed evidence; no product claim is made from it. | Keep chart, text, print, and digital access conditions separate and do not imply one format serves all users. |
+
+### Research synthesis
+
+“Accessible” is not one undifferentiated state. WCAG scopes requirements by criterion, input mode, viewport, zoom, target, content section, and media type. A two-dimensional table exception does not excuse surrounding content from reflow; a visible keyboard focus does not prove touch or print access; a minimum target size does not prove comfort in every setting; captions improve access to a video but do not prove a pattern PDF is accessible. The local Stitch & Scale contracts reinforce the same separation across mobile, print, charts, schematics, locales, themes, recovery, and human review.
+
+The fresh visual opportunity is a fictional accessibility record that opens with `ACCESSIBLE`, then reveals the missing scope fields: `SURFACE / MODE / VIEWPORT-ZOOM / INPUT / LANGUAGE / AUDIO-CAPTIONS / EVIDENCE / LIMIT / STATUS`. The status changes to `CHECKED — LIMITED SCOPE` rather than `UNIVERSAL`. The card is labelled `ILLUSTRATIVE — NOT PRODUCT UI`. The dramatic engine is not “the app certifies accessibility”; it is the correction from a broad label to a condition-specific record. Final line: “Name the access mode before you call it accessible.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying an accessibility-state record, condition-scoped accessibility status, viewport/input/language/audio fields, or evidence/limit surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 97 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic accessibility claim into **a condition-scoped accessibility record that names the checked surface, mode, viewport/zoom, input, language, audio/caption state, evidence, limit, and status**. The fresh concept is `accessibility-state`: a fictional `ACCESSIBLE` badge narrows to `CHECKED — LIMITED SCOPE` when its condition and limits are exposed. No product accessibility certification or universal accessibility claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `readability-under-load`, which focuses on legibility when text, charts, hands, light, and attention compete. `accessibility-state` changes the pain to **a broad accessibility label being mistaken for coverage across modes and conditions**. It changes the hook to “Accessible is not one setting”; the visual metaphor from difficult reading conditions to a broad badge resolving into a condition matrix; the proof surface to surface, mode, viewport/zoom, input, language, audio/captions, evidence, limit, and status; the emotional turn from making content easier to read to being honest about what was and was not checked; and the final line to “Name the access mode before you call it accessible.”
+
+It is distinct from `chart-description` because it is not chart alt text; from `chart-parity` because it is not written/chart equivalence; from `paper-proof` because it is not physical print evidence alone; from `locale-drift` because language is one condition among many, not the primary conflict; from `caption-clearance` because captions are one media condition, not the whole record; from `mobile-maker`-adjacent guidance because it does not claim a specific interaction improvement; from `acceptance-criteria` because it is not general pass/fail semantics; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale is accessible, WCAG-conformant, universally usable, print-accessible, chart-accessible, screen-reader-compatible, localization-complete, or tested for every assistive technology or user. Do not claim that one viewport, one caption pass, one focus check, or one target-size check proves accessibility everywhere. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct evidence gates. Do not use private user disability data, customer/tester records, copyrighted patterns, or accessibility study materials without rights/privacy clearance. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[465] [W3C — Understanding Reflow (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html)
+[466] [W3C — Understanding Focus Visible (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html)
+[467] [W3C — Understanding Target Size (Minimum) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)
+[468] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[469] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[470] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[471] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[472] [ACM — Stitching together the experiences of disabled knitters](https://dl.acm.org/doi/abs/10.1145/3411764.3445521)
+[473] [Stitch & Scale local skill contracts — QA, publishing/export, and mobile-maker workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+WCAG criteria establish scoped requirements and testing concepts but do not establish a Stitch & Scale product feature or universal accessibility. The ACM source was available as a search result but not used for detailed claims beyond its high-level topic. Platform behavior may vary by account, region, format, and future UI. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact accessibility-state surface and its tested conditions.
