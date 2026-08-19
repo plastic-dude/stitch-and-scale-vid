@@ -4769,3 +4769,55 @@ Do not claim that Stitch & Scale collects consent, records withdrawals, stops pr
 ### Research limit
 
 The ICO page provides UK data-protection guidance that is under review and does not establish a Stitch & Scale consent, deletion, suppression, retention, or legal-compliance feature. WIPO provides general rights-clearance planning guidance, not a substitute for actual contracts/licenses/releases or jurisdiction-specific legal advice. The EDPB page was not extractable and is not used for claims. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact withdrawal-state surface and labels.
+
+## One-hundred-eleventh wide-research question: stored is not retained correctly — 2026-08-19
+
+### Research question
+What distinguishes a defensible retention record from indefinite storage or an automatic deletion claim, and how should it name the record, purpose, retention basis, keep-until period, review date, access scope, disposal method, exception, owner, and status without claiming Stitch & Scale manages retention, deletion, anonymization, sanitization, or legal disposition?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| ICO — How long should we keep personal information for? | Page checked 2026-08-19; current page | ICO says information should not be retained longer than needed for its purpose, should not be kept indefinitely merely in case it may be useful, and retention periods should be reviewed regularly. It says to erase or anonymise when no longer needed, while recognizing that other laws can require a different period. It also notes shared-data arrangements when sharing is no longer needed. | UK data-protection guidance in a specific IoT context; not legal advice and not a Stitch & Scale retention feature. | Focus the concept on purpose, basis, period, review, access, disposal, exception, owner, and status—not on a universal number or automatic delete. |
+| NIST SP 800-88 Rev. 2 — Guidelines for Media Sanitization | Published September 2025; planning note July 17, 2026 | NIST defines media sanitization as rendering access to target data infeasible for a given effort level and describes applicable techniques and controls based on information sensitivity. | Media sanitization is not ordinary record retention, and the guide does not establish Stitch & Scale deletion or sanitization. | Keep sanitization/disposal separate from retention and explicitly prohibit product capability claims. |
+| NARA — General Records Schedules | Current page checked 2026-08-19; page includes 2026 context | NARA describes schedules as disposition authority for common federal records and says agencies generally use the GRS or justified agency-specific schedules. | Federal records-management context, not a universal private-business retention rule. | Use “schedule/basis” as a bounded contextual field, not a universal legal rule or fixed retention period. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption and safe-area checks cannot substitute for retention or disposal evidence; captions must not cover the fictional record card. | Accessibility/platform context; no retention authority. | Preserve proof-safe caption placement and caption-on/caption-free review. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts require version/date/context, local-first records, recovery, visible status, safe exports, recorded-versus-estimated labels, and distinct calculation, technical-edit, print, chart, schematic, and test-knit evidence gates. | Internal workflow contracts, not records law. | Treat retention as a recorded decision with review and access context, never as hidden permanent storage or automatic deletion. |
+
+### Research synthesis
+
+The ICO guidance supports the operational lesson that retention depends on purpose and context and should be reviewed; it does not yield one universal time limit. NIST adds that secure sanitization is a separate controlled disposal process tied to sensitivity and effort. NARA demonstrates that schedules can authorize disposition in a specific records-management context, but not universally. The visual opportunity is a fictional retention card labelled `ILLUSTRATIVE — NOT PRODUCT UI` with `RECORD / PURPOSE / RETENTION BASIS / KEEP UNTIL / REVIEW AT / ACCESS SCOPE / DISPOSAL METHOD / EXCEPTION / OWNER / STATUS`, ending at `STATUS: RETENTION UNVERIFIED`. Final line: “Name why it stays before you call it retained.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a retention, purpose/basis, keep-until, review-at, access-scope, disposal-method, exception, owner, or retention-status surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 111 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “data retention” into **a purpose- and schedule-bounded retention decision record**: storage is not automatically correct, indefinite, private, recoverable, deleted, anonymized, or sanitized. The fresh concept is `retention-state`. No product retention, deletion, anonymization, sanitization, schedule automation, access control, or legal disposition capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `withdrawal-state`, which focuses on the downstream impact of a permission withdrawal. `retention-state` changes the pain to **stored material being treated as either permanent by default or safely deleted without a purpose, basis, review, access, disposal, or exception record**. It changes the hook to “Stored is not retained correctly”; the visual metaphor from a downstream-impact map to a retention card with a purpose-to-review timeline; the proof surface to record, purpose, retention basis, keep until, review at, access scope, disposal method, exception, owner, and status; the emotional turn from confronting changed permission to making continued storage answerable; and the final line to “Name why it stays before you call it retained.”
+
+It is distinct from `withdrawal-state` because it is not a permission-change impact; from `consent-state` because it is not initial permission scope; from `review-expiry` because it is not a generic review window; from `capture-freshness` because it is not screenshot freshness; from `deletion-state`/`erasure-state` candidates because it is not a deletion event; from `drift-state` because it is not measurement or context drift; from `provenance-chain` because it is not source lineage; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale retains, deletes, anonymizes, sanitizes, schedules, reviews, shares, access-controls, restores, backs up, or legally disposes of records. Do not use `RECORD`, `PURPOSE`, `RETENTION BASIS`, `KEEP UNTIL`, `REVIEW AT`, `ACCESS SCOPE`, `DISPOSAL METHOD`, `EXCEPTION`, `OWNER`, or `RETENTION UNVERIFIED` as current product UI. Do not show recognizable people, private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, music, clips, artwork, or branded property without explicit rights/privacy clearance. Do not imply a universal retention period, legal requirement, automatic delete, guaranteed recovery, secure sanitization, or privacy compliance. Do not make legal advice claims; ICO guidance is context-specific and NARA is a federal records context. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[601] [ICO — How long should we keep personal information for?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/online-tracking/guidance-for-consumer-internet-of-things-products-and-services/how-long-should-we-keep-personal-information-for/)
+[602] [NIST — SP 800-88 Rev. 2, Guidelines for Media Sanitization](https://csrc.nist.gov/pubs/sp/800/88/r2/final)
+[603] [NARA — What are the General Records Schedules (GRS)](https://www.archives.gov/records-mgmt/grs)
+[604] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[605] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[606] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[607] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[608] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+The ICO page is specific guidance and does not establish a Stitch & Scale retention or legal-compliance feature. NIST SP 800-88 describes media sanitization, not ordinary record retention or product deletion. NARA schedules apply to a federal records-management context and are not a universal private-business rule. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact retention-state surface and labels.

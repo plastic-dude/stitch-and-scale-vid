@@ -1,0 +1,19 @@
+message_id: MSG-20260819-181300-director-113
+created_at: 2026-08-19T18:13:00+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_retention-state_9x16_v001_blocked_20260819-181300
+parent_id: BRF-founder-proof-retention-state-9x16-v001
+status: blocked
+summary: Retention-state concept is blocked because no current approved product proof verifies a retention, purpose/basis, keep-until, review-at, access-scope, disposal-method, exception, owner, or retention-status surface.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass111-browser-findings.md
+  - briefs/SS_founder-proof_retention-state_9x16_v001_blocked_20260819-181300.md
+  - scripts/SS_founder-proof_retention-state_9x16_v001_blocked_20260819-181300.md
+  - platforms/SS_founder-proof_retention-state_9x16_v001_matrix_20260819-181300.md
+  - ledgers/2026-08-19-retention-state.md
+  - manifests/SS_founder-proof_retention-state_9x16_v001_blocked_20260819-181300.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing the exact retention-state surface, record/purpose/retention-basis/keep-until/review-at/access-scope/disposal-method/exception/owner/status labels; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
