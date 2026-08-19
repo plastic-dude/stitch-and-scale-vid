@@ -584,3 +584,31 @@ Research changed the concept from generic difficulty labeling into **technique t
 [47] [Craft Yarn Council — Project Levels](https://www.craftyarncouncil.com/standards/project-levels)
 
 [48] [Natalie in Stitches — Knitting Pattern Skill Levels: Why I Dislike Labels](https://natalieinstitches.com/2024/11/27/knitting-pattern-skill-levels-why-i-dislike-labels/)
+
+## Twenty-second wide-research question: not every question belongs in the same queue — 2026-08-19
+
+### Research question
+How can an independent pattern workflow distinguish instruction-clarity questions, technical-editor concerns, test-knit observations, and product-support issues so makers know what kind of help they are asking for, without claiming Stitch & Scale provides support, response-time guarantees, or technical editing?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Industry Alliance, “6 Expert Tips for Writing Precise and Effective Patterns” | 2026-08-19; live page | The guidance emphasizes thoroughness, not assuming knowledge, concise and clear writing, consistency, maker-centered placement, and enlisting help because authors cannot see every mistake in their own work. | Practitioner/industry guidance, not evidence of a current Stitch & Scale support channel, response time, or pattern correctness. | The concept should make **question type and next owner** visible, not promise an all-purpose support inbox. |
+| GoSadi, “FAQs on Selling Knitting Patterns Online” | 2026-08-19; live page dated 11 June 2026 | The platform’s FAQ describes testing with willing knitters, clear instructions, schematics, measurements, sizing calculations, honest difficulty ratings, pattern publishing, and its own multi-channel platform role. It explicitly describes GoSadi’s platform and business claims, not Stitch & Scale. | Platform marketing content; claims about GoSadi, income, scale, customer feedback, and channels were not transferred to Stitch & Scale. It does not prove any Stitch & Scale support, sales, or publishing feature. | Separate product-support questions from pattern-quality, technical-editing, and test-knit concerns; show routing/ownership only if current product proof exists. |
+| Local craft-business and mobile-maker contracts | 2026-08-19; repository source | Technical editing, test knitting, feedback, pattern submissions, and product records are separate workstreams. Mobile workflows require visible context, clear validation, and no hidden assumptions. | Internal workflow guidance, not proof of a live help queue or support taxonomy. | The visual proof should be a current support-routing or issue-category surface, not a promise of response or resolution. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for help/support channels, issue categories, pattern-question routing, technical-editor routing, test-knit routing, product-bug reporting, or response status. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`support-boundary`**: the tension is a maker’s question entering the wrong queue because pattern clarification, test-knit feedback, technical editing, and product support are treated as one thing. The hook is “The fastest way to lose a question is to give it the wrong owner.” The visual metaphor is one fictional question card splitting into `PATTERN / TEST KNIT / TECH EDIT / PRODUCT`, with `NEXT OWNER?` rather than a solved badge. The proof surface must be one current, approved support-routing, issue-category, or help-context surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from a generic help promise into **question routing and ownership clarity**. The script must not claim response time, support availability, technical-editor access, pattern correctness, issue resolution, or customer satisfaction. It may show categories and an explicit unknown/next-owner state, then invite current product proof for the exact surface.
+
+### References
+
+[49] [Craft Industry Alliance — 6 Expert Tips for Writing Precise and Effective Patterns](https://craftindustryalliance.org/s6-expert-tips-for-writing-precise-and-effective-patterns/)
+
+[50] [GoSadi — FAQs on Selling Knitting Patterns Online](https://gosadi.com/blog/knitting-pattern-faqs/)

@@ -1,0 +1,17 @@
+message_id: MSG-20260819-073000-director-024
+sender: director
+recipient: production
+created_at: '2026-08-19T07:30:00+01:00'
+plan_id: PLAN-20260819-073000-support-boundary-v001
+angle_slug: support-boundary
+status: blocked
+subject: Support-boundary concept blocked pending current routing proof
+body: >-
+  Fresh pattern-writing and platform-role research moved the concept from a generic help promise to question
+  routing and ownership clarity. Do not generate or upload. No current approved support-routing, issue-category,
+  or help-context surface is available, and no support-availability, response-time, technical-editor, issue-
+  resolution, or customer-satisfaction claim is authorized. Next action: provide one current approved non-private
+  proof surface with product version/date and exact visible labels, then rerun claims, message rights, privacy,
+  captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

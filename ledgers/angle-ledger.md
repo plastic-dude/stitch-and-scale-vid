@@ -239,3 +239,13 @@ The nearest prior angle is `material-notes`, which concerns the assumptions behi
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `readability-under-load`, which concerns dense information becoming hard to scan on mobile. `technique-profile` changes the pain to a broad project-level label hiding techniques and prerequisites, the hook to “A label is a starting point. The techniques are the real invitation,” the visual metaphor from density and scanning to a level badge opening into `SKILLS / TOOLS / SEQUENCES / PREREQUISITES`, the proof surface from readability proof to a technique/prerequisite surface, the emotional turn from calm scanning to maker agency, and the final line to “Name the work. Let the maker choose.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — support boundary — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `support-boundary` | A maker’s question can enter the wrong queue when pattern clarification, test-knit feedback, technical editing, and product issues are treated as one thing | “The fastest way to lose a question is to give it the wrong owner.” | One current, approved support-routing, issue-category, or help-context surface with exact labels | Responsible ownership without deflection, response, or resolution promises | “Name the question. Name the next owner.” | blocked; product proof, message-rights review, and ownership wording missing; distinct from `feedback-loop`, `reader-handoff`, `brief-before-knit`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `feedback-loop`, which concerns what happens after an observation is received and whether a response/recheck path is visible. `support-boundary` changes the pain to a question entering the wrong queue, the hook to “The fastest way to lose a question is to give it the wrong owner,” the visual metaphor from response states to `PATTERN / TEST KNIT / TECH EDIT / PRODUCT` ownership categories, the proof surface from feedback/issue response to support-routing or issue-category context, the emotional turn from response accountability to responsible ownership without deflection, and the final line to “Name the question. Name the next owner.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
