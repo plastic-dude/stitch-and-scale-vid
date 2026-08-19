@@ -2501,3 +2501,49 @@ Do not claim Stitch & Scale measures gauge from an image, predicts post-wash gau
 [248] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [249] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Seventieth wide-research question: same color, different lot? — 2026-08-19
+
+### Research question
+Before a knitwear sample or garment is started, what must a maker distinguish about yarn fiber/weight, lot or dye-lot, color, skein/yardage, source/date, and project use without claiming Stitch & Scale tracks inventory, predicts color continuity, or validates material compatibility?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers recording project materials before a sample or garment is started. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Congratulations! You’ve Received the Go Ahead” | 2026-08-19; current page checked | CYC advises reconfirming yarn/color selection, checking ball bands for the same dye-lot number, keeping notes during the project, and contacting manufacturer/editor when yarn or color concerns arise. | Designer guidance is not an inventory system, color-match guarantee, or Stitch & Scale product proof. | Separate fiber/weight, color, dye lot, quantity/yardage, source/date, project use, and status; retain notes rather than relying on memory. |
+| Lion Brand dye-lot article route | 2026-08-19; route redirected to a 404/security-challenge page | The requested page could not be passively reviewed. | No substantive Lion Brand claims, metadata, or competitor weakness may be inferred from the failure page. | Use CYC evidence and product-proof boundaries only; mark the manufacturer route as inaccessible. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Materials, yarn substitution, care, gauge, business records, source/date, technical editing, print/chart review, and test knitting are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for dye-lot or material-trace capture. | Block inventory, color-continuity, material-compatibility, and project-reconciliation claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for material-trace capture, inventory, dye-lot matching, color-continuity, material compatibility, or remaining-yardage reconciliation. All 70 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “yarn information” into **whether the physical yarn in a project can be traced across color/lot, quantity, source, and intended use**. The fresh concept is `material-trace`: a fictional card places `FIBER / WEIGHT / COLOR / DYE LOT / SKEINS / YARDAGE / SOURCE / DATE / PROJECT USE / STATUS`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no inventory, color-continuity, material-compatibility, or quantity-reconciliation claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `substitution-basis`, which focuses on comparing an original yarn with a substitute. `material-trace` changes the pain to **whether the actual yarn in a project remains identifiable across lot, color, quantity, source, and use**. The hook changes to “Same color is not the same lot.” The visual metaphor changes from an original-versus-substitute comparison to `FIBER / WEIGHT / COLOR / DYE LOT / SKEINS / YARDAGE / SOURCE / DATE / PROJECT USE / STATUS`. The proof surface changes from technical substitution fields to a current material-trace surface. The emotional turn changes from deciding whether a substitute is comparable to preserving the identity of the material actually used. The final line changes to “Record the lot before the loop.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale tracks inventory, predicts color continuity, validates material compatibility, confirms dye-lot matching, recommends purchasing quantities, or reconciles remaining yardage without current product proof and qualified technical review. Do not use real customer material records, private patterns, screenshots, logos, or manufacturer images without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[250] [Craft Yarn Council — Designer Guidelines: Once You’ve Received the Go Ahead](https://www.craftyarncouncil.com/industry.html)
+
+[251] [Lion Brand — Yarn Dye Lots Explained route (inaccessible/404 challenge)](https://www.lionbrand.com/community/blog/yarn-dye-lots-explained-for-consistent-color-projects/)
+
+[252] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[253] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[254] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[255] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

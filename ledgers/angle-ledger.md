@@ -719,3 +719,13 @@ The nearest prior angle is `rounding-rule`, which focuses on which rule changed 
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `count-check`, which focuses on whether a numeric result matches. `gauge-state` changes the pain to whether a gauge number retains the physical state and context in which it was measured. It changes the hook to “Gauge is a state, not just a number,” the visual metaphor from a count result to `STITCH / ROW / STITCH PATTERN / YARN / TOOL / WINDOW / PRE-WASH / POST-WASH / BLOCKED / UNBLOCKED / SAMPLE / STATUS`, the proof surface from a count check to a current gauge-record surface, the emotional turn from confirming a number to preserving its physical context without a measurement or fit promise, and the final line to “Record the swatch state, not just the gauge.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — material trace — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `material-trace` | The actual yarn in a project may not remain identifiable across color/lot, quantity, source, and use, even when it is called “the same yarn” | “Same color is not the same lot.” | One current, approved material-trace surface with fiber, weight, color, dye lot, skeins, yardage, source, date, project use, and status labels | Preserving material identity without an inventory, color-continuity, compatibility, or quantity promise | “Record the lot before the loop.” | blocked; product proof, technical review, rights/privacy, inventory/color/compatibility evidence, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `substitution-basis`, which focuses on comparing an original yarn with a substitute. `material-trace` changes the pain to whether the actual yarn in a project remains identifiable across lot, color, quantity, source, and use. It changes the hook to “Same color is not the same lot,” the visual metaphor from an original-versus-substitute comparison to `FIBER / WEIGHT / COLOR / DYE LOT / SKEINS / YARDAGE / SOURCE / DATE / PROJECT USE / STATUS`, the proof surface from technical substitution fields to a current material-trace surface, the emotional turn from deciding whether a substitute is comparable to preserving the identity of the material actually used, and the final line to “Record the lot before the loop.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

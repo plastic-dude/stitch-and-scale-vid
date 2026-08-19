@@ -1,0 +1,55 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-133300-material-trace-v001
+angle_slug: material-trace
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_material-trace_9x16_v001_blocked_20260819-133300.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-material-trace-surface-with-fiber-weight-color-dye-lot-skeins-yardage-source-date-project-use-status
+product_version: null
+proof_capture_approved: false
+fiber_status: missing
+weight_status: missing
+color_status: missing
+dye_lot_status: missing
+skeins_status: missing
+yardage_status: missing
+source_status: missing
+date_status: missing
+project_use_status: missing
+material_status: missing
+inventory_status: unverified
+color_continuity_status: unverified
+compatibility_status: unverified
+lot_matching_status: unverified
+quantity_reconciliation_status: unverified
+technical_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no inventory, color-continuity, compatibility, lot-matching, purchasing, or quantity-reconciliation claim
+  - CYC designer guidance is context, not product behavior
+  - inaccessible manufacturer route supplies no substantive evidence
+  - fiber, weight, color, dye lot, quantity, source, and project use cannot be collapsed into one field
+  - fictional material cards are not product UI, customer records, or manufacturer labels
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private material-trace surface with exact fiber, weight, color, dye lot, skeins, yardage, source, date, project use, and status labels, then rerun material, claims, technical, caption, audio, platform, rights, privacy, and Director gates.
