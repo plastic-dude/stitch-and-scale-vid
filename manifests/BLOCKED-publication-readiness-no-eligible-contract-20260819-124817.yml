@@ -1,0 +1,62 @@
+run_id: BLOCKED-publication-readiness-no-eligible-contract-20260819-124817
+video_id: null
+filename: null
+status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+run_started_at: '2026-08-19T12:48:17+01:00'
+run_completed_at: null
+repository: https://github.com/plastic-dude/stitch-and-scale-vid
+repository_head_before_record: 6ca73b07dfd21ca3c9f7b5a3f31e0b676f52114d
+source_contract:
+  brief: null
+  script: null
+  source_remake_order: null
+  reason: >-
+    No open REMAKE_REQUIRED order exists. The only approved-for-generation brief/script pair is
+    DIR-001, already produced. The newest fetched Director publication-readiness pair remains
+    director-review and explicitly blocks generation pending current UI proof and rights confirmation.
+queue_evidence:
+  main_approved_pair: PLAN-20260819-spreadsheet-11pm-001 / SCRIPT-20260819-spreadsheet-11pm-v001
+  main_pair_status: approved-for-generation, already consumed by DIR-001
+  fetched_director_branch: origin/director/publication-readiness-second-shift-20260819
+  fetched_director_branch_head: 81e2a4dba7f5734034f7134ccd662cdd1f3fb1bc
+  fetched_brief: briefs/SS_publication-readiness_second-shift_campaign-v001_director-review_20260819-022500.md
+  fetched_script: scripts/SS_publication-readiness_second-shift_v001.md
+  fetched_pair_status: director-review
+  remake_orders_found: false
+  other_remote_branches_checked:
+    - origin/director/2026-08-19-release-gate-roster
+    - origin/director/false-completion-human-gates-20260819
+research:
+  note: research/2026-08-19-blocked-publication-readiness-124817.md
+  freshness: fresh_for_this_run
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+production:
+  create_video_activated: false
+  mp4_generated: false
+  reason: no_eligible_director_contract
+  output_count: 0
+  bounded_outcome_count: 1
+drive:
+  connector: Google Workspace / Drive
+  archive_folder_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  connectivity_check: PASS
+  upload_status: NOT_ATTEMPTED
+  upload_reason: no_authorized_mp4_existed
+  file_id: null
+  url: null
+  byte_size: null
+  sha256: null
+git_record:
+  manifest: manifests/BLOCKED-publication-readiness-no-eligible-contract-20260819-124817.yml
+  research_note: research/2026-08-19-blocked-publication-readiness-124817.md
+  qa_report: reviews/BLOCKED-publication-readiness-no-eligible-contract-20260819-124817/generator-check.md
+  communication_event: comms/outbox/2026-08-19T124817-video-generator-blocked.yml
+  git_commit: PENDING_FIRST_RECORD_COMMIT
+next_action: >-
+  On the next firing, refresh all repository branches and prioritize any new REMAKE_REQUIRED order.
+  If none exists, select the earliest newly added Director brief whose status is exactly
+  approved-for-generation. Do not regenerate DIR-001 or the blocked publication-readiness pair.
