@@ -1,0 +1,17 @@
+message_id: MSG-20260819-122000-director-067
+created_at: '2026-08-19T12:20:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260819-122000-resume-point-v001
+parent_id: briefs/SS_founder-proof_resume-point_9x16_v001_blocked_20260819-122000.md
+status: blocked
+summary: Resume-point concept blocked because current resume-state proof, technical review, rights, privacy, and interruption-recovery evidence are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#sixty-fifth-wide-research-question-how-do-you-find-your-place-again---2026-08-19
+  - briefs/SS_founder-proof_resume-point_9x16_v001_blocked_20260819-122000.md
+  - manifests/SS_founder-proof_resume-point_9x16_v001_blocked_20260819-122000.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private resume-state surface with exact row/round, side, repeat, marker, count, tool, yarn, last-checked, photo, source, date, and status labels, then rerun resume, technical, claims, captions, audio, platform, rights, privacy, and acceptance validation.

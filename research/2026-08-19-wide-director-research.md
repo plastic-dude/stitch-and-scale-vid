@@ -2266,3 +2266,52 @@ Do not claim Stitch & Scale parses flat/round construction, detects twists, vali
 [216] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [217] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Sixty-fifth wide-research question: how do you find your place again? — 2026-08-19
+
+### Research question
+When a maker sets a knitwear project down and returns later, which state must be recorded—row/round, side, repeat, marker, stitch count, tool, yarn, and photo/time—without claiming Stitch & Scale provides automatic resume-state capture or interruption recovery?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers returning after a pause, call, travel day, or overnight break. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Android Developers, “Save UI states” | 2026-08-19; current page checked | Android says users expect UI state to remain when they temporarily switch apps or return after a system-initiated interruption; it distinguishes in-memory state from saved state and local persistence. | Android architecture guidance is not a claim about Stitch & Scale implementation, nor does it define craft-specific resume fields. | Treat resumption as a user expectation, then define the exact craft state that must be recorded; do not claim automatic persistence or resume recovery. |
+| Craft Yarn Council, “Knit 911” | 2026-08-19; current page checked | CYC provides practical reference topics including row-start cues, changing yarn or starting a new skein, circular needles, dropped/twisted stitches, joining seams, and finishing. | It does not define a complete interruption handoff record or prove Stitch & Scale captures one. | A resume card should retain row/round, side, repeat, marker, stitch count, tool/yarn context, and last-checked time/photo without claiming product capture. |
+| Labonté et al., “Resuming a Dynamic Task Following Increasingly Long Interruptions” | 2026-08-19; 2021 publication record located through PMC | Human-factors research frames dynamic-task resumption as reconstruction of primary-task context; interruption length changes resumption demands. | General task research, not knitwear-specific product proof; no performance guarantee is inferred. | Make the story about reconstructing context after a pause, not eliminating mistakes or guaranteeing a correct return. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Records, row/round, counts, tools, yarn, images, source/date, technical review, print/chart review, and test knitting are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for resume capture. | Block automatic resume-state capture, interruption recovery, and correctness claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for automatic save, restore, active-position detection, resume-state capture, or interruption recovery. All 65 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “progress record” into **reconstructing the active work state after a pause, call, travel day, or overnight break**. The fresh concept is `resume-point`: a fictional card places `ROW / ROUND / SIDE / REPEAT / MARKER / COUNT / TOOL / YARN / LAST CHECKED / PHOTO` beside source/date and status. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no automatic save, restore, active-position detection, or interruption recovery claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `hands-busy`, which focuses on working while hands are occupied. `resume-point` changes the pain to **reconstructing the active work state after a pause**. The hook changes to “The hard part is finding your place again.” The visual metaphor changes from hands-busy capture cues to `ROW / ROUND / SIDE / REPEAT / MARKER / COUNT / TOOL / YARN / LAST CHECKED / PHOTO`. The proof surface changes from a hands-occupied note to a current resume-state surface with source/date and status. The emotional turn changes from reducing friction during work to leaving a usable handoff for the future self. The final line changes to “Leave yourself a way back.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale automatically saves resume state, restores a paused project, detects the active row, remembers the marker, validates a returning count, or prevents mistakes without current product proof. Do not use real customer project photos, private records, screenshots, logos, or copyrighted patterns without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[218] [Android Developers — Save UI states](https://developer.android.com/topic/libraries/architecture/saving-states)
+
+[219] [Craft Yarn Council — Knit 911](https://www.craftyarncouncil.com/knit911.html)
+
+[220] [Labonté et al. — Resuming a Dynamic Task Following Increasingly Long Interruptions](https://pmc.ncbi.nlm.nih.gov/articles/PMC8247645/)
+
+[221] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[222] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[223] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[224] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

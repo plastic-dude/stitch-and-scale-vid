@@ -669,3 +669,13 @@ The nearest prior angle is `before-download`, which focuses on broad factual con
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `direction-cue`, which focuses on which way a row travels. `construction-route` changes the pain to which construction path the fabric follows, including flat work, joins, rounds, held live stitches, temporary-yarn removal, and closure. It changes the hook to “The next step is a route change,” the visual metaphor from directional arrows to `START / FLAT / TURN / JOIN / ROUND / LIVE / REMOVE / CLOSE`, the proof surface from row traversal orientation to a current construction-route surface with source/date and status, the emotional turn from reading direction to seeing route transitions before the maker hands off or joins the fabric, and the final line to “Map the route before the fabric moves.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — resume point — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `resume-point` | A maker must reconstruct the active work state after a pause and may not remember row/round, side, repeat, marker, count, tool, yarn, or visual context | “The hard part is finding your place again.” | One current, approved resume-state surface with row/round, side, repeat, marker, count, tool, yarn, last-checked, photo, source, date, and status labels | Leaving a usable handoff for the future self without a recovery promise | “Leave yourself a way back.” | blocked; product proof, technical review, rights/privacy, interruption-recovery evidence, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `hands-busy`, which focuses on working while hands are occupied. `resume-point` changes the pain to reconstructing the active work state after a pause. It changes the hook to “The hard part is finding your place again,” the visual metaphor from hands-busy capture cues to `ROW / ROUND / SIDE / REPEAT / MARKER / COUNT / TOOL / YARN / LAST CHECKED / PHOTO`, the proof surface from a hands-occupied note to a current resume-state surface with source/date and status, the emotional turn from reducing friction during work to leaving a usable handoff for the future self, and the final line to “Leave yourself a way back.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
