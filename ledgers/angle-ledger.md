@@ -679,3 +679,13 @@ The nearest prior angle is `direction-cue`, which focuses on which way a row tra
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `hands-busy`, which focuses on working while hands are occupied. `resume-point` changes the pain to reconstructing the active work state after a pause. It changes the hook to “The hard part is finding your place again,” the visual metaphor from hands-busy capture cues to `ROW / ROUND / SIDE / REPEAT / MARKER / COUNT / TOOL / YARN / LAST CHECKED / PHOTO`, the proof surface from a hands-occupied note to a current resume-state surface with source/date and status, the emotional turn from reducing friction during work to leaving a usable handoff for the future self, and the final line to “Leave yourself a way back.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — repair state — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `repair-state` | A discovered stitch or pattern issue may be observed, scoped, acted on, and still unverified; the status can collapse into “fixed” | “Found is not fixed.” | One current, approved issue-disposition surface with observed, scope, action, recheck, open-risk, source, version, and status labels | Keeping resolution status honest without a repair promise | “Name what changed—and what is still open.” | blocked; product proof, technical review, rights/privacy, verified-fix evidence, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `error-language`, which focuses on how an error is worded. `repair-state` changes the pain to what happened to a discovered issue after it was reported. It changes the hook to “Found is not fixed,” the visual metaphor from error labels to `OBSERVED / SCOPE / ACTION / RECHECK / OPEN RISK / SOURCE / VERSION / STATUS`, the proof surface from wording to a current issue-disposition surface, the emotional turn from naming the problem fairly to keeping its resolution status honest, and the final line to “Name what changed—and what is still open.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

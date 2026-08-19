@@ -1,0 +1,51 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-123300-repair-state-v001
+angle_slug: repair-state
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_repair-state_9x16_v001_blocked_20260819-123300.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-issue-disposition-surface-with-observed-scope-action-recheck-open-risk-source-version-status
+product_version: null
+proof_capture_approved: false
+observed_status: missing
+scope_status: missing
+action_status: missing
+recheck_status: missing
+open_risk_status: missing
+source_status: missing
+version_status: missing
+disposition_status: missing
+diagnosis_status: unverified
+repair_recommendation_status: unverified
+automatic_correction_status: unverified
+verified_fix_status: prohibited_without_proof
+technical_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no diagnosis, repair recommendation, automatic correction, or verified-fix claim
+  - CYC and Sister Mountain guidance are context, not product behavior
+  - action is not recheck, and recheck is not verified resolution
+  - fictional issue cards are not product UI, customer records, or pattern data
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private issue-disposition surface with exact observed, scope, action, recheck, open-risk, source, version, and status labels, then rerun disposition, claims, technical, caption, audio, platform, rights, privacy, and Director gates.

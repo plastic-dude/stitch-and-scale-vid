@@ -2315,3 +2315,49 @@ Do not claim Stitch & Scale automatically saves resume state, restores a paused 
 [223] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [224] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Sixty-sixth wide-research question: found is not fixed — 2026-08-19
+
+### Research question
+When a maker discovers a dropped stitch, twisted stitch, missing stitch, extra stitch, or suspected pattern defect, how can they distinguish observed issue, affected scope, action taken, recheck status, and unresolved risk without claiming Stitch & Scale diagnoses or repairs knitting?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers who need an honest issue disposition after discovering a possible mistake or pattern defect. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Knit 911” | 2026-08-19; current page checked | CYC’s troubleshooting hub includes dropped/twisted stitches, extra/missing stitches, yarn changes, circular needles, joining seams, finishing, and other repair topics. It includes scope-sensitive advice such as unraveling to an error when a dropped stitch is far back. | A reference hub is not a structured issue ledger, diagnosis engine, or proof that every repair is safe for every project. | Separate observed issue, location/scope, action taken, recheck, and unresolved status; do not claim automated diagnosis or repair. |
+| Sister Mountain, “A Beginner’s Guide to Working with Tech Editors” | 2026-08-19; current page checked; article dated 2019-12-17 | The article distinguishes tech editing from test knitting: tech editors identify errors/inconsistencies and return corrections; designers make changes; test knitters provide user-experience feedback and should not be expected to find major errors. | Independent educational guidance, not a universal standard or Stitch & Scale product proof. | Preserve technical-editing and test-knitting evidence as separate lanes; never merge `reported` with `fixed` or `verified`. |
+| Stitch & Scale pattern-QA, craft-business-records, publishing/export, and mobile-maker contracts | 2026-08-19; contracts re-read | Defect notes, repro steps, correction, status, source, version/date, technical editing, print/chart review, and test knitting are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for repair-state capture. | Block issue diagnosis, repair recommendation, automatic correction, and verified-fix claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for error diagnosis, repair recommendation, automatic correction, verified-fix status, or issue-disposition capture. All 66 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “error wording” into **whether a discovered issue has been observed, scoped, acted on, and rechecked—or is still unresolved**. The fresh concept is `repair-state`: a fictional card places `OBSERVED / SCOPE / ACTION / RECHECK / OPEN RISK / SOURCE / VERSION / STATUS`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no diagnosis, repair recommendation, automatic correction, or verified-fix claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `error-language`, which focuses on how an error is worded. `repair-state` changes the pain to **what happened to a discovered issue after it was reported**. The hook changes to “Found is not fixed.” The visual metaphor changes from error labels to `OBSERVED / SCOPE / ACTION / RECHECK / OPEN RISK / SOURCE / VERSION / STATUS`. The proof surface changes from wording to a current issue-disposition surface. The emotional turn changes from naming the problem fairly to keeping its resolution status honest. The final line changes to “Name what changed—and what is still open.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale diagnoses knitting errors, recommends repairs, applies corrections, validates a fix, or guarantees a defect is resolved without current product proof and qualified technical review. Do not use real customer issue records, private patterns, screenshots, logos, or copyrighted charts without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[225] [Craft Yarn Council — Knit 911](https://www.craftyarncouncil.com/knit911.html)
+
+[226] [Sister Mountain — A Beginner’s Guide to Working with Tech Editors](https://www.sistermountain.com/blog/tech-editing-beginners-guide)
+
+[227] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[228] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[229] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[230] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
