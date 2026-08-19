@@ -4977,3 +4977,54 @@ Do not claim that Stitch & Scale currently supports missing-value codes, `N/A` s
 ### Research limit
 
 The sources establish distinctions and design principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently supports missing-value codes, field-state semantics, calculations that exclude non-values, or export annotations. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-fifteenth wide-research question: displayed is not controlling — 20260819-184133
+
+### Research question
+
+When the same measurement or business fact appears in multiple places, what proves which value is authoritative, which is derived, which is only displayed, and whether an override is permitted?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| W3C PROV-DM | Page checked 2026-08-19 | Provenance records entities, activities, and agents involved in producing or delivering data; it distinguishes usage, generation, derivation, attribution, and responsibility. A derivation requires more than a superficial connection between two values. | Domain-agnostic standard; not a Stitch & Scale data model. | Make the creative about control relationships and derivation, not merely showing a source note. |
+| Snowflake — Data Lineage | Page checked 2026-08-19 | Lineage tracks origin, transformations, downstream dependencies, usage, ownership, definitions, and quality context. A lineage record must remain current as schemas and dependencies change. | Vendor guidance for enterprise systems; no evidence Stitch & Scale exposes lineage. | Add `SOURCE`, `DERIVED FROM`, `TRANSFORM`, `AFFECTED OUTPUT`, and `LAST REVIEWED` to the fictional proof surface. |
+| OpenLineage — Facets and Dataset Facets | Page checked 2026-08-19 | Events distinguish runs, jobs, input datasets, output datasets, and attached metadata facets; input and output contexts can differ. Versioned custom facets need collision-safe names and immutable schema pointers. | Specification context; not a required Stitch & Scale architecture. | Show that input, transformation, output, and display are different evidence roles rather than one repeated number. |
+| Atlassian — Single Source of Truth | Page checked 2026-08-19 | Duplicate or conflicting locations create confusion; a maintained source of truth needs a designated location, owner, templates, update responsibility, and ongoing review. | Product/vendor guidance; not product proof. | Make ownership and review part of the fictional authority card; do not promise a current registry. |
+| Sister Mountain — Grading patterns with a spreadsheet | Page checked 2026-08-19 | A practical grading workflow keeps body measurements, ease, finished measurements, gauges, formulas, and design decisions visible, with values referenced or calculated across sizes. | Practitioner tutorial; not a Stitch & Scale specification. | Use a measurement feeding a downstream formula as the visual story, while keeping all numbers fictional. |
+| W3C WCAG 2.2 — Error Identification | Page checked 2026-08-19 | Detected input errors must identify the affected item and describe the error in text; visual treatment alone is insufficient. | Accessibility guidance; not proof of current product validation or conformance. | Require text labels for an override conflict and the affected output; captions must not cover them. |
+| Stitch & Scale local QA, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | QA separates canonical inputs from derived output checks; records distinguish recorded facts, derived values, estimates, and plans; mobile workflows require visible validation and safe handling of dense data. | Internal contracts, not current product-proof evidence. | Block the package until exact current authority, override, owner, and downstream-impact behavior is proven. |
+
+### Research synthesis
+
+A number repeated in several places is not automatically authoritative. The visual opportunity is one fictional source card feeding a derived measurement, a display card, and a downstream formula. An unlabelled duplicate pauses at a gate asking which field controls. Candidate angle: `authority-state`. Hook: “Displayed is not controlling.” Proof surface: `SOURCE / DERIVED FROM / TRANSFORM / DISPLAYED AS / OVERRIDE / OWNER / LAST REVIEWED / AFFECTED OUTPUT`, explicitly illustrative until product proof verifies exact labels. Emotional turn: duplicate-data anxiety becomes accountable dependency clarity. Final line: “Name what controls the number.”
+
+### Product-state reconciliation
+
+No current product-proof registry or approved capture verifies canonical-source markers, derived-from links, transformation labels, display-versus-control semantics, override permissions, owners, last-reviewed state, or affected-output mapping. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+### Candidate distinctness
+
+The nearest prior angle is `absence-state`, which concerns whether a blank, zero, not applicable, unknown, or not checked state is semantically named before calculation. `authority-state` changes the pain to **multiple populated values or views with no visible control relationship**. It changes the hook to “Displayed is not controlling”; the visual metaphor from a single cell branching into absence meanings to one source feeding derived, display, and downstream nodes; the proof surface from value/status/reason/checked labels to source, derivation, transformation, display, override, owner, review, and affected output; the emotional turn from false precision to accountable dependency clarity; and the final line to “Name what controls the number.”
+
+It is distinct from `provenance-chain`, which is broad source lineage; `source-note`, which is a note attached to a source; `measurement-provenance`, which is measurement context; `value-state`, which classifies recorded/derived/estimated/planned values; `decision-ledger`, which records a decision; `conversion-trace`, which follows a conversion; `grade-transparency`, which exposes grading math; `conflict-state`, which concerns conflicting changes; `absence-state`, which concerns non-values; and `commit-state`, which concerns save acknowledgement. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes a source-of-truth registry, lineage graph, affected-output map, ownership metadata, override controls, or maintained provenance. Do not use `SOURCE`, `DERIVED FROM`, `TRANSFORM`, `DISPLAYED AS`, `OVERRIDE`, `OWNER`, `LAST REVIEWED`, or `AFFECTED OUTPUT` as current product UI. Do not claim accuracy, quality, fit, adoption, revenue, security, privacy, governance, or customer outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[641] [W3C — PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/)
+[642] [Snowflake — Data Lineage: Essential Guide for Enterprise Data Management](https://www.snowflake.com/en/data-governance/data-lineage/)
+[643] [OpenLineage — Facets & Extensibility](https://openlineage.io/docs/spec/facets/)
+[644] [OpenLineage — Dataset Facets](https://openlineage.io/docs/spec/facets/dataset-facets/)
+[645] [Atlassian — Building a true Single Source of Truth](https://www.atlassian.com/work-management/knowledge-sharing/documentation/building-a-single-source-of-truth-ssot-for-your-team)
+[646] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+[647] [W3C — Understanding Success Criterion 3.3.1: Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
+[648] [Stitch & Scale local skill contracts — pattern QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+These sources establish provenance, lineage, dependency, and maintenance principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes a source-of-truth registry, lineage graph, override controls, or affected-output map. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.

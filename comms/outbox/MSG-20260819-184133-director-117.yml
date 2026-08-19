@@ -1,0 +1,19 @@
+message_id: MSG-20260819-184133-director-117
+created_at: 2026-08-19T18:41:33+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_authority-state_9x16_v001_blocked_20260819-184133
+parent_id: BRF-founder-proof-authority-state-9x16-v001
+status: blocked
+summary: Authority-state concept is blocked because no current approved product proof verifies canonical-source, derivation, display, override, ownership, review, or downstream-impact behavior.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass115-browser-findings.md
+  - briefs/SS_founder-proof_authority-state_9x16_v001_blocked_20260819-184133.md
+  - scripts/SS_founder-proof_authority-state_9x16_v001_blocked_20260819-184133.md
+  - platforms/SS_founder-proof_authority-state_9x16_v001_matrix_20260819-184133.md
+  - ledgers/20260819-authority-state.md
+  - manifests/SS_founder-proof_authority-state_9x16_v001_blocked_20260819-184133.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing the exact source/derived/transform/display/override/owner/review/affected-output surface plus one downstream output; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
