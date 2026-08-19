@@ -4873,3 +4873,57 @@ Do not claim that Stitch & Scale creates, stores, encrypts, schedules, maintains
 ### Research limit
 
 CISA and NIST provide cybersecurity and contingency-planning guidance, not a Stitch & Scale product specification. RPO and RTO are planning concepts here, not measured outcomes. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact backup-state surface and labels.
+
+
+## One-hundred-thirteenth wide-research question: saved is not a green check — 20260819-182926
+
+### Research question
+
+When a maker is interrupted after editing a pattern or record, what evidence distinguishes `EDITED`, `SAVE REQUESTED`, `SAVED LOCALLY`, `SAVE FAILED`, `LAST VERIFIED`, `UNSAVED CHANGES`, and `RETURN ACTION`, without implying sync, backup, restoration, or durability guarantees?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| Nielsen Norman Group — Visibility of System Status | Page checked 2026-08-19 | Systems should keep users informed about what is happening; feedback should communicate whether an interaction succeeded and what the user can do next, reducing repeated actions caused by uncertainty. | Usability guidance, not a Stitch & Scale product result. | Move the concept from generic “save your work” to a visible, time-ordered save/commit state and next action. |
+| W3C WCAG 2.2 — Status Messages | Page checked 2026-08-19 | Status messages cover success/results, waiting, progress, and errors; they can be exposed to assistive technology without moving focus. W3C gives “saved” and “busy” examples. | Web accessibility guidance; no proof of an accessible Stitch & Scale implementation. | Require visible and programmatically determinable states while preserving focus and avoiding a noisy narrator/caption treatment. |
+| W3C WCAG2Mobile editor’s draft | Page checked 2026-08-19 | Mobile evaluation is framed around screens and highlights orientation, reflow, focus, target size, redundant entry, and status messages. The document is informative and work in progress. | Not normative; no product conformance claim. | Add phone portrait, landscape, resize, keyboard, focus, reduced-motion, and interruption-return review to the treatment gates. |
+| ACM — Local-first software: you own your data, in spite of the cloud | Abstract checked 2026-08-19 | Local-first principles connect offline use, ownership, privacy, preservation, and user control; UI and data-model trade-offs remain important. | Research framing, not evidence that Stitch & Scale syncs, backs up, restores, or preserves data beyond documented behavior. | Keep local-save language bounded and never turn it into sync, backup, durability, or recovery language. |
+| Apple Human Interface Guidelines — Progress indicators | Page checked 2026-08-19 | Progress feedback should be accurate, consistently placed, and specific; stalled operations need feedback about the problem and possible action; cancellation can require a loss warning. | Apple-platform guidance, not a universal rule or product proof. | Treat save-in-progress, failed, and retry states as explicit beats rather than a decorative checkmark. |
+| Android Developers — Saving UI state and Compose state-saving | Pages checked 2026-08-19 | Users expect UI state to survive rotation, background return, and system process recreation; transient saved state and persistent local storage have different lifetime boundaries; restoration should be verified. | Android architecture guidance, not direct proof for this web app and not evidence of successful Stitch & Scale restoration. | Separate immediate save acknowledgement from later return/restoration evidence and mark both as unverified until product proof exists. |
+| W3C Web Sustainability Guidelines draft | Page checked 2026-08-19 | The draft emphasizes honest, user-controlled, resilient systems and transparent, dated claims; it warns against treating partial improvements as evidence of a broader outcome. | Group Note Draft and not normative; not a product or campaign claim. | Keep the creative narrow: show named status evidence, not a broad resilience or sustainability promise. |
+| Stitch & Scale local workflow contracts | Re-read 2026-08-19 | Mobile-maker workflow requires visible saved/unsaved/pending/error feedback, interruption testing, local-first persistence, explicit recovery, and no hidden network assumptions; craft-business records require restoration testing before calling workflows durable. | Internal contracts, not external product proof. | Block the package until exact current labels and interruption behavior are supplied by a versioned product-proof registry or approved capture. |
+
+### Research synthesis
+
+The research supports a story about **commit acknowledgement**, not a generic persistence, backup, or restore promise. The dramatic subject is one interrupted edit whose status is made legible: `EDITED` is not `SAVED LOCALLY`; `SAVE REQUESTED` is not `SAVED`; `SAVE FAILED` needs an action; and a later return is not proof of restoration unless it is verified. Candidate angle: `commit-state`. Hook: “Saved is not a green check.” Final line: “Name the state before you leave the work.” Proof surface: `EDITED AT / SAVE REQUESTED / SAVED LOCALLY AT / SAVE FAILED / LAST VERIFIED / UNSAVED CHANGES / RETURN ACTION`, explicitly illustrative until product proof verifies exact labels.
+
+### Product-state reconciliation
+
+No current product-proof registry or approved capture verifies the exact save-state surface, save timing, local-save semantics, failure behavior, last-verified label, unsaved-change guard, restored-state behavior, or retry action. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their reserved filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+### Candidate distinctness
+
+The nearest prior angle is `backup-state`, which concerns a copy being treated as recoverable without backup scope, snapshot, integrity check, restore test, recovered state, RPO, RTO, owner, or status. `commit-state` changes the pain to **uncertainty immediately after an edit or save action and during interruption/return**. It changes the hook to “Saved is not a green check”; the visual metaphor from a copy-to-restore test path to a single edit moving through a visible status timeline; the proof surface from backup/recovery fields to edited-at, save-requested, saved-locally-at, save-failed, last-verified, unsaved-changes, and return-action; the emotional turn from confronting untested recoverability to calm agency about the next safe action; and the final line to “Name the state before you leave the work.”
+
+It is distinct from `backup-state` and `recovery-proof` because it does not discuss copies, backup identity, restore tests, or recovered files; from `offline-continuity` because it does not focus on signal loss or synchronization; from `resume-point` because it does not focus on where construction resumes; from `first-record` because it is not initial record capture; from `artifact-status` because it is not a general asset lifecycle; from `repair-state` because it is not remediation; from `default-state` because it is not initial configuration; and from `response-state` because it centers the user’s last save action and the immediate next choice. It does not recreate imported `false-completion` or `release-gate-roster`, which remain blocked human-gate concepts with occupied filenames.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale autosaves, saves instantly, stores locally at a measured time, syncs, backs up, restores, survives process death, prevents data loss, provides durable recovery, or exposes accessible status messages until a current approved capture or registry entry proves the exact surface and behavior. Do not use `EDITED AT`, `SAVE REQUESTED`, `SAVED LOCALLY AT`, `SAVE FAILED`, `LAST VERIFIED`, `UNSAVED CHANGES`, or `RETURN ACTION` as current product UI. Do not claim WCAG conformance, iOS/Android parity, resilience, privacy, security, quality, fit, accuracy, adoption, revenue, or customer outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[617] [Nielsen Norman Group — Visibility of System Status](https://www.nngroup.com/articles/visibility-system-status/)
+[618] [W3C — Understanding Success Criterion 4.1.3: Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)
+[619] [W3C — Guidance on Applying WCAG 2.2 to Mobile Applications](https://w3c.github.io/matf/)
+[620] [Kleppmann et al. — Local-first software: you own your data, in spite of the cloud](https://dl.acm.org/doi/abs/10.1145/3359591.3359737)
+[621] [Apple Developer — Progress indicators](https://developer.apple.com/design/human-interface-guidelines/progress-indicators)
+[622] [Android Developers — Save UI state](https://developer.android.com/topic/libraries/architecture/saving-states)
+[623] [Android Developers — Save UI state in Compose](https://developer.android.com/develop/ui/compose/state-saving)
+[624] [W3C — Web Sustainability Guidelines](https://www.w3.org/TR/web-sustainability-guidelines/)
+[625] [Stitch & Scale local skill contracts — mobile-maker, craft-business, QA, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources provide principles or platform-specific guidance, not evidence of Stitch & Scale’s actual save UI, persistence semantics, interruption behavior, restore behavior, sync, backup, or accessibility implementation. Product truth remains unverified until a versioned approved capture or proof-registry entry supplies the exact current surface and labels.
