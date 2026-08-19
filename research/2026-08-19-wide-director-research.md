@@ -5866,3 +5866,41 @@ Do not claim that Stitch & Scale currently exposes output inclusion scope, exclu
 ### Research limit
 
 These sources establish integrity, assurance, output-processing, provenance, usage, derivation, invalidation, and responsibility concepts, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes output inclusion scope, excluded records, exclusion reasons, filter criteria, review state, output membership summaries, omission detection, or completeness controls. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-thirty-fifth wide-research question: measured is not calibrated — 20260819-210058
+
+### Research question
+
+When a gauge or body measurement is recorded, what proves it was taken against the intended reference and conditions rather than merely entered?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| NIST, *Metrological Traceability: Frequently Asked Questions and NIST Policy* | 2026-08-19 | A measurement result is traceable when it relates to a reference through a documented unbroken calibration chain, with each calibration contributing to measurement uncertainty; NIST separates provider support from user assessment and says traceability alone does not guarantee fitness for purpose. | Metrology policy; not a Stitch & Scale feature, and not evidence that ordinary knitwear work needs laboratory calibration. | Make reference, conditions, and review visible as planning evidence, while avoiding certification language. |
+| BIPM/JCGM VIM3 §2.41 — metrological traceability | 2026-08-19 | VIM defines traceability as a property of a measurement result related to a reference through a documented unbroken chain of calibrations, each contributing to measurement uncertainty. | Formal metrology vocabulary; not a current product data shape. | Distinguish a recorded number from a documented measurement context without claiming traceability. |
+| Craft Yarn Council, *YDKWYDK: Gauge and why it’s important* | 2026-08-19 | Gauge is described as stitches and rows per unit; the practical workflow is to make a sample swatch, compare it against pattern gauge, and adjust needle/hook size, stitch count, or yarn when the result differs. Swatch size and construction can be pattern-specific. | Craft education article, not a universal rule or product proof. | Anchor the audience pain in swatch/reference comparison rather than abstract laboratory calibration. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Measurement capture, grading, technical editing, print, charts, schematics, test knitting, records, and human review are separate evidence boundaries. | Internal workflow contracts, not current product evidence. | Keep calibration-state as a blocked workflow concept and preserve all human gates. |
+
+### Research synthesis and concept decision
+
+Measured is not calibrated. Candidate angle: `calibration-state`. Hook: “Measured is not calibrated.” Fictional proof surface: `MEASUREMENT / REFERENCE / CONDITIONS / INSTRUMENT / UNIT / DATE / REPEAT / REVIEWED`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: a measurement card enters a reference frame; an uncontextualized number remains in a holding lane while a documented measurement gains a bounded comparison path. Emotional turn: “I entered the number” becomes “I can explain how this number was obtained.” Final line: “Name what made the number meaningful.”
+
+The candidate is distinct from `input-state` (entered is not intended), `unit-state` (a number without a unit is unfinished), `tolerance-state` (within range is not understood), `reproducibility-state` (repeatable is not reproduced), `comparison-basis` (a comparison needs a valid basis), `absence-state` (zero is not missing), and `evidence-type` (evidence needs a type). This angle focuses on the measurement context and reference conditions that make a recorded number interpretable, not whether an entry matches intent, carries a unit, falls within a defined tolerance, was reproduced, has a valid comparison basis, represents a missing value, or is classified by evidence type.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 134 before this package; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies measurement reference, conditions, instrument, date, repeat, review, calibration-related behavior, or exact labels. The package must therefore remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing a single measurement with its reference, conditions, unit, date, repeat or comparison, and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes calibration, metrological traceability, reference capture, condition capture, instrument capture, repeat comparison, uncertainty, measurement accuracy, or reviewed-measurement controls. Do not imply that ordinary knitwear work requires laboratory calibration or certification. Do not use `MEASUREMENT`, `REFERENCE`, `CONDITIONS`, `INSTRUMENT`, `UNIT`, `DATE`, `REPEAT`, or `REVIEWED` as current product UI. Preserve calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[764] [NIST — Metrological Traceability: Frequently Asked Questions and NIST Policy](https://www.nist.gov/metrology/metrological-traceability)
+[765] [Craft Yarn Council — YDKWYDK: Gauge and why it’s important](https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important)
+[766] [BIPM/JCGM — VIM3 §2.41 Metrological Traceability](https://jcgm.bipm.org/vim/en/2.41.html)
+[767] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
