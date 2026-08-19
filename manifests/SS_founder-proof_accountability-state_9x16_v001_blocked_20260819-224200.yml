@@ -1,0 +1,71 @@
+manifest_version: 1
+video_id: SS_founder-proof_accountability-state_9x16_v001_blocked_20260819-224200
+brief_id: BRF-founder-proof-accountability-state-9x16-v001
+campaign: founder-proof
+angle_slug: accountability-state
+format: 9x16
+version: v001
+status: blocked
+created_at: 2026-08-19T22:42:00+01:00
+filename_reservation: SS_founder-proof_accountability-state_9x16_v001_blocked_20260819-224200.mp4
+research_record: research/2026-08-19-wide-director-research.md
+browser_findings: research/2026-08-19-pass165-browser-findings.md
+brief_path: briefs/SS_founder-proof_accountability-state_9x16_v001_blocked_20260819-224200.md
+script_path: scripts/SS_founder-proof_accountability-state_9x16_v001_blocked_20260819-224200.md
+platform_matrix_path: platforms/SS_founder-proof_accountability-state_9x16_v001_matrix_20260819-224200.md
+continuity_path: ledgers/20260819-accountability-state.md
+media_path: null
+media_generated: false
+media_uploaded: false
+product_proof:
+  registry_entry: null
+  approved_capture: null
+  exact_surface_verified: false
+  accountable_role_person_verified: false
+  required_action_due_point_verified: false
+  acknowledgment_evidence_response_verified: false
+  exception_disposition_verified: false
+claims:
+  product_exposes_accountable_owner_assignment_due_date_acknowledgment_evidence_action_response_exception_disposition_or_accountability_log: prohibited
+  product_guarantees_correctness_accessibility_conformance_fit_recommendation_or_outcomes: prohibited
+  product_assigns_legal_liability_or_automates_responsibility: prohibited
+  provenance_is_accountability_or_approval: prohibited
+  accountability_replaces_human_gates: prohibited
+  accuracy_adoption_revenue_outcomes: prohibited
+  founder_knitwear_identity: prohibited
+human_evidence_gates:
+  calculation: separate
+  technical_edit: separate
+  physical_print_review: separate
+  chart_readability: separate
+  schematic_scale: separate
+  test_knit: separate
+narrator:
+  family: one approved narrator family only
+  status: pending
+captions:
+  human_review_required: true
+  caption_on_master: pending
+  caption_free_master: pending
+  proof_obstruction_allowed: false
+audio:
+  cleared_voice_required: true
+  cleared_music_or_original_only: true
+  foley: card placement, acknowledgment, accountability incomplete
+rights_privacy:
+  status: required_not_approved
+  private_records_allowed: false
+  recognizable_people_allowed: false
+  copyrighted_patterns_allowed: false
+  unlicensed_music_clips_artwork_allowed: false
+  legal_evidence_allowed: false
+review_state:
+  reviews_dir_checked: true
+  orders_dir_checked: true
+  comms_inbox_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked_filename_occupied
+  release_gate_roster: blocked_filename_occupied
+next_action: Provide one versioned non-private rights-cleared approved capture or product-proof registry entry showing one accountability chain with finding_or_decision, accountable_role, accountable_person, required_action, due_point, evidence_of_action, acknowledged_at, response, exception, and disposition before presenting accountability behavior; then rerun all gates.
+generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.

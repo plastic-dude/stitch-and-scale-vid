@@ -7092,3 +7092,50 @@ The nearest prior angle is `reviewability-state`, which asks whether a reviewer 
 [862]: https://www.w3.org/TR/prov-dm/ "W3C PROV-DM: The PROV Data Model"
 [863]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
 [864]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
+
+## One-hundred-sixty-fifth wide-research question: assigned is not accountable — 20260819-224200
+
+**Question.** What proves that a bounded finding or decision has an answerable actor, required action, due point, acknowledgment, evidence of action, response, exception path, and disposition, rather than merely a named role, authority, owner field, or escalation route?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between an assigned role and an answerable follow-through record; audience is makers, reviewers, and developers who need to see who carries a next action; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST accountability boundary.** NIST's glossary defines accountability in several cited contexts as answerability to proper authority and as the property or goal that actions of an entity can be traced uniquely to that entity. Used only as a conceptual boundary, this supports separating a named role from a traceable, answerable action. It does not prove Stitch & Scale ownership, audit trails, approval, legal responsibility, or product accountability. [865]
+
+**Craft follow-through context.** Craft Yarn Council advises readers to read the entire relevant pattern section, actually do what it says, and seek help such as having a friend read the pattern aloud when needed. It also describes gauge as important to producing a successful project and recommends a gauge swatch before beginning. Used only as craft workflow context, this supports an action card that records what must be done, who answers for it, evidence of action, and disposition rather than treating a role label or instruction view as complete follow-through. It does not prove a Stitch & Scale assignment, accountability, human-gate, or success feature. [866]
+
+**Provenance boundary.** W3C PROV-DM's agents and responsibility structures can inform a conceptual separation between attribution/history and accountability for a required next action. Provenance does not itself establish an accountable owner, due point, response, exception path, or disposition. [862]
+
+**Accessibility boundary.** W3C prerecorded-caption guidance remains the production constraint: captions must carry dialogue, speaker identification, and meaningful sound information. Pass 165 reserves a fixed caption lane, one narrator family, caption-on and caption-free review masters, and no caption over finding/decision, accountable role/person, action, due point, evidence, response, exception, or disposition fields. [848]
+
+**Selected angle.** `accountability-state` — “Assigned is not accountable.”
+
+**Primary pain.** A role or owner field can be present while no one is answerable for a specific action by a due point, with evidence of response and an exception/disposition path. The missing element is an explicit accountability chain from finding or decision to actor, action, due point, acknowledgment, evidence, response, exception, and disposition.
+
+**Hook.** “Assigned is not accountable.”
+
+**Dramatic engine.** Subject: two fictional action cards for one craft finding. Desire: make the next step answerable without implying legal liability or automatic assignment. Obstacle: the first card names a role but no required action or due point; the second names an action but no evidence of response or exception path. Stakes: a reviewer can mistake a populated owner field for completed follow-through. Change: the card gains finding/decision, accountable role/person, required action, due point, evidence of action, acknowledgment, response, exception, and disposition. Contradiction: a named owner is not accountability without an answerable action and evidence. Escalation: due point passes with no evidence of action; the card stops at `ACCOUNTABILITY INCOMPLETE`. Final image: one bounded action card with `DISPOSITION: HUMAN FOLLOW-UP REQUIRED`, not approved.
+
+**Visual grammar.** Neutral evidence board; two action cards for `FINDING F-001`; a role label is separated from an accountable action chain; arrows connect finding to actor to action to due point to evidence to response; amber for missing answerability; red only for `ACCOUNTABILITY INCOMPLETE`; no green completion state. No real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, legal language, product claim, or person identity. Captions occupy a fixed lane that never covers finding/decision, role/person, action, due point, evidence, acknowledgment, response, exception, disposition, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `FINDING_OR_DECISION / ACCOUNTABLE_ROLE / ACCOUNTABLE_PERSON / REQUIRED_ACTION / DUE_POINT / EVIDENCE_OF_ACTION / ACKNOWLEDGED_AT / RESPONSE / EXCEPTION / DISPOSITION`.
+
+**Research decision.** Research changed the treatment from a generic ownership card to an answerability chain: a named role must be linked to a required action, due point, acknowledgment, evidence of action, response, exception, and disposition. Authority remains separate from accountability, and no legal-liability or automation claim is made. No source proves a product accountability feature.
+
+**Distinctness decision.** The nearest prior angle is `rationale-state`, which asks whether the reason for a decision is explicitly connected to evidence and criteria. `accountability-state` changes the pain to whether a bounded next action is answerable to an actor with a due point and evidence of response. It differs from `authority-state`, which asks who may authorize; `role-state`, which asks what a role is called; `escalation-state`, which asks whether a finding was routed; `rationale-state`, which asks why a decision follows; `custody-state`, which asks who handled evidence; `audit-state`, which asks whether an audit ran; and imported `false-completion` / `release-gate-roster`, which remain blocked human-gate concepts. The hook changes to “Assigned is not accountable”; the visual metaphor changes from a provenance strip feeding an incomplete rationale bridge to a role label that must connect through action/due/evidence/response/exception/disposition; the proof surface changes to finding-or-decision/accountable-role/accountable-person/required-action/due-point/evidence-of-action/acknowledged-at/response/exception/disposition; the emotional turn changes from accountable decision logic to answerable follow-through; and the final line becomes “Name who answers for the next action.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name who answers for the next action.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed accountable role/person, required action, due point, acknowledgment, evidence of action, response, exception, or disposition surface. No generation or upload is authorized.
+
+## Wide-research Director decision — accountability state — 20260819-224200
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `accountability-state` | A role or owner field can be present while no one is answerable for a specific action by a due point, with evidence of response and an exception/disposition path | “Assigned is not accountable.” | Fictional finding-or-decision/accountable-role/accountable-person/required-action/due-point/evidence-of-action/acknowledged-at/response/exception/disposition card | From “Someone is named” to “Someone answers for the next action” | “Name who answers for the next action.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-224200
+The nearest prior angle is `rationale-state`, which asks whether the reason for a decision is explicitly connected to evidence and criteria. `accountability-state` changes the question to whether a bounded next action is answerable to an actor with a due point and evidence of response. It changes the hook to “Assigned is not accountable”; the visual metaphor from a provenance strip feeding an incomplete rationale bridge to a role label that must connect through action/due/evidence/response/exception/disposition; the proof surface from decision/question/evidence/criteria/assumptions/alternatives/tradeoff/reason/limit/reviewer/disposition to finding-or-decision/accountable-role/accountable-person/required-action/due-point/evidence-of-action/acknowledged-at/response/exception/disposition; the emotional turn from accountable decision logic to answerable follow-through; and the final line to “Name who answers for the next action.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [865]–[866]
+
+[865]: https://csrc.nist.gov/glossary/term/accountability "NIST CSRC Glossary, Accountability"
+[866]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
