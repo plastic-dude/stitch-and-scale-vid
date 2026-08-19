@@ -1688,3 +1688,45 @@ Do not claim Stitch & Scale provides measurement-point diagrams, guided capture,
 [152] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
 
 [153] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Fifty-second wide-research question: what must be true before the step? — 2026-08-19
+
+### Research question
+When a pattern step assumes a prior measurement, swatch, technique, or setup, how can a maker see that dependency before starting the step—without claiming Stitch & Scale detects prerequisites or blocks out-of-order work?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers preparing to follow pattern steps after checking measurements, gauge, techniques, or setup. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Reading Instructions & Other Basics” | 2026-08-19; current page checked | CYC advises reading the entire relevant pattern section, doing what the pattern says, and using a gauge swatch before beginning; it calls gauge a central element in producing a successful project. | Craft-industry guidance, not a universal workflow and not Stitch & Scale proof. | A fresh concept should expose prerequisites before a maker starts a step rather than assuming a prior swatch, setup, or technique is complete. |
+| GOV.UK Design System, “Check a service is suitable” | 2026-08-19; current page checked | GOV.UK says users should be helped to determine early whether a service is suitable, with simple questions and a result that explains eligibility or why it is not suitable. It also says to provide information at the point users need it and avoid asking for information again. | Public-service pattern guidance, not a craft workflow standard and not Stitch & Scale proof. | Use `prerequisite-state`: distinguish `REQUIRED BEFORE / READY / NOT READY / WHY` before a user commits to a step. |
+| Pattern QA and mobile-maker contracts | 2026-08-19; internal contracts | Human review, gauge checks, technical editing, chart readability, and clear mobile sequencing remain distinct; no automatic prerequisite engine is established. | Internal design contracts, not current UI proof. | The concept should show a human-readable readiness boundary without claiming automatic blocking or eligibility logic. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for prerequisite checklists, ready/not-ready states, dependency notices, preflight panels, gauge/measurement readiness surfaces, eligibility explanations, prerequisite detection, out-of-order blocking, gauge validation, or eligibility logic. All 52 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic sequence into **whether the prerequisite for a step is visible and satisfied before beginning**. The fresh concept is `prerequisite-state`: a fictional card separates `REQUIRED BEFORE / READY / NOT READY / WHY`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no automatic blocking, prerequisite detection, gauge validation, or eligibility behavior is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `sequence-map`, which focuses on where a maker moves through pattern sections and related documents. `prerequisite-state` changes the pain to **what must already be true before the next step is safe or meaningful to begin**. The hook changes to “A step can be clear and still be too early.” The visual metaphor changes from a route/sequence map to `REQUIRED BEFORE / READY / NOT READY / WHY`. The proof surface changes from navigation/sequence mapping to a prerequisite checklist, readiness state, dependency notice, preflight panel, gauge/measurement readiness surface, or eligibility explanation. The emotional turn changes from knowing where to go next to informed readiness without automatic blocking. The final line changes to “Show what must be true before the step begins.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale detects prerequisites, blocks out-of-order work, validates gauge completion, confirms technique mastery, or determines eligibility without current proof. Do not claim a gauge swatch guarantees fit or success. Do not use real pattern files, project data, body data, or private records without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[154] [Craft Yarn Council — Reading Instructions & Other Basics](https://www.craftyarncouncil.com/read_instructions.html)
+
+[155] [GOV.UK Design System — Check a service is suitable](https://design-system.service.gov.uk/patterns/check-a-service-is-suitable/)
+
+[156] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[157] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

@@ -539,3 +539,13 @@ The nearest prior angle is `basis-label`, which focuses on whether a value is me
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `measurement-moment`, which focuses on when a measurement is captured and whether a state remains legible. `measure-point` changes the pain to the landmark and direction of the quantity itself. It changes the hook to “A label is not a landmark,” the visual metaphor from timing/state cards to `WHAT / FROM / TO / HOW / UNIT`, the proof surface from a timestamp or capture-state surface to a measurement-point, landmark, from/to, direction, body/garment location, or guided-capture surface, the emotional turn from temporal context to reproducible human measurement through explicit landmarks, and the final line to “Name the points before you trust the number.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — prerequisite state — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `prerequisite-state` | A maker can start a clear step before its required measurement, swatch, technique, or setup is ready | “A step can be clear and still be too early.” | One current, approved prerequisite checklist, ready/not-ready state, dependency notice, preflight panel, gauge/measurement readiness surface, or eligibility explanation with exact labels | Informed readiness without automatic blocking or eligibility certainty | “Show what must be true before the step begins.” | blocked; product proof, pattern/record rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `sequence-map`, which focuses on where a maker moves through pattern sections and related documents. `prerequisite-state` changes the pain to what must already be true before the next step is safe or meaningful to begin. It changes the hook to “A step can be clear and still be too early,” the visual metaphor from a route/sequence map to `REQUIRED BEFORE / READY / NOT READY / WHY`, the proof surface from navigation/sequence mapping to a prerequisite, readiness, dependency, preflight, gauge/measurement-readiness, or eligibility surface, the emotional turn from knowing where to go next to informed readiness without automatic blocking, and the final line to “Show what must be true before the step begins.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
