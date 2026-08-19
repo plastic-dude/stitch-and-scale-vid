@@ -5296,3 +5296,47 @@ Do not claim that Stitch & Scale currently exposes dependency graphs, stale mark
 ### Research limit
 
 These sources establish change-control, provenance, dependency, and impact-analysis principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes dependency graphs, stale markers, invalidation, affected-output lists, recheck records, owners, or release propagation. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-twenty-second wide-research question: selected is not applied — 20260819-193016
+
+### Research question
+
+When a maker selects a size, gauge, scenario, or variant, what proves that the selection is actually applied through grading, chart, schematic, and export rather than only highlighted in one control?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| W3C WAI-ARIA 1.3 | 2026-08-19 | Accessible interfaces need semantic roles, states, properties, values, relationships, and notifications of state changes; selection and current state must be conveyed to assistive technologies. | Working-draft/specification context; not a Stitch & Scale product claim. | Frame the concept around an applied-context path, not a highlight color. |
+| W3C WCAG 2.2 — On Input | 2026-08-19 | Selecting or changing a control setting should have predictable effects; users should be advised before a setting change causes a change of context. | Accessibility guidance; no product behavior evidence. | Make selected-to-applied behavior explicit and explain its downstream consequence. |
+| W3C WCAG 2.2 — Name, Role, Value | 2026-08-19 | User-settable states and values should be programmatically determinable, and state changes should be available to user agents and assistive technologies. | Accessibility guidance; no product behavior evidence. | Require state/value notification as a proof gate, not a visual assumption. |
+| Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet | 2026-08-19 | Grading workflows make sizing, body measurements, ease, gauge, formulas, and finished measurements distinct inputs or decisions; changing size or gauge can affect downstream calculations. | Practitioner education, not a standard and not Stitch & Scale evidence. | Show a selected size/gauge moving through grading and publication views. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Size, gauge, measurements, grading, charts, schematics, exports, and human reviews are separate evidence boundaries; a visible selection is not downstream proof without current capture. | Internal contracts, not current product behavior. | Block until one selection change and one applied downstream path are directly verified. |
+
+### Research synthesis and decision shift
+
+Selected is not applied. Candidate angle: `selection-state`. Hook: “Selected is not applied.” Fictional proof surface: `SELECTED / APPLIED TO / CURRENT CONTEXT / DOWNSTREAM VIEWS / LAST UPDATED / CONFIRMED? / EXPORT USE`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: a selected size chip remains separate from a downstream calculation until an `APPLIED TO` path is confirmed. Emotional turn: visible choice becomes accountable context. Final line: “Name what the selection changes.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies selected size/gauge/scenario/variant controls, applied-context indicators, downstream selection propagation, selection-change notifications, or export behavior. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `dependency-state`, which concerns downstream impact and recheck obligation after an upstream change. `selection-state` changes the pain to **a user-visible selected context being highlighted without proof that grading, charts, schematics, or exports actually use that context**. It changes the hook to “Selected is not applied”; the visual metaphor from an upstream change rippling through dependent artifacts to a selected size/gauge/scenario chip connecting to an applied-context path; the proof surface from changed-input/dependents/last-built-from/stale/rechecked/owner/affected-output/release-state to selected/applied-to/current-context/downstream-views/last-updated/confirmed/export-use; the emotional turn from hidden ripple to accountable context; and the final line to “Name what the selection changes.”
+
+It is distinct from `dependency-state`, `input-state`, `authority-state`, `unit-state`, `tolerance-state`, `applicability-scope`, `commit-state`, and `context-state` because those concepts respectively concern downstream impact after a change, value origin, controlling field, measurement-unit attachment, target/observed boundary, whether a rule applies, save acknowledgement, and contextual metadata. `selection-state` focuses on a user-visible selection being carried into downstream calculations and views. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes selected-context markers, applied-to paths, downstream propagation, selection-change notifications, or selection-aware export. Do not use `SELECTED`, `APPLIED TO`, `CURRENT CONTEXT`, `DOWNSTREAM VIEWS`, `LAST UPDATED`, `CONFIRMED?`, or `EXPORT USE` as current product UI. Do not claim selected-context accuracy, fit, calculation accuracy, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[699] [W3C — WAI-ARIA 1.3](https://www.w3.org/TR/wai-aria-1.3/)
+[700] [W3C — Understanding Success Criterion 3.2.2: On Input](https://www.w3.org/WAI/WCAG22/Understanding/on-input.html)
+[701] [W3C — Understanding Success Criterion 4.1.2: Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html)
+[702] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+[703] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish selection semantics, predictable context changes, accessible state/value notification, and knitwear grading workflow principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes selected-context markers, applied-to paths, downstream propagation, selection-change notifications, or selection-aware export. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.

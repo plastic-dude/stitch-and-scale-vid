@@ -1,0 +1,20 @@
+# Platform Matrix — Selection State — BLOCKED
+
+| Destination | Planned master | Caption/audio requirement | Safe-area / proof requirement | Current rule or evidence | Disposition |
+|---|---|---|---|---|---|
+| Instagram Reels | 9:16, organic-first, under 60s | Human-reviewed captions; caption-on and caption-free review; one narrator | Keep selected chip, applied path, current context, downstream views, confirmation hold, and final action away from edges and caption region | Current accessibility/account behavior requires account preview | Blocked pending proof, rights, and account preview |
+| TikTok organic | 9:16, organic-first, under 60s | Human-reviewed captions; original/cleared audio; no overlapping voices | Preserve generous margins; dense applied-context path must not sit in likely overlays | Paid specifications are not organic proof; current composer preview required | Blocked pending current preview and proof |
+| YouTube Shorts | Vertical, planned under 60s | Upload/edit human-reviewed captions; language limitation checked | Keep selection, applied path, current context, confirmation hold, and final action legible on portrait phone; caption-free review required | Current caption workflow must be checked before derivative export | Blocked pending proof, rights, and final caption QA |
+
+## Master constraints and accessibility acceptance
+
+This package is a planning artifact, not a generated video. No platform is approved for publication. Before any derivative, inspect the current account-specific composer/preview and record date, account, format, caption length, safe area, and disposition. Keep all cards original and labelled `ILLUSTRATIVE — NOT PRODUCT UI` unless an approved current capture replaces them.
+
+Captions must be synchronized, complete, readable, and human-reviewed. Keep text out of the lower caption zone and never cover selected, applied-to, current context, downstream views, last updated, confirmed, export use, tables, numbers, hands, logos, buttons, menus, or primary actions. Review at 320×568, 360×800, 390×844, and 430×932-equivalent phone views where possible, plus desktop and caption-free playback. If product proof later arrives, separately test selection naming/state/value, state-change notification, predictable context behavior, selected-to-applied propagation, downstream grading/chart/schematic/export use, keyboard/focus, large text, reduced motion, interruption recovery, and caption-free playback. Do not turn platform or accessibility checks into a claim that the product offers selected-context accuracy, correct sizing, fit correctness, or accurate export.
+
+## Platform references
+
+[1] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[2] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[3] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[4] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
