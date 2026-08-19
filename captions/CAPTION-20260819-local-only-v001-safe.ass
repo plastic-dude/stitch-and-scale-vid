@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,34,&H00FFFFFF,&H00FFFFFF,&H99000000,&H66000000,0,0,0,0,100,100,0,0,1,2,0,2,80,80,110,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.20,Default,,0,0,,Your pattern should not need my server\Nto stay yours.
+Dialogue: 0,0:00:04.20,0:00:11.30,Default,,0,0,,Stitch & Scale starts with a local project.\NNo account just to begin.
+Dialogue: 0,0:00:11.30,0:00:20.20,Default,,0,0,,But local is not magic. Clear your browser data,\Nand the notice says your local projects go with it.
+Dialogue: 0,0:00:20.20,0:00:29.30,Default,,0,0,,That is the trade: no forced upload,\Nand a responsibility to back up what you cannot afford to lose.
+Dialogue: 0,0:00:29.30,0:00:38.20,Default,,0,0,,I would rather show you the warning\Nthan hide behind a promise.
+Dialogue: 0,0:00:38.20,0:00:45.00,Default,,0,0,,Keep the work on your machine.\NThen help us test what comes next.
