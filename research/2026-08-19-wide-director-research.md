@@ -5606,3 +5606,47 @@ Do not claim that Stitch & Scale currently exposes impact/urgency fields, due ti
 ### Research limit
 
 These sources establish risk-assessment, measurable lifecycle decision, accessible status-message, and notification-urgency principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes impact/urgency fields, due times, owners, priority reasons, queue ordering, escalation rules, or accessible priority announcements. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-twenty-ninth wide-research question: assigned is not available — 20260819-201933
+
+### Research question
+
+What proves an assigned review or craft-work task is actually available and feasible before its due time, rather than only having an owner name?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| NIST SP 800-34 Rev. 1 — Contingency Planning Guide | 2026-08-19 | Contingency planning helps personnel evaluate systems and operations to determine planning requirements and priorities; availability and resilience require more than naming a responsible person. | Government guidance; not a Stitch & Scale product claim. | Frame assignment as a feasibility question, not a completed commitment. |
+| NIST SP 800-30 Rev. 1 — Guide for Conducting Risk Assessments | 2026-08-19 | Risk assessment informs appropriate courses of action in response to identified risks; decisions need assessed conditions rather than unexplained labels. | Government risk guidance; no product behavior evidence. | Require visible time, conflict, and fallback reasoning before a due date is trusted. |
+| W3C WCAG 2.2 — Status Messages | 2026-08-19 | Important status changes should be programmatically determinable to assistive technology without unnecessary focus changes; status delivery is not the same as task feasibility. | Accessibility guidance; not a product claim. | Treat availability and acceptance changes as accessible status, not color-only state. |
+| Apple HIG — Managing Notifications | 2026-08-19 | Notification delivery is permissioned and filtered; interruption levels differ; urgency should be represented accurately and high-priority interruption should not be used for low-priority content. | Apple platform guidance; no product behavior evidence. | Separate urgency from capacity, permission, and actual acceptance. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | A named owner, due date, status, caption, audio, and human evidence gate do not by themselves prove availability or feasible completion. | Internal contracts, not current product behavior. | Block until one assigned task shows a feasible window, conflict check, explicit acceptance, and fallback. |
+
+### Research synthesis and decision shift
+
+Assigned is not available. Candidate angle: `capacity-state`. Hook: “Assigned is not available.” Fictional proof surface: `TASK / OWNER / REQUIRED TIME / AVAILABLE WINDOW / CONFLICT / DUE / ACCEPTED / FALLBACK`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: an assigned task passes through time-window and conflict checks before entering an accepted queue. Emotional turn: deadline anxiety becomes feasible commitment. Final line: “Name the capacity before you promise the date.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies task duration, availability windows, conflicts, capacity status, acceptance controls, fallback ownership, or feasibility-aware due dates. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `priority-state`, which concerns why items are ranked and what urgency means. `capacity-state` changes the pain to **a named owner and due date that do not prove the work can fit inside a feasible window**. It changes the hook to “Assigned is not available”; the visual metaphor from review cards separating into impact and urgency axes before a queue to an assigned task passing through time-window and conflict checks before acceptance; the proof surface from impact/urgency/due/owner/priority/reason/escalation/reviewed to task/owner/required-time/available-window/conflict/due/accepted/fallback; the emotional turn from defensible triage to feasible commitment; and the final line to “Name the capacity before you promise the date.”
+
+It is distinct from `priority-state`, which concerns ranking; `acknowledgement-state`, which concerns message-to-action lifecycle; `review-expiry`, which concerns freshness; `response-state`, which concerns planned versus enacted response; `commit-state`, which concerns save acknowledgement; and `dependency-state`, which concerns downstream impact after an upstream change. `capacity-state` focuses on whether a named owner has a feasible window and resources to accept the task, not how urgent the task is or whether a message was acknowledged. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes task duration, availability windows, conflicts, capacity status, acceptance controls, fallback ownership, or feasibility-aware due dates. Do not use `TASK`, `OWNER`, `REQUIRED TIME`, `AVAILABLE WINDOW`, `CONFLICT`, `DUE`, `ACCEPTED`, or `FALLBACK` as current product UI. Do not claim scheduling, capacity, commitment, fallback, availability, completion, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[735] [NIST — SP 800-34 Rev. 1: Contingency Planning Guide for Federal Information Systems](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final)
+[736] [NIST — SP 800-30 Rev. 1: Guide for Conducting Risk Assessments](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
+[737] [W3C — Understanding Success Criterion 4.1.3: Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)
+[738] [Apple Developer — Human Interface Guidelines: Managing Notifications](https://developer.apple.com/design/human-interface-guidelines/managing-notifications)
+[739] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish resource/contingency planning, risk-informed priorities, accessible status delivery, and notification urgency principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes task duration, availability windows, conflicts, capacity status, acceptance controls, fallback ownership, or feasibility-aware due dates. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
