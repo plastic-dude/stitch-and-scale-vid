@@ -469,3 +469,13 @@ The nearest prior angle is `change-notice`, which focuses on disclosing that a t
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `chart-parity`, which focuses on whether chart counts and written instructions match. `chart-description` changes the pain to whether the visual chart’s meaning exists in an equivalent text or structured form for someone who cannot see the grid. It changes the hook to “A chart is not explained by its title,” the visual metaphor from two numeric representations matching to `WHAT THE GRID MEANS / HOW TO READ IT / TEXT ALTERNATIVE`, the proof surface from chart parity to a chart-description, alt-text/long-description, structured-chart, schematic-summary, or tagged-export surface, the emotional turn from numerical agreement to access to meaning without requiring sight, and the final line to “Describe the meaning, not just the picture.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — fit intent — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `fit-intent` | A size number can mean body, finished garment, ease, or fit intent without naming which | “A size number is not a fit instruction.” | One current, approved sizing table, finished-measurement table, ease/fit note, body-versus-garment label, schematic relationship, or size-selection explanation with exact labels | Choosing with context rather than size recommendation or fit guarantee | “Name the measurement before you name the size.” | blocked; product proof, measurement rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `size-boundary`, which focuses on what supported size range or boundary is available. `fit-intent` changes the pain to whether the number refers to the body, the finished garment, the difference between them, or an intended fit. It changes the hook to “A size number is not a fit instruction,” the visual metaphor from a boundary warning to `BODY / FINISHED GARMENT / EASE / FIT NOTE`, the proof surface from size eligibility/boundary to a sizing, finished-measurement, ease/fit, body-garment, schematic, or size-selection surface, the emotional turn from knowing the available boundary to choosing with context without a fit guarantee, and the final line to “Name the measurement before you name the size.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

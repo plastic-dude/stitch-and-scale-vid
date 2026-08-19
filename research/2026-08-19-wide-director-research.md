@@ -1394,3 +1394,45 @@ Do not claim Stitch & Scale has accessible chart descriptions, alt-text tooling,
 [124] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [125] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Forty-fifth wide-research question: what does the size number mean? — 2026-08-19
+
+### Research question
+How can a knitwear designer distinguish body measurements, finished garment measurements, and intended ease so a maker does not choose a size by one number alone—without claiming Stitch & Scale exposes ease or fit guidance?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers preparing size tables, finished measurements, schematics, and fit notes for testers and readers. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Standard Body Measurements/Sizing” | 2026-08-19; current page checked | CYC distinguishes actual body measurements from completed-garment sizing information and schematics. It says patterns commonly provide chest/bust measurements of a completed garment and detailed schematics across sizes, and says the user should review all sizing information before beginning. It also describes negative ease, zero ease, and positive ease as differences from actual chest/bust measurements, while noting fit and length charts are guidelines. | Craft-industry guidance, not universal sizing law and not Stitch & Scale proof. | The concept should make body measurement, finished garment measurement, ease, and fit intent separate labels rather than one ambiguous size number. |
+| GOV.UK Content and Publishing Guidance, “Tables” | 2026-08-19; current page checked | GOV.UK says tables need descriptive unique headings, should avoid complicated multi-heading structures, and should use `no data` or `not applicable` instead of empty cells. It also says important information should be near the top and calculations should be done for the user where appropriate. | Government content-table guidance, not a knitwear sizing standard and not product proof. | Fit tables should expose clear column meaning and avoid making a reader infer whether a value is body, garment, or ease. |
+| Knitwear publishing/export and mobile-maker contracts | 2026-08-19; internal contracts | Publication review must preserve chart and schematic scale, units, localization, readable tables, and human review; mobile surfaces must keep context and labels visible. | Internal design contracts, not current UI proof. | Select `fit-intent`: show what each measurement means and what ease is intended before size choice. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for ease fields, body-versus-garment labels, finished-measurement tables, fit notes, size-selection explanations, or automatic fit guidance. All 45 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic size boundaries into **the meaning of the size number**. The fresh concept is `fit-intent`: a fictional size card separates `BODY / FINISHED GARMENT / EASE / FIT NOTE` before a maker chooses. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product ease, sizing, or fit behavior is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `size-boundary`, which focuses on what supported size range or boundary is available. `fit-intent` changes the pain to **whether the number refers to the body, the finished garment, the difference between them, or an intended fit**. The hook changes to “A size number is not a fit instruction.” The visual metaphor changes from a boundary warning to `BODY / FINISHED GARMENT / EASE / FIT NOTE`. The proof surface changes from size eligibility/boundary to a current sizing table, finished-measurement table, ease/fit note, body-versus-garment label, schematic relationship, or size-selection explanation. The emotional turn changes from knowing the available boundary to choosing with context, without a fit guarantee. The final line changes to “Name the measurement before you name the size.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale exposes ease, fit intent, body-versus-garment labels, finished measurements, size recommendations, or automatic fit guidance without current proof. Do not claim a size will fit a person. Do not use real pattern measurements or customer/body data without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[126] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+
+[127] [GOV.UK Content and Publishing Guidance — Tables](https://guidance.publishing.service.gov.uk/formatting-content/text-formatting/tables/)
+
+[128] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[129] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
