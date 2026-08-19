@@ -5976,3 +5976,39 @@ Do not claim that Stitch & Scale currently exposes stable record identifiers, pa
 [771] [RFC Editor — RFC 9562: Universally Unique Identifiers (UUIDs)](https://www.rfc-editor.org/rfc/rfc9562.html)
 [772] [W3C — PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/)
 [773] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-thirty-eighth wide-research question: attached is not contextualized — 20260819-211203
+
+### Research question
+
+When a measurement is reused, what proves it is still attached to the correct body location, garment piece, size, fit/ease rule, method, and date?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| W3C, *Data on the Web Best Practices* | 2026-08-19 | W3C recommends complete information about origins and changes; provenance helps consumers judge quality and supplies interpretive context. Its examples connect creator, publisher, issued date, temporal/spatial context, and agent responsibility in human-readable and machine-readable metadata. | Data-on-the-Web recommendation; not a current Stitch & Scale context model or UI. | Treat semantic context as attached evidence rather than a display label or isolated value. |
+| Craft Yarn Council, *Standard Body Measurements/Sizing* | 2026-08-19 | CYC distinguishes actual body measurements from completed-garment measurements, links measurements to sizing charts and schematics, explains positive/negative ease, and specifies body location and measuring method for each measurement. Charts are guidelines and project-pattern context matters. | Craft guidance; not product proof, not a fit guarantee, and not a universal rule. | Anchor the audience pain in the wrong body location, garment piece, size, or ease context rather than generic metadata. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Records, grading, exports, charts, schematics, business records, mobile capture, and human review have separate evidence boundaries. A reused value must not silently change meaning across surfaces. | Internal workflow contracts, not current product proof. | Keep `context-state` blocked and preserve calculation, technical edit, print, chart, schematic, and test-knit gates. |
+
+### Research synthesis and concept decision
+
+Attached is not contextualized. Candidate angle: `context-state`. Hook: “Attached is not contextualized.” Fictional proof surface: `VALUE / SUBJECT / LOCATION / PURPOSE / METHOD / SIZE / EASE / DATE / SOURCE / REVIEWED`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: one measurement card travels through two similar garment contexts and branches when context is not carried with it. Emotional turn: “I have the number” becomes “I know what this number belongs to.” Final line: “Keep the context attached.”
+
+The candidate is distinct from `identity-state` (which record/entity this became), `calibration-state` (reference and conditions that make a measurement meaningful), `schema-state` (structural contract), `applicability-scope` (where a rule applies), `comparison-basis` (whether a comparison is valid), `unit-state` (unit attached), `provenance-chain` (where data came from), and `selection-state` (selected context applied). It focuses on semantic attachment of a value to body location, garment part, size, fit/ease purpose, method, and date when reused across workflow surfaces.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 137 before this package; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies context attachment, body-location labels, garment-part association, size/ease context, measurement method, date, source, or reviewed context state. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one measurement reused across a pattern or record with subject, location, purpose, method, size/ease, date, source, and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes context attachment, body-location labels, garment-part association, size/ease context, measurement method, date, source, or reviewed context state. Do not use `VALUE`, `SUBJECT`, `LOCATION`, `PURPOSE`, `METHOD`, `SIZE`, `EASE`, `DATE`, `SOURCE`, or `REVIEWED` as current product UI. Do not claim sizing accuracy, fit outcome, or that a contextualized record replaces calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[774] [W3C — Data on the Web Best Practices](https://www.w3.org/TR/dwbp/)
+[775] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+[776] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

@@ -1482,3 +1482,13 @@ The nearest prior angle is `commit-state`, which asks whether a saved state dese
 ### Distinctness note — 20260819-210900
 
 The nearest prior angle is `version-lock`, which asks whether the current item is the same version. `identity-state` changes the pain to whether a reopened, copied, revised, or exported item is the same entity or a new derived record. It changes the hook to “Named is not the same record”; the visual metaphor from version labels and currentness to two visually similar cards splitting at an identity fork; the proof surface from record/version/current/locked/changed-at/previous-version to record-id/display-name/parent/revision-or-copy/created/derived-from/owner/reviewed; the emotional turn from stale-version uncertainty to traceable record identity; and the final line to “Name which record this became.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+## Wide-research Director decision — context state — 20260819-211203
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `context-state` | A reused measurement may lose its body location, garment piece, size, fit/ease, method, date, or source context | “Attached is not contextualized.” | Fictional value/subject/location/purpose/method/size/ease/date/source/reviewed card | From “I have the number” to “I know what this number belongs to” | “Keep the context attached.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-211203
+
+The nearest prior angle is `identity-state`, which asks which record or entity a reopened, copied, revised, or exported item became. `context-state` changes the pain to whether a value retains its semantic attachment when reused. It changes the hook to “Attached is not contextualized”; the visual metaphor from two record cards splitting at an identity fork to one measurement card moving through two similar garment contexts and branching when context is lost; the proof surface from record-id/display-name/parent/revision-or-copy/created/derived-from/owner/reviewed to value/subject/location/purpose/method/size/ease/date/source/reviewed; the emotional turn from duplicate anxiety to misplaced-number anxiety; and the final line to “Keep the context attached.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
