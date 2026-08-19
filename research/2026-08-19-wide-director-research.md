@@ -6849,3 +6849,48 @@ The nearest prior angle is `custody-state`, which asks who handled one evidence 
 [846]: https://www.w3.org/TR/prov-dm/ "W3C, PROV-DM: The PROV Data Model"
 [847]: https://www.craftyarncouncil.com/pitfalls.html "Craft Yarn Council, Designer Pitfalls"
 [848]: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html "W3C WAI, Understanding SC 1.2.2: Captions (Prerecorded)"
+
+## One-hundred-sixtieth wide-research question: related is not relevant — 20260819-220700
+
+**Question.** What evidence shows that a craft result, warning, or measurement is relevant to the present decision, subject, context, impact, criteria, and intended use, rather than merely related or technically true in another situation?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between evidence being related and evidence being fit for a named decision; audience is makers, reviewers, and developers who need a bounded decision context; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST decision context.** NIST's Risk Management Framework is described as a flexible, repeatable, measurable seven-step process. It includes preparing, categorizing information based on impact analysis, selecting protections based on risk assessment, implementing and documenting controls, assessing whether they operate as intended, authorizing through a risk-based decision, and monitoring continuously. Used only as process context, this supports asking whether evidence is tied to the present decision, impact, criteria, owner, and disposition. It does not establish a Stitch & Scale relevance score, risk engine, authorization workflow, or automated decision. [849]
+
+**Craft relevance context.** The Craft Yarn Council describes a schematic as a visual rendering of a knit or crochet piece with relevant measurements, providing an overview of size and shape, a reference for determining garment fit, and a template for modification. It recommends reviewing the schematic before beginning and comparing it with a well-fitting garment when considering changes. This supports tying a measurement to a specific piece, size, fit question, and intended use; it does not prove product fit, correctness, or a relevance feature. [850]
+
+**Accessibility boundary.** W3C prerecorded-caption guidance remains the production constraint: captions must carry dialogue, speaker identification, and meaningful sound information. Pass 160 reserves a fixed caption lane, one narrator family, caption-on and caption-free review masters, and no caption over decision, subject, criteria, evidence, limits, or disposition fields. [848]
+
+**Selected angle.** `relevance-state` — “Related is not relevant.”
+
+**Primary pain.** A measurement or warning may be technically true and still fail to answer the decision at hand because subject, context, intended use, impact, criteria, or limits are mismatched. The missing element is a relevance basis that connects evidence to the present choice.
+
+**Hook.** “Related is not relevant.”
+
+**Dramatic engine.** Subject: one fictional decision card about whether to modify a craft piece. Desire: make a defensible next choice for one named piece and use. Obstacle: the evidence card is related but lacks decision, subject, context, intended use, impact, criteria, and limits. Stakes: a true measurement or warning is reused for the wrong size, piece, wearer, or decision and produces an unsupported change. Change: the evidence card gains decision, subject, context, intended use, impact, criteria, evidence, relevance basis, limit, owner, and disposition. Contradiction: evidence can be correct yet irrelevant to the decision. Escalation: a measurement from one schematic is pulled toward a different piece; a context mismatch stops the card before it can authorize a change. Final image: one decision card with a bounded relevance basis and `DISPOSITION: REQUIRES CONTEXT`; no fit or product outcome claim.
+
+**Visual grammar.** Neutral evidence board; one decision card; a related-evidence card with a dotted connector that fails to land; a solid connector appears only after subject/context/intended-use/impact/criteria align. Amber marks missing basis; red is reserved for the mismatch; no green approval state. No real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, legal language, product claim, or fit promise. Captions occupy a fixed lane that never covers decision, subject, context, criteria, evidence, limits, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `DECISION / SUBJECT / CONTEXT / INTENDED_USE / IMPACT / CRITERIA / EVIDENCE / RELEVANCE_BASIS / LIMIT / OWNER / DISPOSITION`.
+
+**Research decision.** Research changed the treatment from a generic comparison to a decision-fit card: a related measurement or warning is not allowed to travel into a decision until the present subject, context, intended use, impact, criteria, evidence, relevance basis, limit, owner, and disposition are named. The proof surface is about relevance to a choice, not universal applicability, baseline identity, garment fitness, or integrity. No source proves a product relevance feature.
+
+**Distinctness decision.** The nearest prior angle is `integrity-state`, which asks whether one artifact's content remained unchanged or an alteration was detected and explained. `relevance-state` changes the pain to whether evidence is fit for the present decision context. It differs from `applicability-state`, which asks where a rule or result applies; from `baseline-state`, which asks whether a named comparison reference exists; from `fitness-state`, which asks whether a present result is fit for purpose; from `context-state`, which asks whether context is attached; from `authority-state`, which asks who is authorized; and from imported `false-completion` / `release-gate-roster`, which remain blocked human-gate concepts. The hook changes to “Related is not relevant”; the visual metaphor changes from expected/observed artifact states and a detected content change to a dotted related-evidence connector that fails until decision context is named; the proof surface changes to decision/subject/context/intended-use/impact/criteria/evidence/relevance-basis/limit/owner/disposition; the emotional turn changes from altered-content awareness to decision-context discipline; and the final line becomes “Name why this evidence belongs to this decision.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name why this evidence belongs to this decision.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed relevance basis, decision context, impact, criteria, limit, owner, or disposition surface. No generation or upload is authorized.
+
+## Wide-research Director decision — relevance state — 20260819-220700
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `relevance-state` | A measurement or warning may be true yet fail to answer the present decision because subject, context, intended use, impact, criteria, or limits are mismatched | “Related is not relevant.” | Fictional decision/subject/context/intended-use/impact/criteria/evidence/relevance-basis/limit/owner/disposition card | From “It is related” to “It belongs to this decision” | “Name why this evidence belongs to this decision.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-220700
+The nearest prior angle is `integrity-state`, which asks whether one artifact's content remained unchanged or an alteration was detected and explained. `relevance-state` changes the question to whether evidence is fit for the present decision context. It changes the hook to “Related is not relevant”; the visual metaphor from expected/observed artifact states and a detected content change to a dotted related-evidence connector that fails until decision context is named; the proof surface from artifact-id/expected-state/observed-state/integrity-check/check-time/change-detected/change-scope/explanation/reviewed/disposition to decision/subject/context/intended-use/impact/criteria/evidence/relevance-basis/limit/owner/disposition; the emotional turn from altered-content awareness to decision-context discipline; and the final line to “Name why this evidence belongs to this decision.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [849]–[850]
+
+[849]: https://csrc.nist.gov/projects/risk-management "NIST Risk Management Framework"
+[850]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"

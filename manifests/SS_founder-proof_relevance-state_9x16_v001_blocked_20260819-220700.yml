@@ -1,0 +1,70 @@
+manifest_version: 1
+video_id: SS_founder-proof_relevance-state_9x16_v001_blocked_20260819-220700
+brief_id: BRF-founder-proof-relevance-state-9x16-v001
+campaign: founder-proof
+angle_slug: relevance-state
+format: 9x16
+version: v001
+status: blocked
+created_at: 2026-08-19T22:07:00+01:00
+filename_reservation: SS_founder-proof_relevance-state_9x16_v001_blocked_20260819-220700.mp4
+research_record: research/2026-08-19-wide-director-research.md
+browser_findings: research/2026-08-19-pass160-browser-findings.md
+brief_path: briefs/SS_founder-proof_relevance-state_9x16_v001_blocked_20260819-220700.md
+script_path: scripts/SS_founder-proof_relevance-state_9x16_v001_blocked_20260819-220700.md
+platform_matrix_path: platforms/SS_founder-proof_relevance-state_9x16_v001_matrix_20260819-220700.md
+continuity_path: ledgers/20260819-relevance-state.md
+media_path: null
+media_generated: false
+media_uploaded: false
+product_proof:
+  registry_entry: null
+  approved_capture: null
+  exact_surface_verified: false
+  decision_subject_context_use_verified: false
+  impact_criteria_evidence_verified: false
+  relevance_basis_limit_verified: false
+  owner_disposition_verified: false
+claims:
+  product_exposes_relevance_score_risk_engine_context_matching_impact_analysis_decision_authorization: prohibited
+  product_guarantees_fit_recommendation_accuracy_or_outcomes: prohibited
+  product_complies_with_nist_rmf_or_automates_risk_decisions: prohibited
+  relevance_communication_replaces_human_gates: prohibited
+  accuracy_adoption_revenue_outcomes: prohibited
+  founder_knitwear_identity: prohibited
+human_evidence_gates:
+  calculation: separate
+  technical_edit: separate
+  physical_print_review: separate
+  chart_readability: separate
+  schematic_scale: separate
+  test_knit: separate
+narrator:
+  family: one approved narrator family only
+  status: pending
+captions:
+  human_review_required: true
+  caption_on_master: pending
+  caption_free_master: pending
+  proof_obstruction_allowed: false
+audio:
+  cleared_voice_required: true
+  cleared_music_or_original_only: true
+  foley: related evidence approach, context mismatch stop, relevance connector tone
+rights_privacy:
+  status: required_not_approved
+  private_records_allowed: false
+  recognizable_people_allowed: false
+  copyrighted_patterns_allowed: false
+  unlicensed_music_clips_artwork_allowed: false
+  legal_evidence_allowed: false
+review_state:
+  reviews_dir_checked: true
+  orders_dir_checked: true
+  comms_inbox_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked_filename_occupied
+  release_gate_roster: blocked_filename_occupied
+next_action: Provide one versioned non-private rights-cleared approved capture or product-proof registry entry showing one decision with subject/context/intended use/impact/criteria/evidence/relevance basis/limit/owner/disposition before presenting relevance behavior; then rerun all gates.
+generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
