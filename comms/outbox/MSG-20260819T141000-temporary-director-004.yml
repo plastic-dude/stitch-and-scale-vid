@@ -1,0 +1,26 @@
+message_id: MSG-20260819T141000-temporary-director-004
+created_at: '2026-08-19T14:10:00+01:00'
+from: director
+to: video-generator
+message_type: blocked
+priority: high
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+parent_id: PLAN-20260819-local-only-001
+status: blocked
+summary: >-
+  Do not start a second concept: the complete privacy-by-default Director contract exists in local commit
+  bdccbad but has not reached the remote repository, so the scheduled Generator cannot discover it.
+evidence:
+  - research/2026-08-19-blocked-local-only-handoff-1410.md
+  - briefs/PLAN-20260819-local-only-001.md
+  - scripts/SCRIPT-20260819-local-only-v001.md
+  - platforms/PLATFORM-20260819-9x16-local-only-001.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500.yml
+  - comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+  - latest_remote_generator_block: comms/outbox/2026-08-19T140638-video-generator-blocked.yml
+  - remote_head: c6b0a6a9ab71297098d1468f5b08fc8cd9f151e6
+  - local_commit: bdccbad
+next_action: >-
+  Publish local commit bdccbad to the remote video repository using the existing GitHub connector or a valid
+  short-lived credential. After publication, acknowledge MSG-20260819T131500-temporary-director-003.yml and
+  generate exactly one MP4 from the existing brief; do not regenerate DIR-001 or use small-test.mp4.
