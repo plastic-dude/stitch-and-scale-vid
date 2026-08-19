@@ -7452,3 +7452,38 @@ No current product-proof registry or approved non-private capture verifies recip
 [894]: https://www.nice.org.uk/guidance/qs174/chapter/quality-statement-4-structured-patient-handovers "NICE Quality Statement 4: Structured Patient Handovers"
 [895]: https://www.ncbi.nlm.nih.gov/books/NBK564933/ "NCBI Bookshelf — Structured Patient Handovers"
 [896]: https://www.gov.uk/service-manual "GOV.UK Service Manual"
+
+
+## Wide-research Director question 174 — exception state — 20260820-004454
+
+**Fresh research question.** When a workflow departs from a rule, is the exception documented with scope, reason, owner, expiry, affected gates, and follow-up, or does a temporary deviation silently become the new normal?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest exception-governance pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise, lifecycle-centered reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [897] | NIST, *Risk Management Framework*, updated July 24, 2026; accessed 2026-08-20: https://csrc.nist.gov/projects/risk-management | NIST describes the RMF as comprehensive, flexible, repeatable, and measurable, with a seven-step process for managing information-security and privacy risk across organizations and systems. | This is governance guidance, not proof that Stitch & Scale uses RMF, accepts security risk, or implements exception controls. |
+| [898] | GOV.UK, *Documenting architecture decisions*, accessed 2026-08-20: https://gds-way.digital.cabinet-office.gov.uk/standards/architecture-decisions.html | GOV.UK recommends recording decisions in version control with status, context, decision, consequences, author/time, and lifecycle states such as proposed, accepted, implemented, and superseded. | This does not prove Stitch & Scale has ADRs, approval workflows, versioned exception handling, or lifecycle automation. |
+| [899] | W3C, *WCAG 2.2 Quick Reference*, accessed 2026-08-20: https://www.w3.org/WAI/WCAG22/quickref/ | W3C includes text alternatives for non-text content and identifies failures where text alternatives are not updated when non-text content changes, supporting textually explicit state changes and caption review. | This does not prove WCAG conformance or product accessibility behavior. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from “a deviation was allowed” to “the exception has explicit scope, reason, owner, expiry or review date, affected gates, compensating action, and disposition.” The fictional proof surface is `EXCEPTION E-001 / RULE / SCOPE / REASON / OWNER / STARTED_AT / EXPIRES_OR_REVIEWED_AT / AFFECTED_GATES / COMPENSATING_ACTION / STATUS / DISPOSITION`.
+
+The selected angle is `exception-state`, hook **“Allowed once is not governed.”** The final line is **“Name when this exception ends.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `exception-scope`, which asks what boundary an exception covers. `exception-state` changes the pain to whether a deviation has a reason, owner, start, expiry or review date, affected human gates, compensating action, lifecycle status, and disposition so it cannot silently become the norm. It is not `waiver-state`, which asks whether a requirement was formally waived; `override-state`, which asks who can override a decision; `applicability-state`, which asks whether a rule applies; `necessity-state`, which asks why a permitted field is needed; `rationale-state`, which asks whether a decision is justified; or `release-gate-roster`, which is an imported blocked roster concept. The visual metaphor changes to a temporary exception card with a visible countdown/review boundary and affected-gate tags, rather than a scope map, waiver signature, override control, rule applicability branch, necessity chain, rationale card, or release roster. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies exception records, rule deviations, owners, expiry/review, affected gates, compensating actions, lifecycle status, or disposition. The evidence cards must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with exception workflows, waivers, risk acceptance, approvals, lifecycle status, automated expiry, accessibility conformance, or governance compliance. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [897]–[899]
+
+[897]: https://csrc.nist.gov/projects/risk-management "NIST Risk Management Framework"
+[898]: https://gds-way.digital.cabinet-office.gov.uk/standards/architecture-decisions.html "GOV.UK — Documenting architecture decisions"
+[899]: https://www.w3.org/WAI/WCAG22/quickref/ "W3C WCAG 2.2 Quick Reference"

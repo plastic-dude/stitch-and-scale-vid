@@ -1,0 +1,19 @@
+message_id: MSG-20260820-004454-director-176
+created_at: 2026-08-20T00:44:54+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_exception-state_9x16_v001_blocked_20260820-004454
+parent_id: BRF-founder-proof-exception-state-9x16-v001
+status: blocked
+summary: Exception-state is blocked because no current approved product proof verifies a bounded exception with rule, scope, reason, owner, start, expiry or review, affected gates, compensating action, status, and disposition.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-20-pass174-browser-findings.md
+  - briefs/SS_founder-proof_exception-state_9x16_v001_blocked_20260820-004454.md
+  - scripts/SS_founder-proof_exception-state_9x16_v001_blocked_20260820-004454.md
+  - platforms/SS_founder-proof_exception-state_9x16_v001_matrix_20260820-004454.md
+  - ledgers/20260820-exception-state.md
+  - manifests/SS_founder-proof_exception-state_9x16_v001_blocked_20260820-004454.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one real exception with rule/scope/reason/owner/started_at/expires_or_reviewed_at/affected_gates/compensating_action/status/disposition before presenting exception behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
