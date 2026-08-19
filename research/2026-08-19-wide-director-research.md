@@ -472,3 +472,31 @@ Research changed the concept from a generic yarn-substitution tip into **materia
 [39] [Purl Soho — Yarn Substitution Made Easy](https://www.purlsoho.com/create/yarn-substitution-made-easy/)
 
 [40] [Kate Atherley — On Yarn Substitutions](https://kateatherley.com/yarnsubs/)
+
+## Eighteenth wide-research question: feedback is not a green light — 2026-08-19
+
+### Research question
+How can an independent designer preserve test-knitter observations, responses, and unresolved questions without collapsing feedback into a generic approval badge or replacing technical editing, physical print review, chart readability, schematic scale, or test knitting itself?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| A Bee In The Bonnet, “Tech Editing and Test Knitting: When Do You Need Them?” | 2026-08-19; live page | The author distinguishes technical editing from test knitting: a technical editor works in the abstract and may not knit the item, while test knitters provide varied experience and language perspectives. The page says test knitters can catch major errors but may miss smaller issues, and recommends keeping the roles distinct rather than treating one as a full substitute for the other. | Practitioner guidance, not a universal process standard and not proof of Stitch & Scale features. It does not authorize claims about pattern correctness or release readiness. | The concept should show **feedback with response state**, not “testers approved it.” Keep test knitting, technical editing, and release decisions separate. |
+| Craft Industry Alliance search results | 2026-08-19; current search discovery | Current Craft Industry Alliance resources cover feedback practice, pattern platforms, designer channels, and the independent pattern market, but no specific test-knit workflow page was verified in this run. | Search results are not treated as substantive evidence; no detailed claim is taken from them. | Keep the concept anchored in the practitioner source and internal evidence contract, not broad market or platform claims. |
+| Local craft-business workflow contract | 2026-08-19; repository source | Test-knit round and coverage, submissions, technical editing, physical print review, chart readability, and schematic scale are separate operational records and human evidence gates. | Internal workflow guidance, not proof that the live product exposes a feedback ledger. | The visual proof should be an issue/response record with unresolved state, not a green completion roster. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for tester feedback, issue/response notes, test-knit round coverage, comment status, unresolved items, or reviewer assignment. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`feedback-loop`**: the tension is a tester observation that can disappear or be mistaken for approval if the response path is not visible. The hook is “A note is not resolved because someone read it.” The visual metaphor is a feedback card moving through `OBSERVED / RESPONDED / RECHECK / UNRESOLVED`, with no green release state. The proof surface must be one current, approved feedback, issue/response, or test-knit record surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from a generic tester-story to **response accountability**. The script must not claim that testers approved, that issues are resolved, that the pattern is correct, or that one feedback round is enough. It may show an observation, a response note, a recheck, and an explicitly unresolved state, then invite current product proof for the exact workflow.
+
+### References
+
+[41] [A Bee In The Bonnet — Tech Editing and Test Knitting: When Do You Need Them?](https://www.abeeinthebonnet.com/blog/tech-editing-and-test-knitting-when-do-you-need-them/)
+
+[42] [Craft Industry Alliance — Webinars](https://craftindustryalliance.org/webinars/)

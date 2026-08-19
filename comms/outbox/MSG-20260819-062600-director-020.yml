@@ -1,0 +1,17 @@
+message_id: MSG-20260819-062600-director-020
+sender: director
+recipient: production
+created_at: '2026-08-19T06:26:00+01:00'
+plan_id: PLAN-20260819-062600-feedback-loop-v001
+angle_slug: feedback-loop
+status: blocked
+subject: Feedback-loop concept blocked pending current response proof
+body: >-
+  Fresh test-knit research moved the concept from a generic tester story to response accountability: an
+  observation needs a visible response and recheck path, and an unresolved state must remain honest. Do not
+  generate or upload. No current approved feedback, issue/response, or test-knit record surface is available,
+  and no tester approval, issue-resolution, correctness, or release-readiness claim is authorized. Next
+  action: provide one current approved non-private proof surface with product version/date and exact visible
+  labels, then rerun claims, tester rights, privacy, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

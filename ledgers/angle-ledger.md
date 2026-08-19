@@ -199,3 +199,13 @@ The nearest prior angle is `chart-parity`, which concerns whether visual charts 
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `gauge-reality`, which concerns whether mathematical gauge assumptions survive physical fabric behavior. `material-notes` changes the pain to a substitution losing material assumptions, the hook to “A substitute can match the label and still change the work,” the visual metaphor from gauge math versus fabric to yarn, swatch, and pattern cards linked by `FIBER / GAUGE / STITCH / SOURCE / RECHECK`, the proof surface from gauge/reality to a materials, source, gauge, or substitution surface, the emotional turn from material humility to traceable rechecking, and the final line to “Keep the note. Recheck the work.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — feedback loop — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `feedback-loop` | A tester observation can disappear or be mistaken for approval when no response and recheck path is visible | “A note is not resolved because someone read it.” | One current, approved feedback, issue/response, or test-knit record surface with exact labels | Accountable respect for tester labor rather than premature closure | “Show me what happened after the note.” | blocked; product proof, tester-rights review, and response-state mapping missing; distinct from `false-completion`, `release-gate-roster`, `correction-trace`, and `sample-chain` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is the imported `false-completion` concept, a broader blocked story about premature completion across human gates. `feedback-loop` changes the pain to a specific tester observation disappearing or being mistaken for approval without a response path, the hook to “A note is not resolved because someone read it,” the visual metaphor from generic completion to `OBSERVED / RESPONDED / RECHECK / UNRESOLVED`, the proof surface from a generic human-gate story to a feedback or issue-response record, the emotional turn from fear of false closure to accountable respect for tester labor, and the final line to “Show me what happened after the note.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
