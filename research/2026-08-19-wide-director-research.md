@@ -1953,3 +1953,48 @@ Do not claim Stitch & Scale provides pricing recommendations, accounting, tax ad
 [181] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [182] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Fifty-eighth wide-research question: what must a spoken instruction say? — 2026-08-19
+
+### Research question
+If a maker listens instead of reading, what must a spoken pattern instruction identify so row/round, side, size, number, unit, action, and repeat boundary remain distinguishable—without claiming Stitch & Scale provides audio pattern reading or text-to-speech?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers who may review pattern instructions through audio, captions, transcript, or a mixed visual/audio workflow. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| W3C WAI, WCAG 2.2 Understanding SC 1.2.2, “Captions (Prerecorded)” | 2026-08-19; page updated 2026-03-09 | W3C says captions are provided for prerecorded audio in synchronized media, except when the media is a clearly labeled media alternative for text. The guidance says captions include dialogue, speaker identification, and meaningful non-speech sound information. | Informative WCAG Understanding guidance is not a Stitch & Scale product claim or formal conformance audit. | Preserve caption-on and caption-free review paths; do not let spoken pattern content be the only equivalent representation. |
+| W3C WAI, WCAG 2.2 Understanding SC 1.2.1, “Audio-only and Video-only (Prerecorded)” | 2026-08-19; current page checked | W3C says prerecorded audio-only content needs an alternative for time-based media presenting equivalent information, and notes parallel presentation can help people with cognitive, language, and learning disabilities. | Informative accessibility guidance, not proof of TTS, spoken pattern mode, transcript generation, or audio exports. | If a spoken instruction is ever produced, retain equivalent text and label the audio alternative; do not claim audio support from this source. |
+| Craft Yarn Council, “How to Read a Knitting Pattern” | 2026-08-19; current page previously checked | CYC explains row instructions, abbreviations, repeat markers, and how pattern notation saves space but may initially confuse readers. | Craft guidance, not audio design or universal notation parsing. | A spoken version should identify row/round, side, size/branch, number, unit, action, and repeat boundary explicitly. |
+| Stitch & Scale production lessons and contracts | 2026-08-19; internal contract re-read | Captions may not cover proof, numbers, tables, controls, or primary actions; audio review rejects mixed voices, doubled words, overlaps, room-tone jumps, and unsupported claims. Human technical editing, print review, chart readability, schematic scale, and test knitting remain separate. | Internal production/QA contract; no current audio-pattern product proof. | Use a fictional listening checklist and block TTS, spoken pattern mode, audio export, or accessible-pattern claims until exact proof exists. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for TTS, spoken pattern mode, audio export, audio navigation, transcript generation, or accessible pattern reading. All 58 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “audio accessibility” into **which semantic fields must be spoken in an unambiguous order, and what equivalent text must remain available**. The fresh concept is `spoken-index`: a fictional listening checklist labels `ROW/ROUND / SIDE / SIZE / NUMBER / UNIT / ACTION / REPEAT`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no TTS, spoken pattern mode, audio export, audio navigation, or accessibility conformance is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `hands-busy`, which focuses on what survives while a maker’s hands are occupied. `spoken-index` changes the pain to **the semantic fields and ordering required for a spoken instruction to remain auditable, plus the equivalent text that must remain available**. The hook changes to “A spoken instruction cannot point at the punctuation.” The visual metaphor changes from occupied hands to `ROW/ROUND → SIDE → SIZE → NUMBER → UNIT → ACTION → REPEAT`. The proof surface changes from hand-state workflow to a current spoken-instruction or audio-alternative surface with equivalent text and speaker/voice labeling. The emotional turn changes from physical convenience to semantic confidence without claiming product audio. The final line changes to “Say the context before the action.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale offers TTS, spoken pattern mode, audio exports, audio navigation, accessible pattern reading, or WCAG conformance without current product proof and formal review. Do not claim captions alone make a pattern accessible. Do not use real pattern instructions, customer recordings, personal data, or copyrighted audio without scoped rights. Do not describe David as a knitter or pattern professional. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[183] [W3C WAI — Understanding SC 1.2.2: Captions (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+
+[184] [W3C WAI — Understanding SC 1.2.1: Audio-only and Video-only (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded.html)
+
+[185] [Craft Yarn Council — How to Read a Knitting Pattern](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern)
+
+[186] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+[187] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)

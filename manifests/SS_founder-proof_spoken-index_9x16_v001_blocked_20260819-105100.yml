@@ -1,0 +1,46 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-105100-spoken-index-v001
+angle_slug: spoken-index
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_spoken-index_9x16_v001_blocked_20260819-105100.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-spoken-instruction-audio-alternative-transcript-or-equivalent-text-surface
+product_version: null
+proof_capture_approved: false
+tts_status: missing
+spoken_pattern_mode_status: missing
+audio_export_status: missing
+audio_navigation_status: missing
+transcript_generation_status: missing
+equivalent_text_status: missing
+speaker_voice_label_status: missing
+formal_accessibility_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no TTS, spoken-pattern-mode, audio-export, audio-navigation, accessible-pattern-reading, or WCAG-conformance claim
+  - captions are not silently treated as complete accessibility
+  - spoken semantic fields must not omit row/round, side, size, number, unit, action, or repeat boundary
+  - fictional semantic cards are not product UI, pattern instructions, or customer data
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private spoken-instruction, audio-alternative, transcript, or equivalent-text proof capture or registry entry with product version/date and exact labels, then rerun accessibility, records, captions, audio, platform, rights, privacy, and Director gates.

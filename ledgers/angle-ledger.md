@@ -599,3 +599,13 @@ The nearest prior angle is `rounding-rule`, which focuses on the rule used to ro
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `basis-label`, which focuses on the basis of a measurement or calculation number. `price-basis` changes the pain to which economic category and evidence status a price-like number belongs to. It changes the hook to “The price is not the whole story,” the visual metaphor from calculation provenance to `DISPLAYED PRICE / RECORDED COST / PLATFORM FEE / TAX OR OTHER CHARGE / ESTIMATE`, the proof surface from a number-basis label to a current business-record or price/cost surface with date, currency, source, and status labels, the emotional turn from understanding a calculation to making a business record accountable without promising profit, and the final line to “Name the basis before you name the price.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — spoken index — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `spoken-index` | A spoken instruction can lose row/round, side, size, number, unit, action, or repeat meaning, and audio may lack an equivalent text path | “A spoken instruction cannot point at the punctuation.” | One current, approved spoken-instruction, audio-alternative, transcript, or equivalent-text surface with exact labels and version/date | Semantic confidence without claiming product audio | “Say the context before the action.” | blocked; product proof, equivalent-text review, formal accessibility review, rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `hands-busy`, which focuses on what survives while a maker’s hands are occupied. `spoken-index` changes the pain to the semantic fields and ordering required for a spoken instruction to remain auditable, plus the equivalent text that must remain available. It changes the hook to “A spoken instruction cannot point at the punctuation,” the visual metaphor from occupied hands to `ROW/ROUND → SIDE → SIZE → NUMBER → UNIT → ACTION → REPEAT`, the proof surface from hand-state workflow to a spoken-instruction or audio-alternative surface with equivalent text and speaker/voice labeling, the emotional turn from physical convenience to semantic confidence without claiming product audio, and the final line to “Say the context before the action.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
