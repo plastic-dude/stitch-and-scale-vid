@@ -1,0 +1,17 @@
+message_id: MSG-20260819-053700-director-014
+sender: director
+recipient: production
+created_at: '2026-08-19T05:37:00+01:00'
+plan_id: PLAN-20260819-053700-evidence-over-output-v001
+angle_slug: evidence-over-output
+status: blocked
+subject: Evidence-over-output concept blocked pending current product proof
+body: >-
+  Fresh research moved the concept from a generic anti-AI warning to a verification boundary: a polished
+  or generated-looking sentence is not, by itself, technical or physical craft evidence. Do not generate or
+  upload. The checked state has no current approved product surface for AI, generated text, model provenance,
+  or human-review indicators, and no product capability may be implied. Next action: provide one current
+  approved non-private product-surface proof capture or registry entry with product version/date and exact
+  visible labels, then rerun claims, rights, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

@@ -139,3 +139,13 @@ The nearest prior angle is `decision-ledger`, which focuses on distinguishing re
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `offline-continuity`, which focuses on work remaining usable and honestly labeled when connectivity disappears. `recovery-proof` changes the pain to ownership without verified recovery or safe export, the hook to “A file is not a backup until you can bring the work back,” the visual metaphor from local/pending/stale device state to a pattern bundle leaving and returning through scope, destination, and restore checks, the proof surface from offline/freshness/synchronization behavior to a current export/backup/restore surface, the emotional turn from calm resilience under signal loss to quiet protection through tested recoverability, and the final line to “Show me what came back.” It is not a human release gate or roster; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+## Wide-research Director decision — evidence over output — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `evidence-over-output` | Fluent or generated-looking language can be mistaken for technical and physical craft evidence | “A generated line can sound finished. It cannot knit the proof.” | One current, approved product surface showing exactly what the tool does | Calm verification literacy rather than anti-AI fear or false certainty | “Show me the evidence behind the sentence.” | blocked; product proof missing; distinct from `false-completion`, `release-gate-roster`, `decision-ledger`, and `chart-parity` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is the imported `false-completion` concept, which is a broader blocked human-gate story. `evidence-over-output` changes the pain to fluent or generated-looking language being mistaken for craft evidence, the hook to “A generated line can sound finished. It cannot knit the proof,” the visual metaphor from generic completion to a polished sentence stopping before five separate evidence cards, the proof surface from a generic human-gate workflow to one current product surface showing exactly what the tool does, the emotional turn from fear of false closure to calm verification literacy, and the final line to “Show me the evidence behind the sentence.” It does not reopen, overwrite, rename, or consume the imported `false-completion` or `release-gate-roster` reservations.

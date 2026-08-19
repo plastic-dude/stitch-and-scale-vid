@@ -293,3 +293,31 @@ Research changed the concept from generic data ownership to **recoverable owners
 [27] [UK National Cyber Security Centre — Design Pattern: Safely Exporting Data](https://www.ncsc.gov.uk/guidance/design-pattern-safely-exporting-data)
 
 [28] [Pattern Keeper — Export a backup of your progress](https://patternkeeper.app/help/export-a-backup-of-your-progress/)
+
+## Twelfth wide-research question: generated language is not craft evidence — 2026-08-19
+
+### Research question
+How should a knitwear-pattern workflow distinguish generated language or machine-shaped output from technical and physical evidence, without making unsupported anti-AI claims or implying that Stitch & Scale uses AI in the current product?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| The Knitting Guild Association, “Recognizing AI in Knitting” | 2026-08-19; current guild source discovered and opened, page text was not available in the browser extraction | The page is a current TKGA resource specifically addressing recognition of AI in knitting. Its search description contrasts human-written patterns that are checked, edited, and often test-knit with generated pattern text and points to human knowledge of gauge, ergonomics, and fit. | The page body was not extractable in this session, so no detailed claim is taken from it beyond the topic and search description. It does not prove any Stitch & Scale behavior. | Use TKGA only as a research lead; keep the campaign claims anchored in the project’s explicit human evidence gates rather than quoting unverified details. |
+| Federal Trade Commission, Artificial Intelligence industry page | 2026-08-19; live page | The FTC page lists current actions involving deceptive AI-powered marketing, misrepresented accuracy, fabricated reviews, business-growth and earnings claims, and other misleading AI-related conduct. | An enforcement/index page is not a universal rule for craft software and does not establish that any specific AI output is deceptive. It does support caution around unsupported capability, accuracy, and outcome claims. | Do not frame generated text as accurate, checked, customer-proven, profitable, or technically sufficient. The concept should dramatize verification boundaries, not attack AI as a category. |
+| Internal production/playbook contract | 2026-08-19; repository source | Generated text is not UI truth; current product captures are required for numbers, labels, warnings, and controls. Technical editing, physical print review, chart readability, schematic scale, and test knitting remain distinct human evidence gates. | Internal operating contract, not external evidence. | The dramatic engine becomes **output versus evidence**: a generated sentence may be a draft, but it is not a fit check, chart review, print review, schematic check, technical edit, or test knit. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for AI generation, AI labeling, generated pattern text, model provenance, human-review indicators, or any AI-assisted product surface. The app must not be described as AI-powered, and the film must not imply that Stitch & Scale generates or validates pattern text. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`evidence-over-output`**: the tension is a polished sentence that looks finished while the craft evidence is still absent. The hook is “A generated line can sound finished. It cannot knit the proof.” The visual metaphor is a clean typed line stopping at five separate human evidence cards: technical edit, physical print review, chart readability, schematic scale, and test knit. The proof surface must be one current, approved product surface that visibly shows what it actually does; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from a generic anti-AI warning to a **verification boundary story**. The script must not claim that Stitch & Scale uses AI, that generated text is present in the product, that AI patterns are universally bad, or that humans guarantee correctness. It may state that a generated sentence is not itself technical or physical evidence, then invite current product proof for the exact workflow shown.
+
+### References
+
+[29] [The Knitting Guild Association — Recognizing AI in Knitting](https://tkga.org/recognizing-ai-in-knitting/)
+
+[30] [Federal Trade Commission — Artificial Intelligence](https://www.ftc.gov/industry/technology/artificial-intelligence)
