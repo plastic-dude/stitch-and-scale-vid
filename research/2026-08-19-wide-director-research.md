@@ -5904,3 +5904,39 @@ Do not claim that Stitch & Scale currently exposes calibration, metrological tra
 [765] [Craft Yarn Council — YDKWYDK: Gauge and why it’s important](https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important)
 [766] [BIPM/JCGM — VIM3 §2.41 Metrological Traceability](https://jcgm.bipm.org/vim/en/2.41.html)
 [767] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-thirty-sixth wide-research question: saved is not shaped — 20260819-210536
+
+### Research question
+
+When a craft record is stored, what proves its structure was defined and validated rather than merely persisted as data?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| JSON Schema, *JSON Schema Validation: A Vocabulary for Structural Validation of JSON* | 2026-08-19 | JSON Schema describes the meaning of JSON documents, can provide UI hints, and can assert what a valid document must look like. Its vocabulary includes type, numeric/string/array constraints, required properties, and dependent-required properties. | The checked page is an IETF Internet-Draft dated 2022; not proof of a current Stitch & Scale data shape or implementation. | Show that persistence and structural validity are separate questions, without claiming the app uses JSON Schema. |
+| W3C, *Shapes Constraint Language (SHACL)* | 2026-08-19 | SHACL validates data graphs against conditions expressed in shape graphs. Shape graphs can also describe data graphs and support UI building, code generation, and data integration. | W3C Recommendation; not evidence that Stitch & Scale uses SHACL or exposes schema validation. | Make record type, required fields, constraints, dependencies, validation result, version, and review the fictional proof surface. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Record shapes, grading data, exports, charts, schematics, business records, mobile capture, and human review have separate evidence boundaries. | Internal workflow contracts, not current product proof. | Keep `schema-state` blocked and preserve calculation, technical edit, print, chart, schematic, and test-knit gates. |
+
+### Research synthesis and concept decision
+
+Saved is not shaped. Candidate angle: `schema-state`. Hook: “Saved is not shaped.” Fictional proof surface: `RECORD TYPE / REQUIRED FIELDS / CONSTRAINTS / DEPENDENCIES / VALIDATION RESULT / VERSION / REVIEWED`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: an unshaped record enters a schema frame; missing required fields and dependency failures remain visible rather than being smoothed into a green completion state. Emotional turn: “It saved” becomes “Its structure is inspectable.” Final line: “Name what the record must contain.”
+
+The candidate is distinct from `commit-state` (saved is not a green check), `input-state` (entered is not intended), `unit-state` (number without unit is unfinished), `calibration-state` (measurement lacks reference and conditions), `acceptance-criteria` (release decision needs explicit criteria), and imported `false-completion`/`release-gate-roster` (human-gate completion and accountability). It focuses on structural shape and validation semantics for a stored record, not persistence, entry intent, measurement context, release criteria, or human-gate accountability.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 135 before this package; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies record schemas, required-field rules, cross-field dependencies, validation results, schema versions, or reviewed schema status. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one record type, required fields, a constraint or dependency, validation result, schema/version context, and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes record schemas, required-field rules, constraints, cross-field dependencies, validation results, schema versions, or reviewed schema status. Do not present `RECORD TYPE`, `REQUIRED FIELDS`, `CONSTRAINTS`, `DEPENDENCIES`, `VALIDATION RESULT`, `VERSION`, or `REVIEWED` as current product UI. Do not claim that a stored record is valid, complete, accurate, interoperable, or ready for export merely because it persisted. Preserve calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[768] [JSON Schema — JSON Schema Validation: A Vocabulary for Structural Validation of JSON](https://json-schema.org/draft/2020-12/json-schema-validation)
+[769] [W3C — Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/)
+[770] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)

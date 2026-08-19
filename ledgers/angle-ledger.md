@@ -1462,3 +1462,13 @@ It is distinct from `absence-state`, `dependency-state`, `selection-state`, `pre
 ### Distinctness note — 20260819-210058
 
 The nearest prior angle is `input-state`, which asks whether an entered value reflects the user’s intention. `calibration-state` changes the pain to the reference and conditions that make a recorded measurement meaningful. It changes the hook to “Measured is not calibrated”; the visual metaphor from an entry field split into intended/not intended to a measurement card entering a reference frame, with an uncontextualized number held for review; the proof surface from field/intended value/actual value/source/context/unit/confirmation to measurement/reference/conditions/instrument/unit/date/repeat/reviewed; the emotional turn from wrong-entry anxiety to explainable measurement context; and the final line to “Name what made the number meaningful.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+## Wide-research Director decision — schema state — 20260819-210536
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `schema-state` | A stored craft record may persist without a defined, validated structure | “Saved is not shaped.” | Fictional record-type/required-fields/constraints/dependencies/validation-result/version/reviewed card | From “It saved” to “Its structure is inspectable” | “Name what the record must contain.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-210536
+
+The nearest prior angle is `commit-state`, which asks whether a saved state deserves a green check. `schema-state` changes the pain to the structural contract a stored record must satisfy before it is interpretable or transferable. It changes the hook to “Saved is not shaped”; the visual metaphor from save state versus green check to an unshaped record entering a schema frame where missing required fields and dependency failures remain visible; the proof surface from save event/record state/commit indicator/version/dirty state/reopen result to record type/required fields/constraints/dependencies/validation result/version/reviewed; the emotional turn from save-status uncertainty to inspectable record structure; and the final line to “Name what the record must contain.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
