@@ -1,0 +1,34 @@
+event_type: video_generator_bounded_run
+run_id: BLOCKED-no-eligible-director-contract-20260819-140638
+occurred_at: '2026-08-19T14:06:38+01:00'
+conversation_scope: same_existing_task_and_conversation
+status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+video_id: null
+filename: null
+output_count: 0
+message: >-
+  Repository refreshed and queue checked. The only approved-for-generation Director pair is DIR-001,
+  already produced. No open REMAKE_REQUIRED order and no newer unprocessed approved-for-generation
+  pair were found. The publication-readiness candidate remains director-review with unresolved
+  product-proof and rights gates. No MP4 was generated, no generic substitute was used, and no
+  existing video was overwritten.
+research_note: research/2026-08-19-blocked-no-eligible-director-contract-140638.md
+qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-140638/generator-check.md
+manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-140638.yml
+google_drive:
+  connector: Google Workspace / Drive
+  archive_folder_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  connectivity: verified
+  upload_status: NOT_ATTEMPTED
+  reason: no_authorized_mp4_existed
+  drive_file_id: null
+sources:
+  - https://support.google.com/youtube/answer/1722171?hl=en
+  - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+  - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+next_action: >-
+  On the next firing, refresh all branches, prioritize any new REMAKE_REQUIRED order, and otherwise
+  select the earliest newly added Director brief with exact status approved-for-generation. Do not
+  regenerate DIR-001 or use the blocked publication-readiness pair.
+git_commit: PENDING_FIRST_RECORD_COMMIT
