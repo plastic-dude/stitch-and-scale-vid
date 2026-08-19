@@ -219,3 +219,13 @@ The nearest prior angle is the imported `false-completion` concept, a broader bl
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `feedback-loop`, which concerns what happens after a test-knit observation is received. `brief-before-knit` changes the pain to a maker being asked for work before scope and expectations are visible, the hook to “Before the first stitch, make the ask clear,” the visual metaphor from response states to `SCOPE / TIME / YARN / SAMPLE / FEEDBACK` prompt cards followed by `ASK — CONSENT — RESPOND`, the proof surface from feedback/issue response to a tester-brief or participation record, the emotional turn from response accountability to informed choice before labor begins, and the final line to “Make the ask clear before the first stitch.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — care context — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `care-context` | A care symbol or washing instruction can detach from the fiber, sample, source, or substitution that gives it meaning | “A care symbol without its material context is only half a promise.” | One current, approved care/material/sample-record surface with exact labels | Responsible care communication rather than wash-safety or outcome certainty | “Keep the care with the context.” | blocked; product proof, care-symbol rights, and human recheck plan missing; distinct from `material-notes`, `sample-chain`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `material-notes`, which concerns the assumptions behind selecting or substituting yarn. `care-context` changes the pain to care meaning becoming detached from fiber, sample, source, or substitution, the hook to “A care symbol without its material context is only half a promise,” the visual metaphor from yarn/substitution cards to an unbranded care card, swatch, and sample note joined by `FIBER / SOURCE / CARE / RECHECK`, the proof surface from materials/gauge/substitution to a care/material/sample-record surface, the emotional turn from substitution rechecking to responsible care communication, and the final line to “Keep the care with the context.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

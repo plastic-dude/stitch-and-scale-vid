@@ -528,3 +528,31 @@ Research changed the concept from a generic recruitment or tester-roster story t
 [43] [A Bee In The Bonnet — Test Knit Red Flags: Part Two of Test Knitters Tell All](https://www.abeeinthebonnet.com/blog/test-knit-red-flags/)
 
 [44] [A Bee In The Bonnet — Tech Editing and Test Knitting: When Do You Need Them?](https://www.abeeinthebonnet.com/blog/tech-editing-and-test-knitting-when-do-you-need-them/)
+
+## Twentieth wide-research question: care instructions are part of the pattern’s honesty — 2026-08-19
+
+### Research question
+How can a designer preserve care, washing, drying, and blocking assumptions for a hand-knit sample without turning a care symbol into a universal guarantee or claiming Stitch & Scale predicts material behavior or care outcomes?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Care Symbols” | 2026-08-19; live page | CYC explains that universal care symbols reduce language on yarn and clothing labels, and that symbols communicate washing, bleaching, drying, ironing, and professional-care instructions. It notes that numbers/dots can indicate water temperature, a hand can indicate hand washing, and an X means do not wash or bleach. It also notes Celsius/Fahrenheit differences across sources. | Symbols are guidance attached to an item/material context, not a guarantee of outcome for every hand-knit object or substitution. CYC’s page is standards education, not proof of Stitch & Scale care fields or a product implementation. | The concept should show care assumptions and source context travelling with a sample, not a “safe to wash” promise. Include unit/context clarity and a human recheck. |
+| The Woolmark Company, “How to wash a wool sweater” | 2026-08-19; live page | Woolmark distinguishes machine-wash guidance by a garment care claim, describes hand-wash steps, and recommends flat-drying knitwear in shade. Its advice is material- and care-claim-specific. | Woolmark guidance is about wool garments under its stated conditions; it does not apply universally to all fibers, blends, constructions, or samples and does not prove Stitch & Scale care functionality. | The visual must use an unbranded fictional care card and no real Woolmark mark. The script must avoid “wash-safe,” “won’t shrink,” or any outcome guarantee. |
+| Local craft-business record contract | 2026-08-19; repository source | Material/source notes, sample records, test knitting, physical print review, and human evidence gates remain distinct; the record layer should preserve source labels and explicit assumptions. | Internal workflow guidance, not proof of a current care-record surface. | The proof surface should be a current care/material note or sample record, not a care outcome or automated recommendation. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for care symbols, wash instructions, blocking notes, drying guidance, fiber-specific care, care-source labels, or a care-record workflow. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`care-context`**: the tension is a care symbol or washing instruction detached from the fiber, sample, source, or substitution that gave it meaning. The hook is “A care symbol without its material context is only half a promise.” The visual metaphor is an unbranded care card beside a swatch and sample note, joined by `FIBER / SOURCE / CARE / RECHECK`. The proof surface must be one current, approved care/material/sample-record surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic garment-care advice into **care context plus human recheck**. The script must not claim wash safety, no-shrink performance, durability, care automation, or universal care guidance. It may show that care information needs material context and source, then invite current product proof for the exact surface.
+
+### References
+
+[45] [Craft Yarn Council — Care Symbols](https://www.craftyarncouncil.com/standards/care-symbols)
+
+[46] [The Woolmark Company — How to wash a wool sweater](https://www.woolmark.com/care/how-to-wash-wool-sweater/)

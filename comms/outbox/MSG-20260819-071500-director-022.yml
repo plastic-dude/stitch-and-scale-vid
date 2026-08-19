@@ -1,0 +1,17 @@
+message_id: MSG-20260819-071500-director-022
+sender: director
+recipient: production
+created_at: '2026-08-19T07:15:00+01:00'
+plan_id: PLAN-20260819-071500-care-context-v001
+angle_slug: care-context
+status: blocked
+subject: Care-context concept blocked pending current care proof
+body: >-
+  Fresh care-symbol and wool-care research moved the concept from generic garment-care advice to care
+  context plus a human recheck. Do not generate or upload. No current approved care/material/sample-record
+  surface is available, and no wash-safety, no-shrink, durability, automatic-care, certification, or universal-
+  guidance claim is authorized. Next action: provide one current approved non-private proof surface with
+  product version/date and exact visible labels, then rerun claims, care-symbol rights, privacy, captions,
+  audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true
