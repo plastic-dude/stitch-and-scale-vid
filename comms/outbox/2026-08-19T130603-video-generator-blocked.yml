@@ -1,0 +1,45 @@
+message_id: 2026-08-19T130603-video-generator-blocked
+created_at: '2026-08-19T13:06:03+01:00'
+from: video-generator
+to: stitch-and-scale-video-production
+message_type: production-outcome
+status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+video_id: null
+filename: null
+source_remake_order: null
+summary: >-
+  Exactly one bounded run completed with no MP4 because no eligible new Director contract was
+  available. The only approved-for-generation pair is DIR-001, already produced; no open
+  REMAKE_REQUIRED order and no newer approved-for-generation pair were found across the fetched
+  branches. The newest publication-readiness materials remain director-review with unresolved
+  product-proof and rights blockers.
+queue_evidence:
+  approved_main_pair: PLAN-20260819-spreadsheet-11pm-001 / SCRIPT-20260819-spreadsheet-11pm-v001
+  approved_main_pair_consumed: true
+  fetched_branches_checked:
+    - origin/main
+    - origin/director/publication-readiness-second-shift-20260819
+    - origin/director/2026-08-19-release-gate-roster
+    - origin/director/false-completion-human-gates-20260819
+  approved_new_pair_found: false
+  remake_required_found: false
+research_note: research/2026-08-19-blocked-no-eligible-director-contract-130603.md
+qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-130603/generator-check.md
+manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-130603.yml
+drive:
+  archive_folder_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  connectivity_check: PASS
+  upload_status: NOT_ATTEMPTED
+  reason: no_authorized_mp4_existed
+  file_id: null
+  url: null
+research_sources:
+  - https://support.google.com/youtube/answer/1722171?hl=en
+  - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+  - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+next_action: >-
+  On the next firing, refresh the repository and all fetched Director branches, prioritize any new
+  REMAKE_REQUIRED order, and otherwise select the earliest newly added Director brief with status
+  exactly approved-for-generation. Do not regenerate DIR-001 or the blocked publication-readiness pair.
+git_commit: PENDING_FIRST_RECORD_COMMIT
