@@ -1,0 +1,69 @@
+manifest_version: 1
+video_id: SS_founder-proof_sampling-state_9x16_v001_blocked_20260819-214620
+brief_id: BRF-founder-proof-sampling-state-9x16-v001
+campaign: founder-proof
+angle_slug: sampling-state
+format: 9x16
+version: v001
+status: blocked
+created_at: 2026-08-19T20:46:20Z
+filename_reservation: SS_founder-proof_sampling-state_9x16_v001_blocked_20260819-214620.mp4
+research_record: research/2026-08-19-wide-director-research.md
+browser_findings: research/2026-08-19-pass148-browser-findings.md
+brief_path: briefs/SS_founder-proof_sampling-state_9x16_v001_blocked_20260819-214620.md
+script_path: scripts/SS_founder-proof_sampling-state_9x16_v001_blocked_20260819-214620.md
+platform_matrix_path: platforms/SS_founder-proof_sampling-state_9x16_v001_matrix_20260819-214620.md
+continuity_path: ledgers/20260819-sampling-state.md
+media_path: null
+media_generated: false
+media_uploaded: false
+product_proof:
+  registry_entry: null
+  approved_capture: null
+  exact_surface_verified: false
+  target_population_sample_verified: false
+  selection_size_conditions_verified: false
+  exclusions_observations_limits_verified: false
+  review_decision_verified: false
+claims:
+  product_exposes_target_population_sample_selection_method_size_conditions_exclusions_observations_limits_reviewed_decision: prohibited
+  product_guarantees_representativeness_sample_adequacy_statistical_validity_or_universal_coverage: prohibited
+  one_test_supports_every_size_material_condition_or_edge_case: prohibited
+  sampling_replaces_human_gates: prohibited
+  accuracy_adoption_revenue_outcomes: prohibited
+  founder_knitwear_identity: prohibited
+human_evidence_gates:
+  calculation: separate
+  technical_edit: separate
+  physical_print_review: separate
+  chart_readability: separate
+  schematic_scale: separate
+  test_knit: separate
+narrator:
+  family: one approved narrator family only
+  status: pending
+captions:
+  human_review_required: true
+  caption_on_master: pending
+  caption_free_master: pending
+  proof_obstruction_allowed: false
+audio:
+  cleared_voice_required: true
+  cleared_music_or_original_only: true
+  foley: population field, sample place, selection click, size tag, condition tag, exclusion line, observation note, limits dim, quiet review, decision hold
+rights_privacy:
+  status: required_not_approved
+  private_records_allowed: false
+  recognizable_people_allowed: false
+  copyrighted_patterns_allowed: false
+  unlicensed_music_clips_artwork_allowed: false
+review_state:
+  reviews_dir_checked: true
+  orders_dir_checked: true
+  comms_inbox_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked_filename_occupied
+  release_gate_roster: blocked_filename_occupied
+next_action: Provide one versioned non-private rights-cleared approved capture or product-proof registry entry showing one craft test or review sample with defined population, selection method, size, conditions, exclusions, observations, limitations, and human review before making any broader claim; then rerun all gates.
+generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.

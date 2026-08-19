@@ -1,0 +1,19 @@
+message_id: MSG-20260819-214620-director-150
+created_at: 2026-08-19T21:46:20+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_sampling-state_9x16_v001_blocked_20260819-214620
+parent_id: BRF-founder-proof-sampling-state-9x16-v001
+status: blocked
+summary: Sampling-state is blocked because no current approved product proof verifies target population, sample, selection method, size, conditions, exclusions, observations, limits, review, decision, or sampling labels.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass148-browser-findings.md
+  - briefs/SS_founder-proof_sampling-state_9x16_v001_blocked_20260819-214620.md
+  - scripts/SS_founder-proof_sampling-state_9x16_v001_blocked_20260819-214620.md
+  - platforms/SS_founder-proof_sampling-state_9x16_v001_matrix_20260819-214620.md
+  - ledgers/20260819-sampling-state.md
+  - manifests/SS_founder-proof_sampling-state_9x16_v001_blocked_20260819-214620.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one craft test or review sample with defined population, selection method, size, conditions, exclusions, observations, limitations, and human review before making any broader claim; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
