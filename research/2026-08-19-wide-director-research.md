@@ -7347,3 +7347,38 @@ No current product-proof registry or approved non-private capture verifies autho
 [882]: https://digital.defra.gov.uk/service-assessments "Defra Service Assessments"
 [883]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
 [884]: https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important "Craft Yarn Council, Gauge and Why It Is Important"
+
+
+## Wide-research Director question 171 — observability state — 20260820-002328
+
+**Fresh research question.** When a workflow appears quiet, what evidence shows whether it is healthy, waiting, progressing, stale, or silently failing?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest silent-failure pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise, diagnostic reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [885] | OpenTelemetry, *What is OpenTelemetry?*, accessed 2026-08-20: https://opentelemetry.io/docs/what-is-opentelemetry/ | OpenTelemetry defines observability as understanding internal state from outputs and describes traces, metrics, and logs as typical telemetry signals. It says instrumentation must emit signals and those signals must reach an observability backend. | This is software observability guidance, not proof that Stitch & Scale uses telemetry, traces, metrics, logs, instrumentation, or a backend. |
+| [886] | W3C, *Understanding SC 4.1.3: Status Messages*, accessed 2026-08-20: https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html | W3C says status messages can be programmatically determined so assistive technologies can present them without taking focus. It defines status messages around action results, waiting state, progress, and errors, and emphasizes awareness without unnecessary interruption. | The criterion is specific to status messages and web accessibility; it does not prove product conformance, live-region implementation, or any particular UI architecture. |
+| [887] | NIST, *SP 800-137: Information Security Continuous Monitoring*, published 2011; accessed 2026-08-20: https://csrc.nist.gov/pubs/sp/800/137/final | NIST describes continuous monitoring as providing visibility into assets, threats, vulnerabilities, and control effectiveness, with information to respond when observations show inadequacy. | This is security-monitoring guidance, not proof that Stitch & Scale performs continuous monitoring or exposes operational health state. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from “no error is shown” to “the workflow's state is observable enough to distinguish healthy, waiting, progressing, stale, and failed.” The fictional proof surface is `PROCESS P-001 / EXPECTED / OBSERVED / LAST_UPDATED / SIGNAL / STATE / GAP / REVIEWED / DISPOSITION`. A quiet screen is not treated as success. The visual opportunity is a split between an unchanged surface and a state card that names the missing signal without manufacturing an error.
+
+The selected angle is `observability-state`, hook **“No error is not observable.”** The final line is **“Name what proves this is still alive.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `integrity-state`, which asks whether an artifact is intact. `observability-state` changes the pain to whether a running or waiting workflow exposes enough outputs to tell what state it occupies. It is not `audit-state`, which asks whether a historical trace exists; `freshness-state`, which asks whether evidence is current; `status-messages` as a WCAG criterion, which concerns assistive-technology notification; `sequence-state`, which asks whether order is correct; `interruptibility-state`, which asks what survives a stop; `recovery-proof`, which asks whether recovery is evidenced; or `offline-continuity`, which asks whether work continues without connection. The visual metaphor changes to a silent process beside a signal/state/gap card, not an audit trail, freshness stamp, stop boundary, or recovery result. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies process health, waiting, progress, stale state, failure state, telemetry, logs, metrics, traces, status messages, live regions, monitoring, or disposition behavior. The evidence cards must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with observability, continuous monitoring, live notifications, status semantics, error detection, reliability, uptime, correctness, or compliance. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [885]–[887]
+
+[885]: https://opentelemetry.io/docs/what-is-opentelemetry/ "OpenTelemetry — What is OpenTelemetry?"
+[886]: https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html "W3C Understanding SC 4.1.3: Status Messages"
+[887]: https://csrc.nist.gov/pubs/sp/800/137/final "NIST SP 800-137: Information Security Continuous Monitoring"

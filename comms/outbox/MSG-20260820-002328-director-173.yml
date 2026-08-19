@@ -1,0 +1,19 @@
+message_id: MSG-20260820-002328-director-173
+created_at: 2026-08-20T00:23:28+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_observability-state_9x16_v001_blocked_20260820-002328
+parent_id: BRF-founder-proof-observability-state-9x16-v001
+status: blocked
+summary: Observability-state is blocked because no current approved product proof verifies expected and observed state, last update, signal, progress/waiting/stale/failure distinction, review, and disposition.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-20-pass171-browser-findings.md
+  - briefs/SS_founder-proof_observability-state_9x16_v001_blocked_20260820-002328.md
+  - scripts/SS_founder-proof_observability-state_9x16_v001_blocked_20260820-002328.md
+  - platforms/SS_founder-proof_observability-state_9x16_v001_matrix_20260820-002328.md
+  - ledgers/20260820-observability-state.md
+  - manifests/SS_founder-proof_observability-state_9x16_v001_blocked_20260820-002328.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one real workflow state with expected/observed/last_updated/signal/state/gap/reviewed/disposition before presenting observability behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
