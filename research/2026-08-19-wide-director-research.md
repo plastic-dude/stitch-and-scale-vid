@@ -4609,3 +4609,59 @@ Do not claim that Stitch & Scale sends reminders, calculates review windows, det
 ### Research limit
 
 NIST establishes that calibration intervals are context-dependent and not universal. The NASA source is obsolete and is used only as a bounded historical example of event-based review logic. Neither establishes a Stitch & Scale review-window, reminder, expiry, freshness, or currentness feature. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact review-expiry surface and labels.
+
+## One-hundred-eighth wide-research question: waived is not met — 2026-08-19
+
+### Research question
+What distinguishes a bounded waiver or deviation decision from meeting the original requirement? How should a record name the requirement, deviation, scope, rationale, authority, conditions, compensating action, expiry or review, residual state, and status without claiming Stitch & Scale approves waivers, accepts risk, supplies compensating controls, or verifies residual risk?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NIST compensating-controls glossary | Current page checked 2026-08-19 | NIST defines compensating controls as controls implemented in lieu of baseline controls that provide equivalent or comparable protection, with the definition scoped to the applicable NIST publication. | Security/privacy context; no Stitch & Scale substitute-control feature or equivalence claim. | Treat a compensating action as a bounded record field, not proof that the original requirement was met. |
+| NIST Risk Management Framework | Page updated 2026-07-24; checked 2026-08-19 | NIST describes the RMF as comprehensive, flexible, repeatable, and measurable for managing information-security and privacy risk through an organizational process. | Organizational security/privacy context; no product risk-acceptance or waiver authority. | Separate requirement status from risk/exception decision and prohibit product approval claims. |
+| NASA waiver/deviation source locator | Official PDF located 2026-08-19; extraction binary/encoded | Search-result metadata identifies an official NASA document concerning approval of waivers/deviations by proper authority. | Full text was not readable in extraction; no verbatim NASA claim is used. | Require authority and scope fields but label the NASA source only as a locator, not as quoted evidence. |
+| NASA/NIST risk and requirements context from prior passes | Current pages checked 2026-08-19 | Requirements, risk, mitigation, and review decisions are scoped to a requirement, authority, conditions, and residual state; a decision to accept a deviation does not silently rewrite the baseline. | Systems/risk-management context; no Stitch & Scale governance capability. | Use a waiver record with explicit original requirement, deviation, conditions, compensating action, review/expiry, and residual state. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform checks do not convert a fictional waiver card into current product UI or prove that an exception is accessible, safe, accurate, or publication-ready. | Accessibility/platform context; no waiver authority. | Preserve caption-safe layout and keep exception language bounded. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts distinguish requirements, warnings, designer decisions, recorded facts, estimates, technical edit, print review, chart review, schematic scale, test knitting, and publication blocking. | Internal operating contracts, not independent validation. | Add `REQUIREMENT / DEVIATION / SCOPE / RATIONALE / AUTHORITY / CONDITIONS / COMPENSATING ACTION / EXPIRY OR REVIEW / RESIDUAL STATE / STATUS`. |
+
+### Research synthesis
+
+NIST’s compensating-control definition supports a narrow distinction: an alternative control may be used in lieu of a baseline only within a defined security/privacy context and with comparable protection; it is not automatic proof that the baseline requirement was satisfied. NIST’s RMF provides general organizational risk-management context. The NASA source is retained only as an official locator because the PDF extraction was unreadable; no unsupported NASA quotation is made. The visual opportunity is a fictional waiver record that keeps the original requirement visible, names the deviation, scope, rationale, authority, conditions, compensating action, expiry/review, residual state, and status, ending at `STATUS: WAIVER IS A DECISION — REQUIREMENT NOT MET`, labelled `ILLUSTRATIVE — NOT PRODUCT UI`. Final line: “Name what remains unmet when you record the waiver.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a waiver/deviation, authority, compensating action, expiry/review, residual-state, exception, or risk-acceptance surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 108 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic exception language into **a waiver-state record that preserves the original unmet requirement while documenting a bounded decision and its conditions**. The fresh concept is `waiver-state`: a fictional card prevents `WAIVED` from being read as `MET`, `APPROVED`, `SAFE`, or `RELEASED`. No product waiver approval, compensating-control equivalence, risk acceptance, residual-risk verification, or publication exception capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `review-expiry`, which focuses on review obligation and review-window basis. `waiver-state` changes the pain to **a bounded deviation being mistaken for satisfaction of the original requirement or as permission to erase the requirement**. It changes the hook to “Waived is not met”; the visual metaphor from a review-window card to a layered requirement/deviation record with the original requirement still visible; the proof surface to requirement, deviation, scope, rationale, authority, conditions, compensating action, expiry/review, residual state, and status; the emotional turn from making review obligations explicit to preserving what remains unmet; and the final line to “Name what remains unmet when you record the waiver.”
+
+It is distinct from `review-expiry` because it is not review-window obligation; from `drift-state` because it is not detecting change; from `exception-scope` because it is not merely showing that an exception is scoped rather than universal; from `risk-trigger` because it is not threshold response; from `failure-mode` because it is not scenario/effect analysis; from `acceptance-criteria` because it is not criterion semantics; from `decision-reversal` because it is not rollback; from `outcome-proof` because it is not an observed effect; from `evidence-type` and `evidence-coverage` because it is not evidence classification or claim mapping; from `provenance-chain` because it is not source lineage; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale approves waivers, accepts residual risk, supplies compensating controls, determines equivalent protection, validates exceptions, or authorizes release/publication. Do not use `WAIVED`, `REQUIREMENT NOT MET`, `AUTHORITY`, `COMPENSATING ACTION`, or `RESIDUAL STATE` as current product UI. Do not present a waiver as a pass, approval, safety statement, accuracy statement, fit statement, accessibility statement, publication-ready state, adoption, revenue, customer outcome, or human-gate completion. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party reports without rights/privacy clearance. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[574] [NIST — Compensating Controls Glossary](https://csrc.nist.gov/glossary/term/compensating_controls)
+[575] [NIST — Risk Management Framework](https://csrc.nist.gov/projects/risk-management)
+[576] [NASA — AFPR 7123.2-001 PDF source locator](https://www.nasa.gov/wp-content/uploads/2024/03/afpr-7123.2-001.pdf?emrc=a79cec)
+[577] [NIST — SP 800-37 Rev. 2](https://doi.org/10.6028/NIST.SP.800-37r2)
+[578] [NIST — SP 800-53 Rev. 5](https://doi.org/10.6028/NIST.SP.800-53r5)
+[579] [NIST — Risk Management Framework Publications](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final)
+[580] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[581] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[582] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[583] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[584] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NIST establishes a general compensating-control distinction and organizational risk-management context, not a Stitch & Scale waiver, exception, approval, risk-acceptance, or equivalent-protection feature. The NASA PDF is an official source locator only because extraction was binary/encoded; no unsupported quote or current NASA requirement is claimed. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact waiver-state surface and labels.
