@@ -6751,3 +6751,52 @@ The nearest prior angle is `escalation-state`, which asks who carries a finding 
 [838]: https://www.craftyarncouncil.com/standards "Craft Yarn Council, Standards and Guidelines for Crochet and Knitting"
 [839]: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html "W3C WAI, Understanding SC 1.2.2: Captions (Prerecorded)"
 [840]: https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads "TikTok for Business, Auction In-Feed Ads"
+
+## One-hundred-fifty-eighth wide-research question: recorded is not custody — 20260819-215200
+
+**Question.** What evidence shows who handled one specific craft record or suspect output, when and why it was collected or transferred, how it was safeguarded or analyzed, and whether the next handler accepted the handoff, rather than relying on provenance or a filename alone?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between provenance of an output and custody of a specific evidence item; audience is makers, reviewers, and developers who need an inspectable handoff history; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST custody definition.** NIST defines chain of custody as tracking evidence through collection, safeguarding, and analysis by documenting each person who handled it, the date/time collected or transferred, and the purpose for the transfer. Used only as a planning analogy, this supports a custody sequence for one evidence item. It does not establish legal sufficiency, immutable storage, or a Stitch & Scale custody feature. [841]
+
+**W3C provenance boundary.** W3C PROV-DM describes provenance as information about entities, activities, and people involved in producing a data item, including time, derivation, agents, and responsibility. Provenance is therefore a neighboring production-history concept; pass 158 narrows the story to handling and transfer events for one identified evidence item. W3C PROV-DM is domain-agnostic and does not establish a product implementation. [842]
+
+**Craft handoff evidence.** The Craft Yarn Council advises readers to read the entire relevant instruction section, actually perform the instructions, and use a friend reading the pattern aloud while working. It also identifies gauge as important to producing a successful project and recommends a gauge swatch using the stated yarn, tools, and pattern stitch. The treatment uses one fictional instruction/evidence artifact whose custody events remain attached through review; the source does not prove product correctness, reader success, or a custody workflow. [843]
+
+**Accessibility boundary.** W3C prerecorded-caption guidance requires captions to carry dialogue, speaker identification, and meaningful sound information in synchronized media. Pass 158 therefore uses one narrator family, caption-on and caption-free masters, and only meaningful transfer or custody sound cues. The custody table receives close readable holds and captions never cover evidence ID, handler, date/time, or transfer purpose. [844]
+
+**Selected angle.** `custody-state` — “Recorded is not custody.”
+
+**Primary pain.** A filename, provenance graph, or status can show that an artifact exists without showing who handled that specific evidence, when, why, under what condition, or whether the next handler accepted it. The missing element is a continuous, inspectable custody history.
+
+**Hook.** “Recorded is not custody.”
+
+**Dramatic engine.** Subject: one fictional evidence card with a stable evidence ID. Desire: preserve the artifact’s meaning as it moves through review. Obstacle: the card has a source and filename but no handling events. Stakes: a transfer or alteration becomes impossible to explain, and a later reviewer may treat a changed artifact as the original. Change: the card gains custody events with handler, date/time, purpose, from/to, safeguard, condition, transfer acceptance, next handler, and disposition. Contradiction: provenance can explain how an output was produced while custody still cannot explain who held it next. Escalation: the card passes through collection, safeguarding, transfer, and analysis lanes; each unlabeled handoff makes the chain visibly weaker. Final image: one evidence ID with a complete fictional custody trail and a pending disposition, not a legal or product approval.
+
+**Visual grammar.** Neutral evidence board; one evidence card with a stable ID; custody events appear as dated transfer strips; a single restrained blue line connects handlers; amber marks an unaccepted handoff; red is reserved for an unresolved condition. No real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, legal language, or product claim. Captions occupy a fixed lane that never covers evidence ID, handler, date/time, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `EVIDENCE_ID / CUSTODY_EVENT / HANDLER / DATE_TIME / PURPOSE / FROM / TO / SAFEGUARD / CONDITION / TRANSFER_ACCEPTED / NEXT_HANDLER / DISPOSITION`.
+
+**Research decision.** Research changed the treatment from a static source/derivation diagram to a custody sequence for one named evidence item: collection, safeguarding, transfer, and analysis each add handler/date-time/purpose/condition data. The artifact remains the same evidence item while responsibility moves; provenance explains production, but custody explains handling. No source proves a product custody ledger, immutable history, or legal sufficiency.
+
+**Distinctness decision.** The nearest prior angle is `containment-state`, which asks whether a suspect output is held from propagation with evidence and release conditions attached. `custody-state` changes the pain to the handling history of one evidence item: who handled it, when, why, from/to, safeguard, condition, transfer acceptance, next handler, and disposition. It differs from `provenance-state`, which concerns source/derivation history; from `identity-state`, which concerns whether a name refers to the same record; from `audit-state`, which concerns inspection procedure and findings; from `archival-state`, which concerns future retrieval; from `backup-state`, which concerns recovery; and from `false-completion` / `release-gate-roster`, which remain imported blocked concepts. The hook changes to “Recorded is not custody”; the visual metaphor changes from one suspect output stopped behind a hold boundary to one stable evidence ID traveling through labeled custody events; the proof surface changes to evidence-id/custody-event/handler/date-time/purpose/from/to/safeguard/condition/transfer-accepted/next-handler/disposition; the emotional turn changes from propagation-risk awareness to handoff accountability; and the final line becomes “Name who held it next.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name who held it next.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed custody event, handler, date/time, transfer purpose, safeguard, condition, acceptance, next handler, or disposition surface. No generation or upload is authorized.
+
+## Wide-research Director decision — custody state — 20260819-215200
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `custody-state` | A filename, provenance graph, or status can show an artifact exists without showing who handled that evidence, when, why, under what condition, or whether the next handler accepted it | “Recorded is not custody.” | Fictional evidence-id/custody-event/handler/date-time/purpose/from/to/safeguard/condition/transfer-accepted/next-handler/disposition card | From “It was recorded” to “Who held it next?” | “Name who held it next.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-215200
+The nearest prior angle is `containment-state`, which asks whether a suspect output is held from propagation with evidence and release conditions attached. `custody-state` changes the question to the handling history of one evidence item: who handled it, when, why, from/to, safeguard, condition, transfer acceptance, next handler, and disposition. It changes the hook to “Recorded is not custody”; the visual metaphor from one suspect output stopped behind a hold boundary to one stable evidence ID traveling through labeled custody events; the proof surface from suspect-output/reason-for-hold/evidence-snapshot/propagation-blocked/review-queue/owner/review-window/release-condition/released-or-retained to evidence-id/custody-event/handler/date-time/purpose/from/to/safeguard/condition/transfer-accepted/next-handler/disposition; the emotional turn from propagation-risk awareness to handoff accountability; and the final line to “Name who held it next.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [841]–[844]
+
+[841]: https://csrc.nist.gov/glossary/term/chain_of_custody "NIST CSRC, Chain of Custody Glossary"
+[842]: https://www.w3.org/TR/prov-dm/ "W3C, PROV-DM: The PROV Data Model"
+[843]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
+[844]: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html "W3C WAI, Understanding SC 1.2.2: Captions (Prerecorded)"
