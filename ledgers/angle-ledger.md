@@ -909,3 +909,13 @@ The nearest prior angle is `submission-state`, which distinguishes a submitted p
 ### Distinctness note — 2026-08-20
 
 The nearest prior angle is `correction-trace`, which links a released correction to reader-facing copy. `supersession-state` changes the pain to new information being treated as a replacement while the predecessor, effective boundary, reason, scope, and current status disappear. It changes the hook to “New does not erase old,” the visual metaphor from an errata line connected to a published pattern to two version/decision cards connected by an explicit `SUPERSEDES` arrow, the proof surface from correction linkage to predecessor/new identity and lifecycle context, the emotional turn from reader safety around corrections to historical clarity about what replaced what, and the final line to “Name what this replaces before you call it current.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — exception scope — 2026-08-20
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `exception-scope` | A local adjustment can be silently treated as a general rule for every size, item, or project | “An exception is not the rule.” | One current, approved exception surface with baseline, exception, affected item/size, scope, reason, effective/review, owner, approval, status, source, and notes | Preventing scope leakage rather than default, precedence, override, or technical-correctness certainty | “Name the scope before you generalize the exception.” | blocked; product/data proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 2026-08-20
+
+The nearest prior angle is `default-state`, which separates a default suggestion from a committed value. `exception-scope` changes the pain to a local adjustment being silently treated as a general rule for every size, item, or project. It changes the hook to “An exception is not the rule,” the visual metaphor from default/committed cards to a baseline rule with one scoped exception bracketed to a specific size/item, the proof surface from default semantics to bounded exception context, the emotional turn from avoiding uncommitted defaults to preventing scope leakage, and the final line to “Name the scope before you generalize the exception.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

@@ -3526,3 +3526,57 @@ Do not claim Stitch & Scale preserves versions, marks superseded records, redire
 [395] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [396] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Eighty-ninth wide-research question: an exception is not the rule — 2026-08-20
+
+### Research question
+How can a designer distinguish a local exception or override from a general pattern rule, documenting scope, reason, effective date, expiry, and owner without claiming Stitch & Scale has override precedence or exception-management behavior?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers managing size-specific measurements, grading inputs, ease adjustments, test-knit findings, or local pattern decisions. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and scope-conscious. The brief tier is a standard single-original-video planning package. No override engine, rule-precedence, approval, propagation, or accuracy claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| NIST Cybersecurity Framework 1.1 Components | 2026-08-20; current page checked | NIST describes a Core of desired activities/outcomes organized into Functions, Categories, and Subcategories and discusses profiles/gap analysis for prioritized planning. The page is marked no longer being updated and may be out of date. | Archival governance context, not a product rule engine, knitwear workflow, legal advice, or Stitch & Scale capability. | Treat an exception as a bounded record requiring explicit scope, rationale, owner, review/approval, and effective/expiry context; do not imply automatic precedence or broad rule changes. |
+| Sister Mountain, “How to Grade Knitting Patterns Using a Spreadsheet” | 2026-08-20; current page checked; dated 2025-05-28 | The workflow recommends recording gauge, body sizes, intended ease, and other needed information; it treats ease as a separate row and emphasizes consistent units across calculations and the size set. | Practitioner workflow, not technical-editing approval, product proof, or evidence of override/exception behavior. | Show an exception as a bounded adjustment attached to a specific item/size/scope, not as a universal rule; preserve baseline, exception, reason, unit, and affected scope separately. |
+| Stitch & Scale mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts | 2026-08-20; contracts re-read | Internal contracts preserve local-first records, stable IDs, source/date, measurement/gauge context, explicit uncertainty, scoped destructive actions, export identity, and separate technical-editing, print, chart, schematic, and test-knit evidence. | Internal contracts; no product-proof registry entry for exception/override records or precedence. | Block product claims about applying overrides, detecting scope leakage, or managing approval/expiry. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-20; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove scope semantics, product behavior, or accessibility. | Plan 9:16 at 1080×1920, keep baseline/exception cards and scope away from overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-20; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep organic-first master under one minute, center one scoped exception card at a time, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-20; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish exception semantics, rule precedence, or product behavior. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-20; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove scope or semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying exception/override records, baseline precedence, affected item/size scope, reason, effective date, expiry/review, owner, approval, status, or propagation boundaries. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 89 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “handle a special case” into **show the baseline, mark the local exception, name the affected item/size and scope, record reason and effective/review dates, and identify owner/approval/status without generalizing the exception**. The fresh concept is `exception-scope`: an original record card places `RULE OR BASELINE / EXCEPTION / AFFECTED ITEM OR SIZE / SCOPE / REASON / EFFECTIVE AT / EXPIRES OR REVIEW BY / OWNER / APPROVAL / STATUS / SOURCE / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no override or precedence claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `default-state`, which separates a default suggestion from a committed value. `exception-scope` changes the pain to **a local adjustment being silently treated as a general rule for every size, item, or project**. The hook changes to “An exception is not the rule.” The visual metaphor changes from default/committed cards to a baseline rule with one scoped exception bracketed to a specific size/item, followed by reason, effective/review, owner, approval, and status cards. The proof surface changes from default semantics to bounded exception context. The emotional turn changes from avoiding uncommitted defaults to preventing scope leakage. The final line changes to “Name the scope before you generalize the exception.”
+
+This is distinct from `value-state` (blank/zero/invalid/unverified), `size-boundary` (size range), `substitution-basis` (substitution reasoning), `impact-scope` (downstream effects), `decision-ledger` (decision record generally), `supersession-state` (predecessor/replacement), `conflict-state` (disagreement), `review-anchor` (comment location/version), and `ack-state` (handoff receipt). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale applies overrides, defines rule precedence, detects scope leakage, manages approvals or expiry, propagates exceptions, recalculates outputs, or validates technical correctness. A one-off adjustment cannot prove it is local, justified, approved, current, or safe to apply elsewhere. Do not use private measurements, customer/tester records, third-party spreadsheets, editor comments, or copyrighted patterns without permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[397] [NIST — Cybersecurity Framework 1.1 Components](https://www.nist.gov/cyberframework/cybersecurity-framework-11-components)
+
+[398] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+
+[399] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[400] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[401] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[402] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[403] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

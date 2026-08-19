@@ -1,0 +1,17 @@
+message_id: MSG-20260820-010000-director-091
+created_at: '2026-08-20T01:00:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260820-010000-exception-scope-v001
+parent_id: briefs/SS_founder-proof_exception-scope_9x16_v001_blocked_20260820-010000.md
+status: blocked
+summary: Exception-scope concept blocked because current baseline/exception proof, affected size/item scope, reason, effective/review dates, owner, approval, status, bounded propagation behavior, product/data evidence, rights, and platform validation are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#eighty-ninth-wide-research-question-an-exception-is-not-the-rule---2026-08-20
+  - briefs/SS_founder-proof_exception-scope_9x16_v001_blocked_20260820-010000.md
+  - manifests/SS_founder-proof_exception-scope_9x16_v001_blocked_20260820-010000.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private exception proof package with exact rule-or-baseline/exception/affected-item-or-size/scope/reason/effective-at/expires-or-review-by/owner/approval/status/source/notes labels and evidence that the exception remains bounded, then rerun product/data, rights/privacy, claims, captions, audio, platform, and Director validation.
