@@ -7272,3 +7272,40 @@ No current product-proof registry or approved non-private capture verifies a pau
 [873]: https://www.w3.org/TR/WCAG22/ "W3C Web Content Accessibility Guidelines (WCAG) 2.2"
 [874]: https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html "W3C Understanding SC 2.2.2: Pause, Stop, Hide"
 [875]: https://airc.nist.gov/airmf-resources/airmf/appendices/app-c-ai-risk-management-and-human-ai-interaction/ "NIST AI RMF Appendix C: AI Risk Management and Human-AI Interaction"
+
+
+## Wide-research Director question 169 — reversibility state — 20260820-000943
+
+**Fresh research question.** When a user changes or removes something, can they predict the consequence, review it, reverse it, or clearly understand that reversal is unavailable before the change becomes final?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest workflow pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise, consequence-led reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [876] | Apple, *Human Interface Guidelines — Undo and Redo*, accessed 2026-08-20: https://developer.apple.com/design/human-interface-guidelines/undo-and-redo | Apple says people expect undo and redo to reverse recent actions. It recommends helping users predict outcomes, highlighting results, supporting multiple undo operations where appropriate, and describing the operation being undone or redone. | Apple guidance is platform design guidance, not evidence that Stitch & Scale implements undo, redo, history, or reversal. |
+| [877] | W3C, *Understanding SC 3.3.4: Error Prevention (Legal, Financial, Data)*, accessed 2026-08-20: https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html | For covered pages that modify or delete user-controllable data or cause certain submissions, W3C identifies reversibility, checking with an opportunity to correct, or review/confirmation before finalization as relevant safeguards. | Scope is specific; the source does not establish that Stitch & Scale is within scope or conforms. It also does not require a confirmation for every ordinary save or edit. |
+| [878] | Material Design 3, *Snackbar Guidelines*, accessed 2026-08-20: https://m3.material.io/components/snackbar/guidelines | Material describes snackbars as short, minimally interruptive process updates; an Undo action may amend a choice. On web, auto-dismissing messages should also be communicated inline or near the triggering action, and feedback must not obscure focused controls. | This informs mobile proof and caption placement only; it does not prove a snackbar, undo action, or core workflow exists in the product. |
+| [879] | U.S. Department of Veterans Affairs Design System, *Button — Design Decisions*, ADR 001 raised 2024-02-07 and decided 2024-02-09; accessed 2026-08-20: https://design.va.gov/components/button/design-decisions/ | The ADR says destructive actions should not rely on color alone, should communicate what will happen, and should provide error prevention or friction. It records undo or clear irreversible-action communication as an option when applicable. | The VA design system is a reference, not a product requirement or proof of Stitch & Scale's buttons, dialogs, labels, or accessibility implementation. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from merely naming a change or deletion scope to showing the **reversibility contract before finality**: what action is about to happen, what the before-state is, what consequence follows, whether the action is reversible, how long reversal remains available, what the undo result is, and what explicit disclosure or review is required when reversal is unavailable.
+
+The selected angle is `reversibility-state`, hook **“Changed is not undoable.”** The proof surface is a fictional action card with `ACTION A-001 / BEFORE / CHANGE / CONSEQUENCE / PREVIEW / REVERSIBLE_UNTIL / UNDO_RESULT / IRREVERSIBLE_DISCLOSURE / REVIEWED / DISPOSITION`. The final line is **“Show what can still be undone.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `change-notice`, which asks whether a change is surfaced. `reversibility-state` changes the pain to whether the user can understand and reverse the consequence before finality. It is not `delete-scope`, which asks what a deletion touches; `decision-reversal`, which asks whether a decision can change; `withdrawal-state`, which asks whether consent or a prior action can be withdrawn; `repair-state`, which asks how an error is repaired; `recovery-proof`, which asks whether recovery is evidenced after failure; `override-state`, which asks who may override; or `interruptibility-state`, which asks what survives a stop. The visual metaphor changes to a before/after action card with an explicit reversible window and an irreversible disclosure, rather than a change notice, stop boundary, recovery state, or decision record. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies undo, redo, action history, preview, reversal window, restore result, irreversible disclosure, or review/disposition behavior. The evidence card must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with undo, redo, version history, autosave, rollback, restore, deletion confirmation, safe reversal, data-loss prevention, accessibility conformance, or irreversible-action controls. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [876]–[879]
+
+[876]: https://developer.apple.com/design/human-interface-guidelines/undo-and-redo "Apple Human Interface Guidelines — Undo and Redo"
+[877]: https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html "W3C Understanding SC 3.3.4: Error Prevention (Legal, Financial, Data)"
+[878]: https://m3.material.io/components/snackbar/guidelines "Material Design 3 — Snackbar Guidelines"
+[879]: https://design.va.gov/components/button/design-decisions/ "VA Design System — Button Design Decisions"
