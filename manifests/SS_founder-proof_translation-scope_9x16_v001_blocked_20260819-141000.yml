@@ -1,0 +1,51 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-141000-translation-scope-v001
+angle_slug: translation-scope
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_translation-scope_9x16_v001_blocked_20260819-141000.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-language-context-surface-with-source-language-target-language-translated-prose-abbreviations-symbols-units-size-labels-language-metadata-tech-review-status
+product_version: null
+proof_capture_approved: false
+source_language_status: missing
+target_language_status: missing
+translated_prose_status: missing
+abbreviations_status: missing
+symbols_status: missing
+units_status: missing
+size_labels_status: missing
+language_metadata_status: missing
+technical_review_status: pending
+translation_review_status: pending
+localized_meaning_status: unverified
+all_language_support_status: unverified
+pronunciation_status: unverified
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no translation, abbreviation preservation, localized technical validation, language metadata, all-language support, or pronunciation guarantee claim
+  - CYC abbreviation guidance and W3C language metadata guidance are context, not product behavior
+  - source/target/prose/shorthand/symbol/unit/size/metadata cannot be collapsed into one language badge
+  - fictional language cards are not product UI, translated pattern text, or publisher-approved content
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private language-context surface with exact source language, target language, translated prose, abbreviations, symbols, units, size labels, language metadata, technical review, and status labels, then rerun translation, accessibility, technical, claims, caption, audio, platform, rights, privacy, and Director gates.

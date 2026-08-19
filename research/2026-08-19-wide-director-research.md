@@ -2593,3 +2593,49 @@ Do not claim Stitch & Scale manages sample garments, matches a sample to a model
 [260] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [261] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Seventy-second wide-research question: translated is not technically preserved — 2026-08-19
+
+### Research question
+When a knitwear pattern crosses languages, what must a maker distinguish between translated prose, standard abbreviations, symbols, units, size labels, and source-of-truth text without claiming Stitch & Scale translates patterns, preserves every abbreviation, or validates localized technical meaning?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers working across language contexts. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Knitting Abbreviations Master List” | 2026-08-19; current page checked | CYC lists common abbreviations and definitions, notes that designers and publishers may use special abbreviations, and includes term differences between the U.S. and Canada. | A common-abbreviation list is not a translation engine, terminology database, or proof that localized pattern meaning is preserved. | Keep translated prose, abbreviation, symbol, unit, size label, and source text distinct; surface special-term and regional-language status. |
+| W3C WCAG 2.2 Understanding SC 3.1.2, Language of Parts | 2026-08-19; current page checked | W3C explains that the human language of each passage or phrase should be programmatically determinable, with exceptions including proper names and technical terms; identifying language changes supports screen readers, braille, and user agents. | Accessibility language metadata is not translation quality, technical correctness, or Stitch & Scale localization proof. | Separate language metadata, translation status, technical-term treatment, and localized technical review; do not claim universal language support. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Localization, number/unit context, abbreviations, symbols, charts, captions/audio, export, technical editing, print/chart review, and test knitting are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for translation or language metadata behavior. | Block translation, abbreviation preservation, localized technical meaning, and language metadata claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for translation, language metadata, localized technical meaning, abbreviation preservation, or multilingual pattern export. All 72 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “translated pattern” into **whether a translated pattern has preserved the technical meaning and language boundaries of the original**. The fresh concept is `translation-scope`: a fictional card places `SOURCE LANGUAGE / TARGET LANGUAGE / TRANSLATED PROSE / ABBREVIATIONS / SYMBOLS / UNITS / SIZE LABELS / LANGUAGE METADATA / TECH REVIEW / STATUS`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no translation, abbreviation preservation, localized technical meaning, language metadata, or assistive-technology behavior claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `locale-number-format`, which focuses on decimal symbols, grouping, and measurement units. `translation-scope` changes the pain to **whether technical meaning survived a language boundary**. The hook changes to “Translated is not the same as technically preserved.” The visual metaphor changes from locale-number fields to `SOURCE LANGUAGE / TARGET LANGUAGE / TRANSLATED PROSE / ABBREVIATIONS / SYMBOLS / UNITS / SIZE LABELS / LANGUAGE METADATA / TECH REVIEW / STATUS`. The proof surface changes from localized number/context fields to a current language-context surface. The emotional turn changes from recognizing a numeric locale to making a translation honest about what was translated, what remains technical, and what still needs review. The final line changes to “Label the language before you trust the shorthand.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale translates patterns, preserves every abbreviation across locales, validates localized technical meaning, adds language metadata, supports all languages, or guarantees assistive-technology pronunciation without current product proof and qualified technical review. Do not use real translated patterns, private documents, screenshots, logos, or copyrighted charts without scoped rights, privacy review, and translator/technical-review approval. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[262] [Craft Yarn Council — Knitting Abbreviations Master List](https://www.craftyarncouncil.com/standards/knitting-abbreviations)
+
+[263] [W3C — Understanding SC 3.1.2: Language of Parts](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html)
+
+[264] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[265] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[266] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[267] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
