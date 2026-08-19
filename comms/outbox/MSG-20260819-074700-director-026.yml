@@ -1,0 +1,17 @@
+message_id: MSG-20260819-074700-director-026
+sender: director
+recipient: production
+created_at: '2026-08-19T07:47:00+01:00'
+plan_id: PLAN-20260819-074700-source-note-v001
+angle_slug: source-note
+status: blocked
+subject: Source-note concept blocked pending provenance proof
+body: >-
+  Fresh CYC yarn-label and designer-record research moved the concept from generic citation or fact-checking
+  to source-type transparency plus reconfirmation. Do not generate or upload. No current approved source-note,
+  provenance, or evidence-status surface is available, and no source-verification, material-truth, standards-
+  compliance, certification, or fact-checking claim is authorized. Next action: provide one current approved
+  non-private proof surface with product version/date and exact visible labels, then rerun claims, source rights,
+  privacy, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

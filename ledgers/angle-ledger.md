@@ -259,3 +259,13 @@ The nearest prior angle is `feedback-loop`, which concerns what happens after an
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `measurement-moment`, which concerns preserving a measurement’s body/garment, unit, size, and project meaning. `data-minimum` changes the pain to a useful workflow record expanding into unnecessary person-level data, the hook to “The task may need a note. It may not need your whole identity,” the visual metaphor from measurement context to a record card shedding fields until `PURPOSE / NEEDED / KEEP?`, the proof surface from measurement/grading entry to privacy/record/redaction/consent/context, the emotional turn from maker control through context to restraint before collection, and the final line to “Record the task. Not the person.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — source note — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `source-note` | A record can present a statement without showing where it came from or whether it was rechecked | “Before you call it a fact, name where it came from.” | One current, approved source-note, provenance, or evidence-status surface with exact labels | Epistemic humility rather than source verification or standards certainty | “Name the source. Mark the recheck.” | blocked; product proof, source-rights review, and reconfirmation wording missing; distinct from `material-notes`, `evidence-over-output`, `data-minimum`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `material-notes`, which concerns preserving assumptions behind yarn selection or substitution. `source-note` changes the pain to an unmarked statement presented as fact, the hook to “Before you call it a fact, name where it came from,” the visual metaphor from material cards to `OBSERVED / LABEL / TEST KNIT / EXTERNAL` source tabs with `RECONFIRM`, the proof surface from materials/gauge/substitution to source-note/provenance/evidence status, the emotional turn from material rechecking to epistemic humility, and the final line to “Name the source. Mark the recheck.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

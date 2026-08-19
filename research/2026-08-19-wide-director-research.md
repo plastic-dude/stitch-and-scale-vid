@@ -640,3 +640,31 @@ Research changed the concept from generic privacy reassurance into **purpose-lim
 [51] [UK Information Commissioner’s Office — A guide to the data protection principles](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/)
 
 [52] [NIST — Privacy Framework](https://www.nist.gov/privacy-framework)
+
+## Twenty-fourth wide-research question: a source note is not a fact check — 2026-08-19
+
+### Research question
+How can a designer distinguish their own observation, a yarn-label or supplier statement, a test-knitter report, and external guidance in a pattern record without claiming Stitch & Scale verifies sources or material facts?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Yarn Label Information” | 2026-08-19; live page | CYC describes yarn-weight symbols using a 0–7 scale and describes skill-level symbols used in patterns and labels. The page presents these as standards information and links to supporting systems. | CYC guidance and downloadable symbols are not proof of a current Stitch & Scale field or source-verification behavior. Any symbol reproduction requires source/credit compliance. | Keep provenance as an explicit source label rather than turning a weight/skill symbol into a verified fact. Use original typography in the film. |
+| Craft Yarn Council, “Congratulations! You’ve Received the Go Ahead” | 2026-08-19; live page | The designer checklist asks for reconfirming yarn and color selection, checking ball bands, keeping work available for reference, and recording project details such as label, clean/finish/block state, and measurements in its project/submission context. | The page is a CYC designer guideline for its context, not a universal legal or product requirement and not evidence of Stitch & Scale source verification. | The concept should show different source types and a “reconfirm” boundary rather than a verified badge. |
+| Local craft-business record contract | 2026-08-19; repository source | Records should preserve source notes, stable identifiers, project identity, material notes, samples, test-knit rounds, and explicit recorded-versus-estimated distinctions. | Internal workflow guidance, not proof of a current provenance field or verification system. | The proof surface must be a current source-note/provenance/context surface; absent proof, use a blocker card. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for source labels, provenance fields, supplier statements, test-knitter reports, external references, evidence status, or source verification. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`source-note`**: the tension is a record that presents a statement without showing where it came from or whether it was rechecked. The hook is “Before you call it a fact, name where it came from.” The visual metaphor is a fictional note splitting into `OBSERVED / LABEL / TEST KNIT / EXTERNAL`, with `RECONFIRM` instead of a verified seal. The proof surface must be one current, approved source-note, provenance, or evidence-status surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic citation or fact-checking into **source-type transparency plus re-confirmation**. The script must not claim source verification, material truth, standards compliance, or fact-checking. It may ask a designer to label where a note came from and whether it was rechecked, then invite current product proof for the exact surface.
+
+### References
+
+[53] [Craft Yarn Council — Yarn Label Information](https://www.craftyarncouncil.com/standards/yarn-label-information)
+
+[54] [Craft Yarn Council — Congratulations! You’ve Received the Go Ahead](https://www.craftyarncouncil.com/industry.html)
