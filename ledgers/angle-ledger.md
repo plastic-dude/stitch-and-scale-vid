@@ -949,3 +949,13 @@ The nearest prior angle is `rounding-rule`, which focuses on how a number is rou
 ### Distinctness note — 2026-08-20
 
 The nearest prior angle is `credit-line`, which focuses on whether a person or source appears in a credit line and how the credit is formatted. `contribution-scope` changes the pain to a credit or role label implying more, less, or different work than the person actually contributed. It changes the hook to “A credit is not a contribution,” the visual metaphor from a credit line beside a source to a contribution card separating person, actual contribution, role, credit text, credit scope, consent, and publication status, the proof surface from credit presence/format to contribution-boundary evidence, the emotional turn from giving credit correctly to avoiding accidental credential, authorship, endorsement, or labor claims, and the final line to “Name the contribution before you name the credit.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — comparison basis — 2026-08-20
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `comparison-basis` | Two records can look comparable while item, unit, date, method, conditions, scope, or benchmark basis differ silently | “Compared is not comparable.” | One current, approved comparison surface with A/B identity, measured field, values, unit, date/period, method, conditions, scope, basis, result, status, and notes | Refusing a false equivalence rather than merely framing a contrast or selecting a benchmark | “Name the basis before you compare the numbers.” | blocked; product/data proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 2026-08-20
+
+The nearest prior angle is `comparison-frame`, which focuses on framing a comparison generally. `comparison-basis` changes the pain to two records looking comparable while item, unit, method, conditions, period, scope, or benchmark basis quietly differ. It changes the hook to “Compared is not comparable,” the visual metaphor from a general A/B frame to two cards that reveal identity/units/conditions/basis before a restrained difference card, the proof surface from comparison framing to comparability prerequisites, the emotional turn from seeing a contrast to refusing a false equivalence, and the final line to “Name the basis before you compare the numbers.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

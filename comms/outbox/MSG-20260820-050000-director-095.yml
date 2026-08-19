@@ -1,0 +1,17 @@
+message_id: MSG-20260820-050000-director-095
+created_at: '2026-08-20T05:00:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260820-050000-comparison-basis-v001
+parent_id: briefs/SS_founder-proof_comparison-basis_9x16_v001_blocked_20260820-050000.md
+status: blocked
+summary: Comparison-basis concept blocked because current A/B identity, field, unit, date/period, method, conditions, scope, comparison basis, result, product/data evidence, rights, and platform validation are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#ninety-third-wide-research-question-compared-is-not-comparable---2026-08-20
+  - briefs/SS_founder-proof_comparison-basis_9x16_v001_blocked_20260820-050000.md
+  - manifests/SS_founder-proof_comparison-basis_9x16_v001_blocked_20260820-050000.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private comparison proof package with exact item-a/item-b/measured-field/value-a/value-b/unit/date-or-period/method/conditions/scope/comparison-basis/result/status/notes labels and evidence that comparability is not inferred from equal-looking values, then rerun product/data, rights/privacy, claims, captions, audio, platform, and Director validation.

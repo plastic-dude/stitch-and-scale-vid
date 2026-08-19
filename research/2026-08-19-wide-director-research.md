@@ -3745,3 +3745,57 @@ Do not claim Stitch & Scale assigns credit, determines authorship, verifies cred
 [424] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [425] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Ninety-third wide-research question: compared is not comparable — 2026-08-20
+
+### Research question
+When two knitwear measurements or records are compared, how can a designer preserve item, unit, date, conditions, method, scope, and basis so the comparison does not imply more than the records support?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers comparing gauge, sizes, samples, yarn quantities, costs, or revision records. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and comparison-literate. The brief tier is a standard single-original-video planning package. No comparison engine, benchmark selector, alignment validator, or accuracy claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| NIST TN 1297 Appendix D1, “Terminology” | 2026-08-20; current page checked | NIST defines repeatability as closeness of agreement for successive measurements of the same measurand under the same conditions, including the same procedure, observer, instrument/conditions, location, and short time period. It also distinguishes accuracy as a qualitative concept from precision and says uncertainty should carry quantitative measures. | Metrology terminology is not a Stitch & Scale comparability evaluator, accuracy claim, or knitting workflow guarantee. | Before comparing, preserve what is being compared, unit, method, conditions, location/time, scope, and basis; label comparability as unverified rather than inferring it from equal-looking numbers. |
+| Modern Daily Knitting, “Does Your Gauge Change, Or Do Swatches Lie?” | 2026-08-20; current page checked; dated 2022-11-10 | The practitioner discussion notes that swatch size and whether knitting is flat or in the round can affect the apparent gauge comparison, illustrating why context and method should remain attached to gauge values. | Practitioner context, not product proof, technical editing, or a universal gauge rule. | Show item/method/conditions and scope before interpreting a difference. |
+| Stitch & Scale mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts | 2026-08-20; contracts re-read | Internal contracts preserve measurement/gauge context, source/date, recorded-versus-derived values, comparison basis, export identity, and separate technical-editing, print, chart, schematic, and test-knit evidence. | Internal contracts; no product-proof registry entry for comparison semantics. | Block product claims about evaluating comparability, aligning conditions, selecting benchmarks, or validating results. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-20; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove comparison semantics or product behavior. | Plan 9:16 at 1080×1920, keep A/B cards, basis, result, and proof away from overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-20; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep organic-first master under one minute, center one A/B comparison family at a time, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-20; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish comparison semantics or product behavior. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-20; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove comparison or basis semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying comparison records, aligned units, date/period, method, conditions, scope, comparison basis, result, or status. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 93 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “compare two values” into **record item A, item B, measured field, values, units, date/period, method, conditions, scope, comparison basis, result, status, and notes before interpreting a difference**. The fresh concept is `comparison-basis`: an original record card places `ITEM A / ITEM B / MEASURED FIELD / VALUE A / VALUE B / UNIT / DATE OR PERIOD / METHOD / CONDITIONS / SCOPE / COMPARISON BASIS / RESULT / STATUS / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no comparability or benchmark claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `comparison-frame`, which focuses on framing a comparison generally. `comparison-basis` changes the pain to **two records looking comparable while item, unit, method, conditions, period, scope, or benchmark basis quietly differ**. The hook changes to “Compared is not comparable.” The visual metaphor changes from a general A/B frame to two cards that first reveal their identity/units/conditions/basis, then permit a restrained difference card marked `STATUS: UNVERIFIED`. The proof surface changes from comparison framing to comparability prerequisites. The emotional turn changes from seeing a contrast to refusing a false equivalence. The final line changes to “Name the basis before you compare the numbers.”
+
+This is distinct from `basis-label` because it requires two-sided alignment; from `conflict-state` because it is not disagreement; from `uncertainty-context` because it is not dispersion around one value; from `conversion-trace` because it is not raw/transformed units; from `locale-number-format` because it is not display; and from `gauge-reality` because it is not gauge evidence. It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale evaluates comparability, aligns units or conditions, selects a benchmark, validates comparison results, or proves accuracy. Equal-looking numbers cannot prove same item, field, unit, date/period, method, conditions, scope, or basis. Do not use private measurements, customer/tester records, third-party spreadsheets, editor comments, or copyrighted patterns without permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[426] [NIST TN 1297 Appendix D1 — Terminology](https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology)
+
+[427] [Modern Daily Knitting — Does Your Gauge Change, Or Do Swatches Lie?](https://www.moderndailyknitting.com/community/does-your-gauge-change-or-do-swatch-lie/)
+
+[428] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[429] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[430] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[431] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[432] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
