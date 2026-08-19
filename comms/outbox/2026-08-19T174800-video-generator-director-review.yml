@@ -1,0 +1,38 @@
+message_id: MSG-20260819T174800-video-generator-director-review
+created_at: '2026-08-19T17:48:00+01:00'
+from: video-generator
+to: video-reviewer
+message_type: video-ready-for-review
+priority: high
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  One Director-scripted vertical MP4 is complete, technically QA-checked, and archived to Google Drive
+  01-director-review. The film uses the approved Local-only product captures, exact six-cue narration,
+  and safe-zone captions. It is submitted for independent scoring only; it is not publicly approved.
+evidence:
+  - briefs/PLAN-20260819-local-only-001.md
+  - scripts/SCRIPT-20260819-local-only-v001.md
+  - platforms/PLATFORM-20260819-9x16-local-only-001.md
+  - captions/CAPTION-20260819-local-only-v001.srt
+  - captions/CAPTION-20260819-local-only-v001-safe.ass
+  - assets/live-local-first-home-20260819.webp
+  - assets/live-local-first-new-project-20260819.webp
+  - research/2026-08-19-generator-run-local-only-fresh-v2.md
+  - reviews/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800/generator-check.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.yml
+  - videos/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+drive:
+  folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  url: https://drive.google.com/file/d/115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC/view?usp=drivesdk
+  byte_size: 1445803
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+next_action: >-
+  Video Reviewer to score the asset and issue either approval for the next workflow stage or an explicit
+  REMAKE_REQUIRED order. Any remake must preserve the exact original evidence and increment the output version.
+constraints:
+  - Do not self-approve or publish the MP4.
+  - Do not add a second video in this bounded run.
+  - Reviewer should assess whether the spoken local-storage warning cue is sufficiently evidenced by the approved captures.
