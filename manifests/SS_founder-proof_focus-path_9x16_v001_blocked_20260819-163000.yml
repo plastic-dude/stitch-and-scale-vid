@@ -1,0 +1,54 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-163000-focus-path-v001
+angle_slug: focus-path
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_focus-path_9x16_v001_blocked_20260819-163000.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+interaction_proof_status: missing
+keyboard_path_status: missing
+pointer_path_status: missing
+focus_order_status: missing
+focus_visible_status: missing
+target_size_spacing_status: missing
+validation_result_status: missing
+save_state_status: missing
+error_state_status: missing
+recovery_path_status: missing
+product_version: null
+proof_capture_approved: false
+accessibility_conformance_status: unverified
+keyboard_complete_status: unverified
+screen_reader_status: unverified
+one_handed_status: unverified
+disability_outcome_status: unverified
+technical_editorial_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no accessibility, WCAG, keyboard-complete, one-handed, screen-reader, disability-outcome, save, error, export, or recovery claim
+  - W3C guidance is context, not product conformance or product behavior
+  - craft-practitioner and accessibility-index sources are context, not product proof
+  - a still screenshot cannot prove keyboard order, focus movement, target size, or recovery behavior
+  - fictional action-path cards are not product UI, private user records, support evidence, or accessibility evidence
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private interaction-context proof package with recorded pointer/keyboard path, exact labels, focus sequence/visibility, target-size/spacing evidence, validation, save, error, and recovery states, then rerun product, accessibility, technical, rights/privacy, claims, caption, audio, platform, and Director gates.

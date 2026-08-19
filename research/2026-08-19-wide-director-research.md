@@ -2875,3 +2875,75 @@ Do not claim Stitch & Scale manages submissions, exclusivity, contracts, design 
 [298] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [299] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Seventy-eighth wide-research question: visible is not reachable — 2026-08-19
+
+### Research question
+For an independent knitwear designer using a mobile-first pattern workflow, how can a tool make a critical action path reachable by touch and keyboard without claiming accessibility conformance or product behavior that has not been proven?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers who move between phone, tablet, and desktop while entering measurement or grading context. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No accessibility-conformance, disability-outcome, accuracy, adoption, or product-capability claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| W3C WAI, WCAG 2.2 Understanding SC 2.4.3 Focus Order | 2026-08-19; current page checked | When a page can be navigated sequentially and sequence affects meaning or operation, focusable components receive focus in an order that preserves meaning and operability. W3C explains that logical order should preserve relationships implied by the visual presentation; confusing or illogical focus order can impede operation. | The Understanding page is informative; it does not prove Stitch & Scale conformance or any current product focus path. | Design a proof sequence around one task path, not a generic screenshot: project → size/unit → measurement or grading input → validation result → save/export/recovery feedback. |
+| W3C WAI, WCAG 2.2 Understanding SC 2.5.8 Target Size (Minimum) | 2026-08-19; current page checked | Pointer-input targets are at least 24×24 CSS pixels unless an allowed exception applies. W3C explains that sufficient size or spacing reduces accidental activation and helps people with dexterity limitations or less precise input devices. | A minimum criterion is not the project’s practical 44px maker-workflow target, full accessibility, one-handed comfort, or product proof. | Keep touch-target spacing and reachability visible in the plan, but require independent keyboard/focus and device evidence before any claim. |
+| Make4All, “Stitching Together the Experiences of Disabled Knitters” | 2026-08-19; current project synopsis checked | The project reports interviews with 16 experienced disabled knitters and analysis of 20 forum threads, identifying accessibility concerns and arguing for better tools for pattern generation/modification and easier progress tracking. | The synopsis does not describe Stitch & Scale, current web controls, or a universal disabled-maker experience. | Frame the story around a specific task path and evidence, not a disability promise or “accessible for everyone” claim. |
+| Knitting Tales, “Accessible Patterns” | 2026-08-19; current article checked | A designer describes reworking a pattern for low-vision readers, using larger type and written-out chart meaning, then checking the result by knitting from written instructions. | Personal practitioner account, not a standard or product validation. | Keep accessible output, chart equivalence, and physical/test knitting distinct from UI focus evidence. |
+| Woolly Wormhead, “Pattern Writing & Designing for Cognitive Disabilities” | 2026-08-19; current article checked | The author emphasizes memory/executive-function needs, consistent layout, clear hierarchy, explicit terms, short repeatable steps, and avoiding ambiguous multi-size instructions. | Practitioner guidance is needs-specific and not universal. | The action path should show explicit context and sequence; content and pattern accessibility remain separate review subjects. |
+| Accessible Patterns Index | 2026-08-19; current site checked | The index describes large-print, written-out, screen-reader-tested, and color-blind-accessible pattern variants as distinct formatting and verification work. | Index policy does not prove any Stitch & Scale capability or conformance. | Do not use “accessible pattern” as a product claim; use precise evidence labels and separate human checks. |
+| YouTube Help, “Add subtitles & captions” | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the video’s default language only. | Platform tooling does not prove caption accuracy, semantic completeness, safe placement, or accessibility of a specific video. | Require human-reviewed caption-on and caption-free versions; automatic captions cannot be final proof. |
+| TikTok for Business, “TikTok Auction In-Feed Ads” | 2026-08-19; current page checked | June 2026 paid in-feed guidance recommends vertical 9:16 at least 540×960; ad captions may display up to four lines; safe-zone size varies with dimensions, caption length, and additional formats; paid video can be up to 10 minutes. | Paid in-feed guidance is not organic-posting guidance. | Keep a 9:16 master and center the proof; paid use remains conditional and requires account-specific recheck. |
+| Instagram Help, “Reel size & aspect ratios on Instagram” | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, with minimum 30 FPS and 720-pixel resolution; Instagram recommends a 420×654 cover ratio and says the cover cannot currently be edited after upload. | Technical values do not prove product behavior, accessibility, or feed appearance. | Plan 9:16 at 1080×1920, protect proof from overlays, and make cover selection an approval gate. |
+| YouTube Help, “Understand three-minute YouTube Shorts” | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish campaign audio clearance or product behavior. | Keep the master under one minute and use original or cleared audio. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Mobile workflows require visible context, reachable actions, interruption/recovery testing, keyboard/focus coverage, and 44px practical targets when possible. QA and publishing contracts separate calculation, records, technical edit, test knit, chart readability, schematic scale, and physical print review. | Internal contracts; no current product-proof registry entry or approved capture for this focus path. | Block all product-specific focus, target, save, error, export, recovery, and accessibility claims pending exact proof. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for a verified focus path, keyboard order, visible focus, pointer target size, one-handed reach, save feedback, validation failure, export path, or recovery behavior. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 78 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “mobile accessibility” into **whether a critical maker action remains reachable in a meaningful pointer/keyboard sequence**. The fresh concept is `focus-path`: a fictional task-path card places `TASK / PROJECT / SIZE / UNIT / INPUT / FOCUS ORDER / FOCUS VISIBLE / TARGET SIZE / VALIDATION RESULT / SAVE STATE / RECOVERY PATH / SOURCE / DATE / STATUS`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no WCAG, accessibility, disability, or product-capability claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `spoken-index`, which focuses on semantic fields, ordering, and equivalent text for spoken instructions. `focus-path` changes the pain to **whether an interactive task can be reached and completed in a logical pointer/keyboard sequence**. The hook changes to “Visible is not reachable.” The visual metaphor changes from spoken row/round instruction order to a path of focus states through a maker task. The proof surface changes from spoken-instruction/equivalent-text fields to a current interaction-context surface showing task, context, focus order, focus visibility, target size/spacing, validation, save, and recovery evidence. The emotional turn changes from semantic confidence in an audio instruction to agency when the action path is explicit. The final line changes to “Show the path before you call the action accessible.”
+
+This is also distinct from `hands-busy` (physical hand occupancy), `equivalent-meaning` (cross-access-mode content parity), `caption-clearance` (video caption placement), `readability-under-load` (dense visual comprehension), `offline-continuity` (local/pending/freshness states), `recovery-proof` (restoration evidence), `export-portability` (transported file meaning), `submission-state` (submission lifecycle), and both imported human-gate concepts. It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale is accessible, WCAG-conformant, keyboard-complete, one-handed, screen-reader-tested, usable by a particular disability group, or free of accessibility barriers without current product tests and appropriate review. Do not claim target-size compliance from a screenshot. Do not use W3C, craft-practitioner, or accessibility-index guidance as proof of product behavior. Do not use real private user data, disability disclosures, support threads, client/publisher names, screenshots, or copyrighted pattern assets without scoped permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[300] [W3C WAI — Understanding SC 2.4.3 Focus Order](https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html)
+
+[301] [W3C WAI — Understanding SC 2.5.8 Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)
+
+[302] [Make4All — Stitching Together the Experiences of Disabled Knitters](https://make4all.org/portfolio/stitching-together-the-experiences-of-disabled-knitters/)
+
+[303] [Knitting Tales — Accessible Patterns](https://www.knittingtales.com/post/accessible-patterns)
+
+[304] [Woolly Wormhead — Pattern Writing & Designing for Cognitive Disabilities](https://woollywormhead.com/blog/2022/05/29/pattern-writing-and-designing-for-cognitive-disabilities)
+
+[305] [Accessible Patterns Index](https://accessiblepatternsindex.com/)
+
+[306] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[307] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[308] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[309] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[310] [Stitch & Scale — Mobile Maker Workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+[311] [Stitch & Scale — Knitwear Pattern QA](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[312] [Stitch & Scale — Knitwear Publishing and Export](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[313] [Stitch & Scale — Craft Business Records](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
