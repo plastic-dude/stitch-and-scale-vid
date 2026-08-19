@@ -4277,3 +4277,57 @@ Do not claim that Stitch & Scale selects, classifies, validates, or completes th
 ### Research limit
 
 NIST and Craft Yarn Council sources establish general evidence, measurement, sizing, and gauge boundaries but do not establish a Stitch & Scale feature, evidence classification, fit outcome, or human-gate completion. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact evidence-type surface and labels.
+
+## One-hundred-second wide-research question: a pass is not a failure mode — 2026-08-19
+
+### Research question
+When a measurement, calculation, workflow, or publication record looks acceptable, does it also name how it could fail, what event would trigger that failure, what effect would follow, how it would be detected, and what mitigation or contingency is available? How can this be shown without claiming Stitch & Scale performs risk analysis, safety assessment, or release approval?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NASA GSFC-HDBK-8004 Failure Modes and Effects Analysis handbook | Approved handbook page checked 2026-08-19; page dated 2024-08-20 | NASA describes FMECA as a uniform approach performed concurrently with development and maintained as a living risk assessment document as designs, materials, parameters, processes, operations, or knowledge change. | NASA mission/infrastructure context; not a Stitch & Scale risk feature or a knitwear safety claim. | Show failure mode as a state that can be revisited, not a final checklist item. |
+| NASA Technical Risk Management | Current page checked 2026-08-19; page dated 2023-07-26 | Risk is characterized by scenario(s), likelihood(s), and consequence(s), with uncertainty. NASA describes initiating events, scenario evolution, mitigating/exacerbating events, triggers, mitigation/contingency plans, monitoring, and rationale/work products. | Systems-engineering guidance; no product risk scoring, hazard analysis, or mitigation behavior is claimed. | Use scenario, initiating event, effect, detection, trigger, mitigation, owner, and status; avoid generic “safe/unsafe” labels. |
+| NIST Measurement Uncertainty | Current page checked 2026-08-19; updated 2025-03-17 | Measurement is an experimental process producing a value attributable to a property; uncertainty characterizes dispersion of values reasonably attributable to a measurand and can be evaluated through a measurement model. | Measurement uncertainty is not a failure-mode UI or accuracy certification. | A result card should expose a possible failure path and uncertainty context, not promise correctness. |
+| NIST Metrological Traceability | Current page checked 2026-08-19 | Traceability alone does not guarantee fitness for purpose; result providers support traceability claims and users assess validity; results apply to the specific instrument or standard at the time unless otherwise stated. | Measurement-science context; no Stitch & Scale traceability or fitness claim. | Keep failure mode separate from provenance, applicability, and evidence type. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform checks are condition-specific and can fail under different modes or placements. | These checks do not establish product risk analysis or cover all accessibility contexts. | Include detection and condition labels for the video evidence itself without claiming universal accessibility. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts require explicit claims, separate human gates, artifact traceability, rights/privacy, mobile interruption/recovery, caption/audio review, and risk boundaries. | Internal operating contracts, not independent validation. | Treat the risk card as illustrative and keep technical editing, print review, chart readability, schematic scale, and test knitting separate. |
+
+### Research synthesis
+
+NASA’s risk triplet and FMECA framing make the fresh distinction concrete: a status says where a record is; a failure-mode record says how an undesired scenario could begin, evolve, be detected, and be mitigated. NIST adds that uncertainty belongs in interpreting measurements and that traceability does not guarantee fitness for purpose. The visual opportunity is a fictional record that starts with `STATUS: ACCEPTABLE` and opens a bounded failure path: `SCENARIO / INITIATING EVENT / FAILURE MODE / EFFECT / DETECTION / TRIGGER / MITIGATION / OWNER / STATUS`. The status becomes `RISK PATH UNCONFIRMED`; no safety or correctness badge is used. The card is labelled `ILLUSTRATIVE — NOT PRODUCT UI`. Final line: “Name how it can fail before you trust the pass.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a failure-mode record, risk triplet, detection/trigger fields, mitigation/contingency surface, or risk status semantics. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 102 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic limitations card into **a scenario-to-failure-mode record that makes initiation, effect, detection, trigger, and mitigation visible**. The fresh concept is `failure-mode`: a fictional risk card refuses a blanket pass until the failure path is named. No product risk analysis, safety assessment, hazard register, or release approval capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `evidence-type`, which identifies what an evidence form supports and does not support. `failure-mode` changes the pain to **a result or workflow status appearing acceptable while its possible failure path, initiating event, effect, detection, or mitigation is invisible**. It changes the hook to “A pass is not a failure mode”; the visual metaphor from paired question/evidence cards to a scenario path that branches from initiating event to effect and detection; the proof surface to scenario, initiating event, failure mode, effect, detection, likelihood, consequence, mitigation, trigger, owner, and status; the emotional turn from respecting evidence limits to making possible failure visible before trust; and the final line to “Name how it can fail before you trust the pass.”
+
+It is distinct from `evidence-type` because it is not evidence-purpose classification; from `evidence-coverage` because it is not claim-to-evidence mapping; from `provenance-chain` because it is not source-to-result history; from `uncertainty-context` because it is not the meaning of a precise number; from `assumption-register` because it is not a hidden input; from `acceptance-criteria` because it is not pass/fail semantics; from `decision-reversal` because it is not rollback; from `accessibility-state` because it is not condition-scoped accessibility coverage; from `gauge-reality` because it is not gauge observation; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale performs FMEA/FMECA, hazard analysis, risk scoring, safety assessment, mitigation planning, contingency execution, or risk monitoring. Do not use `STATUS: ACCEPTABLE` or `RISK PATH UNCONFIRMED` as product labels. Do not imply that naming a failure mode makes a product safe, correct, fit, accurate, accessible, or publication-ready. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party reports without rights/privacy clearance. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[513] [NASA Standards — GSFC-HDBK-8004 Failure Modes and Effects Analysis](https://standards.nasa.gov/standard/GSFC/GSFC-HDBK-8004)
+[514] [NASA — 6.4 Technical Risk Management](https://www.nasa.gov/reference/6-4-technical-risk-management/)
+[515] [NIST — Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty)
+[516] [NIST — Metrological Traceability](https://www.nist.gov/metrology/metrological-traceability)
+[517] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[518] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[519] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[520] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[521] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NASA and NIST sources establish general failure-mode, risk, uncertainty, and traceability concepts but do not establish a Stitch & Scale feature, risk score, safety claim, or mitigation behavior. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact failure-mode surface and labels.
