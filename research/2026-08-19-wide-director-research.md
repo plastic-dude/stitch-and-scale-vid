@@ -4554,3 +4554,58 @@ Do not claim that Stitch & Scale monitors drift, detects degradation, charts tre
 ### Research limit
 
 NASA and NIST sources establish general baseline, trend, measurement-history, drift, monitoring-cadence, and comparison-context concepts but do not establish a Stitch & Scale feature, drift detector, alerting workflow, validation authority, or currentness guarantee. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact drift-state surface and labels.
+
+## One-hundred-seventh wide-research question: not reviewed is not current — 2026-08-19
+
+### Research question
+What distinguishes a record that is still inside a defined review window from one that is overdue, extended, or unreviewed? How should the record name the review window, basis for the window, last review, due-by date, overdue state, extension rationale, next action, and status without claiming Stitch & Scale sends reminders, calculates expiry, enforces freshness, or validates currentness?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NIST Recommended Calibration Interval | Page updated 2026-05-29; checked 2026-08-19 | NIST says it does not generally require or recommend one fixed recalibration interval for all instruments, devices, or standards. Intervals depend on accuracy requirements, contract/regulatory requirements, inherent stability, and environmental factors. NIST recommends using internal measurement-assurance data, cross-comparisons, control-chart analysis, and as-submitted/post-calibration data to establish or refine an interval when no external requirement exists. | Calibration context; no Stitch & Scale reminder, calibration, expiry, or freshness feature. The source explicitly rejects a universal fixed interval. | Make the concept about a review window and its rationale, not a universal expiry date. |
+| NASA life-cycle and technical review document | Accessed 2026-08-19; document explicitly marked obsolete/no longer used | The historical NASA text says lifecycle reviews are event-based and occur when entrance criteria are satisfied rather than simply on calendar milestones; it also describes periodic technical status reviews, action follow-up, historical decision records, and closure/verification of review actions. | Obsolete NASA document; no current NASA requirement is claimed. | Use only as a bounded historical lead for event-based review logic; do not cite it as a current mandate. |
+| NIST calibration-interval PDF | Official PDF located 2026-08-19 | PDF extraction was binary/encoded; no additional verbatim claim is taken. | Source not used beyond locator. | Rely on the current HTML NIST page for claims. |
+| NIST uncertainty/traceability guidance from prior passes | Current pages checked 2026-08-19 | Traceability and a dated record do not by themselves establish current fitness for every later application; the review basis and conditions matter. | Measurement-science context; no app review-window feature. | Require a named basis for the window and state when it is overdue or extended. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform checks are surface- and date-scoped; a prior review should not silently become a universal current claim. | Accessibility/platform context; no product reminder or expiry authority. | Preserve date/window labels and caption-safe layout without claiming automated freshness. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts require version/date/units/context, visible warnings, recorded-versus-estimated labels, action ownership, interruption-safe workflows, and limits on what calculation, record, edit, print review, chart review, schematic review, or test knit proves. | Internal operating contracts, not independent validation. | Add `REVIEW WINDOW / BASIS FOR WINDOW / LAST REVIEW / DUE BY / OVERDUE? / EXTENSION RATIONALE / NEXT ACTION / STATUS`. |
+
+### Research synthesis
+
+NIST’s current guidance rejects a universal recalibration interval and instead ties the interval to requirements, stability, environment, and observed measurement-assurance data. The historical NASA source is explicitly obsolete but illustrates event-based reviews that depend on entrance criteria and follow-up, not calendar dates alone. The research supports a narrow distinction: a record can be inside a policy-defined review window, overdue, or extended with rationale; none of those states should be silently collapsed into “current” or “expired” without a stated basis. The visual opportunity is a fictional record with `REVIEW WINDOW`, `BASIS FOR WINDOW`, `LAST REVIEW`, `DUE BY`, `OVERDUE?`, `EXTENSION RATIONALE`, `NEXT ACTION`, and `STATUS`, ending at `STATUS: REVIEW DUE` or `STATUS: CURRENTNESS UNVERIFIED`, labelled `ILLUSTRATIVE — NOT PRODUCT UI`. Final line: “Name the review window before you call it current.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a review-window, due-by, overdue, extension-rationale, next-action, review-cadence, reminder, expiry, or freshness-enforcement surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 107 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic expiry concept into **a bounded review-window state**: a record is not called current merely because it has a date, and it is not called expired without a stated review basis. The fresh concept is `review-expiry`: a fictional record distinguishes `IN WINDOW`, `DUE`, `OVERDUE`, and `EXTENDED` while exposing the basis for the window. No product reminder, expiry calculator, freshness enforcement, or currentness validation claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `drift-state`, which asks whether a stable-looking state has a baseline, current observation, comparison context, and review period. `review-expiry` changes the pain to **a record’s review obligation being hidden or collapsed into a universal current/expired label**, even though the review window needs a policy or evidence basis. It changes the hook to “Not reviewed is not current”; the visual metaphor from a stale status card to a review-window card with due/overdue/extended states; the proof surface to review window, basis for window, last review, due by, overdue, extension rationale, next action, and status; the emotional turn from detecting drift to making review obligations explicit; and the final line to “Name the review window before you call it current.”
+
+It is distinct from `drift-state` because it is not detecting change in a measure or context; from `capture-freshness` because it is not merely a screenshot date; from `outcome-proof` because it is not an observed effect; from `comparison-basis` because it is not whether two values are comparable; from `supersession-state` because it is not whether new information replaces old; from `availability-status` because it is not resource availability; from `next-owner` because it is not ownership alone; from `risk-trigger` because it is not a threshold response; from `feedback-loop` and `repair-state` because it is not tester issue response or repair disposition; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale sends reminders, calculates review windows, detects overdue status, enforces expiry, validates freshness/currentness, monitors drift, or certifies quality, fit, accuracy, accessibility, publication, adoption, revenue, or customer outcomes. Do not use `IN WINDOW`, `DUE`, `OVERDUE`, `EXTENDED`, or `CURRENTNESS UNVERIFIED` as current product UI. Do not claim a universal review interval; the review basis must be named or left unverified. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party reports without rights/privacy clearance. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[564] [NIST — Recommended Calibration Interval](https://www.nist.gov/calibrations/recommended-calibration-interval)
+[565] [NASA NODIS — Chapter 5: Systems Engineering Life-Cycle and Technical Reviews (obsolete document notice)](https://nodis3.gsfc.nasa.gov/displayCA.cfm?Internal_ID=N_PR_7123_001B_&page_name=Chapter5)
+[566] [NIST — GMP 11 Assignment and Adjustment of Calibration Intervals (PDF locator)](https://www.nist.gov/document/gmp-11-calibration-intervals-20190506pdf)
+[567] [NIST — Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty)
+[568] [NIST — Metrological Traceability](https://www.nist.gov/metrology/metrological-traceability)
+[569] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[570] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[571] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[572] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[573] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NIST establishes that calibration intervals are context-dependent and not universal. The NASA source is obsolete and is used only as a bounded historical example of event-based review logic. Neither establishes a Stitch & Scale review-window, reminder, expiry, freshness, or currentness feature. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact review-expiry surface and labels.
