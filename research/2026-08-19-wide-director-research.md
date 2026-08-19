@@ -6942,3 +6942,53 @@ The nearest prior angle is `relevance-state`, which asks whether evidence belong
 [851]: https://csrc.nist.gov/projects/risk-management "NIST Risk Management Framework"
 [852]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
 [853]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
+
+## One-hundred-sixty-second wide-research question: reviewed is not fresh — 20260819-222100
+
+**Question.** What proves that a craft record or result remains temporally current for the present decision, including when it was recorded, the period or conditions for which it was valid, when it was last reviewed, what changed since review, when revalidation is due, who owns that review, and its disposition, rather than treating an old complete record as timeless?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between a record being historically reviewed and remaining current for reuse; audience is makers, reviewers, and developers who need a visible temporal-validity boundary; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST temporal-validity boundary.** NIST SP 800-137 describes continuous monitoring as providing visibility into assets, threats and vulnerabilities, and the effectiveness of deployed controls. Its abstract says the guideline provides ongoing assurance that planned and implemented controls remain aligned with risk tolerance and information needed to respond in a timely manner when observations show controls are inadequate. Used only as process context, this supports separating a historical review from currentness and revalidation. The publication is dated September 2011; no current product freshness feature is inferred. [854]
+
+**W3C invalidation boundary.** W3C PROV-DM defines invalidation as the start of destruction, cessation, or expiry of an entity by an activity. Used only as a conceptual boundary, this supports showing that a record may remain historically present while no longer being valid for a current use. PROV-DM does not define a Stitch & Scale expiry rule, temporal validity policy, or revalidation scheduler. [855]
+
+**Craft freshness context.** Previously verified Craft Yarn Council guidance describes schematics as references for a specific piece's size, shape, fit, and modification, and its reading-instructions guidance ties gauge and instructions to named yarn, tools, stitch, pattern, and review conditions. This supports a dated craft card whose currentness depends on context, rather than treating an old gauge or instruction review as timeless. The CYC reading-instructions page returned only a partial shell during pass 162, so no additional wording from it is relied on in this pass. [856]
+
+**Accessibility boundary.** W3C prerecorded-caption guidance remains the production constraint: captions must carry dialogue, speaker identification, and meaningful sound information. Pass 162 reserves a fixed caption lane, one narrator family, caption-on and caption-free review masters, and no caption over record ID, dates, validity, review, change, revalidation, owner, or disposition fields. [848]
+
+**Research uncertainty.** The CYC reading-instructions page loaded only a partial shell during browser review. The NIST source is a 2011 publication. Both limits are recorded in `research/2026-08-19-pass162-browser-findings.md`; no missing wording, currentness rule, or product capability is invented.
+
+**Selected angle.** `freshness-state` — “Reviewed is not fresh.”
+
+**Primary pain.** A record can be complete, relevant, and previously reviewed while still being too old or temporally unbounded for the present decision. The missing element is an explicit currentness boundary with validity period, last review, change since review, revalidation due, owner, and disposition.
+
+**Hook.** “Reviewed is not fresh.”
+
+**Dramatic engine.** Subject: one fictional craft evidence card with a prior review stamp. Desire: reuse the record safely for a present decision. Obstacle: the card has a review date but no validity period, current context, change-since-review status, revalidation due point, or current owner. Stakes: an old gauge, measurement, or instruction review is reused after yarn, tools, pattern, size, workflow, or intended use changed. Change: the card gains recorded-at, valid-for, last-reviewed, current-context, change-since-review, revalidation-due, review-owner, and disposition. Contradiction: historical review can be accurate and still not be current. Escalation: a record with a clear review date meets a changed context; the card stops at `REVALIDATION REQUIRED` rather than silently passing. Final image: one dated record with `CHANGE SINCE REVIEW: UNKNOWN`, `REVALIDATION DUE: UNSET`, and `DISPOSITION: HOLD FOR REVALIDATION`; no default duration or expiry claim.
+
+**Visual grammar.** Neutral evidence board; one record card with a past review stamp; a current-context strip that changes; a restrained calendar/clock cue without a fabricated product UI; amber for currentness unknown; red only for revalidation required; no green current state. No real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, legal language, product claim, or default expiry policy. Captions occupy a fixed lane that never covers record ID, dates, validity, current context, change, revalidation, owner, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `RECORD_ID / RECORDED_AT / VALID_FOR / LAST_REVIEWED / CURRENT_CONTEXT / CHANGE_SINCE_REVIEW / REVALIDATION_DUE / REVIEW_OWNER / DISPOSITION`.
+
+**Research decision.** Research changed the treatment from a generic date stamp to a temporal-validity card: recorded-at and last-reviewed do not silently equal current. The card must show valid-for, current context, change since review, revalidation due, review owner, and disposition. No default duration or expiry rule is invented. No source proves a product freshness feature.
+
+**Distinctness decision.** The nearest prior angle is `sufficiency-state`, which asks whether a relevant evidence package crosses a stated minimum for a bounded decision. `freshness-state` changes the pain to whether that package remains temporally current for the present decision. It differs from `baseline-state`, which asks whether a named comparison reference exists; `version-lock`, which asks whether a specific version is pinned; `reproducibility-state`, which asks whether a run can be repeated; `relevance-state`, which asks whether evidence belongs to the decision; `sufficiency-state`, which asks whether the minimum is met; `archival-state`, which asks whether a record can be retrieved; `backup-state`, which asks whether recovery exists; `deprecation-state`, which asks whether a feature is discouraged or gone; and `integrity-state`, which asks whether content changed. The hook changes to “Reviewed is not fresh”; the visual metaphor changes from required-versus-present evidence and a missing threshold row to one dated record meeting a changed current-context strip and stopping at revalidation; the proof surface changes to record-id/recorded-at/valid-for/last-reviewed/current-context/change-since-review/revalidation-due/review-owner/disposition; the emotional turn changes from minimum-evidence restraint to temporal humility; and the final line becomes “Name when this must be checked again.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name when this must be checked again.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed timestamp, validity period, current-context comparison, change-since-review state, revalidation due point, review owner, or disposition surface. No generation or upload is authorized.
+
+## Wide-research Director decision — freshness state — 20260819-222100
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `freshness-state` | A record can be complete, relevant, and previously reviewed while still being too old or temporally unbounded for the present decision | “Reviewed is not fresh.” | Fictional record-id/recorded-at/valid-for/last-reviewed/current-context/change-since-review/revalidation-due/review-owner/disposition card | From “It was reviewed” to “It must be checked again” | “Name when this must be checked again.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-222100
+The nearest prior angle is `sufficiency-state`, which asks whether a relevant evidence package crosses a stated minimum for a bounded decision. `freshness-state` changes the question to whether that evidence remains temporally current for the present decision. It changes the hook to “Reviewed is not fresh”; the visual metaphor from required-versus-present evidence and a missing threshold row to one dated record meeting a changed current-context strip and stopping at revalidation; the proof surface from decision/required-evidence/present-evidence/missing/coverage/conditions/review/limit/threshold/owner/disposition to record-id/recorded-at/valid-for/last-reviewed/current-context/change-since-review/revalidation-due/review-owner/disposition; the emotional turn from minimum-evidence restraint to temporal humility; and the final line to “Name when this must be checked again.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [854]–[856]
+
+[854]: https://csrc.nist.gov/pubs/sp/800/137/final "NIST SP 800-137, Information Security Continuous Monitoring"
+[855]: https://www.w3.org/TR/prov-dm/ "W3C, PROV-DM: The PROV Data Model"
+[856]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
