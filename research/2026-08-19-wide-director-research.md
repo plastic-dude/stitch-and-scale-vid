@@ -1562,3 +1562,45 @@ Do not claim Stitch & Scale tracks blocking, washing, drying, care instructions,
 [140] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [141] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Forty-ninth wide-research question: was this value chosen? — 2026-08-19
+
+### Research question
+When a form or pattern record shows a prefilled value, how can a designer tell whether it was intentionally chosen, inherited, or merely a starting default before it becomes part of a published or business decision—without claiming Stitch & Scale exposes default provenance or confirmation states?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers reviewing pattern inputs, business records, and publication decisions before treating a visible value as final. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| GOV.UK Design System, “Select” | 2026-08-19; current page checked | GOV.UK says a select should be a last resort because some users find selects difficult. It says a setting may be pre-selected by default, but a question should not pre-select an option because it can influence the user’s answer. It also recommends hint text and clear errors. | Public-service component guidance, not a universal form rule and not Stitch & Scale proof. | A fresh concept should distinguish a default or inherited value from a user-confirmed choice and avoid implying that a visible prefill was intentionally selected. |
+| GOV.UK Design System, “Check answers” | 2026-08-19; current page checked | GOV.UK recommends a check-answers page immediately before confirmation, says it can reduce errors by giving users a second chance to notice and correct them, and says the final action should clearly describe what it does. It recommends Change links and explicit `Not provided` for skipped optional answers. | Public-service pattern guidance, not a product-capability claim and not a complete state model for Stitch & Scale. | The concept should expose `DEFAULT / INHERITED / USER CONFIRMED / NOT PROVIDED` and require a human check before consequential use. |
+| Craft-business and local-first contracts | 2026-08-19; internal contracts | Business records should preserve source, status, dates, ownership, and next action; local-first persistence does not prove a default was intentionally chosen. | Internal design contracts, not current UI proof. | Select `default-state`: make the origin and confirmation state of a value visible before it becomes a record or decision. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for default markers, inherited-value labels, changed-versus-unchanged states, confirmation/check-answers surfaces, explicit `Not provided`, or source-of-value fields. All 49 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic value provenance into **whether a visible value was actively chosen, inherited, defaulted, or left unprovided before use**. The fresh concept is `default-state`: a fictional value card separates `DEFAULT / INHERITED / USER CONFIRMED / NOT PROVIDED`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product default provenance or confirmation behavior is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `basis-label`, which focuses on whether a value is measured, estimated, planned, or derived. `default-state` changes the pain to **whether the value’s origin is a system starting point, an inherited record, an active user choice, or an absent answer**. The hook changes to “A filled field is not a confirmed choice.” The visual metaphor changes from measurement basis cards to `DEFAULT / INHERITED / USER CONFIRMED / NOT PROVIDED`. The proof surface changes from value-status/provenance to a current default marker, inherited-value label, changed-versus-unchanged state, confirmation/check-answers surface, explicit `Not provided`, or source-of-value field. The emotional turn changes from epistemic humility about what a number means to deliberate confirmation before consequential use. The final line changes to “Name the origin before you trust the choice.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale exposes default markers, inherited values, confirmation states, change links, skipped-field states, source-of-value fields, or check-answers behavior without current proof. Do not claim a prefilled value was selected by a user. Do not use real customer, project, expense, pattern, or personal data without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[142] [GOV.UK Design System — Select](https://design-system.service.gov.uk/components/select/)
+
+[143] [GOV.UK Design System — Check answers](https://design-system.service.gov.uk/patterns/check-answers/)
+
+[144] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[145] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

@@ -509,3 +509,13 @@ The nearest prior angle is `fit-intent`, which focuses on the meaning of body, f
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `fit-intent`, which focuses on the meaning of body, finished garment, ease, and fit measurements. `finish-state` changes the pain to whether a measurement or appearance comparison is being made before or after finishing, blocking, drying, or a care condition. It changes the hook to “A measurement needs a state,” the visual metaphor from body/garment/ease cards to `UNFINISHED / BLOCKED / DRY / CARE-CONDITIONED`, the proof surface from sizing/fit guidance to a blocking-state, finished/unfinished, care-condition, post-block measurement, or state-aware schematic surface, the emotional turn from choosing with context to honest comparison through state context, and the final line to “Name the state before you compare the number.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — default state — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `default-state` | A filled value can be defaulted or inherited rather than actively chosen or confirmed | “A filled field is not a confirmed choice.” | One current, approved default marker, inherited-value label, changed-versus-unchanged state, confirmation/check-answers surface, explicit `Not provided`, or source-of-value field with exact labels | Deliberate confirmation before consequential use rather than silent assumption | “Name the origin before you trust the choice.” | blocked; product proof, record rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `basis-label`, which focuses on whether a value is measured, estimated, planned, or derived. `default-state` changes the pain to whether the value’s origin is a system starting point, an inherited record, an active user choice, or an absent answer. It changes the hook to “A filled field is not a confirmed choice,” the visual metaphor from measurement-basis cards to `DEFAULT / INHERITED / USER CONFIRMED / NOT PROVIDED`, the proof surface from value-status/provenance to a default, inherited-value, changed-versus-unchanged, confirmation/check-answers, not-provided, or source-of-value surface, the emotional turn from epistemic humility about what a number means to deliberate confirmation before consequential use, and the final line to “Name the origin before you trust the choice.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
