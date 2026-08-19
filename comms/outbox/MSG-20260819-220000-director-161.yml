@@ -1,0 +1,19 @@
+message_id: MSG-20260819-220000-director-161
+created_at: 2026-08-19T22:00:00+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_integrity-state_9x16_v001_blocked_20260819-220000
+parent_id: BRF-founder-proof-integrity-state-9x16-v001
+status: blocked
+summary: Integrity-state is blocked because no current approved product proof verifies an expected-versus-observed integrity comparison with check time, change detection, scope, explanation, review, and disposition.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass159-browser-findings.md
+  - briefs/SS_founder-proof_integrity-state_9x16_v001_blocked_20260819-220000.md
+  - scripts/SS_founder-proof_integrity-state_9x16_v001_blocked_20260819-220000.md
+  - platforms/SS_founder-proof_integrity-state_9x16_v001_matrix_20260819-220000.md
+  - ledgers/20260819-integrity-state.md
+  - manifests/SS_founder-proof_integrity-state_9x16_v001_blocked_20260819-220000.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one artifact with expected/observed state, integrity check/check time, change detected/scope/explanation, review, and disposition before presenting integrity behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

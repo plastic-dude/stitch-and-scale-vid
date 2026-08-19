@@ -6800,3 +6800,52 @@ The nearest prior angle is `containment-state`, which asks whether a suspect out
 [842]: https://www.w3.org/TR/prov-dm/ "W3C, PROV-DM: The PROV Data Model"
 [843]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
 [844]: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html "W3C WAI, Understanding SC 1.2.2: Captions (Prerecorded)"
+
+## One-hundred-fifty-ninth wide-research question: present is not integrity — 20260819-220000
+
+**Question.** What evidence shows that one specific craft artifact remained unchanged, or that an alteration was detected, scoped, explained, reviewed, and dispositioned, rather than inferring integrity from a filename, provenance graph, custody history, or current-looking value?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between an artifact being present and its content being checked for unauthorized alteration; audience is makers, reviewers, and developers who need a bounded integrity comparison; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST integrity boundary.** NIST SP 1800-25, updated May 7, 2026, describes data integrity threats as corruption, modification, and destruction of data assets and names integrity checking mechanisms, audit logs, secure storage, backups, and asset awareness as possible protections. Used only as a process analogy, this supports asking whether a specific record was checked and whether a change was detected. It does not establish a Stitch & Scale hash, checksum, integrity check, immutable record, or audit feature. [845]
+
+**W3C revision boundary.** W3C PROV-DM describes provenance for entities, activities, and agents involved in producing data and includes derivation, revision, and invalidation concepts. The treatment therefore shows revision or invalidation explicitly rather than assuming that an identified artifact remained unchanged. PROV-DM is domain-agnostic and does not establish a product integrity control or cryptographic mechanism. [846]
+
+**Craft integrity context.** The Craft Yarn Council lists incorrect project math, missing stitch counts, absent repeats, unlisted pattern stitches, missing side indicators, and failure to keep notes or records as designer pitfalls. These examples support a fictional integrity comparison for a craft record; they do not prove automated detection, correctness, or product support. [847]
+
+**Accessibility boundary.** W3C prerecorded-caption guidance requires captions to carry dialogue, speaker identification, and meaningful sound information. Pass 159 uses one narrator family, caption-on and caption-free masters, and only meaningful integrity-check or change-detected sound cues. Captions never cover artifact ID, expected/observed states, change scope, tables, numbers, or disposition. [848]
+
+**Selected angle.** `integrity-state` — “Present is not integrity.”
+
+**Primary pain.** A record can exist, have a filename, source, and custody history, and still have changed content. The missing element is a checkable comparison between an expected state and an observed state, with any change scoped, explained, reviewed, and dispositioned.
+
+**Hook.** “Present is not integrity.”
+
+**Dramatic engine.** Subject: one fictional craft artifact with a stable artifact ID. Desire: know whether the artifact can be trusted as the expected record. Obstacle: the artifact is present and traceable, but no integrity check has compared its expected and observed state. Stakes: a changed stitch count, row, unit, or instruction can be reused as if it were the expected artifact. Change: the artifact card gains expected state, observed state, integrity check, check time, change detected, change scope, explanation, review, and disposition. Contradiction: a record can have a complete history and still contain altered content. Escalation: the check reveals a changed field, then the change scope expands from one count to a derived instruction; the card stops before approval. Final image: one artifact ID with a visible `CHANGE DETECTED: YES`, bounded scope, human review, and `DISPOSITION: HOLD FOR CORRECTION`; no cryptographic or automatic-check claim.
+
+**Visual grammar.** Neutral evidence board; one artifact ID; split expected/observed state card; amber check line; red only for a detected change; a restrained blue provenance/custody strip in the background to show those are neighboring, not equivalent, concepts. No real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, legal language, product claim, or cryptographic symbol. Captions occupy a fixed lane that never covers artifact ID, expected/observed values, change scope, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `ARTIFACT_ID / EXPECTED_STATE / OBSERVED_STATE / INTEGRITY_CHECK / CHECK_TIME / CHANGE_DETECTED / CHANGE_SCOPE / EXPLANATION / REVIEWED / DISPOSITION`.
+
+**Research decision.** Research changed the treatment from generic version history to a checkable integrity comparison: one artifact ID is paired with expected state, observed state, check time, integrity check, change-detected flag, change scope, explanation, review, and disposition. A revision is shown explicitly instead of silently treating the identified artifact as unchanged. No source proves a product integrity checker or cryptographic mechanism.
+
+**Distinctness decision.** The nearest prior angle is `custody-state`, which asks who handled one evidence item, when, why, from/to, safeguard, condition, acceptance, next handler, and disposition. `integrity-state` changes the pain to whether the artifact’s content remained unchanged or an alteration was detected and explained. It differs from `provenance-state`, which concerns production history; `containment-state`, which concerns preventing propagation; `consistency-state`, which concerns internal agreement among fields; `divergence-state`, which concerns cross-output drift; `audit-state`, which concerns whether a defined audit procedure ran; and imported `false-completion` / `release-gate-roster`, which remain blocked human-gate concepts. The hook changes to “Present is not integrity”; the visual metaphor changes from one evidence ID traveling through custody lanes to one artifact split into expected versus observed state with a bounded change marker; the proof surface changes to artifact-id/expected-state/observed-state/integrity-check/check-time/change-detected/change-scope/explanation/reviewed/disposition; the emotional turn changes from handoff accountability to altered-content awareness; and the final line becomes “Name what changed before you trust what stayed.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name what changed before you trust what stayed.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed integrity check, expected/observed comparison, change detection, change scope, explanation, review, or disposition surface. No generation or upload is authorized.
+
+## Wide-research Director decision — integrity state — 20260819-220000
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `integrity-state` | A record can exist, have a filename, source, and custody history, and still have changed content | “Present is not integrity.” | Fictional artifact-id/expected-state/observed-state/integrity-check/check-time/change-detected/change-scope/explanation/reviewed/disposition card | From “It is present” to “The content changed” | “Name what changed before you trust what stayed.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-220000
+The nearest prior angle is `custody-state`, which asks who handled one evidence item, when, why, from/to, safeguard, condition, acceptance, next handler, and disposition. `integrity-state` changes the question to whether the artifact’s content remained unchanged or an alteration was detected and explained. It changes the hook to “Present is not integrity”; the visual metaphor from one evidence ID traveling through custody lanes to one artifact split into expected versus observed state with a bounded change marker; the proof surface from evidence-id/custody-event/handler/date-time/purpose/from/to/safeguard/condition/transfer-accepted/next-handler/disposition to artifact-id/expected-state/observed-state/integrity-check/check-time/change-detected/change-scope/explanation/reviewed/disposition; the emotional turn from handoff accountability to altered-content awareness; and the final line to “Name what changed before you trust what stayed.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [845]–[848]
+
+[845]: https://www.nist.gov/publications/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other "NIST SP 1800-25, Data Integrity"
+[846]: https://www.w3.org/TR/prov-dm/ "W3C, PROV-DM: The PROV Data Model"
+[847]: https://www.craftyarncouncil.com/pitfalls.html "Craft Yarn Council, Designer Pitfalls"
+[848]: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html "W3C WAI, Understanding SC 1.2.2: Captions (Prerecorded)"
