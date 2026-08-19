@@ -4499,3 +4499,58 @@ Do not claim that Stitch & Scale measures outcomes, improvement, effectiveness, 
 ### Research limit
 
 NASA and NIST sources establish general assessment, risk, residual-state, measure, trend, recommendation, and outcome-reporting concepts but do not establish a Stitch & Scale feature, outcome-monitoring workflow, validation authority, or improvement. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact after-action outcome surface and labels.
+
+## One-hundred-sixth wide-research question: stable is not current — 2026-08-19
+
+### Research question
+Can a record remain apparently stable while its baseline, context, or measured performance drifts over time? What must be named—baseline, current observation, observed change, drift signal, review period, comparison context, next review, and status—before a change can be interpreted without claiming Stitch & Scale monitors drift?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NASA Technical Requirements Definition | Current page checked 2026-08-19; page dated 2023-07-26 | NASA says technical performance measures are monitored and trended by comparing current actual achievement or best estimate with expected or required values at the time. It says these measures help confirm progress and identify deficiencies. NASA also describes validating requirements against stakeholder expectations, mission objectives, constraints, and success criteria, then baselining them under configuration control. | Systems-engineering context; no Stitch & Scale trend, drift, baseline, or monitoring capability is claimed. | Make the record explicitly time-bounded and baseline-aware instead of treating a repeated status as current truth. |
+| NIST measurement-control guidance | Current page checked 2026-08-19 | NIST’s control-chart guidance shows that control interpretation depends on measurement history and that changing the number of measurements changes the control test and chart interpretation. | Measurement-control context; no product control chart or drift detector is claimed. | Include comparison context, review period, and measurement-history limits. |
+| NIST AI monitoring report | Released 2026-03-09; updated 2026-03-18 | NIST describes post-deployment monitoring categories and challenges including performance degradation and drift, fragmented logging, monitoring cadence, use-case tailoring, and the relationship between monitoring and auditing. | AI-system monitoring context; no Stitch & Scale monitoring or alerting claim. | Keep drift as a bounded educational recordkeeping concept, not a product capability. |
+| NIST uncertainty/traceability guidance from prior passes | Current pages checked 2026-08-19 | A time-separated observation requires scope, conditions, history, and comparison basis; traceability or a current-looking status does not independently prove that a result remains fit for purpose. | Measurement-science context; no app drift feature. | Require baseline, current observation, conditions, and review period before describing change. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform checks are themselves time- and surface-scoped; a prior check should not silently become a universal current claim. | Accessibility/platform context; no product monitoring authority. | Preserve caption-safe layout and show a review date/period without implying ongoing monitoring. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts require version, date, units, context, interruption-safe workflows, visible warnings, recorded-versus-estimated labels, and limits on what a calculation, record, edit, print review, chart review, schematic review, or test knit proves. | Internal operating contracts, not independent validation. | Add `BASELINE / CURRENT OBSERVATION / OBSERVED CHANGE / DRIFT SIGNAL / REVIEW PERIOD / COMPARISON CONTEXT / NEXT REVIEW / STATUS`. |
+
+### Research synthesis
+
+NASA’s guidance treats current performance as a comparison against an expected or required value at a specific time and uses trends to identify deficiencies. NIST’s measurement-control guidance shows that control interpretation depends on measurement history and comparison context, while NIST’s 2026 monitoring report identifies drift, fragmented logging, cadence, and use-case tailoring as real monitoring challenges. The research supports a narrow distinction: an apparently unchanged status is not proof that the underlying measure or context has not drifted. The visual opportunity is a fictional record that shows `STATUS: STABLE` beside a blank or stale review period, then separates `BASELINE`, `CURRENT OBSERVATION`, `OBSERVED CHANGE`, `DRIFT SIGNAL`, `REVIEW PERIOD`, `COMPARISON CONTEXT`, and `NEXT REVIEW`. It ends at `STATUS: CURRENTNESS UNVERIFIED`, labelled `ILLUSTRATIVE — NOT PRODUCT UI`. Final line: “Name the review period before you call it stable.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a drift-state, baseline/current-observation, trend, comparison-context, review-period, next-review, degradation, or monitoring surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 106 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic trend concept into **a stable-looking record whose currentness is unverified because baseline, observation period, comparison context, and next review are missing**. The fresh concept is `drift-state`: a fictional status card refuses to call a state stable until the review period and comparison basis are explicit. No product drift detection, degradation monitoring, alerting, quality, fit, accuracy, or currentness capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `outcome-proof`, which separates action completion from an observed intended effect. `drift-state` changes the pain to **a state or measure being treated as current and stable even though its baseline, time window, comparison context, or review cadence is missing**. It changes the hook to “Stable is not current”; the visual metaphor from an after-action outcome card to a time-bounded status card with a stale review window; the proof surface to baseline, current observation, observed change, drift signal, review period, comparison context, next review, and status; the emotional turn from separating activity from effect to questioning currentness; and the final line to “Name the review period before you call it stable.”
+
+It is distinct from `outcome-proof` because it is not action effect or improvement; from `response-state` because it is not plan/action/completion/verification transition logic; from `risk-trigger` because it is not trigger binding; from `failure-mode` because it is not scenario/effect analysis; from `comparison-basis` because it is not whether two values are comparable at one comparison; from `capture-freshness` because it is not whether a screenshot has a date; from `supersession-state` because it is not whether new information replaces old; from `uncertainty-context` because it is not uncertainty around a precise number; from `feedback-loop` and `repair-state` because it is not tester issue response or repair disposition; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale monitors drift, detects degradation, charts trends, sends alerts, evaluates currentness, measures quality, predicts fit, proves accuracy, or provides continuous monitoring. Do not use `STATUS: STABLE` or `CURRENTNESS UNVERIFIED` as current product UI. Do not imply that a dated capture remains valid for every later context. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party reports without rights/privacy clearance. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[554] [NASA — 4.2 Technical Requirements Definition](https://www.nasa.gov/reference/4-2-technical-requirements-definition/)
+[555] [NIST — Monitoring Short-Term Precision](https://www.itl.nist.gov/div898/handbook/mpc/section2/mpc233.htm)
+[556] [NIST — New Report Details Challenges to Monitoring Deployed AI Systems](https://www.nist.gov/news-events/news/2026/03/new-report-challenges-monitoring-deployed-ai-systems)
+[557] [NIST — Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty)
+[558] [NIST — Metrological Traceability](https://www.nist.gov/metrology/metrological-traceability)
+[559] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[560] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[561] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[562] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[563] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NASA and NIST sources establish general baseline, trend, measurement-history, drift, monitoring-cadence, and comparison-context concepts but do not establish a Stitch & Scale feature, drift detector, alerting workflow, validation authority, or currentness guarantee. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact drift-state surface and labels.
