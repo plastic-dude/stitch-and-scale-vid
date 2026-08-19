@@ -1,0 +1,17 @@
+message_id: MSG-20260819-131700-director-071
+created_at: '2026-08-19T13:17:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260819-131700-gauge-state-v001
+parent_id: briefs/SS_founder-proof_gauge-state_9x16_v001_blocked_20260819-131700.md
+status: blocked
+summary: Gauge-state concept blocked because current gauge-record proof, technical review, rights, privacy, and measurement/fit evidence are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#sixty-ninth-wide-research-question-is-gauge-a-number-or-a-state---2026-08-19
+  - briefs/SS_founder-proof_gauge-state_9x16_v001_blocked_20260819-131700.md
+  - manifests/SS_founder-proof_gauge-state_9x16_v001_blocked_20260819-131700.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private gauge-record surface with exact stitch, row, stitch pattern, yarn, tool, window, pre-wash, post-wash, blocked, unblocked, sample, and status labels, then rerun gauge, technical, claims, captions, audio, platform, rights, privacy, and acceptance validation.

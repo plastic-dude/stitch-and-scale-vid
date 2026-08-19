@@ -709,3 +709,13 @@ The nearest prior angle is `measure-point`, which focuses on where a measurement
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `rounding-rule`, which focuses on which rule changed a result at the rounding step. `grade-transparency` changes the pain to why a size differs from another size across the whole grade path. It changes the hook to “A size changed. Show the rule,” the visual metaphor from one result’s rule to `BASE / SIZE / INCREMENT / RULE / ROUNDING / EXCEPTION / OVERRIDE / REVIEW / SOURCE / VERSION`, the proof surface from a rounding explanation to a current grade-audit surface, the emotional turn from understanding one output to seeing the grade path without claiming it is correct, and the final line to “Show the grade, not just the size.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — gauge state — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `gauge-state` | A gauge number loses the physical state and context in which it was measured, so unlike swatches may be compared | “Gauge is a state, not just a number.” | One current, approved gauge-record surface with stitch, row, pattern stitch, yarn, tool, window, pre/post-wash, blocked/unblocked, sample, and status labels | Preserving swatch context without a measurement, compatibility, or fit promise | “Record the swatch state, not just the gauge.” | blocked; product proof, technical review, rights/privacy, gauge/fit evidence, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `count-check`, which focuses on whether a numeric result matches. `gauge-state` changes the pain to whether a gauge number retains the physical state and context in which it was measured. It changes the hook to “Gauge is a state, not just a number,” the visual metaphor from a count result to `STITCH / ROW / STITCH PATTERN / YARN / TOOL / WINDOW / PRE-WASH / POST-WASH / BLOCKED / UNBLOCKED / SAMPLE / STATUS`, the proof surface from a count check to a current gauge-record surface, the emotional turn from confirming a number to preserving its physical context without a measurement or fit promise, and the final line to “Record the swatch state, not just the gauge.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

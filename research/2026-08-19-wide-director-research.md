@@ -2455,3 +2455,49 @@ Do not claim Stitch & Scale exposes grading formulas, validates every size, guar
 [242] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [243] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Sixty-ninth wide-research question: is gauge a number or a state? — 2026-08-19
+
+### Research question
+When a gauge swatch is recorded, how can a maker distinguish stitch gauge, row gauge, pre/post-wash state, blocked/unblocked state, measurement window, tool/yarn context, and sample status without claiming Stitch & Scale measures, predicts, or validates gauge automatically?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers recording or interpreting a gauge swatch. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “YDKWYDK: Gauge and why it’s important” | 2026-08-19; current page checked | Gauge is described as stitches and rows per inch; the article explains that maker tension differs, recommends a sample swatch, and notes that swatch dimensions/context can vary, including working in rounds. | Educational CYC blog content, not a structured product record or proof that every gauge state is comparable. | Preserve stitch gauge, row gauge, stitch pattern, swatch size/context, and status separately; do not imply a single number is universal. |
+| Craft Yarn Council, “Reading Instructions & Other Basics” | 2026-08-19; current page checked | CYC defines gauge as stitches and rows per inch, recommends a swatch using the yarn, needles, and pattern stitch specified, and describes re-swatching after a tool-size change when the swatch differs. | General guidance; it does not prove Stitch & Scale measures gauge, predicts fabric, or validates a swatch. | Show tool/yarn/pattern-stitch context and measurement state; do not claim automated gauge measurement or fit prediction. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Gauge, swatch, tool/yarn, care/blocking, measurement, grading, technical editing, print/chart review, and test knitting are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for gauge capture or validation. | Block gauge measurement, post-wash prediction, compatibility, and fit claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for gauge capture, image measurement, post-wash prediction, blocked/unblocked state, compatibility, or fit validation. All 69 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “gauge matters” into **whether a gauge number retains the physical state and context in which it was measured**. The fresh concept is `gauge-state`: a fictional card places `STITCH / ROW / STITCH PATTERN / YARN / TOOL / WINDOW / PRE-WASH / POST-WASH / BLOCKED / UNBLOCKED / SAMPLE / STATUS`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no gauge capture, image measurement, prediction, validation, compatibility, or fit claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `count-check`, which focuses on whether a numeric result matches. `gauge-state` changes the pain to **whether a gauge number retains the physical state and context in which it was measured**. The hook changes to “Gauge is a state, not just a number.” The visual metaphor changes from a count result to `STITCH / ROW / STITCH PATTERN / YARN / TOOL / WINDOW / PRE-WASH / POST-WASH / BLOCKED / UNBLOCKED / SAMPLE / STATUS`. The proof surface changes from a count check to a current gauge-record surface. The emotional turn changes from confirming a number to preserving its physical context without a measurement or fit promise. The final line changes to “Record the swatch state, not just the gauge.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale measures gauge from an image, predicts post-wash gauge, validates a swatch, recommends a tool, confirms yarn compatibility, or guarantees fit without current product proof and qualified technical review. Do not use real customer swatches, private patterns, screenshots, logos, or copyrighted charts without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[244] [Craft Yarn Council — YDKWYDK: Gauge and why it’s important](https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important)
+
+[245] [Craft Yarn Council — Reading Instructions & Other Basics](https://www.craftyarncouncil.com/read_instructions.html)
+
+[246] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[247] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[248] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[249] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
