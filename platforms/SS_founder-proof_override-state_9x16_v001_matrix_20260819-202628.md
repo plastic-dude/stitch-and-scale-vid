@@ -1,0 +1,20 @@
+# Platform Matrix — Override State — BLOCKED
+
+| Destination | Planned master | Caption/audio requirement | Safe-area / proof requirement | Current rule or evidence | Disposition |
+|---|---|---|---|---|---|
+| Instagram Reels | 9:16, organic-first, under 60s | Human-reviewed captions; caption-on and caption-free review; one narrator | Keep target, original, override, reason, scope, expires, reviewer, affected output, and final hold away from edges and caption region | Current accessibility/account behavior requires account preview | Blocked pending proof, rights, and account preview |
+| TikTok organic | 9:16, organic-first, under 60s | Human-reviewed captions; original/cleared audio; no overlapping voices | Preserve generous margins; dense exception card must not sit in likely overlays | Paid specifications are not organic proof; current composer preview required | Blocked pending current preview and proof |
+| YouTube Shorts | Vertical, planned under 60s | Upload/edit human-reviewed captions; language limitation checked | Keep exception labels, status, final hold, and human evidence cards legible on portrait phone; caption-free review required | Current caption workflow must be checked before derivative export | Blocked pending proof, rights, and final caption QA |
+
+## Master constraints and accessibility acceptance
+
+This package is a planning artifact, not a generated video. No platform is approved for publication. Before any derivative, inspect the current account-specific composer/preview and record date, account, format, caption length, safe area, and disposition. Keep all cards original and labelled `ILLUSTRATIVE — NOT PRODUCT UI` unless an approved current capture replaces them.
+
+Captions must be synchronized, complete, readable, and human-reviewed. Keep text out of the lower caption zone and never cover target, original, override, reason, scope, expires, reviewer, affected output, tables, numbers, hands, logos, buttons, menus, or primary actions. Review at 320×568, 360×800, 390×844, and 430×932-equivalent phone views where possible, plus desktop and caption-free playback. If product proof later arrives, separately test original-versus-overridden values, reason and scope semantics, expiry/review state, reviewer identity, affected-output mapping, audit trail, accessible status announcement, and human evidence gates. Do not turn platform or accessibility checks into a claim that the product offers override, audit, correction, exception expiry, or completion.
+
+## Platform references
+
+[1] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[2] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[3] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[4] [W3C — Understanding Status Messages (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)

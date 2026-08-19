@@ -5650,3 +5650,47 @@ Do not claim that Stitch & Scale currently exposes task duration, availability w
 ### Research limit
 
 These sources establish resource/contingency planning, risk-informed priorities, accessible status delivery, and notification urgency principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes task duration, availability windows, conflicts, capacity status, acceptance controls, fallback ownership, or feasibility-aware due dates. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-thirtieth wide-research question: overridden is not corrected — 20260819-202628
+
+### Research question
+
+When a person overrides a calculated or flagged value, what proves the reason, scope, expiry, reviewer, and downstream impact instead of silently turning an exception into the new truth?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| NIST SP 800-53 Rev. 5, including configuration-management and accountability context | 2026-08-19 | NIST’s control catalog includes configuration management, assessment, and accountability families; governed change is a recorded activity rather than an unexplained mutation. | Government control guidance; not a Stitch & Scale product claim. | Frame an override as a traceable exception, not a silent correction. |
+| W3C PROV-DM | 2026-08-19 | Provenance describes entities, activities, and agents involved in producing or influencing data; it supports assessments of quality, reliability, and trustworthiness and includes derivation and responsibility relationships. | Domain-agnostic model; no product provenance evidence. | Require original value, override activity, responsible agent, and affected derivation in the fictional proof surface. |
+| W3C PROV-O | 2026-08-19 | PROV-O represents and exchanges provenance across domains using entities, activities, agents, derivations, responsibility, and qualified relationships; it can be specialized for application-specific detail. | Ontology specification; not current app behavior. | Make scope, expiry, reviewer, and downstream output explicit rather than implied. |
+| W3C WCAG 2.2 — Status Messages | 2026-08-19 | Important status changes should be programmatically determinable to assistive technology without unnecessary focus changes; announcing an exception state is separate from authorizing or validating it. | Accessibility guidance; not a product claim. | Treat override/exception changes as accessible state, not color-only status. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Recorded, derived, overridden, waived, reviewed, and released states remain distinct; technical, print, chart, schematic, and test-knit gates are not replaced by a label. | Internal contracts, not current product behavior. | Block until one original-to-override chain is captured and rights-cleared. |
+
+### Research synthesis and decision shift
+
+Overridden is not corrected. Candidate angle: `override-state`. Hook: “Overridden is not corrected.” Fictional proof surface: `TARGET / ORIGINAL / OVERRIDE / REASON / SCOPE / EXPIRES / REVIEWER / AFFECTED OUTPUT`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: a calculated value branches to an exception lane that must carry reason, scope, expiry, review, and downstream impact. Emotional turn: silent exception anxiety becomes bounded accountability. Final line: “Name the override before it becomes the rule.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies override controls, original-versus-overridden values, reason fields, scope, expiry, reviewer identity, affected-output mapping, audit history, or accessibility exposure of exception state. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `authority-state`, which concerns which populated source controls a value. `override-state` changes the pain to **a deliberate exception that changes normal logic and therefore needs bounded provenance**. It changes the hook to “Overridden is not corrected”; the visual metaphor from a source/derived/display/override relationship to a calculated value branching into an exception lane; the proof surface from source/derived-from/transform/displayed-as/override/owner/last-reviewed/affected-output to target/original/override/reason/scope/expires/reviewer/affected-output; the emotional turn from duplicate-data anxiety to bounded exception accountability; and the final line to “Name the override before it becomes the rule.”
+
+It is distinct from `authority-state`, which concerns controlling source; `input-state`, which concerns how a value entered; `waiver-state`, which concerns a waived requirement not being met; `tolerance-state`, which concerns a measurement decision boundary; `dependency-state`, which concerns downstream staleness after an upstream change; `version-lock`, which binds evidence to an exact version; and `priority-state`, which concerns ranking. `override-state` focuses on a deliberate exception to normal logic and the provenance of that exception, not source authority, input origin, waiver, tolerance, dependency, version, or ranking. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes override controls, original-versus-overridden values, reason fields, scope, expiry, reviewer identity, affected-output mapping, audit history, or accessible exception announcements. Do not use `TARGET`, `ORIGINAL`, `OVERRIDE`, `REASON`, `SCOPE`, `EXPIRES`, `REVIEWER`, or `AFFECTED OUTPUT` as current product UI. Do not claim correction, exception, audit, downstream propagation, completion, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[740] [NIST — SP 800-53 Rev. 5, Security and Privacy Controls](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
+[741] [W3C — PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/)
+[742] [W3C — PROV-O: The PROV Ontology](https://www.w3.org/TR/prov-o/)
+[743] [W3C — Understanding Success Criterion 4.1.3: Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)
+[744] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish traceable change/provenance, responsibility, derivation, and accessible status principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes override controls, original-versus-overridden values, reason fields, scope, expiry, reviewer identity, affected-output mapping, audit history, or accessible exception announcements. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
