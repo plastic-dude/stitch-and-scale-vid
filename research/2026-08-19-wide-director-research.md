@@ -780,3 +780,31 @@ Research changed the concept from a generic design diary into **rationale alongs
 [61] [Natalie in Stitches — FN2N, Part 5: Knitwear Design Process 3: Development](https://natalieinstitches.com/2021/03/03/fn2n-part-5-design-process-3-development/)
 
 [62] [GoSadi — Knitwear Design Process: How to Design Your Own Knit Patterns](https://gosadi.com/blog/unraveling-my-knitwear-design-process-the-swatch-framework/)
+
+## Twenty-ninth wide-research question: does the paper preserve the pattern? — 2026-08-19
+
+### Research question
+How can a designer check that printed pages preserve charts, schematics, measurements, tables, and instructions without claiming Stitch & Scale has print-preview, PDF, pagination, or accessibility capabilities?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Schematics” | 2026-08-19; live page | CYC defines a schematic as a visual rendering with relevant measurements and says it gives an overview of size/shape, a fit reference, and a template for modification; it advises reviewing the schematic before beginning a project. | CYC schematic guidance is craft context, not proof of a current export, print-preview, or schematic-rendering surface in Stitch & Scale. | Center the concept on print preserving meaning and measurements, not on PDF generation or fit. |
+| Texas Tech University, “Quick Guide to Creating Accessible PDFs” | 2026-08-19; page dated 23 February 2026 | The guide warns against “Print to PDF” because it can strip accessibility features, says automated tagging is not always accurate, and recommends checking reading order, tags, tables, actual text, and manual screen-reader review. | Institutional guidance focused on accessible PDFs and WCAG 2.1 Level AA at that institution; not proof of Stitch & Scale PDF behavior or a legal conclusion for this product. | Require separate print/export and accessibility review; do not treat a generated file or automated check as sufficient proof. |
+| Local publication and release-trust contracts | 2026-08-19; repository source | Physical print review and chart/readability checks are distinct human evidence gates; dense tables require close readable proof shots and caption-free review. | Internal workflow guidance, not proof of current print-preview, PDF, or export behavior. | The proof surface must be a current approved print/export/preview surface; absent proof, use a blocker card. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for print preview, PDF export, page breaks, chart placement, schematic scaling, table structure, reading order, or output accessibility. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`paper-proof`**: the tension is a document looking complete on screen while a printed page changes what a maker can see or use. The hook is “If the paper changes the pattern, the proof is not done.” The visual metaphor is one fictional page moving through `SCREEN / PRINT / READ / RECHECK`, with a schematic/table held beside a physical page rather than a PDF-success badge. The proof surface must be one current, approved print-preview, export, or publication surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic PDF accessibility into **meaning preservation across screen and paper with manual review**. The script must not claim print fidelity, PDF accessibility, correct pagination, export success, or automated checking. It may ask whether charts, measurements, and tables survive the paper handoff, then invite current product proof for the exact surface.
+
+### References
+
+[63] [Craft Yarn Council — Schematics](https://www.craftyarncouncil.com/standards/schematics)
+
+[64] [Texas Tech University — Quick Guide to Creating Accessible PDFs](https://www.ttu.edu/accessibility/digital-accessibility/docs/accessible-pdf-guide.html)

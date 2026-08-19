@@ -1,0 +1,17 @@
+message_id: MSG-20260819-082200-director-031
+sender: director
+recipient: production
+created_at: '2026-08-19T08:22:00+01:00'
+plan_id: PLAN-20260819-082200-paper-proof-v001
+angle_slug: paper-proof
+status: blocked
+subject: Paper-proof concept blocked pending output proof
+body: >-
+  Fresh CYC schematic and accessible-PDF research moved the concept from generic PDF accessibility into meaning
+  preservation across screen and paper with manual review. Do not generate or upload. No current approved
+  print-preview, export, or publication surface is available, and no print-fidelity, PDF-accessibility,
+  pagination, export-success, or automated-checking claim is authorized. Next action: provide one current approved
+  non-private proof surface with product version/date and exact visible labels, then rerun claims, source rights,
+  privacy, captions, audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

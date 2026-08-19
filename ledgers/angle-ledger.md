@@ -309,3 +309,13 @@ The nearest prior angle is `readability-under-load`, which concerns legibility a
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `decision-ledger`, which distinguishes recorded costs, derived rollups, estimates, and planned values. `design-intent` changes the pain to a technical record preserving what changed while losing why the construction was chosen, the hook to “The number tells you what changed. The note can tell you why,” the visual metaphor from value-status cards to `INTENT / ASSUMPTION / TEST / GATE`, the proof surface from design-ledger classifications to design-note/rationale/decision context, the emotional turn from numeric honesty to creative reasoning beside evidence, and the final line to “Keep the why beside the proof.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — paper proof — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `paper-proof` | A document can look complete on screen while a printed page changes what a maker can see or use | “If the paper changes the pattern, the proof is not done.” | One current, approved print-preview, export, or publication surface with exact labels | Tactile rechecking across media rather than print-fidelity certainty | “Hold the page. Recheck the meaning.” | blocked; product proof, print-rights review, and manual-output wording missing; distinct from `readability-under-load`, `equivalent-meaning`, `chart-parity`, `recovery-proof`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `readability-under-load`, which concerns dense mobile reading and cognitive load. `paper-proof` changes the pain to a document looking complete on screen while a printed page changes what a maker can see or use, the hook to “If the paper changes the pattern, the proof is not done,” the visual metaphor from mobile reading to `SCREEN / PRINT / READ / RECHECK` with a physical page and schematic/table, the proof surface from mobile readability to print-preview/export/publication, the emotional turn from calm pacing under load to tactile rechecking across media, and the final line to “Hold the page. Recheck the meaning.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
