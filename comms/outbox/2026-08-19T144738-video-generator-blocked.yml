@@ -1,0 +1,39 @@
+event_type: video-generator-bounded-run
+run_id: BLOCKED-no-eligible-director-contract-20260819-144738
+occurred_at: '2026-08-19T14:47:38+01:00'
+conversation_scope: same existing Stitch & Scale task and conversation
+status: blocked
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+
+source:
+  repository: https://github.com/plastic-dude/stitch-and-scale-vid
+  repository_head_at_refresh: 63f66c19b732a2c0a0679a3dcb1c0bf22baf19d5
+  eligible_contract: null
+  open_remake_required_orders: []
+  consumed_contract: DIR-001
+
+research:
+  wide_research_completed: true
+  note: research/2026-08-19-blocked-no-eligible-director-contract-144738.md
+
+video:
+  create_video_activated: false
+  output_filename: null
+  mp4_generated: false
+  reason: No eligible Director-approved generation contract existed.
+
+storage:
+  google_drive_connector: connected
+  archive_root_folder_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  access_verified: true
+  upload_attempted: false
+  blocked_external_storage: false
+
+records:
+  manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-144738.yml
+  qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-144738/generator-check.md
+  initial_git_commit: null
+  final_git_commit: null
+
+next_action: On the next 15-minute firing, refresh all branches, check for any REMAKE_REQUIRED order first, and otherwise select the earliest newly added Director brief with exact status approved-for-generation. Stop after exactly one video or one blocked/rejected outcome.
