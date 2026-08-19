@@ -4717,3 +4717,55 @@ Do not claim that Stitch & Scale obtains, stores, manages, withdraws, refreshes,
 ### Research limit
 
 The ICO pages provide UK data-protection guidance that is under review and do not establish a Stitch & Scale consent-management or legal-compliance feature. WIPO provides general rights-clearance planning guidance, not a substitute for jurisdiction-specific legal advice or actual licenses/releases. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact consent-state surface and labels.
+
+## One-hundred-tenth wide-research question: withdrawal changes the state — 2026-08-19
+
+### Research question
+What changes when a person withdraws a previously granted permission, and how should a record distinguish the withdrawal event, affected uses, downstream assets, stop-use action, erasure request, retention basis, owner, and status without implying automatic deletion, license termination, product automation, or legal compliance?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| ICO — How should we obtain, record and manage consent? | Page checked 2026-08-19; page says guidance is under review after the Data (Use and Access) Act | ICO states withdrawal may occur at any time, should be as easy as giving consent, must be recorded, and means consent-based processing should stop as soon as possible. It distinguishes lawful processing before withdrawal from processing after withdrawal and warns that another lawful basis cannot simply be swapped in after choosing consent without fairness and communication. | UK data-protection guidance under review; not legal advice and not a Stitch & Scale automation claim. | Shift the concept from generic withdrawal to a downstream impact record that separates withdrawal, stop-use action, erasure request, retention basis, and affected assets. |
+| WIPO — Rights clearance guide for independent filmmakers and detailed rights-clearance section | Pages checked 2026-08-19; current publication | WIPO emphasizes early clearance planning and identifying exact uses, territories, windows, people, media, music, clips, artwork, promotion, adaptations, written licenses/releases, and conditions. A withdrawal record alone does not establish erasure of every downstream asset or termination of every license. | General rights-clearance planning; actual contracts and jurisdiction-specific law control. | Add affected uses, downstream assets, stop-use action, license/retention note, owner, and status; do not equate withdrawal with automatic deletion or license termination. |
+| EDPB SME rights page | Retrieval attempted 2026-08-19; no extractable page content | No EDPB-specific claim used. | Source could not be extracted in this run. | Keep the pass grounded in ICO and WIPO only; do not overstate erasure or data-subject-rights interaction. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption and safe-area checks cannot substitute for rights, withdrawal, downstream-use, or erasure evidence; captions must not cover the fictional impact record. | Accessibility/platform context; no consent or rights authority. | Preserve proof-safe caption placement and review caption-on/caption-free versions. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts require version/date/context, rights/privacy clearance, local-first records, interruption-safe workflows, explicit recorded/estimated labels, and distinct calculation, technical-edit, print, chart, schematic, and test-knit evidence gates. | Internal operating contracts, not independent legal validation. | Treat withdrawal as a recorded event with explicit follow-up, not as a hidden delete or completed compliance state. |
+
+### Research synthesis
+
+The ICO guidance supports the operational distinction between a withdrawal event and subsequent processing: it says consent-based processing should stop as soon as possible, while prior lawful processing is not retroactively invalidated. WIPO adds that audiovisual rights depend on exact uses, windows, territories, people, media, promotion, adaptations, and written conditions. The visual opportunity is a fictional downstream-impact card labelled `ILLUSTRATIVE — NOT PRODUCT UI` with `CONSENT STATE / WITHDRAWN AT / AFFECTED USES / DOWNSTREAM ASSETS / STOP-USE ACTION / ERASURE REQUEST / RETENTION BASIS / OWNER / STATUS`, ending at `STATUS: IMPACT UNVERIFIED`. Final line: “Name what changes when permission changes.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a withdrawal, consent-state transition, affected-use, downstream-asset, stop-use, erasure-request, retention-basis, owner, or impact-status surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 110 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic “withdrawal” label into **a bounded withdrawal-impact state**: a recorded withdrawal may change what can happen next, but does not silently prove erasure, deletion, license termination, downstream suppression, or product enforcement. The fresh concept is `withdrawal-state`. No product consent collection, deletion, suppression, retention, revocation, rights management, or legal compliance capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `consent-state`, which focuses on permission being narrow and purpose/use-bounded before use. `withdrawal-state` changes the pain to **a later withdrawal being treated as either irrelevant or as automatic erasure of every downstream use**. It changes the hook to “Withdrawn is not erased”; the visual metaphor from a granular consent/rights card to a downstream-impact map with a withdrawal event branching into affected uses, assets, actions, retention, and status; the proof surface to consent state, withdrawn at, affected uses, downstream assets, stop-use action, erasure request, retention basis, owner, and status; the emotional turn from narrowing permission before use to confronting what changes after permission changes; and the final line to “Name what changes when permission changes.”
+
+It is distinct from `consent-state` because it is not initial permission scope; from `rights-scope` because it is not license distribution scope; from `review-expiry` because it is not a review window; from `decision-reversal` because it is not rollback; from `supersession-state` because it is not new-versus-old record precedence; from `response-state` because it is not action lifecycle; from `outcome-proof` because it is not improvement; from `provenance-chain` because it is not source lineage; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale collects consent, records withdrawals, stops processing, deletes data, suppresses downstream assets, terminates licenses, manages retention, enforces rights, or verifies legal compliance. Do not use `CONSENT STATE`, `WITHDRAWN AT`, `AFFECTED USES`, `DOWNSTREAM ASSETS`, `STOP-USE ACTION`, `ERASURE REQUEST`, `RETENTION BASIS`, `OWNER`, or `IMPACT UNVERIFIED` as current product UI. Do not show recognizable people, private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, music, clips, artwork, or branded property without explicit rights/privacy clearance. Do not imply that withdrawal retroactively invalidates every prior use or automatically deletes every copy. Do not make legal advice or universal erasure claims; the ICO page is under review and the EDPB page was not extractable in this run. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[593] [ICO — How should we obtain, record and manage consent?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/consent/how-should-we-obtain-record-and-manage-consent/)
+[594] [WIPO — Rights clearance: A guide for independent filmmakers](https://www.wipo.int/web-publications/rights-clearance-a-guide-for-independent-filmmakers/en/index.html)
+[595] [WIPO — Rights assessed during clearance for independent filmmakers](https://www.wipo.int/web-publications/rights-clearance-a-guide-for-independent-filmmakers/en/3-rights-assessed-during-clearance.html)
+[596] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[597] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[598] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[599] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[600] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+The ICO page provides UK data-protection guidance that is under review and does not establish a Stitch & Scale consent, deletion, suppression, retention, or legal-compliance feature. WIPO provides general rights-clearance planning guidance, not a substitute for actual contracts/licenses/releases or jurisdiction-specific legal advice. The EDPB page was not extractable and is not used for claims. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact withdrawal-state surface and labels.
