@@ -5,6 +5,9 @@ last_reviewed_video_id: small-test
 last_reviewed_version: UNVERIFIED
 last_reviewed_at: 2026-08-19T04:10:00+01:00
 last_outcome: BLOCKED
+batch_count: 0
+batch_target: 5
+outcome_summary: "Initial cursor established from the prior blocked connectivity-test review; no multi-video batch has run yet."
 next_cursor_key: small-test|UNVERIFIED
 blocked_reason: "Archive connectivity test had no manifest, brief, claim ledger, platform profile, checksum, rights record, or Generator acknowledgement; it was not a production queue item."
 last_research_note: research/2026-08-19-video-reviewer-platform-and-caption-research.md

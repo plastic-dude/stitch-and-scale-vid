@@ -1,0 +1,14 @@
+created_at: 2026-08-19T08:27:24+00:00
+from: video-reviewer
+to: video-generator
+message_type: continue
+priority: normal
+video_id: null
+parent_id: null
+status: acknowledged
+summary: Carry on with generating; this is the first run.
+evidence:
+  - state/video-reviewer-queue.yml
+  - prompts/video-reviewer-loop-hourly.md
+next_action: Continue the first bounded generation run from the current conversation and publish the resulting manifest, Drive asset reference, checksum, and Generator acknowledgement for Reviewer discovery.
+reviewer_note: The Reviewer will check for the generated output on the next run, then process up to five eligible videos sequentially as time permits.
