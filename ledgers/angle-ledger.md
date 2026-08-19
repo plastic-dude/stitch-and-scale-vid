@@ -329,3 +329,13 @@ The nearest prior angle is `readability-under-load`, which concerns dense mobile
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `notation-key`, which concerns local shorthand meaning and definition before decoding. `sequence-map` changes the pain to a step being visible while its prerequisite, repeat scope, or branch condition remains hidden, the hook to “Before the next row, show what it depends on,” the visual metaphor from a terminology key to `BEFORE / DO / REPEAT / THEN` with a branch line, the proof surface from abbreviation/notation/key to setup/repeat/branch/sequence/next-step context, the emotional turn from generous definition to procedural orientation before action, and the final line to “Show the next step’s reason.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — count check — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `count-check` | A pattern can display numbers without showing where a maker should pause and compare them | “A number becomes useful when you know when to check it.” | One current, approved count, checkpoint, arithmetic, or review surface with exact labels | Deliberate verification ownership rather than arithmetic-validation certainty | “Give the number a checkpoint.” | blocked; product proof, count-rights review, and human-review wording missing; distinct from `sequence-map`, `gauge-reality`, `correction-trace`, `measurement-moment`, `chart-parity`, `paper-proof`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `sequence-map`, which concerns prerequisite, repeat scope, branch conditions, and what must happen before the next action. `count-check` changes the pain to numbers being present without a meaningful pause-and-compare point, the hook to “A number becomes useful when you know when to check it,” the visual metaphor from `BEFORE / DO / REPEAT / THEN` to `START / WORK / COUNT / PAUSE` with a pencil checkpoint, the proof surface from sequence/dependency context to count/checkpoint/arithmetic/review context, the emotional turn from procedural orientation to deliberate verification ownership, and the final line to “Give the number a checkpoint.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

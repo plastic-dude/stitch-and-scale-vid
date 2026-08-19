@@ -1,0 +1,17 @@
+message_id: MSG-20260819-083600-director-033
+sender: director
+recipient: production
+created_at: '2026-08-19T08:36:00+01:00'
+plan_id: PLAN-20260819-083600-count-check-v001
+angle_slug: count-check
+status: blocked
+subject: Count-check concept blocked pending current checkpoint proof
+body: >-
+  Fresh CYC count guidance and practitioner technical-editing research moved the concept from generic math
+  correctness into human-facing count checkpoints. Do not generate or upload. No current approved count,
+  checkpoint, arithmetic, or review surface is available, and no arithmetic-validation, grading-correctness,
+  error-free, or automatic-check claim is authorized. Next action: provide one current approved non-private proof
+  surface with product version/date and exact visible labels, then rerun claims, source rights, privacy, captions,
+  audio, platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true

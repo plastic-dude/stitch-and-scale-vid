@@ -836,3 +836,33 @@ Research changed the concept from generic instruction clarity into **dependency 
 [65] [Craft Yarn Council — How to Read a Knitting Pattern](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern)
 
 [66] [Proxmox VE — Technical Writing Style Guide](https://pve.proxmox.com/wiki/Technical_Writing_Style_Guide)
+
+## Thirty-first wide-research question: where should the count be checked? — 2026-08-19
+
+### Research question
+How can a pattern make stitch and row counts visible at meaningful checkpoints without claiming Stitch & Scale performs arithmetic validation, pattern-correctness checks, or error-free grading?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Congratulations! You’ve Received the Go Ahead” | 2026-08-19; live page | CYC’s designer guidance says both stitch and row counts should be included and notes that project instructions should be submitted electronically in its publication context. | Guidance for a publication workflow, not proof of a current Stitch & Scale count surface or automatic arithmetic validation. | Show counts as human-facing checkpoints, not as a correctness seal. |
+| Craft Yarn Council, “How to Read a Knitting Pattern” | 2026-08-19; live page | CYC explains cast-on counts, rows, repeats, brackets, and parentheses as instructional structures. | Teaching reference, not product evidence. | Make the checkpoint occur after a meaningful instruction block, not on every number. |
+| Snickerdoodle Knits, “A Knitting Pattern Designer’s Guide to Tech Editing” | 2026-08-19; page dated 9 January 2022 and updated 25 January 2022 | The practitioner describes technical editing as reviewing accuracy, consistency, and clarity, including stitch counts, mathematical relationships, dimensions versus gauge/counts, yarn quantities, photos/schematics, and written-versus-charted instructions. | Practitioner guidance, not a universal technical-editing service definition and not proof of Stitch & Scale checks. | Preserve technical editing as a distinct human gate; frame count checkpoints as orientation and review prompts, not automated validation. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for stitch counts, row counts, count checkpoints, arithmetic checks, count warnings, grading math, or count-to-gauge relationships. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`count-check`**: the tension is a pattern displaying numbers without showing where a maker should pause and compare them. The hook is “A number becomes useful when you know when to check it.” The visual metaphor is a fictional instruction strip with `START / WORK / COUNT / PAUSE`, a pencil check at a checkpoint, and no green correctness badge. The proof surface must be one current, approved count/checkpoint/arithmetic/review surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic math correctness into **human-facing count checkpoints**. The script must not claim arithmetic validation, grading correctness, error-free output, or automatic checking. It may ask a designer to expose meaningful stitch/row checkpoints and route discrepancies to human technical review, then invite current product proof for the exact surface.
+
+### References
+
+[67] [Craft Yarn Council — Congratulations! You’ve Received the Go Ahead](https://www.craftyarncouncil.com/industry.html)
+
+[68] [Craft Yarn Council — How to Read a Knitting Pattern](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern)
+
+[69] [Snickerdoodle Knits — A Knitting Pattern Designer’s Guide to Tech Editing](https://www.snickerdoodleknits.com/post/a-knitting-pattern-designers-guide-to-tech-editing-what-why-and-how-pattern-tech-editing-works)
