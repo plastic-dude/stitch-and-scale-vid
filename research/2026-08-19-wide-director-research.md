@@ -5384,3 +5384,49 @@ Do not claim that Stitch & Scale currently exposes restore notices, resume point
 ### Research limit
 
 These sources establish mobile state restoration, transient-versus-persistent state, interruption control, and knitwear workflow continuity principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes restore notices, resume points, selected-context restoration, pending-action markers, unsaved-input handling, or verification-before-continue. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-twenty-fourth wide-research question: tapped is not intended — 20260819-194446
+
+### Research question
+
+Before a consequential action changes, deletes, or exports work, what proves the user’s intended scope, the exact consequence, the available reversal, and the final confirmation?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| W3C WCAG 2.2 — Error Prevention (Legal, Financial, Data) | 2026-08-19 | Important submissions should be reversible, checked with correction, or confirmed before finalization; the guidance distinguishes serious irreversible data modification from ordinary save/edit actions. | WCAG guidance; not a Stitch & Scale product claim. | Frame the concept around target, scope, consequence, reversal, and confirmation rather than a generic warning. |
+| W3C WCAG 2.2 — Error Prevention (All) | 2026-08-19 | For submitted information, a mechanism should allow reversal, error checking/correction, or review and confirmation before finalizing. | Level AAA guidance; no product behavior evidence. | Require a review/correct/confirm path as a proof gate. |
+| Apple HIG — Alerts | 2026-08-19 | Alerts should be used sparingly; uncommon destructive actions that cannot be undone merit an opportunity to confirm; titles and buttons should describe the actual result, and Cancel should clearly cancel. | Apple platform guidance; not a Stitch & Scale product claim. | Make action labels describe the consequence, not an ambiguous “OK”. |
+| Apple HIG — Action sheets | 2026-08-19 | Action sheets are appropriate for choices related to an intentional action, such as delete/save/return-to-edit; destructive choices and Cancel should be clear without overusing interruption. | Apple platform guidance; no Android/product behavior evidence. | Show deliberate scope choices and a safe return path, not repeated generic alerts. |
+| Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet | 2026-08-19 | A grading workflow combines sizes, measurements, ease, gauge, formulas, and finished measurements; actions that modify or export a pattern can carry scope and downstream consequences. | Practitioner education, not a standard and not Stitch & Scale evidence. | Use a fictional pattern/export action whose target and scope must be reviewed. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Destructive actions, exports, rights, local-first records, grading, charts, schematics, and human reviews remain separate evidence boundaries; a confirmation affordance cannot be assumed from a generic button or generated text. | Internal contracts, not current product behavior. | Block until one consequential action from target through result is directly verified. |
+
+### Research synthesis and decision shift
+
+Tapped is not intended. Candidate angle: `intent-state`. Hook: “Tapped is not intended.” Fictional proof surface: `ACTION / TARGET / SCOPE / CONSEQUENCE / REVERSIBLE? / REVIEWED / CONFIRMED / RESULT`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: a tap fans into target/scope/consequence/reversal paths before a final confirmation. Emotional turn: accidental action anxiety becomes explicit intent. Final line: “Name what will change before you confirm.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies destructive/export actions, target and scope summaries, consequence text, reversal/undo behavior, review steps, confirmation labels, keyboard or assistive-technology state, or final result notices. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `resume-state`, which concerns whether work returned with the same draft and context after interruption. `intent-state` changes the pain to **a tap or generic confirmation failing to prove the intended target and scope, exact consequence, reversal path, and final result before a consequential action**. It changes the hook to “Tapped is not intended”; the visual metaphor from restored/reconstructed return paths to a tap fanning into target/scope/consequence/reversal paths; the proof surface from last-opened/draft-state/selected-context/pending-action/resume-point/restored/unsaved-input/verify-before-continue to action/target/scope/consequence/reversible/reviewed/confirmed/result; the emotional turn from comeback uncertainty to explicit intent; and the final line to “Name what will change before you confirm.”
+
+It is distinct from `consent-state`, `commit-state`, `selection-state`, `response-state`, `acceptance-criteria`, `resume-state`, `backup-state`, and imported `release-gate-roster` because those concepts respectively concern permission, save acknowledgement, selected context propagation, response enactment, pass conditions, interruption return state, backup/restore testing, and roster proof. `intent-state` focuses on the exact consequence and scope of a consequential action before execution. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes target/scope summaries, consequence text, undo, review/confirmation, result notices, or accessible intent state. Do not use `ACTION`, `TARGET`, `SCOPE`, `CONSEQUENCE`, `REVERSIBLE?`, `REVIEWED`, `CONFIRMED`, or `RESULT` as current product UI. Do not claim intent-confirmation, undo, deletion protection, export safety, fit, calculation accuracy, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[709] [W3C — Understanding Success Criterion 3.3.4: Error Prevention (Legal, Financial, Data)](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html)
+[710] [W3C — Understanding Success Criterion 3.3.6: Error Prevention (All)](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html)
+[711] [Apple Developer — Human Interface Guidelines: Alerts](https://developer.apple.com/design/human-interface-guidelines/alerts)
+[712] [Apple Developer — Human Interface Guidelines: Action sheets](https://developer.apple.com/design/human-interface-guidelines/action-sheets)
+[713] [Sister Mountain — How to Grade Knitting Patterns Using a Spreadsheet](https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet)
+[714] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish error-prevention, confirmation, reversal, action-sheet, and knitwear workflow principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes target/scope summaries, consequence text, undo, review/confirmation, result notices, or accessible intent state. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
