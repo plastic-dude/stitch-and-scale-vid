@@ -1,0 +1,20 @@
+video_id: SS_<campaign>_<angle>_<format>_<version>_<status>_<YYYYMMDD-HHMMSS>
+filename: [exact external MP4 filename]
+angle_slug: [ledger angle]
+format: [width]x[height]
+version: v001
+status: director-review
+script_version: [script id]
+plan_version: [plan id]
+caption_version: [caption id]
+audio_version: [mix id]
+research_note: research/[date]-[slug].md
+external_store: Google Drive
+external_folder_id: [non-secret folder id]
+drive_file_id: [filled after upload]
+drive_url: [filled after upload]
+sha256: [filled after export]
+created_at: [RFC3339]
+qa_report: qa/[video_id].md
+rights_status: [original / licensed / public-domain / verified]
+notes: [short factual note]

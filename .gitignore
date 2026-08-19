@@ -1,0 +1,31 @@
+# Secrets and local credentials
+credentials.json
+token.json
+client_secret*.json
+*.pem
+*.key
+.env
+.env.*
+
+# Full-resolution and intermediate media
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+
+# Local generated assets and caches
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+*.tmp
+*.cache
+
+# Review proxies are opt-in; add deliberate small proxies with Git LFS or an explicit exception.
+proxies/*
