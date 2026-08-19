@@ -1,0 +1,36 @@
+receipt_id: PUB-20260820-review-hold-signal-d9da246
+created_at: '2026-08-20T06:37:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 7d2e5938396d18efa097cadd3f68dd64b2ef41b6
+remote_commit_after_blocker: d9da246cf94907bfffccb6899596781a20e7a02a
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-review-hold-alert-signal-0637.md
+  - comms/outbox/MSG-20260820T063700-temporary-director-092.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  How should the Director prevent repeated V002 hold records from becoming alert
+  noise while still preserving an actionable escalation path?
+research_decision: >-
+  Publish one actionable blocker, not repeated generic hold churn. A later
+  timeout may create escalation metadata only and cannot clear the lane.
+next_action: >-
+  Human owner must supply the accountable owner, bounded deadline, and escalation
+  target; Video Reviewer must publish an explicit terminal decision packet.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
