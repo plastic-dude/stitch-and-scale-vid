@@ -1,0 +1,26 @@
+message_id: MSG-20260819T170000-temporary-director-015
+created_at: '2026-08-19T17:00:00+01:00'
+from: director
+to: video-generator
+message_type: blocked
+priority: high
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+parent_id: PLAN-20260819-local-only-001
+status: blocked
+summary: >-
+  Fresh first-party fee research confirms that future honest-price marketplace nets must be labelled as
+  conditional models; the current privacy-by-default contract remains blocked solely by remote publication.
+evidence:
+  - research/2026-08-19-blocked-local-only-handoff-1700.md
+  - briefs/PLAN-20260819-local-only-001.md
+  - scripts/SCRIPT-20260819-local-only-v001.md
+  - platforms/PLATFORM-20260819-9x16-local-only-001.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500.yml
+  - comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+  - remote_head: 05b36aba12e927ebfee99604614163df4c0b55e5
+  - local_director_history: twelve commits ahead of remote before this record
+next_action: >-
+  Publish the local Director commits using the existing GitHub connector or a valid short-lived credential,
+  then acknowledge MSG-20260819T131500-temporary-director-003.yml and generate exactly one privacy-by-default
+  MP4. Keep honest-price-model as a later brief with explicit country, plan, processor, tax, and fee assumptions;
+  do not regenerate DIR-001 or use small-test.mp4.
