@@ -1,0 +1,56 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260820-FOUNDING-TESTERS
+plan_id: PLAN-20260820-000000-supersession-state-v001
+angle_slug: supersession-state
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_supersession-state_9x16_v001_blocked_20260820-000000.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+supersession_surface_status: missing
+item_status: missing
+predecessor_status: missing
+new_version_status: missing
+supersedes_link_status: missing
+effective_at_status: missing
+reason_status: missing
+affected_scope_status: missing
+current_status: missing
+source_date_status: missing
+owner_status: missing
+notes_status: missing
+history_retention_status: unverified
+predecessor_discoverability_status: unverified
+downstream_switch_status: unverified
+redirect_status: unverified
+propagation_status: unverified
+audit_history_status: unverified
+product_version: null
+proof_capture_approved: false
+technical_editorial_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no version history, superseded marking, redirect, propagation, audit history, or current-copy guarantee claim
+  - Git and NIST provenance guidance are context, not product behavior or retention/versioning guarantees
+  - publication errata practice is context, not universal workflow or Stitch & Scale capability
+  - fictional version cards are not product UI, current version evidence, or proof that readers have switched
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private supersession proof package with exact item/predecessor-version-or-decision/new-version-or-decision/supersedes-link/effective-at/reason/affected-scope/current-status/source/date/owner/notes labels and evidence that predecessor discoverability and current-copy boundaries are explicit, then rerun product/data, rights/privacy, claims, caption, audio, platform, and Director gates.

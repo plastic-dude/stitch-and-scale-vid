@@ -3469,3 +3469,60 @@ Do not claim Stitch & Scale sends messages, delivers files, obtains read receipt
 [387] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [388] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Eighty-eighth wide-research question: new does not erase old — 2026-08-20
+
+### Research question
+When a newer decision or pattern version replaces an older one, how can a designer preserve the earlier record, link what superseded it, record effective time/reason/scope/current status, and avoid treating replacement as deletion, without claiming Stitch & Scale maintains version history or automatic supersession?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers managing pattern drafts, technical edits, test-knit revisions, grading decisions, or published corrections. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and historically careful. The brief tier is a standard single-original-video planning package. No version-history, automatic supersession, redirect, propagation, or audit claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Git documentation, “Undoing Things” | 2026-08-19; current page checked | Git explains that amending a local commit replaces the previous commit in history, while an undo/revert operation can create a new change; it warns that rewriting already-pushed history causes collaborator problems. | Git history behavior is not a knitwear pattern lifecycle, not a Stitch & Scale version/supersession feature, and not a universal records-retention rule. | Prefer explicit predecessor/new links, effective-at, reason, scope, current status, source/date, owner, and notes; do not erase the predecessor or imply automatic propagation. |
+| NIST CSRC Glossary, “provenance” | 2026-08-19; current page checked | NIST defines provenance as the chronology of origin, development, ownership, location, and changes to a system component and associated data; it may include personnel and processes. It also describes records of possession and changes that can report changes to actors, functions, locales, or activities. | NIST glossary definitions require context-specific source documents and are not a Stitch & Scale retention/versioning promise. | Record predecessor/new identity, ownership, effective time, reason, scope, current status, source/date, and actor/process notes; do not infer automatic history, redirects, or downstream switching. |
+| Vogue Knitting, “Corrections” | 2026-08-19; current page checked | The publication maintains corrections/errata for patterns from past issues and posts corrections as they become available, illustrating that a later correction can remain linked to an earlier published pattern context. | Publication practice is not a Stitch & Scale feature, legal status, or guarantee that every reader has switched copies. | Distinguish predecessor, replacement/correction, effective date, affected issue/section, current availability, and reader-facing follow-up. |
+| Stitch & Scale mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts | 2026-08-19; contracts re-read | Internal contracts preserve stable IDs, provenance, version/date, local-first records, export identity, correction context, and separate technical-editing, print, chart, schematic, and test-knit evidence. | Internal contracts; no product-proof registry entry for supersession links, history retention, redirects, or propagation. | Block product claims about automatic version lifecycle or current-copy switching. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove version history, currentness, or product behavior. | Plan 9:16 at 1080×1920, keep predecessor/new cards and scope away from overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-19; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep organic-first master under one minute, center one version card family at a time, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish version history, correction propagation, or product currentness. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove version identity or semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying predecessor/new-version links, supersedes/superseded-by fields, effective time, reason, affected scope, current status, history retention, or downstream switch behavior. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 88 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “keep an old version” into **explicitly link the predecessor to the new version, state what changed, when it became effective, what scope is affected, who owns the record, and whether the predecessor remains available or is superseded**. The fresh concept is `supersession-state`: an original record card places `ITEM / PREDECESSOR VERSION OR DECISION / NEW VERSION OR DECISION / SUPERSEDES LINK / EFFECTIVE AT / REASON / AFFECTED SCOPE / CURRENT STATUS / SOURCE / DATE / OWNER / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no version lifecycle or automatic redirect claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `correction-trace`, which links a released correction to reader-facing copy. `supersession-state` changes the pain to **new information being treated as a replacement while the predecessor, effective boundary, reason, scope, and current status disappear**. The hook changes to “New does not erase old.” The visual metaphor changes from an errata line connected to a published pattern to two version/decision cards connected by an explicit `SUPERSEDES` arrow with effective-at, reason, scope, owner, and current-status cards. The proof surface changes from correction linkage to predecessor/new identity and lifecycle context. The emotional turn changes from reader safety around corrections to historical clarity about what replaced what. The final line changes to “Name what this replaces before you call it current.”
+
+This is distinct from `decision-ledger` (recording a decision generally), `change-notice` (communicating a change), `correction-trace` (released correction linkage), `artifact-status` (which copy/state is held), `capture-freshness` (proof artifact currentness), `review-anchor` (comment version/location), `impact-scope` (downstream effects), `submission-state` (editorial lifecycle), and `ack-state` (handoff receipt). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale preserves versions, marks superseded records, redirects users, propagates replacement, maintains audit history, guarantees every reader has the current copy, or automatically updates downstream outputs. A new version label cannot prove predecessor discoverability, scope completeness, or switching. Do not use private drafts, customer/tester records, third-party pattern PDFs, editorial comments, or copyrighted correction pages without permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[389] [Git — Undoing Things](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
+
+[390] [NIST CSRC Glossary — provenance](https://csrc.nist.gov/glossary/term/provenance)
+
+[391] [Vogue Knitting — Corrections](https://www.vogueknitting.com/pattern-help/corrections/)
+
+[392] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[393] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[394] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[395] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[396] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
