@@ -1,0 +1,19 @@
+message_id: MSG-20260820-005148-director-177
+created_at: 2026-08-20T00:51:48+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_status-history-state_9x16_v001_blocked_20260820-005148
+parent_id: BRF-founder-proof-status-history-state-9x16-v001
+status: blocked
+summary: Status-history-state is blocked because no current approved product proof verifies prior status, transition event, actor/time, reason, affected gate, next state, missing-transition handling, review, and disposition.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-20-pass175-browser-findings.md
+  - briefs/SS_founder-proof_status-history-state_9x16_v001_blocked_20260820-005148.md
+  - scripts/SS_founder-proof_status-history-state_9x16_v001_blocked_20260820-005148.md
+  - platforms/SS_founder-proof_status-history-state_9x16_v001_matrix_20260820-005148.md
+  - ledgers/20260820-status-history-state.md
+  - manifests/SS_founder-proof_status-history-state_9x16_v001_blocked_20260820-005148.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one real status history with prior_status/event/actor/at/reason/affected_gate/next_status/gap/reviewed/disposition before presenting status-history behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

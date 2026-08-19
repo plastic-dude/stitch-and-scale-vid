@@ -7487,3 +7487,38 @@ No current product-proof registry or approved non-private capture verifies excep
 [897]: https://csrc.nist.gov/projects/risk-management "NIST Risk Management Framework"
 [898]: https://gds-way.digital.cabinet-office.gov.uk/standards/architecture-decisions.html "GOV.UK — Documenting architecture decisions"
 [899]: https://www.w3.org/WAI/WCAG22/quickref/ "W3C WCAG 2.2 Quick Reference"
+
+
+## Wide-research Director question 175 — status history state — 20260820-005148
+
+**Fresh research question.** When a workflow shows a current status, what evidence shows how it got there, which transitions were skipped, and whether the current state is still trustworthy?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest status-history pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise, transition-centered reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [900] | NIST, *SP 800-92: Guide to Computer Security Log Management*, accessed 2026-08-20: https://csrc.nist.gov/pubs/sp/800/92/final | NIST provides high-level guidance on establishing log-management infrastructures and maintaining log-management processes, supporting the distinction between a current state and an event history. | This is security log guidance, not proof that Stitch & Scale implements logs, event retention, monitoring, or audit trails. |
+| [901] | W3C, *Data on the Web Best Practices*, Recommendation 2017; accessed 2026-08-20: https://www.w3.org/TR/dwbp/ | W3C treats version indicators and version history as distinct from provenance, data quality, identifiers, and metadata, supporting explicit history rather than a single current label. | This does not prove Stitch & Scale implements version history, provenance, persistent identifiers, or data-quality metadata. |
+| [902] | GOV.UK, *Architectural Decision Record Framework*, published 2025; accessed 2026-08-20: https://www.gov.uk/government/publications/architectural-decision-record-framework/architectural-decision-record-framework | The framework emphasizes visibility, traceability, scope, stakeholders, context, decisions, consequences, review, updates, and escalation for decisions. | This does not prove Stitch & Scale has ADRs, approval bodies, escalation, stakeholder tracking, or governance compliance. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from “the current status is visible” to “the transition history shows prior status, event, actor, time, reason, affected gate, and next state, with missing transitions disclosed.” The fictional proof surface is `STATUS_HISTORY H-001 / PRIOR_STATUS / EVENT / ACTOR / AT / REASON / AFFECTED_GATE / NEXT_STATUS / GAP / REVIEWED / DISPOSITION`.
+
+The selected angle is `status-history-state`, hook **“Current status is not transition history.”** The final line is **“Show how this status was reached.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `observability-state`, which asks whether a quiet process exposes enough signal to distinguish healthy, waiting, progressing, stale, and failed. `status-history-state` changes the pain to whether a displayed current status can be reconstructed through prior states, events, actor/time, reason, affected gate, next state, and disclosed gaps. It is not `audit-state`, which asks whether a record can be reviewed; `sequence-state`, which asks whether actions occur in the right order; `freshness-state`, which asks whether evidence is current; `observability-state`, which asks whether current activity emits a signal; `provenance-chain`, which asks where an artifact came from; `decision-state`, which asks whether a decision has a status; or `exception-state`, which asks whether a deviation has a bounded lifecycle. The visual metaphor changes to a vertical state-transition rail with a missing event gap, rather than a live signal card, audit view, sequence rail, freshness stamp, origin chain, decision card, or exception lifecycle. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies status history, transition events, actor/time, reasons, affected gates, next states, missing-transition disclosure, review, or disposition. The evidence cards must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with logging, status history, audit trails, version history, transition tracking, decision records, or governance compliance. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [900]–[902]
+
+[900]: https://csrc.nist.gov/pubs/sp/800/92/final "NIST SP 800-92: Guide to Computer Security Log Management"
+[901]: https://www.w3.org/TR/dwbp/ "W3C Data on the Web Best Practices"
+[902]: https://www.gov.uk/government/publications/architectural-decision-record-framework/architectural-decision-record-framework "GOV.UK Architectural Decision Record Framework"
