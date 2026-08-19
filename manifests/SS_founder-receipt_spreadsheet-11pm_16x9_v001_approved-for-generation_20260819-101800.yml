@@ -1,0 +1,26 @@
+video_id: SS_founder-receipt_spreadsheet-11pm_16x9_v001_approved-for-generation_20260819-101800
+campaign_id: CAMPAIGN-20260819-founder-receipt
+filename: SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.mp4
+angle_slug: spreadsheet-11pm
+format: 16x9 / 1920x1080 preferred
+version: v001
+status: approved-for-generation
+objective: founding-tester recruitment through a proof-led product story
+platform_profile: PLATFORM-20260819-16x9-proof-short-001
+script_version: SCRIPT-20260819-spreadsheet-11pm-v001
+plan_version: PLAN-20260819-spreadsheet-11pm-001
+caption_version: CAPTION-20260819-spreadsheet-11pm-v001
+audio_version: AUDIO-20260819-spreadsheet-11pm-v001
+research_note: research/2026-08-19-first-director-research.md
+external_store: Google Drive
+external_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+external_folder_name: 01-director-review
+drive_file_id: null
+drive_url: null
+sha256: null
+created_at: 2026-08-19T10:18:00+01:00
+qa: pending-generator
+qa_report: qa/SS_founder-receipt_spreadsheet-11pm_16x9_v001-generator-check.md
+rights_status: pending-generator-confirmation
+source_asset_commit: c38411d93093e79756ddda8b59e8d82336814da6
+notes: First emergency Director brief. Uses the current repository-owned spec-sheet-lab.webp proof capture. Do not reuse or overwrite small-test.mp4; that file remains an archive-connectivity test.

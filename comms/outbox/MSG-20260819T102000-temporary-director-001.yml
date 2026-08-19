@@ -1,0 +1,29 @@
+message_id: MSG-20260819T102000-temporary-director-001
+created_at: 2026-08-19T10:20:00+01:00
+from: temporary-director
+to: video-generator
+message_type: brief-ready
+priority: high
+video_id: SS_founder-receipt_spreadsheet-11pm_16x9_v001_approved-for-generation_20260819-101800
+parent_id: PLAN-20260819-spreadsheet-11pm-001
+status: open
+summary: Complete Generator-ready brief for one 55-second 16:9 proof-led founding-tester film using the current Spec Sheet Lab capture; do not use small-test.mp4.
+evidence:
+  - briefs/PLAN-20260819-spreadsheet-11pm-001.md
+  - scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+  - platforms/PLATFORM-20260819-16x9-proof-short-001.md
+  - manifests/SS_founder-receipt_spreadsheet-11pm_16x9_v001_approved-for-generation_20260819-101800.yml
+  - research/2026-08-19-first-director-research.md
+  - research/2026-08-19-first-proof-observations.md
+  - production-lessons/test-video-lessons.md
+  - product proof: https://raw.githubusercontent.com/plastic-dude/stitch-and-scale-pro/c38411d93093e79756ddda8b59e8d82336814da6/docs/screenshots/spec-sheet-lab.webp
+  - external folder: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2 (01-director-review)
+next_action: Acknowledge this brief, reserve the exact output filename, produce exactly one MP4, upload it to the private 01-director-review Drive folder, write the manifest and Generator QA record with checksum and Drive file ID, and stop without self-approving.
+acceptance_conditions:
+  - One narrator family only.
+  - Captions-on and captions-off checks pass.
+  - Captions never cover product proof, tables, buttons, faces, hands, or primary actions.
+  - No generated UI text, numbers, logos, or claims are used as evidence.
+  - Exact filename and version are preserved.
+  - Full-resolution MP4 stays in Drive; Git stores only records.
+  - Video Reviewer receives the file for independent scoring.
