@@ -6894,3 +6894,51 @@ The nearest prior angle is `integrity-state`, which asks whether one artifact's 
 
 [849]: https://csrc.nist.gov/projects/risk-management "NIST Risk Management Framework"
 [850]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
+
+## One-hundred-sixty-first wide-research question: relevant is not sufficient — 20260819-221400
+
+**Question.** What evidence shows that a craft result or warning has crossed the minimum required for a bounded decision, including required evidence, present evidence, missing fields, coverage, conditions, review, limits, threshold, owner, and disposition, rather than being merely relevant or persuasive?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between evidence belonging to a decision and evidence being sufficient to support that decision; audience is makers, reviewers, and developers who need a visible minimum-evidence boundary; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST decision evidence boundary.** The official NIST RMF overview describes a flexible, repeatable, measurable process with categorization by impact analysis, risk-based selection, documented implementation, assessment of whether controls operate as intended, authorization through a risk-based decision, and continuous monitoring. Used only as process context, this supports a named minimum-evidence gate for a decision. It does not establish a Stitch & Scale sufficiency threshold, risk engine, authorization workflow, or decision automation. The direct NIST About-RMF page timed out during pass 161, so no additional wording from that page is relied on. [851]
+
+**Craft sufficiency boundary.** Previously verified Craft Yarn Council guidance says a schematic gives size/shape overview, fit reference, and modification template, and recommends review before beginning; its reading-instructions guidance says to read the full relevant section, perform the instructions, and use a gauge swatch with the stated yarn, tools, and pattern stitch. This supports requiring named piece, size, yarn, tools, stitch, pattern, intended use, and review before a fictional craft decision is treated as sufficiently evidenced. It does not prove product correctness, consumer success, or a sufficiency feature. [852] [853]
+
+**Accessibility boundary.** W3C prerecorded-caption guidance remains the production constraint: captions must carry dialogue, speaker identification, and meaningful sound information. Pass 161 reserves a fixed caption lane, one narrator family, caption-on and caption-free review masters, and no caption over required evidence, missing fields, coverage, conditions, limits, threshold, owner, or disposition. [848]
+
+**Research uncertainty.** The NIST About-RMF page timed out during browser review, and the Craft Yarn Council gauge article loaded only a partial shell. Those failures are recorded in `research/2026-08-19-pass161-browser-findings.md`; the pass relies on the previously verified NIST RMF overview plus CYC schematics and reading-instructions pages rather than inventing missing wording.
+
+**Selected angle.** `sufficiency-state` — “Relevant is not sufficient.”
+
+**Primary pain.** Evidence can be relevant and persuasive yet still lack required fields, coverage, conditions, review, limits, or an explicit threshold for a bounded decision. The missing element is a visible minimum-evidence gate that says what is present, what is missing, and what cannot be decided yet.
+
+**Hook.** “Relevant is not sufficient.”
+
+**Dramatic engine.** Subject: one fictional decision card about whether to proceed with a craft change. Desire: know whether the evidence package is enough for the next decision. Obstacle: the evidence is relevant but required fields, conditions, coverage, review, and limits are incomplete. Stakes: a plausible warning or measurement is treated as permission to change a record, size, or instruction without enough support. Change: the card gains decision, required evidence, present evidence, missing, coverage, conditions, review, limit, threshold, owner, and disposition. Contradiction: more evidence is not automatically sufficient if the required evidence is still missing. Escalation: a related measurement fills one slot, but the missing condition and review fields keep the gate closed; the card explicitly says `NOT ENOUGH TO DECIDE`. Final image: a bounded evidence card with `MISSING: REVIEW + CONDITION`, `THRESHOLD: NOT MET`, and `DISPOSITION: HOLD`; no approval or product result claim.
+
+**Visual grammar.** Neutral evidence board; one decision card; a required-evidence checklist beside present-evidence tiles; a bold but calm missing-fields row; amber for incomplete coverage; red only for a threshold not met; no green approval state. No real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, legal language, product claim, or fit promise. Captions occupy a fixed lane that never covers decision, required evidence, present evidence, missing fields, coverage, conditions, review, limits, threshold, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `DECISION / REQUIRED_EVIDENCE / PRESENT_EVIDENCE / MISSING / COVERAGE / CONDITIONS / REVIEW / LIMIT / THRESHOLD / OWNER / DISPOSITION`.
+
+**Research decision.** Research changed the treatment from a relevance connector to a visible minimum-evidence gate: related evidence enters the package, but the decision remains closed until required evidence, present evidence, missing fields, coverage, conditions, review, limits, threshold, owner, and disposition are named. The proof surface is about adequacy for a decision, not whether evidence belongs to it or whether a result is fit for purpose. No source proves a product sufficiency gate.
+
+**Distinctness decision.** The nearest prior angle is `relevance-state`, which asks whether evidence belongs to the present decision through decision, subject, context, intended use, impact, criteria, relevance basis, limit, owner, and disposition. `sufficiency-state` changes the pain to whether the evidence package crosses a stated minimum for the decision. It differs from `completeness-state` candidates, which would concern whether fields are all filled; from `confidence-state`, which concerns the basis and limits of confidence; from `coverage-state` and `sampling-state`, which concern population or sample representation; from `actionability-state`, which concerns whether a next action can be taken; from `fitness-state`, which concerns fit for purpose; and from imported `false-completion` / `release-gate-roster`, which remain blocked human-gate concepts. The hook changes to “Relevant is not sufficient”; the visual metaphor changes from a dotted evidence connector that fails to land to a required-versus-present checklist with an explicit missing row and threshold; the proof surface changes to decision/required-evidence/present-evidence/missing/coverage/conditions/review/limit/threshold/owner/disposition; the emotional turn changes from decision-context discipline to minimum-evidence restraint; and the final line becomes “Name what is still missing before you decide.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name what is still missing before you decide.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed minimum-evidence gate, required/present comparison, missing fields, coverage, conditions, review, limit, threshold, owner, or disposition surface. No generation or upload is authorized.
+
+## Wide-research Director decision — sufficiency state — 20260819-221400
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `sufficiency-state` | Evidence can be relevant and persuasive yet lack required fields, coverage, conditions, review, limits, or threshold for a bounded decision | “Relevant is not sufficient.” | Fictional decision/required-evidence/present-evidence/missing/coverage/conditions/review/limit/threshold/owner/disposition card | From “It is relevant” to “The minimum is not met” | “Name what is still missing before you decide.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-221400
+The nearest prior angle is `relevance-state`, which asks whether evidence belongs to the present decision through decision, subject, context, intended use, impact, criteria, relevance basis, limit, owner, and disposition. `sufficiency-state` changes the question to whether the evidence package crosses a stated minimum for that decision. It changes the hook to “Relevant is not sufficient”; the visual metaphor from a dotted evidence connector that fails to land to a required-versus-present checklist with an explicit missing row and threshold; the proof surface from decision/subject/context/intended-use/impact/criteria/evidence/relevance-basis/limit/owner/disposition to decision/required-evidence/present-evidence/missing/coverage/conditions/review/limit/threshold/owner/disposition; the emotional turn from decision-context discipline to minimum-evidence restraint; and the final line to “Name what is still missing before you decide.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [851]–[853]
+
+[851]: https://csrc.nist.gov/projects/risk-management "NIST Risk Management Framework"
+[852]: https://www.craftyarncouncil.com/standards/schematics "Craft Yarn Council, Schematics"
+[853]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
