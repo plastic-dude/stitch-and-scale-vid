@@ -789,3 +789,13 @@ The nearest prior angle is `change-notice`, which focuses on what changed and ho
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `material-trace`, which uses skeins and yardage to identify a material with fiber, weight, color, dye lot, source, date, and project use. `quantity-basis` changes the pain to whether a quantity is a requirement, a plan, or an observed record. It changes the hook to “Required is not purchased,” the visual metaphor from material identity fields to `SIZE / REQUIRED QUANTITY / PLANNED PURCHASE / ACTUAL USED / LEFTOVER / RESERVE OR OVERAGE / UNIT / SOURCE / DATE / STATUS`, the proof surface from a material-trace surface to a current quantity-context surface, the emotional turn from tracing material identity to making the quantity’s basis explicit without pretending an estimate is a measured fact, and the final line to “Label the quantity before you buy the yarn.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — submission state — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `submission-state` | A project’s sent state may be mistaken for acceptance, contract, publication, or rights transfer | “Submitted is not accepted.” | One current, approved submission-context surface with project, recipient, submission date, review state, response date, rights status, contract status, publication status, source, and notes labels | Separating a handoff event from an editorial, contractual, publication, or rights outcome | “Label the state before you call it accepted.” | blocked; product proof, technical/editorial review, rights/legal/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `deadline-truth`, which focuses on the type and basis of a date. `submission-state` changes the pain to whether a sent project is being mistaken for accepted, contracted, published, or rights-transferred work. It changes the hook to “Submitted is not accepted,” the visual metaphor from typed dates to `PROJECT / RECIPIENT / SUBMISSION DATE / REVIEW STATE / RESPONSE DATE / RIGHTS STATUS / CONTRACT STATUS / PUBLICATION STATUS / SOURCE / NOTES`, the proof surface from a deadline-context surface to a current submission-context surface, the emotional turn from clarifying a date’s obligation to separating a handoff event from an editorial, contractual, publication, or rights outcome, and the final line to “Label the state before you call it accepted.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

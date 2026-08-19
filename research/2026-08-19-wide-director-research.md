@@ -2823,3 +2823,55 @@ Do not claim Stitch & Scale calculates yardage or skeins, predicts leftovers, tr
 [290] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [291] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Seventy-seventh wide-research question: submitted is not accepted — 2026-08-19
+
+### Research question
+Before a knitwear project is sent to a yarn company or magazine, how can a designer distinguish draft idea, submitted, under review, accepted, contracted, published, declined, withdrawn, recipient, source/date, and rights status without claiming Stitch & Scale manages submissions, contracts, exclusivity, or legal status?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers managing design ideas, submission records, and publication handoffs. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No acceptance promise, contractual urgency, or legal conclusion is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Industry Standards and Guidelines for Designers” | 2026-08-19; current page checked | CYC says company/magazine requirements vary; generally a concept may include a sketch and swatch; submit to one company or magazine at a time; acceptance may imply exclusivity; submissions may be confirmed, returned immediately, or reviewed over roughly 2–8 weeks; if accepted, a design fee is generally discussed and a contract issued. | CYC says its guidelines do not replace individual company requirements. This is not Stitch & Scale submission management, contract interpretation, legal advice, or an acceptance prediction. | Separate draft idea, submitted, recipient, review, returned/declined, accepted, contract, published, withdrawal, source/date, and rights status. |
+| Craft Yarn Council, “Designer Pitfalls” | 2026-08-19; current page checked | CYC warns against submitting ideas to more than one manufacturer/editor at the same time and flags incomplete notes, materials, and pattern records as workflow risks. | Guidance is not a product capability, exclusivity contract, or legal conclusion. | Treat recipient and submission state as recorded context, not as proof of acceptance or exclusivity. |
+| U.S. Copyright Office, “What is Copyright?” | 2026-08-19; current page checked | The Office explains that copyright protects original works of authorship once fixed in a tangible form; ownership, licensing, and recordation are distinct concepts. | General U.S. copyright information is not legal advice, a submission-status rule, a contract interpretation, or proof of Stitch & Scale legal behavior. | Keep submission state, rights status, contract status, and publication status separate; do not equate a sent file with rights transfer. |
+| U.S. Copyright Office, Title 17 Chapter 2, §§201–205 | 2026-08-19; current page checked | The text distinguishes initial ownership, transfer of copyright, ownership of copyright from ownership of a material object, written execution of transfers, licenses, and recordation of documents. | Statutory text does not determine any particular contract or publisher relationship and is not a substitute for legal advice. | Require explicit rights/contract source, document date, parties, and status before any rights-transfer or exclusivity statement. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Pattern QA, export, records, and mobile workflows separate technical editing, publication, rights/ownership, lifecycle state, source/date, status history, and local-first records. | Internal contracts; no current product-proof registry entry for submission management, contracts, exclusivity, legal status, or rights transfer. | Block submission, contract, exclusivity, legal-status, publication, and rights-transfer claims pending exact proof and appropriate review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for submission management, recipient tracking, contract status, exclusivity, publisher acceptance, publication state, rights transfer, legal status, or response-time prediction. All 77 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “submission tracking” into **whether a project’s submission state is being mistaken for acceptance, contract, publication, or rights transfer**. The fresh concept is `submission-state`: a fictional card places `PROJECT / RECIPIENT / SUBMISSION DATE / REVIEW STATE / RESPONSE DATE / RIGHTS STATUS / CONTRACT STATUS / PUBLICATION STATUS / SOURCE / NOTES`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no submission-management, exclusivity, legal, contract, or acceptance claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `deadline-truth`, which focuses on the type and basis of a date. `submission-state` changes the pain to **whether a sent project is being mistaken for accepted, contracted, published, or rights-transferred work**. The hook changes to “Submitted is not accepted.” The visual metaphor changes from typed dates to `PROJECT / RECIPIENT / SUBMISSION DATE / REVIEW STATE / RESPONSE DATE / RIGHTS STATUS / CONTRACT STATUS / PUBLICATION STATUS / SOURCE / NOTES`. The proof surface changes from a deadline-context surface to a current submission-context surface. The emotional turn changes from clarifying a date’s obligation to separating a handoff event from an editorial, contractual, publication, or rights outcome. The final line changes to “Label the state before you call it accepted.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale manages submissions, exclusivity, contracts, design fees, legal rights, publisher acceptance, publication schedules, response-time predictions, or rights transfer without current product proof and qualified legal/editorial review. Do not use real private submission records, client or publisher names, confidential emails, contracts, event logos, screenshots, or copyrighted project materials without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[292] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
+
+[293] [Craft Yarn Council — Designer Pitfalls](https://www.craftyarncouncil.com/pitfalls.html)
+
+[294] [U.S. Copyright Office — What is Copyright?](https://www.copyright.gov/what-is-copyright/)
+
+[295] [U.S. Copyright Office — Chapter 2: Copyright Ownership and Transfer](https://www.copyright.gov/title17/92chap2.html)
+
+[296] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[297] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[298] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[299] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
