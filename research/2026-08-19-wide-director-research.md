@@ -5120,3 +5120,47 @@ Do not claim that Stitch & Scale currently exposes input snapshots, deterministi
 ### Research limit
 
 These sources establish reproducibility and artifact-evidence principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes replay records, environment capture, hashes, diffs, or reproducibility controls. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-eighteenth wide-research question: a number without a unit is unfinished — 20260819-190216
+
+### Research question
+
+When a numeric knitwear measurement moves from capture to grading to chart, schematic, or export, what proves its unit, scale, reference basis, conversion state, and display label stayed attached to the number?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NIST SP 811, Chapter 7 | Page checked 2026-08-19 | A quantity value is a number multiplied by a unit; tables and axes should make the unit unambiguous. Numerical-value equations depend on the units used. | Metrology/style guidance; not a Stitch & Scale product claim. | Make the concept about unit attachment through the workflow, not generic conversion. |
+| NIST — SI Units | Page checked 2026-08-19 | SI uses defined base and derived units; values use Arabic numerals paired with unit symbols. Clear SI writing helps prevent miscommunication, misinterpretation, and calculation errors. | General measurement literacy; no product behavior evidence. | Show a value stopping when its unit and reference are absent. |
+| BIPM — SI Brochure | Page checked 2026-08-19 | The SI Brochure is the international reference for the International System of Units. | Landing page was brief; no product evidence. | Preserve unit/reference as part of the value card, not decorative metadata. |
+| W3C WCAG 2.2 — Labels or Instructions | Page checked 2026-08-19 | Inputs need visible labels or instructions so users know what information and format are expected; labels identify controls and instructions reduce confusion. | Accessibility guidance; does not establish exact unit controls in the product. | Require readable visible unit and expected-format labels in any future proof capture. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Measurement capture, gauge, grading, localization, charts, schematics, exports, and human review retain separate evidence boundaries; conversion and display are not proof of the underlying measurement. | Internal contracts, not current product behavior. | Block until one value can be followed from measurement to downstream display with exact proof. |
+
+### Research synthesis
+
+A number without a unit is unfinished. The visual opportunity is a value travelling through capture, grading, chart, schematic, and export; the unlabeled value stops before downstream use. Candidate angle: `unit-state`. Hook: “A number without a unit is unfinished.” Proof surface: `VALUE / UNIT / SCALE / REFERENCE / CONVERSION / DISPLAY / ENTERED AS / USED AS`, explicitly illustrative until product proof verifies exact labels. Emotional turn: number confusion becomes measurement clarity. Final line: “Carry the unit with the number.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies unit-aware fields, unit selectors, scale/reference labels, conversion state, unit-preserving grading, chart/schematic unit display, or export behavior. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `reproducibility-state`, which asks whether a result can be rerun with the same inputs, settings, version, environment, output comparison, and reviewer/result state. `unit-state` changes the pain to **a value losing its unit, scale, or reference basis as it travels through capture and publication**. The hook changes to “A number without a unit is unfinished”; the visual metaphor changes from a replay lane to a value card acquiring a unit/reference lock; the proof surface changes from rerun evidence to value/unit/scale/reference/conversion/display/entered/used fields; the emotional turn changes from replay confidence to measurement clarity; and the final line changes to “Carry the unit with the number.”
+
+It is distinct from `quantity-basis`, `conversion-trace`, `measurement-provenance`, `locale-number-format`, `rounding-rule`, `gauge-reality`, `measure-point`, and `schematic-scale` because those concepts respectively concern quantity meaning, conversion steps, measurement origin, numeric display conventions, precision changes, gauge observation, measurement location, and drawing scale. `unit-state` focuses on unit, scale, and reference attachment travelling with a value across capture, grading, chart, schematic, and export. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes unit-aware fields, unit selectors, conversion controls, unit-preserving grading, localization correctness, or unit-labeled chart/schematic/export surfaces. Do not use `VALUE`, `UNIT`, `SCALE`, `REFERENCE`, `CONVERSION`, `DISPLAY`, `ENTERED AS`, or `USED AS` as current product UI. Do not claim conversion correctness, calculation accuracy, fit, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[674] [NIST SP 811 — Rules and Style Conventions for Expressing Values of Quantities](https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-7-rules-and-style-conventions-expressing-values)
+[675] [NIST — SI Units](https://www.nist.gov/pml/owm/metric-si/si-units)
+[676] [BIPM — SI Brochure](https://www.bipm.org/en/publications/si-brochure)
+[677] [W3C — Understanding Success Criterion 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html)
+[678] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish measurement and labeling principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes unit-aware fields, conversion controls, unit-preserving grading, or unit-labeled exports. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
