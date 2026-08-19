@@ -5778,3 +5778,47 @@ Do not claim that Stitch & Scale currently exposes finding scope, expected/actua
 ### Research limit
 
 These sources establish lifecycle, actionable error description, correction suggestion, and accessible context principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes finding scope, expected/actual fields, evidence attachment, context/environment, owner, next-action controls, reproduction context, correction suggestions, or accessible finding descriptions. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-thirty-third wide-research question: aligned is not reconciled — 20260819-204700
+
+### Research question
+
+When two records, outputs, or views appear to agree, what proves they were actually compared and that discrepancies were resolved rather than hidden by matching labels?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| NIST — Data Integrity: Identifying and Protecting Assets Against Ransomware and Other Destructive Events | 2026-08-19 | NIST describes corruption, modification, and destruction as integrity threats and highlights asset knowledge, integrity checking mechanisms, audit logs, secure storage, and maintenance as possible protections. | Cybersecurity/data-integrity guidance; not a Stitch & Scale reconciliation workflow or product claim. | Frame agreement as a documented comparison and discrepancy decision, not matching labels. |
+| NIST — Data Integrity SP 1800-25 and SP 1800-26 announcement | 2026-08-19 | NIST emphasizes thorough detection and response to loss of data integrity and the need to know the assets being protected. | General guidance; not evidence of current product behavior. | Require a known comparison point and record of difference handling. |
+| W3C PROV-DM | 2026-08-19 | Provenance describes entities, activities, and agents involved in producing or delivering data; it supports trust judgments, derivation, responsibility, temporal links, and provenance constraints. | Provenance model; not a current Stitch & Scale data shape. | Treat the compared records and comparison activity as distinct evidence. |
+| W3C PROV-O | 2026-08-19 | PROV-O supports interoperable provenance descriptions across contexts, including entity/activity/agent responsibility, derivation, generation, usage, and provenance chains. | Ontology reference; not product capability evidence. | Name who compared, when, and what decision followed. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Two populated records need explicit comparison basis, discrepancy handling, ownership, and human review; technical, print, chart, schematic, and test-knit gates remain separate. | Internal contracts, not current product behavior. | Block until two records are captured through comparison and status. |
+
+### Research synthesis and decision shift
+
+Aligned is not reconciled. Candidate angle: `reconciliation-state`. Hook: “Aligned is not reconciled.” Fictional proof surface: `LEFT / RIGHT / COMPARED AT / DIFFERENCE / DECISION / OWNER / FOLLOW-UP / STATUS`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: two record cards enter a comparison lane; differences surface, receive a decision and owner, then leave with a dated status. Emotional turn: duplicate-record anxiety becomes explicit agreement or bounded discrepancy. Final line: “Name how the records agree.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies side-by-side comparison, discrepancy detection, compare-at timestamp, resolution decision, owner, follow-up, or reconciliation status. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `comparison-basis`, which asks whether a comparison has a valid basis. `reconciliation-state` changes the pain to **the actual comparison, discrepancy decision, responsibility, and follow-up between two populated records or outputs**. It changes the hook to “Aligned is not reconciled”; the visual metaphor from choosing a comparable basis to two records entering a comparison lane where differences surface and receive a decision; the proof surface from subject/units/time/version/source/metric/difference/decision to left/right/compared-at/difference/decision/owner/follow-up/status; the emotional turn from invalid-comparison risk to explicit agreement or bounded discrepancy; and the final line to “Name how the records agree.”
+
+It is distinct from `comparison-basis`, `authority-state`, `absence-state`, `dependency-state`, `provenance-chain`, `override-state`, and `actionability-state` because it focuses on reconciling two populated records or outputs, not whether a comparison is valid, which source controls, what a blank means, which outputs are stale, where a fact came from, why an exception was applied, or whether one finding is actionable. It does not reopen or consume imported reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes side-by-side comparison, discrepancy detection, compare-at timestamp, resolution decision, owner, follow-up, reconciliation status, audit comparison, or integrity outcomes. Do not use `LEFT`, `RIGHT`, `COMPARED AT`, `DIFFERENCE`, `DECISION`, `OWNER`, `FOLLOW-UP`, or `STATUS` as current product UI. Do not claim agreement, reconciliation, discrepancy resolution, audit, integrity, completion, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[754] [NIST — Data Integrity: Identifying and Protecting Assets Against Ransomware and Other Destructive Events](https://www.nist.gov/publications/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other)
+[755] [NIST — Data Integrity SP 1800-25 and SP 1800-26](https://csrc.nist.gov/news/2020/data-integrity-sp-1800-25-and-sp-1800-26)
+[756] [W3C — PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/)
+[757] [W3C — PROV-O: The PROV Ontology](https://www.w3.org/TR/prov-o/)
+[758] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish integrity, comparison, provenance, responsibility, derivation, and discrepancy concepts, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes side-by-side comparison, discrepancy detection, compare-at timestamp, resolution decision, owner, follow-up, reconciliation status, audit comparison, or integrity outcomes. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
