@@ -4046,3 +4046,63 @@ Do not claim that Stitch & Scale is accessible, WCAG-conformant, universally usa
 ### Research limit
 
 WCAG criteria establish scoped requirements and testing concepts but do not establish a Stitch & Scale product feature or universal accessibility. The ACM source was available as a search result but not used for detailed claims beyond its high-level topic. Platform behavior may vary by account, region, format, and future UI. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact accessibility-state surface and its tested conditions.
+
+## Ninety-eighth wide-research question: valid is not applicable — 2026-08-19
+
+### Research question
+When a measurement, review, or recommendation has valid evidence, what proves that it applies to the intended use, subject, garment, size, locale, publication surface, or audience? How can a record make applicability explicit without claiming Stitch & Scale validates intended use or replaces human review?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NIST CSRC validation glossary | Current page checked 2026-08-19 | NIST defines validation as confirmation through objective evidence that requirements for a **specific intended use or application** have been fulfilled, and describes validation as determining acceptability according to predefined tests and results. | General validation terminology, not a Stitch & Scale feature, product-quality proof, or knitwear outcome. | Make intended use and application explicit fields; do not let valid evidence silently travel to a different use. |
+| Craft Yarn Council, Standard Body Measurements/Sizing | Current page checked 2026-08-19 | Knitwear sizing uses actual body measurements, finished-garment measurements, schematics, and ease. Fit/length charts are guidelines; individual changes may alter project appearance; finished sizing information should be reviewed before beginning. | Guidance is not a fit guarantee and does not prove a product’s calculation or recommendation behavior. | Separate subject, body measurement, finished measurement, ease, size, garment, and intended fit; do not call a sizing reference universally applicable. |
+| NIST Technical Note 1297 and prior NIST uncertainty research | Current pages checked 2026-08-19 | Measurement results require method, conditions, inputs, and uncertainty context; interpretation depends on the measurement model and purpose. | Measurement science does not define the app surface or human knitwear gates. | Applicability is separate from numerical validity and uncertainty; record method, scope, and intended use. |
+| W3C WCAG 2.2 Reflow, Focus Visible, Target Size, and Captions | Current pages checked 2026-08-19 | Accessibility checks are scoped to criteria, content sections, input modes, viewport/zoom, pointer targets, and synchronized media. | WCAG criteria do not prove product conformance or universal usability. | Use scope and intended surface fields; one valid accessibility check cannot be presented as applicable everywhere. |
+| Instagram accessibility guidance | Current page checked 2026-08-19 | Instagram documents captions and alternative-text features for particular media surfaces and user contexts. | Account, region, and future platform behavior can vary. | Platform caption/accessibility evidence is scoped to its derivative and does not validate product or pattern applicability. |
+| TikTok safe-zone specifications | Current page checked 2026-08-19 | Overlay/cropping risk depends on format and caption length; current preview is recommended. | Guidance is from a paid/add-on context and is not a universal organic rule. | Platform applicability requires derivative, account, format, caption, and preview context. |
+| YouTube caption guidance | Current page checked 2026-08-19 | Captions can be uploaded, manually entered, auto-synced, or translated; automatic captions are default-language only. | Tool and upload behavior may change. | Record language, caption method, and derivative scope; do not treat one caption result as universal. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | The contracts distinguish calculation, record, estimate, technical editing, physical print review, chart readability, schematic scale, test knitting, device/viewport, print, locale, and business context. | Internal operating contracts, not independent product validation. | The record needs intended use, subject, artifact/surface, scope, evidence, result, limit, and status before any action implication. |
+
+### Research synthesis
+
+A result can be valid for one intended use and still be irrelevant or unsafe to apply to another. NIST’s definition makes intended use part of validation, while Craft Yarn Council guidance shows why knitwear records must separate the person/body measurement, finished garment, ease, size, and project pattern. The same boundary applies to accessibility and platform evidence: a check on one surface, mode, derivative, or viewport is not transferable by default.
+
+The fresh visual opportunity is a fictional card that opens with `VALID RESULT`, then reveals that `INTENDED USE` and `SCOPE` are blank. The card pauses at `VALID — APPLICATION UNCONFIRMED` until subject, artifact, size, method, conditions, intended use, evidence, limit, and status are named. The card is labelled `ILLUSTRATIVE — NOT PRODUCT UI`. The dramatic engine is not “the app knows where a result applies”; it is the correction from valid evidence to bounded applicability. Final line: “Name the intended use before you apply the result.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying an applicability-scope record, intended-use field, scope-bound result, or validation surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 98 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic “context matters” message into **a record that separates a valid result from its intended use and application scope**. The fresh concept is `applicability-scope`: a fictional `VALID RESULT` narrows to `VALID — APPLICATION UNCONFIRMED` until subject, artifact, size, method, conditions, intended use, evidence, limit, and status are visible. No product validation or applicability inference is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `assumption-register`, which focuses on an input or model assumption being mistaken for an observed fact. `applicability-scope` changes the pain to **valid evidence being applied outside the use, subject, artifact, or conditions it supports**. It changes the hook to “Valid is not applicable”; the visual metaphor from observed/assumed/derived layers to a valid result surrounded by an incomplete intended-use boundary; the proof surface to intended use, subject, artifact, size, method, conditions, scope, evidence, result, limit, and status; the emotional turn from exposing hidden inputs to preventing a correct result from being misapplied; and the final line to “Name the intended use before you apply the result.”
+
+It is distinct from `comparison-basis` because it is not comparing two records; from `uncertainty-context` because it is not uncertainty around a number; from `assumption-register` because the central issue is applicability transfer, not hidden inputs; from `acceptance-criteria` because it is not pass/fail semantics; from `decision-reversal` because it is not rollback; from `accessibility-state` because it is not the scope of an accessibility claim; from `fit-intent` because it is not a fit preference; from `context-lock` because it records evidence applicability rather than a general project context; from `focus-path` because it is not interaction reachability; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale validates intended use, transfers evidence safely, recommends a size, guarantees fit, proves applicability, or replaces technical editing, physical print review, chart readability, schematic scale, or test knitting. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party reports without rights/privacy clearance. A fictional result must not use realistic product labels or values that could be mistaken for current UI. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[474] [NIST CSRC — Validation Glossary](https://csrc.nist.gov/glossary/term/validation)
+[475] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+[476] [NIST — Technical Note 1297](https://www.nist.gov/pml/nist-technical-note-1297)
+[477] [W3C — Understanding Reflow (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html)
+[478] [W3C — Understanding Focus Visible (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html)
+[479] [W3C — Understanding Target Size (Minimum) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html)
+[480] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[481] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[482] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[483] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[484] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NIST’s validation definition and CYC sizing guidance establish boundaries around intended use and fit context but do not establish a Stitch & Scale feature or a garment outcome. WCAG and platform guidance remain scoped to their respective surfaces and conditions. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact applicability-scope surface and labels.
