@@ -1478,3 +1478,45 @@ Do not claim Stitch & Scale manages test calls, deadlines, milestones, rewards, 
 [132] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [133] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Forty-seventh wide-research question: where does the reviewed pattern stop? — 2026-08-19
+
+### Research question
+How can a knitwear designer distinguish supported customization points from personal alterations so a maker knows what remains reviewed—without claiming Stitch & Scale validates modifications or preserves grading after edits?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers considering size, length, yarn, or construction changes after a pattern has been reviewed. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “FAQs” | 2026-08-19; current page checked | CYC says the Standard Yarn Weight System should not be treated as an interchangeability chart; even yarns in the same category may require a gauge swatch, and hand/softness/drapability also matter. | Craft-industry guidance, not a universal substitution rule and not Stitch & Scale proof. | A modification concept should separate a suggested starting point from a validated result and keep substitution/gauge review human. |
+| Craft Yarn Council, “Standard Body Measurements/Sizing” | 2026-08-19; current page checked | CYC says fit and length charts are guidelines, individual body and sleeve length changes may be made when appropriate, and certain sizing changes may alter the garment’s appearance. | Craft-industry guidance, not proof of modification support or preserved grading. | A designer should name which alterations are considered, which are personal, and what may change visually; do not imply automatic revalidation. |
+| Knitwear QA and publishing contracts | 2026-08-19; internal contracts | Human technical editing, physical print review, chart readability, schematic scale, and test knitting remain distinct evidence gates; changing an input does not silently certify the resulting artifact. | Internal design contracts, not current UI proof. | Select `mod-boundary`: make the boundary between supported guidance and personal modification visible. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for customization notes, supported alteration points, post-edit warnings, modified-pattern states, recheck prompts, or recalculation after edits. All 47 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from general fit flexibility into **the boundary between reviewed pattern state and personal modification**. The fresh concept is `mod-boundary`: a fictional pattern card separates `SUPPORTED CHANGE / PERSONAL MOD / RECHECK / NOT REVIEWED`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product modification validation or recalculation is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `fit-intent`, which focuses on the meaning of body, finished garment, ease, and fit measurements. `mod-boundary` changes the pain to **what remains reviewed after a maker changes an input, construction choice, or dimension**. The hook changes to “A modification is a new question, not a free pass.” The visual metaphor changes from body/garment/ease cards to `SUPPORTED CHANGE / PERSONAL MOD / RECHECK / NOT REVIEWED`. The proof surface changes from sizing/fit guidance to a current customization note, supported alteration point, post-edit warning, modified-pattern state, recheck prompt, or human-review boundary. The emotional turn changes from choosing with context to creative agency with honest review boundaries. The final line changes to “Name what changed before you trust what remains.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale validates modifications, preserves grading after edits, recalculates a changed pattern, or knows which changes are safe without current proof. Do not claim any personal modification will fit or preserve the design. Do not use real pattern files, customer modifications, photos, or private messages without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[134] [Craft Yarn Council — FAQs](https://www.craftyarncouncil.com/standards/faqs)
+
+[135] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+
+[136] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[137] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)

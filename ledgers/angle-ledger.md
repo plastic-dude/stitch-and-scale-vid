@@ -489,3 +489,13 @@ The nearest prior angle is `size-boundary`, which focuses on what supported size
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `brief-before-knit`, which focuses on whether the designer’s intention and expectations are clear before work begins. `work-scope` changes the pain to the boundary of requested labor: what is required, what is optional, what is due, what is rewarded, and what to do if the scope no longer fits. It changes the hook to “Before you ask for a test, name the work,” the visual metaphor from a design-brief card to `REQUIRED / OPTIONAL / MATERIALS / DEADLINE / REWARD OR TERMS / PAUSE OR ASK`, the proof surface from brief/intention language to a test-call scope, task list, materials/techniques, deadline/milestone, terms, or pause/decline surface, the emotional turn from understanding design intent to consent through clarity, and the final line to “Make the ask clear enough to accept—or decline.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — mod boundary — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `mod-boundary` | A changed input or construction choice can be mistaken for reviewed pattern behavior | “A modification is a new question, not a free pass.” | One current, approved customization note, supported alteration point, post-edit warning, modified-pattern state, recheck prompt, or human-review boundary with exact labels | Creative agency with honest review boundaries rather than modification validation or grading certainty | “Name what changed before you trust what remains.” | blocked; product proof, pattern/customer-modification rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `fit-intent`, which focuses on the meaning of body, finished garment, ease, and fit measurements. `mod-boundary` changes the pain to what remains reviewed after a maker changes an input, construction choice, or dimension. It changes the hook to “A modification is a new question, not a free pass,” the visual metaphor from body/garment/ease cards to `SUPPORTED CHANGE / PERSONAL MOD / RECHECK / NOT REVIEWED`, the proof surface from sizing/fit guidance to a customization, supported-alteration, post-edit-warning, modified-pattern, recheck, or human-review surface, the emotional turn from choosing with context to creative agency with honest review boundaries, and the final line to “Name what changed before you trust what remains.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
