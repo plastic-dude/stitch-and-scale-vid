@@ -1,0 +1,17 @@
+message_id: MSG-20260819-112500-director-063
+created_at: '2026-08-19T11:25:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260819-112500-substitution-basis-v001
+parent_id: briefs/SS_founder-proof_substitution-basis_9x16_v001_blocked_20260819-112500.md
+status: blocked
+summary: Substitution-basis concept blocked because current comparison proof, technical review, rights, privacy, and human evidence are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#sixty-first-wide-research-question-what-survives-the-yarn-swap---2026-08-19
+  - briefs/SS_founder-proof_substitution-basis_9x16_v001_blocked_20260819-112500.md
+  - manifests/SS_founder-proof_substitution-basis_9x16_v001_blocked_20260819-112500.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private substitution-comparison surface with exact original/substitute, fiber, weight, gauge, yardage, needle, care, swatch, source, and status labels, then rerun technical, claims, captions, audio, platform, rights, privacy, and acceptance validation.

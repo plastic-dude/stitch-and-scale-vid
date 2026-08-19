@@ -2086,3 +2086,48 @@ Do not claim Stitch & Scale provides wash instructions, blocking recommendations
 [195] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [196] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## Sixty-first wide-research question: what survives the yarn swap? — 2026-08-19
+
+### Research question
+When a maker replaces the listed yarn, what evidence must remain comparable—fiber, yarn weight, gauge, yardage, needle size, and care—without claiming Stitch & Scale provides substitution recommendations, compatibility scoring, or outcome prediction?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers comparing a listed yarn with a possible substitute before committing to a swatch or project. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Standard Yarn Weight System” | 2026-08-19; current page checked | CYC presents yarn-weight categories with commonly used knit-gauge and needle-size ranges, and explicitly says these are guidelines and makers should follow the gauge stated in the pattern. | Category and recommended ranges do not prove a substitute will behave the same or produce the same fabric. | Keep weight category, gauge, needle size, and pattern-specific gauge separate; do not score compatibility from category alone. |
+| Lion Brand, “How to Substitute Yarn Correctly Every Time” | 2026-08-19; page dated 2026-07-07 | Manufacturer guidance says substitution depends on weight category, gauge, fiber behavior, total yardage, recommended needle size, and swatch/blocking evidence; it notes gauge swatching is the deciding check for borderline yarns. | Manufacturer guidance is product-adjacent advice, not a universal rule or Stitch & Scale proof; numerical examples are not reused. | Show `ORIGINAL / SUBSTITUTE / FIBER / WEIGHT / GAUGE / YARDAGE / NEEDLE / CARE / SWATCH` and end at review, not “compatible.” |
+| Stitch & Scale pattern-QA and craft-business-records contracts | 2026-08-19; contracts re-read | Gauge, sizing, test knitting, technical editing, recorded/estimated values, and source notes are separate evidence surfaces; no automatic substitution recommendation is established. | Internal contracts; no current product-proof registry entry. | Block substitution recommendation, compatibility score, outcome prediction, and automatic recalculation claims pending exact product proof and human review. |
+| Stitch & Scale publishing/export and mobile-maker contracts | 2026-08-19; contracts re-read | Dense technical tables need readable close shots; labels, units, locale, and warnings need device/print review. | Internal quality contract; no proof that every substitution surface passes. | Use original abstract cards and require mobile, print, caption, rights, and technical-review gates. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for yarn substitution comparison, compatibility scoring, fiber behavior, yardage comparison, care comparison, swatch status, or automatic recalculation. All 61 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “substitution advice” into **whether the substitute has been compared across the right material and technical fields before the maker commits**. The fresh concept is `substitution-basis`: a fictional card places `ORIGINAL / SUBSTITUTE / FIBER / WEIGHT / GAUGE / YARDAGE / NEEDLE / CARE / SWATCH` beside source/date and a non-automatic review state. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no compatibility, fit, drape, stretch, size, or outcome claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `care-path`, which focuses on evidence supporting washing or blocking. `substitution-basis` changes the pain to **whether a yarn swap has been compared across material and technical fields before commitment**. The hook changes to “Same weight is not the same yarn.” The visual metaphor changes from care evidence to `ORIGINAL / SUBSTITUTE / FIBER / WEIGHT / GAUGE / YARDAGE / NEEDLE / CARE / SWATCH`. The proof surface changes from a care/evidence surface to a substitution comparison with source/date and explicit review state. The emotional turn changes from pausing before care to replacing “similar” with a checklist. The final line changes to “Compare the evidence before you change the yarn.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale recommends substitutes, scores compatibility, predicts drape/stretch/fit/size, recalculates pattern counts automatically, or confirms a substitute is safe without current proof and qualified technical review. Do not use Lion Brand examples as product behavior or universal advice. Do not use real customer yarn labels, private projects, or pattern instructions without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[197] [Craft Yarn Council — Standard Yarn Weight System](https://www.craftyarncouncil.com/standards/yarn-weight-system)
+
+[198] [Lion Brand — How to Substitute Yarn Correctly Every Time](https://www.lionbrand.com/community/blog/how-to-substitute-yarn-weight-correctly-every-time/)
+
+[199] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[200] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[201] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)

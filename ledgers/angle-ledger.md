@@ -629,3 +629,13 @@ The nearest prior angle is `paper-proof`, which focuses on whether a printed pag
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `prerequisite-state`, which focuses on what must be true before a workflow step. `care-path` changes the pain to which source and evidence support a washing or blocking decision, and whether yarn-label guidance is being mistaken for finished-garment proof. It changes the hook to “The yarn label is not the finished garment,” the visual metaphor from readiness state to `YARN LABEL / FINISHED PIECE / METHOD / WARNING / EVIDENCE`, the proof surface from a prerequisite card to a care/evidence surface with source, date, method, warning, and test status, the emotional turn from step readiness to pausing before irreversible care without a universal method, and the final line to “Name the evidence before you wash the work.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — substitution basis — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `substitution-basis` | A maker cannot tell whether a yarn swap has been compared across the right material and technical fields before commitment | “Same weight is not the same yarn.” | One current, approved substitution-comparison surface with original/substitute, fiber, weight, gauge, yardage, needle, care, swatch, source, and status labels | Replacing “similar” with a checklist | “Compare the evidence before you change the yarn.” | blocked; product proof, technical review, rights/privacy, export/print review, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `care-path`, which focuses on evidence supporting washing or blocking. `substitution-basis` changes the pain to whether a yarn swap has been compared across material and technical fields before commitment. It changes the hook to “Same weight is not the same yarn,” the visual metaphor from care evidence to `ORIGINAL / SUBSTITUTE / FIBER / WEIGHT / GAUGE / YARDAGE / NEEDLE / CARE / SWATCH`, the proof surface from a care/evidence surface to a substitution comparison with source/date and explicit review state, the emotional turn from pausing before care to replacing “similar” with a checklist, and the final line to “Compare the evidence before you change the yarn.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
