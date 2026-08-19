@@ -2178,3 +2178,47 @@ Do not claim Stitch & Scale operates a marketplace, provides buyer guidance, gua
 [206] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
 
 [207] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+## Sixty-third wide-research question: what does the needle number leave out? — 2026-08-19
+
+### Research question
+When a pattern names a needle size, what must a maker still distinguish—needle type, length, cable, number of needles, technique, and notions—without claiming Stitch & Scale provides tool recommendations, automatic compatibility, or complete materials metadata?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers preparing tools for a pattern or swatch. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Hooks & Needles” | 2026-08-19; current page checked | CYC notes that number/letter sizing varies by company, recommends relying on package millimeter sizing, and says to complete a gauge swatch against the pattern gauge. | Size conversion does not specify needle type, length, cable, needle count, notions, or project-specific requirements. | Separate millimeter size, local size label, type, length/cable, gauge, and notions; do not infer a complete materials list from one number. |
+| Tin Can Knits, “Understanding the Sizing and Materials Section of a Knitting Pattern” | 2026-08-19; article dated 2020-10-08 | The materials section can include finished measurements/body fit, yarn amount/weight, gauge, suggested needle sizes/types/lengths, and notions; suggested needle size is a suggestion and the maker uses what achieves the design gauge. | Educational maker guidance, not a universal standard or Stitch & Scale product proof. | Show `SIZE / YARN / GAUGE / NEEDLE SIZE / NEEDLE TYPE / LENGTH / NOTIONS` and distinguish suggestion from verified requirement. |
+| Stitch & Scale pattern-QA, publishing/export, and mobile-maker contracts | 2026-08-19; contracts re-read | Gauge, sizing, tools, notions, technical editing, chart/print review, long text, units, and warnings remain separate evidence surfaces; no automatic tool recommendation is established. | Internal contracts; no current product-proof registry entry for complete tool metadata. | Block tool recommendation, automatic compatibility, gauge guarantee, and complete materials claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for tool/materials metadata, needle type/length/cable, notions, tool recommendations, compatibility, or complete materials lists. All 63 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “needle size” into **whether a numeric size is being mistaken for a complete tool requirement**. The fresh concept is `tool-context`: a fictional card places `SIZE / TYPE / LENGTH / CABLE / NUMBER / TECHNIQUE / NOTIONS / GAUGE` beside source/date and `SUGGESTED / REQUIRED / VERIFIED` status. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no tool recommendation, compatibility, gauge guarantee, or complete materials claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `before-download`, which focuses on broad factual context before a pattern download. `tool-context` changes the pain to **whether a needle number is being mistaken for a complete tool requirement during preparation**. The hook changes to “A needle number is not a materials list.” The visual metaphor changes from a pre-download context panel to `SIZE / TYPE / LENGTH / CABLE / NUMBER / TECHNIQUE / NOTIONS / GAUGE`. The proof surface changes from broad context metadata to a current tools/materials surface with `SUGGESTED / REQUIRED / VERIFIED` status. The emotional turn changes from fair pre-download disclosure to tool clarity before the first stitch. The final line changes to “Name the tool before you start the stitch.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale recommends tools, confirms compatibility, guarantees gauge, supplies complete materials metadata, or converts a needle number into a verified requirement without current product proof and qualified technical review. Do not use real customer pattern instructions, private materials lists, screenshots, or branded needle imagery without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[208] [Craft Yarn Council — Hooks & Needles](https://www.craftyarncouncil.com/standards/hooks-and-needles)
+
+[209] [Tin Can Knits — Understanding the Sizing and Materials Section of a Knitting Pattern](https://blog.tincanknits.com/2020/10/08/understanding-the-sizing-and-materials-section-of-a-knitting-pattern/)
+
+[210] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[211] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[212] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

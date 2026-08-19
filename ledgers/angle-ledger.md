@@ -649,3 +649,13 @@ The nearest prior angle is `care-path`, which focuses on evidence supporting was
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `work-scope`, which focuses on the scope of the designer’s ask inside a workflow. `before-download` changes the pain to whether a maker can decide before purchase or download using factual context. It changes the hook to “Before the download, show the work,” the visual metaphor from an internal scope card to `BEFORE YOU START / LEVEL / MEASUREMENTS / GAUGE / MATERIALS / TECHNIQUES / FORMAT / LANGUAGE`, the proof surface from an internal request boundary to a current pre-download context panel with source/date and status, the emotional turn from defining the task to giving the reader a fair factual pause, and the final line to “Let the maker decide with the facts.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — tool context — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `tool-context` | A maker mistakes a numeric needle size for a complete tool requirement and cannot see type, length, cable, number, technique, notions, gauge, or status | “A needle number is not a materials list.” | One current, approved tools/materials surface with size, type, length/cable, number, technique, notions, gauge, source, date, and suggested/required/verified labels | Tool clarity before the first stitch without a compatibility promise | “Name the tool before you start the stitch.” | blocked; product proof, technical review, rights/privacy, complete metadata, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `before-download`, which focuses on broad factual context before a pattern download. `tool-context` changes the pain to whether a needle number is being mistaken for a complete tool requirement during preparation. It changes the hook to “A needle number is not a materials list,” the visual metaphor from a pre-download context panel to `SIZE / TYPE / LENGTH / CABLE / NUMBER / TECHNIQUE / NOTIONS / GAUGE`, the proof surface from broad context metadata to a current tools/materials surface with `SUGGESTED / REQUIRED / VERIFIED` status, the emotional turn from fair pre-download disclosure to tool clarity before the first stitch, and the final line to “Name the tool before you start the stitch.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
