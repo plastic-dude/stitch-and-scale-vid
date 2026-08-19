@@ -29,7 +29,7 @@ Regenerating that pair would violate the sequential catch-up cursor, the no-dupl
 | Captions-on review | NOT APPLICABLE | No MP4 existed |
 | Checksum | NOT APPLICABLE | No MP4 existed |
 | Google Drive upload | NOT ATTEMPTED | No authorized MP4 existed; no storage failure occurred |
-| Git record | PENDING | This blocked record is being committed in the current run |
+| Git record | PASS | Records committed and pushed in `2cb6318bef796cf020846e7eb51728c53cb009a7` |
 
 ## Fresh research implications
 

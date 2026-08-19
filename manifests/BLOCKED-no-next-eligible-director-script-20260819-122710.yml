@@ -62,7 +62,7 @@ records:
   research_note: research/2026-08-19-blocked-no-next-director-script-122710.md
   qa_report: reviews/BLOCKED-no-next-eligible-director-script-20260819-122710/generator-check.md
   communication_event: comms/outbox/2026-08-19T122710-video-generator-blocked.yml
-  git_commit: PENDING_FIRST_RECORD_COMMIT
+  git_commit: 2cb6318bef796cf020846e7eb51728c53cb009a7
 next_action: >-
   On the next firing, refresh the repository and select the earliest newly added eligible Director
   brief/script or the first open REMAKE_REQUIRED order; do not regenerate DIR-001.
