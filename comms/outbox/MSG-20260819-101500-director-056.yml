@@ -1,0 +1,17 @@
+message_id: MSG-20260819-101500-director-056
+created_at: '2026-08-19T10:15:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260819-101500-direction-cue-v001
+parent_id: briefs/SS_founder-proof_direction-cue_9x16_v001_blocked_20260819-101500.md
+status: blocked
+summary: Direction-cue concept blocked because current chart-direction proof, chart rights, and traversal-review evidence are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#fifty-fourth-wide-research-question-which-way-does-this-row-travel---2026-08-19
+  - briefs/SS_founder-proof_direction-cue_9x16_v001_blocked_20260819-101500.md
+  - manifests/SS_founder-proof_direction-cue_9x16_v001_blocked_20260819-101500.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private row arrow, right-side/wrong-side indicator, round-direction cue, highlighted current row, chart-key direction note, or direction-aware chart control proof surface with product version/date and exact labels, then rerun claims, captions, audio, platform, rights, privacy, and acceptance validation.

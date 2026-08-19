@@ -1777,3 +1777,47 @@ Do not claim Stitch & Scale performs contrast analysis, non-color validation, ac
 [162] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [163] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## Fifty-fourth wide-research question: which way does this row travel? — 2026-08-19
+
+### Research question
+When a knitting chart changes reading direction by row, round, right side, or wrong side, how can a maker see the traversal direction before misreading a symbol sequence—without claiming Stitch & Scale provides row arrows or direction-aware chart controls?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers reading charts or pattern instructions on screens and print. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “How to Read a Knitting Pattern” | 2026-08-19; current page checked | CYC explains row/round terms and stitch construction such as stockinette alternating knit and purl rows; its chart-symbol guidance notes that symbols can vary and that the relevant pattern key should be consulted. | Craft-industry guidance, not a universal chart-direction convention and not Stitch & Scale proof. | A fresh concept should expose row/round, right-side/wrong-side, and traversal cues rather than assuming direction from a number or arrow. |
+| GOV.UK Design System, “Step by step navigation” | 2026-08-19; current page checked | GOV.UK describes journeys in logical steps, says steps should be ordered according to user needs, and requires essential context or conditions before users act. It also distinguishes `and`/`or` relationships and says step numbers should be available to screen-reader users. | Public-service navigation guidance, not knitting-chart guidance and not Stitch & Scale proof. | Use `direction-cue`: make `ROW / SIDE / READ / TURN / KEY` explicit before a symbol sequence is followed. |
+| Stitch & Scale publishing/export and pattern-QA contracts | 2026-08-19; internal contracts | Chart readability, print/mobile review, localization, and human technical checks remain distinct; no direction-aware chart controller is established. | Internal operating contract, not current UI proof. | Treat the concept as a human-readable chart-direction boundary and block claims about row tracking, arrows, or automatic traversal. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for row arrows, right-side/wrong-side indicators, round-direction cues, highlighted current rows, chart-key direction notes, or direction-aware chart controls. All 54 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic chart sequence into **which way to read this row or round and what side of the work the symbol represents**. The fresh concept is `direction-cue`: a fictional chart card separates `ROW / SIDE / READ / TURN / KEY`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no row arrows, highlighted-row state, right-side/wrong-side detection, round-direction controls, automatic traversal, or direction-aware chart navigation is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `sequence-map`, which focuses on where a maker moves through pattern sections and related documents. `direction-cue` changes the pain to **which way this row or round should be read and what side of the work the symbol represents**. The hook changes to “The chart did not change. Your reading direction did.” The visual metaphor changes from a route/sequence map to `ROW / SIDE / READ / TURN / KEY`. The proof surface changes from navigation/sequence mapping to a row arrow, right-side/wrong-side indicator, round-direction cue, highlighted current row, chart-key direction note, or direction-aware chart control. The emotional turn changes from knowing where to go next to orientation before action rather than automatic row tracking. The final line changes to “Show the direction before the symbol.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale provides row arrows, highlighted current rows, right-side/wrong-side detection, round-direction controls, automatic traversal, or direction-aware chart navigation without current proof. Do not claim a row-direction convention is universal beyond the cited source. Do not use real charts, pattern pages, screenshots, or customer projects without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[164] [Craft Yarn Council — How to Read a Knitting Pattern](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern)
+
+[165] [Craft Yarn Council — Knit Chart Symbols](https://www.craftyarncouncil.com/standards/knit-chart-symbols)
+
+[166] [GOV.UK Design System — Step by step navigation](https://design-system.service.gov.uk/patterns/step-by-step-navigation/)
+
+[167] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[168] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)

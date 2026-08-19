@@ -559,3 +559,13 @@ The nearest prior angle is `sequence-map`, which focuses on where a maker moves 
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `chart-parity`, which focuses on whether chart and written instructions agree. `contrast-proof` changes the pain to whether a distinction remains perceivable when color, print, screen, resize, or viewing condition changes. It changes the hook to “If color disappears, does the stitch still exist?”, the visual metaphor from chart-versus-text comparison to `COLOR / SHAPE / LINE / KEY / GRAYSCALE`, the proof surface from parity evidence to a contrast, non-color, symbol/line-style, grayscale/print, accessible-export, or chart-readability-review surface, the emotional turn from semantic agreement to visual meaning surviving a changed viewing condition, and the final line to “Make the distinction survive the color.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — direction cue — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `direction-cue` | A maker can misread a symbol sequence when row, side, reading direction, turn, or chart-key context is hidden | “The chart did not change. Your reading direction did.” | One current, approved row arrow, right-side/wrong-side indicator, round-direction cue, highlighted current row, chart-key direction note, or direction-aware chart control with exact labels | Orientation before action rather than automatic row tracking or traversal certainty | “Show the direction before the symbol.” | blocked; product proof, chart/pattern rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `sequence-map`, which focuses on where a maker moves through pattern sections and related documents. `direction-cue` changes the pain to which way this row or round should be read and what side of the work the symbol represents. It changes the hook to “The chart did not change. Your reading direction did,” the visual metaphor from a route/sequence map to `ROW / SIDE / READ / TURN / KEY`, the proof surface from navigation/sequence mapping to a row arrow, side indicator, round cue, highlighted-row, direction-key, or direction-aware chart surface, the emotional turn from knowing where to go next to orientation before action, and the final line to “Show the direction before the symbol.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
