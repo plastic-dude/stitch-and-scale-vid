@@ -6264,3 +6264,39 @@ Do not claim that Stitch & Scale currently exposes deprecation status, effective
 [795] [W3C — Version Management in W3C Technical Reports](https://www.w3.org/guide/editor/versioning.html)
 [796] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
 [797] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-forty-sixth wide-research question: kept is not retrievable — 20260819-213940
+
+### Research question
+
+When a craft record is kept for future reference, what proves it is intentionally archived, discoverable, interpretable, integrity-checked, and retrievable rather than merely stored somewhere?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| U.S. National Archives, *About the Digital Preservation Program* | 2026-08-19 | NARA frames digital preservation as preserving content while maintaining access and continued usability, retaining essential authenticity, accuracy, and functionality. It lists recorded fixities, tracked actions, descriptive/structural/preservation metadata, manifests/logs, validation checks, audits, monitoring, and restoration tests. | NARA program guidance; not a Stitch & Scale archive or product proof, and not a universal craft-record preservation guarantee. | Treat archival state as a combination of deliberate archive status, access path, metadata, integrity check, change history, format, search/retrieval, restore check, review, and decision—not mere retention. |
+| W3C, *Data on the Web Best Practices* — data preservation section | 2026-08-19 | W3C separates metadata, provenance, quality, versioning, identifiers, formats, access, and preservation. It emphasizes information for data consumers and complete origin/change information; preservation is distinct from merely publishing a file. | 2017 Recommendation; web-data guidance, not a current product archive, retrieval, or integrity contract. | Make the audience pain about future findability and interpretability of a craft record, distinct from retention duration, backup recovery, transfer, or deprecation. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Calculation, records, exports, rights, mobile capture, review, charts, schematics, and test knitting have separate evidence boundaries; archival proof cannot replace any of them. | Internal workflow contracts, not current product proof. | Keep `archival-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Kept is not retrievable. Candidate angle: `archival-state`. Hook: “Kept is not retrievable.” Fictional proof surface: `ITEM / ARCHIVE STATUS / ACCESS PATH / METADATA / FIXITY / CHANGE LOG / FORMAT / SEARCHABLE / RESTORE CHECK / REVIEWED / DECISION`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: a record moves from active workbench into an archive drawer; the drawer remains closed until path, metadata, fixity, change log, format, search, restore check, review, and decision are named. Emotional turn: “We kept the file” becomes “We can find and understand it later.” Final line: “Name what the archive can return.”
+
+The candidate is distinct from `retention-state` (how long data should be kept or disposed), `backup-state` (copy/recovery identity and restore testing), `resume-state` (interruption return state), `portability-state` (semantic preservation during transfer), `deprecation-state` (no-longer-recommended status), `withdrawal-state` (removal from availability), `provenance-chain` (origin lineage), `commit-state` (save acknowledgement), and `reproducibility-state` (rerun consistency). It focuses on deliberate archival discoverability, interpretation, integrity, retrieval, and review—not retention duration, backup recovery, interruption return, transfer, lifecycle discouragement, withdrawal, origin, save acknowledgement, or rerun consistency.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 145; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies archive status, access path, metadata, fixity, change log, format, searchability, restore/retrieval check, review, decision semantics, or exact product labels. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one craft record placed into an archive with exact access path, metadata, integrity/fixity check, change log, format, search/retrieval, restore check, and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes archive status, access path, metadata, fixity, change log, format, searchability, restore/retrieval checks, review, decision semantics, or exact archival labels. Do not use `ITEM`, `ARCHIVE STATUS`, `ACCESS PATH`, `METADATA`, `FIXITY`, `CHANGE LOG`, `FORMAT`, `SEARCHABLE`, `RESTORE CHECK`, `REVIEWED`, or `DECISION` as current product UI. Do not claim that retention, backup, portability, or archival status replaces calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[798] [U.S. National Archives — About the Digital Preservation Program](https://www.archives.gov/preservation/digital-preservation/about)
+[799] [W3C — Data on the Web Best Practices](https://www.w3.org/TR/dwbp/#data-preservation)
+[800] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
