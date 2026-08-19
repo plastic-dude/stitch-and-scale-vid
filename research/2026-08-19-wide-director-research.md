@@ -3075,3 +3075,61 @@ Do not claim Stitch & Scale automatically traces precedents or dependents, recal
 [333] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [334] [Stitch & Scale — Mobile maker, craft records, pattern QA, and publishing/export contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Eighty-first wide-research question: paid is not the whole story — 2026-08-19
+
+### Research question
+For an independent knitwear designer tracking commissions, wholesale, or project work, how can a record distinguish quoted, agreed, invoiced, deposit received, partially paid, pending, paid, refunded, disputed, failed, and written-off money without implying that Stitch & Scale processes payments or provides accounting advice?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers tracking a project, commission, wholesale order, or publisher/manufacturer engagement on phone, tablet, or desktop. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No payment processing, invoice sending, tax, reconciliation, profitability, settlement, adoption, or customer-outcome claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Stripe Documentation, “Payment status updates” | 2026-08-19; current page checked | Stripe distinguishes a summarized Dashboard payment status from detailed PaymentIntent status. It documents incomplete, pending/processing, uncaptured, succeeded, canceled, and next-action states; it says a succeeded PaymentIntent completes the payment flow, while later refunds and disputes are reflected on the Charge and can change what appears in the Dashboard. | Stripe’s API lifecycle is not a Stitch & Scale data model, not a payment connector, and not tax/accounting advice. | Separate a payment event from its status and preserve later outcomes rather than treating “sent” or “succeeded” as the whole money record. |
+| Stripe Documentation, “Refund and cancel payments” | 2026-08-19; current page checked | Stripe distinguishes canceling an incomplete payment from refunding a succeeded payment; refunds may be pending or fail, and a pending refund can interact with a customer dispute. | Processor-specific behavior does not establish product behavior or accounting treatment. | Preserve `REFUND REQUESTED`, `REFUND PENDING`, `REFUND FAILED`, and `DISPUTED` as distinct history states rather than overwriting a prior payment event. |
+| Craft Yarn Council, “Congratulations! You’ve Received the Go Ahead” | 2026-08-19; current page checked | CYC says fees are generally negotiated when a design concept is accepted; an invoice should accompany the completed project and commonly includes invoice number, project identity, description, and a signed design agreement/contract. | CYC guidance does not define a universal contract, tax treatment, settlement event, or Stitch & Scale behavior. A submitted idea, accepted concept, invoice, or completed project is not automatically paid. | Keep `AGREED`, `INVOICED`, `DUE`, `DEPOSIT RECEIVED`, `PARTIALLY PAID`, and `PAID` separate from project or submission state. |
+| Craft-business-records contract | 2026-08-19; re-read | Local-first craft records distinguish a recorded transaction from a calculated estimate or designer assumption, require date, amount/quantity, currency/unit, counterparty/location, source note, stable ID, and separate operational commitments from sales rollups. | Internal guidance; no product-proof registry entry for payment-state records. | Require event, status, amount, currency, counterparty, source, date, stable ID, and history; no auto-reconciliation or money movement. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove product behavior or accessibility. | Plan 9:16 at 1080×1920, leave payment-state cards clear of overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-19; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep the organic-first master under one minute, center the state card, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish campaign audio clearance or product claims. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove caption accuracy or semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+| Stitch & Scale pattern-QA, publishing/export, mobile-maker, and craft-business-records contracts | 2026-08-19; contracts re-read | Internal contracts require recorded versus estimated/planned separation, explicit source/date, local-first records, safe deletion/recovery, export headers, stable IDs, mobile feedback, and separate technical edit, print, chart, schematic, and test-knit evidence. | Internal contracts; no current product-proof registry entry for payment records or payment connectors. | Block product-specific invoice, payment, refund, dispute, write-off, or reconciliation claims pending exact proof. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying payment-state labels, invoice workflow, deposits, refunds, disputes, failed payments, write-offs, reconciliation, or payment processing. No payments connector is authorized. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 81 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “money received” into **the lifecycle of a money event after an agreement or invoice exists**. The fresh concept is `payment-state`: an original record card places `PROJECT / COUNTERPARTY / INVOICE OR ORDER / AMOUNT / CURRENCY / EVENT / STATUS / DUE DATE / PAID DATE / REFUND OR DISPUTE / SOURCE / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no payment-processing or accounting claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `submission-state`, which distinguishes a sent project from acceptance, contract, publication, or rights transfer. `payment-state` changes the pain to **confusing an agreement, invoice, due amount, successful payment, refund, dispute, or promise as one settled money fact**. The hook changes to “Paid is not the whole story.” The visual metaphor changes from project lifecycle states to a money-event timeline: `AGREED → INVOICED → DUE → DEPOSIT RECEIVED → PARTIALLY PAID → PAID → REFUNDED / DISPUTED / FAILED / WRITTEN OFF`. The proof surface changes from submission context to payment-context fields with project, counterparty, amount, currency, event, status, due/paid dates, refund/dispute, source, and notes. The emotional turn changes from separating editorial/rights outcomes to preserving a truthful money history without claiming settlement or tax treatment. The final line changes to “Name the payment state before you count the money.”
+
+This is distinct from `price-basis` (what a price is for), `honest-price` (hidden work and fees in a price), `decision-ledger` (recorded versus derived values before decisions), `work-scope` (what tester labor requires), `availability-status` (supply truth), `submission-state` (editorial/contract/publication state), `value-state` (blank/zero/invalid/derived/planned field semantics), `quantity-basis` (requirement/plan/actual quantity basis), and `first-record` (what a blank workspace means). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale processes payments, sends invoices, collects deposits, reconciles accounts, receives payment webhooks, confirms settlement, handles refunds or disputes, determines tax treatment, calculates profitability, or provides accounting/legal advice without current proof and appropriate review. Do not present `AGREED`, `INVOICED`, `DUE`, `PAID`, `REFUNDED`, `DISPUTED`, `FAILED`, or `WRITTEN OFF` as interchangeable. Do not use real customer/payment data, bank details, tax IDs, signed contracts, invoices, processor screenshots, or third-party branding without scoped permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[335] [Stripe Documentation — Payment status updates](https://docs.stripe.com/payments/payment-intents/verifying-status)
+
+[336] [Stripe Documentation — Refund and cancel payments](https://docs.stripe.com/refunds)
+
+[337] [Craft Yarn Council — Congratulations! You’ve Received the Go Ahead](https://www.craftyarncouncil.com/industry.html)
+
+[338] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[339] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[340] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[341] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[342] [Stitch & Scale — Craft business records, pattern QA, publishing/export, and mobile-maker contracts](file:///home/ubuntu/skills/craft-business-records/SKILL.md)

@@ -1,0 +1,54 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-180000-payment-state-v001
+angle_slug: payment-state
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_payment-state_9x16_v001_blocked_20260819-180000.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+payment_context_surface_status: missing
+invoice_state_status: missing
+due_state_status: missing
+deposit_state_status: missing
+partial_payment_state_status: missing
+paid_state_status: missing
+refund_state_status: missing
+dispute_state_status: missing
+failed_payment_state_status: missing
+writeoff_state_status: missing
+source_of_truth_status: missing
+product_version: null
+proof_capture_approved: false
+payment_processing_status: unverified
+settlement_status: unverified
+reconciliation_status: unverified
+tax_accounting_status: unverified
+technical_editorial_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no payment processing, invoice sending, reconciliation, webhook, settlement, refund/dispute handling, tax, accounting, or profitability claim
+  - Stripe documentation is processor context, not product behavior or connector authorization
+  - Craft Yarn Council guidance is context, not a universal contract, payment term, or legal rule
+  - invoice, due, paid, refund, dispute, failed, and write-off states cannot be collapsed
+  - fictional payment-state cards are not product UI, payment records, invoices, bank details, or accounting evidence
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private payment-context proof package with exact project/counterparty/invoice-or-order/amount/currency/event/status/due-date/paid-date/refund-or-dispute/source/notes labels and a documented source-of-truth boundary, then rerun product/data, rights/privacy, claims, caption, audio, platform, and Director gates.
