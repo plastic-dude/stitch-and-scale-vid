@@ -6446,3 +6446,39 @@ Do not claim that Stitch & Scale currently exposes result, evidence, uncertainty
 [811] [NIST — Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty)
 [812] [Craft Yarn Council — YDKWYDK: Gauge and why it’s important](https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important)
 [813] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-fifty-first wide-research question: ordered is not sequenced — 20260819-215932
+
+### Research question
+
+Does a craft workflow show that steps occurred in the correct order, with prerequisites and review points, rather than merely showing a list of completed-looking actions?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| W3C, *PROV-O: The PROV Ontology* | 2026-08-19 | PROV-O represents provenance through classes and properties for entities, activities, usage, generation, derivation, agents, and context; usage and generation can express provenance chains and relationships across systems. | Domain-agnostic provenance ontology; not a Stitch & Scale sequencing engine or product proof. | Treat step position, prerequisite, input/output, review gate, allowed-next transition, blocked-by state, and recorded order as explicit evidence before describing sequence. |
+| Craft Yarn Council, *YDKWYDK: How to write your own pattern* | 2026-08-19 | CYC pattern-writing guidance presents outline/design work, standards and best practices for terminology/sizing/charts, and technical editing as distinct workflow steps; it describes technical editing as a second technical set of eyes before public release. | Craft guidance; not a current Stitch & Scale workflow, prerequisite system, or release-state proof. | Show that ordering and review matter in craft publication without claiming current product enforcement or automation. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Calculation, records, grading, export, print, charts, schematics, test knits, rights, mobile capture, and human review have separate evidence boundaries; sequence communication cannot replace them. | Internal workflow contracts, not current product proof. | Keep `sequence-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Ordered is not sequenced. Candidate angle: `sequence-state`. Hook: “Ordered is not sequenced.” Fictional proof surface: `STEP / POSITION / PREREQUISITE / INPUT / OUTPUT / REVIEW GATE / NEXT ALLOWED / BLOCKED BY / RECORDED`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: a list of green steps is rearranged into a dependency-aware path; one step stays blocked until its prerequisite and review gate are named. Emotional turn: “Everything is checked” becomes “The order still matters.” Final line: “Name what had to happen first.”
+
+The candidate is distinct from `dependency-state` (downstream staleness after an upstream change), `selection-state` (whether a chosen variant was applied downstream), `priority-state` (why work is ranked), `reproducibility-state` (whether a run can be replayed), `audit-state` (whether a defined audit examined scope), and `actionability-state` (whether a finding can drive action). It focuses on ordering, prerequisites, allowed-next transitions, and sequence-specific review—not downstream impact, selected context, urgency ranking, replay, audit procedure, or actionability.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 150; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies step position, prerequisites, inputs, outputs, review gates, allowed-next transitions, blocked-by semantics, recorded sequence, or exact product labels. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing at least three named craft workflow steps with a prerequisite, input/output, review gate, allowed-next transition, blocked-by state, and recorded order before presenting sequence behavior, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes step position, prerequisites, inputs, outputs, review gates, allowed-next transitions, blocked-by semantics, recorded order, or exact sequence labels. Do not use `STEP`, `POSITION`, `PREREQUISITE`, `INPUT`, `OUTPUT`, `REVIEW GATE`, `NEXT ALLOWED`, `BLOCKED BY`, or `RECORDED` as current product UI. Do not claim workflow automation, prerequisite enforcement, release readiness, correctness, customer outcomes, or that a list of completed-looking actions proves correct order. Do not replace calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[814] [W3C — PROV-O: The PROV Ontology](https://www.w3.org/TR/prov-o/)
+[815] [Craft Yarn Council — YDKWYDK: How to write your own pattern](https://www.craftyarncouncil.com/blog/ydkwydk-how-write-your-own-pattern)
+[816] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
