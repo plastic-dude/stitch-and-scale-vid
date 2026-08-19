@@ -839,3 +839,13 @@ The nearest prior angle is `stale-number`, which focuses on one changed input le
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `submission-state`, which distinguishes a sent project from acceptance, contract, publication, or rights transfer. `payment-state` changes the pain to confusing an agreement, invoice, due amount, successful payment, refund, dispute, or promise as one settled money fact. It changes the hook to “Paid is not the whole story,” the visual metaphor from project lifecycle states to a money-event timeline, the proof surface from submission context to payment-context fields with project/counterparty/invoice-or-order/amount/currency/event/status/due-date/paid-date/refund-or-dispute/source/notes, the emotional turn from separating editorial/rights outcomes to preserving truthful money history without settlement or tax claims, and the final line to “Name the payment state before you count the money.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — next owner — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `next-owner` | A status can say what happened while leaving the next actor, next action, recipient, or response window implicit | “A status without an owner is a waiting room.” | One current, approved handoff/next-action surface with item, current state, next action, owner/role, response window, due/as-of, recipient, source, date, and notes | Restoring agency through a bounded handoff without claiming assignment, consent, reminders, or response guarantees | “Name who acts next before you call it moving.” | blocked; product/data proof, assignment/consent, rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `submission-state`, which distinguishes a sent project from acceptance, contract, publication, or rights transfer. `next-owner` changes the pain to a status that names what happened but not who acts next. It changes the hook to “A status without an owner is a waiting room,” the visual metaphor from a submission lifecycle to a handoff card with a single next-action arrow and owner/role, recipient, response window, source, and notes, the proof surface from submission state to current next-action/owner context, the emotional turn from separating status outcomes to restoring agency through a bounded handoff without guaranteeing a response, and the final line to “Name who acts next before you call it moving.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

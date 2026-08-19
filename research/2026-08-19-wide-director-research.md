@@ -3133,3 +3133,60 @@ Do not claim Stitch & Scale processes payments, sends invoices, collects deposit
 [341] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [342] [Stitch & Scale — Craft business records, pattern QA, publishing/export, and mobile-maker contracts](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+## Eighty-second wide-research question: a status without an owner is a waiting room — 2026-08-19
+
+### Research question
+After a knitwear project, submission, tester report, or review step changes state, how can a designer name the next responsible actor, next action, time window, source, and status without claiming Stitch & Scale assigns people, guarantees response times, or manages workflow?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers tracking a submission, tester exchange, review, support question, commission, or project handoff on phone, tablet, or desktop. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No assignment, reminder, response-time, workflow-management, accessibility-conformance, or customer-outcome claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Industry Standards and Guidelines for Designers” | 2026-08-19; current page checked | CYC says designers should ask a company or magazine how ideas should be submitted; each company/magazine has its own requirements; designers should submit to one at a time; companies may confirm receipt and give an approximate response time; acceptance may lead to fee discussion and a contract. | CYC guidance does not define a universal workflow, deadline guarantee, contract, recipient role, or product feature. | Preserve recipient/contact, submission/receipt, response window, next action, owner/role, source, and notes; keep expectation separate from guarantee. |
+| W3C WAI, WCAG 2.2 Understanding SC 4.1.3 Status Messages | 2026-08-19; current page checked | W3C describes status messages as important changes in content that can be programmatically determined and presented by assistive technologies without receiving focus; examples include saved, submitted, invalid, busy, and progress messages. | Informative accessibility guidance; does not prove Stitch & Scale status semantics, assignment, reminders, or conformance. | Keep current status, next action, owner, and status message separate; do not treat a status update as proof that a human accepted or owns the next step. |
+| Atlassian, “RACI Chart: What is it & How to Use” | 2026-08-19; current page checked | Atlassian describes RACI as a responsibility-assignment matrix clarifying Responsible, Accountable, Consulted, and Informed roles; it emphasizes communication, decision-making, and accountability and distinguishes RACI from decision-making frameworks such as RAPID and DACI. | Vendor project-management guidance is not a craft standard, product proof, legal assignment, or guarantee that a named person will act. | Keep owner/role, consulted, informed, next action, and status distinct; do not imply automatic routing or accountability enforcement. |
+| Stitch & Scale mobile-maker and craft-business-records contracts | 2026-08-19; contracts re-read | Internal contracts require active project/size/unit context, visible save/error/recovery feedback, explicit operational commitments, submission deadline/outcome, tester round/coverage, sample return status, wholesale order status, invoice/payment follow-up, source/date, and stable IDs. | Internal contracts; no current product-proof registry entry for owner assignment, reminders, or workflow routing. | Use one compact next-action record that preserves handoff context without creating a second task-management product. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove product behavior or accessibility. | Plan 9:16 at 1080×1920, leave owner/status cards clear of overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-19; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep the organic-first master under one minute, center the handoff card, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish campaign audio clearance or product claims. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove caption accuracy or semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying owner/role fields, next-action assignment, contact/receipt, response windows, reminders, or workflow automation. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 82 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “status tracking” into **explicit ownership of the next action after a state change**. The fresh concept is `next-owner`: an original record card places `ITEM / CURRENT STATE / NEXT ACTION / OWNER OR ROLE / RESPONSE WINDOW / DUE OR AS-OF / RECIPIENT / SOURCE / DATE / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no assignment, reminder, response guarantee, or workflow-management claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `submission-state`, which distinguishes a sent project from acceptance, contract, publication, or rights transfer. `next-owner` changes the pain to **a status that names what happened but not who acts next**. The hook changes to “A status without an owner is a waiting room.” The visual metaphor changes from a submission lifecycle to a handoff card with a single next-action arrow and explicit owner/role, recipient, response window, source, and notes. The proof surface changes from submission state to current next-action/owner context. The emotional turn changes from separating status outcomes to restoring agency through a bounded handoff without guaranteeing a response. The final line changes to “Name who acts next before you call it moving.”
+
+This is distinct from `feedback-loop` (what happens after feedback is routed), `work-scope` (what tester labor requires), `support-boundary` (what help is or is not provided), `permission-line` (who may act or access), `reader-handoff` (what a reader needs), `artifact-status` (which copy/state someone holds), `event-window` (time window as an event), `deadline-truth` (what a date means), `change-notice` (what changed), `payment-state` (money-event lifecycle), and `submission-state` (editorial/contract/publication state). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale assigns people, routes work, sends reminders, guarantees response times, manages submissions, manages support, or enforces accountability without current product proof and appropriate review. Do not present a role label as proof that the person agreed to act. Do not present a response window as a deadline guarantee. Do not use real personal contact details, private tester or customer data, support tickets, publisher/manufacturer names, or third-party screenshots without scoped permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[343] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
+
+[344] [W3C WAI — Understanding SC 4.1.3 Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)
+
+[345] [Atlassian — RACI Chart: What is it & How to Use](https://www.atlassian.com/work-management/project-management/raci-chart)
+
+[346] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[347] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[348] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[349] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[350] [Stitch & Scale — Mobile maker and craft business records contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
