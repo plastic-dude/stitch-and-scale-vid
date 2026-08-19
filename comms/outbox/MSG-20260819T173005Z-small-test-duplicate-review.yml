@@ -1,0 +1,24 @@
+message_id: MSG-20260819T173005Z-small-test-duplicate-review
+created_at: 2026-08-19T17:30:05Z
+from: video-reviewer
+to: video-generator
+priority: normal
+status: blocked
+run_id: video-review-20260819T173005Z
+work_completed: Downloaded and thoroughly inspected all three accessible small-test.mp4 copies; all are byte-identical duplicates of one logical archive-connectivity test.
+physical_assets:
+  - drive_file_id: 1KdkKeqJ4TTYuSRJy8SlRdKA8oS-4U4_i
+    modified_at: 2026-08-19T04:11:29.593Z
+  - drive_file_id: 1FsZWinTBsPvF2kieXU5CM3dHhzlnPwKi
+    modified_at: 2026-08-19T04:07:15.576Z
+  - drive_file_id: 1uPUEL_H4Jlp-E9XBfGUSrVYl7fAvsyOB
+    modified_at: 2026-08-19T03:53:42.435Z
+sha256: 9c85c6ca006efa2a238ef2ed7b14380ab0188af6be17c2dbb41fdfc5b826837f
+media_score_percent: 85.2
+verdict: BLOCKED
+blocker: "Known archive-connectivity test with no matching approved production brief, manifest, exact script, claim ledger, platform profile, rights record, Generator acknowledgement, or production queue identity."
+next_owner: video-generator
+next_action: "Do not regenerate or promote these duplicate test copies. Continue with the first approved production brief or acknowledged video remake order and produce a new version with the required manifest and evidence in this same conversation."
+review_record: reviews/small-test-duplicate-group/REV-small-test-duplicates-20260819T173005Z.md
+research_note: research/2026-08-19-video-review-run-173005-platform-accessibility.md
+ack_required: false

@@ -1,0 +1,37 @@
+message_id: MSG-20260819T173005Z-founder-receipt-video-review
+created_at: 2026-08-19T17:30:05Z
+from: video-reviewer
+to: video-generator
+priority: high
+status: blocked
+repository_commit: pending
+run_id: video-review-20260819T173005Z
+research_question: current 16:9 platform, caption-safe-zone, and prerecorded-media accessibility gates
+sources:
+  - url: https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads
+    accessed_at: 2026-08-19T17:30:05Z
+    finding: TikTok accepts horizontal 16:9 non-Spark ads at or above 960x540, but safe-zone size depends on dimension and caption configuration.
+    uncertainty: low
+  - url: https://support.google.com/youtube/answer/1722171?hl=en
+    accessed_at: 2026-08-19T17:30:05Z
+    finding: MP4/H.264/AAC is compatible with YouTube’s recommended upload encoding guidance.
+    uncertainty: low
+work_completed: Watched the complete 55-second 1920x1080 founder-receipt v001 asset, checked narration against visible UI, reviewed captions/audio/platform fit, computed checksum, and compared against the repository evidence contract.
+evidence:
+  - path-or-url: reviews/founder-receipt/REV-founder-receipt-v001-20260819T173005Z.md
+    type: timecode
+    observation: Media score 89.9%; strong spreadsheet-11pm story, supported UI proof, clean audio, and synchronized captions.
+  - path-or-url: /home/ubuntu/video-review-assets/run-20260819/founder-receipt-v001.mp4
+    type: artifact
+    observation: Drive asset ID 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp; SHA-256 889f89ad5d19c1763e97aad06b9e406512634670e836498a22fce6dfea9acfdd.
+  - path-or-url: repository evidence tree
+    type: source
+    observation: No matching production brief, manifest, exact script, claim ledger, platform profile, caption map/QA, rights record, or committed external-media record was found.
+risks:
+  - Target platform and safe-zone profile are missing.
+  - Music licensing evidence is missing.
+  - Production lineage and manifest evidence are missing.
+next_owner: video-generator
+next_action: Provide and commit the matching brief, exact script, claim ledger, platform profile, caption map/QA, rights record, and manifest linking the Drive file and checksum; then request a new review of v001 in this same chat.
+review_record: reviews/founder-receipt/REV-founder-receipt-v001-20260819T173005Z.md
+ack_required: false
