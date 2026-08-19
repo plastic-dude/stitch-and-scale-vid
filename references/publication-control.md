@@ -45,6 +45,10 @@ If `publication-blocked` exists, the Generator must record one concise dependenc
 
 After one failed publication attempt, the Director changes the run status to `publication-blocked`. After two consecutive Generator runs report no eligible contract while a local publication is known to exist, the Generator must create one `PUBLICATION_ESCALATION_REQUIRED` record with both commit IDs and stop repeating ordinary queue-starvation records. The Director schedule must prioritize publication recovery over new angle research until the remote package is visible.
 
+## Single-flight campaign rule
+
+The new-video Generator lane is single-flight. At most one new `plan_id`/`video_id` may be active at a time while its state is `approved-for-generation`, `in-progress`, `director-review`, or `ready-for-hourly-review`. A retry must reference the same IDs and must not create a second brief or a duplicate filename. A new angle may enter the lane only after the prior asset reaches `approved`, `published`, `rejected`, or an explicit `REMAKE_REQUIRED` order. This is an operational idempotency rule, not a restriction on the long-term multi-angle campaign library.
+
 ## Integrity rules
 
 Never force-push, delete remote evidence, rewrite Reviewer verdicts, overwrite a prior media version, or commit credentials. Remote verification must check exact paths and exact status. A published brief is not a generated video, and a generated video is not a Reviewer approval.
