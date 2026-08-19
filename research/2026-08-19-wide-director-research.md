@@ -6156,3 +6156,39 @@ Do not claim that Stitch & Scale currently exposes sensitivity analysis, input p
 [786] [NIST — Technical Note 1297: Appendix A. Law of Propagation of Uncertainty](https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-law-propagation-uncertainty)
 [787] [Craft Yarn Council — YDKWYDK: Gauge and why it’s important](https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important)
 [788] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-forty-third wide-research question: exported is not portable — 20260819-212846
+
+### Research question
+
+When a craft record is exported or handed to another tool, what proves the receiving person can still interpret its measurements, units, relationships, version, and review context rather than receiving only a visually similar file?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| W3C, *Data on the Web Best Practices* | 2026-08-19 | W3C says metadata helps human users and computer applications understand data and descriptive aspects. It treats metadata, provenance, data quality, versioning, identifiers, formats, access, preservation, and republication as separate best-practice areas. | 2017 Recommendation; web-data guidance, not a Stitch & Scale export contract or proof of current portability. | Separate “the file opened” from preservation of metadata, units, relationships, version, provenance, receiver interpretation, and decision. |
+| Craft Yarn Council, *Schematics* | 2026-08-19 | CYC describes a schematic as a visual rendering with relevant measurements, an overview of size and shape, a fit reference, and a template for modifying a piece; it recommends reviewing the schematic and comparing it with a well-fitting garment. | Craft guidance; not export interoperability or universal-fit proof. | Make the audience pain semantic survival across a handoff, not merely visual preview or disclosure. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Calculation, exports, records, charts, schematics, mobile capture, rights, and human review have separate evidence boundaries; an opened file does not prove meaning survived. | Internal workflow contracts, not current product proof. | Keep `portability-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Exported is not portable. Candidate angle: `portability-state`. Hook: “Exported is not portable.” Fictional proof surface: `SOURCE RECORD / FORMAT / METADATA / UNITS / RELATIONSHIPS / VERSION / PROVENANCE / RECEIVER CHECK / DECISION`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: one record crosses an export bridge; units and context fall away as loose tags unless a receiving check restores them. Emotional turn: “The file opened” becomes “The meaning survived the move.” Final line: “Name what survived the export.”
+
+The candidate is distinct from `disclosure-state` (whether visible data is safe or intended to be shared), `preview-state` (whether a visual preview survived the rendered/exported/printed target), `identity-state` (which entity a copied/exported record became), `context-state` (what a value belongs to), `schema-state` (record structure), `version-lock` (which version is current), `provenance-chain` (where a fact came from), and `locale-state` (localized meaning). It focuses on semantic preservation across a transfer, including format, metadata, units, relationships, version, provenance, receiver check, and decision—not permission to share, visual render fidelity, entity identity, semantic attachment alone, structure, currentness, origin, or language localization.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 142; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies export formats, metadata retention, unit preservation, relationship preservation, version/provenance carry-over, receiving-tool interpretation, receiver check, or portability decision semantics. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one record exported into a receiving context with exact fields, units, relationships, version/provenance metadata, receiver interpretation, and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes portable exports, metadata retention, unit preservation, relationship preservation, version/provenance carry-over, receiver checks, or interoperability. Do not use `SOURCE RECORD`, `FORMAT`, `METADATA`, `UNITS`, `RELATIONSHIPS`, `VERSION`, `PROVENANCE`, `RECEIVER CHECK`, or `DECISION` as current product UI. Do not claim that an opened file preserves meaning or that portability replaces calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[789] [W3C — Data on the Web Best Practices](https://www.w3.org/TR/dwbp/)
+[790] [Craft Yarn Council — Schematics](https://www.craftyarncouncil.com/standards/schematics)
+[791] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)

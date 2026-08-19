@@ -1532,3 +1532,13 @@ The nearest prior angle is `schema-state`, which asks whether a stored record ha
 ### Distinctness note — 20260819-212520
 
 The nearest prior angle is `tolerance-state`, which asks whether a value lies within a prescribed range. `sensitivity-state` changes the pain to how an output responds when an input changes. It changes the hook to “Stable is not insensitive”; the visual metaphor from a value entering a tolerance band to one input slider moving a small amount while two output cards diverge; the proof surface from measure/target/lower/upper/status/accepted/exception/reviewed to input/perturbation/output-delta/sensitivity/range/threshold/reviewed/decision; the emotional turn from within-range comfort to downstream-change awareness; and the final line to “Name what moved when the input moved.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+## Wide-research Director decision — portability state — 20260819-212846
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `portability-state` | An exported craft record may lose meaning, units, relationships, version, provenance, or review context when moved | “Exported is not portable.” | Fictional source-record/format/metadata/units/relationships/version/provenance/receiver-check/decision card | From “The file opened” to “The meaning survived the move” | “Name what survived the export.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-212846
+
+The nearest prior angle is `disclosure-state`, which asks whether visible data is safe or intended to be shared. `portability-state` changes the pain to whether meaning survives movement into a receiving tool or handoff. It changes the hook to “Exported is not portable”; the visual metaphor from a visible record approaching a share gate to one record crossing an export bridge while units and context fall away unless checked; the proof surface from audience/purpose/fields-shown/fields-redacted/recipient/channel/expiry/reviewed to source-record/format/metadata/units/relationships/version/provenance/receiver-check/decision; the emotional turn from disclosure boundary anxiety to semantic-survival anxiety; and the final line to “Name what survived the export.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
