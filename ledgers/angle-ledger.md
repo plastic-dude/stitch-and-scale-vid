@@ -179,3 +179,13 @@ The nearest prior angle is `recovery-proof`, which concerns a digital file leavi
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `sample-chain`, which concerns physical sample location, custodian, and return status. `permission-line` changes the pain to an ambiguous permission boundary when a digital draft or pattern leaves the workspace, the hook to “Sharing the pattern is not the same as giving away the right to use it,” the visual metaphor from physical custody cards to `VIEW / EDIT / SHARE / ASK FIRST`, the proof surface from a sample/handoff ledger to a share, permission, or usage-terms surface, the emotional turn from tactile custody to clear collaboration boundaries, and the final line to “Name the permission before you press send.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — equivalent meaning — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `equivalent-meaning` | Pattern meaning can be unavailable across different access modes even when a chart is visually obvious to one user | “If the chart changes, the meaning must not disappear.” | One current, approved accessible chart, description, or semantic pattern surface with exact labels | Inclusive participation through specific review rather than a compliance badge | “Keep the meaning within reach.” | blocked; product proof and disabled-maker review missing; distinct from `chart-parity`, `readability-under-load`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `chart-parity`, which concerns whether visual charts and written instructions stay semantically aligned. `equivalent-meaning` changes the pain to pattern meaning being unavailable across access modes, the hook to “If the chart changes, the meaning must not disappear,” the visual metaphor from two pattern representations to a chart tile transforming into large text, spoken description, and a keyboard-focus path, the proof surface from chart/written parity to an accessible chart/description/semantic surface, the emotional turn from parity confidence to inclusive participation through disabled-maker review, and the final line to “Keep the meaning within reach.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.

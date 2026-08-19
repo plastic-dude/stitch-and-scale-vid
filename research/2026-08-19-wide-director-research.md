@@ -416,3 +416,31 @@ The concept is **`permission-line`**. The research changed the direction from �
 ### References
 
 [36] [GOV.UK / Intellectual Property Office — KAM Guide: Intellectual property management](https://www.gov.uk/government/publications/knowledge-asset-management-kam-hub/kam-guide-intellectual-property-management)
+
+## Sixteenth wide-research question: a chart is not the only way to carry meaning — 2026-08-19
+
+### Research question
+How can a knitwear pattern carry chart meaning to makers using screen readers, large text, braille, speech, reduced vision, or other access adaptations without claiming Stitch & Scale is currently WCAG-conformant or that one alternate format serves everyone?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| W3C, Web Content Accessibility Guidelines (WCAG) 2.2 | 2026-08-19; live W3C Recommendation dated 12 Dec. 2024 | WCAG 2.2’s non-text-content criterion says non-text content needs a text alternative serving an equivalent purpose, with alternatives that can support forms such as large print, braille, speech, symbols, or simpler language. The Recommendation also contains separate guidance for captions, audio description, contrast, text resizing, reflow, keyboard access, and more. | WCAG is a technical accessibility standard, not proof of Stitch & Scale conformance. A text alternative may need context and equivalent purpose; it is not automatically a full written pattern or universal solution. | The concept should show **equivalent meaning**, not “chart versus written pattern wins.” Accessibility must be framed as an evidence and user-testing requirement, not a compliance badge. |
+| Morris et al., “Stitching together the experiences of disabled knitters,” ACM CHI 2021 | 2026-08-19; abstract extracted from the ACM page despite captcha blocking the full page | The study interviewed 16 experienced disabled knitters, analyzed 20 forum threads, and reports that accessibility concerns remain; it argues for improving tools for pattern generation and modification and for adaptations that make progress easier to track. | Full ACM page was captcha-blocked; only the extracted abstract was used. The study is not current product research and does not prove the needs of every disabled knitter or any Stitch & Scale accessibility feature. | Keep the story grounded in participation and progress, not a generic “accessible for everyone” promise. Seek disabled-maker review and exact product proof before using a product insert. |
+| Local mobile-maker workflow contract | 2026-08-19; repository source | The mobile workflow requires keyboard navigation, visible focus, large text, reduced motion, both themes, safe reflow, and no reliance on color alone or hover. It also requires a real interruption/recovery test. | Internal workflow guidance, not evidence of live conformance. | Add a dedicated accessibility proof surface and review plan; do not collapse visual, auditory, keyboard, and cognitive access into one label. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for text alternatives, accessible chart descriptions, non-visual pattern access, semantic labels, screen-reader behavior, keyboard navigation, reduced motion, or accessibility conformance. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`equivalent-meaning`**: the tension is a visually obvious chart whose meaning may not travel through another access mode. The hook is “If the chart changes, the meaning must not disappear.” The visual metaphor is one stitch-chart tile splitting into large text, spoken description, and a focused keyboard path, with a question mark rather than a compliance badge. The proof surface must be one current, approved accessible chart/description or semantic pattern surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from a generic accessibility promise to **equivalent meaning plus disabled-maker review**. The script must not claim WCAG compliance, screen-reader support, universal accessibility, or that one text alternative replaces a chart. It may say that access needs differ and that the meaning should remain available across the chosen form, then invite current product proof and review by disabled makers.
+
+### References
+
+[37] [W3C — Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
+
+[38] [ACM — Stitching together the experiences of disabled knitters](https://dl.acm.org/doi/abs/10.1145/3411764.3445521)

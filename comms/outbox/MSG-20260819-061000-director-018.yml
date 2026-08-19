@@ -1,0 +1,17 @@
+message_id: MSG-20260819-061000-director-018
+sender: director
+recipient: production
+created_at: '2026-08-19T06:10:00+01:00'
+plan_id: PLAN-20260819-061000-equivalent-meaning-v001
+angle_slug: equivalent-meaning
+status: blocked
+subject: Equivalent-meaning concept blocked pending accessibility proof and maker review
+body: >-
+  Fresh research moved the concept from a generic accessibility promise to equivalent meaning plus disabled-
+  maker review. Do not generate or upload. No current approved accessibility product surface is available,
+  and no WCAG, screen-reader, universal-accessibility, or disabled-maker outcome claim is authorized. Next
+  action: provide one current approved non-private proof surface with product version/date and exact visible
+  labels, plus a scoped disabled-maker review plan, then rerun claims, privacy, rights, captions, audio,
+  platform, and acceptance validation.
+do_not_generate: true
+do_not_upload: true
