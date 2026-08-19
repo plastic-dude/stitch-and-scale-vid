@@ -18,3 +18,14 @@ A new concept must explain which five elements differ from the nearest prior con
 ### Continuity note — 2026-08-19
 
 This angle is intentionally distinct from `test-knit-coverage`, `show-the-math`, `spreadsheet-11pm`, and `stale-number`. It moves the subject from one defect or one calculation to the broader moment when a designer must turn a beautiful object into a publishable, reviewable record. The visual engine is a room that refills after the designer believes the work is finished. The product proof is a sequence of bounded evidence surfaces, not a single grading table. The film preserves physical print review, chart and schematic readability, technical editing, and test knitting as human gates.
+
+## Imported mistaken-session decisions — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `false-completion` | A finished-looking record can conceal unresolved human evidence | “A checked box can still be an unanswered question.” | One current, readable human-gate state, only if verified | Relief through honest incompleteness | “Show me the gate, then tell us what still needs a person.” | blocked; proof missing; predecessor to `release-gate-roster` |
+| `release-gate-roster` | A release checklist can look complete while size-coverage evidence is unowned | “The checkbox says every size. The roster says who actually made it.” | One verified tester/evidence slot at a time in a current release-gate roster | Confidence becomes accountability | “Before the PDF goes out, show me who checked the size.” | blocked; proof missing; narrower successor candidate |
+
+### Conflict rule
+
+These two imported concepts are related but not interchangeable. `release-gate-roster` is the later, narrower refinement and must be preferred only if current proof verifies the roster surface. If proof verifies only a generic human-gate state, `false-completion` may be reconsidered through a new Director review; neither concept may be regenerated, renamed, or marked `approved-for-generation` from the imported outputs alone. Both reserved filenames remain occupied by blocked planning reservations.

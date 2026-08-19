@@ -49,6 +49,12 @@ If the request is underspecified, select a sensible option from the project goal
 
 David is a developer whose late mother knitted; he does not knit. Keep the founder story truthful. Do not claim invented credentials, revenue, adoption, accuracy, customer outcomes, final pricing, or product capabilities. Use the current tester-first invitation when the objective is tester recruitment, but do not force it into event, educational, brand, or other campaign types where it does not belong.
 
+## Imported mistaken-session continuity
+
+Before selecting a new angle, inspect `ledgers/2026-08-19-imported-session-continuity.md`, the canonical imported briefs, manifests, research, platform matrices, continuity ledger, and handoffs for `false-completion` and `release-gate-roster`. These are real prior planning outputs, not hypothetical prompts. Both are blocked and their reserved filenames remain occupied. Do not regenerate, overwrite, rename, or approve either concept from those artifacts alone.
+
+`release-gate-roster` is the later, narrower successor candidate to `false-completion`, but it may be preferred only when a current product-proof registry or approved capture verifies the roster surface. Generic human-gate proof does not silently authorize the roster concept. If only generic proof is supplied, reopen `false-completion` through a fresh Director review and update all claims, assets, rights, caption, audio, platform, and acceptance records.
+
 ## Stop conditions
 
 Stop without approving a brief if the objective is unclear enough to change the entire story, product proof is unavailable, a claim is unsupported, the angle duplicates prior work, platform requirements are unknown, rights are unclear, the caption/audio plan is incomplete, or an open remake order has not been acknowledged. Write one blocked reason and one next action.

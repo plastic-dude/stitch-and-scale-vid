@@ -34,3 +34,9 @@ At the next firing, pull the latest repository state, inspect `origin/main` and 
 ## Expanded playbook update
 
 The user subsequently supplied an expanded authoritative payload containing two explicit same-chat continuation clauses at the end of the playbook. The active schedule now stores both clauses, both planning-only/no-video safeguards, and the fresh-research requirement. This is intentional redundancy for schedule survivability, not a second execution path.
+
+## Actual output import
+
+The actual outputs—not only summaries—were imported from the attached sessions. Canonical copies now exist for both blocked concepts under `briefs/`, `scripts/`, `research/`, `platforms/`, `ledgers/`, `manifests/`, and `comms/outbox/`. Full source copies and provenance remain under `imported/mistaken-sessions/2026-08-19-release-gate-roster/` and `imported/mistaken-sessions/2026-08-19-false-completion-human-gates/`.
+
+The imported continuity ledger establishes precedence: `release-gate-roster` is the later, narrower successor candidate to `false-completion`, but only verified roster proof can authorize it. Generic human-gate proof may reopen `false-completion` only through a new Director review. Neither reserved filename may be reused, and neither brief may be marked `approved-for-generation` from the imported outputs alone.
