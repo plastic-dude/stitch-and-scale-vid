@@ -3412,3 +3412,60 @@ Do not claim Stitch & Scale reconciles sources, selects a source of truth, detec
 [379] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [380] [Stitch & Scale — Craft records, pattern-QA, publishing/export, and mobile-maker contracts](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+## Eighty-seventh wide-research question: sent is not acknowledged — 2026-08-19
+
+### Research question
+How can a handoff distinguish drafted, sent, delivered, opened, acknowledged, understood, and actioned states without claiming Stitch & Scale sends messages, tracks read receipts, or knows whether a recipient agreed or acted?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers sending patterns, test-knit notes, submissions, invoices, or review handoffs to another person. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and handoff-literate. The brief tier is a standard single-original-video planning package. No sending, delivery, read-receipt, acknowledgement, comprehension, consent, response, reminder, or action claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| IETF RFC 3464, “An Extensible Message Format for Delivery Status Notifications” | 2026-08-19; current standards page checked | RFC 3464 defines machine-processable delivery-status notifications that report the result of an attempt to deliver a message, including failed, delayed, successful delivery, or gatewaying. It distinguishes delivery processing from later human understanding or action and includes per-recipient action/status fields. | Email transport standard, not a general read-receipt or agreement standard, not a product capability, and not evidence that a recipient read, understood, accepted, or acted. | Keep sent-at, delivery status, opened/viewed status, acknowledged by/at, understanding/response, and action status separate; do not treat successful delivery as acknowledgement or completion. |
+| W3C WAI Forms Tutorial, “User Notification” | 2026-08-19; current page checked | W3C says users should receive clear feedback about whether a form submission was successful or errors occurred, and that success messages confirm task completion for that user/interface. | Accessibility guidance for interface feedback, not evidence that a remote recipient received, understood, acknowledged, agreed with, or acted on a handoff. | Keep sender-side submission status separate from transport delivery, opened/viewed, acknowledgement, understanding/response, and action status; never present a local success message as a recipient receipt. |
+| Craft Yarn Council, “Industry Standards and Guidelines for Designers” | 2026-08-19; current page checked | CYC emphasizes contact information, project numbers, submission paths, and project-specific exchanges with companies and magazines; a submission or “go ahead” is not a generic proof of receipt, comprehension, contract, or publication. | CYC guidance does not define read receipts, acknowledgement, comprehension, or product messaging behavior. | Record recipient and channel, but keep sent, delivered, acknowledged, and accepted separate. |
+| Stitch & Scale mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts | 2026-08-19; contracts re-read | Internal contracts preserve stable IDs, recipient/source/date, local-first records, handoff context, privacy, rights, export identity, recovery, and separate technical-editing, print, chart, schematic, and test-knit evidence. | Internal contracts; no product-proof registry entry for message delivery, acknowledgement, or action state. | Block product claims about sending, read receipts, reminders, or recipient comprehension. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-19; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove handoff status, acknowledgement, product behavior, or accessibility. | Plan 9:16 at 1080×1920, keep all state labels and CTA clear of overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-19; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep organic-first master under one minute, center the handoff state card, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-19; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish campaign audio clearance, recipient acknowledgement, or product behavior. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-19; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove handoff status or semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying sent/delivered/opened/acknowledged/understood/actioned fields, read-receipt semantics, consent, delivery channels, or notification behavior. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 87 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “send a handoff” into **separate the sender’s action, transport result, recipient disposition, explicit acknowledgement, understanding/response, and follow-up action**. The fresh concept is `ack-state`: an original record card places `ITEM / SENDER / RECIPIENT / SENT AT / DELIVERY STATUS / OPENED OR VIEWED STATUS / ACKNOWLEDGED BY / ACKNOWLEDGED AT / UNDERSTANDING OR RESPONSE / ACTION STATUS / SOURCE / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no message, read-receipt, or reminder capability is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `submission-state`, which distinguishes a submitted project from acceptance, contract, publication, or rights transfer. `ack-state` changes the pain to **a handoff being treated as received, understood, or actioned when only the sender’s transmission is known**. The hook changes to “Sent is not acknowledged.” The visual metaphor changes from an editorial lifecycle to a handoff card moving through `DRAFT → SENT → DELIVERED? → OPENED? → ACKNOWLEDGED → UNDERSTOOD/RESPONDED → ACTIONED`. The proof surface changes from project submission context to transport/disposition/response fields. The emotional turn changes from separating submission outcomes to honest uncertainty about what another person has actually received or done. The final line changes to “Name the receipt before you call it received.”
+
+This is distinct from `next-owner` because it is not the next actor or response window; from `reader-handoff` because it is not readability/context; from `before-download` because it is not pre-download context; from `submission-state` because it is not editorial/contract/publication state; from `status-message`/`focus-path` because it is not UI accessibility status; from `quote-permission` because it is not public reuse rights; and from `conflict-state` because it is not disagreement between records. It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale sends messages, delivers files, obtains read receipts, knows a recipient opened or understood a handoff, records consent, manages reminders, or knows the next action happened. A local success message is not recipient receipt. Successful transport is not comprehension, acknowledgement, agreement, or action. Do not use real private messages, email addresses, recipient names, customer/tester records, support tickets, or third-party screenshots without permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[381] [IETF RFC 3464 — An Extensible Message Format for Delivery Status Notifications](https://datatracker.ietf.org/doc/html/rfc3464)
+
+[382] [W3C WAI Forms Tutorial — User Notification](https://www.w3.org/WAI/tutorials/forms/notifications/)
+
+[383] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
+
+[384] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[385] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[386] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[387] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[388] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
