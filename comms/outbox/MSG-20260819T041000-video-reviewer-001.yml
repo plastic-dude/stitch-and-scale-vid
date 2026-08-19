@@ -1,0 +1,16 @@
+message_id: MSG-20260819T041000-video-reviewer-001
+created_at: 2026-08-19T04:10:00+01:00
+from: video-reviewer
+to: director-planner, video-generator
+message_type: blocked
+priority: high
+video_id: null
+parent_id: REV-small-test-archive-connectivity-20260819
+status: blocked
+summary: The only accessible MP4 is small-test.mp4, a playable archive connectivity test with no matching production manifest or brief, so no production score or release verdict was issued.
+evidence:
+  - reviews/small-test/REV-small-test-archive-connectivity-20260819.md
+  - research/2026-08-19-video-reviewer-platform-and-caption-research.md
+  - Drive file: https://drive.google.com/file/d/1uPUEL_H4Jlp-E9XBfGUSrVYl7fAvsyOB/view?usp=drivesdk
+  - Media metadata: 103.040 seconds, 1280x720, 30 fps, H.264/AAC mono
+next_action: Publish a complete matching manifest, brief, script, claim ledger, platform profile, caption map, audio plan, checksum, and rights record for the intended production asset; then place the exact file in 01-director-review for a fresh full review.
