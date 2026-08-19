@@ -321,3 +321,31 @@ Research changed the concept from a generic anti-AI warning to a **verification 
 [29] [The Knitting Guild Association — Recognizing AI in Knitting](https://tkga.org/recognizing-ai-in-knitting/)
 
 [30] [Federal Trade Commission — Artificial Intelligence](https://www.ftc.gov/industry/technology/artificial-intelligence)
+
+## Thirteenth wide-research question: the measurement moment — 2026-08-19
+
+### Research question
+How can a mobile-first knitwear workflow preserve the meaning of a measurement while a maker is moving between body, garment, tape, device, units, and active size, instead of reducing the task to an unlabeled numeric field?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Standard Body Measurements/Sizing” | 2026-08-19; live page | CYC distinguishes actual body measurements from finished-garment measurements, says patterns may provide detailed schematics across sizes, advises reviewing all sizing information before beginning, and describes fit/ease and length charts as guidelines that may require individual changes. | Standards guidance, not proof of Stitch & Scale’s measurement UI, grading behavior, or fit outcome. It does not authorize a claim that any app determines correct fit. | The story should focus on **measurement context**, not a magic number: active body/garment meaning, units, size, and project identity must stay attached to the value. |
+| Apple Human Interface Guidelines, “Text fields” | 2026-08-19; live developer guidance | Apple recommends appropriate keyboard types for input, number formatting for numeric data, separate labels because placeholder text disappears, logical focus order, and validation when appropriate. It also warns that numeric formatting can vary by locale. | iOS/iPadOS guidance, not a requirement for a web app and not proof of Stitch & Scale implementation. It does not define the complete accessibility or cross-platform contract. | A mobile capture shot must show the field label, unit, active size/project context, focus order, and validation state; do not show an unlabeled number or invent current UI behavior. |
+| Local mobile-maker workflow contract | 2026-08-19; repository source | Mobile makers may be standing, moving, wearing gloves, working in bright or low light, and switching between phone and desktop. The active project, size, units, validation result, unsaved state, and route back to workspace should remain visible. | Internal workflow guidance, not external product proof. | The concept becomes a **context-preserving capture** story, not a fit guarantee or a reader sizing story. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for measurement capture, units, active size, project context, measurement validation, or grading entry. The application’s known grading engine and app existence are not sufficient video proof of live UI behavior. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`measurement-moment`**: the tension is a number being captured while its meaning can detach from body versus garment, unit, size, project, or validation state. The hook is “A measurement is only useful when its meaning travels with it.” The visual metaphor is a tape measure, a phone, and a pattern card connected by visible context labels—not a floating number. The proof surface must be one current, approved measurement or grading surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from a generic mobile-input story to **context-preserving measurement capture**. The script must not claim correct fit, correct grading, automatic measurement, or accessibility compliance. It may show an illustrative value moving with labels for `BODY`, `CM`, `SIZE`, and `PROJECT`, then invite current product proof for exact visible behavior.
+
+### References
+
+[31] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+
+[32] [Apple Developer — Human Interface Guidelines: Text fields](https://developer.apple.com/design/human-interface-guidelines/text-fields)

@@ -149,3 +149,13 @@ The nearest prior angle is `offline-continuity`, which focuses on work remaining
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is the imported `false-completion` concept, which is a broader blocked human-gate story. `evidence-over-output` changes the pain to fluent or generated-looking language being mistaken for craft evidence, the hook to “A generated line can sound finished. It cannot knit the proof,” the visual metaphor from generic completion to a polished sentence stopping before five separate evidence cards, the proof surface from a generic human-gate workflow to one current product surface showing exactly what the tool does, the emotional turn from fear of false closure to calm verification literacy, and the final line to “Show me the evidence behind the sentence.” It does not reopen, overwrite, rename, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — measurement moment — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `measurement-moment` | A captured value can detach from body versus garment, unit, active size, project, or validation context during real-world mobile work | “A measurement is only useful when its meaning travels with it.” | One current, approved measurement or grading-entry surface with exact context labels | Maker control through preserved context rather than a fit or accuracy promise | “Keep the number. Keep what it means.” | blocked; product proof and privacy review missing; distinct from `reader-handoff`, `gauge-reality`, and `decision-ledger` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `reader-handoff`, which concerns a reader interpreting sizing and ease information from a completed pattern. `measurement-moment` changes the pain to context detaching during active maker capture, the hook to “A measurement is only useful when its meaning travels with it,” the visual metaphor from reader-facing sizing information to a tape, phone, and pattern card connected by `BODY / CM / SIZE / PROJECT`, the proof surface from a reader handoff to a current measurement or grading-entry surface, the emotional turn from reader confidence to maker control during capture, and the final line to “Keep the number. Keep what it means.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
