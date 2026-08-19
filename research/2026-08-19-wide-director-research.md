@@ -5735,3 +5735,46 @@ Do not claim that Stitch & Scale currently exposes closure controls, outcome/evi
 ### Research limit
 
 These sources establish lifecycle, follow-up, improvement, closure, and accessible status principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes closure controls, outcome/evidence attachment, owner, follow-up, verification, improvement linkage, reopened state, or closed-at timestamps. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-thirty-second wide-research question: noted is not actionable — 20260819-204035
+
+### Research question
+
+When a review finding is handed off, what proves it contains enough context to reproduce and act, rather than being a vague note?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| NIST Incident Response project and SP 800-61 Rev. 3 | 2026-08-19 | NIST’s current incident-response model covers Detect, Respond, and Recover, supported by broader preparation, with continuous Improvement fed by lessons learned that are analyzed and prioritized. | Cybersecurity guidance; not a Stitch & Scale workflow or product claim. | Frame a finding as a structured handoff, not a note that disappears into a queue. |
+| W3C WCAG 2.2 — Error Identification | 2026-08-19 | Automatically detected input errors identify the erroneous item and describe the error in text; simply redisplaying a failed form is insufficient. | Accessibility guidance; not product behavior evidence. | Require location/scope and a descriptive finding, not color or a generic warning alone. |
+| W3C WCAG 2.2 — Error Suggestion | 2026-08-19 | When known correction suggestions exist, provide them so users can understand how to resolve errors with less effort. | Accessibility guidance; not product behavior evidence. | Include a next action or correction suggestion only when current proof supports it. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | A finding needs enough context for a human to locate, understand, reproduce, own, and act on it; technical, print, chart, schematic, and test-knit gates remain separate. | Internal contracts, not current product behavior. | Block until one finding is captured from scope through next action. |
+
+### Research synthesis and decision shift
+
+Noted is not actionable. Candidate angle: `actionability-state`. Hook: “Noted is not actionable.” Fictional proof surface: `FINDING / SCOPE / EXPECTED / ACTUAL / EVIDENCE / CONTEXT / OWNER / NEXT ACTION`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: a vague note expands through scope, expected/actual, evidence, context, owner, and next action before entering a work queue. Emotional turn: handoff ambiguity becomes next-action clarity. Final line: “Name what makes the finding actionable.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies finding scope, expected/actual fields, evidence attachment, context/environment, owner, next-action controls, or accessible error/finding descriptions. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `response-state`, which separates a planned response from an enacted response. `actionability-state` changes the pain to **the minimum handoff data needed for an individual finding to be located and acted upon**. It changes the hook to “Noted is not actionable”; the visual metaphor from plan-versus-action to a vague note expanding through scope, expected/actual, evidence, context, owner, and next action; the proof surface from response-plan/action/status/owner/at/verification/impact to finding/scope/expected/actual/evidence/context/owner/next-action; the emotional turn from intent-to-action uncertainty to handoff clarity; and the final line to “Name what makes the finding actionable.”
+
+It is distinct from `response-state`, `reproducibility-state`, `closure-state`, `acknowledgement-state`, `assumption-register`, `provenance-chain`, and `applicability-scope` because it focuses on the minimum structured context for one finding to be located and acted upon, not whether a response was enacted, a run repeated, an item closed, a message acknowledged, an assumption observed, a source traced, or a claim applicable. It does not reopen or consume imported reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes finding scope, expected/actual fields, evidence attachment, context/environment, owner, next-action controls, reproduction context, correction suggestions, or accessible finding descriptions. Do not use `FINDING`, `SCOPE`, `EXPECTED`, `ACTUAL`, `EVIDENCE`, `CONTEXT`, `OWNER`, or `NEXT ACTION` as current product UI. Do not claim issue handoff, actionability, reproduction, correction, completion, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[749] [NIST — Incident Response project](https://csrc.nist.gov/projects/incident-response)
+[750] [NIST — SP 800-61 Rev. 3: Incident Response Recommendations and Considerations](https://csrc.nist.gov/pubs/sp/800/61/r3/final)
+[751] [W3C — Understanding Success Criterion 3.3.1: Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
+[752] [W3C — Understanding Success Criterion 3.3.3: Error Suggestion](https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html)
+[753] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish lifecycle, actionable error description, correction suggestion, and accessible context principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes finding scope, expected/actual fields, evidence attachment, context/environment, owner, next-action controls, reproduction context, correction suggestions, or accessible finding descriptions. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
