@@ -939,3 +939,13 @@ The nearest prior angle is `locale-number-format`, which focuses on how numbers 
 ### Distinctness note — 2026-08-20
 
 The nearest prior angle is `rounding-rule`, which focuses on how a number is rounded or displayed. `uncertainty-context` changes the pain to a precise-looking number being mistaken for measurement certainty because its type, method, conditions, spread, tolerance, or information basis disappear. It changes the hook to “A precise number can still be uncertain,” the visual metaphor from rounding examples to one value card surrounded by separate value-type, method, conditions, uncertainty/range, and status cards, the proof surface from display precision to uncertainty context, the emotional turn from readable numeric formatting to humility about what the number actually means, and the final line to “Name what you know before you measure what you want.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — contribution scope — 2026-08-20
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `contribution-scope` | A credit or role label can imply more, less, or different work than the person actually contributed | “A credit is not a contribution.” | One current, approved contribution surface with person/project, contribution, role, credit text/scope, consent, publication status, source/date, owner, and notes | Avoiding accidental credential, authorship, endorsement, or labor claims rather than merely displaying a credit | “Name the contribution before you name the credit.” | blocked; product/data proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 2026-08-20
+
+The nearest prior angle is `credit-line`, which focuses on whether a person or source appears in a credit line and how the credit is formatted. `contribution-scope` changes the pain to a credit or role label implying more, less, or different work than the person actually contributed. It changes the hook to “A credit is not a contribution,” the visual metaphor from a credit line beside a source to a contribution card separating person, actual contribution, role, credit text, credit scope, consent, and publication status, the proof surface from credit presence/format to contribution-boundary evidence, the emotional turn from giving credit correctly to avoiding accidental credential, authorship, endorsement, or labor claims, and the final line to “Name the contribution before you name the credit.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

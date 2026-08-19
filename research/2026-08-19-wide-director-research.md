@@ -3691,3 +3691,57 @@ Do not claim Stitch & Scale calculates uncertainty, reports confidence, validate
 [417] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [418] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Ninety-second wide-research question: a credit is not a contribution — 2026-08-20
+
+### Research question
+How can a designer separate a person’s actual contribution, role, credit, consent, and publication scope in knitwear records without inventing credentials, authorship, endorsement, or legal status?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers coordinating design, technical editing, test knitting, photography, samples, feedback, or publication credits. The form is a 45-second vertical proof-led founder short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and contribution-literate. The brief tier is a standard single-original-video planning package. No credit manager, credential verifier, consent manager, authorship decision, endorsement, or legal-status claim is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| U.S. Copyright Office, Copyright Law of the United States, Chapter 2 §201 | 2026-08-20; current page checked | The statute states that copyright initially vests in the author(s); authors of a joint work are coowners. It separately states that copyright in each contribution to a collective work is distinct from copyright in the collective work as a whole and initially vests in the contribution’s author. | Legal context is not a determination of authorship, ownership, credit, consent, or legal status for a Stitch & Scale record. | Keep contribution, role, credit, consent/usage scope, and legal-status notes separate; do not turn a credit line into an authorship or ownership claim. |
+| Craft Yarn Council, “Congratulations! You’ve Received the Go Ahead” | 2026-08-20; current page checked | CYC describes a yarn-industry context involving yarn companies, accessory manufacturers, magazines, book publishers, and consultants, and its guidance references working with an editor or design director, submitting a project, and preparing a sample or project for an accepted publication/company context. | Industry guidance does not verify any person’s credential, contribution, authorship, endorsement, consent, or Stitch & Scale record behavior. | Keep actual contribution, role, credit text/scope, consent/publication status, source/date, and owner separately; do not turn an industry role reference into a personal credential or legal claim. |
+| Stitch & Scale mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts | 2026-08-20; contracts re-read | Internal contracts preserve local-first records, contributor provenance, stable IDs, rights/privacy boundaries, export identity, and separate technical-editing, print, chart, schematic, and test-knit evidence. | Internal contracts; no product-proof registry entry for contribution/credit semantics. | Block product claims about assigning credit, verifying credentials, determining authorship, managing consent, or confirming publication. |
+| Instagram Help, Reel size & aspect ratios | 2026-08-20; current page checked | Reels accept 1.91:1 through 9:16, minimum 30 FPS, and minimum 720px; recommended cover is 420×654 and cannot currently be edited after upload. | Technical values do not prove contribution, rights, or product behavior. | Plan 9:16 at 1080×1920, keep contribution/credit cards and scope away from overlays, and make cover selection an approval gate. |
+| TikTok for Business, TikTok Auction In-Feed Ads | 2026-08-20; current page checked; updated June 2026 | Paid in-feed guidance recommends 9:16 at least 540×960, up to 10 minutes, maximum four caption lines, and safe-zone files that vary by format and caption length. | Paid guidance is not organic-posting guidance; no paid placement is assumed. | Keep organic-first master under one minute, center one contribution record family at a time, and recheck account-specific placement before any derivative. |
+| YouTube Help, Understand three-minute YouTube Shorts | 2026-08-20; current page checked | Square or vertical uploads up to three minutes after 2024-10-15 are categorized as Shorts; a Short over one minute with an active copyright claim can be blocked globally. | Does not establish contribution, credit, consent, or authorship semantics. | Keep the master under one minute and use original/cleared audio. |
+| YouTube Help, Add subtitles & captions | 2026-08-20; current page checked | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Platform tooling does not prove contribution or consent semantic completeness. | Require human-reviewed caption-on and caption-free masters. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying contribution records, role, credit text/scope, consent, publication status, ownership/authorship, endorsement, credential verification, or source/date. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused. All 92 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from generic “add credits” into **record the person’s actual contribution first, then separate role, credit text/scope, consent status, publication status, source/date, owner, and legal-status notes**. The fresh concept is `contribution-scope`: an original record card places `PERSON / PROJECT OR ARTIFACT / CONTRIBUTION / ROLE / CREDIT TEXT / CREDIT SCOPE / CONSENT STATUS / PUBLICATION STATUS / SOURCE / DATE / OWNER / NOTES`. The visual device is marked `ILLUSTRATIVE — NOT PRODUCT UI`; no authorship, credential, endorsement, or legal-status claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `credit-line`, which focuses on whether a person or source appears in a credit line and how the credit is formatted. `contribution-scope` changes the pain to **a credit or role label implying more, less, or different work than the person actually contributed**. The hook changes to “A credit is not a contribution.” The visual metaphor changes from a credit line beside a source to a contribution card that separates person, actual contribution, role, credit text, credit scope, consent, and publication status. The proof surface changes from credit presence/format to contribution-boundary evidence. The emotional turn changes from giving credit correctly to avoiding accidental credential, authorship, endorsement, or labor claims. The final line changes to “Name the contribution before you name the credit.”
+
+This is distinct from `permission-line` (who may act/access), `quote-permission` (quote reuse consent), `test-knit-coverage` (size coverage), `technical-profile` or `technique-profile` (ability/technique), `outsider-founder` (founder identity), and `credit-line` (credit display). It does not reopen, rename, overwrite, or consume any occupied reservation.
+
+### Hard boundaries
+
+Do not claim Stitch & Scale assigns credit, determines authorship, verifies credentials, confirms endorsement, manages consent, records legal status, or proves publication. A role or credit cannot prove the exact contribution, consent to publication, authorship, ownership, or expertise. Do not use private contributor records, customer/tester information, third-party pattern PDFs, editorial comments, or copyrighted credit pages without permission and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human evidence gates.
+
+### References
+
+[419] [U.S. Copyright Office — Copyright Law, Chapter 2](https://www.copyright.gov/title17/92chap2.html)
+
+[420] [Craft Yarn Council — Congratulations! You’ve Received the Go Ahead](https://www.craftyarncouncil.com/industry.html)
+
+[421] [Instagram Help — Reel size & aspect ratios on Instagram](https://help.instagram.com/1038071743007909)
+
+[422] [TikTok for Business — TikTok Auction In-Feed Ads](https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads)
+
+[423] [YouTube Help — Understand three-minute YouTube Shorts](https://support.google.com/youtube/answer/15424877?hl=en)
+
+[424] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
+
+[425] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

@@ -1,0 +1,17 @@
+message_id: MSG-20260820-040000-director-094
+created_at: '2026-08-20T04:00:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260820-040000-contribution-scope-v001
+parent_id: briefs/SS_founder-proof_contribution-scope_9x16_v001_blocked_20260820-040000.md
+status: blocked
+summary: Contribution-scope concept blocked because current person/contribution/role/credit/consent/publication proof, product/data evidence, rights, and platform validation are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#ninety-second-wide-research-question-a-credit-is-not-a-contribution---2026-08-20
+  - briefs/SS_founder-proof_contribution-scope_9x16_v001_blocked_20260820-040000.md
+  - manifests/SS_founder-proof_contribution-scope_9x16_v001_blocked_20260820-040000.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private contribution proof package with exact person/project-or-artifact/contribution/role/credit-text/credit-scope/consent-status/publication-status/source/date/owner/notes labels and evidence that credit does not imply authorship, expertise, endorsement, or legal status, then rerun product/data, rights/privacy, claims, captions, audio, platform, and Director validation.
