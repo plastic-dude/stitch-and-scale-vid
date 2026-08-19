@@ -6482,3 +6482,39 @@ Do not claim that Stitch & Scale currently exposes step position, prerequisites,
 [814] [W3C — PROV-O: The PROV Ontology](https://www.w3.org/TR/prov-o/)
 [815] [Craft Yarn Council — YDKWYDK: How to write your own pattern](https://www.craftyarncouncil.com/blog/ydkwydk-how-write-your-own-pattern)
 [816] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-fifty-second wide-research question: aligned is not consistent — 20260819-220528
+
+### Research question
+
+Does a grading, export, or craft record remain internally consistent across its fields, views, units, sizes, and derived outputs rather than merely looking individually plausible?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| W3C, *Data on the Web Best Practices* | 2026-08-19 | The recommendation treats data quality, metadata, provenance, versioning, identifiers, formats, and preservation as distinct best-practice areas. Its provenance section says origin and history help consumers judge quality and provide interpretive context, and that provenance should be available in human-readable and machine-readable forms. | Data-on-the-Web guidance; not a Stitch & Scale consistency checker or product proof. | Treat source/derived field relationships, units, sizes, views, expected relations, discrepancy visibility, review, and decision as explicit evidence before describing consistency. |
+| Craft Yarn Council, *Schematics* and official search result | 2026-08-19 | The official result identifies schematics as representing size and shape and indicating relevant measurements. Search text also states that relevant measurements are indicated on the schematic and that a schematic provides an overview of the size and shape of a piece. | The target page returned no readable page content or screenshot in the browser session; exact labels were not inferred. | Keep the treatment focused on cross-field/view/size relationships while bounding schematic statements to the verified result wording. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Calculation, records, grading, exports, print, charts, schematics, test knits, rights, mobile capture, and human review have separate evidence boundaries; consistency communication cannot replace them. | Internal workflow contracts, not current product proof. | Keep `consistency-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Aligned is not consistent. Candidate angle: `consistency-state`. Hook: “Aligned is not consistent.” Fictional proof surface: `SOURCE FIELD / DERIVED FIELD / UNIT / SIZE / VIEW / EXPECTED RELATION / DISCREPANCY / REVIEWED / DECISION`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: two individually plausible cards slide apart when their units, sizes, or derived values disagree; a discrepancy remains visible until reviewed. Emotional turn: “Each number looks fine” becomes “The record does not agree with itself.” Final line: “Name what the record must agree with.”
+
+The candidate is distinct from `reconciliation-state` (comparison of two populated records), `dependency-state` (downstream staleness after an upstream change), `schema-state` (record structure and validation), `sequence-state` (ordered prerequisites), `confidence-state` (basis and limits of confidence), `tolerance-state` (within-range status), and `context-state` (attachment of a value to a pattern/piece/size/method/date). It focuses on internal cross-field/view/unit/size relationships within one record or derived output—not external record comparison, stale dependencies, structure, order, confidence, range membership, or attachment metadata.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 151; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies source/derived field relationships, units, sizes, views, expected relations, discrepancy visibility, review, decision semantics, or exact product labels. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one craft record and at least one derived view with named units, sizes, expected relationship, visible discrepancy, review, and decision before presenting consistency behavior, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes source/derived field relationships, units, sizes, views, expected relations, discrepancy visibility, review, decision semantics, or exact consistency labels. Do not use `SOURCE FIELD`, `DERIVED FIELD`, `UNIT`, `SIZE`, `VIEW`, `EXPECTED RELATION`, `DISCREPANCY`, `REVIEWED`, or `DECISION` as current product UI. Do not claim data-quality scoring, cross-view synchronization, unit conversion, grading correctness, export correctness, customer outcomes, or that an individually plausible value proves internal consistency. Do not replace calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[817] [W3C — Data on the Web Best Practices](https://www.w3.org/TR/dwbp/)
+[818] [Craft Yarn Council — Schematics](https://www.craftyarncouncil.com/standards/schematics)
+[819] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
