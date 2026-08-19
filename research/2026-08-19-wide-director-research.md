@@ -6410,3 +6410,39 @@ Do not claim that Stitch & Scale currently exposes scenario, environment, operat
 [808] [NIST — Metrological Traceability: Frequently Asked Questions and NIST Policy](https://www.nist.gov/metrology/metrological-traceability)
 [809] [Craft Yarn Council — YDKWYDK: Gauge and why it’s important](https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important)
 [810] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-fiftieth wide-research question: confident is not quantified — 20260819-215437
+
+### Research question
+
+When a user feels confident in a craft result, what evidence, uncertainty, limits, and review support that confidence instead of a green state or assertion?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| NIST, *Measurement Uncertainty* | 2026-08-19 | NIST defines measurement uncertainty as a parameter associated with a measurement result that characterizes the dispersion of values reasonably attributable to the measurand. NIST explains it expresses incomplete knowledge and that the associated distribution represents how well one believes the measurand is known. | Measurement guidance; not a Stitch & Scale confidence state or product proof. | Separate confidence from a green status and require evidence, uncertainty/range, limits, review, basis, and decision. |
+| Craft Yarn Council, *YDKWYDK: Gauge and why it’s important* | 2026-08-19 | CYC explains gauge as stitches and rows per inch, tied to pattern-specified yarn/tools and swatch conditions; different tension can change outcomes, and a swatch may require changes before proceeding. | Craft education; not a product confidence score, uncertainty model, or current Stitch & Scale behavior. | Ground confidence communication in a bounded craft result and its conditions, not an invented score or universal guarantee. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Calculation, records, grading, exports, print, charts, schematics, test knits, rights, mobile capture, and human review have separate evidence boundaries; confidence communication cannot replace them. | Internal workflow contracts, not current product proof. | Keep `confidence-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Confident is not quantified. Candidate angle: `confidence-state`. Hook: “Confident is not quantified.” Fictional proof surface: `RESULT / EVIDENCE / UNCERTAINTY / RANGE / LIMITS / REVIEW / BASIS / CONFIDENCE / DECISION`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: a green confidence bar shrinks into a bounded card showing evidence, uncertainty, range, limits, review, basis, confidence, and decision. Emotional turn: “It looks right” becomes “I can say how much I know.” Final line: “Name what your confidence is based on.”
+
+The candidate is distinct from `uncertainty-context` (context attached to uncertain measurements), `tolerance-state` (within-range status), `fitness-state` (suitability for intended use), `attestation-state` (named attestation), `audit-state` (bounded audit procedure), `sensitivity-state` (input perturbation/downstream delta), `calibration-state` (reference chain), and `scenario-state` (cross-scenario validity). It focuses on communicating the basis and limits of confidence—not uncertainty attachment alone, range pass/fail, intended use, attester, audit procedure, perturbation, calibration, or scenario transfer.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 149; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies result, evidence, uncertainty, range, limits, review, basis, confidence, decision semantics, or exact product labels. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one craft result with named evidence, uncertainty or bounded range, limits, review, confidence basis, and decision before presenting confidence, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes result, evidence, uncertainty, range, limits, review, basis, confidence, decision semantics, or exact confidence labels. Do not use `RESULT`, `EVIDENCE`, `UNCERTAINTY`, `RANGE`, `LIMITS`, `REVIEW`, `BASIS`, `CONFIDENCE`, or `DECISION` as current product UI. Do not claim confidence scores, statistical validity, accuracy, fit, customer outcomes, or that a green state communicates uncertainty. Do not replace calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[811] [NIST — Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty)
+[812] [Craft Yarn Council — YDKWYDK: Gauge and why it’s important](https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important)
+[813] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)

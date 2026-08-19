@@ -1,0 +1,19 @@
+message_id: MSG-20260819-215437-director-152
+created_at: 2026-08-19T21:54:37+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_confidence-state_9x16_v001_blocked_20260819-215437
+parent_id: BRF-founder-proof-confidence-state-9x16-v001
+status: blocked
+summary: Confidence-state is blocked because no current approved product proof verifies result, evidence, uncertainty, range, limits, review, basis, confidence, decision, or confidence labels.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass150-browser-findings.md
+  - briefs/SS_founder-proof_confidence-state_9x16_v001_blocked_20260819-215437.md
+  - scripts/SS_founder-proof_confidence-state_9x16_v001_blocked_20260819-215437.md
+  - platforms/SS_founder-proof_confidence-state_9x16_v001_matrix_20260819-215437.md
+  - ledgers/20260819-confidence-state.md
+  - manifests/SS_founder-proof_confidence-state_9x16_v001_blocked_20260819-215437.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one craft result with named evidence, uncertainty or bounded range, limits, review, confidence basis, and decision before presenting confidence; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
