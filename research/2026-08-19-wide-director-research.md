@@ -4386,3 +4386,59 @@ Do not claim that Stitch & Scale monitors risk, calculates thresholds, triggers 
 ### Research limit
 
 NASA and NIST sources establish general trigger, threshold, risk-management, monitoring, uncertainty, and traceability concepts but do not establish a Stitch & Scale feature, alert engine, safety posture, or mitigation behavior. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact risk-trigger surface and labels.
+
+## One-hundred-fourth wide-research question: a plan is not an action — 2026-08-19
+
+### Research question
+When a response is proposed, does the record distinguish a plan from an authorized action, a started action, a completed action, and a verified result? How can the distinction be shown without claiming Stitch & Scale executes, authorizes, or verifies operational responses?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NIST Incident Response project | Current page checked 2026-08-19; project updated 2025-11-20 | NIST’s SP 800-61 Rev. 3 lifecycle distinguishes broader preparation/risk-management activities from incident response itself, shown as Detect, Respond, and Recover, with continuous improvement from lessons learned. | Cybersecurity context; no Stitch & Scale response workflow or operational capability is claimed. | Use explicit response-state transitions instead of one generic `DONE` label. |
+| NIST SP 800-61 Rev. 3 PDF | Official PDF located 2026-08-19; extraction was binary/encoded | The official NIST project page is used for textual lifecycle evidence; the PDF is retained as a source locator only. | No additional verbatim claim taken from the binary extraction. | Do not overstate the PDF’s details beyond the accessible project-page summary. |
+| NASA technical-risk guidance and NASA risk-tracking source locator | NASA page checked 2026-08-19; PDF source locator checked 2026-08-19 | NASA guidance previously reviewed describes mitigation/contingency action plans, status monitoring, implementation when triggered, and captured rationale; the additional PDF locator could not be text-validated in extraction. | NASA systems-engineering context; no Stitch & Scale execution or verification behavior. | Treat plan, authorization, start, completion, and verification as separate evidence states. |
+| NIST uncertainty/traceability guidance from prior passes | Current pages checked 2026-08-19 | A completed action or traceable source still does not prove fitness for purpose or a verified outcome without the relevant evidence and scope. | Measurement-science context; no app response-state feature. | Require `VERIFICATION EVIDENCE` and `VERIFIED BY` rather than inferring verification from completion. |
+| W3C WCAG 2.2 and current platform guidance | Current pages checked 2026-08-19 | Caption, reflow, focus, target, safe-zone, and platform checks can be planned, started, completed, or reviewed, and those states should not be conflated. | These checks do not establish operational response handling. | The video must model state distinctions while preserving caption-safe layout. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Contracts require truthful blockers, ownership, interruption/recovery, evidence, claims boundaries, rights/privacy, caption/audio review, and separate human gates. | Internal operating contracts, not independent validation. | Use `PLAN / AUTHORIZATION / STARTED AT / COMPLETED AT / VERIFIED BY / VERIFICATION EVIDENCE / STATUS`. |
+
+### Research synthesis
+
+NIST’s current incident-response model separates preparation from Detect/Respond/Recover and treats improvement as informed by lessons learned. NASA’s risk guidance distinguishes action plans, triggered implementation, monitoring, and reported results. The research supports a narrow operational distinction: a plan is not an action; an action being started is not completion; completion is not verification; and verification requires named evidence and responsibility. The visual opportunity is a fictional response card that starts with `PLAN: drafted`, then reveals blank `AUTHORIZED`, `STARTED AT`, `COMPLETED AT`, `VERIFIED BY`, and `VERIFICATION EVIDENCE` fields. It ends at `STATUS: COMPLETION UNVERIFIED`, labelled `ILLUSTRATIVE — NOT PRODUCT UI`. Final line: “Name the state before you call it done.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a response-state record, action lifecycle, authorization state, completion state, verification evidence, or verified-by surface. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames; neither is reopened, renamed, overwritten, or approved. All 104 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic action plan into **a state record that refuses to equate planning, authorization, start, completion, and verification**. The fresh concept is `response-state`: a fictional card shows state transitions and stays `COMPLETION UNVERIFIED` until named verification evidence exists. No product execution, authorization, completion, verification, or operational outcome is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `risk-trigger`, which binds a warning to an observable trigger and response action. `response-state` changes the pain to **a planned response being treated as completed or verified without a recorded transition and evidence**. It changes the hook to “A plan is not an action”; the visual metaphor from a warning-to-action bridge to a response-state timeline; the proof surface to plan, authorization, started-at, completed-at, verified-by, verification evidence, and status; the emotional turn from making response conditions explicit to distinguishing action lifecycle states; and the final line to “Name the state before you call it done.”
+
+It is distinct from `risk-trigger` because it is not trigger binding; from `failure-mode` because it is not scenario/effect analysis; from `evidence-type` because it is not evidence-purpose classification; from `evidence-coverage` because it is not claim-to-evidence mapping; from `provenance-chain` because it is not source-to-result history; from `acceptance-criteria` because it is not criterion semantics; from `decision-reversal` because it is not rollback; from `next-owner` because it is not ownership alone; from `completion-state`/`false-completion` because it does not claim a completed human gate or release; and from imported `false-completion`/`release-gate-roster` because it is neither a human-gate checklist nor a release roster.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale executes actions, authorizes work, tracks operational incidents, marks tasks complete, verifies outcomes, assigns validators, or provides audit-grade evidence. Do not use `COMPLETION UNVERIFIED` or any timeline label as current product UI. Do not imply that completion or verification makes a result safe, correct, fit, accurate, accessible, publication-ready, or approved. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. Do not use private measurements, customer/tester records, copyrighted patterns, real business records, reviewer comments, or third-party reports without rights/privacy clearance. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[532] [NIST CSRC — Incident Response](https://csrc.nist.gov/projects/incident-response)
+[533] [NIST SP 800-61 Rev. 3 — Incident Response Recommendations and Considerations for Cybersecurity Risk Management](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf?source=download)
+[534] [NASA — 6.4 Technical Risk Management](https://www.nasa.gov/reference/6-4-technical-risk-management/)
+[535] [NASA — Risk Management Procedural Requirements source locator](https://ssctdpub.ssc.nasa.gov/servlet/sm.web.Fetch?rhid=1000&did=71126&type=released)
+[536] [NIST — Measurement Uncertainty](https://www.nist.gov/itl/sed/topic-areas/measurement-uncertainty)
+[537] [NIST — Metrological Traceability](https://www.nist.gov/metrology/metrological-traceability)
+[538] [W3C — Understanding Captions (Prerecorded) (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[539] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[540] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[541] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[542] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business records, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+NIST and NASA sources establish general response lifecycle, action tracking, verification, risk, uncertainty, and traceability concepts but do not establish a Stitch & Scale feature, operational workflow, verification authority, or outcome. Platform and accessibility guidance remain scoped to their own surfaces. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact response-state surface and labels.
