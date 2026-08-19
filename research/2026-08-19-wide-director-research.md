@@ -7139,3 +7139,52 @@ The nearest prior angle is `rationale-state`, which asks whether the reason for 
 
 [865]: https://csrc.nist.gov/glossary/term/accountability "NIST CSRC Glossary, Accountability"
 [866]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
+
+## One-hundred-sixty-sixth wide-research question: consent is not audience control — 20260819-225000
+
+**Question.** What proves that a share or presentation of one craft record is bounded by purpose, audience, fields shown, fields withheld, channel, retention or expiry, review, revocation or change, and disposition, rather than merely having permission or being visible?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between permission to use a record and control over who receives which fields; audience is makers, reviewers, and developers who need to see a deliberate disclosure boundary; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**NIST Privacy Framework boundary.** NIST describes its Privacy Framework as a voluntary tool intended to help organizations identify and manage privacy risk while protecting individuals' privacy. Used only as a conceptual boundary, this supports recording purpose, audience, fields, channel, retention or expiry, and review when a record moves from local visibility toward disclosure. It does not prove Stitch & Scale privacy controls, consent, redaction, audience selection, disclosure review, or compliance. [867]
+
+**W3C Privacy Principles boundary.** The W3C Privacy Principles statement presents people-first privacy governance and includes data minimization, information access, purpose limitation, transparency, consent and withdrawal, and support for choosing which information to present. It also distinguishes discretion in disclosure from secrecy. Used only as a conceptual boundary, this supports separating consent from audience/field control and from the actual disclosure boundary. It does not prove any Stitch & Scale disclosure, privacy, consent, redaction, retention, or user-control feature. [868]
+
+**Craft context.** Previously verified Craft Yarn Council reading-instructions guidance supports separating the visible instructions, the maker's intended task, and the point where help or a human check is needed. This can motivate a fictional share card with purpose, audience, field selection, review, and disposition without claiming a product privacy control or craft outcome. [866]
+
+**Accountability boundary.** NIST accountability concepts and W3C provenance remain adjacent but separate. Accountability asks which action can be traced to which actor; provenance describes entities, activities, and agents involved in producing a record. Neither by itself establishes who may receive which fields, for what purpose, through which channel, and until when. [865] [862]
+
+**Accessibility boundary.** W3C prerecorded-caption guidance remains the production constraint: captions must carry dialogue, speaker identification, and meaningful sound information. Pass 166 reserves a fixed caption lane, one narrator family, caption-on and caption-free review masters, and no caption over record/purpose/audience/fields shown/fields withheld/channel/expiry/review/revocation/disposition fields. [848]
+
+**Selected angle.** `audience-control-state` — “Permission is not audience control.”
+
+**Primary pain.** A consent or permission state can be present while the recipient, purpose, fields, channel, expiry, review, revocation, and disposition remain undefined. The missing element is an explicit audience-control boundary over what leaves the workspace and who receives it.
+
+**Hook.** “Permission is not audience control.”
+
+**Dramatic engine.** Subject: two fictional share cards for one craft record. Desire: show exactly what may leave a local workspace and who may receive it. Obstacle: the first card says `CONSENT: GRANTED` but has no audience or fields; the second names an audience but does not identify purpose, channel, expiry, or withheld fields. Stakes: a visible or permitted record can be over-shared without a deliberate audience boundary. Change: the card gains record, purpose, audience, fields shown, fields withheld, channel, retention/expiry, review, revocation/change, and disposition. Contradiction: permission to use is not permission for every audience or every field. Escalation: the audience is named but a withheld field is still visible; the card stops at `AUDIENCE CONTROL INCOMPLETE`. Final image: one bounded share card with `DISPOSITION: HUMAN DISCLOSURE REVIEW REQUIRED`, not approved.
+
+**Visual grammar.** Neutral evidence board; two fictional share cards for `RECORD R-001`; consent badge separated from an audience-control frame; arrows from purpose to audience to fields shown/withheld to channel to expiry to review; amber for undefined boundaries; red only for `AUDIENCE CONTROL INCOMPLETE`; no green sharing or privacy-safe state. No real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, legal language, product claim, or recipient identity. Captions occupy a fixed lane that never covers record/purpose/audience/fields shown/fields withheld/channel/retention or expiry/review/revocation/disposition fields, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `RECORD / PURPOSE / AUDIENCE / FIELDS_SHOWN / FIELDS_WITHHELD / CHANNEL / RETENTION_OR_EXPIRY / REVIEWED / REVOCATION_OR_CHANGE / DISPOSITION`.
+
+**Research decision.** Research changed the treatment from a generic permission request to a disclosure-boundary card: consent remains a separate state, while purpose/audience/field selection/channel/expiry/review/revocation/disposition control what may leave the workspace. No source proves a product audience-control feature.
+
+**Distinctness decision.** The nearest prior angle is `disclosure-state`, which asks whether a visible record is safe or intended to be shared. `audience-control-state` changes the pain to whether a share is explicitly bounded by audience, purpose, field selection, channel, expiry, review, revocation/change, and disposition, even when permission exists. It differs from `consent-state`, which asks whether permission exists or is valid; `disclosure-state`, which asks whether a visible record is safe or intended for a share; `authority-state`, which asks who can authorize; `portability-state`, which asks whether meaning survives movement; `privacy-boundary-state`, if previously occupied, which asks about a boundary generally; and imported `false-completion` / `release-gate-roster`, which remain blocked human-gate concepts. The hook changes to “Permission is not audience control”; the visual metaphor changes from a record approaching a share gate to a consent badge separated from a purpose/audience/fields/channel/expiry frame with one withheld field still exposed; the proof surface changes to record/purpose/audience/fields-shown/fields-withheld/channel/retention-or-expiry/reviewed/revocation-or-change/disposition; the emotional turn changes from share safety to deliberate audience control; and the final line becomes “Name who receives what.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name who receives what.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed audience, purpose, field-selection, channel, expiry, review, revocation, or disposition surface. No generation or upload is authorized.
+
+## Wide-research Director decision — audience control state — 20260819-225000
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `audience-control-state` | A consent or permission state can be present while the recipient, purpose, fields, channel, expiry, review, revocation, and disposition remain undefined | “Permission is not audience control.” | Fictional record/purpose/audience/fields-shown/fields-withheld/channel/retention-or-expiry/reviewed/revocation-or-change/disposition card | From “Permission exists” to “The share boundary is explicit” | “Name who receives what.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-225000
+The nearest prior angle is `disclosure-state`, which asks whether a visible record is safe or intended to be shared. `audience-control-state` changes the question to whether a share is explicitly bounded by audience, purpose, field selection, channel, expiry, review, revocation/change, and disposition, even when permission exists. It changes the hook to “Permission is not audience control”; the visual metaphor from a record approaching a share gate to a consent badge separated from a purpose/audience/fields/channel/expiry frame with one withheld field still exposed; the proof surface from audience/purpose/fields-shown/fields-redacted/recipient/channel/expiry/reviewed to record/purpose/audience/fields-shown/fields-withheld/channel/retention-or-expiry/reviewed/revocation-or-change/disposition; the emotional turn from share safety to deliberate audience control; and the final line to “Name who receives what.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [867]–[868]
+
+[867]: https://www.nist.gov/privacy-framework "NIST Privacy Framework"
+[868]: https://www.w3.org/TR/privacy-principles/ "W3C Privacy Principles"

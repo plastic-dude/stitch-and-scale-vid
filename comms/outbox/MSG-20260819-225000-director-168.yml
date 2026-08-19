@@ -1,0 +1,19 @@
+message_id: MSG-20260819-225000-director-168
+created_at: 2026-08-19T22:50:00+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_audience-control-state_9x16_v001_blocked_20260819-225000
+parent_id: BRF-founder-proof-audience-control-state-9x16-v001
+status: blocked
+summary: Audience-control-state is blocked because no current approved product proof verifies a deliberate boundary over purpose, audience, fields shown/withheld, channel, expiry, review, revocation/change, and disposition.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass166-browser-findings.md
+  - briefs/SS_founder-proof_audience-control-state_9x16_v001_blocked_20260819-225000.md
+  - scripts/SS_founder-proof_audience-control-state_9x16_v001_blocked_20260819-225000.md
+  - platforms/SS_founder-proof_audience-control-state_9x16_v001_matrix_20260819-225000.md
+  - ledgers/20260819-audience-control-state.md
+  - manifests/SS_founder-proof_audience-control-state_9x16_v001_blocked_20260819-225000.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one audience-control boundary with record/purpose/audience/fields_shown/fields_withheld/channel/retention_or_expiry/reviewed/revocation_or_change/disposition before presenting audience-control behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
