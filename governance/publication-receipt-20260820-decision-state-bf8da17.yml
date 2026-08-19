@@ -1,0 +1,39 @@
+receipt_id: PUB-20260820-decision-state-bf8da17
+created_at: '2026-08-20T21:30:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: faf5a19
+remote_commit_after_blocker: bf8da17a94b41625b78205013363261767abd667
+merge_required: true
+merge_type: no-rewrite-ort
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-review-escalation-decision-state-2130.md
+  - comms/outbox/MSG-20260820T213000-temporary-director-072.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  How should a recurring review workflow distinguish a stronger escalation
+  threshold from a terminal quality decision while preserving provenance and
+  single-flight safety?
+research_decision: >-
+  Use one append-only blocker with missing handoff fields, immutable evidence,
+  and explicit terminal events. Do not infer a quality outcome from silence,
+  timeout, acknowledgement, or repeated holds.
+next_action: >-
+  Human owner must provide the responsible owner, bounded response deadline, and
+  escalation target. Video Reviewer must publish the independent terminal
+  packet. Until then, preserve V002 and keep the Generator lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
