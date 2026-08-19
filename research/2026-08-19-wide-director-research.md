@@ -7188,3 +7188,52 @@ The nearest prior angle is `disclosure-state`, which asks whether a visible reco
 
 [867]: https://www.nist.gov/privacy-framework "NIST Privacy Framework"
 [868]: https://www.w3.org/TR/privacy-principles/ "W3C Privacy Principles"
+
+## One-hundred-sixty-seventh wide-research question: permitted is not necessary — 20260819-225800
+
+**Question.** What proves that each retained field is needed for a bounded craft decision, including its purpose, minimum value, consequence of omission, extra exposure, retention, review, and disposition, rather than merely being permitted, visible, or available?
+
+**Campaign assumption.** No active brief was supplied. The Director assumes a `founder-proof` campaign classification with the objective of showing the difference between a field being allowed and a field being necessary for a decision; audience is makers, reviewers, and developers who need to see deliberate data use; form is a 45-second 9:16 vertical explainer; tone is calm, precise, humane, and non-alarmist; distribution is TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier is blocked Director/Planner. This assumption is recorded because objective and audience were not otherwise specified.
+
+**W3C data-minimization boundary.** The W3C Privacy Principles statement includes data minimization, purpose limitation, information access, transparency, and support for choosing which information to present. Relevant passages state that web APIs should minimize the data needed to carry out user goals and provide granularity and user controls over communicated personal data; actors should specify purpose and not use data for other purposes; and user agents should support choosing which information is provided. Used only as conceptual boundaries, these support a necessity card that links each field to a purpose and marks extra fields as withheld. They do not prove Stitch & Scale minimization, field-level control, privacy, redaction, consent, or product behavior. [869]
+
+**NIST privacy-risk boundary.** NIST describes its Privacy Framework as a voluntary tool for helping organizations identify and manage privacy risk while protecting individuals' privacy. Used only as a conceptual boundary, this supports asking what data is required for a declared purpose and what unnecessary exposure or retention should be avoided. It does not prove Stitch & Scale privacy risk management, data minimization, retention control, field selection, or compliance. [870]
+
+**Craft decision context.** Previously verified Craft Yarn Council reading-instructions and gauge guidance support distinguishing information needed for a particular craft task from extra context. Gauge, yarn, tools, stitch, and pattern context can be necessary for a craft result, but this package must not assert a universal minimum or product rule. The exact needed fields must be established by current product proof and human review, not inferred from general craft guidance. [871] [872]
+
+**Accessibility boundary.** W3C prerecorded-caption guidance remains the production constraint: captions must carry dialogue, speaker identification, and meaningful sound information. Pass 167 reserves a fixed caption lane, one narrator family, caption-on and caption-free review masters, and no caption over decision/purpose/field/why-needed/minimum/withheld/consequence/exposure/retention/review/disposition fields. [848]
+
+**Selected angle.** `necessity-state` — “Permitted is not necessary.”
+
+**Primary pain.** A field can be permitted or visible while no one has shown why it is needed for the declared decision, what minimum value is sufficient, what is lost if it is withheld, what extra exposure it creates, or how long it should be retained. The missing element is a field-level necessity chain.
+
+**Hook.** “Permitted is not necessary.”
+
+**Dramatic engine.** Subject: two fictional evidence cards for one craft decision. Desire: keep only the information needed to answer the declared question. Obstacle: the first card has many permitted fields but no purpose or necessity basis; the second has a purpose but no consequence-of-omission or extra-exposure review. Stakes: a permitted field can become unjustified exposure or retention. Change: the card gains decision, purpose, field, why needed, minimum value, field withheld, consequence of omission, extra exposure, retention, review, and disposition. Contradiction: permission to show a field is not proof that the field is needed. Escalation: a field is retained without a purpose or minimum value; the card stops at `NECESSITY INCOMPLETE`. Final image: one bounded evidence card with `DISPOSITION: HUMAN DATA-USE REVIEW REQUIRED`, not approved.
+
+**Visual grammar.** Neutral evidence board; two fictional evidence cards for `DECISION D-001`; a permitted-field tray separated from a necessity frame; arrows from decision purpose to field to why-needed to minimum value to consequence/exposure to retention to review; amber for undefined necessity; red only for `NECESSITY INCOMPLETE`; no green minimized state. No real UI, private records, recognizable people, copyrighted patterns, customer data, branded property, legal language, product claim, or field identity. Captions occupy a fixed lane that never covers decision/purpose/field/why-needed/minimum/withheld/consequence/exposure/retention/review/disposition fields, tables, numbers, logos, buttons, menus, hands, or primary action.
+
+**Proof surface.** `DECISION / PURPOSE / FIELD / WHY_NEEDED / MINIMUM_VALUE / FIELD_WITHHELD / CONSEQUENCE_OF_OMISSION / EXTRA_EXPOSURE / RETENTION / REVIEWED / DISPOSITION`.
+
+**Research decision.** Research changed the treatment from a generic field-sharing card to a necessity chain: every retained field must be tied to a declared purpose, a minimum value, a consequence if omitted, extra-exposure review, retention, human review, and disposition. No source proves a product minimization feature or universal field threshold.
+
+**Distinctness decision.** The nearest prior angle is `audience-control-state`, which asks who receives which fields and under what share boundary. `necessity-state` changes the pain to whether each retained field is needed for a declared decision purpose and what extra exposure can be withheld, even if the field is permitted for the audience. It differs from `consent-state`, which asks whether permission exists; `disclosure-state`, which asks whether visible data is safe or intended for sharing; `relevance-state`, which asks whether evidence belongs to a decision; `sufficiency-state`, which asks whether the minimum evidence set is met; `applicability-state`, which asks where a result applies; and imported `false-completion` / `release-gate-roster`, which remain blocked human-gate concepts. The hook changes to “Permitted is not necessary”; the visual metaphor changes from a consent badge separated from an audience frame to a permitted-field tray separated from a decision-purpose/why-needed/minimum/exposure frame with one unjustified field retained; the proof surface changes to decision/purpose/field/why-needed/minimum-value/field-withheld/consequence-of-omission/extra-exposure/retention/reviewed/disposition; the emotional turn changes from deliberate audience control to disciplined field necessity; and the final line becomes “Name why this field stays.” No imported reservation is reopened or consumed.
+
+**Final line.** “Name why this field stays.”
+
+**Status.** Blocked. No current versioned, non-private, rights-cleared product capture or proof-registry entry verifies any proposed necessity, purpose, minimum value, field withholding, consequence, exposure, retention, review, or disposition surface. No generation or upload is authorized.
+
+## Wide-research Director decision — necessity state — 20260819-225800
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `necessity-state` | A field can be permitted or visible while no one has shown why it is needed for the declared decision, what minimum value is sufficient, what is lost if withheld, what extra exposure it creates, or how long it should be retained | “Permitted is not necessary.” | Fictional decision/purpose/field/why-needed/minimum-value/field-withheld/consequence-of-omission/extra-exposure/retention/reviewed/disposition card | From “The field is allowed” to “The field has a reason to stay” | “Name why this field stays.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-225800
+The nearest prior angle is `audience-control-state`, which asks who receives which fields and under what share boundary. `necessity-state` changes the question to whether each retained field is needed for a declared decision purpose and what extra exposure can be withheld, even if the field is permitted for the audience. It changes the hook to “Permitted is not necessary”; the visual metaphor from a consent badge separated from an audience frame to a permitted-field tray separated from a decision-purpose/why-needed/minimum/exposure frame with one unjustified field retained; the proof surface from record/purpose/audience/fields-shown/fields-withheld/channel/retention-or-expiry/reviewed/revocation-or-change/disposition to decision/purpose/field/why-needed/minimum-value/field-withheld/consequence-of-omission/extra-exposure/retention/reviewed/disposition; the emotional turn from deliberate audience control to disciplined field necessity; and the final line to “Name why this field stays.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+### References [869]–[872]
+
+[869]: https://www.w3.org/TR/privacy-principles/ "W3C Privacy Principles"
+[870]: https://www.nist.gov/privacy-framework "NIST Privacy Framework"
+[871]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council, Reading Instructions & Other Basics"
+[872]: https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important "Craft Yarn Council, Gauge and Why It Is Important"
