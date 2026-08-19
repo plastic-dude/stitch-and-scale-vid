@@ -1,0 +1,17 @@
+message_id: MSG-20260819-082200-director-040
+created_at: '2026-08-19T08:22:00+01:00'
+from: director
+to: production
+message_type: blocked
+priority: normal
+video_id: PLAN-20260819-082200-repro-note-v001
+parent_id: briefs/SS_founder-proof_repro-note_9x16_v001_blocked_20260819-082200.md
+status: blocked
+summary: Repro-note concept blocked because current issue-context proof and tester-evidence rights are unavailable.
+evidence:
+  - research/2026-08-19-wide-director-research.md#thirty-eighth-wide-research-question-what-makes-a-tester-note-inspectable---2026-08-19
+  - briefs/SS_founder-proof_repro-note_9x16_v001_blocked_20260819-082200.md
+  - manifests/SS_founder-proof_repro-note_9x16_v001_blocked_20260819-082200.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - reviews/ and orders/ checked; no open reviewer/remake files found
+next_action: Provide one current approved non-private issue-report, feedback-context, QA-note, version/size/gauge context, or evidence-attachment proof surface with product version/date and exact labels, then rerun claims, captions, audio, platform, rights, privacy, and acceptance validation.

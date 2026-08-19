@@ -399,3 +399,13 @@ The nearest prior angle is `brief-before-knit`, which focuses on scope, time, ya
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `correction-trace`, which focuses on locating a post-release correction and identifying which copy carries it. `change-notice` moves earlier and centers an active test participant deciding whether a new ask affects work already underway. It changes the hook to “A new version is a new ask until you show what changed,” the visual metaphor from an old copy traveling toward a current correction record to `VERSION / CHANGE / IMPACT / CONTINUE?`, the proof surface from version/errata history to a current version-diff, change notice, milestone update, revision summary, or tester re-acknowledgement surface, the emotional turn from accountable maintenance after release to agency before continuing labor, and the final line to “Show what changed before you ask for more.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — repro note — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `repro-note` | A tester report can be impossible to inspect without guessing because version, project, size, gauge, row/step, expected result, observed result, or evidence is missing | “A note is not reproducible until it carries its context.” | One current, approved issue-report, feedback-context, QA-note, version/size/gauge context, or evidence-attachment surface with exact labels | An observation becomes actionable before anyone overclaims a defect | “Keep the note. Keep the context.” | blocked; product proof, tester-evidence rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `feedback-loop`, which focuses on what happens after feedback is received and routed. `repro-note` changes the pain to a report that cannot be inspected without guessing because its context is missing. It changes the hook to “A note is not reproducible until it carries its context,” the visual metaphor from a note travelling through a response loop to `VERSION / SIZE / GAUGE / ROW / EXPECTED / OBSERVED`, the proof surface from feedback routing or response history to an issue-report, feedback-context, QA-note, version/size/gauge, or evidence-attachment surface, the emotional turn from being heard after submission to making an observation actionable before anyone overclaims a defect, and the final line to “Keep the note. Keep the context.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

@@ -1081,3 +1081,48 @@ Do not claim Stitch & Scale has version notifications, change logs, automatic te
 [90] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
 
 [91] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+## Thirty-eighth wide-research question: what makes a tester note inspectable? — 2026-08-19
+
+### Research question
+When a tester reports “something is wrong,” what minimum context makes the note inspectable—version, project, size, gauge, row or step, expected result, observed result, and evidence—without claiming Stitch & Scale has issue templates or a bug tracker?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and test knitters. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| GitHub Docs, “Configuring issue templates for your repository” | 2026-08-19; current page checked | GitHub says issue forms can encourage contributors to provide specific, structured information. Its example bug form asks what happened and what was expected, requires a software version, accepts environment details, logs, and screenshots. | GitHub issue forms are repository tooling, not a pattern-testing workflow or Stitch & Scale proof. | A tester note should preserve the minimum context needed to inspect it: version, expected result, observed result, environment/context, and evidence. |
+| Atlassian, “Free Bug Report Template” | 2026-08-19; current page checked | Atlassian recommends a concise summary, numbered reproduction steps, expected versus actual results, environment details such as device, software/browser version, connection type, frequency, reproducibility, and a review for clarity. | Software QA guidance, not a knitwear standard and not evidence of Stitch & Scale issue tracking. | Add a compact `CONTEXT` block rather than a vague “feedback” label; require enough information to reproduce or inspect without asserting defect certainty. |
+| Edie Eckman, “Pattern Testing Questions & Answers” | 2026-08-19; page dated 13 November 2020 | The Q&A stresses deadlines, gauge, attention to instruction and diagram detail, photos, and immediate issue reporting; it distinguishes test knitting, sample stitching, and technical editing. | One designer’s educational Q&A from 2020; not a current universal policy. | Knitwear-specific context must include the size, gauge, row or instruction, and evidence relevant to the observation; keep roles distinct. |
+| Repository craft-business and mobile-maker contracts | 2026-08-19; internal contracts | Records should preserve history, source notes, stable identifiers, active context, project, size, units, validation result, interruption, and recovery state. | Internal design contracts, not proof of a current issue-report surface. | Keep context adjacent to the observation and preserve the original note; do not silently overwrite it with a derived resolution. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for issue templates, bug tracking, feedback-context cards, evidence attachments, automatic reproduction, defect detection, or feedback routing. All 38 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from a generic feedback invitation into **minimum inspectable context**. The fresh concept is `repro-note`: a note that says “row 8 is wrong” becomes more useful when it carries `VERSION / PROJECT / SIZE / GAUGE / ROW OR STEP / EXPECTED / OBSERVED / EVIDENCE`. The visual device is a fictional report card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product issue surface is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `feedback-loop`, which focuses on what happens after feedback is received and routed. `repro-note` changes the pain to **a report that cannot be inspected without guessing because its context is missing**. The hook changes to “A note is not reproducible until it carries its context.” The visual metaphor changes from a note travelling through a response loop to a compact report card filling in `VERSION / SIZE / GAUGE / ROW / EXPECTED / OBSERVED`. The proof surface changes from feedback routing or response history to one current, approved issue-report, feedback-context, QA-note, version/size/gauge context, or evidence-attachment surface. The emotional turn changes from being heard after submission to making an observation actionable before anyone overclaims a defect. The final line changes to “Keep the note. Keep the context.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale has issue templates, bug tracking, automatic reproduction, defect detection, feedback routing, or evidence attachments without current proof. Do not call an observation a defect until current evidence supports it. Do not expose real tester names, messages, photos, pattern files, or private data without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[92] [GitHub Docs — Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+
+[93] [Atlassian — Free Bug Report Template](https://www.atlassian.com/software/jira/templates/bug-report)
+
+[94] [Edie Eckman — Pattern Testing Questions & Answers](https://www.edieeckman.com/2020/11/10/pattern-testing-questions-and-answers/)
+
+[95] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+[96] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
