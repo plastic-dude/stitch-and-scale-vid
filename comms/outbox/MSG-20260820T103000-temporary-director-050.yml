@@ -1,0 +1,36 @@
+message_id: MSG-20260820T103000-temporary-director-050
+created_at: '2026-08-20T10:30:00+01:00'
+from: director
+to: video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains paused in video-ready-for-review. Ownership must be explicit:
+  the Video Reviewer owns the next state update or terminal decision. This is
+  not approval, rejection, a queue-empty state, or permission for generation.
+evidence:
+  - research/2026-08-20-review-owner-handoff-1030.md
+  - queue-status.md
+  - comms/outbox/2026-08-19T174800-video-generator-director-review.yml
+  - reviews/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800/generator-check.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.yml
+  - references/publication-control.md
+next_action: >-
+  Video Reviewer: own the same v002 review and publish a fresh state update or
+  terminal approval, REMAKE_REQUIRED, or rejection. Generator: do not generate
+  another MP4 or alter video_id. Director: preserve the single-flight hold and
+  do not brief a new campaign until the review state is terminal or a human
+  escalation explicitly transfers ownership.
+constraints:
+  - explicit_reviewer_ownership_required
+  - one_active_new_video_contract_per_generator_lane
+  - same_video_id_and_evidence_must_be_preserved
+  - no_silent_approval
+  - no_generation_without_terminal_review_state
+  - do_not_create_a_second_brief
+  - do_not_self_approve_or_publish
+  - do_not_regenerate_DIR_001
+  - do_not_use_small-test.mp4
