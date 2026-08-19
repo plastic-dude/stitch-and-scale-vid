@@ -2222,3 +2222,47 @@ Do not claim Stitch & Scale recommends tools, confirms compatibility, guarantees
 [211] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
 
 [212] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Sixty-fourth wide-research question: where does the fabric go next? — 2026-08-19
+
+### Research question
+Before a maker starts, how can a pattern show whether the fabric is worked flat, joined in the round, turned, temporarily held live, or closed later—without claiming Stitch & Scale parses construction topology or validates every construction route?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers navigating a pattern with flat sections, joins, rounds, temporary live stitches, or later closures. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “How to Read a Knitting Pattern” | 2026-08-19; current page checked | CYC explains row instructions, right-side/wrong-side labels, repeats, and instruction sequences; it defines `rep` as repeat and demonstrates row-by-row order. | The page does not define a complete construction-topology model, validate every join, or prove Stitch & Scale parses route transitions. | Keep `ROW / ROUND / RS / WS / TURN / JOIN / REPEAT` separate from the construction route itself. |
+| Purl Soho, “A Provisional Cast On” | 2026-08-19; page text extracted; visual route captcha-blocked | The tutorial explains that provisional cast-on keeps stitches live for later use; it describes joining main yarn, checking for twist before joining in the round, placing a marker, later removing scrap yarn, and using live stitches for hems or closures. | Technique education, not a universal pattern standard or Stitch & Scale proof; page visual browsing was blocked by captcha. | Include `START / WORK FLAT / JOIN / LIVE STITCHES / REMOVE TEMPORARY YARN / CLOSE` as a fictional route map, with no product claim. |
+| Stitch & Scale pattern-QA, publishing/export, and mobile-maker contracts | 2026-08-19; contracts re-read | Construction, shaping, charts, schematic scale, print review, test knitting, and technical editing are separate human evidence surfaces; dense route maps need readable mobile/print review. | Internal contracts; no current construction-route proof registry entry. | Block construction parsing, route validation, and topology claims pending exact product proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for flat/round route display, join detection, twist detection, live-stitch tracking, temporary-yarn removal, or closure validation. All 64 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “construction instructions” into **where the fabric is going next and which joins or held stitches change the route**. The fresh concept is `construction-route`: a fictional card places `START / FLAT / TURN / JOIN / ROUND / LIVE / REMOVE / CLOSE` beside source/date and a review state. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no route parsing, twist detection, live-stitch tracking, or closure validation claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `direction-cue`, which focuses on which way a row travels. `construction-route` changes the pain to **which construction path the fabric follows, including flat work, joins, rounds, held live stitches, temporary yarn removal, and closure**. The hook changes to “The next step is a route change.” The visual metaphor changes from directional arrows to `START / FLAT / TURN / JOIN / ROUND / LIVE / REMOVE / CLOSE`. The proof surface changes from row traversal orientation to a current construction-route surface with source/date and status. The emotional turn changes from reading direction to seeing route transitions before the maker hands off or joins the fabric. The final line changes to “Map the route before the fabric moves.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale parses flat/round construction, detects twists, validates joins, tracks live stitches, or confirms closure correctness without current product proof and qualified technical review. Do not use real customer patterns, private instructions, screenshots, logos, or copyrighted charts without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[213] [Craft Yarn Council — How to Read a Knitting Pattern](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern)
+
+[214] [Purl Soho — A Provisional Cast On](https://www.purlsoho.com/create/provisional-cast-on-video/)
+
+[215] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[216] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[217] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

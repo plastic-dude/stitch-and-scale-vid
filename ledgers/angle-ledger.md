@@ -659,3 +659,13 @@ The nearest prior angle is `work-scope`, which focuses on the scope of the desig
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `before-download`, which focuses on broad factual context before a pattern download. `tool-context` changes the pain to whether a needle number is being mistaken for a complete tool requirement during preparation. It changes the hook to “A needle number is not a materials list,” the visual metaphor from a pre-download context panel to `SIZE / TYPE / LENGTH / CABLE / NUMBER / TECHNIQUE / NOTIONS / GAUGE`, the proof surface from broad context metadata to a current tools/materials surface with `SUGGESTED / REQUIRED / VERIFIED` status, the emotional turn from fair pre-download disclosure to tool clarity before the first stitch, and the final line to “Name the tool before you start the stitch.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — construction route — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `construction-route` | A maker cannot see which construction path the fabric follows, including flat work, joins, rounds, held live stitches, temporary-yarn removal, and closure | “The next step is a route change.” | One current, approved construction-route surface with start, flat, turn, join, round, live, remove, close, source, date, and status labels | Seeing route transitions before the maker hands off or joins the fabric | “Map the route before the fabric moves.” | blocked; product proof, technical review, rights/privacy, route validation, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `direction-cue`, which focuses on which way a row travels. `construction-route` changes the pain to which construction path the fabric follows, including flat work, joins, rounds, held live stitches, temporary-yarn removal, and closure. It changes the hook to “The next step is a route change,” the visual metaphor from directional arrows to `START / FLAT / TURN / JOIN / ROUND / LIVE / REMOVE / CLOSE`, the proof surface from row traversal orientation to a current construction-route surface with source/date and status, the emotional turn from reading direction to seeing route transitions before the maker hands off or joins the fabric, and the final line to “Map the route before the fabric moves.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
