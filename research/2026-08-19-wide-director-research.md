@@ -5074,3 +5074,49 @@ Do not claim that Stitch & Scale currently exposes immutable releases, snapshot 
 ### Research limit
 
 These sources establish version identity, frozen-state, and preservation principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes immutable releases, snapshot IDs, revision history, or claim-to-capture binding. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-seventeenth wide-research question: repeatable is not reproduced — 20260819-185508
+
+### Research question
+
+Can a grading or record output be reproduced from the same inputs, version, settings, and run record, and what evidence distinguishes a repeatable rerun from a merely similar or correct-looking result?
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| National Academies / NCBI — Reproducibility and Replicability in Science | Page checked 2026-08-19 | Reproducibility means consistent results using the same input data, computational steps, methods, code, and analysis conditions. Clear data, methods, parameters, and environment details are needed; exact reproducibility does not guarantee correctness. | Scientific-computing framework; not a Stitch & Scale product claim. | Make the concept about a documented rerun, not a vague promise that a result “looks right.” |
+| National Academies — Reproducibility chapter | Page checked 2026-08-19 | Unique identifiers for data/code versions, environment information, and complete instructions improve reproducibility; changing or nonpublic inputs can prevent a direct rerun. | Research-report context; no product behavior evidence. | Add input snapshot, version/settings, environment, and run record to the fictional proof surface. |
+| ACM Artifact Review and Badging | Page checked 2026-08-19 | Repeatability, reproducibility, and replicability are distinct; artifacts should be documented, consistent, complete, exercisable, and supported by verification/validation evidence. | Page is marked version 1.0 and not current; terminology source, not product proof. | Separate “same team reran it” from independent reproduction and from validation of correctness. |
+| NIST — Cloud of Reproducible Records | Page checked 2026-08-19 | Reproducible records benefit from workflow management, unique IDs/timestamps, dependency and environment capture, local storage when APIs are unavailable, output hashes, and explicit run records. | Project page updated 2025; infrastructure example, not a Stitch & Scale capability. | Use `RUN AT`, `DIFF`, `REVIEWER`, and `RESULT` as evidence fields without claiming the app supports them. |
+| Stitch & Scale local QA, craft-business, and publishing/export contracts | Re-read 2026-08-19 | QA separates calculation evidence from technical edit, print, chart, schematic, and test-knit evidence; records distinguish recorded facts from derived outputs; export requires asset/version/integrity checks. | Internal contracts, not current product behavior. | Block the package until exact replay evidence and output comparison are proven. |
+
+### Research synthesis
+
+A second-looking result is not evidence of a documented rerun. The visual opportunity is a result travelling through a replay lane using the same input snapshot and settings; a second run pauses until its diff and environment are named. Candidate angle: `reproducibility-state`. Hook: “Repeatable is not reproduced.” Proof surface: `INPUT SNAPSHOT / VERSION / SETTINGS / RUN AT / OUTPUT / DIFF / ENVIRONMENT / REVIEWER / RESULT`, explicitly illustrative until product proof verifies exact labels. Emotional turn: “it looked right” becomes inspectable replay confidence. Final line: “Name the run before you trust the repeat.”
+
+### Product-state reconciliation
+
+No current product-proof registry or approved capture verifies input snapshots, versioned settings, environment records, replay controls, output diffing, hashing, reviewer/result states, or reproducibility semantics. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+### Candidate distinctness
+
+The nearest prior angle is `version-lock`, which binds a claim to an exact artifact state. `reproducibility-state` changes the pain to **whether a result can be rerun with the same inputs, settings, version, and environment, and whether the output comparison was actually reviewed**. It changes the hook to “Repeatable is not reproduced”; the visual metaphor from a claim anchored to a frozen snapshot to a replay lane with input, run, output, diff, and review states; the proof surface from artifact identity and supersession to input snapshot, version/settings, run time, output, diff, environment, reviewer, and result; the emotional turn from citation anxiety to inspectable replay confidence; and the final line to “Name the run before you trust the repeat.”
+
+It is distinct from `version-lock`, `authority-state`, `absence-state`, `repro-note`, `measurement-provenance`, `conversion-trace`, `grade-transparency`, `outcome-proof`, and `capture-freshness` because those concepts respectively concern artifact binding, control relationships, non-values, a reproduction note, measurement context, conversions, grading math, outcome change, and capture currency. `reproducibility-state` focuses on the rerun event and evidence of consistency. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes input snapshots, deterministic calculation, versioned settings, environment capture, replay controls, output diffs, hashes, regression tests, reproducibility, repeatability, accuracy, or correctness. Do not use `INPUT SNAPSHOT`, `VERSION`, `SETTINGS`, `RUN AT`, `OUTPUT`, `DIFF`, `ENVIRONMENT`, `REVIEWER`, or `RESULT` as current product UI. Do not claim a repeatable result is correct. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[664] [National Academies / NCBI — Reproducibility and Replicability in Science](https://www.ncbi.nlm.nih.gov/books/NBK547531/)
+[665] [National Academies — Reproducibility](https://www.nationalacademies.org/read/25303/chapter/7)
+[666] [ACM — Artifact Review and Badging](https://www.acm.org/publications/policies/artifact-review-badging)
+[667] [NIST — Cloud of Reproducible Records](https://www.nist.gov/programs-projects/cloud-reproducible-records)
+[668] [Stitch & Scale local skill contracts — QA, craft-business, and publishing/export workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+These sources establish reproducibility and artifact-evidence principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes replay records, environment capture, hashes, diffs, or reproducibility controls. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
