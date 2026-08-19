@@ -17,7 +17,7 @@ queue_decision:
   reason: "All newer Director candidates remain blocked or director-review; DIR-001 is already consumed and cannot be regenerated."
 research:
   wide_research_completed: true
-  note: "research/2026-08-19-blocked-no-eligible-director-contract-144738.md"
+  note: "research/2026-08-19-blocked-no-eligible-director-contract-150630.md"
   sources:
     - "https://support.google.com/youtube/answer/1722171?hl=en"
     - "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html"

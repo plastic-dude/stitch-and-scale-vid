@@ -35,7 +35,7 @@ queue:
       blocker: "Current UI proof capture/registry and written rights confirmations must be confirmed; otherwise leave director-review."
 research:
   wide_research_required: true
-  note: "research/2026-08-19-blocked-no-eligible-director-contract-144738.md"
+  note: "research/2026-08-19-blocked-no-eligible-director-contract-150630.md"
   sources:
     - "https://support.google.com/youtube/answer/1722171?hl=en"
     - "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html"
