@@ -3799,3 +3799,64 @@ Do not claim Stitch & Scale evaluates comparability, aligns units or conditions,
 [431] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796?hl=en)
 
 [432] [Stitch & Scale — Mobile-maker, craft-business-records, publishing/export, and pattern-QA contracts](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Ninety-fourth wide-research question: pass is not a criterion — 2026-08-19
+
+### Research question
+When a knitwear workflow records a result as `PASS`, `FAIL`, `PENDING`, or `N/A`, what minimum information is required before that status can be interpreted as evidence rather than an unsupported completion signal? The question is deliberately about predefined criteria and evidence linkage, not about whether Stitch & Scale itself validates a pattern, grants publication approval, replaces technical editing, performs physical print review, checks chart readability, verifies schematic scale, or substitutes for test knitting.
+
+### Sources, dates, evidence, uncertainty, and decision impact
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed by research |
+|---|---|---|---|---|
+| NIST CSRC Glossary, Verification | Current page checked 2026-08-19 | Verification is described as confirmation through objective evidence that specified requirements have been fulfilled. | General systems/quality terminology, not a Stitch & Scale product claim or knitwear-specific release rule. | Require a named criterion and linked objective evidence before interpreting a result; a bare status is insufficient. |
+| NIST CSRC Glossary, Validation | Current page checked 2026-08-19 | Validation is described as confirmation through objective evidence that requirements for a specific intended use have been fulfilled, and as determining acceptability according to a predefined set of tests and results. | Does not define which human role owns a knitwear decision and cannot authorize the app to validate a pattern or publication. | Separate predefined requirement, observed result, intended use, and decision owner; `PASS` cannot be universal or ownerless. |
+| W3C WCAG 2.2, Captions (Prerecorded) | Current page checked 2026-08-19 | Captions include dialogue, speaker identification, and meaningful non-speech audio; captions should not obscure relevant information. | Accessibility reference for the video artifact, not proof that a product result is true. | Require caption-on and caption-free review; captions must not cover criterion, evidence, status, or primary action. |
+| U.S. Section 508, Captions and Transcripts | Current page checked 2026-08-19 | Guidance calls for synchronized, complete, readable captions, consistent speaker/sound treatment, human editing of auto-captions, and planning text in the top two-thirds because players commonly reserve the lower third. | Not a platform-specific safe-area guarantee or account-specific preview. | Reserve the lower third for captions, keep proof/status cards higher, and review timing, punctuation, sounds, speaker map, overlap, and readability. |
+| Instagram, Advancing Accessibility on Instagram | Current page checked 2026-08-19 | Instagram describes alt-text and caption features and notes that closed captions support Deaf and hard-of-hearing communities and sound-off viewing. | Published in 2022; behavior may vary by account, region, or product surface. | Treat captions as an accessibility requirement without making engagement or retention claims; verify current account behavior before derivatives. |
+| TikTok for Business, Download Card safe-zone specifications | Last updated June 2026; current page checked 2026-08-19 | Key text and logos must remain in the safe zone; safe-zone size depends on format and caption length; preview verifies placement. | Ad/add-on specification, not a universal organic-post rule. | Keep the master conservative and require current platform preview for paid or derivative versions. |
+| YouTube Help, Add subtitles & captions | Current page checked 2026-08-19 | YouTube supports uploaded, auto-synced, manually typed, and auto-translated captions; automatic captions are in the default language only. | Tool availability and upload UI can change; automatic captions are not proof of final quality. | Require human-reviewed caption files and caption-on/caption-free inspection. |
+| Practitioner source: A Bee in the Bonnet, Tech Editing and Test Knitting | 2021; search result checked 2026-08-19; page extraction unavailable | Search result states technical editing and test knitting are distinct steps. | Practitioner source and unavailable page extraction; no detail beyond the result is treated as evidence. | Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as separate human gates. |
+| Stitch & Scale local contracts: QA, publishing/export, craft-business records, mobile-maker workflows | Re-read 2026-08-19 | Contracts distinguish calculation, record, technical edit, test knit; block declared export errors; preserve recorded versus derived/estimated values; keep context, units, status, interruption safety, and feedback adjacent on mobile. | Project operating contracts, not independent external validation. | Use criterion, requirement, evidence reference, observed value, evaluator/owner, date, status, scope, and notes; do not claim the product currently exposes this surface. |
+
+### Research synthesis
+
+A status is meaningful only relative to a declared criterion, an intended use, an observation or evidence reference, a responsible evaluator, a scope, and a time/version context. `PASS` without those fields is a completion-shaped label, not a reproducible result. Verification language supports objective evidence for specified requirements; validation language adds intended use and a predefined test/result relationship. Neither definition licenses a product or video to claim universal correctness.
+
+For knitwear, a deterministic calculation may verify a count relationship but does not prove fit or comfortable construction. A saved record proves that a fact was intentionally stored but does not prove the fact is correct. A technical edit addresses completeness and internal consistency but does not prove a physical test. A test knit records observed behavior by a real knitter but does not prove every size or edge case. Physical print review, chart readability, and schematic scale remain their own human inspection gates. A single `PASS` badge must not imply all of these gates are complete.
+
+The visual opportunity is a deliberately incomplete acceptance card: `CRITERION / REQUIREMENT / EVIDENCE REF / OBSERVED / SCOPE / EVALUATOR / DATE-VERSION / STATUS / NOTES`. The initial status is `PASS`; missing criterion and evidence fields then force it to `PENDING / OWNER REQUIRED`. The card is explicitly labeled `ILLUSTRATIVE — NOT PRODUCT UI`. The dramatic engine is not “the app catches everything”; it is the moment a confident green result becomes a question: **pass against what?** The final line is “Name the criterion before you name the status.”
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture verifying a current acceptance-criteria/status surface, criterion/evidence linkage, evaluator ownership, or intended-use declaration. `reviews/`, `orders/`, and `comms/inbox/` contain no open reviewer/remake files. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened, renamed, overwritten, or approved. All 94 concepts remain blocked or director-review.
+
+### Decision changed by research
+
+Research changed the candidate from a generic quality checklist into the requirement that every status be scoped to a named criterion, evidence reference, observed result, evaluator, date/version, intended use, and status. The fresh concept is `acceptance-criteria`: an original acceptance card first shows `PASS`, then reveals missing criterion and evidence fields, changing to `PENDING / OWNER REQUIRED`. No app behavior, pass/fail accuracy, publication readiness, or human-gate completion is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `false-completion`, with the imported narrower successor `release-gate-roster` also adjacent. Those reserved concepts focus on a complete-looking checklist hiding unresolved human gates and on a specific release roster surface. `acceptance-criteria` changes the pain to a status that lacks the criterion and evidence needed to interpret it; the hook to “Pass is not a criterion”; the visual metaphor to a green status card whose missing fields are exposed; the proof surface to a criterion/evidence/observed-result/owner/date record; the emotional turn from distrust of blanket completion to disciplined interpretation of a scoped result; and the final line to “Name the criterion before you name the status.” It does not recreate a roster, assert a complete checklist, or consume either imported filename reservation.
+
+It is also distinct from `grade-transparency` because it concerns the semantics and scope of a result, not showing grading math; from `test-knit-coverage` because it does not claim physical coverage; from `review-anchor` because it is not locating a review comment; from `comparison-basis` because it is not comparing two records; from `uncertainty-context` because it is not uncertainty around a numeric value; and from `prerequisite-state` because it requires an evidence-linked acceptance criterion rather than a general prerequisite list.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale validates requirements, chooses acceptance criteria, verifies objective evidence, assigns evaluators, determines intended use, proves a `PASS`, replaces technical editing, completes physical print review, proves chart readability, proves schematic scale, or substitutes for test knitting. Do not use private pattern records, customer data, third-party test-knit reports, copyrighted patterns, reviewer comments, or business records without permission and privacy/rights review. All illustrative statuses must be visibly marked as illustrative and unverified. Preserve one narrator family, caption-safe proof placement, and platform preview requirements.
+
+### References
+
+[433] [NIST CSRC Glossary — Verification](https://csrc.nist.gov/glossary/term/verification)
+[434] [NIST CSRC Glossary — Validation](https://csrc.nist.gov/glossary/term/validation)
+[435] [W3C — Understanding Success Criterion 1.2.2 Captions (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html)
+[436] [Section508.gov — Captions and Transcripts](https://www.section508.gov/create/captions-transcripts/)
+[437] [Instagram — Advancing Accessibility on Instagram](https://about.instagram.com/blog/tips-and-tricks/advancing-accessibility-on-instagram)
+[438] [TikTok for Business — Specifications for TikTok Interactive Add-on: Download Card](https://ads.tiktok.com/help/article/tiktok-interactive-add-on-download-card-ad-specifications?lang=en)
+[439] [YouTube Help — Add subtitles & captions](https://support.google.com/youtube/answer/2734796)
+[440] [A Bee in the Bonnet — Tech Editing and Test Knitting: When Do You Need Them?](https://www.abeeinthebonnet.com/blog/tech-editing-and-test-knitting-and-why-you-need-them/)
+[441] [Stitch & Scale local skill contracts — Knitwear QA, publishing/export, craft-business records, mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+### Research limit
+
+The NIST definitions support the criterion/evidence distinction but do not establish a product feature. The practitioner knitting page could not be extracted; only its search-result statement was used, and local project contracts carry the operational separation. Platform guidance is current at the checked URLs but may vary by account, region, format, and future UI changes. Product truth remains unverified until a versioned approved capture or product-proof registry entry supplies the exact surface and fields.
