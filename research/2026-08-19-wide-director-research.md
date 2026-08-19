@@ -6084,3 +6084,39 @@ Do not claim that Stitch & Scale currently exposes claim-attester relationships,
 [780] [W3C — Verifiable Credentials Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/)
 [781] [NIST — SP 800-63 Digital Identity Guidelines](https://pages.nist.gov/800-63-3/)
 [782] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-forty-first wide-research question: present is not fit for purpose — 20260819-212226
+
+### Research question
+
+When a recorded measurement or pattern output is used for a specific craft purpose, what proves it is fit for that purpose rather than merely present, saved, or structurally valid?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| NIST CSRC Glossary, *Fit for purpose* | 2026-08-19 | NIST describes fit for purpose as an informal term for a process, configuration item, or IT service capable of meeting objectives or service levels; suitable design, implementation, control, and maintenance are required. | Informal, ITIL-adapted term; not craft fit proof or Stitch & Scale product evidence. | Separate record existence/structure from intended use, constraints, acceptance test, limits, review, and decision. |
+| Craft Yarn Council, *Standard Body Measurements/Sizing* | 2026-08-19 | CYC connects body measurements to size choice, completed-garment measurements, schematics, ease, and project-pattern context. Its fit and length charts are guidelines; individual differences and pattern changes matter. | Craft guidance; not product proof, fit guarantee, or substitute for human technical review. | Ground the creative pain in a specific intended use and its limits, not generic “accurate output.” |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Calculation, technical editing, print, chart, schematic, test knit, records, exports, and mobile capture have separate evidence boundaries; no single fitness marker replaces them. | Internal workflow contracts, not current product proof. | Keep `fitness-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Present is not fit for purpose. Candidate angle: `fitness-state`. Hook: “Present is not fit for purpose.” Fictional proof surface: `INTENDED USE / INPUTS / CONSTRAINTS / OUTPUT / ACCEPTANCE TEST / LIMITS / REVIEWED / DECISION`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: one saved output approaches two different use gates; it passes only when intended use, inputs, constraints, acceptance test, limits, review, and decision are named. Emotional turn: “The record exists” becomes “The record is suitable for this decision.” Final line: “Name the purpose before you trust the result.”
+
+The candidate is distinct from `schema-state` (record structure), `calibration-state` (measurement reference/conditions), `context-state` (semantic attachment), `acceptance-criteria` (what a gate requires), `applicability-scope` (where a rule applies), `comparison-basis` (valid comparison), `publication-readiness` (release state), and `test-knit-coverage` (human evidence coverage). It focuses on intended use and fitness decision with inputs, constraints, output, acceptance test, limits, review, and decision—not shape, conditions, context, gate criteria alone, applicability, comparison, release, or coverage.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 140; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies intended use, inputs, constraints, output suitability, acceptance test, limits, reviewed fitness state, or decision semantics. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one craft output tied to an intended use with inputs, constraints, acceptance test, limits, reviewer, and decision, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes intended use, inputs, constraints, output suitability, acceptance test, limits, reviewed fitness state, or decision semantics. Do not use `INTENDED USE`, `INPUTS`, `CONSTRAINTS`, `OUTPUT`, `ACCEPTANCE TEST`, `LIMITS`, `REVIEWED`, or `DECISION` as current product UI. Do not claim sizing accuracy, fit outcome, compliance, or that a fitness marker replaces calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[783] [NIST CSRC Glossary — Fit for purpose](https://csrc.nist.gov/glossary/term/fit_for_purpose)
+[784] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+[785] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)

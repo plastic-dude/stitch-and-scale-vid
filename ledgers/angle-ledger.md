@@ -1512,3 +1512,13 @@ The nearest prior angle is `consent-state`, which asks whether permission exists
 ### Distinctness note — 20260819-211913
 
 The nearest prior angles are `review-expiry` or related review-state concepts, which ask whether a review exists or remains current. `attestation-state` changes the pain to the claim-to-attester relationship: who or what attests, under which role, linked evidence, scope, policy, issued/expiry context, and verification result. It changes the hook to “Reviewed is not attested”; the visual metaphor from a review status or expiry clock to a claim entering an attestation gate where reviewer name alone is insufficient; the proof surface from subject/scope/reviewed-at/expires/status to claim/attester/role/evidence/scope/issued/expires/policy/verified; the emotional turn from stale-review anxiety to bounded claim assurance; and the final line to “Name what the review actually attests.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+## Wide-research Director decision — fitness state — 20260819-212226
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `fitness-state` | A recorded measurement or pattern output may be used without proving it fits the intended craft purpose | “Present is not fit for purpose.” | Fictional intended-use/inputs/constraints/output/acceptance-test/limits/reviewed/decision card | From “The record exists” to “The record is suitable for this decision” | “Name the purpose before you trust the result.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-212226
+
+The nearest prior angle is `schema-state`, which asks whether a stored record has a defined structure. `fitness-state` changes the pain to whether an output is suitable for a stated use under constraints and a bounded acceptance test. It changes the hook to “Present is not fit for purpose”; the visual metaphor from a record entering a schema frame to one saved output approaching two different use gates; the proof surface from record-type/required-fields/constraints/dependencies/validation-result/version/reviewed to intended-use/inputs/constraints/output/acceptance-test/limits/reviewed/decision; the emotional turn from structure anxiety to suitability-for-decision; and the final line to “Name the purpose before you trust the result.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
