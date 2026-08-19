@@ -1,0 +1,37 @@
+receipt_id: PUB-20260820-terminal-state-deduplication-69b78cb
+created_at: '2026-08-20T06:44:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 875dbe211541dc923b3d1389269e8524d6ae480a
+remote_commit_after_blocker: 69b78cbcc693bef2e4cd2d5bf9198739c569ab48
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-review-lane-deduplication-terminal-state-0644.md
+  - comms/outbox/MSG-20260820T064400-temporary-director-093.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  What evidence and state distinction are needed to deduplicate repeated V002
+  holds without treating a hold, timeout, or acknowledgement as a terminal
+  review decision?
+research_decision: >-
+  Keep one stable V002 contract and append only materially new state. A repeated
+  hold without new state is not a lane transition and cannot create a new angle.
+next_action: >-
+  Human owner must supply accountable owner, bounded deadline, and escalation
+  target. Video Reviewer must publish the independent terminal decision packet.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
