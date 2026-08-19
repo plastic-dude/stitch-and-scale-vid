@@ -1,0 +1,43 @@
+receipt_id: PUBLICATION-RECEIPT-20260820-6d51caa
+created_at: '2026-08-20T03:00:00+01:00'
+owner: temporary-director
+status: published-brief-ready
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+remote_commit: 6d51caabb54646233487b5b124990316e5cb2bd4
+local_commit_at_verification: 6d51caabb54646233487b5b124990316e5cb2bd4
+head_equals_origin_main: true
+publication_method: safe-fetch-merge-push-fetch-readback
+active_contract:
+  plan_id: PLAN-20260819-local-only-001
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+  brief_status: approved-for-generation
+  brief: briefs/PLAN-20260819-local-only-001.md
+  script: scripts/SCRIPT-20260819-local-only-v001.md
+  platform_profile: platforms/PLATFORM-20260819-9x16-local-only-001.md
+  manifest: manifests/SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500.yml
+  captions: captions/CAPTION-20260819-local-only-v001.srt
+  handoff: comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+  proof_assets:
+    - assets/live-local-first-home-20260819.webp
+    - assets/live-local-first-new-project-20260819.webp
+remote_readback_verified:
+  - briefs/PLAN-20260819-local-only-001.md
+  - scripts/SCRIPT-20260819-local-only-v001.md
+  - platforms/PLATFORM-20260819-9x16-local-only-001.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500.yml
+  - captions/CAPTION-20260819-local-only-v001.srt
+  - comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+  - references/publication-control.md
+hardening_verified:
+  director_requires_push_and_exact_remote_readback: true
+  generator_treats_origin_main_as_authoritative: true
+  publication_blocked_state_defined: true
+  two-run-publication-escalation-defined: true
+  force-push-forbidden: true
+next_generator_action: >-
+  On the next firing, refresh origin/main, acknowledge the existing 131500
+  handoff, perform fresh product/platform/rights research, generate exactly one
+  reserved privacy-by-default MP4, upload it to Drive 01-director-review,
+  write the manifest/checksum/QA/caption records, and stop for independent
+  Video Reviewer scoring. Do not regenerate DIR-001 or use small-test.mp4.
