@@ -729,3 +729,13 @@ The nearest prior angle is `count-check`, which focuses on whether a numeric res
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `substitution-basis`, which focuses on comparing an original yarn with a substitute. `material-trace` changes the pain to whether the actual yarn in a project remains identifiable across lot, color, quantity, source, and use. It changes the hook to “Same color is not the same lot,” the visual metaphor from an original-versus-substitute comparison to `FIBER / WEIGHT / COLOR / DYE LOT / SKEINS / YARDAGE / SOURCE / DATE / PROJECT USE / STATUS`, the proof surface from technical substitution fields to a current material-trace surface, the emotional turn from deciding whether a substitute is comparable to preserving the identity of the material actually used, and the final line to “Record the lot before the loop.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — sample context — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `sample-context` | A sample image or note may be mistaken for a universal body or fit result instead of a specific size and context | “The sample is one size, not every size.” | One current, approved sample-context surface with sample size, model context, body measurements, finished measurements, yarn, gauge, photo reference, source, date, and status labels | Turning a beautiful sample into an honest reference rather than an unmarked fit promise | “Label the sample before you trust the picture.” | blocked; product proof, technical review, rights/consent/privacy, fit/model evidence, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `fit-intent`, which focuses on what kind of fit a designer intends. `sample-context` changes the pain to whether a maker knows what a photographed or described sample can—and cannot—prove. It changes the hook to “The sample is one size, not every size,” the visual metaphor from a fit-intent label to `SAMPLE SIZE / MODEL CONTEXT / BODY MEASUREMENTS / FINISHED MEASUREMENTS / YARN / GAUGE / PHOTO REFERENCE / SOURCE / DATE / STATUS`, the proof surface from intended-fit wording to a current sample-context surface, the emotional turn from naming an intended silhouette to turning a beautiful sample into an honest reference rather than an unmarked fit promise, and the final line to “Label the sample before you trust the picture.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

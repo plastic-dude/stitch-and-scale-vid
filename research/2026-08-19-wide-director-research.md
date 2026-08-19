@@ -2547,3 +2547,49 @@ Do not claim Stitch & Scale tracks inventory, predicts color continuity, validat
 [254] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [255] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Seventy-first wide-research question: one sample is not every size — 2026-08-19
+
+### Research question
+When a knitwear pattern shows a sample, what must a maker distinguish—sample size, model/body context, finished measurements, yarn/gauge, photographed garment, and design reference—without claiming Stitch & Scale manages samples or predicts fit?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers interpreting a sample image or sample note before trusting it as evidence. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Congratulations! You’ve Received the Go Ahead” | 2026-08-19; current page checked | CYC advises reconfirming yarn/color and same dye lot, confirming the sample garment size required to fit the photography model, keeping notes, and sizing the project against standards. | Designer submission guidance is not a sample-management system, model-fit guarantee, or Stitch & Scale product proof. | Separate sample size, model/body context, finished measurements, yarn/gauge, photo/use context, source/date, and status. |
+| Craft Yarn Council, “Standard Body Measurements/Sizing” | 2026-08-19; current page checked | CYC distinguishes actual body measurements from completed-garment sizing and schematics, and explains ease as a relationship between body and garment measurements; fit and length charts are guidelines. | General sizing context is not an individualized fit result or sample provenance record. | Keep sample/model/body/finished/ease context separate; do not treat a photographed sample as universal fit proof. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Sample, gauge, yarn, model/size context, measurements, source/date, technical editing, print/chart review, and test knitting are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for sample-context capture or fit validation. | Block sample management, model-fit, photographed-fit, and sample-to-pattern claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for sample-context capture, sample management, model/body context, photo linkage, sample-to-pattern validation, or fit inference. All 71 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “sample photo” into **whether a sample image or note is being mistaken for a universal body or fit result**. The fresh concept is `sample-context`: a fictional card places `SAMPLE SIZE / MODEL CONTEXT / BODY MEASUREMENTS / FINISHED MEASUREMENTS / YARN / GAUGE / PHOTO REFERENCE / SOURCE / DATE / STATUS`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no sample management, model matching, fit inference, or sample-to-pattern validation claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `fit-intent`, which focuses on what kind of fit a designer intends. `sample-context` changes the pain to **whether a maker knows what a photographed or described sample can—and cannot—prove**. The hook changes to “The sample is one size, not every size.” The visual metaphor changes from a fit-intent label to `SAMPLE SIZE / MODEL CONTEXT / BODY MEASUREMENTS / FINISHED MEASUREMENTS / YARN / GAUGE / PHOTO REFERENCE / SOURCE / DATE / STATUS`. The proof surface changes from intended-fit wording to a current sample-context surface. The emotional turn changes from naming an intended silhouette to turning a beautiful sample into an honest reference rather than an unmarked fit promise. The final line changes to “Label the sample before you trust the picture.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale manages sample garments, matches a sample to a model, predicts fit from a photo, validates size inclusion, or treats sample appearance as proof of garment outcomes without current product proof and qualified technical review. Do not use real models, customer images, private patterns, screenshots, logos, or copyrighted photos without scoped rights, consent, and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[256] [Craft Yarn Council — Designer Guidelines: Once You’ve Received the Go Ahead](https://www.craftyarncouncil.com/industry.html)
+
+[257] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
+
+[258] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[259] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[260] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[261] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
