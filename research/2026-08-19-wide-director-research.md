@@ -5562,3 +5562,47 @@ Do not claim that Stitch & Scale currently exposes recipient routing, delivery/s
 ### Research limit
 
 These sources establish status-message announcement, live-region error delivery, notification permission/urgency, and accountable handoff principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes recipient routing, delivery/seen/acknowledged/action/escalation/expiry states, accessible status announcements, or notification permission/urgency controls. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-twenty-eighth wide-research question: urgent is not important — 20260819-201226
+
+### Research question
+
+When several review items compete for attention, what proves the difference between impact, urgency, due time, priority, owner, and escalation rather than collapsing them into one alarming label?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| NIST SP 800-30 Rev. 1 — Guide for Conducting Risk Assessments | 2026-08-19 | Risk assessment supplies information for deciding appropriate courses of action in response to identified risks; risk should be assessed rather than treated as an unexplained label. | Government risk guidance; not a Stitch & Scale product claim. | Frame priority as an explainable decision, not a color or alarm alone. |
+| NIST Risk Management Framework | 2026-08-19 | Risk management is comprehensive, flexible, repeatable, and measurable, supporting decisions throughout a system life cycle. | Government risk guidance; no product behavior evidence. | Require repeatable impact/urgency/reason/owner records. |
+| W3C WCAG 2.2 — Status Messages | 2026-08-19 | Status messages communicate results, waiting/progress, or errors; important changes should be programmatically determinable without unnecessary focus changes. | Accessibility guidance; not a product claim. | Treat priority changes as accessible status, not color-only urgency. |
+| Apple HIG — Managing Notifications | 2026-08-19 | Notification delivery is permissioned and filtered; interruption levels carry different urgency; urgency should be represented accurately and high-priority interruption should not be used for low-priority content. | Apple platform guidance; no product behavior evidence. | Separate urgency from impact and permission; avoid alarm inflation. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Review items need truthful risk, owner, due, escalation, accessibility, caption, audio, and human-gate boundaries; urgency does not replace impact or human review. | Internal contracts, not current product behavior. | Block until two competing items show a defensible triage decision. |
+
+### Research synthesis and decision shift
+
+Urgent is not important. Candidate angle: `priority-state`. Hook: “Urgent is not important.” Fictional proof surface: `IMPACT / URGENCY / DUE / OWNER / PRIORITY / REASON / ESCALATION / REVIEWED`, explicitly illustrative until product proof verifies exact labels. Visual metaphor: multiple review cards separate into impact and urgency axes before entering a bounded queue. Emotional turn: alarm fatigue becomes defensible triage. Final line: “Name the reason before you raise the priority.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies impact/urgency fields, due times, owners, priority reasons, queue ordering, escalation rules, or accessibility exposure of priority changes. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `acknowledgement-state`, which concerns the lifecycle from message emission through delivery, seen, acknowledgement, action, escalation, and expiry. `priority-state` changes the pain to **several items competing for attention without an explainable reason for rank or urgency**. It changes the hook to “Urgent is not important”; the visual metaphor from a warning travelling through handoff gates to multiple review cards separating into impact and urgency axes before a bounded queue; the proof surface from message/recipient/delivered/seen/acknowledged/action/escalation/expires to impact/urgency/due/owner/priority/reason/escalation/reviewed; the emotional turn from accountable handoff to defensible triage; and the final line to “Name the reason before you raise the priority.”
+
+It is distinct from `risk-trigger`, which concerns whether a warning has a trigger; `acknowledgement-state`, which concerns message-to-action lifecycle; `consent-state`, which concerns permission; `response-state`, which concerns plan versus enacted response; `review-expiry`, which concerns review freshness; `intent-state`, which concerns action scope; and `outcome-proof`, which concerns improved outcome. `priority-state` focuses on why an item is ranked and what urgency means, not whether a message was delivered, acknowledged, or completed. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes impact/urgency fields, due times, owners, priority reasons, queue ordering, escalation rules, or accessible priority announcements. Do not use `IMPACT`, `URGENCY`, `DUE`, `OWNER`, `PRIORITY`, `REASON`, `ESCALATION`, or `REVIEWED` as current product UI. Do not claim triage, priority, urgency, notification reach, completion, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[730] [NIST — SP 800-30 Rev. 1: Guide for Conducting Risk Assessments](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
+[731] [NIST — Risk Management Framework](https://csrc.nist.gov/projects/risk-management)
+[732] [W3C — Understanding Success Criterion 4.1.3: Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html)
+[733] [Apple Developer — Human Interface Guidelines: Managing Notifications](https://developer.apple.com/design/human-interface-guidelines/managing-notifications)
+[734] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish risk-assessment, measurable lifecycle decision, accessible status-message, and notification-urgency principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes impact/urgency fields, due times, owners, priority reasons, queue ordering, escalation rules, or accessible priority announcements. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
