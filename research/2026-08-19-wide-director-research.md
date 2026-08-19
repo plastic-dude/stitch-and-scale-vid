@@ -1520,3 +1520,45 @@ Do not claim Stitch & Scale validates modifications, preserves grading after edi
 [136] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
 
 [137] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## Forty-eighth wide-research question: what state is the object in? — 2026-08-19
+
+### Research question
+How can a knitwear designer distinguish pre-blocking work, blocked measurements, and final care/shape conditions so a maker does not compare unlike states—without claiming Stitch & Scale tracks blocking or care outcomes?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and makers comparing samples, schematics, measurements, and finished objects. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Knit 911 — Finishing & Blocking” | 2026-08-19; current page checked | CYC distinguishes finishing (seaming and weaving in ends) from blocking, which evens stitches, flattens seams, and gives the garment a more professional appearance. It says yarn labels may require different care and blocking methods, and that damp or steamed garments can be warped or misshapen until dry. | General craft guidance, not a universal care standard and not Stitch & Scale proof. | A fresh concept should distinguish unfinished, blocked, and care-conditioned states before comparing dimensions or appearance. |
+| Elizabeth Smith Knits, “The Basics of Knitting Pattern Schematics” | 2026-08-19; current page checked | The guide describes a schematic as a blueprint with multiple directional measurements and says a single finished body/bust measurement is not enough; reviewing the full schematic supports understanding and alterations. It refers to finished measurements and blocking in the context of schematic interpretation. | One established designer’s practice, not universal policy and not Stitch & Scale proof. | The concept should show state and measurement context together instead of presenting one final-looking number as universal. |
+| Knitwear QA and publishing contracts | 2026-08-19; internal contracts | Physical print review, chart readability, schematic scale, localization, and human review remain distinct; rendered output is not proof of fit or final care outcome. | Internal design contracts, not current UI proof. | Select `finish-state`: make the condition of the object visible before comparing or trusting its dimensions. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for blocking-state labels, unfinished/finished states, care-condition notes, post-block measurement surfaces, or state-aware schematic/measurement records. All 48 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic finished measurement into **the condition of the object when a measurement or visual claim is made**. The fresh concept is `finish-state`: a fictional measurement card separates `UNFINISHED / BLOCKED / DRY / CARE-CONDITIONED`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product blocking, care, or final-outcome behavior is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `fit-intent`, which focuses on the meaning of body, finished garment, ease, and fit measurements. `finish-state` changes the pain to **whether a measurement or appearance comparison is being made before or after finishing, blocking, drying, or a care condition**. The hook changes to “A measurement needs a state.” The visual metaphor changes from body/garment/ease cards to `UNFINISHED / BLOCKED / DRY / CARE-CONDITIONED`. The proof surface changes from sizing/fit guidance to a current blocking-state label, finished/unfinished state, care-condition note, post-block measurement surface, or state-aware schematic/measurement record. The emotional turn changes from choosing with context to honest comparison through state context. The final line changes to “Name the state before you compare the number.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale tracks blocking, washing, drying, care instructions, finished-state measurements, or final garment outcomes without current proof. Do not claim any care method will produce a particular dimension or fit. Do not use real garments, photos, customer measurements, or private pattern files without scoped rights. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[138] [Craft Yarn Council — Knit 911](https://www.craftyarncouncil.com/knit911.html)
+
+[139] [Elizabeth Smith Knits — The Basics of Knitting Pattern Schematics](https://elizabethsmithknits.com/2023/03/17/the-basics-of-knitting-pattern-schematics/)
+
+[140] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[141] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

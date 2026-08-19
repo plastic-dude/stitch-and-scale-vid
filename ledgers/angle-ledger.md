@@ -499,3 +499,13 @@ The nearest prior angle is `brief-before-knit`, which focuses on whether the des
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `fit-intent`, which focuses on the meaning of body, finished garment, ease, and fit measurements. `mod-boundary` changes the pain to what remains reviewed after a maker changes an input, construction choice, or dimension. It changes the hook to “A modification is a new question, not a free pass,” the visual metaphor from body/garment/ease cards to `SUPPORTED CHANGE / PERSONAL MOD / RECHECK / NOT REVIEWED`, the proof surface from sizing/fit guidance to a customization, supported-alteration, post-edit-warning, modified-pattern, recheck, or human-review surface, the emotional turn from choosing with context to creative agency with honest review boundaries, and the final line to “Name what changed before you trust what remains.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — finish state — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `finish-state` | A measurement or appearance comparison can hide whether the object is unfinished, blocked, dry, or care-conditioned | “A measurement needs a state.” | One current, approved blocking-state label, finished/unfinished state, care-condition note, post-block measurement surface, or state-aware schematic/measurement record with exact labels | Honest comparison through state context rather than care automation or final-fit certainty | “Name the state before you compare the number.” | blocked; product proof, garment/care rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `fit-intent`, which focuses on the meaning of body, finished garment, ease, and fit measurements. `finish-state` changes the pain to whether a measurement or appearance comparison is being made before or after finishing, blocking, drying, or a care condition. It changes the hook to “A measurement needs a state,” the visual metaphor from body/garment/ease cards to `UNFINISHED / BLOCKED / DRY / CARE-CONDITIONED`, the proof surface from sizing/fit guidance to a blocking-state, finished/unfinished, care-condition, post-block measurement, or state-aware schematic surface, the emotional turn from choosing with context to honest comparison through state context, and the final line to “Name the state before you compare the number.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
