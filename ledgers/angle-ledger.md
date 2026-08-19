@@ -439,3 +439,13 @@ The nearest prior angle is `recovery-proof`, which focuses on proving restoratio
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `source-note`, which focuses on where a record came from. `basis-label` changes the pain to what kind of value this is and how much certainty its basis supports. It changes the hook to “A number needs a basis before it gets a job,” the visual metaphor from a citation/source card to `MEASURED / ESTIMATED / PLANNED / DERIVED`, the proof surface from a source note to a value-status, uncertainty, source/method, calculation-lineage, or measured-versus-derived surface, the emotional turn from traceability to calm honesty about what is known and provisional, and the final line to “Label the basis before you trust the result.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — rounding rule — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `rounding-rule` | A hidden conversion or rounding step can change the displayed or used result without showing which rule or stage produced it | “The last decimal place can change the next instruction.” | One current, approved unit-conversion display, rounding rule, calculation trace, intermediate-value view, precision control, or formula/method label with exact labels | Visible transformation before trust rather than mathematical accuracy or automatic grading certainty | “Show the rule before you trust the rounded result.” | blocked; product proof, value/formula rights/privacy, and platform validation missing |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `basis-label`, which focuses on whether a value is measured, estimated, planned, or derived. `rounding-rule` changes the pain to the hidden transformation between an input and the displayed or used result. It changes the hook to “The last decimal place can change the next instruction,” the visual metaphor from value-status cards to `INPUT / CONVERT / ROUND / USE`, the proof surface from provenance or basis labels to a conversion, rounding, calculation-trace, intermediate-value, precision-control, or formula/method surface, the emotional turn from basis humility to visible transformation before trust, and the final line to “Show the rule before you trust the rounded result.” It does not reopen, rename, overwrite, or consume the imported `false-completion` or `release-gate-roster` reservations.

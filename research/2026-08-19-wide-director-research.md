@@ -1257,3 +1257,48 @@ Do not claim Stitch & Scale exposes provenance, uncertainty, source/method notes
 [108] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [109] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Forty-second wide-research question: which rule changed this result? — 2026-08-19
+
+### Research question
+When a designer converts or rounds a measurement, gauge, cost, or calculated value, how can they see which rule and stage produced the displayed number before a small difference becomes a pattern or business-record decision—without claiming Stitch & Scale exposes unit conversion, rounding, or calculation policy?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers moving between measurements, gauges, costs, pattern counts, and derived values. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| NIST GLP 9, “Rounding Expanded Uncertainties and Calibration Values” | 2026-08-19; current PDF opened | NIST’s laboratory guidance says rounding should occur after the final expanded uncertainty is determined; the reported measurement result and uncertainty should be rounded to a consistent decimal place. It warns that intermediate rounding can cause rounding errors in the final result and says methods used should be documented. | Laboratory calibration guidance, not knitwear pattern grading or Stitch & Scale proof. | A rounding concept should show the rule and stage, not merely a changed display value; do not imply the app uses NIST rounding. |
+| ONS Service Manual, “Numbers” | 2026-08-19; URL opened but browser returned no readable page content | The current ONS numbers guidance was located, but no factual claim is taken from it because content did not load in this session. | No evidence from this failed page. | Retain uncertainty; do not cite ONS as support for the package. |
+| NIST metrology guidance | 2026-08-19; current page checked in prior pass | Traceability and uncertainty provide context for a result; traceability alone does not guarantee fitness for purpose. | General measurement guidance, not knitwear or product proof. | Keep the display rule separate from a fitness or accuracy claim. |
+| Craft-business records and mobile-maker contracts | 2026-08-19; internal contracts | Values need units, active context, validation state, and explicit record status; mobile surfaces must remain readable and not hide the basis of an action. | Internal design contracts, not current UI proof. | Select `rounding-rule`: make the transformation step visible before a number becomes a stitch, row, cost, or decision. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for unit-conversion displays, rounding rules, calculation traces, intermediate values, precision controls, or formula/method labels. All 42 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic number provenance into **transformation before use**. The fresh concept is `rounding-rule`: a value card shows `INPUT → CONVERT → ROUND → USE`, with a visible rule and stage before a result becomes a stitch, row, cost, or decision. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no product conversion or rounding policy is claimed.
+
+### Candidate distinctness
+
+The nearest prior angle is `basis-label`, which focuses on whether a value is measured, estimated, planned, or derived. `rounding-rule` changes the pain to **the hidden transformation between an input and the displayed or used result**. The hook changes to “The last decimal place can change the next instruction.” The visual metaphor changes from value-status cards to a transformation strip `INPUT / CONVERT / ROUND / USE`. The proof surface changes from provenance or basis labels to a current unit-conversion display, rounding rule, calculation trace, intermediate-value view, precision control, or formula/method label. The emotional turn changes from basis humility to visible transformation before trust. The final line changes to “Show the rule before you trust the rounded result.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale exposes unit conversion, rounding policy, calculation traces, intermediate values, precision controls, or formula/method labels without current proof. Do not claim a rounded value is accurate, safe, or fit for purpose. Do not invent results, formulas, or customer outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[110] [NIST — GLP 9: Rounding Expanded Uncertainties and Calibration Values](https://www.nist.gov/system/files/documents/2019/05/14/glp-9-rounding-20190506.pdf)
+
+[111] [ONS Service Manual — Numbers](https://service-manual.ons.gov.uk/content/numbers)
+
+[112] [NIST — Metrological Traceability: Frequently Asked Questions and NIST Policy](https://www.nist.gov/metrology/metrological-traceability)
+
+[113] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[114] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
