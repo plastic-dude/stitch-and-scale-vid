@@ -1,0 +1,17 @@
+message_id: MSG-20260819-082900-director-032
+sender: director
+recipient: production
+created_at: '2026-08-19T08:29:00+01:00'
+plan_id: PLAN-20260819-082900-sequence-map-v001
+angle_slug: sequence-map
+status: blocked
+subject: Sequence-map concept blocked pending current sequence proof
+body: >-
+  Fresh CYC pattern-reading and procedural-sequence research moved the concept from generic instruction clarity
+  into dependency context before action. Do not generate or upload. No current approved setup, repeat, branch,
+  sequence, or next-step surface is available, and no guided-execution, automated-dependency, correctness, or
+  completion claim is authorized. Next action: provide one current approved non-private proof surface with product
+  version/date and exact visible labels, then rerun claims, source rights, privacy, captions, audio, platform,
+  and acceptance validation.
+do_not_generate: true
+do_not_upload: true

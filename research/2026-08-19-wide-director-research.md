@@ -808,3 +808,31 @@ Research changed the concept from generic PDF accessibility into **meaning prese
 [63] [Craft Yarn Council — Schematics](https://www.craftyarncouncil.com/standards/schematics)
 
 [64] [Texas Tech University — Quick Guide to Creating Accessible PDFs](https://www.ttu.edu/accessibility/digital-accessibility/docs/accessible-pdf-guide.html)
+
+## Thirtieth wide-research question: what must happen before the next step? — 2026-08-19
+
+### Research question
+How can a pattern show when a setup, repeat, branch, or prior section is required before the next step without claiming Stitch & Scale performs dependency checking, guided execution, or pattern correctness validation?
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “How to Read a Knitting Pattern” | 2026-08-19; live page | CYC explains that knitting patterns use asterisks for repeated steps, brackets and parentheses for grouped/repeated stitches, and examples such as “rep from *” or a specified number of repeats. | Reference teaching guidance, not proof of a current Stitch & Scale dependency graph, repeat checker, or guided execution surface. | Focus on visible prerequisites and branch/repeat context, not automated pattern validation. |
+| Proxmox VE, “Technical Writing Style Guide” | 2026-08-19; live guide | The guide says each procedural step should specify one clear action, answer “What should I do next?”, use sequence transitions, and state purpose before action. | General technical-writing guidance, not craft-specific and not proof of a product step navigator. | Show `BEFORE / DO / REPEAT / THEN` as editorial prompts and require human sequence review. |
+| Local pattern QA and release-trust contracts | 2026-08-19; repository source | Canonical grading/data shapes and human gates must remain intact; technical editing, physical print review, chart readability, schematic scale, and test knitting are distinct from any workflow navigation. | Internal workflow guidance, not proof of current dependency support. | The proof surface must be a current approved setup/repeat/branch/sequence surface; absent proof, use a blocker card. |
+
+### Current product reconciliation
+No current product-proof registry or approved capture was supplied for setup markers, prerequisite labels, repeat indicators, branch conditions, next-step navigation, dependency warnings, or guided execution. There are no open reviewer/remake orders in `reviews/`, `orders/`, or `comms/inbox/`; imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames.
+
+### Creative implication
+The fresh concept is **`sequence-map`**: the tension is a step being visible while its prerequisite, repeat scope, or branch condition remains hidden. The hook is “Before the next row, show what it depends on.” The visual metaphor is a fictional instruction strip splitting into `BEFORE / DO / REPEAT / THEN`, with a branch line and no automated-ready badge. The proof surface must be one current, approved setup, repeat, branch, sequence, or next-step surface; absent proof, use an original blocker card labeled `ILLUSTRATIVE — NOT PRODUCT UI`.
+
+### Research decision changed
+Research changed the concept from generic instruction clarity into **dependency context before action**. The script must not claim guided execution, automated dependency checking, pattern correctness, or step completion. It may ask designers to expose setup, repeat, and branch context and review the sequence with a human, then invite current product proof for the exact surface.
+
+### References
+
+[65] [Craft Yarn Council — How to Read a Knitting Pattern](https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern)
+
+[66] [Proxmox VE — Technical Writing Style Guide](https://pve.proxmox.com/wiki/Technical_Writing_Style_Guide)

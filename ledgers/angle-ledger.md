@@ -319,3 +319,13 @@ The nearest prior angle is `decision-ledger`, which distinguishes recorded costs
 ### Distinctness note — 2026-08-19
 
 The nearest prior angle is `readability-under-load`, which concerns dense mobile reading and cognitive load. `paper-proof` changes the pain to a document looking complete on screen while a printed page changes what a maker can see or use, the hook to “If the paper changes the pattern, the proof is not done,” the visual metaphor from mobile reading to `SCREEN / PRINT / READ / RECHECK` with a physical page and schematic/table, the proof surface from mobile readability to print-preview/export/publication, the emotional turn from calm pacing under load to tactile rechecking across media, and the final line to “Hold the page. Recheck the meaning.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
+
+## Wide-research Director decision — sequence map — 2026-08-19
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `sequence-map` | A step can be visible while its prerequisite, repeat scope, or branch condition remains hidden | “Before the next row, show what it depends on.” | One current, approved setup, repeat, branch, sequence, or next-step surface with exact labels | Procedural orientation before action rather than guided-execution certainty | “Show the next step’s reason.” | blocked; product proof, sequence-rights review, and human-review wording missing; distinct from `notation-key`, `reader-handoff`, `paper-proof`, `false-completion`, and `release-gate-roster` |
+
+### Distinctness note — 2026-08-19
+
+The nearest prior angle is `notation-key`, which concerns local shorthand meaning and definition before decoding. `sequence-map` changes the pain to a step being visible while its prerequisite, repeat scope, or branch condition remains hidden, the hook to “Before the next row, show what it depends on,” the visual metaphor from a terminology key to `BEFORE / DO / REPEAT / THEN` with a branch line, the proof surface from abbreviation/notation/key to setup/repeat/branch/sequence/next-step context, the emotional turn from generous definition to procedural orientation before action, and the final line to “Show the next step’s reason.” It does not reopen or consume the imported `false-completion` or `release-gate-roster` reservations.
