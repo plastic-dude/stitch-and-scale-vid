@@ -1,0 +1,42 @@
+event_type: video-generator-bounded-run
+run_id: VIDEO-GENERATOR-20260819-1526
+occurred_at: '2026-08-19T15:26:00+01:00'
+timezone: Africa/Lagos
+channel: same-existing-task-and-conversation
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+video_created: false
+video_filename: null
+create_video_option: not_activated_due_to_failed_eligibility_gate
+summary: >-
+  Refreshed the repository and all fetched Director refs, checked for reviewer
+  remake orders first, performed fresh WIDE RESEARCH, verified the connected
+  Google Drive archive, and found no unprocessed Director-approved brief/script
+  pair. DIR-001 was excluded because it is already consumed and in
+  director-review. No generic or duplicate video was created.
+queue:
+  remake_orders_checked: true
+  remake_orders_found: 0
+  eligible_contracts_found: 0
+  dir001_regenerated: false
+research_note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-1526.md
+generator_qa: reviews/BLOCKED-no-eligible-director-contract-20260819-1526/generator-check.md
+manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-1526.yml
+drive:
+  connector_available: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  destination_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  upload_attempted: false
+  reason: no_mp4_created
+schedule:
+  task_uid: vYATwJ375SsaI2LpkY2lZH
+  interval_seconds: 900
+  enabled: true
+  repeated: true
+  run_as_new_task: false
+next_action: >-
+  At the next firing, refresh all refs, prioritize any new REMAKE_REQUIRED order,
+  then select the earliest newly added exact approved-for-generation Director
+  brief/script pair. Do not regenerate DIR-001.
+credential_note: >-
+  The scoped GitHub credential was used only at runtime; its value was not
+  printed, persisted, committed, or uploaded. Rotation is recommended.

@@ -1,0 +1,50 @@
+run_id: BLOCKED-no-eligible-director-contract-20260819-152758
+run_type: bounded_video_generator_execution
+run_started_at: '2026-08-19T15:27:58+01:00'
+status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+outcome: blocked
+video_generated: false
+video_filename: null
+video_sha256: null
+source_contract: null
+source_brief: null
+source_script: null
+source_remake_order: null
+queue:
+  repository: https://github.com/plastic-dude/stitch-and-scale-vid
+  inspected_head: 63f66c19b732a2c0a0679a3dcb1c0bf22baf19d5
+  approved_pairs_found:
+    - brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+      script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+      status: approved-for-generation
+      consumed_by: DIR-001
+  open_remake_required_orders: []
+  decision: no_unprocessed_eligible_director_contract
+research:
+  note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-152758.md
+  wide_research_required: true
+  wide_research_completed: true
+platform:
+  target: YouTube 16:9 product explainer
+  profile_id: PLATFORM-20260819-16x9-proof-short-001
+external_storage:
+  connector: Google Workspace
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  availability: verified
+  upload_required: true
+  upload_attempted: false
+  upload_block_reason: no_authorized_mp4
+  storage_status: available_not_used
+records:
+  qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-152758/generator-check.md
+  communication_event: comms/outbox/2026-08-19T152758-video-generator-blocked.yml
+  git_commit_initial: null
+  git_commit_final: null
+quality:
+  create_video_activated: false
+  reason_not_activated: no_eligible_director_contract
+  self_approval: false
+  reviewer_owns_final_score: true
+next_action: rescan_all_branches_prioritize_remake_required_then_select_earliest_new_approved_for_generation_contract
+credential_handling: scoped_runtime_only_not_exposed

@@ -1,0 +1,43 @@
+event_type: video_generator_run
+run_id: SS-generator-20260819-174340
+timestamp: 2026-08-19T17:43:40+01:00
+timezone: Africa/Lagos
+workflow: VIDEO GENERATOR — single chat
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+status: blocked
+single_chat_continuity: true
+child_task_created: false
+separate_chat_created: false
+bounded_run:
+  exactly_one_outcome: true
+  actual_mp4_created: false
+  create_video_activated: false
+queue:
+  reviewer_orders_checked: true
+  open_REMAKE_REQUIRED_orders: 0
+  eligible_new_director_pairs: 0
+  consumed_pair_excluded: DIR-001
+  consumed_brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+  consumed_script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+research:
+  mode: WIDE_RESEARCH
+  record: research/2026-08-19-blocked-no-eligible-director-contract-20260819-174340.md
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+storage:
+  connector: Google Workspace
+  available: true
+  authenticated: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  new_upload: false
+  external_storage_blocked: false
+records:
+  manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-174340.yml
+  qa: reviews/BLOCKED-no-eligible-director-contract-20260819-174340/generator-check.md
+  research: research/2026-08-19-blocked-no-eligible-director-contract-20260819-174340.md
+  git_commit: eb8d85a9213d9a0d70e9e5cd75d1732fa892e7e5
+next_action: refresh_all_refs_prioritize_new_REMAKE_REQUIRED_then_earliest_unprocessed_approved_for_generation_pair
+unresolved_risk: queue_starvation_while_DIR001_awaits_video_reviewer_scoring

@@ -1,0 +1,82 @@
+run_id: VIDEO-GENERATOR-20260819-164357
+run_timestamp: '2026-08-19T16:43:57+01:00'
+workflow: stitch-and-scale-video-generator
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+bounded_run: true
+single_chat_continuity: true
+create_video_activated: false
+reason: >-
+  No open REMAKE_REQUIRED order and no unprocessed Director brief/script pair
+  with exact approved-for-generation status was found across fetched refs.
+repository:
+  url: https://github.com/plastic-dude/stitch-and-scale-vid
+  local_path: /home/ubuntu/stitch-and-scale-vid-run
+  inspected_head: 78eaddefedb3c6e3054b18d8358f566298a324c6
+  refs_inspected:
+    - origin/main
+    - origin/director/2026-08-19-release-gate-roster
+    - origin/director/false-completion-human-gates-20260819
+    - origin/director/publication-readiness-second-shift-20260819
+  worktree_clean_before_records: false
+queue:
+  remake_orders_path: orders/
+  remake_orders_found: 0
+  remake_required_found: 0
+  eligible_briefs_found: 0
+  consumed_contract_excluded:
+    brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+    script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+    status: approved-for-generation
+    production_id: DIR-001
+    prior_output: videos/SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.mp4
+research:
+  fresh_wide_research: true
+  note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-164357.md
+  sources:
+    - url: https://support.google.com/youtube/answer/1722171?hl=en
+      authority: YouTube Help
+      topic: recommended upload encoding settings
+    - url: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+      authority: W3C WAI
+      topic: WCAG 2.2 prerecorded captions
+    - url: https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+      authority: Federal Trade Commission
+      topic: advertising substantiation
+production:
+  output_filename: null
+  output_mp4_created: false
+  output_count: 0
+  duplicate_or_overwrite: false
+  status: blocked
+  video_qa_applicable: false
+  qa_record: reviews/BLOCKED-no-eligible-director-contract-20260819-164357/generator-check.md
+drive:
+  connector_required: Google Workspace
+  connector_available: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  upload_required_before_completion: true
+  new_upload_attempted: false
+  external_storage_blocked: false
+  existing_dir001:
+    file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
+    filename: SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.mp4
+    mime_type: video/mp4
+    size_bytes: 14036843
+    drive_url: https://drive.google.com/file/d/1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp/view?usp=drivesdk
+schedule:
+  task_id: vYATwJ375SsaI2LpkY2lZH
+  title: VIDEO GENERATOR — single chat
+  status: active
+  interval_seconds: 900
+  timezone: Africa/Lagos
+  run_as_new_task: false
+qa:
+  result: blocked_before_generation
+  lessons_read: true
+  hard_gate_failure: no_eligible_director_contract
+  unresolved_risk: queue starvation while DIR-001 awaits Video Reviewer scoring
+next_action: >-
+  On the next firing, refresh all refs, prioritize any new REMAKE_REQUIRED order,
+  and otherwise select the earliest newly added exact approved-for-generation
+  Director brief/script pair. Do not regenerate DIR-001.

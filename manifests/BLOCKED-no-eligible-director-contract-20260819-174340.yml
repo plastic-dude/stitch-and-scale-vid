@@ -1,0 +1,92 @@
+run_id: SS-generator-20260819-174340
+run_timestamp: 2026-08-19T17:43:40+01:00
+timezone: Africa/Lagos
+workflow: VIDEO GENERATOR — single chat
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+status: blocked
+bounded_run:
+  exactly_one_outcome: true
+  actual_mp4_created: false
+  create_video_activated: false
+  reason: no_unprocessed_director_authorized_contract_and_no_open_remake_order
+  child_task_created: false
+  separate_chat_created: false
+  batch_generation: false
+  duplicate_generation: false
+repository:
+  url: https://github.com/plastic-dude/stitch-and-scale-vid
+  branch: main
+  head_before_run: f57a8f8f013615c5ea3cc78932354cbc89955dcb
+  worktree_clean_before_records: true
+  scoped_credential_used_runtime_only: true
+  credential_exposed: false
+queue:
+  refs_inspected: all_fetched_origin_refs
+  selection_policy: reviewer_remake_first_then_first_run_catch_up
+  orders_path_found: false
+  open_remake_required_orders: 0
+  eligible_approved_brief_count: 0
+  consumed_excluded_pair:
+    plan_version: PLAN-20260819-spreadsheet-11pm-001
+    brief_path: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+    script_version: SCRIPT-20260819-spreadsheet-11pm-v001
+    script_path: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+    prior_status: director-review
+    prior_video_id: SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800
+    prior_drive_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
+    prior_sha256: 889f89ad5d19c1763e97aad06b9e406512634670e836498a22fce6dfea9acfdd
+research:
+  mode: WIDE_RESEARCH
+  note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-174340.md
+  sources:
+    - title: YouTube recommended upload encoding settings
+      url: https://support.google.com/youtube/answer/1722171?hl=en
+      finding: MP4 container, H.264 video codec, AAC-LC or Opus or Eclipsa Audio supported
+    - title: Understanding SC 1.2.2 Captions (Prerecorded)
+      url: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+      finding: synchronized captions required for prerecorded synchronized media; include dialogue, speaker identification, and meaningful sound information; captions should not obstruct relevant video information
+    - title: FTC Policy Statement Regarding Advertising Substantiation
+      url: https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+      finding: objective express and implied claims require a reasonable basis before dissemination
+  direct_retrieval_verified: 2026-08-19
+lessons:
+  path: production-lessons/test-video-lessons.md
+  read_before_decision: true
+  applied: safe_caption_zone_proof_legibility_generated_text_not_product_truth_narrator_continuity_external_archive
+external_storage:
+  connector: Google Workspace
+  available: true
+  authenticated: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  archive_root_name: Stitch & Scale Video Archive
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  director_review_folder_name: 01-director-review
+  existing_dir001_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
+  new_upload_attempted: false
+  upload_block_reason: no_mp4_created
+  blocked_external_storage: false
+schedule:
+  task_uid: vYATwJ375SsaI2LpkY2lZH
+  name: VIDEO GENERATOR — single chat
+  status: active
+  enabled: true
+  interval_seconds: 900
+  run_as_new_task: false
+  timezone: Africa/Lagos
+output:
+  filename: null
+  sha256: null
+  mime_type: null
+  byte_size: null
+qa:
+  generator_qa: not_applicable_video_not_created
+  video_level_qa: not_applicable
+  drive_upload_qa: not_applicable
+  hard_rejection_triggered: false
+records:
+  research_note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-174340.md
+  qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-174340/generator-check.md
+  communication_event: comms/outbox/20260819T174340-video-generator-blocked.yml
+  final_git_commit: eb8d85a9213d9a0d70e9e5cd75d1732fa892e7e5
+next_action: refresh_all_refs_prioritize_new_REMAKE_REQUIRED_then_earliest_unprocessed_approved_for_generation_pair
+unresolved_risk: queue_starvation_while_DIR001_awaits_video_reviewer_scoring

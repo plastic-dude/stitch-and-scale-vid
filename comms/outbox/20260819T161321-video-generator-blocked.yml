@@ -1,0 +1,35 @@
+event_type: video-generator-run
+run_id: VIDEO-GENERATOR-20260819-161321
+timestamp: '2026-08-19T16:13:21+01:00'
+channel: same-chat
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+message: >-
+  Bounded run completed with no MP4 because no unprocessed Director-authorized
+  contract was available. No REMAKE_REQUIRED order was found on any fetched ref.
+  DIR-001 was verified as already consumed and was not regenerated. Fresh WIDE
+  RESEARCH was completed from official YouTube, W3C, and FTC sources. Google Drive
+  archive access was available and verified; no upload was attempted because no
+  MP4 was created. Next run must refresh all refs, prioritize a new
+  REMAKE_REQUIRED order if present, otherwise select the earliest new exact
+  approved-for-generation brief/script pair.
+source_brief: null
+source_script: null
+source_remake_order: null
+mp4_filename: null
+mp4_sha256: null
+drive:
+  connector: Google Workspace
+  available: true
+  authenticated: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  upload_status: not_applicable_no_mp4
+research_note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-1612.md
+qa_record: reviews/BLOCKED-no-eligible-director-contract-20260819-161321/generator-check.md
+manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-161321.yml
+schedule:
+  task_id: vYATwJ375SsaI2LpkY2lZH
+  interval_seconds: 900
+  run_as_new_task: false
+  enabled: true
+next_action: refresh_all_refs_then_prioritize_remake_required_or_earliest_new_approved_for_generation_pair

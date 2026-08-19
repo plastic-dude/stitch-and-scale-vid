@@ -1,0 +1,64 @@
+run_id: BLOCKED-no-eligible-director-contract-20260819-144738
+run_type: bounded-video-generator-execution
+status: blocked
+blocked_reason: no-eligible-director-contract
+created_at: '2026-08-19T14:47:38+01:00'
+completed_at: '2026-08-19T14:48:54+01:00'
+repository: https://github.com/plastic-dude/stitch-and-scale-vid
+repository_head_at_refresh: 63f66c19b732a2c0a0679a3dcb1c0bf22baf19d5
+source_authority: Director repository materials only
+
+queue:
+  reviewer_orders_directory: orders/
+  open_remake_required_orders: []
+  eligible_director_contracts: []
+  consumed_contracts:
+    - brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+      script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+      production_id: DIR-001
+      status: already-produced
+  inspected_branches:
+    - origin/director/2026-08-19-release-gate-roster
+    - origin/director/false-completion-human-gates-20260819
+    - origin/director/publication-readiness-second-shift-20260819
+  blocked_candidates:
+    - release-gate-roster
+    - false-completion-human-gates
+    - publication-readiness-second-shift
+  decision: Do not regenerate DIR-001 and do not generate from blocked or director-review material.
+
+research:
+  wide_research_required: true
+  wide_research_note: research/2026-08-19-blocked-no-eligible-director-contract-144738.md
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+
+video:
+  create_video_activated: false
+  mp4_generated: false
+  output_filename: null
+  sha256: null
+  runtime_seconds: null
+  platform_profile: YouTube 16:9 product explainer; no output produced
+
+external_storage:
+  connector: Google Workspace / Drive
+  archive_root_folder_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  archive_root_name: Stitch & Scale Video Archive
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  director_review_folder_name: 01-director-review
+  access_verified: true
+  upload_attempted: false
+  upload_required_for_eligible_mp4: true
+  blocked_external_storage: false
+  reason_no_upload: No authorized MP4 existed.
+
+records:
+  qa_report: reviews/BLOCKED-no-eligible-director-contract-20260819-144738/generator-check.md
+  communication_event: comms/outbox/2026-08-19T144738-video-generator-blocked.yml
+  initial_git_commit: af6169dc64df29eaca659354760dcaca4fa15874
+  final_git_commit: null
+
+next_action: On the next firing, refresh all branches, prioritize any new REMAKE_REQUIRED order, and otherwise select the earliest newly added Director brief with exact status approved-for-generation.

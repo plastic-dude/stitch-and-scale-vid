@@ -1,0 +1,51 @@
+event_id: 20260819T171352-video-generator-blocked
+occurred_at: '2026-08-19T17:13:52+01:00'
+channel: single-existing-task-and-conversation
+run_id: 20260819-171352
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+message_type: bounded_run_result
+one_outcome_only: true
+video_created: false
+create_video_activated: false
+reason: no_unprocessed_director_authorized_contract
+queue:
+  remake_orders_checked_first: true
+  open_remake_required_orders: 0
+  exact_new_approved_for_generation_pairs: 0
+  consumed_contract_excluded: DIR-001
+  queue_evidence: queue_eligibility_current_20260819-1611.txt
+  refs_inspected:
+    - origin/main
+    - origin/director/2026-08-19-release-gate-roster
+    - origin/director/false-completion-human-gates-20260819
+    - origin/director/publication-readiness-second-shift-20260819
+research:
+  fresh_wide_research: true
+  note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-171352.md
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+storage:
+  connector_available: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  upload_attempted: false
+  drive_file_id: null
+  existing_dir001_drive_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
+qa:
+  record: reviews/BLOCKED-no-eligible-director-contract-20260819-171352/generator-check.md
+  result: blocked_before_generation
+records:
+  manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-171352.yml
+  research: research/2026-08-19-blocked-no-eligible-director-contract-20260819-171352.md
+  qa: reviews/BLOCKED-no-eligible-director-contract-20260819-171352/generator-check.md
+  final_git_commit: 80a0234bf8dac54ee5899fed83780ec34037e3fb
+schedule:
+  task_id: vYATwJ375SsaI2LpkY2lZH
+  interval_seconds: 900
+  timezone: Africa/Lagos
+  run_as_new_task: false
+next_action: refresh_all_refs_and_prioritize_new_REMAKE_REQUIRED_or_earliest_unprocessed_approved_for_generation_pair
+unresolved_risk: queue starvation while DIR-001 awaits Video Reviewer scoring
+credential_note: classic GitHub credential must be rotated; no credential value exposed
