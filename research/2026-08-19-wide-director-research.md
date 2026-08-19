@@ -1033,3 +1033,51 @@ Do not claim Stitch & Scale has contributor contracts, tester payment, credit ma
 [84] [TikTok Support — Accessibility for your videos](https://support.tiktok.com/en/using-tiktok/creating-videos/accessibility)
 
 [85] [Little Skein — Let's talk about the good and the bad of test knitting](https://littleskein.substack.com/p/lets-talk-about-the-good-and-the)
+
+## Thirty-seventh wide-research question: what must be disclosed when the test changes? — 2026-08-19
+
+### Research question
+When a pattern version, milestone, deadline, or required size changes after a test knit has begun, what must be disclosed so the maker can understand what changed, what remains valid, and whether to continue—without claiming Stitch & Scale has notifications, change logs, or automatic rechecks?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers who may invite test knitters or sample makers. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| GOV.UK Design System, “Notification banner” | 2026-08-19; current page checked | The guidance says a notification banner tells users about something they need to know that is not directly related to the page content. It gives examples such as a service-wide problem, an approaching deadline, or an outcome from a previous step. It says banners should be used sparingly because users often miss them, directly relevant information belongs in main content, multiple banners should be avoided, and semantic roles/headings should carry meaning rather than color alone. | Government component guidance, not proof of Stitch & Scale notifications, version history, test-knit updates, or app capabilities. | A mid-test change should be explicit, scoped, and placed where the user must act; do not hide a changed deadline, pattern version, or requirement in a decorative banner or assume a notification system exists. |
+| GOV.UK content and publishing guidance, “Help users prepare for change” | 2026-08-19; search result URL opened | The search result identified a topic about identifying exactly when users need to know about a change, but the opened URL returned a 404 page in this environment. | No factual claim is taken from the snippet or failed URL. | Keep advance-notice timing as an open research concern, not as a proven product or government rule. |
+| Yarnpond, “System description” | 2026-08-19; current public page rechecked | Yarnpond says that when a designer uploads a new updated pattern version, all testers for that pattern are notified by email. It also describes designer-controlled milestones, tester progress checks, movable milestone dates, deadlines, sizes, requirements, rewards, and in-progress pictures. | One platform’s documented workflow, not a universal craft norm or Stitch & Scale proof. | The fresh audience pain is a change arriving after a test has begun: version, milestone, deadline, or requirement changes need an explicit notice and re-check path. |
+| Edie Eckman, “Pattern Testing Questions & Answers” | 2026-08-19; page dated 13 November 2020 | The article stresses deadlines, gauge, attention to instructions and diagrams, photos, and immediate issue reporting; it distinguishes test knitters, sample stitchers, and technical editors. | One designer’s educational Q&A from 2020; not a current universal policy. | A changed requirement can affect labor and evidence; preserve prior work and tell the maker what changed before asking for more. |
+| Repository craft-business and mobile-maker contracts | 2026-08-19; internal contracts | Records should preserve history rather than overwrite it; active context, project, size, unit, unsaved state, validation result, interruption, and recovery state should remain visible. | Internal design contracts, not proof of current change-log UI or notification behavior. | Select `change-notice`, not a generic version-history or correction concept: focus on the moment an active tester must decide whether a change affects their work. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for version diffs, change notices, milestone updates, deadline changes, tester alerts, re-acknowledgement, or automatic rechecks. All 37 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic version awareness into **change disclosure during an active test**. The fresh concept is `change-notice`: a designer pauses before asking a tester for more work because the new version, changed requirement, milestone, or deadline may alter what the maker already did. The visual device is a fictional change card marked `ILLUSTRATIVE — NOT PRODUCT UI` with `WHAT CHANGED / WHAT REMAINS VALID / NEXT DECISION`.
+
+### Candidate distinctness
+
+The nearest prior angle is `correction-trace`, which focuses on locating a post-release correction and identifying which copy carries it. `change-notice` moves earlier and centers an active test participant deciding whether a new ask affects work already underway. The hook changes to “A new version is a new ask until you show what changed.” The visual metaphor changes from an old copy traveling toward a current correction record to a test card splitting into `VERSION / CHANGE / IMPACT / CONTINUE?`. The proof surface changes from version/errata history to a current version-diff, change notice, milestone update, revision summary, or tester re-acknowledgement surface. The emotional turn changes from accountable maintenance after release to agency before continuing labor. The final line changes to “Show what changed before you ask for more.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale has version notifications, change logs, automatic tester alerts, milestone management, deadline changes, rechecks, re-acknowledgements, or consent workflows without current proof. Do not imply that a new version invalidates all prior work or that a warning means a defect exists. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. Use only original fictional cards or current approved proof; never treat generated text as UI truth.
+
+### References
+
+[86] [GOV.UK Design System — Notification banner](https://design-system.service.gov.uk/components/notification-banner/)
+
+[87] [GOV.UK Content and publishing guidance — Help users prepare for change](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/help-users-prepare-for-change/)
+
+[88] [Yarnpond — System description](https://www.yarnpond.com/system_description)
+
+[89] [Edie Eckman — Pattern Testing Questions & Answers](https://www.edieeckman.com/2020/11/10/pattern-testing-questions-and-answers/)
+
+[90] [Stitch & Scale — Mobile maker workflows contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+[91] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
