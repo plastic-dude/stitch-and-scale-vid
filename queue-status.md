@@ -1,1 +1,2 @@
 2026-08-19T16:57:55+01:00 — No eligible unprocessed Director contract found after all-ref audit; DIR-001 is already consumed, no open REMAKE_REQUIRED order exists, and no video was generated in this run.
+2026-08-19T18:12:00+01:00 — No new MP4 authorized: no open REMAKE_REQUIRED order; both exact approved Director briefs are consumed, and the active local-only contract remains held for independent Video Reviewer scoring. Drive v002 remains verified in 01-director-review.
