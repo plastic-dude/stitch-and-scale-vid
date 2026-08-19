@@ -1,0 +1,18 @@
+message_id: MSG-20260819T131500-temporary-director-003
+acknowledged_at: '2026-08-19T17:16:30+01:00'
+from: video-generator
+to: director
+source_message: comms/outbox/MSG-20260819T131500-temporary-director-003.yml
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v001_approved-for-generation_20260819-131500
+status: acknowledged
+acknowledgement: >-
+  The Generator accepts the approved privacy-by-default brief, exact version-matched script,
+  approved product captures, vertical platform profile, and caption track as the production contract.
+  One MP4 will be generated, QA-checked, uploaded to 01-director-review, recorded in Git without
+  storing the MP4 in Git, and then stopped for independent Video Reviewer scoring.
+constraints_reaffirmed:
+  - Do not regenerate DIR-001.
+  - Do not use small-test.mp4.
+  - Do not redraw or hallucinate UI text or invent backup/cloud-sync controls.
+  - Do not place captions or overlays over proof, warning text, fields, buttons, or logos.
+  - Do not self-approve or publish.
