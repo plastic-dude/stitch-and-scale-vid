@@ -5164,3 +5164,47 @@ Do not claim that Stitch & Scale currently exposes unit-aware fields, unit selec
 ### Research limit
 
 These sources establish measurement and labeling principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes unit-aware fields, conversion controls, unit-preserving grading, or unit-labeled exports. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.
+
+## One-hundred-nineteenth wide-research question: entered is not intended — 20260819-190929
+
+### Research question
+
+What proves whether a value was manually entered, inherited, copied, defaulted, autofilled, estimated, or system-derived before it feeds grading or export?
+
+### Sources, dates, evidence, and decision impact
+
+| Source | Date/status checked | Evidence used | Limit | Decision changed |
+|---|---|---|---|---|
+| WHATWG HTML Living Standard — Form control infrastructure | Living standard checked 2026-08-19; page last updated 2026-08-18 | A control has internal value state that can differ from the user's current input; default value and user-edited dirty value are distinct; a value can be changed by user edit or script and controls can be automatically prefilled. | Web-platform semantics; not a Stitch & Scale product claim. | Make the concept about origin at capture, not just the displayed value. |
+| W3C WCAG 2.2 — Identify Input Purpose | 2026-08-19 | Visible labels and programmatically identifiable input purpose help users understand fields; autofill can reduce manual entry while still allowing confirmation or change. | Accessibility guidance; no product evidence. | Require visible field purpose and explicit origin/confirmation proof in any future capture. |
+| W3C ACT Rule — Autocomplete attribute | 2026-08-19 | Valid autocomplete tokens have ordering rules; user agents may offer autofill even when control type and semantic purpose diverge. | Conformance rule; not a product capability claim. | Distinguish value origin from field semantics and display. |
+| W3C HTML 5.1 Forms | 2026-08-19 | Forms need labels, validation, explicit input purpose, and separate handling for automatic filling and mobile input modalities. | Older working draft; conceptual support only. | Add default/autofill/user/system distinctions and mobile confirmation. |
+| Stitch & Scale local QA, craft-business, mobile-maker, and publishing/export contracts | Re-read 2026-08-19 | Recorded, derived, estimated, planned, and human-reviewed values remain distinct; interrupted mobile capture and grading/export evidence cannot be inferred from a displayed value. | Internal contracts, not current product behavior. | Block until one field's origin and one downstream use are directly verified. |
+
+### Research synthesis and decision shift
+
+A visible value is not enough if its origin is unknown. Candidate angle: `input-state`. Hook: “Entered is not intended.” Fictional proof surface: `ORIGIN / ENTERED BY / DEFAULTED? / COPIED FROM / INHERITED FROM / ESTIMATED? / REVIEWED? / USED IN`. Visual metaphor: one numeric field branches into manual, default, copied, inherited, estimated, and derived origins; downstream use pauses until origin is understood. Emotional turn: silent assumption becomes accountable capture. Final line: “Name how the value got here.”
+
+### Product-state reconciliation and distinctness
+
+No current product-proof registry or approved capture verifies manual/default/inherited/copied/autofilled/estimated/derived origin markers, dirty/untouched state, user-versus-system change records, input-purpose metadata, confirmation controls, or downstream use mapping. `reviews/`, `orders/`, and `comms/inbox/` are absent at refresh; no open CRITICAL/HIGH remake order exists. Imported `false-completion` and `release-gate-roster` were inspected; both remain blocked, their filenames remain occupied, and neither is reopened, renamed, overwritten, or approved.
+
+The nearest prior angle is `unit-state`, which preserves unit, scale, and reference attachment. `input-state` changes the pain to **a visible value whose origin is unknown because default, copied, inherited, estimated, autofilled, and user-entered states look alike**. It changes the hook to “Entered is not intended”; the visual metaphor from a value acquiring a unit/reference lock to an origin branch before downstream use; the proof surface from value/unit/scale/reference/conversion/display fields to origin, actor, default, copy, inheritance, estimate, review, and use fields; the emotional turn from number confusion to accountable capture; and the final line to “Name how the value got here.”
+
+It is distinct from `value-state`, `default-state`, `inherited-thread`, `authority-state`, `absence-state`, `unit-state`, and `reproducibility-state` because those concepts respectively concern semantic value classification, unspecified-field behavior, context carried from prior work, control authority, non-values, unit/reference attachment, and rerun evidence. `input-state` focuses on interaction and origin provenance at capture. It does not reopen or consume imported `false-completion` or `release-gate-roster` reservations.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes origin markers, dirty flags, autofill semantics, input-purpose metadata, confirmation controls, or origin-aware grading/export. Do not use `ORIGIN`, `ENTERED BY`, `DEFAULTED?`, `COPIED FROM`, `INHERITED FROM`, `ESTIMATED?`, `REVIEWED?`, or `USED IN` as current product UI. Do not claim data provenance, autofill safety, calculation accuracy, fit, adoption, revenue, or outcomes. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[684] [WHATWG — Form control infrastructure](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html)
+[685] [W3C — Understanding Success Criterion 1.3.5: Identify Input Purpose](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html)
+[686] [W3C — ACT Rule: Autocomplete attribute has valid value](https://www.w3.org/WAI/standards-guidelines/act/rules/73f2c2/)
+[687] [W3C — HTML 5.1 Forms](https://www.w3.org/TR/2016/WD-html51-20160412/sec-forms.html)
+[688] [Stitch & Scale local skill contracts — QA, craft-business, mobile-maker, and publishing/export workflows](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+### Research limit
+
+These sources establish form-state, input-purpose, autofill, and data-origin principles, not Stitch & Scale product behavior. The candidate does not claim that the app currently exposes origin markers, dirty flags, autofill semantics, input-purpose metadata, or origin-aware grading/export. Product truth remains unverified until a versioned approved capture or registry entry supplies the exact surface and behavior.

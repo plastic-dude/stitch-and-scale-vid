@@ -1,0 +1,19 @@
+message_id: MSG-20260819-190929-director-121
+created_at: 2026-08-19T19:09:29+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_input-state_9x16_v001_blocked_20260819-190929
+parent_id: BRF-founder-proof-input-state-9x16-v001
+status: blocked
+summary: Input-state concept is blocked because no current approved product proof verifies value origin, user-versus-system change state, confirmation, or downstream use mapping.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass119-browser-findings.md
+  - briefs/SS_founder-proof_input-state_9x16_v001_blocked_20260819-190929.md
+  - scripts/SS_founder-proof_input-state_9x16_v001_blocked_20260819-190929.md
+  - platforms/SS_founder-proof_input-state_9x16_v001_matrix_20260819-190929.md
+  - ledgers/20260819-input-state.md
+  - manifests/SS_founder-proof_input-state_9x16_v001_blocked_20260819-190929.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry for one field showing exact origin, user/system change state, confirmation, and one downstream use; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.
