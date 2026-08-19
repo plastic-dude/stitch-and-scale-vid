@@ -4,7 +4,9 @@
 
 **Status:** `BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT`  
 **Run:** `BLOCKED-no-eligible-director-contract-20260819-140638`  
-**Run timestamp:** 2026-08-19 14:06:38 Africa/Lagos
+**Run timestamp:** 2026-08-19 14:06:38 Africa/Lagos  
+**Completion timestamp:** 2026-08-19 14:07:38 Africa/Lagos  
+**First record commit:** `c58b4474774118ef33a4b85c0745b2ff8c1bae11`
 
 No MP4 was generated. This is one bounded blocked outcome, not a batch and not a substitute deliverable.
 
@@ -42,7 +44,7 @@ The connected Google Workspace Drive archive was reachable. The root archive fol
 | Rights | BLOCKED | Publication-readiness rights gates unresolved |
 | Checksum | NOT APPLICABLE | No MP4 output |
 | Google Drive archive | PASS | Connector reachable; no upload target existed |
-| Git record | PENDING | Commit after all four bounded-run records are written |
+| Git record | PASS | First record commit: `c58b4474774118ef33a4b85c0745b2ff8c1bae11` |
 
 ## Hard-rejection avoidance
 

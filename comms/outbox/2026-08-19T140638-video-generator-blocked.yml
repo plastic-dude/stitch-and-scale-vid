@@ -1,6 +1,7 @@
 event_type: video_generator_bounded_run
 run_id: BLOCKED-no-eligible-director-contract-20260819-140638
 occurred_at: '2026-08-19T14:06:38+01:00'
+completed_at: '2026-08-19T14:07:38+01:00'
 conversation_scope: same_existing_task_and_conversation
 status: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
 video_id: null
@@ -31,4 +32,4 @@ next_action: >-
   On the next firing, refresh all branches, prioritize any new REMAKE_REQUIRED order, and otherwise
   select the earliest newly added Director brief with exact status approved-for-generation. Do not
   regenerate DIR-001 or use the blocked publication-readiness pair.
-git_commit: PENDING_FIRST_RECORD_COMMIT
+git_commit: c58b4474774118ef33a4b85c0745b2ff8c1bae11
