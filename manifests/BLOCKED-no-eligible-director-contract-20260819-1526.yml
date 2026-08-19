@@ -1,0 +1,90 @@
+run_id: VIDEO-GENERATOR-20260819-1526
+run_type: bounded-single-chat-production
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+created_at: '2026-08-19T15:26:00+01:00'
+timezone: Africa/Lagos
+repository: https://github.com/plastic-dude/stitch-and-scale-vid
+repository_head_at_inspection: e0f5297fbd7dd64481651467269dd0218e20c227
+repository_worktree_clean_at_inspection: true
+schedule:
+  task_uid: vYATwJ375SsaI2LpkY2lZH
+  name: VIDEO GENERATOR — single chat
+  interval_seconds: 900
+  repeated: true
+  enabled: true
+  run_as_new_task: false
+  single_chat_continuity: true
+queue:
+  remake_orders_checked: true
+  remake_orders_found: 0
+  eligible_contracts_found: 0
+  branches_checked:
+    - ref: origin/director/2026-08-19-release-gate-roster
+      head: 9171eb6
+      approved_for_generation_briefs: 0
+      remake_orders: 0
+    - ref: origin/director/false-completion-human-gates-20260819
+      head: 17fa997
+      approved_for_generation_briefs: 0
+      remake_orders: 0
+    - ref: origin/director/publication-readiness-second-shift-20260819
+      head: ac4b6cd
+      approved_for_generation_briefs: 0
+      remake_orders: 0
+    - ref: origin/main
+      head: e0f5297
+      approved_for_generation_briefs: 1
+      remake_orders: 0
+  consumed_contract_excluded:
+    brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+    script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+    production_id: DIR-001
+    prior_status: director-review
+    prior_manifest: manifests/SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.yml
+  director_refs_blocked_or_review_only: true
+research:
+  wide_research_required: true
+  wide_research_completed: true
+  research_note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-1526.md
+  sources:
+    - title: YouTube recommended upload encoding settings
+      url: https://support.google.com/youtube/answer/1722171?hl=en
+    - title: Understanding Success Criterion 1.2.2 Captions (Prerecorded)
+      url: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - title: FTC Policy Statement Regarding Advertising Substantiation
+      url: https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+production:
+  create_video_activated: false
+  reason_not_activated: no_unprocessed_director_authorized_contract
+  mp4_created: false
+  mp4_filename: null
+  video_checksum_sha256: null
+  video_qa: not_applicable_no_video
+  caption_qa: not_applicable_no_video
+  audio_qa: not_applicable_no_video
+drive:
+  connector_required: true
+  connector_available: true
+  connector_authenticated: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  archive_root_url: https://drive.google.com/drive/folders/1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  destination_folder: 01-director-review
+  destination_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  upload_required_before_completion: true
+  upload_attempted: false
+  upload_verified: false
+  upload_not_attempted_reason: no_mp4_created
+  external_storage_block: false
+records:
+  research_note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-1526.md
+  generator_qa: reviews/BLOCKED-no-eligible-director-contract-20260819-1526/generator-check.md
+  communication_event: comms/outbox/20260819T1526-video-generator-blocked.yml
+  git_commit: pending
+next_action: refresh_all_refs_next_firing_prioritize_new_REMAKE_REQUIRED_else_earliest_exact_approved_for_generation_pair
+credential_handling:
+  scoped_runtime_only: true
+  token_printed: false
+  token_persisted: false
+  token_committed: false
+  token_uploaded: false
+  rotation_recommended: true
