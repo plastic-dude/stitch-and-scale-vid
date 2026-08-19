@@ -60,8 +60,8 @@ external_storage:
 records:
   qa_report: "reviews/BLOCKED-no-eligible-director-contract-20260819-150630/generator-check.md"
   communication_event: "comms/outbox/2026-08-19T150630-video-generator-blocked.yml"
-  initial_record_commit: null
-  final_repository_commit: null
+  initial_record_commit: "e0816ceccc9ff033b46365b489f5661b6c4d4635"
+  final_repository_commit_before_traceability_update: "477b52941b6f9b45e34e0a0261dff6ff928a7ef0"
 next_action: "On the next firing, refresh all branches, prioritize any new REMAKE_REQUIRED order, and otherwise select the earliest newly added Director brief with exact status approved-for-generation."
 quality_owner: "Video Reviewer; generator must not self-approve public campaign assets."
 credential_rotation_recommended: true
