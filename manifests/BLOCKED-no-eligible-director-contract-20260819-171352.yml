@@ -1,0 +1,85 @@
+run_id: 20260819-171352
+outcome: BLOCKED_NO_ELIGIBLE_DIRECTOR_CONTRACT
+status: blocked
+run_timestamp_local: '2026-08-19T17:13:52+01:00'
+run_timestamp_utc: '2026-08-19T16:13:52Z'
+workflow: VIDEO_GENERATOR_SINGLE_CHAT
+same_chat: true
+run_as_new_task: false
+bounded_run: true
+one_outcome_only: true
+create_video_activated: false
+reason_create_video_not_activated: no_unprocessed_director_authorized_contract
+repository:
+  url: https://github.com/plastic-dude/stitch-and-scale-vid
+  branch: main
+  head_before_run: 71a2fd4c66b7268b9a468adc5794cca715f77ef1
+  worktree_clean_before_records: true
+  credential_use: scoped_runtime_only
+  credential_exposed: false
+queue:
+  first_run_catch_up_cursor: true
+  remake_orders_checked_first: true
+  open_remake_required_orders: 0
+  orders_path_present: false
+  exact_new_approved_for_generation_pairs: 0
+  consumed_contracts_excluded:
+    - brief: briefs/PLAN-20260819-spreadsheet-11pm-001.md
+      script: scripts/SCRIPT-20260819-spreadsheet-11pm-v001.md
+      contract_id: DIR-001
+      prior_status: director-review
+      prior_output: SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.mp4
+  refs_inspected:
+    - origin/main
+    - origin/director/2026-08-19-release-gate-roster
+    - origin/director/false-completion-human-gates-20260819
+    - origin/director/publication-readiness-second-shift-20260819
+research:
+  fresh_wide_research: true
+  note: research/2026-08-19-blocked-no-eligible-director-contract-20260819-171352.md
+  sources:
+    - https://support.google.com/youtube/answer/1722171?hl=en
+    - https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+    - https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation
+production_lessons:
+  read: true
+  path: production-lessons/test-video-lessons.md
+video:
+  generated: false
+  filename: null
+  sha256: null
+  runtime_seconds: null
+  resolution: null
+  platform_profile: YouTube 16:9 1920x1080 MP4 baseline
+qa:
+  generator_check: reviews/BLOCKED-no-eligible-director-contract-20260819-171352/generator-check.md
+  video_level_qa_applicable: false
+  hard_gate_result: blocked_before_generation
+external_storage:
+  connector_available: true
+  archive_root_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+  archive_root_name: Stitch & Scale Video Archive
+  director_review_folder_id: 1kVrY0FzwTz0B7aB7Qs_ISOGP-4KbgxO2
+  director_review_folder_name: 01-director-review
+  upload_attempted: false
+  drive_file_id: null
+  drive_url: null
+  existing_dir001_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
+  existing_dir001_filename: SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.mp4
+  existing_dir001_size_bytes: 14036843
+  external_storage_block: false
+schedule:
+  task_id: vYATwJ375SsaI2LpkY2lZH
+  name: VIDEO GENERATOR — single chat
+  enabled: true
+  interval_seconds: 900
+  timezone: Africa/Lagos
+  run_as_new_task: false
+records:
+  manifest: manifests/BLOCKED-no-eligible-director-contract-20260819-171352.yml
+  qa: reviews/BLOCKED-no-eligible-director-contract-20260819-171352/generator-check.md
+  research: research/2026-08-19-blocked-no-eligible-director-contract-20260819-171352.md
+  communication: comms/outbox/20260819T171352-video-generator-blocked.yml
+  final_git_commit: 80a0234bf8dac54ee5899fed83780ec34037e3fb
+next_action: refresh_all_refs_and_prioritize_new_REMAKE_REQUIRED_or_earliest_unprocessed_approved_for_generation_pair
+unresolved_risk: queue starvation while DIR-001 awaits Video Reviewer scoring
