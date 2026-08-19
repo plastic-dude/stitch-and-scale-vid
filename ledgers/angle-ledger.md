@@ -1522,3 +1522,13 @@ The nearest prior angles are `review-expiry` or related review-state concepts, w
 ### Distinctness note — 20260819-212226
 
 The nearest prior angle is `schema-state`, which asks whether a stored record has a defined structure. `fitness-state` changes the pain to whether an output is suitable for a stated use under constraints and a bounded acceptance test. It changes the hook to “Present is not fit for purpose”; the visual metaphor from a record entering a schema frame to one saved output approaching two different use gates; the proof surface from record-type/required-fields/constraints/dependencies/validation-result/version/reviewed to intended-use/inputs/constraints/output/acceptance-test/limits/reviewed/decision; the emotional turn from structure anxiety to suitability-for-decision; and the final line to “Name the purpose before you trust the result.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.
+
+## Wide-research Director decision — sensitivity state — 20260819-212520
+
+| Angle slug | Primary pain | Hook | Proof surface | Emotional turn | Final line | Status |
+|---|---|---|---|---|---|---|
+| `sensitivity-state` | A small craft-input change may materially change a grading or export output without the downstream delta being named | “Stable is not insensitive.” | Fictional input/perturbation/output-delta/sensitivity/range/threshold/reviewed/decision card | From “The number barely moved” to “What changed downstream?” | “Name what moved when the input moved.” | blocked; product proof, rights/privacy, claims, and platform validation missing |
+
+### Distinctness note — 20260819-212520
+
+The nearest prior angle is `tolerance-state`, which asks whether a value lies within a prescribed range. `sensitivity-state` changes the pain to how an output responds when an input changes. It changes the hook to “Stable is not insensitive”; the visual metaphor from a value entering a tolerance band to one input slider moving a small amount while two output cards diverge; the proof surface from measure/target/lower/upper/status/accepted/exception/reviewed to input/perturbation/output-delta/sensitivity/range/threshold/reviewed/decision; the emotional turn from within-range comfort to downstream-change awareness; and the final line to “Name what moved when the input moved.” It does not reopen or consume imported reservations and remains blocked pending current approved product proof.

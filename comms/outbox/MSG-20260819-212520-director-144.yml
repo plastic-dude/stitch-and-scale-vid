@@ -1,0 +1,19 @@
+message_id: MSG-20260819-212520-director-144
+created_at: 2026-08-19T21:25:20+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_sensitivity-state_9x16_v001_blocked_20260819-212520
+parent_id: BRF-founder-proof-sensitivity-state-9x16-v001
+status: blocked
+summary: Sensitivity-state is blocked because no current approved product proof verifies input perturbation, output delta, sensitivity, range, threshold, review, decision semantics, or robustness for grading or export.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-19-pass142-browser-findings.md
+  - briefs/SS_founder-proof_sensitivity-state_9x16_v001_blocked_20260819-212520.md
+  - scripts/SS_founder-proof_sensitivity-state_9x16_v001_blocked_20260819-212520.md
+  - platforms/SS_founder-proof_sensitivity-state_9x16_v001_matrix_20260819-212520.md
+  - ledgers/20260819-sensitivity-state.md
+  - manifests/SS_founder-proof_sensitivity-state_9x16_v001_blocked_20260819-212520.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing a controlled input change and the resulting output delta, with sensitivity/range/threshold context and human review; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

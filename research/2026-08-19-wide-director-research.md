@@ -6120,3 +6120,39 @@ Do not claim that Stitch & Scale currently exposes intended use, inputs, constra
 [783] [NIST CSRC Glossary — Fit for purpose](https://csrc.nist.gov/glossary/term/fit_for_purpose)
 [784] [Craft Yarn Council — Standard Body Measurements/Sizing](https://www.craftyarncouncil.com/standards/body-sizing)
 [785] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## One-hundred-forty-second wide-research question: stable is not insensitive — 20260819-212520
+
+### Research question
+
+When a craft input changes slightly, what proves the resulting grading or export output remains within an understood range rather than silently changing materially?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| NIST Technical Note 1297, Appendix A, *Law of Propagation of Uncertainty* | 2026-08-19 | NIST models an output as a function of multiple input quantities and says the measurement process should contain quantities contributing significant uncertainty. Sensitivity coefficients, input uncertainties, and covariance terms contribute to combined result uncertainty. | Measurement-uncertainty guidance; not a grading-engine sensitivity report or Stitch & Scale product proof. | Separate a changed input from its downstream output delta, sensitivity, range, threshold, review, and decision. |
+| Craft Yarn Council, *Gauge and why it’s important* | 2026-08-19 | CYC explains that gauge is stitches and rows per unit, that pattern-specified gauge affects finished size, and that personal tension differences make swatching important. It gives corrections involving needle/hook size, starting stitches, and yarn weight. | Craft workflow article; not mathematical sensitivity analysis, product proof, or a universal fit guarantee. | Make the audience pain a visible input-to-output response, not a generic tolerance or accuracy claim. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Calculation, grading, exports, records, charts, schematics, mobile capture, and human review have separate evidence boundaries; an output that changes must be inspected rather than assumed stable. | Internal workflow contracts, not current product proof. | Keep `sensitivity-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Stable is not insensitive. Candidate angle: `sensitivity-state`. Hook: “Stable is not insensitive.” Fictional proof surface: `INPUT / PERTURBATION / OUTPUT DELTA / SENSITIVITY / RANGE / THRESHOLD / REVIEWED / DECISION`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: one input slider moves a small amount while two output cards diverge; the change is named rather than hidden. Emotional turn: “The number barely moved” becomes “What changed downstream?” Final line: “Name what moved when the input moved.”
+
+The candidate is distinct from `tolerance-state` (whether a value is within a prescribed range), `dependency-state` (whether downstream items were reviewed after upstream changes), `calibration-state` (reference and measurement conditions), `reproducibility-state` (repeatability), `context-state` (what a value belongs to), `fitness-state` (suitability for intended use), and uncertainty-adjacent prior work. It focuses on the response of an output to a changed input, including perturbation, output delta, sensitivity, range, threshold, review, and decision—not range membership, dependency notification, reference conditions, repeatability, semantic attachment, or suitability.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 141; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies sensitivity analysis, input perturbation, output delta, response range, threshold, review, decision semantics, or any robustness claim for grading or export. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing a controlled input change and the resulting output delta, with sensitivity/range/threshold context and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes sensitivity analysis, input perturbation, output delta, response range, threshold, review, decision semantics, or robustness. Do not use `INPUT`, `PERTURBATION`, `OUTPUT DELTA`, `SENSITIVITY`, `RANGE`, `THRESHOLD`, `REVIEWED`, or `DECISION` as current product UI. Do not claim that a small input change is harmless, that a grading output is stable, or that a sensitivity marker replaces calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[786] [NIST — Technical Note 1297: Appendix A. Law of Propagation of Uncertainty](https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-law-propagation-uncertainty)
+[787] [Craft Yarn Council — YDKWYDK: Gauge and why it’s important](https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important)
+[788] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
