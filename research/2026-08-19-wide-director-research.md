@@ -2639,3 +2639,49 @@ Do not claim Stitch & Scale translates patterns, preserves every abbreviation ac
 [266] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
 
 [267] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)
+
+## Seventy-third wide-research question: recommended is not available — 2026-08-19
+
+### Research question
+When a knitwear pattern names a yarn, how can a designer distinguish recommended material, current availability, discontinued/seasonal status, substitute status, source/date, and confidence without claiming Stitch & Scale provides live inventory, market monitoring, or replacement recommendations?
+
+### Campaign classification assumption
+No active human brief was supplied in the refreshed repository state. This run assumes year-round founding-tester recruitment through the free demo and early-access cohort. The audience is independent knitwear designers and pattern readers who need to publish or interpret material recommendations without confusing them with current supply facts. The form is a 45-second vertical proof-led short for organic Instagram Reels, TikTok, and YouTube Shorts. The tone is first-person, quiet, specific, dry, and craft-respectful. The brief tier is a standard single-original-video planning package. No seasonal deadline or artificial urgency is assumed.
+
+### Evidence gathered
+
+| Source | Date checked | Evidence | Uncertainty / boundary | Decision changed |
+|---|---:|---|---|---|
+| Craft Yarn Council, “Congratulations! You’ve Received the Go Ahead” | 2026-08-19; current page checked | CYC advises confirming chosen yarn availability for at least the next year, checking yarn/color and dye lot, keeping notes, and contacting manufacturer/editor if a yarn or color problem appears. | Designer guidance is not live inventory, market monitoring, or Stitch & Scale availability proof. | Separate recommended material, availability basis, as-of date, discontinued/seasonal state, substitute state, source/date, confidence, and review status. |
+| Craft Yarn Council, “Industry Standards and Guidelines for Designers” | 2026-08-19; current page checked | CYC frames its guidance as base standards that do not replace company-specific requirements; project submissions can involve company or magazine timelines and labeling/return expectations. | Industry guidance is not an availability database, supply contract, or platform proof. | Show source, date, scope, and status; do not turn general guidance into live sourcing certainty. |
+| Stitch & Scale pattern-QA, publishing/export, craft-business-records, and mobile-maker contracts | 2026-08-19; contracts re-read | Material trace, substitution, care, gauge, source/date, business records, technical editing, print/chart review, and test knitting are separate evidence surfaces. | Internal contracts; no current product-proof registry entry for live yarn availability, discontinuation, or market status. | Block live inventory, market monitoring, discontinuation detection, restock, and replacement claims pending exact proof and human review. |
+
+### Product-state reconciliation
+
+The refreshed repository has no product-proof registry entry or approved capture for live yarn availability, market monitoring, discontinuation, seasonal status, restock, supplier confirmation, or replacement recommendations. All 73 wide-research concepts remain blocked or director-review; no open `reviews/`, `orders/`, or `comms/inbox/` files were present. Imported `false-completion` and `release-gate-roster` remain blocked with occupied filenames and are not reopened or reused.
+
+### Decision changed by research
+
+Research changed the angle from generic “yarn sourcing” into **whether a material recommendation is being mistaken for a current supply fact**. The fresh concept is `availability-status`: a fictional card places `RECOMMENDED YARN / AVAILABILITY BASIS / CURRENT AS-OF / DISCONTINUED OR SEASONAL / SUBSTITUTE STATUS / SOURCE / CONFIDENCE / REVIEW STATUS`. The visual device is an original card marked `ILLUSTRATIVE — NOT PRODUCT UI`; no live inventory, market monitoring, discontinuation, restock, supplier, or replacement claim is made.
+
+### Candidate distinctness
+
+The nearest prior angle is `material-trace`, which focuses on the identity of the yarn actually used in a project. `availability-status` changes the pain to **whether a material recommendation is being mistaken for a current supply fact**. The hook changes to “Recommended is not available.” The visual metaphor changes from material identity fields to `RECOMMENDED YARN / AVAILABILITY BASIS / CURRENT AS-OF / DISCONTINUED OR SEASONAL / SUBSTITUTE STATUS / SOURCE / CONFIDENCE / REVIEW STATUS`. The proof surface changes from a material-trace record to a current availability-context surface. The emotional turn changes from tracing what was used to time-stamping what is known about supply without a live-inventory or replacement promise. The final line changes to “Date the availability before you name the yarn.”
+
+### Hard boundaries
+
+Do not claim Stitch & Scale monitors live inventory, knows a yarn is currently available, detects discontinuation or seasonal stock, recommends replacements, confirms supplier availability, predicts restock, or guarantees material access without current product proof and qualified review. Do not use real retailer/manufacturer inventory, private supplier records, screenshots, logos, or copyrighted product images without scoped rights and privacy review. Preserve technical editing, physical print review, chart readability, schematic scale, and test knitting as distinct human evidence gates.
+
+### References
+
+[268] [Craft Yarn Council — Designer Guidelines: Once You’ve Received the Go Ahead](https://www.craftyarncouncil.com/industry.html)
+
+[269] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
+
+[270] [Stitch & Scale — Knitwear pattern QA contract](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+[271] [Stitch & Scale — Knitwear publishing and export contract](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+[272] [Stitch & Scale — Craft business records contract](file:///home/ubuntu/skills/craft-business-records/SKILL.md)
+
+[273] [Stitch & Scale — Mobile maker workflow contract](file:///home/ubuntu/skills/mobile-maker-workflows/SKILL.md)

@@ -1,0 +1,54 @@
+manifest_version: '1.0'
+artifact_type: director_planning_package
+campaign_id: SS-CAMP-20260819-FOUNDING-TESTERS
+plan_id: PLAN-20260819-142500-availability-status-v001
+angle_slug: availability-status
+status: blocked
+format: 9x16
+runtime_seconds: 45
+reserved_filename: SS_founder-proof_availability-status_9x16_v001_blocked_20260819-142500.mp4
+generation_allowed: false
+upload_allowed: false
+product_proof_status: missing
+proof_surface_requested: current-availability-context-surface-with-recommended-yarn-availability-basis-current-as-of-discontinued-seasonal-substitute-source-confidence-review-status
+product_version: null
+proof_capture_approved: false
+recommended_yarn_status: missing
+availability_basis_status: missing
+current_as_of_status: missing
+discontinued_seasonal_status: missing
+substitute_status: missing
+source_status: missing
+confidence_status: missing
+review_status: missing
+live_inventory_status: unverified
+market_monitoring_status: unverified
+discontinuation_detection_status: unverified
+restock_status: unverified
+supplier_confirmation_status: unverified
+replacement_recommendation_status: unverified
+material_access_status: unverified
+technical_review_status: pending
+founder_voice_rights_status: pending
+caption_review_status: pending
+caption_free_review_required: true
+audio_rights_status: unverified
+platform_validation_status: pending
+fictional_fixture_status: required_not_approved
+open_reviewer_orders_checked: true
+open_critical_or_high_orders: false
+imported_continuity_checked: true
+imported_reserved_filenames_occupied: true
+human_evidence_gates_preserved:
+  - technical editing
+  - physical print review
+  - chart readability
+  - schematic scale
+  - test knitting
+claim_risks:
+  - no live inventory, market monitoring, discontinuation, restock, supplier, material-access, or replacement claim
+  - CYC designer guidance is context, not live product behavior
+  - recommendation, supply state, substitute state, source, confidence, and review cannot be collapsed into one availability badge
+  - fictional availability cards are not product UI, retailer records, supplier data, or market facts
+  - David is a developer whose late mother knitted; do not describe him as a knitter, knitwear designer, pattern designer, or technical editor
+next_action: Provide one current approved non-private availability-context surface with exact recommended yarn, availability basis, current-as-of date, discontinued/seasonal state, substitute status, source, confidence, and review status labels, then rerun availability, material, claims, technical, caption, audio, platform, rights, privacy, and Director gates.
