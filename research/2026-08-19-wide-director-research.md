@@ -6372,3 +6372,41 @@ Do not claim that Stitch & Scale currently exposes target population, sample, se
 [804] [NIST/SEMATECH — e-Handbook of Statistical Methods](https://www.itl.nist.gov/div898/handbook/)
 [805] [Craft Yarn Council — Industry Standards and Guidelines for Designers](https://www.craftyarncouncil.com/idea.html)
 [806] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
+
+## One-hundred-forty-ninth wide-research question: same result is not same situation — 20260819-215120
+
+### Research question
+
+When a craft result is reused in a different situation, what proves that its scenario, environment, operating conditions, and intended workflow still match the situation in which it was produced?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| W3C, *PROV-DM: The PROV Data Model* | 2026-08-19 | PROV-DM describes provenance through entities, activities, agents, generation, usage, derivation, attribution, association, time, and collections. An activity can consume, process, transform, relocate, use, or generate entities; provenance context can support assessments of quality, reliability, or trustworthiness. | Domain-agnostic provenance model; not a Stitch & Scale scenario/environment tracker or product proof. | Treat scenario, environment, conditions, inputs, workflow, reference, and transfer limits as explicit context before reusing a result. |
+| NIST, *Metrological Traceability: Frequently Asked Questions and NIST Policy* (NIST Technical Note 2156) | 2026-08-19 | NIST defines metrological traceability as a documented unbroken calibration chain to a reference, with each calibration contributing to uncertainty. NIST explicitly says traceability alone does not guarantee fitness for purpose; the provider supports claims and the user assesses their validity. | Metrology policy; not a Stitch & Scale measurement, condition, environment, or fitness claim. | Separate a result’s reference chain from the scenario and intended workflow in which someone wants to reuse it. |
+| Craft Yarn Council, *YDKWYDK: Gauge and why it’s important* and related designer guidance | Rechecked 2026-08-19 | CYC gauge guidance uses swatch size, pattern-specified stitches, and the pattern’s stated conditions as practical craft context; designer guidance distinguishes standards, sample submissions, company requirements, editing/printing, and review. | Craft guidance; not a product scenario tracker or transfer guarantee. | Keep the treatment focused on condition-matched reuse rather than claiming that one gauge or result transfers to every material, tool, size, or workflow. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Calculation, records, grading, export, physical print, charts, schematics, test knits, rights, mobile capture, and review have separate evidence boundaries; scenario context cannot replace them. | Internal workflow contracts, not current product proof. | Keep `scenario-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Same result is not same situation. Candidate angle: `scenario-state`. Hook: “Same result is not same situation.” Fictional proof surface: `RESULT / SCENARIO / ENVIRONMENT / CONDITIONS / INPUTS / WORKFLOW / REFERENCE / TRANSFER LIMIT / REVIEWED / DECISION`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: one result card is placed beside two scenario cards; the result’s meaning diverges until scenario, environment, conditions, inputs, workflow, reference, and transfer limits are named. Emotional turn: “The number is the same” becomes “The situation is not the same.” Final line: “Name the situation before you reuse the result.”
+
+The candidate is distinct from `reproducibility-state` (whether a run can be inspected/reproduced), `sensitivity-state` (downstream change from input perturbation), `fitness-state` (suitability for intended use), `calibration-state` (reference chain and measurement calibration), `context-state` (attachment of a value to pattern/piece/size/method/date context), `portability-state` (semantic preservation during transfer), and `sampling-state` (sample-to-population limits). It focuses on cross-scenario validity and transfer limits—not rerun identity, perturbation response, intended-use acceptance, calibration chain, attachment metadata, transport semantics, or sampling representativeness.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 148; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies scenario, environment, operating conditions, inputs, workflow, reference, transfer limits, review, decision semantics, or exact product labels. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing the same craft result explicitly compared across two named scenarios with environment, conditions, inputs, workflow, reference, transfer limits, and human review before reuse, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes scenario, environment, operating conditions, inputs, workflow, reference, transfer limits, review, decision semantics, or exact scenario labels. Do not use `RESULT`, `SCENARIO`, `ENVIRONMENT`, `CONDITIONS`, `INPUTS`, `WORKFLOW`, `REFERENCE`, `TRANSFER LIMIT`, `REVIEWED`, or `DECISION` as current product UI. Do not claim that a result transfers between tools, environments, materials, sizes, or workflows without proof. Do not claim that provenance or calibration alone proves fitness for purpose. Do not replace calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[807] [W3C — PROV-DM: The PROV Data Model](https://www.w3.org/TR/prov-dm/)
+[808] [NIST — Metrological Traceability: Frequently Asked Questions and NIST Policy](https://www.nist.gov/metrology/metrological-traceability)
+[809] [Craft Yarn Council — YDKWYDK: Gauge and why it’s important](https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important)
+[810] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
