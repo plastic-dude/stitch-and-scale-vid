@@ -1,0 +1,28 @@
+video_id: blocked-first-catch-up-20260819-0825
+status: blocked
+outcome: BLOCKED_NO_APPROVED_DIRECTOR_SCRIPT
+run_type: first-sequential-catch-up
+run_started_at: 2026-08-19T08:25:42+01:00
+repository: https://github.com/plastic-dude/stitch-and-scale-vid
+repository_commit: d636c72c63b1a719747adc5f3351cc10ae064769
+source_remake_order: null
+selected_director_brief: null
+selected_director_script: null
+output_filename: null
+output_sha256: null
+drive_folder_id: 1mLIi-uAmmOY06pLUpJBfQRf942sj0exl
+drive_file_id: null
+drive_reference: null
+blocking_reason: >-
+  The refreshed repository contains no briefs/, scripts/, or orders/ files and no
+  file with status approved-for-generation or REMAKE_REQUIRED. The existing
+  small-test.mp4 review explicitly classifies that asset as an archive-connectivity
+  test without a matching brief, script, manifest, platform profile, claim ledger,
+  checksum, or Generator acknowledgement. It is not eligible as a Director source.
+quality_gate_decision: blocked_before_generation
+next_action: >-
+  Add the earliest eligible Director brief with status approved-for-generation and
+  its exact version-matched script and required production references, or add an
+  acknowledged REMAKE_REQUIRED order. The next run must begin with that earliest
+  eligible item and generate exactly one MP4.
+credential_handling: scoped-runtime-only; token not printed or persisted

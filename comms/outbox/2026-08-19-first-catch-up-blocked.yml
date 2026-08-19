@@ -1,0 +1,10 @@
+event: generator_run_blocked
+run_id: blocked-first-catch-up-20260819-0825
+occurred_at: 2026-08-19T08:25:42+01:00
+status: BLOCKED
+reason: no_eligible_director_brief_or_script
+repository_commit: d636c72c63b1a719747adc5f3351cc10ae064769
+video_created: false
+drive_upload: not_attempted
+next_action: add_earliest_approved_director_brief_and_exact_script
+single_chat_continuity: true
