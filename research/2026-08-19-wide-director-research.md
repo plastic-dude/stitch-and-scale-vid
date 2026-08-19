@@ -6300,3 +6300,39 @@ Do not claim that Stitch & Scale currently exposes archive status, access path, 
 [798] [U.S. National Archives — About the Digital Preservation Program](https://www.archives.gov/preservation/digital-preservation/about)
 [799] [W3C — Data on the Web Best Practices](https://www.w3.org/TR/dwbp/#data-preservation)
 [800] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-publishing-and-export/SKILL.md)
+
+## One-hundred-forty-seventh wide-research question: reviewed is not audited — 20260819-214316
+
+### Research question
+
+When a craft record, grading result, or export is marked reviewed, what proves a defined audit procedure actually checked its scope, criteria, evidence, findings, and disposition rather than merely adding a review label?
+
+### Sources, dates, evidence, uncertainty, and decision changed
+
+| Source | Date/status checked | Evidence used | Uncertainty or limit | Decision changed |
+|---|---|---|---|---|
+| NIST, *SP 800-53 Rev. 5, Security and Privacy Controls* | 2026-08-19 | NIST presents controls as flexible/customizable within an organization-wide risk process and distinguishes functionality from assurance—the measure of confidence in a capability. Its publication page warns that mappings/crosswalks are not always one-to-one and should not be treated as equivalence without scope/intended-use analysis. | Security/privacy control catalog; not a Stitch & Scale audit contract or product proof. | Separate a review label from a bounded audit procedure with scope, criteria, evidence, findings, exceptions, disposition, auditor/date, and review. |
+| Craft Yarn Council, *YDKWYDK: How to write your own pattern* | 2026-08-19 | CYC guidance says terms/abbreviations, sizing, charts, and symbols should be checked against standards; it calls technical editing a necessary second set of eyes; and it describes tester feedback on clarity, abbreviation/symbol/chart alignment, materials, and finished result. | Blog/craft guidance; not a product audit surface, compliance certification, or current Stitch & Scale behavior. | Ground the audience pain in evidence-bearing craft review rather than generic assurance or invented audit capability. |
+| Stitch & Scale local QA, publishing/export, craft-business, and mobile-maker contracts | Re-read 2026-08-19 | Calculation, technical editing, print, charts, schematics, test knits, records, exports, and human review have separate evidence boundaries; an audit concept cannot replace any of them. | Internal workflow contracts, not current product proof. | Keep `audit-state` blocked and preserve separate human evidence gates. |
+
+### Research synthesis and concept decision
+
+Reviewed is not audited. Candidate angle: `audit-state`. Hook: “Reviewed is not audited.” Fictional proof surface: `AUDIT OBJECT / SCOPE / CRITERIA / PROCEDURE / EVIDENCE / FINDINGS / EXCEPTIONS / DISPOSITION / AUDITOR / DATE / REVIEWED`, explicitly illustrative until current product proof verifies exact labels. Visual metaphor: a review stamp splits into a bounded audit sheet; scope and criteria are defined before evidence and findings can produce a disposition. Emotional turn: “Someone looked at it” becomes “We can show what was actually checked.” Final line: “Name what the audit actually examined.”
+
+The candidate is distinct from `review-expiry` (whether a review remains current), `attestation-state` (what a named attester attests), `acceptance-criteria` (what must pass), `evidence-coverage` (which evidence areas are covered), `archival-state` (future findability/integrity/retrieval), `provenance-chain` (origin lineage), `verification-state` (whether a check exists), and `closure-state` (whether a workflow is resolved). It focuses on a repeatable audit procedure and its bounded evidence-to-finding-to-disposition trail—not review freshness, attester assurance, pass criteria, coverage mapping, archiving, origin, generic verification, or closure.
+
+### Product-state reconciliation and blocker
+
+The latest pushed branch is clean at pass 146; the active schedule remains the seven-minute same-chat recurring task with `runAsNewTask=false`, full-auto mode, and timezone `Africa/Lagos`. `reviews/`, `orders/`, and `comms/inbox/` were absent at refresh; no open CRITICAL/HIGH remake order was found. Imported `false-completion` and `release-gate-roster` were inspected through the continuity ledger and canonical imported outputs; both remain blocked, reserved filenames remain occupied, and neither was reopened, renamed, overwritten, or approved.
+
+No current product-proof registry or approved capture verifies audit object, scope, criteria, procedure, evidence, findings, exceptions, disposition, auditor, date, review, or exact product labels. The package must remain `blocked`. **Next action:** provide one versioned, non-private, rights-cleared approved capture or registry entry showing one craft record audited under named scope and criteria with procedure, evidence, findings, exceptions, disposition, auditor/date, and human review, then rerun product, claims, rights/privacy, caption, audio, platform, continuity, and acceptance gates.
+
+### Hard boundaries
+
+Do not claim that Stitch & Scale currently exposes audit object, scope, criteria, procedure, evidence, findings, exceptions, disposition, auditor, date, review, or exact audit labels. Do not use `AUDIT OBJECT`, `SCOPE`, `CRITERIA`, `PROCEDURE`, `EVIDENCE`, `FINDINGS`, `EXCEPTIONS`, `DISPOSITION`, `AUDITOR`, `DATE`, or `REVIEWED` as current product UI. Do not claim compliance, certification, independent audit, or that audit status replaces calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting. If David is named, describe him only as a developer whose late mother knitted.
+
+### References
+
+[801] [NIST — SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final)
+[802] [Craft Yarn Council — YDKWYDK: How to write your own pattern](https://www.craftyarncouncil.com/blog/ydkwydk-how-write-your-own-pattern)
+[803] [Stitch & Scale local skill contracts — QA, publishing/export, craft-business, and mobile-maker workflows](file:///home/ubuntu/skills/knitwear-pattern-qa/SKILL.md)
