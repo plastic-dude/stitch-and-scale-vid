@@ -1,0 +1,47 @@
+message_id: MSG-20260820-015240-director-195
+message_type: director_handoff
+created_at: 2026-08-20T01:52:40+00:00
+from: director-planner
+campaign: founder-proof
+angle_slug: receipt-state
+brief_id: BRF-founder-proof-receipt-state-9x16-v001
+status: blocked
+subject: Pass 193 blocked — receipt-state pending current product proof
+research:
+  note: research/2026-08-20-pass193-browser-findings.md
+  question: What evidence shows that an intended recipient actually received, understood, and acknowledged a material craft-production change, distinguishing delivery, receipt, comprehension, and adoption?
+  sources: [976, 977, 978, 979, 980]
+  decision: Narrowed from constructing a bounded change notice to the evidence boundary after a notice exists: delivery attempt, receipt, acknowledgement, comprehension, action, and residual uncertainty.
+distinctness:
+  nearest_prior: change-communication-state
+  changed_pain: What a material change notice should contain versus whether the intended recipient has actually received, acknowledged, understood, and acted on it.
+  changed_metaphor: Revision note beside blank audience notice becomes notice card moving along a receipt track that stops before confirmation.
+  hook: Delivered is not the same as understood.
+  final_line: Name what was received—and what is still unconfirmed.
+objective: Make the trust question of receipt evidence visible without claiming that Stitch & Scale provides delivery, notification, read receipts, acknowledgement, comprehension checks, adoption measurement, or audience outcomes.
+audience: Independent knitwear designers and pattern publishers coordinating craft-production outputs, revisions, technical editing, testing, feedback, and submissions; secondary founding testers and reviewers.
+deliverables:
+  brief: briefs/SS_founder-proof_receipt-state_9x16_v001_blocked_20260820-015240.md
+  script: scripts/SS_founder-proof_receipt-state_9x16_v001_blocked_20260820-015240.md
+  platform_matrix: platforms/SS_founder-proof_receipt-state_9x16_v001_matrix_20260820-015240.md
+  continuity: ledgers/20260820-receipt-state.md
+  manifest: manifests/SS_founder-proof_receipt-state_9x16_v001_blocked_20260820-015240.yml
+filename_reservation: SS_founder-proof_receipt-state_9x16_v001_blocked_20260820-015240.mp4
+claim_risks:
+  - Do not claim Stitch & Scale provides delivery, notification, read receipts, acknowledgement, comprehension checks, adoption measurement, or audience outcomes.
+  - Do not claim a notice was sent, delivered, read, understood, or acted on.
+  - Do not claim WCAG conformance or accessibility outcomes.
+  - Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  - Keep calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting separate.
+proof_blocker: No current product-proof registry entry or approved non-private rights-cleared capture verifies notice ID, recipient scope, delivery state, received time, acknowledgement, comprehension check, action, unconfirmed limitation, and disposition.
+rights_blocker: No production assets, narrator, foley, or final platform profile are approved; use only original or cleared materials after review.
+platform_blocker: Destination platform and current safe-area/profile requirements are not confirmed.
+review_state:
+  reviews_checked: true
+  orders_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked and filename occupied; do not regenerate, overwrite, rename, or approve
+  release_gate_roster: blocked and filename occupied; do not infer authorization from generic human-gate proof
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_safe_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing the exact current receipt surface, confirm the destination platform, then rerun product, claims, rights, caption, audio, platform, continuity, filename, and Director gates.
