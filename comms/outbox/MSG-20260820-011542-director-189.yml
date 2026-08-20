@@ -1,0 +1,47 @@
+message_id: MSG-20260820-011542-director-189
+message_type: director_handoff
+created_at: 2026-08-20T01:15:42+00:00
+from: director-planner
+campaign: founder-proof
+angle_slug: request-ownership-state
+brief_id: BRF-founder-proof-request-ownership-state-9x16-v001
+status: blocked
+subject: Pass 187 blocked — request-ownership-state pending current product proof
+research:
+  note: research/2026-08-20-pass187-browser-findings.md
+  question: When a craft-production review request is sent, what makes it a living responsibility rather than an unanswered message?
+  sources: [946, 947, 948, 949, 950]
+  decision: Narrowed from generic handoff, escalation, acknowledgement, and status history to request ownership and response closure.
+distinctness:
+  nearest_prior: rollback-boundary-state
+  changed_pain: Scoping a correction before downstream propagation versus ensuring a review request has an owner, response expectation, visible waiting state, and closure after send.
+  changed_metaphor: Correction thread becomes a paper request card moving into an unmarked tray and returning with a named owner and response expectation.
+  hook: Sent is not the same as owned.
+  final_line: Name who answers, by when, and what closes the request.
+objective: Make the trust question of review-request ownership visible without claiming that Stitch & Scale currently routes requests, assigns owners, provides response commitments, tracks waiting, guarantees response, or closes requests.
+audience: Independent knitwear designers and pattern publishers coordinating craft-production reviews and human evidence gates; secondary founding testers and reviewers.
+deliverables:
+  brief: briefs/SS_founder-proof_request-ownership-state_9x16_v001_blocked_20260820-011542.md
+  script: scripts/SS_founder-proof_request-ownership-state_9x16_v001_blocked_20260820-011542.md
+  platform_matrix: platforms/SS_founder-proof_request-ownership-state_9x16_v001_matrix_20260820-011542.md
+  continuity: ledgers/20260820-request-ownership-state.md
+  manifest: manifests/SS_founder-proof_request-ownership-state_9x16_v001_blocked_20260820-011542.yml
+filename_reservation: SS_founder-proof_request-ownership-state_9x16_v001_blocked_20260820-011542.mp4
+claim_risks:
+  - Do not claim Stitch & Scale routes requests, assigns owners, provides response commitments, tracks waiting, guarantees response, or closes requests.
+  - Do not claim silence means approval, refusal, or completion.
+  - Do not claim WCAG conformance, accessibility outcomes, accuracy, legal compliance, or formal assurance.
+  - Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  - Keep calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting separate.
+proof_blocker: No current product-proof registry entry or approved non-private rights-cleared capture verifies request identity, artifact, gate, requested time, owner, channel, response expectation, status, decision/reason, next action, and closure time.
+rights_blocker: No production assets, narrator, foley, or final platform profile are approved; use only original or cleared materials after review.
+platform_blocker: Destination platform and current safe-area/profile requirements are not confirmed.
+review_state:
+  reviews_checked: true
+  orders_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked and filename occupied; do not regenerate, overwrite, rename, or approve
+  release_gate_roster: blocked and filename occupied; do not infer authorization from generic human-gate proof
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_safe_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing the exact current request surface, confirm the destination platform, then rerun product, claims, rights, caption, audio, platform, continuity, filename, and Director gates.
