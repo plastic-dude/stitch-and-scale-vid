@@ -1,0 +1,307 @@
+message_id: MSG-20260820T173100-temporary-director-247
+created_at: '2026-08-20T17:31:12+00:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains non-terminal after Reviewer record REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  reported BLOCKED at 86.0% with no REMAKE_REQUIRED order. Any distributed step that partially
+  succeeds—evidence publication, manifest update, Generator order, checksum record, or derivative
+  upload—must be recovered by a durable step-level contract. Retries and compensation cannot duplicate,
+  erase, rewrite, or silently authorize a terminal state.
+research:
+  - research/2026-08-20-partial-failure-compensation-review-lane-1731.md
+  - research/2026-08-20-firing-247-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  non_terminal_reviewer_block_record: true
+  latest_reviewer_record: REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  latest_reviewer_status: BLOCKED
+  latest_reviewer_weighted_score_percent: 86.0
+  latest_reviewer_remake_order_id: null
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+canonical_incident:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  current_owner: null
+  latest_valid_event_id: REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  latest_valid_event_type: reviewer_blocked_non_terminal
+  append_only: true
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+recovery_compensation_contract:
+  contract_id: required
+  contract_version: required
+  exact_active_review_contract_binding: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  effective_timestamp_utc: required
+  policy_owner_identity: required
+  policy_owner_role: required
+  stakeholder_approval_reference: required
+  workflow_execution_id: required_per_attempt
+  workflow_type: required
+  workflow_execution_semantics: required
+  step_id: required_per_step
+  step_sequence: required
+  action_type: required
+  action_owner_identity: required
+  action_owner_role: required
+  action_authority_basis: required
+  input_digest: required
+  output_digest: required_when_output
+  precondition: required
+  precondition_observation: required
+  postcondition: required
+  postcondition_observation: required
+  postcondition_verification_method: required
+  postcondition_verification_timestamp_utc: required
+  idempotency_key: required
+  retry_policy_id: required
+  retry_attempt_number: required
+  retry_budget: required
+  backoff_policy: required
+  jitter_policy: required
+  retry_deadline: required
+  timeout_policy: required
+  failure_classification: required
+  failure_timestamp_utc: required
+  partial_effects: required
+  partial_effects_digest: required
+  partial_state_snapshot: required
+  evidence_reference: required
+  compensation_or_containment_action: required
+  compensation_authority_basis: required
+  compensation_idempotency_key: required
+  compensation_precondition: required
+  compensation_postcondition: required
+  compensation_verification: required
+  compensation_timestamp_utc: required
+  compensation_result: required
+  residual_effects: required
+  residual_uncertainty: required
+  recovery_owner: required
+  recovery_observer: required
+  recovery_incident_id: required_when_incomplete
+  immutable_attempt_record: required
+  immutable_compensation_record: required
+  remote_readback: required
+  publication_receipt: required_for_generator_relevant_record
+workflow_semantics:
+  durable_execution_required_for_terminal_or_generator_relevant_step: true
+  exactly_once_preferred_for_non_idempotent_action: true
+  at_least_once_requires_explicit_idempotency: true
+  at_most_once_requires_explicit_loss_handling: true
+  workflow_type_immutable_after_activation: true
+  execution_history_retention: required
+  execution_history_readback: required
+  execution_history_not_evidence_deletion: true
+step_classification:
+  read_exact_drive_asset:
+    reversible: true
+    terminal: false
+    exact_provenance_required: true
+    idempotency_required: true
+    compensation: preserve_read_record_and_retry_bounded
+  create_reviewer_evidence:
+    reversible: false
+    terminal: false
+    exact_provenance_required: true
+    idempotency_required: true
+    compensation: append_correction_or_quarantine_derivative_without_deletion
+  publish_reviewer_record:
+    reversible: false
+    terminal: false_unless_complete_authorized_terminal_packet
+    exact_provenance_required: true
+    idempotency_required: true
+    compensation: append_retraction_or_correction_only_if_contract_permits
+  publish_generator_order:
+    reversible: false
+    terminal: false_unless_explicit_remake_order
+    exact_provenance_required: true
+    idempotency_required: true
+    compensation: append_cancel_or_hold_order_without_erasing_original
+  update_manifest:
+    reversible: versioned_only
+    terminal: false
+    exact_provenance_required: true
+    idempotency_required: true
+    compensation: publish_new_versioned_manifest_or_reconciliation_record
+  upload_derivative:
+    reversible: quarantine_or_supersede_only
+    terminal: false
+    exact_provenance_required: true
+    idempotency_required: true
+    compensation: preserve_original_and_mark_derivative_lineage
+  terminal_decision:
+    reversible: false
+    terminal: true
+    exact_provenance_required: true
+    idempotency_required: true
+    compensation: forbidden_after_commit_except_contract_authorized_adjudication
+    incomplete_commit: fail_closed_and_incident
+retry_and_backoff:
+  retry_policy_owner: required
+  retryable_failure_classes: required
+  non_retryable_failure_classes: required
+  max_attempts: required
+  max_elapsed_time: required
+  exponential_backoff: required
+  randomized_jitter: required
+  per_action_retry_budget: required
+  per_workflow_retry_budget: required
+  global_retry_budget: required
+  retry_budget_exhaustion: open_or_update_recovery_incident
+  retry_budget_exhaustion_is_not_terminal: true
+  retry_count_is_not_authority: true
+  retry_does_not_create_new_proposal_authority: true
+  layered_retry_amplification_forbidden: true
+  retry_after_unknown_outcome_requires_readback: true
+  retry_after_partial_effect_requires_reconciliation: true
+  retry_after_timeout_requires_idempotency_check: true
+partial_failure_rules:
+  prior_effect_must_be_preserved: true
+  failed_step_must_be_recorded: true
+  unknown_outcome_must_be_recorded: true
+  partial_state_must_be_snapshotted: true
+  compensation_must_not_delete_evidence: true
+  compensation_must_not_rewrite_history: true
+  compensation_must_not_change_exact_media_identity: true
+  compensation_must_not_create_terminal_authority: true
+  compensation_must_not_create_approved_brief: true
+  compensation_must_not_authorize_mp4: true
+  compensation_failure_opens_incident: true
+  compensation_failure_is_not_terminal: true
+  postcondition_missing_is_not_success: true
+  postcondition_mismatch_is_not_success: true
+  postcondition_unknown_is_not_success: true
+  readback_required_after_remote_write: true
+  remote_divergence_requires_safe_merge_or_publication_blocked: true
+  generator_relevant_write_requires_receipt: true
+compensation_actions:
+  evidence_publication_partial:
+    preserve_partial_record: true
+    publish_correction_append_only: true
+    delete_partial_record: false
+    mark_incomplete: true
+    terminal_authority: false
+  manifest_publication_partial:
+    preserve_prior_manifest: true
+    publish_versioned_reconciliation: true
+    overwrite_prior_manifest: false
+    verify_exact_checksum: true
+    terminal_authority: false
+  generator_order_partial:
+    preserve_original_order: true
+    deduplicate_by_order_id_and_execution_id: true
+    append_hold_or_cancel: true
+    silently_requeue: false
+    terminal_authority: false
+  derivative_upload_partial:
+    preserve_original_v002: true
+    quarantine_unknown_derivative: true
+    mark_lineage_incomplete: true
+    overwrite_v002: false
+    create_new_campaign: false
+  terminal_write_partial:
+    preserve_pre_state: true
+    preserve_partial_commit_record: true
+    prevent_second_terminal_commit: true
+    require_authority_revalidation: true
+    open_recovery_incident: true
+    infer_terminal_state: false
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution
+non_terminal_events:
+  - retry
+  - backoff
+  - timeout
+  - retry_budget_burn
+  - retry_budget_exhaustion
+  - unknown_outcome
+  - partial_effect
+  - compensation_started
+  - compensation_succeeded
+  - compensation_failed
+  - recovery_incident
+  - postcondition_pending
+  - postcondition_missing
+  - postcondition_mismatch
+  - reconciliation_pending
+  - manifest_reconciliation
+  - order_deduplication
+  - order_cancel_request
+  - derivative_quarantine
+  - evidence_correction
+  - workflow_restart
+  - workflow_replay
+  - workflow_history_readback
+  - reviewer_blocked_without_remake_order
+  - score_above_threshold_without_terminal_verdict
+  - queue_hold
+  - heartbeat
+  - receipt_publication
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Preserve all step attempts and partial effects, append the exact failed or unknown postcondition
+    with V002 provenance, open or update the same canonical recovery incident, assign a bounded recovery
+    action and owner, and do not infer approval, rejection, remake authorization, publication, or a new brief.
+required_action: >-
+  Human owner must approve a versioned recovery and compensation contract. Every evidence, manifest,
+  order, derivative, or terminal step must record its execution identity, precondition, postcondition,
+  idempotency, retry budget, partial effects, compensation or containment, verification, and immutable
+  readback. Retries must be bounded and jittered. A failed compensation or missing postcondition must
+  fail closed and remain non-terminal. The new Reviewer BLOCKED record must be handled only through its
+  explicit evidence/QA action, not by inference. Keep the single-flight lane closed.
+anti_duplication_rule: >-
+  Do not create a new angle brief, duplicate plan, MP4, approval, rejection, or remake. A retry,
+  timeout, compensation, recovery incident, manifest correction, order deduplication, or derivative
+  quarantine is not campaign authorization.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only one
+  operational-continuity blocker. If publication fails, write a publication-blocked record with
+  the error and both commit IDs, stop new angles, and escalate.
+constraints:
+  - durable_step_execution
+  - partial_failure_reconciliation
+  - idempotent_retries
+  - bounded_retry_budget
+  - compensating_or_containment_actions
+  - postcondition_verification
+  - preserve_partial_state
+  - exact_artifact_identity
+  - independent_review_required
+  - append_only
+  - evidence_preservation
+  - single_flight_lane_closed
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
