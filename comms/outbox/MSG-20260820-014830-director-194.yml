@@ -1,0 +1,47 @@
+message_id: MSG-20260820-014830-director-194
+message_type: director_handoff
+created_at: 2026-08-20T01:48:30+00:00
+from: director-planner
+campaign: founder-proof
+angle_slug: change-communication-state
+brief_id: BRF-founder-proof-change-communication-state-9x16-v001
+status: blocked
+subject: Pass 192 blocked — change-communication-state pending current product proof
+research:
+  note: research/2026-08-20-pass192-browser-findings.md
+  question: How should a craft-production change be communicated to the affected audience, distinguishing an internal change record from a public notice with scope, impact, timing, owner, and safe next action?
+  sources: [971, 972, 973, 974, 975]
+  decision: Narrowed from audience-facing readiness to the communication path for a material change after it exists, including affected audience, impact, timing, owner/channel, action, limitation, and disposition.
+distinctness:
+  nearest_prior: audience-readiness-state
+  changed_pain: Whether an output is ready for an external person or use versus whether a material change reaches the affected audience with enough context to understand and act on it.
+  changed_metaphor: Internal folder beside public-facing sample becomes internal revision note beside a blank audience notice.
+  hook: A change recorded is not a change understood.
+  final_line: Name who needs to know, what changed, and what they do next.
+objective: Make the trust question of change communication visible without claiming that Stitch & Scale provides notification, alert, errata, change-log, public-disclosure, or audience-delivery capabilities.
+audience: Independent knitwear designers and pattern publishers coordinating craft-production outputs, revisions, technical editing, testing, feedback, and submissions; secondary founding testers and reviewers.
+deliverables:
+  brief: briefs/SS_founder-proof_change-communication-state_9x16_v001_blocked_20260820-014830.md
+  script: scripts/SS_founder-proof_change-communication-state_9x16_v001_blocked_20260820-014830.md
+  platform_matrix: platforms/SS_founder-proof_change-communication-state_9x16_v001_matrix_20260820-014830.md
+  continuity: ledgers/20260820-change-communication-state.md
+  manifest: manifests/SS_founder-proof_change-communication-state_9x16_v001_blocked_20260820-014830.yml
+filename_reservation: SS_founder-proof_change-communication-state_9x16_v001_blocked_20260820-014830.mp4
+claim_risks:
+  - Do not claim Stitch & Scale provides notifications, alerts, errata, change logs, public disclosure, audience delivery, or notification routing.
+  - Do not claim a notice was sent, seen, acted on, or received.
+  - Do not claim WCAG conformance or accessibility outcomes.
+  - Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  - Keep calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting separate.
+proof_blocker: No current product-proof registry entry or approved non-private rights-cleared capture verifies affected audience, changed artifact/version, impact, effective time, owner/channel, required action, limitation, and disposition.
+rights_blocker: No production assets, narrator, foley, or final platform profile are approved; use only original or cleared materials after review.
+platform_blocker: Destination platform and current safe-area/profile requirements are not confirmed.
+review_state:
+  reviews_checked: true
+  orders_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked and filename occupied; do not regenerate, overwrite, rename, or approve
+  release_gate_roster: blocked and filename occupied; do not infer authorization from generic human-gate proof
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_safe_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing the exact current change-communication surface, confirm the destination platform, then rerun product, claims, rights, caption, audio, platform, continuity, filename, and Director gates.
