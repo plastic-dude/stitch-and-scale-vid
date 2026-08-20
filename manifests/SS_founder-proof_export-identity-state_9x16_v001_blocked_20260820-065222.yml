@@ -1,0 +1,236 @@
+manifest_id: MAN-founder-proof-export-identity-state-9x16-v001-20260820-065222
+brief_id: BRF-founder-proof-export-identity-state-9x16-v001
+script_id: SCR-founder-proof-export-identity-state-9x16-v001
+matrix_id: MAT-founder-proof-export-identity-state-9x16-v001
+campaign: founder-proof
+angle: export-identity-state
+pass_number: 224
+stamp: '20260820-065222'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-proof-short
+title: A file that opens is not proof it is the file you reviewed.
+objective: >-
+  Show why the artifact released for use must be identifiable as the same artifact that was reviewed,
+  without claiming Stitch & Scale currently hashes, signs, compares, or publishes exports.
+audience:
+  primary: >-
+    Independent knitwear designers, pattern publishers, technical editors, test knitters,
+    and makers who export, review, print, share, or submit pattern files.
+  secondary: designers, editors, testers, reviewers, and publication coordinators
+form: founder-proof-tabletop-reviewed-versus-released-artifact-identity-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: craft and knitwear workflow participants who need an honest release artifact trail
+  tone: calm precise craft-respecting non-alarmist and transparent about identity versus correctness
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+product_truth:
+  current_export_identity_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    EXPORT E-001 / DESIGN_ID / SOURCE_RECORD_OR_COMMIT / REVIEWED_ARTIFACT_ID / RELEASED_FILE_ID /
+    FILENAME / VERSION / HASH_ALGORITHM / HASH / HASH_CAPTURED_AT / LOCALE / UNIT / REVIEWER /
+    REVIEWED_AT / REVIEW_STATUS / RELEASE_STATUS / DERIVED_FROM
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+  identity_boundary: >-
+    An identity signal can link artifacts but cannot prove mathematical correctness, technical editing,
+    physical print quality, chart readability, schematic scale, test-knit success, accessibility, or publication approval.
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be described as a
+    knitter, knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+research:
+  file: research/2026-08-20-pass224-browser-findings.md
+  question: >-
+    After a pattern file is reviewed, what evidence proves that the released artifact is the same reviewed
+    file rather than merely another export that opens in a reader?
+  decision_changed: >-
+    Select export-identity-state: connect reviewed artifact identity to released file identity through version,
+    identity signal, capture time, source relationship, reviewer, and status while keeping correctness and human gates separate.
+  sources:
+    - id: R224-001
+      title: 'NIST CSRC — Hash Functions; updated September 9, 2024'
+      url: https://csrc.nist.gov/projects/hash-functions
+      accessed: '2026-08-20'
+      evidence: >-
+        A hash maps an arbitrary-length message to a fixed-length digest and approved hash functions
+        have collision, preimage, and second-preimage resistance properties.
+      limitation: Security guidance; not a product export workflow or correctness proof.
+    - id: R224-002
+      title: 'Adobe Acrobat Help — Validate digital signatures; updated September 23, 2025'
+      url: https://helpx.adobe.com/acrobat/desktop/e-sign-documents/manage-digital-signatures/validate-digital-sign.html
+      accessed: '2026-08-20'
+      evidence: >-
+        Signature validation can check signer authenticity and signed-content integrity, with certificate
+        and timestamp details.
+      limitation: Commercial document workflow; not a Stitch & Scale capability or technical pattern review.
+    - id: R224-003
+      title: 'Craft Yarn Council — Congratulations! You’ve Received the Go Ahead'
+      url: https://www.craftyarncouncil.com/industry.html
+      accessed: '2026-08-20'
+      evidence: >-
+        Submission guidance separates yarn labels, gauge swatches, electronic and printed instructions,
+        schematics, charts, invoices, and return shipping.
+      limitation: General industry guidance; company/publication instructions take precedence.
+    - id: R224-004
+      title: 'Knitty — Design or Write For Knitty; updated June 17, 2026'
+      url: https://knitty.com/subguide.php
+      accessed: '2026-08-20'
+      evidence: >-
+        Winter 2026 submission guidance requires individual files, a text-only pattern document,
+        separate photos/charts/schematics, and lists a September 15, 2026 deadline.
+      limitation: One publication’s workflow; not urgency, affiliation, or product proof.
+    - id: R224-005
+      title: 'GitHub Docs — Artifact attestations'
+      url: https://docs.github.com/en/actions/concepts/security/artifact-attestations
+      accessed: '2026-08-20'
+      evidence: >-
+        Attestations can link a software artifact to repository, workflow, commit, event, and digest,
+        while the documentation warns they are not a guarantee of artifact security.
+      limitation: Software supply-chain context; do not transfer its guarantees or tooling to pattern exports.
+    - id: R224-006
+      title: 'GitHub Docs — Using artifact attestations to establish provenance for builds'
+      url: https://docs.github.com/actions/security-for-github-actions/using-artifact-attestations/using-artifact-attestations-to-establish-provenance-for-builds
+      accessed: '2026-08-20'
+      evidence: >-
+        Build attestations use artifact digests and can be verified through documented workflows and CLI commands.
+      limitation: Build provenance is not pattern correctness, publication approval, or a Stitch & Scale feature.
+    - id: R224-007
+      title: 'Instagram Help — Reel size & aspect ratios'
+      url: https://help.instagram.com/1038071743007909
+      accessed: '2026-08-20'
+      evidence: Reels support 1.91:1 through 9:16, with minimum 30 fps and 720 pixels.
+      limitation: Recheck at approval; no upload is authorized.
+    - id: R224-008
+      title: 'YouTube Help — Add subtitles & captions'
+      url: https://support.google.com/youtube/answer/2734796?hl=en
+      accessed: '2026-08-20'
+      evidence: Timed captions and meaningful non-speech cues are supported by the guidance.
+      limitation: Platform tooling does not replace human caption review or establish product accessibility.
+    - id: R224-009
+      title: 'TikTok Newsroom — Introducing auto captions'
+      url: https://newsroom.tiktok.com/en-us/introducing-auto-captions
+      accessed: '2026-08-20'
+      evidence: Auto captions can be edited and viewers can turn them off.
+      limitation: Announcement is older and market/app support may vary; automatic text is draft-only.
+    - id: R224-010
+      title: 'W3C WAI — Understanding WCAG 2.2 SC 1.2.2 Captions'
+      url: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+      accessed: '2026-08-20'
+      evidence: Captions include speech, speaker identification, meaningful non-speech information, and should not obscure relevant information.
+      limitation: Accessibility guidance, not universal conformance or platform certification.
+product_and_rights_decision: >-
+  No current product-proof registry or approved non-private capture verifies a Stitch & Scale reviewed-export
+  identity surface. Use original illustrative cards only; exclude real patterns, PDFs, hashes, signatures,
+  certificates, commits, publication submissions, customer exports, and private records. Rights/privacy clearance remains required.
+concept_difference:
+  nearest_prior: cost-allocation-state
+  changed_pain: >-
+    A familiar filename or openable file can conceal that the released artifact is not the reviewed artifact.
+  hook: A file that opens is not proof it is the file you reviewed.
+  visual_metaphor: >-
+    REVIEWED_ARTIFACT and RELEASED_FILE cards remain separated by an identity gate until identity fields match.
+  emotional_turn: 'Responsible traceability: filename familiarity gives way to conditional identity evidence.'
+  final_line: Match the file before you call it released.
+dramatic_engine:
+  subject: two fictional pattern-file cards, reviewed and released
+  desire: know whether the released artifact is the reviewed artifact
+  obstacle: filename familiarity and successful opening do not prove version, bytes, source relationship, review status, or release identity
+  stakes: a changed or unknown artifact can be mistaken for the reviewed one; no defect, loss, or customer outcome is claimed
+  change: 'replace OPENED = SAME with IDENTITY MATCH: UNVERIFIED'
+  contradiction: a file can open normally while still being the wrong reviewed version
+  escalation:
+    - REVIEWED_ARTIFACT_ID
+    - RELEASED_FILE_ID
+    - FILENAME_AND_VERSION
+    - HASH_OR_SIGNED_CONTENT_REFERENCE
+    - HASH_CAPTURED_AT
+    - SOURCE_RECORD_OR_COMMIT
+    - REVIEW_STATUS_AND_RELEASE_STATUS
+    - 'IDENTITY MATCH: UNVERIFIED'
+  final_image: >-
+    IDENTITY MATCH: UNVERIFIED remains beside separate human evidence cards; every prop reads
+    ILLUSTRATIVE — NOT PRODUCT UI.
+proof_surface: >-
+  EXPORT E-001 / DESIGN_ID / SOURCE_RECORD_OR_COMMIT / REVIEWED_ARTIFACT_ID / RELEASED_FILE_ID /
+  FILENAME / VERSION / HASH_ALGORITHM / HASH / HASH_CAPTURED_AT / LOCALE / UNIT / REVIEWER /
+  REVIEWED_AT / REVIEW_STATUS / RELEASE_STATUS / DERIVED_FROM
+assets:
+  approved_assets: pending
+  permitted: original artifact cards, neutral tabletop, rights-cleared narrator, consented hand actor, original file/paper foley
+  prohibited: real pattern, PDF, hash, signature, certificate, commit, publication submission, customer export, private record, company logo, current UI capture
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, artifact cards, filenames, versions, hashes, timestamps, source fields, logos, buttons, menus, or primary actions
+audio:
+  music: none unless original or separately rights-cleared and approved
+  motif: restrained file tap, soft gate click, held silence on unverified status
+  room_tone: record before and after each setup
+claims:
+  allowed:
+    - A file that opens is not proof it is the file that was reviewed.
+    - A hash, signature, or artifact reference can help identify or authenticate a file or signed content in bounded contexts.
+    - Identity evidence and technical correctness are separate review questions.
+  prohibited:
+    - Stitch & Scale hashes files, signs PDFs, validates certificates, compares reviewed and released artifacts, or links exports to commits.
+    - A matching identity signal proves mathematical correctness, technical editing, print quality, chart readability, schematic scale, test-knit success, accessibility, or publication approval.
+    - A fictional artifact card is current product UI, a real export, a signed PDF, a real hash, a real commit, or customer data.
+    - David is an accountant, lawyer, publishing editor, knitter, designer, pattern designer, technical editor, or tester.
+    - Revenue, adoption, accuracy, customer outcomes, final pricing, credentials, testimonials, urgency, or unverified capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - identity_surface_exactness
+  - claims_and_human_gate_separation
+  - founder_truth
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or approved capture verifies
+  the exact reviewed-export identity surface; destination platform, rights, narrator, caption, audio, privacy,
+  and final acceptance evidence remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-export-identity-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  nearest_prior: cost-allocation-state
+  adjacent_export_portability: ledgers/2026-08-19-export-portability.md
+  adjacent_backup: ledgers/2026-08-19-backup-state.md
+  adjacent_archival: ledgers/2026-08-19-archival-state.md
+  adjacent_capture_freshness: ledgers/2026-08-19-capture-freshness.md
+  adjacent_publication_boundary: ledgers/2026-08-20-publication-boundary.md
+  adjacent_version_lock: ledgers/2026-08-19-version-lock.md
+  adjacent_chart_parity: ledgers/2026-08-19-chart-parity.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_export-identity-state_9x16_v001_matrix_20260820-065222.md
+filename:
+  reserved: SS_founder-proof_export-identity-state_9x16_v001_blocked_20260820-065222.mp4
+  overwrite: false
+  duplicate_check: pending_validation

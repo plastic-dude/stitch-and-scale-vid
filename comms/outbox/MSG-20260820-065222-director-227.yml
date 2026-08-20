@@ -1,0 +1,62 @@
+message_id: MSG-20260820-065222-director-227
+created_at: '2026-08-20T06:52:22+01:00'
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: MAN-founder-proof-export-identity-state-9x16-v001-20260820-065222
+parent_id: BRF-founder-proof-export-identity-state-9x16-v001
+status: blocked
+summary: >-
+  Pass 224 selects the materially distinct export-identity-state concept, but no current
+  product-proof registry or approved capture verifies a Stitch & Scale reviewed-export identity surface.
+evidence:
+  - research/2026-08-20-pass224-browser-findings.md
+  - briefs/SS_founder-proof_export-identity-state_9x16_v001_blocked_20260820-065222.md
+  - scripts/SS_founder-proof_export-identity-state_9x16_v001_blocked_20260820-065222.md
+  - platforms/SS_founder-proof_export-identity-state_9x16_v001_matrix_20260820-065222.md
+  - ledgers/20260820-export-identity-state.md
+  - manifests/SS_founder-proof_export-identity-state_9x16_v001_blocked_20260820-065222.yml
+  - ledgers/2026-08-20-pass223-selection-boundary-audit.md
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - repository HEAD fb7044cb6e57fd1693e1c679ec288855bcb9a9f8
+research_decision: >-
+  NIST explains hash digests and their bounded security properties. Adobe documents signature validation
+  for signer authenticity and signed-content integrity. GitHub documents artifact attestations linking software
+  artifacts to repositories, workflows, commits, events, and digests, while warning that attestations are not
+  guarantees of artifact security. Craft Yarn Council and Knitty show that knitwear publication submissions are
+  packages of distinct files and human checks. Current Instagram, YouTube, TikTok, and W3C sources set conservative
+  proof, caption, audio, and mobile-readability gates. None of these sources proves a Stitch & Scale export-identity surface.
+concept_difference: >-
+  Nearest prior is cost-allocation-state. This pass moves from shared-expense attribution to identity continuity
+  between a reviewed artifact and a released file. It is distinct from export-portability, backup-state, archival-state,
+  capture-freshness, publication-boundary, version-lock, chart-parity, preview-state, paper-proof, and imported
+  false-completion/release-gate-roster.
+hook: A file that opens is not proof it is the file you reviewed.
+final_line: Match the file before you call it released.
+proof_surface: >-
+  EXPORT E-001 / DESIGN_ID / SOURCE_RECORD_OR_COMMIT / REVIEWED_ARTIFACT_ID / RELEASED_FILE_ID /
+  FILENAME / VERSION / HASH_ALGORITHM / HASH / HASH_CAPTURED_AT / LOCALE / UNIT / REVIEWER /
+  REVIEWED_AT / REVIEW_STATUS / RELEASE_STATUS / DERIVED_FROM
+identity_boundary: >-
+  A matching identity signal can link artifacts but cannot prove mathematical correctness, technical editing,
+  physical print quality, chart readability, schematic scale, test-knit success, accessibility, or publication approval.
+claims_boundary: >-
+  Do not claim that Stitch & Scale hashes files, signs PDFs, validates certificates, compares reviewed and released
+  artifacts, links exports to commits, guarantees integrity, proves correctness, ensures accessibility, or replaces
+  technical editing, physical print review, chart readability, schematic scale, or test knitting.
+rights_boundary: >-
+  Use only original generic artifact cards, approved narrator, consented hand performance, and original or cleared
+  file/paper sound. Every card must read ILLUSTRATIVE — NOT PRODUCT UI. No real pattern, PDF, hash, signature,
+  certificate, commit, publication submission, customer export, or private record is cleared.
+review_and_audio: >-
+  One narrator family, human-verified caption-on and caption-free versions, mobile-safe captions that never cover
+  faces, hands, artifact cards, filenames, versions, hashes, timestamps, source fields, logos, controls, menus,
+  or primary actions, and full-length audio QC for doubled words, overlaps, drift, clipping, and room-tone jumps.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared product-proof registry entry or approved capture for
+  the exact reviewed-export identity surface, confirm destination platform and all asset/privacy rights, then rerun
+  product/data, identity, claims, founder-truth, human-evidence, rights, narrator, caption, audio, platform,
+  continuity, filename, and Director gates.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+reserved_filename: SS_founder-proof_export-identity-state_9x16_v001_blocked_20260820-065222.mp4
