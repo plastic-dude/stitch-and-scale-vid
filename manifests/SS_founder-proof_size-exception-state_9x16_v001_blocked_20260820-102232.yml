@@ -1,0 +1,70 @@
+manifest_version: '1.0'
+plan_id: 'SS-PLAN-20260820-SIZE-EXCEPTION-STATE-V001'
+pass_number: 256
+campaign_id: 'founder-proof'
+episode_id: 'EP-FOUND-SIZE-EXCEPTION-STATE-V001'
+angle_slug: 'size-exception-state'
+script_version: 'v001'
+brief_version: 'v001'
+status: 'blocked'
+objective: 'Recruit founding testers through a truthful founder-proof short about the breakpoint between a default grading rule and a design-specific size exception.'
+audience: 'Independent knitwear designers and pattern publishers managing sizes, grading, fit, ease, sleeves, necklines, armholes, charts, schematics, technical editing, test knitting, and publication preparation.'
+form: 'Organic 9:16 founder-proof short for Instagram Reels, TikTok, and YouTube Shorts.'
+tone: 'First-person, quiet, specific, dry, craft-respectful, and cautious about smooth-looking math.'
+research_path: 'research/2026-08-20-pass256-browser-findings.md'
+selection_audit_path: 'research/2026-08-20-pass256-selection-boundary-audit.md'
+brief_path: 'briefs/SS_founder-proof_size-exception-state_9x16_v001_blocked_20260820-102232.md'
+script_path: 'scripts/SS_founder-proof_size-exception-state_9x16_v001_blocked_20260820-102232.md'
+platform_matrix_path: 'platforms/SS_founder-proof_size-exception-state_9x16_v001_matrix_20260820-102232.md'
+continuity_path: 'ledgers/20260820-size-exception-state.md'
+reserved_filename: 'SS_founder-proof_size-exception-state_9x16_v001_blocked_20260820-102232.mp4'
+filename_status: 'reserved; no file generated; no overwrite permitted'
+media_status: 'not_generated'
+upload_status: 'not_uploaded'
+product_proof_status: 'missing_for_exact_size_exception_surface'
+proof_boundary: 'Illustrative paper card and ruler only; fixed footer ILLUSTRATIVE — NOT PRODUCT UI.'
+rights_status: 'unverified_external_media_not_allowed'
+privacy_status: 'no_private_or_third_party_material_approved'
+voice_status: 'one_calm_first_person_narrator_family_required'
+caption_status: 'caption_on_and_caption_free_reviews_required'
+audio_status: 'original_or_cleared_audio_only; continuity_review_required'
+platform_status: 'platform_profiles_defined_but_current_acceptance_not_authorized'
+human_review_status: 'required_for_grading_exceptions_technical_editing_test_knitting_and_final_disposition'
+claim_boundary:
+  size_range_is_not_exception_proof: true
+  default_rule_is_not_universal: true
+  automatic_exception_detection: false
+  automatic_grade_repair: false
+  fit_guarantee: false
+  size_inclusivity_guarantee: false
+  standards_conformance_claim: false
+  current_product_size_exception_surface_verified: false
+  technical_editing_is_distinct: true
+  physical_print_review_is_distinct: true
+  chart_readability_is_distinct: true
+  schematic_scale_is_distinct: true
+  translation_review_is_distinct: true
+  test_knitting_is_distinct: true
+assets:
+  approved:
+    - 'Original paper SIZE EXCEPTION card specified in the Director brief.'
+    - 'Original paper ruler with abstract ticks and one breakpoint.'
+    - 'Repository references and research URLs as planning evidence only.'
+  prohibited:
+    - 'Real size numbers, body measurements, grade rules, pattern text, chart, schematic, tester result, customer outcome, screenshot, private record, tester identity, or unlicensed music.'
+  product_capture: 'not_supplied'
+rights_ledger:
+  paper_card_and_ruler: 'internal_original_pending_production_signoff'
+  product_capture: 'unverified'
+  external_pattern_or_measurement: 'not_cleared'
+  music_and_sound: 'not_selected; original_or_cleared_only'
+acceptance_gates:
+  - 'Current versioned proof-registry entry or approved non-private capture for the exact size-exception surface.'
+  - 'Size, body point, default rule, exception, affected pieces, rationale, maker note, technical-edit state, test-knit state, and human review.'
+  - 'Privacy, destination, credit, and rights confirmation for every non-original asset.'
+  - 'No unsupported automatic grading, fit, inclusion, correctness, standards, or outcome claims.'
+  - 'Imported false-completion and release-gate-roster remain untouched and blocked.'
+  - 'One narrator family; caption-on review; caption-free review; mobile safe-zone review; audio continuity review.'
+  - 'Technical editing, physical print review, chart readability, schematic scale, translation review, and test knitting remain separate human evidence gates.'
+  - 'Human sign-off on final disposition.'
+next_action: 'Do not generate or upload. Supply current versioned product proof for the exact size-exception surface, confirm destination and rights/privacy, then rerun Director validation.'
