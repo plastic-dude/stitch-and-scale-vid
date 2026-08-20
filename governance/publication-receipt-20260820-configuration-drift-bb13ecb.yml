@@ -1,0 +1,212 @@
+receipt_id: PUB-20260820-configuration-drift-bb13ecb
+created_at: '2026-08-20T17:38:20+00:00'
+role: temporary-director
+firing: 248
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 19464d1fdaea2f3c0e7c6e144b809641a1ef420b
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: bb13ecbb6ed78c879767b635042b5a8389cd75c9
+blocker_path: comms/outbox/MSG-20260820T173800-temporary-director-248.yml
+research_paths:
+  - research/2026-08-20-configuration-drift-v002-review-gate-1738.md
+  - research/2026-08-20-firing-248-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  manifest_status: director-review
+  review_lane_status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+latest_reviewer_observation:
+  review_id: REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  reviewed_at: '2026-08-20T17:15:00Z'
+  reviewer: video-reviewer
+  status: BLOCKED
+  weighted_score_percent: 86.0
+  threshold_percent: 65
+  director_approval: false
+  terminal: false
+  remake_order_id: null
+  exact_drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  exact_sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  ordered_action_is_terminal: false
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  non_terminal_reviewer_block_record: true
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should the V002 review gate detect and control drift among the repository contract, Drive asset,
+  manifest, Reviewer packet, captions, platform QA, and rights/audio records before any terminal
+  decision or Generator action?
+research_decision: >-
+  Require a formally reviewed, owner-approved, versioned v002 configuration baseline and an immutable
+  drift report. Compare every expected and observed configuration item field by field, identify
+  additions, removals, and modifications, reject stale comparisons, and record source timestamp,
+  freshness, owner, rationale, disposition, impact, and downstream revalidation. A matching filename
+  or checksum alone is not configuration proof. Drift is not silently repaired; material drift blocks
+  generation and publication until controlled reconciliation and revalidation are complete.
+configuration_baseline_contract:
+  baseline_id: required
+  baseline_version: required
+  baseline_status: owner_approved_or_draft_explicitly_labeled
+  baseline_owner_identity: required
+  baseline_owner_role: required
+  baseline_approval_reference: required
+  effective_timestamp_utc: required
+  review_date: required
+  change_control_reference: required
+  exact_active_review_contract_binding: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  exact_filename: required
+  configuration_item_inventory: required
+  expected_value_digest: required
+  baseline_snapshot_digest: required
+  source_commit_or_record: required
+  source_timestamp_utc: required
+  freshness_bound: required
+  schema_version: required
+  evaluation_method: required
+  hermetic_evaluation: required
+  side_effects_during_evaluation: forbidden
+drift_report:
+  report_id: required
+  report_version: required
+  baseline_id: required
+  baseline_digest: required
+  observed_snapshot_id: required
+  observed_snapshot_digest: required
+  observed_at_utc: required
+  source_identity: required
+  detection_started_at_utc: required
+  detection_completed_at_utc: required
+  detection_status: required
+  last_successful_detection_at_utc: required
+  stale_result_rejected: required
+  expected_value: required_per_item
+  observed_value: required_per_item
+  difference_type: required_per_item
+  property_path: required_per_difference
+  source_timestamp: required_per_item
+  freshness: required_per_item
+  evidence_reference: required_per_item
+  change_owner: required_per_difference
+  change_reason: required_per_difference
+  disposition: required_per_difference
+  impact_assessment: required_per_difference
+  downstream_contracts_affected: required_per_difference
+  revalidation_status: required_per_difference
+  unresolved_drift: required
+  unowned_drift: required
+  missing_baseline: required
+  missing_observation: required
+  report_immutable: true
+  report_readback: required
+  report_is_not_terminal_authority: true
+configuration_items:
+  approved_brief: required
+  source_contract: required
+  drive_media: required
+  repository_manifest: required
+  reviewer_packet: required
+  captions_and_safe_zone: required
+  platform_qa: required
+  rights_and_audio: required
+  generator_order: required
+comparison_rules:
+  expected_and_observed_required: true
+  additions_identified: true
+  removals_identified: true
+  modifications_identified: true
+  missing_values_not_equal_to_compliant: true
+  stale_comparison_not_acceptable: true
+  checksum_match_not_sufficient_alone: true
+  filename_match_not_sufficient_alone: true
+  manifest_match_not_sufficient_alone: true
+  reviewer_score_not_configuration_proof: true
+  configuration_drift_is_not_auto_repaired: true
+  baseline_change_requires_change_control: true
+  drift_disposition_requires_owner: true
+  material_drift_requires_downstream_revalidation: true
+  unresolved_drift_is_non_terminal: true
+  unowned_drift_is_non_terminal: true
+  missing_baseline_is_non_terminal: true
+  missing_observation_is_non_terminal: true
+  stale_drift_result_is_non_terminal: true
+reconciliation_rules:
+  preserve_prior_baseline: true
+  preserve_prior_observations: true
+  preserve_prior_reviewer_evidence: true
+  publish_new_versioned_baseline: true
+  publish_new_versioned_manifest_when_changed: true
+  publish_append_only_drift_record: true
+  record_change_owner: true
+  record_change_rationale: true
+  record_effective_timestamp: true
+  identify_affected_contracts: true
+  revalidate_affected_review: true
+  revalidate_affected_platform_qa: true
+  revalidate_affected_generator_order: true
+  overwrite_prior_baseline: false
+  delete_drift_evidence: false
+  silently_repair_drive_asset: false
+  silently_repair_manifest: false
+  silently_reclassify_reviewer_record: false
+  drift_reconciliation_is_not_terminal: true
+  drift_reconciliation_does_not_authorize_mp4: true
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_configuration_consistent_independent_reviewer_approval
+  - complete_exact_provenance_configuration_consistent_independent_reviewer_rejection
+  - complete_exact_provenance_configuration_consistent_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution_after_drift_revalidation
+non_terminal_events:
+  - baseline_created
+  - baseline_updated_pending_approval
+  - drift_detection_started
+  - drift_detection_completed
+  - drift_detected
+  - drift_not_detected
+  - stale_drift_result
+  - missing_baseline
+  - missing_observation
+  - unowned_drift
+  - unresolved_drift
+  - drift_reconciliation
+  - versioned_manifest_update
+  - reviewer_blocked_without_remake_order
+  - score_above_threshold_without_terminal_verdict
+  - queue_hold
+  - heartbeat
+  - receipt_publication
+  - change_request
+  - revalidation_pending
+  - revalidation_complete_without_terminal_decision
+next_action: >-
+  Human owner must approve a versioned v002 configuration baseline and drift report. Compare every
+  expected and observed item field by field, reject stale results, identify additions, removals, and
+  modifications, assign an owner and rationale, and revalidate affected contracts after material
+  change. The non-terminal Reviewer BLOCKED record must be handled only through its explicit
+  version-matched evidence/QA action. Keep the single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
