@@ -1,0 +1,72 @@
+schema_version: '1.0'
+pass_number: 250
+plan_id: 'SS-PLAN-20260820-AMBIGUITY-STATE-V001'
+campaign: 'founder-proof'
+angle: 'ambiguity-state'
+format: '9x16'
+version: 'v001'
+status: 'blocked'
+reserved_filename: 'SS_founder-proof_ambiguity-state_9x16_v001_blocked_20260820-092613.mp4'
+video_id: 'VID-founder-proof-ambiguity-state-9x16-v001'
+parent_decision: 'SS-PLAN-20260820-AMBIGUITY-STATE-V001'
+nearest_prior_angle: 'observed-knit-state'
+brief_path: 'briefs/SS_founder-proof_ambiguity-state_9x16_v001_blocked_20260820-092613.md'
+script_path: 'scripts/SS_founder-proof_ambiguity-state_9x16_v001_blocked_20260820-092613.md'
+research_path: 'research/2026-08-20-pass250-browser-findings.md'
+platform_matrix_path: 'platforms/SS_founder-proof_ambiguity-state_9x16_v001_matrix_20260820-092613.md'
+continuity_path: 'ledgers/20260820-ambiguity-state.md'
+handoff_path: 'comms/outbox/MSG-20260820-092613-director-253.yml'
+media_exists: false
+media_generated: false
+media_uploaded: false
+external_archive_url: null
+external_file_id: null
+checksum_sha256: null
+rights_status: 'unverified'
+voice_status: 'one-narrator-family-planned-not-recorded'
+caption_status: 'caption-on-and-caption-free-planned-not-reviewed'
+audio_status: 'original-or-cleared-sound-required-not-cleared'
+platform_status: 'organic-destination-and-current-acceptance-unverified'
+product_truth:
+  product_proof_registry_entry: 'absent'
+  current_ambiguity_surface_verified: false
+  current_exact_source_text_surface_verified: false
+  current_competing_readings_surface_verified: false
+  current_missing_context_surface_verified: false
+  current_expected_result_surface_verified: false
+  current_ambiguity_review_surface_verified: false
+  current_roster_surface_verified: false
+  approved_non_private_capture: false
+  current_destination_verified: false
+  rights_privacy_approved: false
+proof_surface: 'AMB-001 / PATTERN_VERSION / LOCATION / ORIGINAL_TEXT / READING_A / READING_B / MISSING_CONTEXT / EXPECTED_RESULT / EVIDENCE / REVIEWER / NEXT_CHECK / STATUS'
+ambiguity_states:
+  - 'PATTERN_VERSION_DECLARED'
+  - 'LOCATION_DECLARED'
+  - 'ORIGINAL_TEXT_PRESERVED'
+  - 'READING_A_RECORDED'
+  - 'READING_B_RECORDED'
+  - 'MISSING_CONTEXT_UNRESOLVED'
+  - 'EXPECTED_RESULT_UNRESOLVED'
+  - 'EVIDENCE_UNRESOLVED'
+  - 'REVIEWER_UNASSIGNED'
+  - 'NEXT_CHECK_DECLARED'
+  - 'AMBIGUITY_REPORTED'
+  - 'DECISION_UNRESOLVED'
+  - 'HUMAN_INTERPRETATION_REVIEW_REQUIRED'
+claim_boundary:
+  ambiguity_is_not_automatic_defect: true
+  ambiguity_is_not_automatic_release_block: true
+  ambiguity_is_not_automatic_correction: true
+  ambiguity_is_not_technical_editing: true
+  ambiguity_is_not_physical_print_review: true
+  ambiguity_is_not_chart_readability: true
+  ambiguity_is_not_schematic_scale: true
+  ambiguity_is_not_test_knitting: true
+  ambiguity_is_not_tester_routing: true
+  ambiguity_is_not_release_roster: true
+  generated_text_is_not_product_truth: true
+  illustrative_prop_is_not_product_ui: true
+  no_revenue_adoption_accuracy_testimonial_pricing_or_urgency_claims: true
+exact_generator_action: 'Do not generate or upload. Await a current versioned ambiguity proof-registry entry or approved non-private capture for the exact surface, confirm destination and rights/privacy, and rerun Director validation before re-authorization.'
+blocker: 'No current product-proof registry entry or approved non-private capture verifies Stitch & Scale ambiguity records, exact source-text fields, competing readings, missing-context state, human review state, automatic correction, or release behavior; rights, destination, captions, audio, and acceptance remain unverified.'
