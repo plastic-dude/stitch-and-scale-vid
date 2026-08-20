@@ -1,0 +1,47 @@
+message_id: MSG-20260820-020430-director-197
+message_type: director_handoff
+created_at: 2026-08-20T02:04:30+00:00
+from: director-planner
+campaign: founder-proof
+angle_slug: effect-state
+brief_id: BRF-founder-proof-effect-state-9x16-v001
+status: blocked
+subject: Pass 195 blocked — effect-state pending current product proof
+research:
+  note: research/2026-08-20-pass195-browser-findings.md
+  question: What evidence shows that a completed follow-through actually changed the intended craft artifact or gate, distinguishing action completion from verified effect?
+  sources: [986, 987, 988, 989, 990]
+  decision: Narrowed from whether a requested next action was completed to whether it produced an observed downstream difference on the exact artifact or gate and how that difference was verified.
+distinctness:
+  nearest_prior: follow-through-state
+  changed_pain: Whether the requested action happened versus whether the intended artifact or gate actually changed and the difference was verified.
+  changed_metaphor: Acknowledged action request becomes completed action beside identical before/after artifact cards.
+  hook: Completed is not the same as changed.
+  final_line: Show the before, the after, and how you verified the difference.
+objective: Make the trust question of downstream effect evidence visible without claiming that Stitch & Scale propagates changes, verifies effects, measures accuracy or outcomes, or completes human gates.
+audience: Independent knitwear designers and pattern publishers coordinating craft-production outputs, revisions, technical editing, testing, feedback, and submissions; secondary founding testers and reviewers.
+deliverables:
+  brief: briefs/SS_founder-proof_effect-state_9x16_v001_blocked_20260820-020430.md
+  script: scripts/SS_founder-proof_effect-state_9x16_v001_blocked_20260820-020430.md
+  platform_matrix: platforms/SS_founder-proof_effect-state_9x16_v001_matrix_20260820-020430.md
+  continuity: ledgers/20260820-effect-state.md
+  manifest: manifests/SS_founder-proof_effect-state_9x16_v001_blocked_20260820-020430.yml
+filename_reservation: SS_founder-proof_effect-state_9x16_v001_blocked_20260820-020430.mp4
+claim_risks:
+  - Do not claim Stitch & Scale propagates changes, verifies effects, measures accuracy or outcomes, or completes human gates.
+  - Do not claim a real artifact or gate changed as a result of an action.
+  - Do not claim WCAG conformance or accessibility outcomes.
+  - Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  - Keep calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting separate.
+proof_blocker: No current product-proof registry entry or approved non-private rights-cleared capture verifies request ID, target artifact or gate, before state, after state, observation, verification method, residual limitation, and disposition.
+rights_blocker: No production assets, narrator, foley, or final platform profile are approved; use only original or cleared materials after review.
+platform_blocker: Destination platform and current safe-area/profile requirements are not confirmed.
+review_state:
+  reviews_checked: true
+  orders_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked and filename occupied; do not regenerate, overwrite, rename, or approve
+  release_gate_roster: blocked and filename occupied; do not infer authorization from generic human-gate proof
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_safe_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing the exact current effect surface, confirm the destination platform, then rerun product, claims, rights, caption, audio, platform, continuity, filename, and Director gates.
