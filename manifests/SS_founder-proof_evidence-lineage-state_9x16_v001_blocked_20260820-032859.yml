@@ -1,0 +1,159 @@
+manifest_version: '1.0'
+manifest_id: MAN-founder-proof-evidence-lineage-state-9x16-v001-20260820-032859
+brief_id: BRF-founder-proof-evidence-lineage-state-9x16-v001
+script_id: SCR-founder-proof-evidence-lineage-state-9x16-v001
+matrix_id: MAT-founder-proof-evidence-lineage-state-9x16-v001
+campaign: founder-proof
+angle: evidence-lineage-state
+stamp: '20260820-032859'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-explainer
+title: A source is a starting point. The result needs a visible trail.
+objective: >-
+  Show that a result should expose the source entity, activity or transformation,
+  derivation link, responsible agent, and source gap that support it, without claiming
+  that Stitch & Scale currently records provenance or validates source sufficiency.
+audience:
+  primary: >-
+    Independent knitwear designers and pattern publishers coordinating calculations,
+    technical editing, physical print review, chart readability, schematic scale, test
+    knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+  secondary: founding testers and reviewers
+form: founder-proof-tabletop-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: independent knitwear designers and pattern publishers
+  tone: calm exact non-urgent candid
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be
+    described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_evidence_lineage_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    LINEAGE A-001 / SOURCE_ENTITY / SOURCE_VERSION_OR_DATE / ACTIVITY_OR_TRANSFORM /
+    DERIVATION_LINK / RESPONSIBLE_AGENT / RESULT / SOURCE_SUFFICIENCY / CHAIN_STATUS /
+    DISPOSITION
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+research:
+  file: research/2026-08-20-pass206-browser-findings.md
+  question: >-
+    How should a result expose the source trail that supports it, and how should the
+    workflow show when that trail is incomplete or insufficient for the intended use?
+  decision_changed: >-
+    Identify source, activity, derivation, responsible agent, and result while showing incomplete support.
+  sources:
+    - id: R206-001
+      title: 'W3C — PROV-DM: The PROV Data Model'
+      url: https://www.w3.org/TR/prov-dm/
+      accessed: '2026-08-20'
+    - id: R206-002
+      title: 'GOV.UK — Government Data Quality Framework'
+      url: https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+      accessed: '2026-08-20'
+    - id: R206-003
+      title: 'W3C WAI — WCAG-EM Report Tool'
+      url: https://www.w3.org/WAI/eval/report-tool/
+      accessed: '2026-08-20'
+    - id: R206-004
+      title: 'Craft Yarn Council — Reading Instructions & Other Basics'
+      url: https://www.craftyarncouncil.com/read_instructions.html
+      accessed: '2026-08-20'
+concept_difference:
+  nearest_prior: result-boundary-state
+  changed_pain: >-
+    A result looks supported because a source exists while the derivation, activity,
+    responsibility, or currentness of the source trail is unclear.
+  hook: A source is a starting point. The result needs a visible trail.
+  visual_metaphor: >-
+    A chain of source, activity, derivation, responsible agent, and result cards with one dashed NOT VERIFIED link.
+  emotional_turn: 'Cautious confidence: show the trail before asking anyone to trust the destination.'
+  final_line: Show the source, the work, the person responsible, and the link to the result.
+dramatic_engine:
+  subject: chain of source, activity, derivation, responsible agent, and result cards
+  desire: let a useful result be inspectable rather than asking the audience to trust a citation alone
+  obstacle: source exists but version, activity, derivation, responsibility, currentness, and sufficiency are incomplete
+  stakes: a named source can create false confidence when the chain between source and result is missing
+  change: chain becomes visible, one link remains dashed and unverified, and result stays held
+  contradiction: a source can be genuine while its connection to this result remains unproven
+  escalation:
+    - SOURCE_ENTITY
+    - SOURCE_VERSION_OR_DATE requested
+    - ACTIVITY_OR_TRANSFORM named
+    - DERIVATION_LINK drawn
+    - RESPONSIBLE_AGENT exposed
+    - RESULT linked
+    - SOURCE_SUFFICIENCY questioned
+    - CHAIN_STATUS held
+assets:
+  approved_assets: pending
+  permitted: original neutral cards, neutral tabletop, rights-cleared narrator, neutral foley
+  prohibited: copyrighted pattern excerpts, private records, customer names, logos, private messages, current UI captures
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, proof, tables, numbers, logos, buttons, menus, or primary actions
+audio:
+  music: none unless rights-cleared and separately approved
+  motif: restrained line-draw cue and neutral incomplete tone
+  room_tone: record before and after each setup
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_evidence-lineage-state_9x16_v001_matrix_20260820-032859.md
+filename:
+  reserved: SS_founder-proof_evidence-lineage-state_9x16_v001_blocked_20260820-032859.mp4
+  overwrite: false
+  duplicate_check: passed
+claims:
+  allowed:
+    - Provenance can describe entities, activities, people, and derivations involved in producing or influencing a result.
+    - A lineage record can name source, version/date, activity, derivation, responsible agent, result, sufficiency, chain status, and disposition.
+  prohibited:
+    - Stitch & Scale records provenance, tracks derivation, assigns responsibility, validates source sufficiency, or detects broken chains.
+    - A named source proves a real result or current product behavior.
+    - A source or lineage record replaces calculation, technical editing, print review, chart readability, schematic scale, or test knitting.
+    - WCAG conformance or guaranteed accessibility.
+    - Revenue, adoption, customer outcomes, pricing, credentials, testimonials, urgency, accuracy, or capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact evidence-lineage surface; destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence also remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-evidence-lineage-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
