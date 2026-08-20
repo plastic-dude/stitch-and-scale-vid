@@ -1,0 +1,58 @@
+message_id: MSG-20260820-074502-director-233
+created_at: '2026-08-20T07:45:02+01:00'
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: MAN-founder-proof-decision-basis-state-9x16-v001-20260820-074502
+parent_id: BRF-founder-proof-decision-basis-state-9x16-v001
+status: blocked
+summary: >-
+  Pass 230 selects the materially distinct decision-basis-state concept, but no current product-proof registry or
+  approved capture verifies a Stitch & Scale decision-basis surface.
+evidence:
+  - research/2026-08-20-pass230-browser-findings.md
+  - research/2026-08-20-pass230-selection-boundary-audit.md
+  - briefs/SS_founder-proof_decision-basis-state_9x16_v001_blocked_20260820-074502.md
+  - scripts/SS_founder-proof_decision-basis-state_9x16_v001_blocked_20260820-074502.md
+  - platforms/SS_founder-proof_decision-basis-state_9x16_v001_matrix_20260820-074502.md
+  - ledgers/20260820-decision-basis-state.md
+  - manifests/SS_founder-proof_decision-basis-state_9x16_v001_blocked_20260820-074502.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - repository HEAD ae3b4680ca5972fbb683e1da917e675764cd2534
+research_decision: >-
+  CYC asks designers to reconfirm inputs, check dye lots, reconfirm sample size, keep notes, and not rely on memory,
+  while separating labels, swatches, instructions, schematics, invoices, and return shipping. CYC distinguishes idea,
+  sample, completed project, acceptance, contract, and review. Knitty separates technical editing, test knitting, charts,
+  schematics, photographs, rights, and individual submission files. Atlassian’s DACI template documents decision roles,
+  but roles do not prove correctness. None of these sources proves a Stitch & Scale decision-intelligence surface.
+concept_difference: >-
+  Nearest prior is record-purpose-state, which concerns why a record exists and which workflow stage it represents.
+  Pass 230 concerns the evidence and roles beneath a particular decision: observation, source/reference, derivation or
+  formula, assumption, decision owner, approver/gate, contributors, informed, open question, decision time, status,
+  and limitations. It is distinct from estimate, measurement-provenance, confidence, owner, review, publication, and imported blocked concepts.
+hook: A decision is not its explanation until the basis is visible.
+final_line: Name what you saw, what you assumed, and who still needs to review it.
+proof_surface: >-
+  DECISION D-001 / DESIGN_ID / DECISION_PURPOSE / OBSERVATION / SOURCE_OR_REFERENCE /
+  DERIVATION_OR_FORMULA / ASSUMPTION / DECISION_OWNER / APPROVER_OR_GATE / CONTRIBUTORS /
+  INFORMED / OPEN_QUESTION / DECIDED_AT / STATUS / LIMITATIONS
+basis_boundary: >-
+  A decision-basis record cannot establish the truth of the observation, formula, estimate, financial or tax treatment,
+  technical editing, test-knit success, publication approval, or user outcome.
+claims_boundary: >-
+  Do not claim that Stitch & Scale evaluates evidence, calculates correctness, recommends decisions, records approvals,
+  assigns DACI roles, replaces technical editing, proves test-knit success, gives financial or tax treatment, or establishes publication readiness.
+rights_boundary: >-
+  Use only original abstract decision cards, approved narrator, consented hand performance, and original or cleared card sound.
+  Every card must read ILLUSTRATIVE — NOT PRODUCT UI. No real pattern, test-knit report, customer record, publication decision,
+  invoice, logo, or private data is cleared.
+review_and_audio: >-
+  One narrator family, human-verified caption-on and caption-free versions, mobile-safe captions that never cover cards,
+  roles, values, open questions, logos, controls, or primary actions, and full-length audio QC.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared product-proof registry entry or approved capture for the exact
+  decision-basis surface, confirm destination platform and asset/privacy rights, then rerun product/data, decision-scope,
+  claims, founder-truth, human-evidence, rights, narrator, caption, audio, platform, continuity, filename, and Director gates.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+reserved_filename: SS_founder-proof_decision-basis-state_9x16_v001_blocked_20260820-074502.mp4
