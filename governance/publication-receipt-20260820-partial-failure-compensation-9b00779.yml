@@ -1,0 +1,233 @@
+receipt_id: PUB-20260820-partial-failure-compensation-9b00779
+created_at: '2026-08-20T17:31:12+00:00'
+role: temporary-director
+firing: 247
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 46e3671fdcbf6e641890b7e0e56bdf04cf5f82b7
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 9b007798425843735e2a51aa16351810f2a65204
+blocker_path: comms/outbox/MSG-20260820T173100-temporary-director-247.yml
+research_paths:
+  - research/2026-08-20-partial-failure-compensation-review-lane-1731.md
+  - research/2026-08-20-firing-247-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  manifest_status: director-review
+  review_lane_status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+latest_reviewer_observation:
+  review_id: REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  reviewed_at: '2026-08-20T17:15:00Z'
+  reviewer: video-reviewer
+  status: BLOCKED
+  weighted_score_percent: 86.0
+  threshold_percent: 65
+  director_approval: false
+  terminal: false
+  remake_order_id: null
+  exact_drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  exact_sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  ordered_action_is_terminal: false
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  non_terminal_reviewer_block_record: true
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should the V002 review lane recover when a distributed step partially succeeds—for example,
+  when the Reviewer record is published but a manifest update, Generator order, checksum record, or
+  derivative upload fails—without duplicating actions or treating recovery as terminal authorization?
+research_decision: >-
+  Require a durable, step-level recovery and compensation contract. Every evidence, manifest, order,
+  derivative, or terminal step must record execution identity, precondition, postcondition, idempotency,
+  retry budget, partial effects, compensation or containment, verification, and immutable readback.
+  At-least-once retries require explicit idempotency; retries need bounded exponential backoff and
+  jitter. Compensation may quarantine, append correction, or restore a non-terminal operational state,
+  but may not delete evidence, rewrite history, change V002 identity, or authorize approval, rejection,
+  remake, publication, or MP4. Missing or mismatched postconditions fail closed.
+recovery_compensation_contract:
+  contract_id: required
+  contract_version: required
+  exact_active_review_contract_binding: required
+  workflow_execution_id: required_per_attempt
+  workflow_type: required
+  workflow_execution_semantics: required
+  step_id: required_per_step
+  step_sequence: required
+  action_type: required
+  action_owner_identity: required
+  action_authority_basis: required
+  input_digest: required
+  output_digest: required_when_output
+  precondition: required
+  precondition_observation: required
+  postcondition: required
+  postcondition_observation: required
+  postcondition_verification_method: required
+  idempotency_key: required
+  retry_policy_id: required
+  retry_attempt_number: required
+  retry_budget: required
+  backoff_policy: required
+  jitter_policy: required
+  retry_deadline: required
+  timeout_policy: required
+  failure_classification: required
+  partial_effects: required
+  partial_effects_digest: required
+  partial_state_snapshot: required
+  evidence_reference: required
+  compensation_or_containment_action: required
+  compensation_authority_basis: required
+  compensation_idempotency_key: required
+  compensation_precondition: required
+  compensation_postcondition: required
+  compensation_verification: required
+  compensation_result: required
+  residual_effects: required
+  residual_uncertainty: required
+  recovery_owner: required
+  recovery_observer: required
+  recovery_incident_id: required_when_incomplete
+  immutable_attempt_record: required
+  immutable_compensation_record: required
+  remote_readback: required
+  publication_receipt: required_for_generator_relevant_record
+workflow_semantics:
+  durable_execution_required_for_terminal_or_generator_relevant_step: true
+  exactly_once_preferred_for_non_idempotent_action: true
+  at_least_once_requires_explicit_idempotency: true
+  at_most_once_requires_explicit_loss_handling: true
+  workflow_type_immutable_after_activation: true
+  execution_history_retention: required
+  execution_history_readback: required
+  execution_history_not_evidence_deletion: true
+retry_and_backoff:
+  max_attempts: required
+  max_elapsed_time: required
+  exponential_backoff: required
+  randomized_jitter: required
+  per_action_retry_budget: required
+  per_workflow_retry_budget: required
+  global_retry_budget: required
+  retry_budget_exhaustion: open_or_update_recovery_incident
+  retry_budget_exhaustion_is_not_terminal: true
+  retry_count_is_not_authority: true
+  retry_does_not_create_new_proposal_authority: true
+  layered_retry_amplification_forbidden: true
+  retry_after_unknown_outcome_requires_readback: true
+  retry_after_partial_effect_requires_reconciliation: true
+  retry_after_timeout_requires_idempotency_check: true
+partial_failure_rules:
+  prior_effect_must_be_preserved: true
+  failed_step_must_be_recorded: true
+  unknown_outcome_must_be_recorded: true
+  partial_state_must_be_snapshotted: true
+  compensation_must_not_delete_evidence: true
+  compensation_must_not_rewrite_history: true
+  compensation_must_not_change_exact_media_identity: true
+  compensation_must_not_create_terminal_authority: true
+  compensation_must_not_create_approved_brief: true
+  compensation_must_not_authorize_mp4: true
+  compensation_failure_opens_incident: true
+  compensation_failure_is_not_terminal: true
+  postcondition_missing_is_not_success: true
+  postcondition_mismatch_is_not_success: true
+  postcondition_unknown_is_not_success: true
+  readback_required_after_remote_write: true
+  remote_divergence_requires_safe_merge_or_publication_blocked: true
+  generator_relevant_write_requires_receipt: true
+compensation_actions:
+  evidence_publication_partial:
+    preserve_partial_record: true
+    publish_correction_append_only: true
+    delete_partial_record: false
+    mark_incomplete: true
+    terminal_authority: false
+  manifest_publication_partial:
+    preserve_prior_manifest: true
+    publish_versioned_reconciliation: true
+    overwrite_prior_manifest: false
+    verify_exact_checksum: true
+    terminal_authority: false
+  generator_order_partial:
+    preserve_original_order: true
+    deduplicate_by_order_id_and_execution_id: true
+    append_hold_or_cancel: true
+    silently_requeue: false
+    terminal_authority: false
+  derivative_upload_partial:
+    preserve_original_v002: true
+    quarantine_unknown_derivative: true
+    mark_lineage_incomplete: true
+    overwrite_v002: false
+    create_new_campaign: false
+  terminal_write_partial:
+    preserve_pre_state: true
+    preserve_partial_commit_record: true
+    prevent_second_terminal_commit: true
+    require_authority_revalidation: true
+    open_recovery_incident: true
+    infer_terminal_state: false
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution
+non_terminal_events:
+  - retry
+  - backoff
+  - timeout
+  - retry_budget_burn
+  - retry_budget_exhaustion
+  - unknown_outcome
+  - partial_effect
+  - compensation_started
+  - compensation_succeeded
+  - compensation_failed
+  - recovery_incident
+  - postcondition_pending
+  - postcondition_missing
+  - postcondition_mismatch
+  - reconciliation_pending
+  - manifest_reconciliation
+  - order_deduplication
+  - order_cancel_request
+  - derivative_quarantine
+  - evidence_correction
+  - workflow_restart
+  - workflow_replay
+  - workflow_history_readback
+  - reviewer_blocked_without_remake_order
+  - score_above_threshold_without_terminal_verdict
+  - queue_hold
+  - heartbeat
+  - receipt_publication
+next_action: >-
+  The non-terminal Reviewer BLOCKED record must be handled only through its explicit version-matched
+  v002 evidence and QA action. Human owner must approve a versioned recovery and compensation contract.
+  Preserve every step attempt and partial effect, bound and jitter retries, verify postconditions, and
+  fail closed on incomplete compensation. Keep the single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
