@@ -1,0 +1,65 @@
+message_id: MSG-20260820-025342-director-204
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 201
+stamp: '20260820-025342'
+angle: scope-clearance-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_scope-clearance-state_9x16_v001_blocked_20260820-025342.mp4
+nearest_prior: reopening-state
+hook: Cleared for one use is not cleared for every use.
+final_line: Name the one use that passed, and leave every untested use outside the decision.
+research_question: >-
+  After a held record has been corrected and reviewed, how can a workflow make clear
+  that permission to reuse it applies only to the checked entity, purpose, or scope
+  rather than becoming universal release?
+research_file: research/2026-08-20-pass201-browser-findings.md
+research_decision: >-
+  Distinguish scoped permission for a checked entity and purpose from universal release.
+research_sources:
+  - NIST authorization definitions distinguish permission/access for a specific entity or resource.
+  - GOV.UK check-answers guidance places scoped review before confirmation and supports changing specific sections.
+  - Craft Yarn Council distinguishes company-specific requirements, project components, and recipient-specific checks.
+objective: >-
+  Show that a reviewed clearance applies only to the checked entity, purpose, and
+  human-gate scope rather than becoming universal release, without claiming that
+  Stitch & Scale currently has scoped permissions, authorization records, or access controls.
+audience: >-
+  Independent knitwear designers and pattern publishers coordinating calculations,
+  technical editing, physical print review, chart readability, schematic scale, test
+  knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+deliverables:
+  - briefs/SS_founder-proof_scope-clearance-state_9x16_v001_blocked_20260820-025342.md
+  - scripts/SS_founder-proof_scope-clearance-state_9x16_v001_blocked_20260820-025342.md
+  - platforms/SS_founder-proof_scope-clearance-state_9x16_v001_matrix_20260820-025342.md
+  - ledgers/20260820-scope-clearance-state.md
+  - manifests/SS_founder-proof_scope-clearance-state_9x16_v001_blocked_20260820-025342.yml
+  - research/2026-08-20-pass201-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-025342-director-204.yml
+proof_surface: SCOPE A-001 / RECORD_ID / AUTHORIZED_ENTITY / AUTHORIZED_PURPOSE / INCLUDED_GATES / EXCLUDED_GATES / REVIEW_OWNER / EFFECTIVE_SCOPE / DISPOSITION
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact scoped-clearance surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim scoped permissions, access controls, authorization records, release
+  profiles, role-based clearance, suitability, usability, project-level classification,
+  accuracy, outcomes, adoption, pricing, credentials, testimonials, urgency,
+  accessibility conformance, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected. Both remain blocked;
+  reserved filenames remain occupied; neither was regenerated, renamed, overwritten, or approved.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared proof-registry entry or
+  approved capture showing record identifier, authorized entity, authorized purpose,
+  included gates, excluded gates, reviewer or owner, effective scope, and disposition;
+  name the destination platform; then rerun all Director gates.

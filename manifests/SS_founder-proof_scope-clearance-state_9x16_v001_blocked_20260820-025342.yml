@@ -1,0 +1,161 @@
+manifest_version: '1.0'
+manifest_id: MAN-founder-proof-scope-clearance-state-9x16-v001-20260820-025342
+brief_id: BRF-founder-proof-scope-clearance-state-9x16-v001
+script_id: SCR-founder-proof-scope-clearance-state-9x16-v001
+matrix_id: MAT-founder-proof-scope-clearance-state-9x16-v001
+campaign: founder-proof
+angle: scope-clearance-state
+stamp: '20260820-025342'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-explainer
+title: Cleared for one use is not cleared for every use.
+objective: >-
+  Show that a reviewed clearance applies only to the checked entity, purpose, and
+  human-gate scope rather than becoming universal release, without claiming that
+  Stitch & Scale currently has scoped permissions, authorization records, or access controls.
+audience:
+  primary: >-
+    Independent knitwear designers and pattern publishers coordinating calculations,
+    technical editing, physical print review, chart readability, schematic scale, test
+    knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+  secondary: founding testers and reviewers
+form: founder-proof-tabletop-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: independent knitwear designers and pattern publishers
+  tone: calm exact non-urgent candid
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be
+    described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_scope_clearance_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    SCOPE A-001 / RECORD_ID / AUTHORIZED_ENTITY / AUTHORIZED_PURPOSE / INCLUDED_GATES /
+    EXCLUDED_GATES / REVIEW_OWNER / EFFECTIVE_SCOPE / DISPOSITION
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+research:
+  file: research/2026-08-20-pass201-browser-findings.md
+  question: >-
+    After a held record has been corrected and reviewed, how can a workflow make clear
+    that permission to reuse it applies only to the checked entity, purpose, or scope
+    rather than becoming universal release?
+  decision_changed: >-
+    Distinguish scoped permission for a checked entity and purpose from universal release.
+  sources:
+    - id: R201-001
+      title: 'NIST CSRC Glossary — Authorization'
+      url: https://csrc.nist.gov/glossary/term/authorization
+      accessed: '2026-08-20'
+    - id: R201-002
+      title: 'GOV.UK Design System — Check answers'
+      url: https://design-system.service.gov.uk/patterns/check-answers/
+      accessed: '2026-08-20'
+    - id: R201-003
+      title: 'Craft Yarn Council — You Want to Submit a Project Idea… Where Do You Start?'
+      url: https://www.craftyarncouncil.com/idea.html
+      accessed: '2026-08-20'
+    - id: R201-004
+      title: 'Craft Yarn Council — Congratulations! You’ve Received the Go Ahead'
+      url: https://www.craftyarncouncil.com/industry.html
+      accessed: '2026-08-20'
+concept_difference:
+  nearest_prior: reopening-state
+  changed_pain: >-
+    A reviewed clearance is treated as universal release beyond the checked entity,
+    purpose, or human gates.
+  hook: Cleared for one use is not cleared for every use.
+  visual_metaphor: >-
+    A clearance lane is brightly bounded to one entity and purpose while neighboring
+    uses and human gates remain visibly outside the decision.
+  emotional_turn: >-
+    Confidence through precision rather than the false comfort of a universal release stamp.
+  final_line: >-
+    Name the one use that passed, and leave every untested use outside the decision.
+dramatic_engine:
+  subject: reviewed record beside narrow clearance lane and excluded lanes
+  desire: re-enter one defined use without authorizing everything around it
+  obstacle: cleared label looks broad while entity, purpose, included gates, exclusions, owner, and scope are easy to miss
+  stakes: scoped permission can be copied as universal release
+  change: narrow the clearance to one illustrative entity and purpose while excluded uses remain outside
+  contradiction: a record can be cleared and still be not cleared for neighboring uses
+  escalation:
+    - REVIEWED
+    - AUTHORIZED_ENTITY named
+    - AUTHORIZED_PURPOSE named
+    - INCLUDED_GATES listed
+    - EXCLUDED_GATES exposed
+    - EFFECTIVE_SCOPE bounded
+    - DISPOSITION HOLD FOR HUMAN CONFIRMATION
+assets:
+  approved_assets: pending
+  permitted: original neutral cards, neutral tabletop, rights-cleared narrator, neutral foley
+  prohibited: copyrighted pattern excerpts, private records, customer names, logos, private messages, current UI captures
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, proof, tables, numbers, logos, buttons, menus, or primary actions
+audio:
+  music: none unless rights-cleared and separately approved
+  motif: restrained boundary-line cue and neutral hold tone
+  room_tone: record before and after each setup
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_scope-clearance-state_9x16_v001_matrix_20260820-025342.md
+filename:
+  reserved: SS_founder-proof_scope-clearance-state_9x16_v001_blocked_20260820-025342.mp4
+  overwrite: false
+  duplicate_check: passed
+claims:
+  allowed:
+    - A reviewed clearance can be limited to one entity, purpose, or scope.
+    - A scope record can name authorized entity, purpose, included gates, excluded gates, owner, effective scope, and disposition.
+  prohibited:
+    - Stitch & Scale has scoped permissions, access controls, authorization records, or release profiles.
+    - A real record is cleared for a named entity or purpose.
+    - Scope clearance replaces technical editing, print review, chart readability, schematic scale, or test knitting.
+    - WCAG conformance or guaranteed accessibility.
+    - Revenue, adoption, customer outcomes, pricing, credentials, testimonials, urgency, accuracy, or capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact scoped-clearance surface; destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence also remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-scope-clearance-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
