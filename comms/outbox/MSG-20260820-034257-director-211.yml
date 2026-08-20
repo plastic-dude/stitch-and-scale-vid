@@ -1,0 +1,68 @@
+message_id: MSG-20260820-034257-director-211
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 208
+stamp: '20260820-034257'
+angle: evidence-applicability-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_evidence-applicability-state_9x16_v001_blocked_20260820-034257.mp4
+nearest_prior: source-qualification-state
+hook: Qualified evidence is not automatically evidence for this claim.
+final_line: Name the claim, the context, and the evidence that actually applies.
+research_question: >-
+  How should a qualified evidence item be tested for applicability to the exact claim
+  or decision context, rather than being treated as sufficient merely because it passed
+  a source-qualification step?
+research_file: research/2026-08-20-pass208-browser-findings.md
+research_decision: >-
+  Identify the exact claim, context, user, environment, scope, sample, version, and
+  assumptions, then test whether qualified evidence actually bears on that claim.
+research_sources:
+  - NIST defines validation for a specific intended use and predefined tests.
+  - GOV.UK says quality requirements vary by purpose and user.
+  - W3C WCAG-EM 2 bounds target scope, user agents, sample, evaluation context, and reporting.
+  - Craft Yarn Council keeps gauge materials and instructions tied to the question tested.
+objective: >-
+  Show that qualified evidence must be tested against the exact claim or decision context,
+  including intended use, user, environment, scope, sample, version, and assumptions,
+  without claiming that Stitch & Scale currently maps evidence to claims or blocks misapplied evidence.
+audience: >-
+  Independent knitwear designers and pattern publishers coordinating calculations,
+  technical editing, physical print review, chart readability, schematic scale, test
+  knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+deliverables:
+  - briefs/SS_founder-proof_evidence-applicability-state_9x16_v001_blocked_20260820-034257.md
+  - scripts/SS_founder-proof_evidence-applicability-state_9x16_v001_blocked_20260820-034257.md
+  - platforms/SS_founder-proof_evidence-applicability-state_9x16_v001_matrix_20260820-034257.md
+  - ledgers/20260820-evidence-applicability-state.md
+  - manifests/SS_founder-proof_evidence-applicability-state_9x16_v001_blocked_20260820-034257.yml
+  - research/2026-08-20-pass208-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-034257-director-211.yml
+proof_surface: APPLY A-001 / EVIDENCE_ID / TARGET_CLAIM_OR_DECISION / REQUIRED_CONTEXT / USER_OR_AUDIENCE / ENVIRONMENT / ASSUMPTIONS / SCOPE / SAMPLE_OR_COVERAGE / VERSION_OR_DATE / APPLICABILITY_TEST / APPLICABILITY_STATUS / DISPOSITION
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact evidence-applicability surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim evidence-to-claim mapping, context validation, applicability judgments,
+  misapplied-evidence blocking, accessibility conformance, suitability, usability,
+  project-level classification, accuracy, outcomes, adoption, pricing, credentials,
+  testimonials, urgency, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected. Both remain blocked;
+  reserved filenames remain occupied; neither was regenerated, renamed, overwritten, or approved.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared proof-registry entry or
+  approved capture showing evidence ID, target claim or decision, required context,
+  user or audience, environment, assumptions, scope, sample or coverage, version/date,
+  applicability test, applicability status, and disposition; name the destination
+  platform; then rerun all Director gates.
