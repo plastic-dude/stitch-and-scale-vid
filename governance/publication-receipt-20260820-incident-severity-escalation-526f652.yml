@@ -8,11 +8,12 @@ pre_publication_commit: 3f31fed1062ef0ba5fff1ef5535b0195e2f6ddb8
 incoming_remote_commit: null
 reconciliation: already_synchronized_before_director_commit
 commit_after_blocker: 526f65239579bebe39e7d57911dba873318d9c54
+receipt_publication_commit: aa84568d0e607f38ed4a1c0b6cb61297cd6b230b
 blocker_path: comms/outbox/MSG-20260820T162100-temporary-director-237.yml
 research_paths:
   - research/2026-08-20-incident-severity-escalation-review-hold-1621.md
   - research/2026-08-20-firing-237-source-notes.md
-publication_status: receipt-pending-final-verification
+publication_status: published-and-verified
 active_contract:
   video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
   drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
