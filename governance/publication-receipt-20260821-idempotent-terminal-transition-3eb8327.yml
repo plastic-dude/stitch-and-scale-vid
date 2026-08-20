@@ -1,0 +1,83 @@
+receipt_id: PUB-20260821-idempotent-terminal-transition-3eb8327
+created_at: '2026-08-21T14:48:00+01:00'
+role: temporary-director
+firing: 203
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 644ad094ae8dfd087c867b3409829b3f2cb81358
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 3eb83270e8ecdee1311cc20dfbaa2cfcbc03de0a
+head_equals_origin_main_after_blocker: true
+divergence_after_blocker: '0 0'
+publication_status: published-blocker
+verified_remote_paths_before_receipt:
+  - research/2026-08-21-idempotent-terminal-transition-escalation-1448.md
+  - comms/outbox/MSG-20260821T144800-temporary-director-203.yml
+  - prompts/director-planner-loop-7m.md
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should a recurring multi-agent workflow remain safe when execution can repeat,
+  while ensuring that a terminal review decision is applied once, auditable, and
+  escalated if the waiting state exceeds its operational bound?
+research_decision: >-
+  Require an idempotent, unique, exact-provenance terminal Reviewer event and an
+  explicit owner, deadline, and escalation target. Preserve the single-flight lane;
+  treat repeated holds and duplicate callbacks as non-terminal; and preserve and
+  escalate conflicting callbacks without overwriting evidence.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - repeated_director_firing
+  - queue_only_commit
+  - repeated_authorization_hold
+  - reminder
+  - acknowledgement_without_quality_verdict
+  - silence
+  - elapsed_time
+  - timeout_without_terminal_reviewer_callback
+  - duplicate_callback
+  - conflicting_callback_without_resolution
+  - callback_for_another_video
+  - callback_without_exact_provenance
+  - callback_missing_required_evidence
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+next_action: >-
+  Human owner must identify the responsible owner, bounded deadline, and escalation
+  target. Independent Video Reviewer must publish exactly one unique terminal callback
+  bound to exact V002 video ID, Drive file ID, and SHA-256, containing explicit
+  decision, timestamp, complete seven-dimension score, and evidence references.
+  Keep the lane closed and do not create a new brief. If a deadline is missed,
+  escalate the same incident rather than opening parallel Generator work.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
