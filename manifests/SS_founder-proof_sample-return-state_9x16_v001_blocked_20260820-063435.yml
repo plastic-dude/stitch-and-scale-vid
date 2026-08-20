@@ -1,0 +1,238 @@
+manifest_id: MAN-founder-proof-sample-return-state-9x16-v001-20260820-063435
+brief_id: BRF-founder-proof-sample-return-state-9x16-v001
+script_id: SCR-founder-proof-sample-return-state-9x16-v001
+matrix_id: MAT-founder-proof-sample-return-state-9x16-v001
+campaign: founder-proof
+angle: sample-return-state
+pass_number: 222
+stamp: '20260820-063435'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-proof-short
+title: A sample being sent is not the same as a sample being accounted for.
+objective: >-
+  Show that a sample being sent is not the same as a sample being accounted for;
+  distinguish preparation, label, dispatch, receipt, review, return instruction,
+  return, condition, and custody resolution without claiming that Stitch & Scale
+  currently records them.
+audience:
+  primary: >-
+    Independent knitwear designers, knitting-pattern designers, technical editors,
+    test knitters, craft-business operators, and publication contributors coordinating
+    physical samples, swatches, or project materials.
+  secondary: designers, editors, testers, reviewers, and publication coordinators
+form: founder-proof-tabletop-sample-custody-boundary-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: craft and pattern-workflow participants coordinating physical sample custody
+  tone: calm precise craft-respecting non-alarmist transparent about record limits
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be
+    described as a knitter, knitwear designer, pattern designer, technical editor,
+    or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_sample_custody_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    SAMPLE S-001 / DESIGN_ID / SAMPLE_TYPE / CUSTODY_MODE / CURRENT_HOLDER /
+    DESTINATION / LABEL_ID / DISPATCHED_AT / RECEIVED_AT / REVIEW_STATUS /
+    RETURN_REQUESTED / RETURNED_AT / CONDITION_AT_RETURN / UNRETURNED_REASON /
+    SOURCE_OR_BASIS / REVIEWER / REVIEWED_AT / STATUS
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+  custody_disclaimer: EXAMPLE — NOT A CURRENT SAMPLE-CUSTODY RECORD
+research:
+  file: research/2026-08-20-pass222-browser-findings.md
+  question: >-
+    When a knitwear sample, swatch, or project leaves a designer’s control, what
+    record distinguishes prepared, labeled, shipped, received, under review, returned,
+    condition-checked, and custody-resolved instead of collapsing the event into sent or done?
+  decision_changed: >-
+    Select sample-return-state: keep identity, custody mode, current holder, destination,
+    label, dispatch, receipt, review, return request, return time, return condition,
+    unresolved reason, source, reviewer, review time, and status visible.
+  sources:
+    - id: R222-001
+      title: 'Craft Yarn Council — Industry Standards & Guidelines'
+      url: https://www.craftyarncouncil.com/idea.html
+      accessed: '2026-08-20'
+      evidence: >-
+        Sample labeling, return-request envelope, postage responsibility, receipt
+        confirmation, and a general 2–8 week review window are described.
+      limitation: General industry guidance; company-specific instructions take precedence and no product surface is verified.
+    - id: R222-002
+      title: 'Craft Yarn Council — Congratulations! You’ve Received the Go Ahead'
+      url: https://www.craftyarncouncil.com/industry.html
+      accessed: '2026-08-20'
+      evidence: >-
+        Project labels, notes, yarn labels, sample size, finishing, gauge, instructions,
+        schematics, invoices, and return of used and unused yarn are separated.
+      limitation: Submission guidance; it does not establish Stitch & Scale behavior or guarantee return.
+    - id: R222-003
+      title: 'Knitty — Design or Write For Knitty; updated June 17, 2026'
+      url: https://knitty.com/subguide.php
+      accessed: '2026-08-20'
+      evidence: >-
+        Winter 2026 submissions are due September 15, 2026 for a December 2026 issue;
+        the guide also describes a workflow where the sample never leaves the designer’s possession for photography.
+      limitation: One publication’s current policy; not a universal custody rule or Stitch & Scale proof.
+    - id: R222-004
+      title: 'Asana Help — Reference custom fields'
+      url: https://help.asana.com/s/article/reference-custom-fields
+      accessed: '2026-08-20'
+      evidence: General task systems document custom fields for project context.
+      limitation: Not a full competitor audit and does not prove the product lacks sample-custody features.
+    - id: R222-005
+      title: 'Notion — Status property gives clarity on task progress'
+      url: https://www.notion.com/help/guides/status-property-gives-clarity-on-tasks
+      accessed: '2026-08-20'
+      evidence: Public documentation describes status/progress properties.
+      limitation: Generic status primitives do not by themselves prove physical receipt, condition, return, or current holder.
+    - id: R222-006
+      title: 'Notion — Database properties'
+      url: https://www.notion.com/help/database-properties
+      accessed: '2026-08-20'
+      evidence: Public documentation describes properties such as owners, URLs, and timestamps.
+      limitation: Not a full competitor audit and no superiority claim is permitted.
+    - id: R222-007
+      title: 'Instagram Help — Reel size & aspect ratios'
+      url: https://help.instagram.com/1038071743007909
+      accessed: '2026-08-20'
+      evidence: Reels support 1.91:1 through 9:16, with minimum 30 fps and 720 pixels; recommended cover is 420x654.
+      limitation: Recheck at approval; no upload is authorized.
+    - id: R222-008
+      title: 'YouTube Help — Add subtitles & captions'
+      url: https://support.google.com/youtube/answer/2734796?hl=en
+      accessed: '2026-08-20'
+      evidence: Timed caption files and meaningful non-speech cues are supported by the guidance.
+      limitation: Platform tooling does not replace human caption review or establish cross-platform behavior.
+    - id: R222-009
+      title: 'TikTok Newsroom — Introducing auto captions'
+      url: https://newsroom.tiktok.com/en-us/introducing-auto-captions
+      accessed: '2026-08-20'
+      evidence: Auto captions can be edited and viewers can turn them off.
+      limitation: Announcement is older and market/app support may vary; automatic text is draft-only.
+    - id: R222-010
+      title: 'W3C WAI — Understanding WCAG 2.2 SC 1.2.2 Captions'
+      url: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+      accessed: '2026-08-20'
+      evidence: Captions include speech, speaker identification, meaningful non-speech information, and should not obscure relevant information.
+      limitation: Accessibility guidance, not a claim of universal WCAG conformance or platform certification.
+product_and_rights_decision: >-
+  No current product-proof registry or approved non-private capture verifies a sample-custody
+  surface. Use original illustrative props only; exclude real labels, addresses, courier data,
+  private samples, customer records, and private UI. Rights/privacy clearance remains required.
+concept_difference:
+  nearest_prior: care-instruction-state
+  changed_pain: >-
+    A dispatch mark can look complete while receipt, current holder, custody mode, review,
+    return request, return time, condition, and unresolved reason remain unknown.
+  hook: A sample being sent is not the same as a sample being accounted for.
+  visual_metaphor: >-
+    A labeled fictional parcel moves from PREPARED to SENT, then stops at blank RECEIVED,
+    RETURNED, and CONDITION CHECK lanes.
+  emotional_turn: 'Responsible traceability: reassurance gives way to explicit custody states and an honest open condition.'
+  final_line: Record where the sample is, who has it, and what happens next.
+dramatic_engine:
+  subject: fictional labeled parcel and sample-custody record
+  desire: know whether a physical sample is accounted for across its custody lifecycle
+  obstacle: SENT is easy to mark while holder, receipt, return, and condition remain blank
+  stakes: a designer may not know whether a sample is retained, traveling, received, under review, or due back; no loss or customer outcome is claimed
+  change: 'replace SENT = DONE with CUSTODY: OPEN'
+  contradiction: a physical object can move while the record remains incomplete
+  escalation:
+    - IDENTITY
+    - CUSTODY_MODE
+    - DISPATCHED_AT
+    - RECEIVED_AT
+    - REVIEW_STATUS
+    - RETURN_REQUESTED
+    - RETURNED_AT
+    - CONDITION_AT_RETURN
+    - UNRETURNED_REASON
+    - 'CUSTODY: OPEN'
+  final_image: >-
+    A fictional parcel beside a clearly illustrative record showing CURRENT_HOLDER: UNVERIFIED,
+    RETURN_REQUESTED: UNCONFIRMED, and STATUS: OPEN.
+proof_surface: >-
+  SAMPLE S-001 / DESIGN_ID / SAMPLE_TYPE / CUSTODY_MODE / CURRENT_HOLDER / DESTINATION /
+  LABEL_ID / DISPATCHED_AT / RECEIVED_AT / REVIEW_STATUS / RETURN_REQUESTED / RETURNED_AT /
+  CONDITION_AT_RETURN / UNRETURNED_REASON / SOURCE_OR_BASIS / REVIEWER / REVIEWED_AT / STATUS
+assets:
+  approved_assets: pending
+  permitted: original generic parcel or envelope, original neutral cards, neutral tabletop, rights-cleared narrator, consented hand actor, original paper foley
+  prohibited: real courier marks, addresses, barcodes, tracking numbers, private samples, customer records, company logos, copyrighted patterns, current UI captures, private product data
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, parcel labels, proof cards, timestamps, numbers, logos, buttons, menus, or primary actions
+audio:
+  music: none unless original or separately rights-cleared and approved
+  motif: paper-label press and restrained paper stop, optional only if it does not mask speech
+  room_tone: record before and after each setup
+claims:
+  allowed:
+    - A sample being sent is not the same as a sample being accounted for.
+    - A custody record can separate identity, custody mode, holder, destination, dispatch, receipt, review, return, condition, open reason, reviewer, and status.
+    - An illustrative record can keep an unknown state open.
+  prohibited:
+    - Stitch & Scale tracks sample location, shipments, delivery, current holder, return, condition, courier status, or reminders.
+    - SENT proves receipt, review, return, recovery, or acceptance.
+    - A sample was lost, damaged, stolen, unsafe, or caused a customer outcome.
+    - Craft Yarn Council or Knitty rules apply universally to every submission.
+    - A fictional custody card is current product UI or a private submission record.
+    - David is a knitter, designer, pattern designer, technical editor, or tester.
+    - Revenue, adoption, accuracy, customer outcomes, final pricing, credentials, testimonials, urgency, or unverified capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or approved capture
+  verifies the exact sample-custody surface; destination platform, rights, narrator, caption, audio,
+  privacy, and final acceptance evidence remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-sample-return-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  nearest_prior: care-instruction-state
+  adjacent_material_availability: ledgers/20260820-material-availability-state.md
+  adjacent_deadline_condition: ledgers/20260820-deadline-condition-state.md
+  adjacent_handoff: ledgers/2026-08-19-handoff-state.md
+  adjacent_request_ownership: ledgers/2026-08-19-request-ownership-state.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_sample-return-state_9x16_v001_matrix_20260820-063435.md
+filename:
+  reserved: SS_founder-proof_sample-return-state_9x16_v001_blocked_20260820-063435.mp4
+  overwrite: false
+  duplicate_check: pending_validation

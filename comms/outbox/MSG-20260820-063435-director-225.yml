@@ -1,0 +1,58 @@
+message_id: MSG-20260820-063435-director-225
+created_at: '2026-08-20T06:34:35+01:00'
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: MAN-founder-proof-sample-return-state-9x16-v001-20260820-063435
+parent_id: BRF-founder-proof-sample-return-state-9x16-v001
+status: blocked
+summary: >-
+  Pass 222 selects the materially distinct sample-return-state concept, but no current
+  product-proof registry or approved capture verifies a Stitch & Scale sample-custody surface.
+evidence:
+  - research/2026-08-20-pass222-browser-findings.md
+  - briefs/SS_founder-proof_sample-return-state_9x16_v001_blocked_20260820-063435.md
+  - scripts/SS_founder-proof_sample-return-state_9x16_v001_blocked_20260820-063435.md
+  - platforms/SS_founder-proof_sample-return-state_9x16_v001_matrix_20260820-063435.md
+  - ledgers/20260820-sample-return-state.md
+  - manifests/SS_founder-proof_sample-return-state_9x16_v001_blocked_20260820-063435.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - repository HEAD 83a65c8030241a37007d3814cec4468ca438e646
+research_decision: >-
+  Craft Yarn Council guidance separates sample labeling, receipt, notes, return instructions,
+  finishing, gauge, instructions, schematics, and return shipping. Knitty’s June 17, 2026 guide
+  shows that custody modes differ by destination: its Winter 2026 submission deadline is September
+  15, 2026, while its photography workflow says the sample never leaves the designer’s possession.
+  Generic task/status documentation from Asana and Notion does not by itself prove physical receipt,
+  current holder, return, condition, or custody resolution. No competitor superiority claim is made.
+concept_difference: >-
+  Nearest prior is care-instruction-state. This pass moves from care meaning to the lifecycle of a
+  physical sample after preparation or dispatch. It is distinct from material availability, deadlines,
+  handoff, request ownership, test protocol, and imported false-completion/release-gate-roster.
+hook: A sample being sent is not the same as a sample being accounted for.
+final_line: Record where the sample is, who has it, and what happens next.
+proof_surface: >-
+  SAMPLE S-001 / DESIGN_ID / SAMPLE_TYPE / CUSTODY_MODE / CURRENT_HOLDER / DESTINATION /
+  LABEL_ID / DISPATCHED_AT / RECEIVED_AT / REVIEW_STATUS / RETURN_REQUESTED / RETURNED_AT /
+  CONDITION_AT_RETURN / UNRETURNED_REASON / SOURCE_OR_BASIS / REVIEWER / REVIEWED_AT / STATUS
+claims_boundary: >-
+  Do not claim that Stitch & Scale tracks sample location, shipment, delivery, current holder,
+  return, condition, courier status, or reminders. Do not claim that SENT proves receipt, review,
+  return, recovery, or acceptance. Do not show real addresses, courier data, private samples, customer
+  records, or current product UI. Preserve the truthful founder story and distinct human evidence gates.
+rights_boundary: >-
+  Use original neutral parcel and cards, original or approved narrator, consented hand performance,
+  and original or cleared paper sound only. Every illustrative card must read ILLUSTRATIVE — NOT PRODUCT UI.
+  No sample, label, barcode, address, logo, or private capture is cleared in the current repository.
+review_and_audio: >-
+  One narrator family, human-verified caption-on and caption-free versions, mobile-safe captions that
+  never cover faces, hands, labels, proof, timestamps, logos, controls, menus, or primary actions, and
+  full-length audio QC for doubled words, overlaps, drift, clipping, and room-tone jumps.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared product-proof registry entry or approved
+  capture for the exact custody surface, confirm destination platform and all asset/privacy rights, then
+  rerun product/data, claims, founder-truth, human-evidence, rights, narrator, caption, audio, platform,
+  continuity, filename, and Director gates.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+reserved_filename: SS_founder-proof_sample-return-state_9x16_v001_blocked_20260820-063435.mp4
