@@ -8,11 +8,12 @@ pre_publication_commit: 46e3671fdcbf6e641890b7e0e56bdf04cf5f82b7
 incoming_remote_commit: null
 reconciliation: already_synchronized_before_director_commit
 commit_after_blocker: 9b007798425843735e2a51aa16351810f2a65204
+receipt_publication_commit: f1720950c2004779091832d32a1ca53ecaeeedff
 blocker_path: comms/outbox/MSG-20260820T173100-temporary-director-247.yml
 research_paths:
   - research/2026-08-20-partial-failure-compensation-review-lane-1731.md
   - research/2026-08-20-firing-247-source-notes.md
-publication_status: receipt-pending-final-verification
+publication_status: published-and-verified
 active_contract:
   video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
   drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
