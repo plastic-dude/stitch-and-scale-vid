@@ -1,0 +1,133 @@
+message_id: MSG-20260821T184000-temporary-director-218
+created_at: '2026-08-21T18:40:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains video-ready-for-review. Any terminal Reviewer packet must be fresh and
+  bound to the exact current artifact and review contract. If the artifact, checksum,
+  scoring policy, method, or relevant context changes before authorization, the packet
+  is non-terminal until re-reviewed.
+research:
+  - research/2026-08-21-freshness-revalidation-review-gate-1840.md
+  - research/2026-08-21-firing-218-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x9_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  review_contract_version: publication-control-main
+  scoring_policy: seven-dimension-weighted-65-remake-threshold
+review_gate:
+  state: video-ready-for-review
+  fail_closed: true
+  independent_reviewer_required: true
+  freshness_bound: true
+  revalidation_required_on_identity_change: true
+  required_terminal_fields:
+    - unique_event_id
+    - timestamp
+    - exact_video_id
+    - exact_drive_file_id
+    - exact_sha256
+    - review_contract_version
+    - scoring_policy_identity
+    - independent_reviewer_role
+    - evaluation_method
+    - complete_seven_dimension_score
+    - published_weights
+    - weighted_total_score
+    - threshold_comparison
+    - explicit_terminal_decision
+    - immutable_evidence_references
+  stale_or_mismatched_packet_conditions:
+    - different_video_id
+    - different_drive_file_id
+    - different_sha256
+    - different_review_contract_version
+    - different_scoring_policy
+    - changed_relevant_operating_context
+    - superseded_artifact
+    - later_remake_version
+    - missing_evaluation_timestamp
+  current_decision: null
+  current_event_id: null
+owner_escalation:
+  responsible_owner: null
+  bounded_deadline: null
+  escalation_target: null
+  assignment_required: true
+  deadline_required: true
+  target_required: true
+  timeout_action: escalate_same_incident_without_authorizing_production
+terminal_events_that_clear_lane:
+  - fresh_exact_provenance_independent_reviewer_approval
+  - fresh_exact_provenance_independent_reviewer_rejection
+  - fresh_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events_that_do_not_clear_lane:
+  - stale_reviewer_packet
+  - packet_for_another_video
+  - packet_for_another_drive_upload
+  - packet_with_different_sha256
+  - packet_for_later_remake
+  - packet_for_prior_version
+  - packet_under_superseded_contract
+  - packet_under_changed_scoring_policy
+  - packet_without_evaluation_timestamp
+  - packet_without_method
+  - queue_only_commit
+  - repeated_authorization_hold
+  - routine_acknowledgement
+  - silence
+  - elapsed_time
+  - reminder
+  - timeout
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+required_action: >-
+  Independent Video Reviewer must publish one freshness-valid terminal packet bound to
+  the exact current V002 video ID, Drive file ID, SHA-256, review-contract version,
+  scoring-policy identity, evaluation timestamp, method, complete seven-dimension
+  score, threshold comparison, explicit decision, and immutable evidence. If any
+  identity or relevant context changes, re-review is mandatory. Preserve prior packets
+  and revalidation packets append-only with explicit supersedes/revalidates links.
+  Human owner must name responsible owner, bounded deadline, and escalation target.
+anti_duplication_rule: >-
+  Keep the single-flight lane closed. Do not create a new angle brief, duplicate plan,
+  MP4, approval, rejection, or remake. Do not apply a decision from another upload,
+  checksum, remake, policy version, or stale context to V002.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only
+  one operational-continuity blocker. If publication fails, write a
+  publication-blocked record with the error and both commit IDs, stop new angles, and
+  escalate.
+constraints:
+  - single_flight_lane_closed
+  - freshness_bound_review
+  - revalidation_on_identity_change
+  - exact_provenance_binding
+  - independent_review_required
+  - reviewer_evidence_immutable
+  - append_only
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
