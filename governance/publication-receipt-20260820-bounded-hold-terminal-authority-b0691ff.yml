@@ -1,0 +1,73 @@
+receipt_id: PUB-20260820-bounded-hold-terminal-authority-b0691ff
+created_at: '2026-08-20T12:52:00+01:00'
+role: temporary-director
+firing: 145
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: ceebb590d98952e7b7a8f83092cf1262fd06c557
+incoming_remote_commit: 0200217bb8c8755c51f78b609ffb512dc7b07ad2
+reconciliation: fast_forward_only
+commit_after_blocker: b0691ff6e41d30f80abfcb3596536639dbf4473f
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-bounded-hold-terminal-authority-1252.md
+  - comms/outbox/MSG-20260820T125200-temporary-director-145.yml
+  - queue-status.md
+  - references/publication-control.md
+  - prompts/director-planner-loop-7m.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  incoming_commit_changed_only:
+    - queue-status.md
+  incoming_commit_subject: Log bounded review authorization hold
+  incoming_effect: non_terminal_operational_hold
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  mp4_authorized: false
+research_question: >-
+  How should a Director reconcile another bounded review hold while preserving
+  explicit terminal authority, immutable provenance, and the single-flight
+  campaign lane?
+research_decision: >-
+  Fast-forward the queue-only record, publish one precise blocker, preserve exact
+  provenance and immutable evidence, and keep the single-flight lane closed.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - bounded_authorization_hold
+  - queue_status_append
+  - operational_hold
+  - reminder
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+  - repeated_hold_without_new_action
+next_action: >-
+  Human owner must provide responsible owner, bounded review deadline, and
+  escalation target. Independent Video Reviewer must publish one unique terminal
+  callback with event ID, explicit decision, timestamp, complete seven-dimension
+  score, evidence references, and exact V002 provenance. Keep the lane closed and
+  suppress same-category blockers until materially new state appears.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
