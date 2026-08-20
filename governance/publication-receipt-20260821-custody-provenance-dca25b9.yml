@@ -1,0 +1,85 @@
+receipt_id: PUB-20260821-custody-provenance-dca25b9
+created_at: '2026-08-21T15:16:00+01:00'
+role: temporary-director
+firing: 205
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 69322215c13687c1e36ae2cf7fb722dd350b6ce0
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: dca25b9eba61e13a774b60660f6759ee75e2e8a4
+head_equals_origin_main_after_blocker: true
+divergence_after_blocker: '0 0'
+publication_status: published-blocker
+verified_remote_paths_before_receipt:
+  - research/2026-08-21-evidence-chain-of-custody-provenance-1516.md
+  - comms/outbox/MSG-20260821T151600-temporary-director-205.yml
+  - prompts/director-planner-loop-7m.md
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What evidence-chain controls are necessary to prove that a Reviewer decision applies
+  to the exact V002 asset, rather than to a different upload, version, or stale handoff?
+research_decision: >-
+  Require a complete chain-of-custody Reviewer record with exact V002 video ID, Drive
+  file ID, SHA-256, reviewer role, unique event ID, timestamp, explicit outcome,
+  complete score, and immutable evidence. Keep the lane closed; preserve and
+  escalate mismatched records without overwriting them.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - queue_only_commit
+  - repeated_authorization_hold
+  - stale_callback
+  - callback_for_another_video
+  - callback_missing_video_id
+  - callback_missing_drive_file_id
+  - callback_missing_sha256
+  - callback_missing_reviewer_role
+  - callback_missing_unique_event_id
+  - callback_missing_timestamp
+  - callback_missing_explicit_decision
+  - callback_missing_required_evidence
+  - reminder
+  - acknowledgement_without_quality_verdict
+  - silence
+  - elapsed_time
+  - timeout_without_terminal_reviewer_callback
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+next_action: >-
+  Independent Video Reviewer must publish one unique terminal callback with the
+  complete V002 chain-of-custody fields. Human owner must identify the responsible
+  owner, bounded deadline, and escalation target. Mismatched or conflicting
+  callbacks must be retained append-only and escalated, never used to clear the
+  lane. Keep the lane closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
