@@ -1,0 +1,171 @@
+message_id: MSG-20260821T203200-temporary-director-225
+created_at: '2026-08-21T20:32:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains video-ready-for-review. Repeated no-change queue holds must be retained
+  append-only but linked to one canonical active incident and deduplicated operationally.
+  A no-change observation cannot create authority, renew a lease without required fields,
+  reset a terminal boundary, or clear the single-flight lane.
+research:
+  - research/2026-08-21-canonical-review-incident-ledger-2032.md
+  - research/2026-08-21-firing-225-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+canonical_incident:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  current_owner: null
+  owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  missing_prerequisite: complete_exact_provenance_independent_reviewer_terminal_packet
+  latest_meaningful_event_id: null
+  latest_meaningful_event_type: none
+  no_change_observation_count: unbounded_append_only
+  active_notification_key: REVIEW-HOLD-V002-20260819
+  deduplication_scope: operational_notifications_only
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+  terminal_state_reset_forbidden: true
+  lease_renewal_by_no_change_forbidden: true
+  single_flight_clear_by_no_change_forbidden: true
+required_event_fields:
+  - unique_event_id
+  - event_timestamp
+  - event_type
+  - actor_identity
+  - actor_role
+  - prior_event_id
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - current_state
+  - state_change_summary
+  - owner_change_summary
+  - checkpoint_change_summary
+  - escalation_change_summary
+  - terminal_decision
+  - immutable_evidence_references
+meaningful_event_types:
+  - owner_assignment
+  - acknowledged_handoff
+  - checkpoint_created
+  - checkpoint_renewed_with_required_fields
+  - escalation_created
+  - terminal_reviewer_approval
+  - terminal_reviewer_rejection
+  - terminal_reviewer_REMAKE_REQUIRED
+  - contract_authorized_terminal_resolution
+no_change_event_types:
+  - repeated_authorization_hold
+  - duplicate_queue_hold
+  - routine_reminder
+  - routine_acknowledgement
+  - silence_observation
+  - elapsed_time_observation
+  - duplicate_blocker_without_new_state
+  - generator_hold_without_new_contract
+  - heartbeat_without_state_change
+  - continuation_without_new_owner_or_checkpoint
+  - timeout_repeat_without_new_escalation
+  - queue_only_commit
+  - no_change_commit
+no_change_rules:
+  - append_event_to_canonical_incident
+  - preserve_original_timestamp_and_actor
+  - link_prior_event_id
+  - retain_immutable_evidence_references
+  - deduplicate_active_notification
+  - do_not_count_as_quorum
+  - do_not_authorize_terminal_decision
+  - do_not_renew_review_lease_unless_required_fields_present
+  - do_not_clear_single_flight_lane
+  - do_not_reset_terminal_boundary
+owner_escalation:
+  responsible_owner: null
+  bounded_checkpoint: null
+  escalation_target: null
+  assignment_required: true
+  deadline_required: true
+  target_required: true
+  timeout_action: >-
+    Append timeout or no-change evidence to the canonical incident, escalate the same
+    incident, preserve the lane as blocked, and do not infer terminal authorization.
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events_that_do_not_clear_lane:
+  - repeated_authorization_hold
+  - duplicate_queue_hold
+  - routine_reminder
+  - routine_acknowledgement
+  - silence_observation
+  - elapsed_time_observation
+  - duplicate_blocker_without_new_state
+  - generator_hold_without_new_contract
+  - heartbeat_without_state_change
+  - continuation_without_new_owner_or_checkpoint
+  - timeout_repeat_without_new_escalation
+  - queue_only_commit
+  - no_change_commit
+  - owner_assignment_without_terminal_reviewer_packet
+  - acknowledged_handoff_without_terminal_reviewer_packet
+  - checkpoint_renewal_without_terminal_reviewer_packet
+  - missing_owner_assignment
+  - missing_checkpoint
+  - missing_escalation_target
+required_action: >-
+  Human owner must assign responsible owner, role, bounded checkpoint, and escalation
+  target. Independent Video Reviewer must publish one complete exact-provenance terminal
+  packet or a linked continuation packet that introduces current state, owner, next
+  action, bounded checkpoint, escalation target, and immutable evidence. Preserve every
+  event append-only; operationally deduplicate no-change notifications without deleting
+  or overwriting evidence. Keep the single-flight lane closed.
+anti_duplication_rule: >-
+  Do not create a new angle brief, duplicate plan, MP4, approval, rejection, or remake.
+  A new Director firing or queue-only commit is not a meaningful state transition.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only
+  one operational-continuity blocker. If publication fails, write a
+  publication-blocked record with the error and both commit IDs, stop new angles, and
+  escalate.
+constraints:
+  - canonical_active_incident
+  - append_only_event_ledger
+  - operational_no_change_deduplication
+  - evidence_preservation
+  - accountable_owner_required
+  - bounded_checkpoint_required
+  - escalation_target_required
+  - identity_bound_authority
+  - exact_provenance_binding
+  - independent_review_required
+  - single_flight_lane_closed
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
