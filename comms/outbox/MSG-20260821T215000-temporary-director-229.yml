@@ -1,0 +1,169 @@
+message_id: MSG-20260821T215000-temporary-director-229
+created_at: '2026-08-21T21:50:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains video-ready-for-review. A terminal Reviewer packet must include validated
+  evidence origin, integrity, issuer or capture source, chain-of-custody references, and
+  durable inspectable evidence. A checksum, bare link, provenance marker, or status alone
+  does not establish quality authority.
+research:
+  - research/2026-08-21-attested-review-evidence-integrity-2150.md
+  - research/2026-08-21-firing-229-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+canonical_incident:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  current_owner: null
+  checkpoint_deadline: null
+  escalation_target: null
+  latest_valid_event_id: null
+  latest_valid_event_type: none
+  append_only: true
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+evidence_attestation:
+  exact_artifact_identity: required
+  drive_object_identity: required
+  sha256: required
+  evidence_item_ids: required
+  evidence_issuer_or_capture_source: required
+  evidence_capture_timestamp: required
+  chain_of_custody_reference: required
+  provenance_manifest_reference: required
+  signature_or_validation_reference: required_when_available
+  validation_method: required
+  validation_result: required
+  reviewer_identity: required
+  reviewer_role: required
+  evaluation_method: required
+  immutable_evidence_references: required
+  durable_inspectable_storage: required
+  evidence_gap_record: required_if_missing
+integrity_rules:
+  - checksum_match_does_not_prove_completeness
+  - checksum_match_does_not_prove_independent_observation
+  - checksum_match_does_not_prove_currentness
+  - provenance_marker_does_not_prove_quality
+  - signed_assertion_does_not_replace_reviewer_judgment
+  - bare_link_is_not_evidence_validation
+  - deleted_evidence_is_non_terminal
+  - filtered_or_partial_evidence_is_non_terminal
+  - expired_evidence_is_non_terminal
+  - issuer_ambiguity_is_non_terminal
+  - contradictory_evidence_is_non_terminal
+  - missing_chain_of_custody_is_non_terminal
+  - unverifiable_validation_is_non_terminal
+  - evidence_gap_requires_linked_continuation_or_revalidation
+required_terminal_fields:
+  - unique_event_id
+  - event_timestamp
+  - authorized_actor_identity
+  - independent_reviewer_role
+  - prior_event_id
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - artifact_manifest_version
+  - review_contract_version
+  - scoring_weights_version
+  - threshold_version
+  - evidence_schema_version
+  - evaluation_method_version
+  - evidence_item_ids
+  - evidence_issuer_or_capture_source
+  - evidence_capture_timestamp
+  - chain_of_custody_reference
+  - provenance_manifest_reference
+  - validation_method
+  - validation_result
+  - evaluation_method
+  - complete_seven_dimension_score
+  - published_weights
+  - weighted_total_score
+  - threshold_comparison
+  - explicit_terminal_decision
+  - immutable_evidence_references
+terminal_events_that_clear_lane:
+  - complete_attested_exact_provenance_independent_reviewer_approval
+  - complete_attested_exact_provenance_independent_reviewer_rejection
+  - complete_attested_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution_with_evidence_binding
+non_terminal_events:
+  - checksum_only_claim
+  - bare_provenance_link
+  - unsigned_or_unvalidated_assertion
+  - missing_evidence_issuer
+  - missing_capture_timestamp
+  - missing_chain_of_custody
+  - missing_validation_method
+  - missing_validation_result
+  - deleted_evidence
+  - filtered_evidence
+  - partial_evidence
+  - expired_evidence
+  - contradictory_evidence
+  - issuer_ambiguity
+  - evidence_gap_without_linked_continuation
+  - repeated_authorization_hold
+  - routine_reminder
+  - heartbeat_without_state_change
+  - queue_only_commit
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append timeout evidence and evidence-gap status with exact provenance, escalate the
+    same incident, preserve the lane as blocked, and do not infer terminal authorization.
+required_action: >-
+  Independent Video Reviewer must publish one complete attested exact-provenance terminal
+  packet or a linked continuation/revalidation packet resolving evidence gaps. Human owner
+  must assign responsible owner, role, bounded checkpoint, and escalation target. Preserve
+  all evidence and gaps append-only; keep the single-flight lane closed.
+anti_duplication_rule: >-
+  Do not create a new angle brief, duplicate plan, MP4, approval, rejection, or remake.
+  Evidence uncertainty is not campaign authorization.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only
+  one operational-continuity blocker. If publication fails, write a publication-blocked
+  record with the error and both commit IDs, stop new angles, and escalate.
+constraints:
+  - evidence_origin_attestation
+  - integrity_validation
+  - chain_of_custody
+  - durable_evidence
+  - exact_provenance_binding
+  - independent_review_required
+  - append_only
+  - evidence_preservation
+  - accountable_owner_required
+  - bounded_checkpoint_required
+  - escalation_target_required
+  - single_flight_lane_closed
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
