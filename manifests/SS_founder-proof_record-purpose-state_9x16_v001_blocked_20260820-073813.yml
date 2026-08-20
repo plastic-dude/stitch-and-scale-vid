@@ -1,0 +1,210 @@
+manifest_id: MAN-founder-proof-record-purpose-state-9x16-v001-20260820-073813
+brief_id: BRF-founder-proof-record-purpose-state-9x16-v001
+script_id: SCR-founder-proof-record-purpose-state-9x16-v001
+matrix_id: MAT-founder-proof-record-purpose-state-9x16-v001
+campaign: founder-proof
+angle: record-purpose-state
+pass_number: 229
+stamp: '20260820-073813'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-proof-short
+title: A record without a purpose can tell the wrong story.
+objective: >-
+  Show why a craft-business record needs an explicit purpose and workflow stage before its fields are read as facts,
+  estimates, attachments, decisions, or approvals, without claiming Stitch & Scale currently provides an authoritative lifecycle.
+audience:
+  primary: >-
+    Independent knitwear designers, pattern publishers, technical editors, test knitters,
+    sample coordinators, and makers managing design, submission, sample, and publication records.
+  secondary: designers, editors, testers, reviewers, and publication coordinators
+form: founder-proof-tabletop-record-purpose-boundary-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: craft and knitwear workflow participants who need an honest record-purpose and stage boundary
+  tone: calm precise craft-respecting local-first and explicit about recorded facts versus derived values and approvals
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+product_truth:
+  current_purpose_stage_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    RECORD R-001 / DESIGN_ID / RECORD_PURPOSE / WORKFLOW_STAGE / SOURCE_RECORD_ID / RECORDED_FACTS /
+    DERIVED_VALUES / ATTACHMENTS / DECISION_OWNER / NEXT_DECISION / REVIEWER / REVIEWED_AT / STATUS / LIMITATIONS
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+  identity_boundary: >-
+    A purpose record cannot establish the truth of underlying facts, calculations, estimates, financial or tax treatment,
+    technical editing, test-knit success, publication approval, or customer outcomes.
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be described as a knitter,
+    knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - care review
+    - test knitting
+research:
+  file: research/2026-08-20-pass229-browser-findings.md
+  question: >-
+    When one craft-business record is reused across design, sample, submission, testing, and publication contexts,
+    what explicit purpose keeps its fields from being misread as a different kind of fact or approval?
+  decision_changed: >-
+    Select record-purpose-state: isolate record purpose, workflow stage, source, recorded facts, derived values,
+    attachments, next decision, owner, limitations, reviewer, and status.
+  sources:
+    - id: R229-001
+      title: 'Craft Yarn Council — Congratulations! You’ve Received the Go Ahead'
+      url: https://www.craftyarncouncil.com/industry.html
+      accessed: '2026-08-20'
+      evidence: The checklist separates notes, actual project, gauge swatch, instructions, schematic, invoice, return shipping, labels, yarn amounts, and size made, and asks designers not to rely on memory.
+      limitation: General industry guidance; company/publication instructions take precedence.
+    - id: R229-002
+      title: 'Craft Yarn Council — You Want to Submit a Project Idea… Where Do You Start?'
+      url: https://www.craftyarncouncil.com/idea.html
+      accessed: '2026-08-20'
+      evidence: The workflow distinguishes idea, swatch/sketch/sample, completed project, acceptance, contract, and review.
+      limitation: Workflows vary by company; not a universal lifecycle or product model.
+    - id: R229-003
+      title: 'Knitty — Design or Write For Knitty; updated June 17, 2026'
+      url: https://knitty.com/subguide.php
+      accessed: '2026-08-20'
+      evidence: Individual files separate pattern text, images, charts, schematics, statements, and rights concerns.
+      limitation: One publication’s workflow; not product proof or universal approval standard.
+    - id: R229-004
+      title: 'Atlassian — Building a true Single Source of Truth for your team'
+      url: https://www.atlassian.com/work-management/knowledge-sharing/documentation/building-a-single-source-of-truth-ssot-for-your-team
+      accessed: '2026-08-20'
+      evidence: Multiple unclear locations can create duplication, conflicting information, and outdated files; purpose mapping, update responsibility, and templates are recommended.
+      limitation: Vendor educational material; no superiority or Stitch & Scale capability claim.
+    - id: R229-005
+      title: 'Craft Yarn Council — Standards and Guidelines'
+      url: https://www.craftyarncouncil.com/standards
+      accessed: '2026-08-20'
+      evidence: Guidelines cover labels, patterns, charts, abbreviations, sizing, and yarn/needle terminology.
+      limitation: Voluntary craft context; not a complete lifecycle or legal standard.
+    - id: R229-006
+      title: 'Instagram Help — Reel size & aspect ratios'
+      url: https://help.instagram.com/1038071743007909
+      accessed: '2026-08-20'
+      evidence: Reels support 1.91:1 through 9:16, with minimum 30 fps and 720 pixels.
+      limitation: Recheck at approval; no upload authorized.
+    - id: R229-007
+      title: 'TikTok Support — Accessibility for your videos'
+      url: https://support.tiktok.com/en/using-tiktok/creating-videos/accessibility
+      accessed: '2026-08-20'
+      evidence: Auto-generated captions can be edited or removed.
+      limitation: Market/app support may vary; automatic captions are draft-only.
+    - id: R229-008
+      title: 'YouTube Help — Add subtitles & captions'
+      url: https://support.google.com/youtube/answer/2734796?hl=en
+      accessed: '2026-08-20'
+      evidence: Timed captions and meaningful non-speech cues are supported by the guidance.
+      limitation: Platform tooling does not replace human caption review or establish product accessibility.
+product_and_rights_decision: >-
+  No current product-proof registry or approved non-private capture verifies a Stitch & Scale purpose/stage surface.
+  Use original abstract record cards only; exclude real projects, invoices, customer records, samples, submissions,
+  publication files, patterns, logos, and private data. Rights/privacy clearance remains required.
+concept_difference:
+  nearest_prior: translation-state
+  changed_pain: >-
+    A record can be stored in one place while its purpose, stage, source, owner, facts, derived values, and limits remain unclear.
+  hook: A record without a purpose can tell the wrong story.
+  visual_metaphor: >-
+    PROJECT RECORD changes meaning as PURPOSE changes while SOURCE, STAGE, RECORDED_FACTS, DERIVED_VALUES,
+    NEXT_DECISION, DECISION_OWNER, and LIMITATIONS remain visible.
+  emotional_turn: 'Responsible specificity: one-place confidence gives way to purpose, source, owner, limits, and status.'
+  final_line: Name why the record exists before you read what it means.
+dramatic_engine:
+  subject: a fictional PROJECT RECORD card that can be labeled design note, submission, test knit, or publication review
+  desire: know what decision the record supports and what its fields mean
+  obstacle: the same fields can be read as fact, estimate, attachment, stage, or approval without purpose and source
+  stakes: a record can travel into the wrong workflow and be treated as proof; no actual incident or financial outcome is claimed
+  change: 'replace RECORD: DONE with RECORD PURPOSE: UNVERIFIED'
+  contradiction: one location does not create one meaning
+  escalation:
+    - PROJECT_RECORD
+    - RECORD_PURPOSE
+    - WORKFLOW_STAGE_AND_SOURCE_RECORD_ID
+    - RECORDED_FACTS_AND_DERIVED_VALUES
+    - NEXT_DECISION_AND_DECISION_OWNER
+    - LIMITATIONS_AND_REVIEW_STATUS
+    - 'RECORD PURPOSE: UNVERIFIED'
+  final_image: >-
+    RECORD PURPOSE: UNVERIFIED remains beside separate technical and human-gate cards;
+    every prop reads ILLUSTRATIVE — NOT PRODUCT UI.
+proof_surface: >-
+  RECORD R-001 / DESIGN_ID / RECORD_PURPOSE / WORKFLOW_STAGE / SOURCE_RECORD_ID / RECORDED_FACTS /
+  DERIVED_VALUES / ATTACHMENTS / DECISION_OWNER / NEXT_DECISION / REVIEWER / REVIEWED_AT / STATUS / LIMITATIONS
+assets:
+  approved_assets: pending
+  permitted: original abstract record cards, neutral tabletop, rights-cleared narrator, original card sound
+  prohibited: real project, invoice, customer record, sample, submission, publication file, pattern, logo, private data, current UI capture
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover cards, values, owner/status, logos, controls, or primary actions
+audio:
+  music: none unless original or separately rights-cleared and approved
+  motif: soft purpose stamp, paper slide on derived values, silence on unverified status
+  room_tone: record before and after each setup
+claims:
+  allowed:
+    - CYC separates project notes, actual project, swatch, instructions, schematic, labels, invoice, and return shipping.
+    - A purpose, source, owner, and update responsibility can reduce ambiguity in a record workflow.
+    - Recorded facts should remain distinct from derived values and approvals.
+    - A purpose label is separate from technical editing, test knitting, and publication approval.
+  prohibited:
+    - Stitch & Scale is an authoritative single source of truth, automatically transitions lifecycle stages, or preserves every record relationship.
+    - A purpose label proves underlying facts, estimates, calculations, financial or tax treatment, technical editing, test-knit success, publication approval, or customer outcomes.
+    - This concept gives accounting, tax, legal, publishing, or craft-practitioner advice.
+    - A fictional record card is current product UI, customer data, or a private project record.
+    - David is an accountant, lawyer, publisher, knitter, designer, pattern designer, technical editor, or tester.
+    - Revenue, adoption, accuracy, customer outcomes, final pricing, credentials, testimonials, urgency, or unverified capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - purpose_stage_surface_exactness
+  - claims_and_human_gate_separation
+  - founder_truth
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or approved capture verifies
+  the exact purpose/stage surface; destination platform, rights, narrator, caption, audio, privacy, and final
+  acceptance evidence remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-record-purpose-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  nearest_prior: translation-state
+  adjacent_disclosure: ledgers/2026-08-19-selective-disclosure-state.md
+  adjacent_cost_allocation: ledgers/20260820-cost-allocation-state.md
+  adjacent_publication: ledgers/2026-08-20-publication-boundary-state.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_record-purpose-state_9x16_v001_matrix_20260820-073813.md
+filename:
+  reserved: SS_founder-proof_record-purpose-state_9x16_v001_blocked_20260820-073813.mp4
+  overwrite: false
+  duplicate_check: pending_validation
