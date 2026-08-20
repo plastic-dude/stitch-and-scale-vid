@@ -1,0 +1,209 @@
+manifest_id: MAN-founder-proof-visual-description-state-9x16-v001-20260820-072409
+brief_id: BRF-founder-proof-visual-description-state-9x16-v001
+script_id: SCR-founder-proof-visual-description-state-9x16-v001
+matrix_id: MAT-founder-proof-visual-description-state-9x16-v001
+campaign: founder-proof
+angle: visual-description-state
+pass_number: 227
+stamp: '20260820-072409'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-proof-short
+title: A caption is not the whole description.
+objective: >-
+  Show why an image needs a declared description scope without claiming Stitch & Scale currently provides
+  alt text, long descriptions, audio description, or accessibility conformance.
+audience:
+  primary: >-
+    Independent knitwear designers, pattern publishers, technical editors, test knitters,
+    sample coordinators, and makers preparing images or submissions.
+  secondary: designers, editors, testers, reviewers, and publication coordinators
+form: founder-proof-tabletop-visual-description-scope-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: craft and knitwear workflow participants who need an honest image-description scope record
+  tone: calm precise craft-respecting accessible-by-design and explicit about description versus pattern evidence
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+product_truth:
+  current_description_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    IMAGE D-001 / DESIGN_ID / IMAGE_ID / PURPOSE / SHORT_DESCRIPTION / KEY_FEATURES / RELATIONSHIPS /
+    LONG_DESCRIPTION / AUDIO_DESCRIPTION / CAPTION_TEXT / PATTERN_REFERENCE / CHART_REFERENCE /
+    SCHEMATIC_REFERENCE / LIMITATIONS / LANGUAGE / SOURCE_OR_BASIS / RIGHTS_SCOPE / REVIEWER /
+    REVIEWED_AT / STATUS
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+  identity_boundary: >-
+    A description record can convey selected image information but cannot prove pattern correctness, chart equivalence,
+    schematic scale, technical editing, test-knit success, accessibility conformance, or reader understanding.
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be described as a knitter,
+    knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - care review
+    - test knitting
+research:
+  file: research/2026-08-20-pass227-browser-findings.md
+  question: >-
+    When a knitwear pattern image is consumed without reliable visual or audio context, what description preserves
+    the relevant design information without pretending to replace the pattern, chart, schematic, technical edit, or human review?
+  decision_changed: >-
+    Select visual-description-state: isolate purpose, short description, key features, relationships, long description,
+    audio description, caption, pattern/chart/schematic references, limitations, language, rights, and review.
+  sources:
+    - id: R227-001
+      title: 'W3C WAI — Informative Images'
+      url: https://www.w3.org/WAI/tutorials/images/informative/
+      accessed: '2026-08-20'
+      evidence: A simple informative image may need a short text alternative conveying its meaning.
+      limitation: Accessibility guidance, not product proof or universal editorial policy.
+    - id: R227-002
+      title: 'W3C WAI — Complex Images'
+      url: https://www.w3.org/WAI/tutorials/images/complex/
+      accessed: '2026-08-20'
+      evidence: Complex images may need longer descriptions exposing relevant structure and relationships.
+      limitation: Description scope depends on intended use; not every detail belongs in every alternative.
+    - id: R227-003
+      title: 'W3C WAI — Understanding SC 1.2.5 Audio Description'
+      url: https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html
+      accessed: '2026-08-20'
+      evidence: Audio description conveys important actions, scene changes, on-screen text, and visual content in synchronized media.
+      limitation: Guidance is not platform support, certification, or product conformance.
+    - id: R227-004
+      title: 'Knitty — Design or Write For Knitty; updated June 17, 2026'
+      url: https://knitty.com/subguide.php
+      accessed: '2026-08-20'
+      evidence: Current submission guidance requests clean images, clear detail views, visible relevant design features, pattern files, charts, schematics, and rights statements.
+      limitation: One publication’s workflow; not urgency, affiliation, or Stitch & Scale proof.
+    - id: R227-005
+      title: 'Instagram Help — Reel size & aspect ratios'
+      url: https://help.instagram.com/1038071743007909
+      accessed: '2026-08-20'
+      evidence: Reels support 1.91:1 through 9:16, with minimum 30 fps and 720 pixels.
+      limitation: Recheck at approval; no upload is authorized.
+    - id: R227-006
+      title: 'TikTok Support — Accessibility for your videos'
+      url: https://support.tiktok.com/en/using-tiktok/creating-videos/accessibility
+      accessed: '2026-08-20'
+      evidence: Auto-generated captions can be edited or removed.
+      limitation: Market/app support may vary; automatic text is draft-only.
+    - id: R227-007
+      title: 'YouTube Help — Add subtitles & captions'
+      url: https://support.google.com/youtube/answer/2734796?hl=en
+      accessed: '2026-08-20'
+      evidence: Timed captions and meaningful non-speech cues are supported by the guidance.
+      limitation: Platform tooling does not replace human caption review or establish product accessibility.
+product_and_rights_decision: >-
+  No current product-proof registry or approved non-private capture verifies a Stitch & Scale description surface.
+  Use an original abstract image and fictional description cards only; exclude real charts, schematics, patterns,
+  garments, publication photos, customer records, logos, and private data. Rights/privacy clearance remains required.
+concept_difference:
+  nearest_prior: model-context-state
+  changed_pain: >-
+    A caption, short label, audio description, pattern, chart, or schematic can be mistaken for the complete meaning of an image.
+  hook: A caption is not the whole description.
+  visual_metaphor: >-
+    IMAGE DESCRIPTION splits into SHORT_DESCRIPTION, PURPOSE, KEY_FEATURES, RELATIONSHIPS, LONG_DESCRIPTION, and LIMITATIONS.
+  emotional_turn: 'Responsible specificity: familiar text confidence gives way to purpose, structure, limitation, and human review.'
+  final_line: Name what the image needs to say—and what it cannot replace.
+dramatic_engine:
+  subject: a fictional image-description card attached to an abstract knitwear image
+  desire: make relevant visual information available without overloading or misleading the reader
+  obstacle: short text may omit relationships and a description is not the pattern, chart, schematic, technical edit, or test knit
+  stakes: viewers may mistake one layer for complete pattern or accessibility evidence; no real failure is claimed
+  change: 'replace IMAGE = DESCRIPTION with IMAGE DESCRIPTION: UNVERIFIED'
+  contradiction: more words do not automatically create better description; scope depends on image purpose
+  escalation:
+    - IMAGE_DESCRIPTION
+    - PURPOSE
+    - KEY_FEATURES_AND_RELATIONSHIPS
+    - LONG_DESCRIPTION
+    - AUDIO_DESCRIPTION_AND_CAPTION_TEXT
+    - PATTERN_CHART_SCHEMATIC_REFERENCES
+    - LIMITATIONS_AND_STATUS
+    - 'IMAGE DESCRIPTION: UNVERIFIED'
+  final_image: >-
+    IMAGE DESCRIPTION: UNVERIFIED remains beside separate pattern, chart, schematic, and human-gate cards;
+    every prop reads ILLUSTRATIVE — NOT PRODUCT UI.
+proof_surface: >-
+  IMAGE D-001 / DESIGN_ID / IMAGE_ID / PURPOSE / SHORT_DESCRIPTION / KEY_FEATURES / RELATIONSHIPS /
+  LONG_DESCRIPTION / AUDIO_DESCRIPTION / CAPTION_TEXT / PATTERN_REFERENCE / CHART_REFERENCE /
+  SCHEMATIC_REFERENCE / LIMITATIONS / LANGUAGE / SOURCE_OR_BASIS / RIGHTS_SCOPE / REVIEWER /
+  REVIEWED_AT / STATUS
+assets:
+  approved_assets: pending
+  permitted: original abstract image, fictional description cards, neutral tabletop, rights-cleared narrator, original card sound
+  prohibited: real chart, schematic, pattern, garment, publication image, customer record, logo, private data, current UI capture
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover cards, text, numbers, logos, controls, or primary actions
+audio:
+  music: none unless original or separately rights-cleared and approved
+  motif: soft card slide, held pause before long description, silence on unverified status
+  room_tone: record before and after each setup
+claims:
+  allowed:
+    - A simple informative image may need a short text alternative.
+    - A complex image may need a longer description exposing relevant structure and relationships.
+    - Audio description can convey important visual information in synchronized media.
+    - Description is separate from pattern, chart, schematic, technical editing, and test knitting.
+  prohibited:
+    - Stitch & Scale automatically creates alt text, long descriptions, audio description, accessible pattern content, or WCAG conformance.
+    - A description replaces pattern text, chart, schematic, technical edit, or test knitting.
+    - A description proves accessibility conformance, reader understanding, or publication acceptance.
+    - A fictional description card is current product UI, customer data, or a real pattern record.
+    - David is an accountant, lawyer, publisher, knitter, designer, pattern designer, technical editor, or tester.
+    - Revenue, adoption, accuracy, customer outcomes, final pricing, credentials, testimonials, urgency, or unverified capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - description_surface_exactness
+  - claims_and_human_gate_separation
+  - founder_truth
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or approved capture verifies
+  the exact description surface; destination platform, rights, narrator, caption, audio, privacy, and final
+  acceptance evidence remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-visual-description-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  nearest_prior: model-context-state
+  adjacent_caption: ledgers/2026-08-19-caption-state.md
+  adjacent_audio: ledgers/2026-08-19-audio-state.md
+  adjacent_chart_parity: ledgers/2026-08-19-chart-parity-continuity.md
+  adjacent_publication: ledgers/2026-08-20-publication-boundary-state.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_visual-description-state_9x16_v001_matrix_20260820-072409.md
+filename:
+  reserved: SS_founder-proof_visual-description-state_9x16_v001_blocked_20260820-072409.mp4
+  overwrite: false
+  duplicate_check: pending_validation

@@ -1,0 +1,63 @@
+message_id: MSG-20260820-072409-director-230
+created_at: '2026-08-20T07:24:09+01:00'
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: MAN-founder-proof-visual-description-state-9x16-v001-20260820-072409
+parent_id: BRF-founder-proof-visual-description-state-9x16-v001
+status: blocked
+summary: >-
+  Pass 227 selects the materially distinct visual-description-state concept, but no current product-proof registry
+  or approved capture verifies a Stitch & Scale image-description surface.
+evidence:
+  - research/2026-08-20-pass227-browser-findings.md
+  - research/2026-08-20-pass227-selection-boundary-audit.md
+  - briefs/SS_founder-proof_visual-description-state_9x16_v001_blocked_20260820-072409.md
+  - scripts/SS_founder-proof_visual-description-state_9x16_v001_blocked_20260820-072409.md
+  - platforms/SS_founder-proof_visual-description-state_9x16_v001_matrix_20260820-072409.md
+  - ledgers/20260820-visual-description-state.md
+  - manifests/SS_founder-proof_visual-description-state_9x16_v001_blocked_20260820-072409.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - repository HEAD 5e9c7e058470631b2c781edd374401b37635107b
+research_decision: >-
+  W3C distinguishes short alternatives for simple informative images from longer descriptions for complex images and
+  describes synchronized audio description for important visual information. Knitty’s June 17, 2026 guidance requests
+  clean images, clear detail views, visible relevant design features, separate pattern files, charts, schematics, and rights
+  statements. Current Instagram, TikTok, YouTube, and W3C sources set conservative mobile, caption, audio, and accessibility
+  gates. None of these sources proves a Stitch & Scale description surface.
+concept_difference: >-
+  Nearest prior is model-context-state, which concerns size made, model context, fit intention, view, image purpose,
+  rights, and review for a pictured sample. Pass 227 concerns what an image description communicates and what it cannot
+  replace: purpose, short description, key features, relationships, long description, audio description, caption, pattern,
+  chart, schematic, limitations, language, rights, and status. It is distinct from caption/audio, chart-parity,
+  readability-under-load, selective-disclosure, publication-boundary, and imported blocked concepts.
+hook: A caption is not the whole description.
+final_line: Name what the image needs to say—and what it cannot replace.
+proof_surface: >-
+  IMAGE D-001 / DESIGN_ID / IMAGE_ID / PURPOSE / SHORT_DESCRIPTION / KEY_FEATURES / RELATIONSHIPS /
+  LONG_DESCRIPTION / AUDIO_DESCRIPTION / CAPTION_TEXT / PATTERN_REFERENCE / CHART_REFERENCE /
+  SCHEMATIC_REFERENCE / LIMITATIONS / LANGUAGE / SOURCE_OR_BASIS / RIGHTS_SCOPE / REVIEWER /
+  REVIEWED_AT / STATUS
+description_boundary: >-
+  A description can convey selected image information but cannot prove pattern correctness, chart equivalence,
+  schematic scale, technical editing, test-knit success, accessibility conformance, or reader understanding.
+claims_boundary: >-
+  Do not claim that Stitch & Scale automatically creates alt text, long descriptions, audio description, accessible
+  pattern content, or WCAG conformance. Do not claim a description replaces pattern text, chart, schematic, technical
+  editing, or test knitting.
+rights_boundary: >-
+  Use only an original abstract image, fictional description cards, approved narrator, consented hand performance,
+  and original or cleared card sound. Every card must read ILLUSTRATIVE — NOT PRODUCT UI. No real chart, schematic,
+  pattern, garment, publication image, customer record, logo, or private data is cleared.
+review_and_audio: >-
+  One narrator family, human-verified caption-on and caption-free versions, mobile-safe captions that never cover
+  cards, text, numbers, logos, controls, or primary actions, and full-length audio QC for doubled words, overlaps,
+  drift, clipping, and room-tone jumps.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared product-proof registry entry or approved capture for
+  the exact description surface, confirm destination platform and asset/privacy rights, then rerun product/data,
+  description-scope, claims, founder-truth, human-evidence, rights, narrator, caption, audio, platform, continuity,
+  filename, and Director gates.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+reserved_filename: SS_founder-proof_visual-description-state_9x16_v001_blocked_20260820-072409.mp4
