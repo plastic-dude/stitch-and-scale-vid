@@ -1,0 +1,47 @@
+message_id: MSG-20260820-010915-director-188
+message_type: director_handoff
+created_at: 2026-08-20T01:09:15+00:00
+from: director-planner
+campaign: founder-proof
+angle_slug: rollback-boundary-state
+brief_id: BRF-founder-proof-rollback-boundary-state-9x16-v001
+status: blocked
+subject: Pass 186 blocked — rollback-boundary-state pending current product proof
+research:
+  note: research/2026-08-20-pass186-browser-findings.md
+  question: When a change is discovered after other craft-production work has started, what makes correction safe?
+  sources: [941, 942, 943, 944, 945]
+  decision: Narrowed from generic reversibility or version history to the review boundary before a correction is applied or allowed to propagate.
+distinctness:
+  nearest_prior: qualification-state
+  changed_pain: Evidence qualifies for a decision versus a correction needs affected-output/gate scope, review, reversibility or amendability, owner, and next check before downstream work continues.
+  changed_metaphor: Evidence envelope becomes a paper thread connecting a proposed correction to downstream outputs.
+  hook: An edit is not safe just because it is possible.
+  final_line: Name what this change reaches before you apply it.
+objective: Make the trust question of a correction boundary visible after downstream work has begun without claiming that Stitch & Scale currently offers undo, impact analysis, propagation control, or correction safety.
+audience: Independent knitwear designers and pattern publishers coordinating craft-production outputs and human evidence gates; secondary founding testers and reviewers.
+deliverables:
+  brief: briefs/SS_founder-proof_rollback-boundary-state_9x16_v001_blocked_20260820-010915.md
+  script: scripts/SS_founder-proof_rollback-boundary-state_9x16_v001_blocked_20260820-010915.md
+  platform_matrix: platforms/SS_founder-proof_rollback-boundary-state_9x16_v001_matrix_20260820-010915.md
+  continuity: ledgers/20260820-rollback-boundary-state.md
+  manifest: manifests/SS_founder-proof_rollback-boundary-state_9x16_v001_blocked_20260820-010915.yml
+filename_reservation: SS_founder-proof_rollback-boundary-state_9x16_v001_blocked_20260820-010915.mp4
+claim_risks:
+  - Do not claim Stitch & Scale offers undo, impact analysis, propagation control, correction safety, or automatic downstream updates.
+  - Do not claim a source correction declares downstream outputs or human gates complete.
+  - Do not claim WCAG conformance, accessibility outcomes, accuracy, legal compliance, or formal assurance.
+  - Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  - Keep calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting separate.
+proof_blocker: No current product-proof registry entry or approved non-private rights-cleared capture verifies proposed change, affected outputs, affected gates, review requirement, reversible/amendable status, owner, next check, and disposition.
+rights_blocker: No production assets, narrator, foley, or final platform profile are approved; use only original or cleared materials after review.
+platform_blocker: Destination platform and current safe-area/profile requirements are not confirmed.
+review_state:
+  reviews_checked: true
+  orders_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked and filename occupied; do not regenerate, overwrite, rename, or approve
+  release_gate_roster: blocked and filename occupied; do not infer authorization from generic human-gate proof
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_safe_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing the exact current correction-boundary surface, confirm the destination platform, then rerun product, claims, rights, caption, audio, platform, continuity, filename, and Director gates.

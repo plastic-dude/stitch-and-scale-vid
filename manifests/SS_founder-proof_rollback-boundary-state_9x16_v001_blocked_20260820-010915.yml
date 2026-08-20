@@ -1,0 +1,70 @@
+manifest_version: 1
+video_id: SS_founder-proof_rollback-boundary-state_9x16_v001_blocked_20260820-010915
+brief_id: BRF-founder-proof-rollback-boundary-state-9x16-v001
+campaign: founder-proof
+angle_slug: rollback-boundary-state
+format: 9x16
+version: v001
+status: blocked
+created_at: 2026-08-20T01:09:15+00:00
+filename_reservation: SS_founder-proof_rollback-boundary-state_9x16_v001_blocked_20260820-010915.mp4
+research_record: research/2026-08-20-pass186-browser-findings.md
+brief_path: briefs/SS_founder-proof_rollback-boundary-state_9x16_v001_blocked_20260820-010915.md
+script_path: scripts/SS_founder-proof_rollback-boundary-state_9x16_v001_blocked_20260820-010915.md
+platform_matrix_path: platforms/SS_founder-proof_rollback-boundary-state_9x16_v001_matrix_20260820-010915.md
+continuity_path: ledgers/20260820-rollback-boundary-state.md
+media_path: null
+media_generated: false
+media_uploaded: false
+product_proof:
+  registry_entry: null
+  approved_capture: null
+  exact_surface_verified: false
+  proposed_change_affected_outputs_gates_verified: false
+  review_reversible_owner_next_check_verified: false
+  disposition_verified: false
+claims:
+  product_provides_undo_impact_analysis_propagation_control_or_correction_safety: prohibited
+  product_automatically_updates_downstream_outputs_or_gates: prohibited
+  source_correction_declares_downstream_work_complete: prohibited
+  product_satisfies_wcag_or_guarantees_accessibility: prohibited
+  imported_roster_or_false_completion_is_authorized: prohibited
+  human_gates_are_replaced: prohibited
+  founder_knitwear_identity: prohibited
+  revenue_adoption_pricing_credentials_testimonials_urgency_accuracy_or_outcomes: prohibited
+human_evidence_gates:
+  calculation: separate
+  technical_edit: separate
+  physical_print_review: separate
+  chart_readability: separate
+  schematic_scale: separate
+  test_knit: separate
+narrator:
+  family: one approved narrator family only
+  status: pending
+captions:
+  human_review_required: true
+  caption_on_master: pending
+  caption_free_master: pending
+  proof_obstruction_allowed: false
+audio:
+  cleared_voice_required: true
+  cleared_music_or_original_only: true
+  foley: paper movement, thread stop, card placement, neutral review-boundary tone
+rights_privacy:
+  status: required_not_approved
+  private_records_allowed: false
+  recognizable_people_allowed: false
+  copyrighted_patterns_allowed: false
+  unlicensed_music_clips_artwork_allowed: false
+  current_ui_without_approved_capture_allowed: false
+review_state:
+  reviews_dir_checked: true
+  orders_dir_checked: true
+  comms_inbox_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked_filename_occupied
+  release_gate_roster: blocked_filename_occupied
+next_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing a real current correction-boundary surface with proposed change, affected outputs, affected gates, review requirement, reversible/amendable status, owner, next check, and disposition before presenting correction behavior; then rerun all gates.
+generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
