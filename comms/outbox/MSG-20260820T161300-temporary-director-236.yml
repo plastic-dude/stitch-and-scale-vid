@@ -1,0 +1,270 @@
+message_id: MSG-20260820T161300-temporary-director-236
+created_at: '2026-08-20T16:13:52+00:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains video-ready-for-review. The review lane must fail-secure for authorization and
+  fail-safe for evidence and operations: uncertainty or dependency failure denies terminal
+  authority, preserves immutable records, trips a bounded circuit, and requires explicit
+  identity-bound revalidation before evaluation resumes.
+research:
+  - research/2026-08-20-fail-safe-fail-secure-review-circuit-1613.md
+  - research/2026-08-20-firing-236-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+canonical_incident:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  current_owner: null
+  checkpoint_deadline: null
+  escalation_target: null
+  latest_valid_event_id: null
+  latest_valid_event_type: none
+  append_only: true
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+review_circuit:
+  authorization_mode: fail-secure
+  evidence_and_operations_mode: fail-safe
+  default_authorization: deny
+  implicit_trust: forbidden
+  circuit_states:
+    - closed
+    - open
+    - half_open_revalidation
+    - blocked_conflict
+  initial_state: open
+  open_state_behavior: >-
+    Stop downstream generation and terminal state transitions; return a typed non-terminal
+    blocked result; preserve all evidence; do not infer approval, rejection, remake authorization,
+    or a new brief.
+  half_open_behavior: >-
+    Permit only a bounded, observable health and identity probe followed by explicit revalidation
+    of artifact, contract, Reviewer authority, callback, ledger, and evidence chain. Revalidation
+    cannot itself clear the lane.
+  close_condition: >-
+    An authorized recovery event confirms all required dependencies and records the revalidation
+    result; evaluation may resume but remains non-terminal until a complete independent decision.
+  blocked_conflict_behavior: >-
+    Preserve conflicting events, stop downstream actions, and require named adjudication; never
+    choose the latest-arriving or latest-timestamped event automatically.
+  automatic_terminal_transition_on_recovery: false
+  automatic_new_brief_on_recovery: false
+  automatic_mp4_on_recovery: false
+retry_policy:
+  bounded_retries_required: true
+  max_attempts: required
+  backoff: required
+  idempotency_key: required
+  retry_scope: read_or_probe_only_unless_explicitly_authorized
+  duplicate_reviewer_event_creation: forbidden
+  duplicate_generation_contract_creation: forbidden
+  retry_exhaustion_state: blocked_non_terminal
+  retry_count_evidence: required
+  retry_failure_evidence: required
+  observability: required
+failure_evidence:
+  dependency_identity: required
+  dependency_state: required
+  failure_class: required
+  failure_timestamp_utc: required
+  observer_identity: required
+  retry_count: required
+  circuit_state_before: required
+  circuit_state_after: required
+  affected_artifact_identity: required
+  affected_contract_version: required
+  immutable_evidence_reference: required
+  recovery_probe_result: required_when_attempted
+  recovery_revalidation_event: required_when_reopened
+revalidation_contract:
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  artifact_manifest_version: required
+  active_review_contract_version: required
+  reviewer_identity: required
+  reviewer_authority: required
+  callback_identity: required
+  canonical_ledger_head: required
+  evidence_chain_integrity: required
+  dependency_health_probe: required
+  probe_timestamp_utc: required
+  revalidation_actor: required
+  revalidation_event_id: required
+  revalidation_parent_event_id: required
+  revalidation_result: required
+  revalidation_does_not_clear_lane: true
+non_terminal_uncertainty:
+  missing_reviewer_identity: true
+  missing_artifact_identity: true
+  missing_callback_identity: true
+  missing_ledger_head: true
+  missing_evidence_chain: true
+  dependency_unavailable: true
+  dependency_timeout: true
+  retry_exhausted: true
+  stale_recovery_signal: true
+  health_probe_without_revalidation: true
+  revalidation_without_terminal_decision: true
+  timeout_expiry_without_authorized_event: true
+  restored_connectivity_without_revalidation: true
+  attestation_without_supporting_evidence: true
+scoring_contract:
+  dimension_count: 7
+  dimensions:
+    - id: story_purpose
+      weight_percent: 20
+      artifact_scope: required
+      evidence: required
+      score: required
+    - id: directing_visual
+      weight_percent: 15
+      artifact_scope: required
+      evidence: required
+      score: required
+    - id: proof_claims
+      weight_percent: 20
+      artifact_scope: required
+      evidence: required
+      score: required
+    - id: audio_voice
+      weight_percent: 15
+      artifact_scope: required
+      evidence: required
+      score: required
+    - id: captions_text
+      weight_percent: 10
+      artifact_scope: required
+      evidence: required
+      score: required
+    - id: technical_platform
+      weight_percent: 10
+      artifact_scope: required
+      evidence: required
+      score: required
+    - id: originality_brand
+      weight_percent: 10
+      artifact_scope: required
+      evidence: required
+      score: required
+  limitations_per_dimension: required
+  uncertainty_or_confidence_per_dimension: required
+  weighted_total_recomputable: required
+  threshold_percent: 65
+  threshold_comparison: required
+  explicit_terminal_decision: required
+  immutable_evidence_references: required
+required_terminal_fields:
+  - unique_event_id
+  - event_timestamp
+  - authorized_actor_identity
+  - independent_reviewer_role
+  - prior_event_id
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - artifact_manifest_version
+  - review_contract_version
+  - scoring_weights_version
+  - threshold_version
+  - evidence_schema_version
+  - evaluation_method_version
+  - reviewer_authority
+  - callback_identity
+  - canonical_ledger_head
+  - evidence_chain_integrity
+  - seven_dimension_records
+  - dimension_scores
+  - dimension_weights
+  - weighted_contributions
+  - limitations_per_dimension
+  - uncertainty_or_confidence_per_dimension
+  - recomputable_weighted_total
+  - threshold_comparison
+  - explicit_terminal_decision
+  - immutable_evidence_references
+terminal_events_that_clear_lane:
+  - complete_fail_secure_identity_bound_independent_reviewer_approval
+  - complete_fail_secure_identity_bound_independent_reviewer_rejection
+  - complete_fail_secure_identity_bound_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_fail_secure_revalidated_resolution
+non_terminal_events:
+  - dependency_failure
+  - timeout
+  - retry_exhaustion
+  - open_circuit
+  - health_probe_only
+  - restored_connectivity_only
+  - revalidation_only
+  - missing_identity
+  - missing_callback
+  - missing_ledger_head
+  - missing_evidence_chain
+  - stale_recovery_signal
+  - automatic_transition_attempt
+  - bare_score
+  - routine_reminder
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append typed failure and retry evidence, preserve the open circuit and exact V002 provenance,
+    escalate the same canonical incident, and do not infer terminal authority from timeout expiry
+    or restored connectivity.
+required_action: >-
+  Independent Video Reviewer and owner must use the dual circuit policy. On dependency or identity
+  failure, deny terminal authorization, preserve immutable evidence, stop downstream generation,
+  and record bounded retry and circuit-state evidence. Before resuming, publish an explicit
+  identity-bound revalidation event for the exact artifact, contract, Reviewer authority, callback,
+  ledger, and evidence chain. Revalidation permits evaluation to resume but does not clear V002.
+anti_duplication_rule: >-
+  Do not create a new angle brief, duplicate plan, MP4, approval, rejection, or remake. Recovery
+  is not authorization and a circuit timeout is not a terminal event.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only one
+  operational-continuity blocker. If publication fails, write a publication-blocked record with
+  the error and both commit IDs, stop new angles, and escalate.
+constraints:
+  - fail_secure_authorization
+  - fail_safe_evidence_preservation
+  - deny_by_default
+  - no_implicit_trust
+  - bounded_retry
+  - circuit_breaker
+  - explicit_revalidation
+  - exact_artifact_identity
+  - independent_review_required
+  - append_only
+  - evidence_preservation
+  - accountable_owner_required
+  - bounded_checkpoint_required
+  - escalation_target_required
+  - single_flight_lane_closed
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
