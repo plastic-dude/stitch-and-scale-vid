@@ -1,0 +1,277 @@
+message_id: MSG-20260820T162700-temporary-director-238
+created_at: '2026-08-20T16:27:58+00:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains video-ready-for-review. Any terminal Reviewer or owner outcome must be
+  non-repudiably verifiable and bound to the exact decision payload, authorized role, exact V002
+  artifact, active contract, causal parent, freshness window, and immutable evidence. A signature
+  or identity assertion that is stale, replayed, detached, altered, or role-incompatible is not
+  terminal authority.
+research:
+  - research/2026-08-20-non-repudiable-review-evidence-1627.md
+  - research/2026-08-20-firing-238-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+canonical_incident:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  current_owner: null
+  latest_valid_event_id: null
+  latest_valid_event_type: none
+  append_only: true
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+non_repudiation_contract:
+  signed_or_equivalently_verifiable_terminal_payload: required
+  signer_identity: required
+  signer_role: required
+  signer_authorization_context: required
+  reviewer_independence: required
+  key_or_credential_reference: required
+  signature_algorithm: required
+  signature_algorithm_version: required
+  signed_payload_digest: required
+  signature_value_or_verification_reference: required
+  verifier_identity: required
+  verification_result: required
+  verification_timestamp_utc: required
+  key_status_or_trust_chain_evidence: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  artifact_manifest_version: required
+  review_contract_version: required
+  scoring_weights_version: required
+  threshold_version: required
+  evidence_schema_version: required
+  canonical_incident_id: required
+  causal_parent_event_id: required
+  unique_event_id: required
+  issuance_timestamp_utc: required
+  observation_timestamp_utc: required
+  freshness_window: required
+  replay_nonce_or_idempotency_key: required
+  replay_check_result: required
+  immutable_evidence_references: required
+payload_binding_rules:
+  signature_covers_exact_terminal_payload: required
+  signature_covers_exact_artifact_identity: required
+  signature_covers_active_contract_version: required
+  signature_covers_causal_parent: required
+  detached_signature_without_payload_digest: non_terminal
+  signature_over_altered_payload: non_terminal
+  signature_over_stale_contract: non_terminal
+  signature_without_exact_artifact_scope: non_terminal
+  signature_from_unrecognized_role: non_terminal
+  signature_without_key_status: non_terminal
+  signature_without_verification_record: non_terminal
+  identity_assertion_without_authorization_context: non_terminal
+  signed_reminder: non_terminal
+  signed_heartbeat: non_terminal
+  signed_queue_hold: non_terminal
+  signed_non_terminal_statement: non_terminal
+key_and_trust_rules:
+  private_key_control_or_attestation: required
+  public_key_or_verifier_binding: required
+  signer_role_binding: required
+  key_status_at_issuance: required
+  key_status_at_verification: required
+  revocation_or_expiry_check: required
+  trust_chain_or_policy_reference: required
+  verifier_independence: required
+  unrecognized_key: non_terminal
+  expired_key: non_terminal
+  revoked_key: non_terminal
+  unverifiable_key: non_terminal
+freshness_and_replay_rules:
+  unique_event_id: required
+  nonce_or_idempotency_key: required
+  causal_parent_event_id: required
+  issuance_time: required
+  observation_time: required
+  freshness_window: required
+  replay_check: required
+  reused_event_id: non_terminal
+  reused_nonce: non_terminal
+  stale_signature: non_terminal
+  future_dated_signature_without_clock_evidence: non_terminal
+  duplicate_terminal_payload: preserve_and_reconcile
+  replayed_terminal_payload: non_terminal
+  deletion_of_prior_signature: forbidden
+  overwrite_of_verification_record: forbidden
+scoring_contract:
+  dimension_count: 7
+  dimensions:
+    - id: story_purpose
+      weight_percent: 20
+      exact_payload_binding: required
+      evidence: required
+      score: required
+    - id: directing_visual
+      weight_percent: 15
+      exact_payload_binding: required
+      evidence: required
+      score: required
+    - id: proof_claims
+      weight_percent: 20
+      exact_payload_binding: required
+      evidence: required
+      score: required
+    - id: audio_voice
+      weight_percent: 15
+      exact_payload_binding: required
+      evidence: required
+      score: required
+    - id: captions_text
+      weight_percent: 10
+      exact_payload_binding: required
+      evidence: required
+      score: required
+    - id: technical_platform
+      weight_percent: 10
+      exact_payload_binding: required
+      evidence: required
+      score: required
+    - id: originality_brand
+      weight_percent: 10
+      exact_payload_binding: required
+      evidence: required
+      score: required
+  limitations_per_dimension: required
+  uncertainty_or_confidence_per_dimension: required
+  weighted_total_recomputable: required
+  threshold_percent: 65
+  threshold_comparison: required
+  explicit_terminal_decision: required
+  immutable_evidence_references: required
+required_terminal_fields:
+  - unique_event_id
+  - issuance_timestamp_utc
+  - observation_timestamp_utc
+  - authorized_actor_identity
+  - signer_identity
+  - signer_role
+  - signer_authorization_context
+  - independent_reviewer_role
+  - reviewer_independence
+  - prior_event_id
+  - causal_parent_event_id
+  - replay_nonce_or_idempotency_key
+  - replay_check_result
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - artifact_manifest_version
+  - review_contract_version
+  - scoring_weights_version
+  - threshold_version
+  - evidence_schema_version
+  - evaluation_method_version
+  - key_or_credential_reference
+  - signature_algorithm
+  - signature_algorithm_version
+  - signed_payload_digest
+  - signature_value_or_verification_reference
+  - verifier_identity
+  - verification_result
+  - verification_timestamp_utc
+  - key_status_or_trust_chain_evidence
+  - freshness_window
+  - seven_dimension_records
+  - dimension_scores
+  - dimension_weights
+  - weighted_contributions
+  - limitations_per_dimension
+  - uncertainty_or_confidence_per_dimension
+  - recomputable_weighted_total
+  - threshold_comparison
+  - explicit_terminal_decision
+  - immutable_evidence_references
+terminal_events_that_clear_lane:
+  - complete_non_repudiable_exact_provenance_independent_reviewer_approval
+  - complete_non_repudiable_exact_provenance_independent_reviewer_rejection
+  - complete_non_repudiable_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_non_repudiable_owner_resolution
+non_terminal_events:
+  - detached_signature
+  - altered_payload
+  - stale_contract_signature
+  - missing_artifact_scope
+  - unrecognized_role
+  - missing_key_status
+  - missing_verification_record
+  - identity_only_assertion
+  - signed_reminder
+  - signed_heartbeat
+  - signed_queue_hold
+  - reused_event_id
+  - reused_nonce
+  - stale_signature
+  - replayed_terminal_payload
+  - bare_score
+  - aggregate_without_artifact_scope
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append the signature, identity, key-status, replay, or payload-binding deficiency with exact
+    V002 provenance, preserve all evidence, escalate the same canonical incident, and do not infer
+    terminal authority from any unverifiable assertion.
+required_action: >-
+  Independent Video Reviewer must publish one complete non-repudiable terminal packet binding the
+  authorized signer and role to the exact V002 payload and artifact, with verifiable signature or
+  equivalent evidence, key-status/trust-chain context, freshness, causal parent, replay check, all
+  seven dimension records, recomputable scoring, threshold comparison, explicit outcome, and
+  immutable evidence. Human owner must ensure the signer authority and verification context are
+  independently attributable. Keep the single-flight lane closed.
+anti_duplication_rule: >-
+  Do not create a new angle brief, duplicate plan, MP4, approval, rejection, or remake. A signed
+  reminder, heartbeat, queue hold, or identity assertion without the complete terminal payload is
+  not authorization.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only one
+  operational-continuity blocker. If publication fails, write a publication-blocked record with
+  the error and both commit IDs, stop new angles, and escalate.
+constraints:
+  - non_repudiation
+  - signed_attestation
+  - exact_payload_binding
+  - exact_artifact_identity
+  - role_authorization
+  - reviewer_independence
+  - key_status_verification
+  - freshness_bound_evidence
+  - replay_resistance
+  - immutable_append_only_evidence
+  - accountable_owner_required
+  - bounded_checkpoint_required
+  - escalation_target_required
+  - single_flight_lane_closed
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
