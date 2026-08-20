@@ -1,0 +1,136 @@
+receipt_id: PUB-20260820-fail-safe-fail-secure-4ec871f
+created_at: '2026-08-20T16:13:52+00:00'
+role: temporary-director
+firing: 236
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: d13790d174eb5838b030edefe59f60eb4001e1b0
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 4ec871f3036263aa881ef21ac6d8ce15fc33e135
+blocker_path: comms/outbox/MSG-20260820T161300-temporary-director-236.yml
+research_paths:
+  - research/2026-08-20-fail-safe-fail-secure-review-circuit-1613.md
+  - research/2026-08-20-firing-236-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should a distributed multi-agent review lane behave when its Reviewer, artifact store,
+  identity provider, callback path, ledger, or publication dependency fails, so that the system
+  preserves safety and evidence without turning recovery into unauthorized campaign progression?
+research_decision: >-
+  Require a dual fail-secure/fail-safe review circuit. Authorization dependencies deny terminal
+  authority on uncertainty; operational and evidence paths preserve immutable records and return a
+  typed blocked state. Repeated failures trip an explicit circuit that stops downstream generation
+  and uses bounded, observable retries. Recovery requires an explicit identity-bound revalidation
+  of the exact artifact, active contract, Reviewer authority, callback, ledger, and evidence chain;
+  recovery itself cannot create a terminal decision, new brief, or MP4.
+circuit_contract:
+  authorization_mode: fail-secure
+  evidence_and_operations_mode: fail-safe
+  default_authorization: deny
+  implicit_trust: forbidden
+  initial_state: open
+  states:
+    - closed
+    - open
+    - half_open_revalidation
+    - blocked_conflict
+  open_state_stops_generation: true
+  open_state_stops_terminal_transitions: true
+  open_state_returns_typed_non_terminal_result: true
+  bounded_retries: required
+  retry_idempotency: required
+  retry_observability: required
+  recovery_probe: required
+  explicit_revalidation: required
+  automatic_terminal_transition_on_recovery: false
+  automatic_new_brief_on_recovery: false
+  automatic_mp4_on_recovery: false
+  timeout_expiry_is_authorization: false
+  restored_connectivity_is_authorization: false
+  health_probe_is_terminal: false
+  revalidation_is_terminal: false
+required_revalidation_fields:
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - artifact_manifest_version
+  - active_review_contract_version
+  - reviewer_identity
+  - reviewer_authority
+  - callback_identity
+  - canonical_ledger_head
+  - evidence_chain_integrity
+  - dependency_health_probe
+  - probe_timestamp_utc
+  - revalidation_actor
+  - revalidation_event_id
+  - revalidation_parent_event_id
+  - revalidation_result
+required_failure_fields:
+  - dependency_identity
+  - dependency_state
+  - failure_class
+  - failure_timestamp_utc
+  - observer_identity
+  - retry_count
+  - circuit_state_before
+  - circuit_state_after
+  - affected_artifact_identity
+  - affected_contract_version
+  - immutable_evidence_reference
+  - recovery_probe_result
+terminal_events_that_clear_lane:
+  - complete_fail_secure_identity_bound_independent_reviewer_approval
+  - complete_fail_secure_identity_bound_independent_reviewer_rejection
+  - complete_fail_secure_identity_bound_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_fail_secure_revalidated_resolution
+non_terminal_events:
+  - dependency_failure
+  - timeout
+  - retry_exhaustion
+  - open_circuit
+  - health_probe_only
+  - restored_connectivity_only
+  - revalidation_only
+  - missing_identity
+  - missing_callback
+  - missing_ledger_head
+  - missing_evidence_chain
+  - stale_recovery_signal
+  - automatic_transition_attempt
+  - routine_reminder
+next_action: >-
+  Independent Video Reviewer and owner must use the dual circuit policy. On dependency or identity
+  failure, deny terminal authorization, preserve immutable evidence, stop downstream generation,
+  and record bounded retry and circuit-state evidence. Before resuming, publish an explicit
+  identity-bound revalidation event for the exact artifact, contract, Reviewer authority, callback,
+  ledger, and evidence chain. Revalidation permits evaluation to resume but does not clear V002.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
