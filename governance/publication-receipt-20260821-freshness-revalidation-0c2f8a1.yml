@@ -1,0 +1,88 @@
+receipt_id: PUB-20260821-freshness-revalidation-0c2f8a1
+created_at: '2026-08-21T18:40:00+01:00'
+role: temporary-director
+firing: 218
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: a557e72126ef32bae5527ca87b273caa5e526cc7
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 0c2f8a1
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T184000-temporary-director-218.yml
+research_paths:
+  - research/2026-08-21-freshness-revalidation-review-gate-1840.md
+  - research/2026-08-21-firing-218-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  When a Reviewer packet was created for an artifact or contract version, what makes
+  it temporally valid for the current V002 lane, and when must the item be re-reviewed?
+research_decision: >-
+  Require freshness-bound revalidation. A terminal packet must identify exact V002
+  provenance, review-contract version, scoring-policy identity, evaluation timestamp,
+  method, complete score, threshold comparison, and evidence. Any artifact, checksum,
+  policy, method, or relevant-context change before authorization makes the packet
+  non-terminal until re-reviewed.
+terminal_events_that_clear_lane:
+  - fresh_exact_provenance_independent_reviewer_approval
+  - fresh_exact_provenance_independent_reviewer_rejection
+  - fresh_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - stale_reviewer_packet
+  - packet_for_another_video
+  - packet_for_another_drive_upload
+  - packet_with_different_sha256
+  - packet_for_later_remake
+  - packet_for_prior_version
+  - packet_under_superseded_contract
+  - packet_under_changed_scoring_policy
+  - packet_without_evaluation_timestamp
+  - packet_without_method
+  - queue_only_commit
+  - repeated_authorization_hold
+  - routine_acknowledgement
+  - silence
+  - elapsed_time
+  - reminder
+  - timeout
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+next_action: >-
+  Independent Video Reviewer must publish one freshness-valid terminal packet bound to
+  the exact current V002 artifact, review-contract version, scoring-policy identity,
+  evaluation timestamp, method, complete score, threshold comparison, explicit
+  decision, and immutable evidence. If any identity or relevant context changes,
+  re-review is mandatory. Preserve prior and revalidation packets append-only with
+  explicit supersedes/revalidates links. Human owner must name responsible owner,
+  bounded deadline, and escalation target. Keep the lane closed and do not create a
+  new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
