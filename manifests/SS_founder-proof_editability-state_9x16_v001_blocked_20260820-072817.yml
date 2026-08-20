@@ -1,0 +1,86 @@
+schema_version: '1.0'
+manifest_id: 'MNF-founder-proof-editability-state-9x16-v001-20260820-072817'
+plan_id: 'BRF-founder-proof-editability-state-9x16-v001'
+pass_number: 234
+campaign: 'founder-proof'
+angle: 'editability-state'
+stamp: '20260820-072817'
+format: '9x16'
+version: 'v001'
+status: 'blocked'
+reserved_filename: 'SS_founder-proof_editability-state_9x16_v001_blocked_20260820-072817.mp4'
+media_exists: false
+media_generated: false
+media_uploaded: false
+objective: 'Show why a designer must know whether they are changing an editable source, creating a new revision, or touching a reviewed or released artifact, without claiming automatic version control or approval.'
+audience: 'Independent knitwear designers and pattern publishers revising multi-size patterns, instructions, charts, schematics, samples, and submission records.'
+form: 'Founder-proof tabletop explainer with original illustrative source/revision cards; no real pattern, current UI, private record, customer/tester material, publication form, or contract.'
+tone: 'Quiet, precise, craft-respecting, local-first, history-aware, and explicit about human review.'
+distribution_assumption: 'Organic Instagram Reels, TikTok, and YouTube Shorts; no paid placement assumed; revalidate at approval.'
+brief_tier: 'Director/Planner blocked package; not approved-for-generation.'
+hook: 'Editable is not the same as safe to change.'
+final_line: 'Name what you changed—and what must be reviewed again.'
+nearest_prior: 'requirement-interpretation-state'
+material_difference: 'Permission and review boundary around changing a named source or artifact, distinguishing editable source, reviewed snapshot, released copy, revision, history reference, and re-review trigger rather than interpreting one requirement before action.'
+product_truth:
+  proof_registry_entry: 'absent'
+  current_editability_surface_verified: false
+  current_source_history_surface_verified: false
+  current_destination_verified: false
+  approved_non_private_capture: false
+  generated_text_is_ui_truth: false
+  product_capability_claims_allowed: false
+proof_surface: 'EDIT E-001 / SOURCE_ID / REVISION_ID / STATE / EDITABLE_BY / EDIT_SCOPE / REVIEWED_SNAPSHOT / RELEASED_COPY / HISTORY_REFERENCE / CHANGE_REASON / RE-REVIEW_TRIGGER / OWNER / RIGHTS / LIMITATIONS / STATUS'
+human_evidence_gates:
+  - 'CALCULATION'
+  - 'TECHNICAL_EDITING'
+  - 'PHYSICAL_PRINT_REVIEW'
+  - 'CHART_READABILITY'
+  - 'SCHEMATIC_SCALE'
+  - 'TEST_KNITTING'
+  - 'PUBLICATION_DECISION'
+rights:
+  real_pattern_or_sample_allowed: false
+  real_charts_or_schematics_allowed: false
+  private_records_allowed: false
+  publication_forms_or_logos_allowed: false
+  founder_voice_requires_internal_clearance: true
+  original_props_require_rights_log: true
+caption_audio:
+  narrator_family: 'one close dry founder voice; no mixed voices'
+  caption_on_review_required: true
+  caption_free_review_required: true
+  automatic_captions_are_draft_only: true
+  captions_may_cover_proof: false
+  captions_may_cover_hands_faces_numbers_controls: false
+  room_tone_continuity_required: true
+  approval_or_urgency_sound_allowed: false
+platform:
+  instagram_reels: 'planned; recheck current profile, overlays, and actual preview at approval'
+  tiktok_organic: 'planned; human-edit captions and recheck accessibility, language, photosensitivity, and overlays'
+  youtube_shorts: 'planned; verify captions in Studio, audio rights, vertical upload rules, and actual preview'
+  paid_derivatives: 'not requested'
+acceptance_gates:
+  objective_audience_confirmed: false
+  fresh_wide_research_recorded: true
+  open_reviewer_orders_inspected: true
+  imported_continuity_inspected: true
+  angle_distinctness_documented: true
+  product_proof_supplied: false
+  destination_confirmed: false
+  script_complete: true
+  claim_ledger_complete: true
+  rights_ledger_complete: true
+  narrator_family_declared: true
+  caption_on_and_free_review_defined: true
+  audio_plan_defined: true
+  platform_recheck_complete: false
+  filename_reserved_unique: true
+  external_upload_authorized: false
+exact_generator_action: 'Do not generate or upload. Await a current versioned product-proof registry entry or approved non-private editability/source-history capture, confirm destination and rights, and rerun Director validation before re-authorization.'
+blocker: 'No current product-proof registry entry or approved non-private, rights-cleared capture verifies an editability/source-history surface; destination, asset rights, and current platform acceptance details are also unconfirmed.'
+source_research: 'research/2026-08-20-pass234-browser-findings.md'
+brief_path: 'briefs/SS_founder-proof_editability-state_9x16_v001_blocked_20260820-072817.md'
+script_path: 'scripts/SS_founder-proof_editability-state_9x16_v001_blocked_20260820-072817.md'
+platform_matrix_path: 'platforms/SS_founder-proof_editability-state_9x16_v001_matrix_20260820-072817.md'
+continuity_path: 'ledgers/20260820-editability-state.md'
