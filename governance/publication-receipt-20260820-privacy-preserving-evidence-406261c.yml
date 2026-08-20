@@ -1,0 +1,179 @@
+receipt_id: PUB-20260820-privacy-preserving-evidence-406261c
+created_at: '2026-08-20T16:49:00+00:00'
+role: temporary-director
+firing: 241
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: dac9243e16140e3d02b1566026623240246962dd
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 406261cf69461f67ef7c37643fff4193dd54c0ac
+blocker_path: comms/outbox/MSG-20260820T164900-temporary-director-241.yml
+research_paths:
+  - research/2026-08-20-privacy-preserving-review-evidence-1649.md
+  - research/2026-08-20-firing-241-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How can the V002 Reviewer prove a terminal decision and preserve reproducibility while minimizing
+  unnecessary personal or sensitive data in video evidence, screenshots, transcripts, logs, and agent
+  records?
+research_decision: >-
+  Require purpose-bound, minimized, role-scoped, and lineage-preserving evidence. The protected exact
+  artifact record must retain identity, hash, access controls, and reproducibility, while ordinary
+  evidence views disclose only what is needed for the seven-dimensional review. Every exclusion,
+  redaction, crop, blur, pseudonymization, excerpt, transcript minimization, or screenshot selection
+  must record purpose, method, operator, timestamp, checksum, recipient scope, and limitations.
+  Secondary use is prohibited and privacy restrictions do not waive completeness or authorize a
+  terminal decision.
+privacy_evidence_contract:
+  purpose_specification: required
+  review_purpose: seven_dimension_v002_quality_and_authorization_review
+  data_inventory: required
+  data_action_inventory: required
+  collection_necessity: required
+  collection_proportionality: required
+  excluded_data_categories: required
+  excluded_data_reason: required
+  protected_exact_artifact_reference: required
+  protected_artifact_access_policy: required
+  role_scoped_evidence_view: required
+  recipient_or_audience: required
+  disclosure_scope: required
+  retention_period: required
+  deletion_or_disposal_policy: required
+  secondary_use_prohibited: true
+  purpose_change_requires_reauthorization: true
+  privacy_risk_assessment: required
+  limitation_record: required
+  evidence_integrity_preserved: required
+  evidence_reproducibility_preserved: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  manifest_version: required
+  review_contract_version: required
+  evaluator_identity: required
+  evaluator_role: required
+  evaluation_timestamp_utc: required
+transformation_lineage:
+  derivative_present: required
+  source_video_id: required_when_derivative
+  source_drive_file_id: required_when_derivative
+  source_sha256: required_when_derivative
+  derivative_type: required_when_derivative
+  derivative_purpose: required_when_derivative
+  excluded_or_transformed_fields: required_when_derivative
+  transformation_method: required_when_derivative
+  tool_and_version: required_when_derivative
+  operator_identity: required_when_derivative
+  transformation_timestamp_utc: required_when_derivative
+  derivative_checksum: required_when_derivative
+  protected_source_reference: required_when_derivative
+  recipient_scope: required_when_derivative
+  limitation_introduced: required_when_derivative
+  relationship_to_source: required_when_derivative
+  derivative_is_not_exact_v002: true
+  derivative_does_not_silently_replace_v002: true
+  derivative_does_not_authorize_remake: true
+  source_and_derivative_results_preserved: true
+minimization_rules:
+  collect_only_necessary_review_evidence: required
+  unrelated_faces_or_personal_data: exclude_or_protect
+  private_messages_or_account_data: exclude
+  credentials_or_tokens: never_collect
+  browser_history_or_unrelated_context: exclude
+  raw_audio_beyond_review_purpose: minimize_or_protect
+  full_transcript_beyond_review_purpose: minimize_or_protect
+  screenshot_scope: purpose_bound
+  excerpt_scope: purpose_bound
+  redaction_scope: documented
+  blur_scope: documented
+  crop_scope: documented
+  pseudonymization_scope: documented
+  selective_disclosure: preferred_when_sufficient
+  de_identification_when_possible: required
+  re_identification_key: restricted_and_separately_protected
+  unprotected_personal_data_in_public_repo: forbidden
+  unprotected_credentials_in_any_record: forbidden
+access_control:
+  least_privilege_role_access: required
+  protected_source_access_when_needed: required
+  generator_access_to_unnecessary_personal_data: forbidden
+  director_access_to_drive_or_personal_data: not_required
+  access_grant_event: required
+  access_revocation_event: required
+  access_log: required
+  protected_reference: required
+  public_disclosure: minimized_and_authorized
+  access_scope_mismatch: non_terminal
+  unauthorized_recipient: incident
+privacy_and_completeness_rules:
+  minimized_view_must_preserve_review_relevant_facts: required
+  removed_or_redacted_review_relevant_fact: limitation_required
+  privacy_restriction_does_not_prove_criterion: true
+  privacy_restriction_does_not_clear_lane: true
+  missing_protected_source_access: non_terminal
+  missing_purpose: non_terminal
+  secondary_use: incident
+  undisclosed_derivative: non_terminal
+  lineage_gap: non_terminal
+  evidence_deletion: forbidden
+  evidence_overwrite: forbidden
+terminal_events_that_clear_lane:
+  - complete_privacy_preserving_exact_provenance_independent_reviewer_approval
+  - complete_privacy_preserving_exact_provenance_independent_reviewer_rejection
+  - complete_privacy_preserving_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution_with_privacy_evidence
+non_terminal_events:
+  - minimized_view_only
+  - redacted_view_only
+  - cropped_view_only
+  - blurred_view_only
+  - pseudonymized_view_only
+  - excerpt_only
+  - transcript_only
+  - privacy_observation_only
+  - access_grant_only
+  - access_restriction_only
+  - missing_purpose
+  - missing_lineage
+  - undisclosed_derivative
+  - secondary_use
+  - bare_score
+  - aggregate_without_artifact_scope
+  - routine_reminder
+next_action: >-
+  Human owner must define the review purpose, protected exact-artifact access policy, role-scoped
+  evidence views, retention/disposal policy, and privacy-risk controls. Independent Video Reviewer
+  must publish one complete packet identifying necessary data, exclusions, transformations, recipient
+  scope, limitations, protected source reference, exact lineage, seven-dimension evidence, and a
+  recomputable terminal outcome. No unnecessary personal data or credentials may enter the repository.
+  Keep the single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
