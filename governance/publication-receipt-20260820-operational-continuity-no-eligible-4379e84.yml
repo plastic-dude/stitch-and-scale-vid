@@ -9,9 +9,10 @@ incoming_remote_commit: de1bfc43a466be023b471613022c4bd5c321c5cf
 reconciliation: safe_non_ff_merge_after_fast_forward_refused
 commit_after_blocker: 4379e84419f6ac065085d73d9d072cdbaa3fb25a
 merge_commit_before_receipt_republication: b4205a0c8e318cf35bed0f2ecdf26b758266ffaf
-head_equals_origin_main: pending_final_push_verification
+final_verified_publication_commit: a031816419e65f29aad7f93a9097bdb4243e2ab4
+head_equals_origin_main: true
 divergence_left_right: '0 0'
-publication_status: published-blocker
+publication_status: published-blocker-after-safe-merge
 verified_remote_paths:
   - research/2026-08-20-operational-continuity-no-eligible-1438.md
   - comms/outbox/MSG-20260820T143800-temporary-director-160.yml
