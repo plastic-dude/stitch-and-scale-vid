@@ -1,0 +1,182 @@
+manifest_version: '1.0'
+manifest_id: MAN-founder-proof-care-instruction-state-9x16-v001-20260820-052116
+brief_id: BRF-founder-proof-care-instruction-state-9x16-v001
+script_id: SCR-founder-proof-care-instruction-state-9x16-v001
+matrix_id: MAT-founder-proof-care-instruction-state-9x16-v001
+campaign: founder-proof
+angle: care-instruction-state
+pass_number: 221
+stamp: '20260820-052116'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-explainer
+title: A care symbol is not the whole instruction.
+objective: >-
+  Show that a care symbol is not the whole instruction; preserve treatment, method,
+  temperature or level, symbol meaning, warning or prohibition, blocking or finishing,
+  source or basis, reviewer, review time, and status as separate fields.
+audience:
+  primary: >-
+    Independent knitwear designers, technical editors, test knitters, craft-business
+    operators, pattern readers, and recipients coordinating care information.
+  secondary: designers, editors, testers, reviewers, and publication coordinators
+form: founder-proof-tabletop-care-boundary-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: craft and pattern-workflow participants coordinating care language and review
+  tone: calm precise craft-respecting non-alarmist transparent about care evidence limits
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not
+    be described as a knitter, knitwear designer, pattern designer, technical editor,
+    or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_care_instruction_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    CARE C-001 / DESIGN_ID / MATERIAL_OR_FIBER / CARE_STAGE / TREATMENT / METHOD /
+    TEMPERATURE_OR_LEVEL / SYMBOL / SYMBOL_MEANING / WARNING_OR_PROHIBITION /
+    BLOCKING_OR_FINISHING / SOURCE_OR_BASIS / REVIEWER / REVIEWED_AT / STATUS
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+  care_disclaimer: EXAMPLE — NOT A PRODUCT CARE LABEL
+research:
+  file: research/2026-08-20-pass221-browser-findings.md
+  question: >-
+    What must a knitwear care record preserve about washing, bleaching, drying, ironing,
+    professional care, temperature, symbols, warnings, blocking, finishing, source, and
+    review status before a maker or reader treats it as safe guidance?
+  decision_changed: >-
+    Select care-instruction-state: keep treatment, method, temperature or level, symbol meaning,
+    warning, blocking or finishing, source or basis, reviewer, review time, and status visible.
+  sources:
+    - id: R221-001
+      title: 'Craft Yarn Council — Care Symbols'
+      url: https://www.craftyarncouncil.com/standards/care-symbols
+      accessed: '2026-08-20'
+      limitation: Industry guidance; it does not verify a current product care surface.
+    - id: R221-002
+      title: 'Craft Yarn Council — Designer Pitfalls'
+      url: https://www.craftyarncouncil.com/pitfalls.html
+      accessed: '2026-08-20'
+      limitation: Industry guidance; it does not establish care outcomes or product safety.
+    - id: R221-003
+      title: 'Federal Trade Commission — Care Labeling of Textile Wearing Apparel and Certain Piece Goods'
+      url: https://www.ftc.gov/legal-library/browse/rules/care-labeling-textile-wearing-apparel-certain-piece-goods-text
+      accessed: '2026-08-20'
+      limitation: Legal rule for covered manufacturers and importers; not a Stitch & Scale capability or universal knitwear standard.
+    - id: R221-004
+      title: 'Government of Canada — Guide to Apparel and Textile Care Symbols'
+      url: https://ised-isde.canada.ca/site/office-consumer-affairs/en/product-safety-recalls-and-labelling/guide-apparel-and-textile-care-symbols
+      accessed: '2026-08-20'
+      limitation: Informational guidance; the cited Canadian national standard was withdrawn in 2017.
+concept_difference:
+  nearest_prior: deadline-condition-state
+  changed_pain: >-
+    A familiar care symbol can look complete while treatment, method, temperature,
+    warning, blocking, source, or review status remains unknown.
+  hook: A care symbol is not the whole instruction.
+  visual_metaphor: >-
+    A familiar fictional wash symbol reveals missing qualifiers and changes to CARE CLAIM:
+    NOT YET BOUNDED while separate human gates remain visible.
+  emotional_turn: 'Responsible specificity: recognition gives way to treatment, limit, warning, and basis.'
+  final_line: Name the treatment, the limit, the warning, and the basis.
+dramatic_engine:
+  subject: fictional yarn or garment care card with a familiar wash symbol and separate care fields
+  desire: let a reader or reviewer know what care guidance means and what remains unverified
+  obstacle: a familiar symbol appears complete while treatment, method, temperature, warning, blocking, source, and review fields are blank
+  stakes: a qualifier or warning can change the meaning of a care instruction; no harm, safety, or customer outcome is claimed
+  change: 'replace CARE OK with CARE CLAIM: NOT YET BOUNDED'
+  contradiction: a recognizable symbol can still be incomplete without its treatment, qualifier, warning, and basis
+  escalation:
+    - SYMBOL
+    - TREATMENT
+    - METHOD
+    - TEMPERATURE_OR_LEVEL
+    - WARNING_OR_PROHIBITION
+    - BLOCKING_OR_FINISHING
+    - SOURCE_OR_BASIS
+    - REVIEWER_AND_STATUS
+    - CARE_CLAIM_NOT_YET_BOUNDED
+proof_surface: >-
+  CARE C-001 / DESIGN_ID / MATERIAL_OR_FIBER / CARE_STAGE / TREATMENT / METHOD /
+  TEMPERATURE_OR_LEVEL / SYMBOL / SYMBOL_MEANING / WARNING_OR_PROHIBITION /
+  BLOCKING_OR_FINISHING / SOURCE_OR_BASIS / REVIEWER / REVIEWED_AT / STATUS
+assets:
+  approved_assets: pending
+  permitted: original neutral cards, fictional symbols and care labels, neutral tabletop, rights-cleared narrator, neutral foley
+  prohibited: real care labels, manufacturer marks, private garments, customer records, company logos, legal notices, current UI captures, copyrighted patterns
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, proof cards, numbers, labels, logos, buttons, menus, or primary actions
+audio:
+  music: none unless rights-cleared and separately approved
+  motif: restrained card-confirmation cues and neutral care-review hold
+  room_tone: record before and after each setup
+claims:
+  allowed:
+    - A care symbol is not the whole instruction.
+    - Care records can preserve treatment, method, temperature or level, symbol meaning, warning or prohibition, blocking or finishing, source or basis, reviewer, review time, and status.
+    - An unbounded care claim should remain open.
+  prohibited:
+    - Stitch & Scale recommends washing, drying, ironing, bleaching, drycleaning, blocking, or finishing methods.
+    - Stitch & Scale interprets symbols automatically, verifies fiber behavior, tests care outcomes, guarantees garment safety, provides legal compliance, replaces manufacturer or editor guidance, or establishes product-specific care labels.
+    - A generic symbol is product-specific care proof.
+    - A care record replaces material, gauge, calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting.
+    - A fictional care card is a real garment label, manufacturer record, or current product record.
+    - Revenue, adoption, accuracy, customer outcomes, final pricing, credentials, testimonials, urgency, or capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact care-instruction surface; destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-care-instruction-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  adjacent_deadline: ledgers/20260820-deadline-condition-state.md
+  adjacent_material_availability: ledgers/20260820-material-availability-state.md
+  adjacent_substitution: ledgers/20260820-substitution-authorization-state.md
+  adjacent_gauge: ledgers/2026-08-19-gauge-reality-continuity.md
+  adjacent_test_protocol: ledgers/20260820-test-protocol-state.md
+  adjacent_material_trace: ledgers/2026-08-19-material-trace.md
+  existing_care_context: ledgers/2026-08-19-care-context.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_care-instruction-state_9x16_v001_matrix_20260820-052116.md
+filename:
+  reserved: SS_founder-proof_care-instruction-state_9x16_v001_blocked_20260820-052116.mp4
+  overwrite: false
+  duplicate_check: passed

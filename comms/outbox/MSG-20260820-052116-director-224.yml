@@ -1,0 +1,80 @@
+message_id: MSG-20260820-052116-director-224
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 221
+stamp: '20260820-052116'
+angle: care-instruction-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_care-instruction-state_9x16_v001_blocked_20260820-052116.mp4
+nearest_prior: deadline-condition-state
+hook: A care symbol is not the whole instruction.
+final_line: Name the treatment, the limit, the warning, and the basis.
+research_question: >-
+  What must a knitwear care record preserve about washing, bleaching, drying, ironing,
+  professional care, temperature, symbols, warnings, blocking, finishing, source, and
+  review status before a maker or reader treats it as safe guidance?
+research_file: research/2026-08-20-pass221-browser-findings.md
+research_decision: >-
+  Select care-instruction-state: keep treatment, method, temperature or level, symbol meaning,
+  warning, blocking or finishing, source or basis, reviewer, review time, and status visible.
+research_sources:
+  - Craft Yarn Council describes five care-symbol categories—washing, bleaching, drying, ironing, and professional textile care—and explains temperature, hand-washing, bars, dots, and do-not modifiers.
+  - Craft Yarn Council warns not to block acrylic yarn with heat and identifies missing material details, incomplete instructions, missing records, and other workflow gaps.
+  - The FTC Care Labeling Rule requires covered manufacturers and importers to provide regular care instructions and warnings with a reasonable basis; it is legal context for covered products, not a Stitch & Scale capability.
+  - Government of Canada guidance explains care-symbol categories and qualifiers and notes that the cited Canadian national standard was withdrawn in 2017.
+objective: >-
+  Show that a care symbol is not the whole instruction; preserve treatment, method,
+  temperature or level, symbol meaning, warning or prohibition, blocking or finishing,
+  source or basis, reviewer, review time, and status as separate fields.
+audience: >-
+  Independent knitwear designers, technical editors, test knitters, craft-business
+  operators, pattern readers, and recipients coordinating care information.
+deliverables:
+  - briefs/SS_founder-proof_care-instruction-state_9x16_v001_blocked_20260820-052116.md
+  - scripts/SS_founder-proof_care-instruction-state_9x16_v001_blocked_20260820-052116.md
+  - platforms/SS_founder-proof_care-instruction-state_9x16_v001_matrix_20260820-052116.md
+  - ledgers/20260820-care-instruction-state.md
+  - manifests/SS_founder-proof_care-instruction-state_9x16_v001_blocked_20260820-052116.yml
+  - research/2026-08-20-pass221-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-052116-director-224.yml
+proof_surface: >-
+  CARE C-001 / DESIGN_ID / MATERIAL_OR_FIBER / CARE_STAGE / TREATMENT / METHOD /
+  TEMPERATURE_OR_LEVEL / SYMBOL / SYMBOL_MEANING / WARNING_OR_PROHIBITION /
+  BLOCKING_OR_FINISHING / SOURCE_OR_BASIS / REVIEWER / REVIEWED_AT / STATUS
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact care-instruction surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim that Stitch & Scale recommends washing, drying, ironing, bleaching,
+  drycleaning, blocking, or finishing methods; interprets symbols automatically; verifies
+  fiber behavior; tests care outcomes; guarantees garment safety; provides legal compliance;
+  replaces manufacturer or editor guidance; or establishes product-specific care labels.
+  Do not use real care labels, manufacturer marks, private garments, customer records,
+  company logos, legal notices, personal identifiers, or copyrighted patterns. Do not claim
+  safety, legal compliance, care outcomes, fiber behavior, revenue, adoption, accuracy,
+  customer outcomes, pricing, credentials, testimonials, urgency, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+human_gates: >-
+  Preserve calculation, technical editing, physical print review, chart readability,
+  schematic scale, and test knitting as distinct human evidence gates.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected and remain blocked;
+  their reserved filenames remain occupied. Adjacent deadline, material availability,
+  substitution, gauge, test protocol, material trace, and care-context territory remains occupied and was not modified.
+review_state: >-
+  reviews/, orders/, and comms/inbox/ are absent at refresh; no open CRITICAL or HIGH
+  reviewer or remake order is present in the current repository.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Name the destination platform and provide a current, versioned, non-private, rights-cleared
+  product-proof registry entry or approved capture showing design ID, material or fiber, care stage,
+  treatment, method, temperature or level, symbol, symbol meaning, warning or prohibition, blocking
+  or finishing, source or basis, reviewer, review time, and status; then rerun all Director gates.
