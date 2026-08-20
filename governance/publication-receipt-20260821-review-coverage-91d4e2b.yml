@@ -1,0 +1,178 @@
+receipt_id: PUB-20260821-review-coverage-91d4e2b
+created_at: '2026-08-21T22:30:00+01:00'
+role: temporary-director
+firing: 231
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: b7e4c2a
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 91d4e2b
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T223000-temporary-director-231.yml
+research_paths:
+  - research/2026-08-21-review-coverage-stopping-rules-2230.md
+  - research/2026-08-21-firing-231-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What coverage and stopping-rule evidence is required before a Reviewer can claim that a
+  video has been adequately inspected, rather than inferring quality from a short,
+  favorable, or incomplete sample?
+research_decision: >-
+  Require a documented inspection-coverage map and stopping rule. The terminal packet must
+  state complete video, audio, captions, claims, proof, platform, and failure-mode coverage;
+  uninspected regions; sampling method and density; negative findings; stopping criterion;
+  tools; time and frame ranges; limitations; and evidence identifiers. Not observed is not
+  checked and absent, not applicable requires justification, and unable to inspect is an
+  evidence gap. A favorable sample, partial listen, truncated evidence, or unknown stopping
+  point is non-terminal.
+coverage_contract:
+  complete_video_interval: required
+  frame_or_scene_coverage: required
+  audio_voice_coverage: required
+  captions_text_coverage: required
+  claim_proof_coverage: required
+  technical_platform_coverage: required
+  external_conditions_checked: required_if_applicable
+  uninspected_regions: required
+  sampling_method: required
+  sample_density: required
+  known_failure_mode_searches: required
+  negative_findings: required
+  stopping_criterion: required
+  evidence_identifiers: required
+  inspected_time_range: required
+  inspected_frame_or_scene_ranges: required
+  tool_or_player_identity: required
+  tool_version: required_when_available
+  evaluation_start_time: required
+  evaluation_end_time: required
+finding_semantics:
+  checked_and_absent: supported_only_with_scope
+  not_observed: not_equivalent_to_absent
+  not_applicable: requires_justification
+  unable_to_inspect: evidence_gap
+  uninspected_region: must_be_disclosed
+  favorable_sample_only: non_terminal
+  opening_only_review: non_terminal
+  sparse_frame_sampling_without_coverage_justification: non_terminal
+  partial_audio_listen: non_terminal
+  inaccessible_drive_data: non_terminal
+  truncated_evidence: non_terminal
+  missing_event_pages: non_terminal
+  unknown_stopping_point: non_terminal
+  silence_about_uninspected_scope: non_terminal
+negative_evidence_rules:
+  search_scope: required
+  search_method: required
+  coverage: required
+  limits: required
+  negative_claim_must_be_supported: true
+  unsupported_negative_claim_is_non_terminal: true
+  absence_of_report_is_not_absence_of_defect: true
+scoring_contract:
+  dimension_count: 7
+  weights_percent:
+    story_purpose: 20
+    directing_visual: 15
+    proof_claims: 20
+    audio_voice: 15
+    captions_text: 10
+    technical_platform: 10
+    originality_brand: 10
+  limitations_per_dimension: required
+  uncertainty_or_confidence_per_dimension: required
+  weighted_total_recomputable: required
+  threshold_percent: 65
+  threshold_comparison: required
+  explicit_terminal_decision: required
+  immutable_evidence_references: required
+required_terminal_fields:
+  - unique_event_id
+  - event_timestamp
+  - authorized_actor_identity
+  - independent_reviewer_role
+  - prior_event_id
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - artifact_manifest_version
+  - review_contract_version
+  - scoring_weights_version
+  - threshold_version
+  - evidence_schema_version
+  - evaluation_method_version
+  - complete_video_interval
+  - frame_or_scene_coverage
+  - audio_voice_coverage
+  - captions_text_coverage
+  - claim_proof_coverage
+  - technical_platform_coverage
+  - uninspected_regions
+  - sampling_method
+  - sample_density
+  - known_failure_mode_searches
+  - negative_findings
+  - stopping_criterion
+  - evidence_identifiers
+  - inspected_time_range
+  - inspected_frame_or_scene_ranges
+  - tool_or_player_identity
+  - evaluation_start_time
+  - evaluation_end_time
+  - seven_dimension_records
+  - dimension_scores
+  - dimension_weights
+  - weighted_contributions
+  - limitations_per_dimension
+  - uncertainty_or_confidence_per_dimension
+  - recomputable_weighted_total
+  - threshold_comparison
+  - explicit_terminal_decision
+  - immutable_evidence_references
+terminal_events_that_clear_lane:
+  - complete_coverage_exact_provenance_independent_reviewer_approval
+  - complete_coverage_exact_provenance_independent_reviewer_rejection
+  - complete_coverage_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution_with_coverage_binding
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append timeout and incomplete-scope evidence with exact provenance, escalate the same
+    incident, preserve the lane as blocked, and do not infer terminal authorization.
+next_action: >-
+  Independent Video Reviewer must publish one complete exact-provenance packet documenting
+  coverage, stopping rule, negative findings, limitations, all seven dimension records,
+  recomputable scoring, threshold comparison, explicit outcome, and immutable evidence, or
+  a linked continuation or revalidation packet resolving gaps. Human owner must assign
+  responsible owner, role, bounded checkpoint, and escalation target. Keep the lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
