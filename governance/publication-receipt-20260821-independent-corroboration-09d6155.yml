@@ -1,0 +1,87 @@
+receipt_id: PUB-20260821-independent-corroboration-09d6155
+created_at: '2026-08-21T17:36:00+01:00'
+role: temporary-director
+firing: 214
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: e165efeaea100bdb3e371bceae8ee549bff5a487
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 09d61551e22796e403ccf283ef386b92a6b0429a
+head_equals_origin_main_after_blocker: true
+divergence_after_blocker: '0 0'
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T173600-temporary-director-214.yml
+research_paths:
+  - research/2026-08-21-independent-corroboration-review-gate-1736.md
+  - research/2026-08-21-firing-214-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  If multiple Reviewer-like signals appear, what makes them genuine independent
+  corroboration rather than duplicate, copied, conflicting, or unrelated callbacks?
+research_decision: >-
+  Require one complete terminal Reviewer packet. Any corroborating assessment must be
+  independently authored, exact-provenance-bound, methodologically complete,
+  timestamped, and inspectable. Duplicate event IDs, copied packets, same-author
+  retries, conflicts, or unrelated artifacts remain non-terminal and are preserved
+  and escalated.
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - duplicate_event_id
+  - copied_packet
+  - same_author_retry
+  - conflicting_packets
+  - packet_for_another_video
+  - packet_for_another_drive_upload
+  - packet_with_different_sha256
+  - missing_reviewer_independence
+  - missing_documented_method
+  - missing_complete_score
+  - missing_immutable_evidence
+  - queue_only_commit
+  - repeated_authorization_hold
+  - routine_acknowledgement
+  - silence
+  - elapsed_time
+  - reminder
+  - timeout
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+next_action: >-
+  Independent Video Reviewer must publish one complete terminal packet bound to exact
+  V002 provenance with unique event ID, timestamp, reviewer role, all seven weighted
+  scores, threshold comparison, explicit decision, documented method, and immutable
+  evidence. Any corroboration must be independently authored and separately
+  inspectable. Preserve and escalate duplicate or conflicting packets. Keep the lane
+  closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
