@@ -1,0 +1,124 @@
+receipt_id: PUB-20260821-identity-bound-1f4c9a8
+created_at: '2026-08-21T20:00:00+01:00'
+role: temporary-director
+firing: 223
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 1a634b0f4103cc4ba0348de5b3910474aabddb5d
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 1f4c9a8
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T200000-temporary-director-223.yml
+research_paths:
+  - research/2026-08-21-identity-bound-review-authority-2000.md
+  - research/2026-08-21-firing-223-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  When several agents emit progress, acknowledgement, or duplicate review-like records,
+  what prevents low-authority signals from being aggregated into a false terminal consensus?
+research_decision: >-
+  Require identity-bound terminal authority. Only one authorized independent Video
+  Reviewer or contract-authorized adjudicator may publish a complete exact-provenance
+  terminal packet. Liveness records, queue holds, owner acknowledgements, Director
+  blockers, Generator holds, duplicate packets, and other non-authorized signals cannot
+  be counted, averaged, majority-voted, or otherwise aggregated into terminal authority.
+authority_protocol:
+  current_state: video-ready-for-review
+  terminal_authority_model: identity_bound
+  quorum_required: false
+  count_based_authority: false
+  aggregation_of_non_authorized_signals: forbidden
+  authorized_terminal_roles:
+    - independent_video_reviewer
+    - contract_authorized_adjudicator
+  director_terminal_authority: false
+  generator_terminal_authority: false
+  owner_acknowledgement_terminal_authority: false
+  queue_hold_terminal_authority: false
+  heartbeat_terminal_authority: false
+  duplicate_packet_terminal_authority: false
+  required_terminal_packet:
+    - unique_event_id
+    - timestamp
+    - authorized_actor_identity
+    - authorized_actor_role
+    - exact_video_id
+    - exact_drive_file_id
+    - exact_sha256
+    - evaluation_method
+    - complete_seven_dimension_score
+    - published_weights
+    - weighted_total_score
+    - threshold_comparison
+    - explicit_terminal_decision
+    - immutable_evidence_references
+conflict_rule: >-
+  Preserve conflicting authorized Reviewer packets append-only, link them by
+  conflicts_with, and use only the contract-defined adjudication path. Do not average,
+  majority-vote, recency-rank, or resolve conflict by message count.
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - packet_from_director
+  - packet_from_generator
+  - packet_from_owner_without_reviewer_authority
+  - packet_from_unregistered_reviewer
+  - packet_without_actor_identity
+  - packet_without_complete_evidence
+  - packet_without_explicit_decision
+  - director_blocker
+  - generator_hold
+  - owner_acknowledgement
+  - queue_hold
+  - heartbeat
+  - continuation
+  - reminder
+  - retry
+  - timeout
+  - silence
+  - elapsed_time
+  - duplicate_packet
+  - majority_vote_without_contract_authority
+  - recency_rank
+  - callback_for_another_video
+  - callback_for_another_drive_upload
+  - callback_with_different_sha256
+next_action: >-
+  Independent Video Reviewer must publish one complete exact-provenance terminal packet
+  under the authorized identity, or the contract-authorized adjudicator must publish
+  the defined resolution. Human owner must name responsible owner, bounded checkpoint,
+  and escalation target. Preserve valid and invalid attempts append-only, marking
+  invalid authority attempts without treating them as terminal evidence. Keep the lane
+  closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
