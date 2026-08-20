@@ -1,0 +1,39 @@
+receipt_id: PUB-20260820-owner-review-4b18393
+created_at: '2026-08-20T07:47:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: d8873880f8e3dd45baf4200702e074409dfdd7dd
+remote_commit_after_blocker: 4b1839350430c47edd279b7347970db4dd8b0190
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-owner-review-escalation-low-noise-0747.md
+  - comms/outbox/MSG-20260820T074700-temporary-director-102.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  How should the Director escalate an unresolved owner callback without
+  generating alert noise or allowing the callback to substitute for an
+  independent quality decision?
+research_decision: >-
+  Escalate once with a bounded callback contract, then suppress duplicate
+  reminders until materially new owner action or an independent terminal packet
+  appears. A reminder, timeout, or acknowledgement is not a verdict.
+next_action: >-
+  Human owner must provide responsible owner, bounded review deadline, and
+  escalation target. Video Reviewer must publish the independent terminal
+  packet. Preserve V002 and keep the lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
