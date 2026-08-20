@@ -1,0 +1,108 @@
+receipt_id: PUB-20260821-deterministic-threshold-8f5d4c1
+created_at: '2026-08-21T18:08:00+01:00'
+role: temporary-director
+firing: 216
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: cd7ebe744376ae1bc3f6a5b0dc173f0289c1558b
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 8f5d4c1
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T180800-temporary-director-216.yml
+research_paths:
+  - research/2026-08-21-deterministic-review-threshold-1808.md
+  - research/2026-08-21-firing-216-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should the review gate handle a complete-looking Reviewer packet when its
+  weighting, threshold comparison, or input validity is ambiguous, inconsistent,
+  or not independently calculable?
+research_decision: >-
+  Require deterministic auditable scoring: all seven dimension scores, published
+  weights, weighted contributions, sum, rounding rule, 65% threshold comparison,
+  explicit outcome, and valid exact-provenance inputs. Missing, malformed,
+  contradictory, or unrecomputable inputs route to blocked and escalated status;
+  never implicit approval.
+published_weights:
+  story_purpose: 0.20
+  directing_visual: 0.15
+  proof_claims: 0.20
+  audio_voice: 0.15
+  captions_text: 0.10
+  technical_platform: 0.10
+  originality_brand: 0.10
+remake_threshold_percent: 65
+terminal_events_that_clear_lane:
+  - complete_recomputable_exact_provenance_independent_reviewer_approval
+  - complete_recomputable_exact_provenance_independent_reviewer_rejection
+  - complete_recomputable_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - missing_dimension_score
+  - malformed_dimension_score
+  - non_numeric_dimension_score
+  - missing_weight
+  - incorrect_weight
+  - missing_weighted_contribution
+  - incorrect_weighted_contribution
+  - missing_total
+  - incorrect_total
+  - missing_rounding_rule
+  - missing_threshold_comparison
+  - contradictory_scores
+  - score_without_exact_provenance
+  - score_without_method
+  - bare_score
+  - bare_status_update
+  - duplicate_packet
+  - copied_packet
+  - same_author_retry
+  - stale_callback
+  - packet_for_another_video
+  - packet_for_another_drive_upload
+  - packet_with_different_sha256
+  - queue_only_commit
+  - repeated_authorization_hold
+  - routine_acknowledgement
+  - silence
+  - elapsed_time
+  - reminder
+  - timeout
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+next_action: >-
+  Independent Video Reviewer must publish one complete terminal packet bound to exact
+  V002 provenance with valid inputs, all seven scores, published weights, weighted
+  contributions, total, rounding rule, 65% threshold comparison, evaluation method,
+  explicit decision, and immutable inspectable evidence. Human owner must name a
+  responsible owner, bounded deadline, and escalation target. Preserve and escalate
+  invalid or unrecomputable packets. Keep the lane closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
