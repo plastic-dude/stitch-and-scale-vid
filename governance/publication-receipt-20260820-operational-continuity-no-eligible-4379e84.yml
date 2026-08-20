@@ -1,0 +1,77 @@
+receipt_id: PUB-20260820-operational-continuity-no-eligible-4379e84
+created_at: '2026-08-20T14:38:00+01:00'
+role: temporary-director
+firing: 160
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 85b6f2783c62544fc901512480f857b823e07ee2
+incoming_remote_commit: null
+reconciliation: already_synchronized
+commit_after_blocker: 4379e84419f6ac065085d73d9d072cdbaa3fb25a
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-operational-continuity-no-eligible-1438.md
+  - comms/outbox/MSG-20260820T143800-temporary-director-160.yml
+  - references/publication-control.md
+  - prompts/director-planner-loop-7m.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  newer_remote_commit_present: false
+  changed_paths: []
+  queue_hold_present: true
+  no_eligible_director_contract: true
+  operational_continuity_only: true
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  mp4_authorized: false
+research_question: >-
+  How should a Director preserve V002’s unchanged review gate after another
+  non-terminal hold and no eligible Director contract, while distinguishing
+  operational continuity from terminal authority?
+research_decision: >-
+  Publish one precise blocker describing operational continuity, preserve active
+  V002 provenance and immutable evidence, keep the single-flight lane closed, and
+  suppress same-category repetition.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - bounded_authorization_hold
+  - no_eligible_director_contract
+  - operational_continuity
+  - queue_status_append
+  - unchanged_gate
+  - no_change
+  - operational_hold
+  - reminder
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+next_action: >-
+  Human owner must provide responsible owner, bounded review deadline, and
+  escalation target. Independent Video Reviewer must publish one unique terminal
+  callback with event ID, explicit decision, timestamp, complete seven-dimension
+  score, evidence references, and exact V002 provenance. Keep the lane closed and
+  suppress same-category blockers until materially new state appears.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
