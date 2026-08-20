@@ -1,0 +1,153 @@
+manifest_version: '1.0'
+manifest_id: MAN-founder-proof-review-trigger-state-9x16-v001-20260820-030055
+brief_id: BRF-founder-proof-review-trigger-state-9x16-v001
+script_id: SCR-founder-proof-review-trigger-state-9x16-v001
+matrix_id: MAT-founder-proof-review-trigger-state-9x16-v001
+campaign: founder-proof
+angle: review-trigger-state
+stamp: '20260820-030055'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-explainer
+title: A new input is not a new approval. It is a reason to check again.
+objective: >-
+  Show that a scoped decision should return to review when a relevant input, material,
+  requirement, or evidence state changes, without claiming that Stitch & Scale currently
+  detects changes, expires permissions, or automatically reopens work.
+audience:
+  primary: >-
+    Independent knitwear designers and pattern publishers coordinating calculations,
+    technical editing, physical print review, chart readability, schematic scale, test
+    knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+  secondary: founding testers and reviewers
+form: founder-proof-tabletop-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: independent knitwear designers and pattern publishers
+  tone: calm exact non-urgent candid
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be
+    described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_review_trigger_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    TRIGGER A-001 / PRIOR_SCOPE / CHANGE_EVENT / AFFECTED_EVIDENCE / REVIEW_OWNER /
+    RECHECK_STATUS / NEW_DECISION / DISPOSITION
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+research:
+  file: research/2026-08-20-pass202-browser-findings.md
+  question: >-
+    When a scoped clearance is valid for one use, what change, time boundary, or new
+    evidence should trigger revalidation before that permission is reused?
+  decision_changed: >-
+    Treat a relevant change as a reason to reopen human review, without claiming automatic expiry or monitoring.
+  sources:
+    - id: R202-001
+      title: 'NIST CSRC — Continuous monitoring topic'
+      url: https://csrc.nist.gov/topics/security-and-privacy/risk-management/continuous-monitoring
+      accessed: '2026-08-20'
+      status: official_topic_redirected_substantive_text_not_extracted
+    - id: R202-002
+      title: 'GOV.UK Design System — Check answers'
+      url: https://design-system.service.gov.uk/patterns/check-answers/
+      accessed: '2026-08-20'
+    - id: R202-003
+      title: 'Craft Yarn Council — Congratulations! You’ve Received the Go Ahead'
+      url: https://www.craftyarncouncil.com/industry.html
+      accessed: '2026-08-20'
+concept_difference:
+  nearest_prior: scope-clearance-state
+  changed_pain: >-
+    A scoped decision is reused after a relevant input or requirement changes without an explicit review trigger.
+  hook: A new input is not a new approval. It is a reason to check again.
+  visual_metaphor: >-
+    A red review thread connects a change event to the old clearance lane, changing its state to RECHECK REQUIRED while the new decision stays pending.
+  emotional_turn: Calm vigilance rather than panic or silent carry-forward.
+  final_line: Name what changed, what it touches, and what must be checked again.
+dramatic_engine:
+  subject: bounded clearance lane and new input connected by review thread
+  desire: keep a useful prior decision without pretending it remains current after a relevant change
+  obstacle: old scope still looks clean while material, recipient requirement, sample, or evidence state changed
+  stakes: silent carry-forward can make stale evidence look current
+  change: trigger interrupts old lane, marks recheck required, and exposes affected evidence and owner
+  contradiction: a change can reopen review without proving the opposite decision
+  escalation:
+    - SCOPED CLEARANCE
+    - CHANGE_EVENT appears
+    - REVIEW_TRIGGER named
+    - AFFECTED_EVIDENCE exposed
+    - REVIEW_OWNER and RECHECK_STATUS requested
+    - PRIOR_DECISION paused
+    - NEW_DECISION pending
+assets:
+  approved_assets: pending
+  permitted: original neutral cards, neutral tabletop, rights-cleared narrator, neutral foley
+  prohibited: copyrighted pattern excerpts, private records, customer names, logos, private messages, current UI captures
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, proof, tables, numbers, logos, buttons, menus, or primary actions
+audio:
+  music: none unless rights-cleared and separately approved
+  motif: restrained thread-pull cue and neutral recheck tone
+  room_tone: record before and after each setup
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_review-trigger-state_9x16_v001_matrix_20260820-030055.md
+filename:
+  reserved: SS_founder-proof_review-trigger-state_9x16_v001_blocked_20260820-030055.mp4
+  overwrite: false
+  duplicate_check: passed
+claims:
+  allowed:
+    - A relevant change can be a reason to revisit a prior decision.
+    - A review-trigger record can name change event, affected evidence, owner, recheck status, new decision, and disposition.
+  prohibited:
+    - Stitch & Scale continuously monitors, detects changes, expires permissions, or automatically reopens review.
+    - A real material, requirement, evidence state, or context changed.
+    - A trigger replaces technical editing, print review, chart readability, schematic scale, or test knitting.
+    - WCAG conformance or guaranteed accessibility.
+    - Revenue, adoption, customer outcomes, pricing, credentials, testimonials, urgency, accuracy, or capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact review-trigger surface; destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence also remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-review-trigger-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
