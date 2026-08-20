@@ -1,0 +1,170 @@
+manifest_version: '1.0'
+manifest_id: MAN-founder-proof-decision-conditions-state-9x16-v001-20260820-035714
+brief_id: BRF-founder-proof-decision-conditions-state-9x16-v001
+script_id: SCR-founder-proof-decision-conditions-state-9x16-v001
+matrix_id: MAT-founder-proof-decision-conditions-state-9x16-v001
+campaign: founder-proof
+angle: decision-conditions-state
+stamp: '20260820-035714'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-explainer
+title: A reasoned decision can still stop applying when its conditions change.
+objective: >-
+  Show that a reasoned decision remains bounded by explicit entity, purpose,
+  prerequisites, material, version, sample, scope, human-gate, limitations, and
+  review-trigger conditions, without claiming that Stitch & Scale currently records
+  or enforces conditional decisions.
+audience:
+  primary: >-
+    Independent knitwear designers and pattern publishers coordinating calculations,
+    technical editing, physical print review, chart readability, schematic scale, test
+    knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+  secondary: founding testers and reviewers
+form: founder-proof-tabletop-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: independent knitwear designers and pattern publishers
+  tone: calm exact non-urgent bounded
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be
+    described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_decision_conditions_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    COND A-001 / DECISION_ID / AUTHORIZED_ENTITY / AUTHORIZED_PURPOSE / PREREQUISITES /
+    CONDITIONS / LIMITATIONS / SCOPE / BASELINE / SAMPLE_OR_COVERAGE / VERSION_OR_DATE /
+    HUMAN_GATE_CONDITION / CHANGE_EVENT / EXPIRY_OR_REVIEW_TRIGGER / CONDITIONAL_STATUS /
+    DISPOSITION
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+research:
+  file: research/2026-08-20-pass210-browser-findings.md
+  question: >-
+    How should explicit conditions constrain a decision's validity, and when should a
+    change in those conditions force reassessment rather than silent reuse?
+  decision_changed: >-
+    Keep entity, purpose, prerequisites, conditions, limitations, scope, baseline, sample,
+    version, human-gate condition, change event, review trigger, status, and disposition attached.
+  sources:
+    - id: R210-001
+      title: 'NIST CSRC — Authorization Glossary'
+      url: https://csrc.nist.gov/glossary/term/authorization
+      accessed: '2026-08-20'
+    - id: R210-002
+      title: 'NIST CSRC — Authorization package Glossary'
+      url: https://csrc.nist.gov/glossary/term/authorization_package
+      accessed: '2026-08-20'
+    - id: R210-003
+      title: 'W3C — WCAG-EM 2.0'
+      url: https://www.w3.org/TR/wcag-em-2/
+      accessed: '2026-08-20'
+    - id: R210-004
+      title: 'Craft Yarn Council — Reading Instructions & Other Basics'
+      url: https://www.craftyarncouncil.com/read_instructions.html
+      accessed: '2026-08-20'
+concept_difference:
+  nearest_prior: decision-rationale-state
+  changed_pain: >-
+    A reasoned and recorded decision is reused after the entity, purpose, material,
+    version, sample, scope, human gate, prerequisite, or other condition changes.
+  hook: A reasoned decision can still stop applying when its conditions change.
+  visual_metaphor: >-
+    A decision lane is bounded by condition cards; a changed material or version turns
+    the lane amber and the disposition to RECHECK.
+  emotional_turn: 'Bounded confidence: keep the conditions attached.'
+  final_line: Name the conditions, show what changed, and recheck before the decision travels.
+dramatic_engine:
+  subject: decision card moving through a lane bounded by explicit conditions
+  desire: reuse a reasoned decision without silently expanding its validity
+  obstacle: entity, purpose, prerequisites, material, version, sample, scope, human-gate condition, limitations, and review trigger are incomplete or changed
+  stakes: a documented decision can become unsafe to reuse outside its checked conditions
+  change: lane narrows to checked conditions; a changed condition turns status to RECHECK
+  contradiction: a decision can be correct under one set of conditions and not ready for reuse when conditions change
+  escalation:
+    - DECISION_ID
+    - AUTHORIZED_ENTITY
+    - AUTHORIZED_PURPOSE
+    - PREREQUISITES
+    - CONDITIONS
+    - LIMITATIONS
+    - SCOPE
+    - BASELINE
+    - SAMPLE_OR_COVERAGE
+    - VERSION_OR_DATE
+    - HUMAN_GATE_CONDITION
+    - CHANGE_EVENT
+    - EXPIRY_OR_REVIEW_TRIGGER
+    - CONDITIONAL_STATUS
+    - DISPOSITION
+assets:
+  approved_assets: pending
+  permitted: original neutral cards, neutral tabletop, rights-cleared narrator, neutral foley
+  prohibited: copyrighted pattern excerpts, private records, customer names, logos, private messages, current UI captures
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, proof, tables, numbers, logos, buttons, menus, or primary actions
+audio:
+  music: none unless rights-cleared and separately approved
+  motif: restrained amber-state change cue and neutral hold tone
+  room_tone: record before and after each setup
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_decision-conditions-state_9x16_v001_matrix_20260820-035714.md
+filename:
+  reserved: SS_founder-proof_decision-conditions-state_9x16_v001_blocked_20260820-035714.mp4
+  overwrite: false
+  duplicate_check: passed
+claims:
+  allowed:
+    - A decision may be valid only under stated entity, purpose, prerequisites, conditions, limitations, scope, sample, version, and human-gate conditions.
+    - A conditional record can name conditions, change event, review trigger, status, and disposition.
+  prohibited:
+    - Stitch & Scale records conditional decisions, enforces prerequisites, expires dispositions, monitors changes, or automatically triggers reassessment.
+    - A decision is valid for every entity, purpose, material, size, version, scope, sample, or human gate.
+    - Conditions replace calculation, technical editing, print review, chart readability, schematic scale, or test knitting.
+    - WCAG conformance or guaranteed accessibility.
+    - Revenue, adoption, customer outcomes, pricing, credentials, testimonials, urgency, accuracy, or capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact decision-conditions surface; destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence also remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-decision-conditions-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
