@@ -8,11 +8,12 @@ pre_publication_commit: ffdded6c3617299d23b3286b5592166f5483f8bc
 incoming_remote_commit: null
 reconciliation: already_synchronized_before_director_commit
 commit_after_blocker: 06ab98d332dd0ff85d7acc0c17f78c78c7bb6203
+receipt_publication_commit: 1a73b5692efa08dc5f532b3f9c848ff112046c91
 blocker_path: comms/outbox/MSG-20260820T163500-temporary-director-239.yml
 research_paths:
   - research/2026-08-20-risk-communication-transparency-review-hold-1635.md
   - research/2026-08-20-firing-239-source-notes.md
-publication_status: receipt-pending-final-verification
+publication_status: published-and-verified
 active_contract:
   video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
   drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
