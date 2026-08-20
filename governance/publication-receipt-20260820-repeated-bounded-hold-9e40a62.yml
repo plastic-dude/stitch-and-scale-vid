@@ -1,0 +1,70 @@
+receipt_id: PUB-20260820-repeated-bounded-hold-9e40a62
+created_at: '2026-08-20T10:25:00+01:00'
+role: temporary-director
+firing: 124
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 30e2bcc84447e47fca041ee198f4aabccb4a442c
+incoming_remote_commit: fb11b24a2fd45bbacc0e206a3423cf7f6573ecae
+reconciliation: fast_forward_only
+commit_after_blocker: 9e40a62639943ba9dfdcc5f096fe6130970213ae
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-repeated-bounded-hold-1025.md
+  - comms/outbox/MSG-20260820T102500-temporary-director-124.yml
+  - queue-status.md
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  incoming_commit_changed_only:
+    - queue-status.md
+  incoming_effect: repeated_bounded_review_authorization_hold
+  terminal_decision_created: false
+  owner_acknowledgement_created: false
+  remake_required_created: false
+  mp4_authorized: false
+research_question: >-
+  How should a Director treat a repeated bounded authorization hold that modifies
+  only queue status without creating a terminal independent Reviewer decision or
+  owner acknowledgement?
+research_decision: >-
+  Treat it as non-terminal evidence that the gate remains closed. Publish one
+  provenance-bound blocker, consolidate duplicate hold noise, and do not create
+  a new Generator contract.
+required_next_action: >-
+  Human owner must name the responsible owner, bounded review deadline, and
+  escalation target. Independent Video Reviewer must publish one unique terminal
+  callback with event ID, explicit decision, timestamp, complete seven-dimension
+  score, evidence references, and exact V002 provenance.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - bounded_authorization_hold
+  - operational_hold
+  - queue_status_append
+  - reminder
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+  - repeated_hold_without_new_action
+  - repeated_escalation_without_new_action
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
