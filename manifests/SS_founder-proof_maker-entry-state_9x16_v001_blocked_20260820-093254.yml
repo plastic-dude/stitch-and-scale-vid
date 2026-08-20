@@ -1,0 +1,87 @@
+schema_version: '1.0'
+pass_number: 251
+plan_id: 'SS-PLAN-20260820-MAKER-ENTRY-STATE-V001'
+campaign: 'founder-proof'
+angle: 'maker-entry-state'
+format: '9x16'
+version: 'v001'
+status: 'blocked'
+reserved_filename: 'SS_founder-proof_maker-entry-state_9x16_v001_blocked_20260820-093254.mp4'
+video_id: 'VID-founder-proof-maker-entry-state-9x16-v001'
+parent_decision: 'SS-PLAN-20260820-MAKER-ENTRY-STATE-V001'
+nearest_prior_angle: 'ambiguity-state'
+brief_path: 'briefs/SS_founder-proof_maker-entry-state_9x16_v001_blocked_20260820-093254.md'
+script_path: 'scripts/SS_founder-proof_maker-entry-state_9x16_v001_blocked_20260820-093254.md'
+research_path: 'research/2026-08-20-pass251-browser-findings.md'
+platform_matrix_path: 'platforms/SS_founder-proof_maker-entry-state_9x16_v001_matrix_20260820-093254.md'
+continuity_path: 'ledgers/20260820-maker-entry-state.md'
+handoff_path: 'comms/outbox/MSG-20260820-093254-director-254.yml'
+media_exists: false
+media_generated: false
+media_uploaded: false
+external_archive_url: null
+external_file_id: null
+checksum_sha256: null
+rights_status: 'unverified'
+voice_status: 'one-narrator-family-planned-not-recorded'
+caption_status: 'caption-on-and-caption-free-planned-not-reviewed'
+audio_status: 'original-or-cleared-sound-required-not-cleared'
+platform_status: 'organic-destination-and-current-acceptance-unverified'
+product_truth:
+  product_proof_registry_entry: 'absent'
+  current_maker_entry_surface_verified: false
+  current_pattern_id_version_surface_verified: false
+  current_materials_surface_verified: false
+  current_gauge_basis_surface_verified: false
+  current_notes_surface_verified: false
+  current_size_measurements_surface_verified: false
+  current_support_files_surface_verified: false
+  current_scope_limit_surface_verified: false
+  current_entry_review_surface_verified: false
+  current_human_choice_boundary_verified: false
+  current_roster_surface_verified: false
+  approved_non_private_capture: false
+  current_destination_verified: false
+  rights_privacy_approved: false
+proof_surface: 'ME-001 / PATTERN_ID / VERSION / MATERIALS / TOOLS / GAUGE_BASIS / SWATCH_CONDITIONS / NOTES / ABBREVIATIONS / CONSTRUCTION / SIZE_MEASUREMENTS_EASE / SUPPORT_FILES / SCOPE / LIMIT / ENTRY_REVIEW / HUMAN_CHOICE_REMAINS'
+entry_states:
+  - 'PATTERN_ID_DECLARED'
+  - 'VERSION_DECLARED'
+  - 'MATERIALS_DECLARED'
+  - 'TOOLS_NOTED'
+  - 'GAUGE_BASIS_DECLARED'
+  - 'SWATCH_CONDITIONS_UNRESOLVED'
+  - 'NOTES_DECLARED'
+  - 'ABBREVIATIONS_DECLARED'
+  - 'CONSTRUCTION_NOTES_DECLARED'
+  - 'SIZE_MEASUREMENTS_EASE_DECLARED'
+  - 'SUPPORT_FILES_DECLARED'
+  - 'SCOPE_DECLARED'
+  - 'LIMIT_DECLARED'
+  - 'ENTRY_REVIEW_RECORDED'
+  - 'HUMAN_CHOICE_REMAINS'
+  - 'FIT_NOT_CERTIFIED'
+  - 'PUBLICATION_NOT_APPROVED'
+  - 'TECHNICAL_EDITING_SEPARATE'
+  - 'PHYSICAL_PRINT_REVIEW_SEPARATE'
+  - 'CHART_READABILITY_SEPARATE'
+  - 'SCHEMATIC_SCALE_SEPARATE'
+  - 'TEST_KNITTING_SEPARATE'
+claim_boundary:
+  entry_review_is_not_readiness_score: true
+  entry_review_is_not_fit_certification: true
+  entry_review_is_not_size_selection: true
+  entry_review_is_not_gauge_detection: true
+  entry_review_is_not_automatic_prerequisite_validation: true
+  entry_review_is_not_technical_editing: true
+  entry_review_is_not_physical_print_review: true
+  entry_review_is_not_chart_readability: true
+  entry_review_is_not_schematic_scale: true
+  entry_review_is_not_test_knitting: true
+  entry_review_is_not_tester_routing: true
+  entry_review_is_not_release_roster: true
+  generated_text_is_not_product_truth: true
+  illustrative_prop_is_not_product_ui: true
+  no_revenue_adoption_accuracy_testimonial_pricing_or_urgency_claims: true
+exact_generator_action: 'Do not generate or upload. Await a current versioned maker-entry proof-registry entry or approved non-private capture for the exact surface, confirm destination and rights/privacy, and rerun Director validation before re-authorization.'
+blocker: 'No current product-proof registry entry or approved non-private capture verifies Stitch & Scale maker-entry fields for pattern identity, materials, gauge basis, notes, size/measurements, support files, scope, entry review, or human-choice boundary; rights, destination, captions, audio, and acceptance remain unverified.'
