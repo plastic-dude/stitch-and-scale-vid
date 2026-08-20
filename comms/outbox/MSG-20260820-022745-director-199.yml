@@ -1,0 +1,66 @@
+message_id: MSG-20260820-022745-director-199
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 197
+stamp: '20260820-022745'
+angle: authorization-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_authorization-state_9x16_v001_blocked_20260820-022745.mp4
+nearest_prior: acceptability-state
+hook: Fit for use is not the same as authorized for this scope.
+final_line: Name who can accept it, what they accepted, and when the decision must be checked again.
+research_question: >-
+  When an observed effect appears fit for an intended use, what evidence shows that
+  the acceptance decision is authorized, bounded, reversible, and recorded by the
+  person or role accountable for that decision?
+research_file: research/2026-08-20-pass197-browser-findings.md
+research_decision: >-
+  Separate suitability evidence from authority, scope, limitations, review trigger,
+  and durable decision record.
+research_sources:
+  - NIST RMF separates Assess, Authorize, and Monitor.
+  - GOV.UK Check answers separates review from final confirmation and supports correction before submission.
+  - Craft Yarn Council separates project evidence, submission requirements, recipient scope, and acceptance.
+objective: >-
+  Show that suitability evidence is not itself authority to accept a deliverable for
+  every scope, recipient, or future use, without claiming Stitch & Scale exposes
+  authorization, role, approval, audit, or release controls.
+audience: >-
+  Independent knitwear designers and pattern publishers coordinating calculations,
+  technical editing, physical print review, chart readability, schematic scale, test
+  knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+deliverables:
+  - briefs/SS_founder-proof_authorization-state_9x16_v001_blocked_20260820-022745.md
+  - scripts/SS_founder-proof_authorization-state_9x16_v001_blocked_20260820-022745.md
+  - platforms/SS_founder-proof_authorization-state_9x16_v001_matrix_20260820-022745.md
+  - ledgers/20260820-authorization-state.md
+  - manifests/SS_founder-proof_authorization-state_9x16_v001_blocked_20260820-022745.yml
+  - research/2026-08-20-pass197-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-022745-director-199.yml
+proof_surface: AUTH A-001 / EVIDENCE_PACKET / DECISION_SCOPE / AUTHORIZED_ROLE / LIMITATIONS / REVIEW_TRIGGER / DECISION_RECORD / DISPOSITION
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact authorization surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim role permissions, approval controls, audit history, authorization workflow,
+  release authority, suitability, usability, project-level classification, accuracy,
+  outcomes, adoption, pricing, credentials, testimonials, urgency, accessibility
+  conformance, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected. Both remain blocked;
+  reserved filenames remain occupied; neither was regenerated, renamed, overwritten, or approved.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared proof-registry entry or
+  approved capture showing evidence linkage, decision scope, authorized role or owner,
+  limitations, review trigger, decision record, and disposition; name the destination
+  platform; then rerun all Director gates.
