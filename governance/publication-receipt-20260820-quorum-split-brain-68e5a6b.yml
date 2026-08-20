@@ -5,14 +5,15 @@ firing: 246
 repository: plastic-dude/stitch-and-scale-vid
 branch: main
 pre_publication_commit: 68e5a6b97541d5e6355259febbec3748af83a752
-incoming_remote_commit: db7eec5
+incoming_remote_commit: db7eec541ed5afd9fbe67be3cc541d16ef5265b0
 reconciliation: safe_non_ff_not_required_fast_forwarded_remote_before_director_commit
 commit_after_blocker: 68e5a6b97541d5e6355259febbec3748af83a752
+receipt_publication_commit: 99623eb0f8199cf742e152ffba8cb36640e3e1a5
 blocker_path: comms/outbox/MSG-20260820T172400-temporary-director-246.yml
 research_paths:
   - research/2026-08-20-quorum-split-brain-review-authority-1724.md
   - research/2026-08-20-firing-246-source-notes.md
-publication_status: receipt-pending-final-verification
+publication_status: published-and-verified
 active_contract:
   video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
   drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
