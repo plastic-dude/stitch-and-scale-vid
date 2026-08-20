@@ -1,0 +1,38 @@
+receipt_id: PUB-20260820-independent-packet-e17d99f
+created_at: '2026-08-20T08:15:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 61609f848b5b5079c121c2efedeadca3c577e5a3
+remote_commit_after_blocker: e17d99fa78679db6b0a8a4fd304fe58ce33a6fe5
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-independent-review-packet-anti-noise-0815.md
+  - comms/outbox/MSG-20260820T081500-temporary-director-106.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  What is the smallest independent Reviewer record that is both sufficient to
+  clear V002 and resistant to accidental approval through repeated hold noise?
+research_decision: >-
+  Require explicit decision, complete seven-dimension score, evidence
+  references, and exact V002 video/Drive/checksum identity. Consolidate holds
+  and do not infer a verdict from reminders or acknowledgements.
+next_action: >-
+  Video Reviewer must publish the independent terminal packet. Human owner must
+  separately provide responsible owner, bounded review deadline, and escalation
+  target. Preserve V002 and keep the lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
