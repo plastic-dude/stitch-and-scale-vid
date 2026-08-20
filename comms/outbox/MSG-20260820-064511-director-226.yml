@@ -1,0 +1,65 @@
+message_id: MSG-20260820-064511-director-226
+created_at: '2026-08-20T06:45:11+01:00'
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: MAN-founder-proof-cost-allocation-state-9x16-v001-20260820-064511
+parent_id: BRF-founder-proof-cost-allocation-state-9x16-v001
+status: blocked
+summary: >-
+  Pass 223 selects the materially distinct cost-allocation-state concept, but no current
+  product-proof registry or approved capture verifies a Stitch & Scale shared-cost allocation surface.
+evidence:
+  - research/2026-08-20-pass223-browser-findings.md
+  - briefs/SS_founder-proof_cost-allocation-state_9x16_v001_blocked_20260820-064511.md
+  - scripts/SS_founder-proof_cost-allocation-state_9x16_v001_blocked_20260820-064511.md
+  - platforms/SS_founder-proof_cost-allocation-state_9x16_v001_matrix_20260820-064511.md
+  - ledgers/20260820-cost-allocation-state.md
+  - manifests/SS_founder-proof_cost-allocation-state_9x16_v001_blocked_20260820-064511.yml
+  - ledgers/2026-08-20-pass223-selection-boundary-audit.md
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - repository HEAD 558a1e0204a3dd24fa84b018a58f5f089c755f36
+research_decision: >-
+  UCSF cost-allocation guidance separates an original shared cost from its benefiting projects,
+  allocation method/reasoning, percentage or share, supporting documentation, approvals, and review.
+  IRS Topic No. 509 supplies narrow United States home-use allocation context only; it is not a general
+  formula or product claim. Craft Yarn Council separates project labels, notes, gauge, instructions,
+  schematics, invoices, and return shipping. QuickBooks and Xero publicly document project expense
+  assignment, categories, receipts, tracking categories, and reconciliation; no competitor superiority
+  claim is made. Current Instagram, YouTube, TikTok, and W3C sources set conservative proof, caption,
+  audio, and mobile-readability gates.
+concept_difference: >-
+  Nearest prior is sample-return-state. This pass moves from physical sample custody to the attribution
+  of one recorded shared expense across benefiting designs or activities. It is distinct from quantity-basis,
+  price-basis, record-estimate-state, payment-state, material-trace, project-context-state, and imported
+  false-completion/release-gate-roster.
+hook: One receipt can serve more than one design. The split still needs a basis.
+final_line: Keep the receipt. Name the basis. Label the split.
+proof_surface: >-
+  COST C-001 / ORIGINAL_TRANSACTION / DATE / VENDOR_OR_SOURCE / CATEGORY / CURRENCY /
+  GROSS_AMOUNT / BENEFITING_DESIGN_IDS / ALLOCATION_BASIS / SHARE_OR_PERCENT /
+  ALLOCATED_AMOUNT / SUPPORTING_EVIDENCE / REVIEWER / REVIEWED_AT / STATUS / DERIVED_FROM
+financial_boundary: >-
+  This is record-design and creative planning, not accounting or tax advice. Do not claim deductions,
+  compliance, profit, margin, financial accuracy, proportional benefit, or a universally correct formula.
+claims_boundary: >-
+  Do not claim that Stitch & Scale allocates costs, calculates shares, determines proportional benefit,
+  reconciles receipts, assigns expenses automatically, produces tax records, computes profit or margin,
+  confirms deductions, gives accounting advice, or replaces a qualified professional. Do not show real
+  receipts, invoices, bank statements, tax records, customer orders, vendor accounts, or private data.
+rights_boundary: >-
+  Use only original fictional receipt/cards, approved narrator, consented hand performance, and original
+  or cleared paper sound. Every card must read ILLUSTRATIVE — NOT PRODUCT UI. No real financial record,
+  vendor identity, account detail, tax document, or private product capture is cleared.
+review_and_audio: >-
+  One narrator family, human-verified caption-on and caption-free versions, mobile-safe captions that
+  never cover faces, hands, receipt cards, proof fields, amounts, shares, dates, logos, controls, menus,
+  or primary actions, and full-length audio QC for doubled words, overlaps, drift, clipping, and room-tone jumps.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared product-proof registry entry or approved
+  capture for the exact allocation surface, confirm destination platform and all asset/privacy rights,
+  then rerun product/data, claims, financial-safety, founder-truth, human-evidence, rights, narrator,
+  caption, audio, platform, continuity, filename, and Director gates.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+reserved_filename: SS_founder-proof_cost-allocation-state_9x16_v001_blocked_20260820-064511.mp4
