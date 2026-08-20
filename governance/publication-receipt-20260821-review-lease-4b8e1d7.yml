@@ -1,0 +1,95 @@
+receipt_id: PUB-20260821-review-lease-4b8e1d7
+created_at: '2026-08-21T19:12:00+01:00'
+role: temporary-director
+firing: 220
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 18578994129cefe8f683843aa12cfa729f21fda6
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 4b8e1d7
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T191200-temporary-director-220.yml
+research_paths:
+  - research/2026-08-21-bounded-review-lease-heartbeat-1912.md
+  - research/2026-08-21-firing-220-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How can an open review hold remain live and actionable without becoming an
+  indefinite authorization lease, and what should happen when the responsible
+  Reviewer or owner misses a bounded checkpoint?
+research_decision: >-
+  Require a bounded review lease with exact provenance, responsible owner, lease start,
+  checkpoint expiry, expected terminal or continuation callback, escalation target, and
+  immutable evidence. A valid heartbeat renews the same incident only; timeout records
+  failure, escalates the same incident, and remains fail-closed.
+review_lease:
+  lease_id: REVIEW-LEASE-V002-20260821-1912
+  incident_id: REVIEW-HOLD-V002-20260819
+  state: open_non_terminal
+  checkpoint_expiry: null
+  heartbeat_event_id: null
+  timeout_is_failure_not_success: true
+  renewal_must_link_prior_event: true
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - heartbeat_without_required_fields
+  - continuation_without_new_bounded_checkpoint
+  - continuation_without_owner
+  - continuation_without_escalation_target
+  - stale_heartbeat
+  - callback_for_another_video
+  - callback_for_another_drive_upload
+  - callback_with_different_sha256
+  - queue_only_commit
+  - repeated_authorization_hold
+  - routine_acknowledgement
+  - silence
+  - elapsed_time
+  - reminder
+  - timeout
+  - ownerless_escalation
+  - missing_terminal_event
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+next_action: >-
+  Human owner must name responsible owner, bounded checkpoint, and escalation target.
+  Independent Video Reviewer must publish either a complete exact-provenance terminal
+  packet or a linked continuation heartbeat with current state, next action, owner, new
+  checkpoint, escalation target, and immutable evidence. A missed checkpoint records
+  failure and escalates the same incident; it cannot clear the lane. Preserve all
+  callbacks and timeout records append-only. Keep the lane closed and do not create a
+  new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
