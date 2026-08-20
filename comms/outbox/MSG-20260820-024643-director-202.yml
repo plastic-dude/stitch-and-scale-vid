@@ -1,0 +1,65 @@
+message_id: MSG-20260820-024643-director-202
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 200
+stamp: '20260820-024643'
+angle: reopening-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_reopening-state_9x16_v001_blocked_20260820-024643.mp4
+nearest_prior: quarantine-state
+hook: Fixed is not the same as reviewed, and reviewed is not the same as cleared for this scope.
+final_line: Show the correction, the reviewer, the scope, and the evidence that lets it reopen.
+research_question: >-
+  What evidence is needed to reopen a held record after correction, so that “fixed” is
+  not mistaken for reviewed and cleared for reuse?
+research_file: research/2026-08-20-pass200-browser-findings.md
+research_decision: >-
+  Distinguish correction performed from reviewed clearance for a defined reuse scope.
+research_sources:
+  - NIST Corrective Action Plan definition links corrective actions to removing/reducing deficiencies and obtaining or sustaining authorization.
+  - GOV.UK error guidance preserves failing inputs and explains what went wrong and how to fix it.
+  - Craft Yarn Council keeps project, gauge, instructions, measurements, charts, schematic, notes, mathematics, and recipient-specific checks distinct.
+objective: >-
+  Show that completing a correction does not itself clear a held record for reuse;
+  reopening needs reviewed evidence, accountable ownership, defined scope, and a
+  recorded disposition, without claiming that Stitch & Scale currently exposes
+  corrective-action or clearance controls.
+audience: >-
+  Independent knitwear designers and pattern publishers coordinating calculations,
+  technical editing, physical print review, chart readability, schematic scale, test
+  knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+deliverables:
+  - briefs/SS_founder-proof_reopening-state_9x16_v001_blocked_20260820-024643.md
+  - scripts/SS_founder-proof_reopening-state_9x16_v001_blocked_20260820-024643.md
+  - platforms/SS_founder-proof_reopening-state_9x16_v001_matrix_20260820-024643.md
+  - ledgers/20260820-reopening-state.md
+  - manifests/SS_founder-proof_reopening-state_9x16_v001_blocked_20260820-024643.yml
+  - research/2026-08-20-pass200-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-024643-director-202.yml
+proof_surface: REOPEN A-001 / RECORD_ID / ORIGINAL_REASON / CORRECTION_EVIDENCE / REVIEW_RESULT / REVIEW_OWNER / REUSE_SCOPE / HUMAN_GATE_STATUS / DISPOSITION
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact reopening/clearance surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim corrective-action plans, clearance controls, reopening permissions,
+  review workflows, role controls, release automation, suitability, usability,
+  project-level classification, accuracy, outcomes, adoption, pricing, credentials,
+  testimonials, urgency, accessibility conformance, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected. Both remain blocked;
+  reserved filenames remain occupied; neither was regenerated, renamed, overwritten, or approved.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared proof-registry entry or
+  approved capture showing record identifier, original reason, correction evidence,
+  review result, reviewer or owner, reuse scope, human-gate status, and disposition;
+  name the destination platform; then rerun all Director gates.
