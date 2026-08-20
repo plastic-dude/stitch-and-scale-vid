@@ -1,0 +1,91 @@
+receipt_id: PUB-20260821-replayable-review-2447cc6
+created_at: '2026-08-21T17:52:00+01:00'
+role: temporary-director
+firing: 215
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 5a93ffb49d1ab04f8d36e00a0ee29b36e6947d82
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 2447cc6919c6f0eaf810c51ac16b5c94d996c124
+head_equals_origin_main_after_blocker: true
+divergence_after_blocker: '0 0'
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T175200-temporary-director-215.yml
+research_paths:
+  - research/2026-08-21-replayable-review-evidence-1752.md
+  - research/2026-08-21-firing-215-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What evidence is necessary for a Reviewer decision to be independently reconstructed
+  rather than merely asserted as a score or status?
+research_decision: >-
+  Require reproducible evidence: exact artifact inputs, documented evaluation method,
+  tools and materials or evidence references, seven dimension scores, weighting
+  calculation, threshold comparison, explicit outcome, and immutable inspectable
+  evidence. Bare scores, status updates, and untraceable assertions remain non-terminal.
+terminal_events_that_clear_lane:
+  - complete_reproducible_exact_provenance_independent_reviewer_approval
+  - complete_reproducible_exact_provenance_independent_reviewer_rejection
+  - complete_reproducible_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - bare_score
+  - bare_status_update
+  - score_without_evaluation_method
+  - score_without_artifact_inputs
+  - score_without_weighting_calculation
+  - score_without_threshold_comparison
+  - score_without_immutable_evidence
+  - untraceable_assertion
+  - duplicate_packet
+  - copied_packet
+  - same_author_retry
+  - stale_callback
+  - packet_for_another_video
+  - packet_for_another_drive_upload
+  - packet_with_different_sha256
+  - queue_only_commit
+  - repeated_authorization_hold
+  - routine_acknowledgement
+  - silence
+  - elapsed_time
+  - reminder
+  - timeout
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+next_action: >-
+  Independent Video Reviewer must publish one terminal packet bound to exact V002
+  provenance with unique event ID, timestamp, reviewer role, evaluation method,
+  tools/materials or evidence references, all seven weighted scores, calculation,
+  threshold comparison, explicit decision, and immutable inspectable evidence. Human
+  owner must name responsible owner, bounded deadline, and escalation target. Preserve
+  and escalate any packet that cannot be reconstructed. Keep the lane closed and do
+  not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
