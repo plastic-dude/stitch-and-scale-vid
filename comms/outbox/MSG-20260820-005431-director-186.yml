@@ -1,0 +1,47 @@
+message_id: MSG-20260820-005431-director-186
+message_type: director_handoff
+created_at: 2026-08-20T00:54:31+00:00
+from: director-planner
+campaign: founder-proof
+angle_slug: completion-boundary-state
+brief_id: BRF-founder-proof-completion-boundary-state-9x16-v001
+status: blocked
+subject: Pass 184 blocked — completion-boundary-state pending current product proof
+research:
+  note: research/2026-08-20-pass184-browser-findings.md
+  question: When several people or roles touch a craft-production workflow, what evidence distinguishes genuinely complete work from work merely saved, in progress, waiting, blocked, or carrying a problem at handoff?
+  sources: [931, 932, 933, 934, 935]
+  decision: Narrowed from next-action findability to the boundary between a named status and the evidence required to defend that status at handoff.
+distinctness:
+  nearest_prior: discoverability-state
+  changed_pain: Finding the next action among tasks versus distinguishing status from owner, evidence required/present, blocker, review, and next action at handoff.
+  changed_metaphor: Crowded task table becomes a completed-looking handoff card separated from its evidence contract.
+  hook: A status can say complete before the evidence is complete.
+  final_line: Name what completion still needs.
+objective: Make the trust question of status-versus-evidence visible at a multi-role handoff without claiming that Stitch & Scale currently marks completion, enforces gates, assigns ownership, or guarantees release readiness.
+audience: Independent knitwear designers and pattern publishers coordinating human evidence gates; secondary founding testers and reviewers.
+deliverables:
+  brief: briefs/SS_founder-proof_completion-boundary-state_9x16_v001_blocked_20260820-005431.md
+  script: scripts/SS_founder-proof_completion-boundary-state_9x16_v001_blocked_20260820-005431.md
+  platform_matrix: platforms/SS_founder-proof_completion-boundary-state_9x16_v001_matrix_20260820-005431.md
+  continuity: ledgers/20260820-completion-boundary-state.md
+  manifest: manifests/SS_founder-proof_completion-boundary-state_9x16_v001_blocked_20260820-005431.yml
+filename_reservation: SS_founder-proof_completion-boundary-state_9x16_v001_blocked_20260820-005431.mp4
+claim_risks:
+  - Do not claim Stitch & Scale marks completion, enforces release gates, assigns owners, verifies evidence, or guarantees readiness.
+  - Do not claim a status badge proves completion or replaces any human evidence gate.
+  - Do not claim WCAG conformance, accessibility outcomes, accuracy, legal compliance, or formal assurance.
+  - Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  - Keep calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting separate.
+proof_blocker: No current product-proof registry entry or approved non-private rights-cleared capture verifies state vocabulary, owner, evidence required/present, blocker, next action, review, and disposition.
+rights_blocker: No production assets, narrator, foley, or final platform profile are approved; use only original or cleared materials after review.
+platform_blocker: Destination platform and current safe-area/profile requirements are not confirmed.
+review_state:
+  reviews_checked: true
+  orders_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked and filename occupied; do not regenerate, overwrite, rename, or approve
+  release_gate_roster: blocked and filename occupied; do not infer authorization from generic human-gate proof
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_safe_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing the exact current completion surface, confirm the destination platform, then rerun product, claims, rights, caption, audio, platform, continuity, filename, and Director gates.
