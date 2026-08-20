@@ -1,0 +1,106 @@
+schema_version: '1.0'
+manifest_id: 'MNF-founder-proof-representation-state-9x16-v001-20260820-080250'
+plan_id: 'BRF-founder-proof-representation-state-9x16-v001'
+pass_number: 239
+campaign: 'founder-proof'
+angle: 'representation-state'
+stamp: '20260820-080250'
+format: '9x16'
+version: 'v001'
+status: 'blocked'
+reserved_filename: 'SS_founder-proof_representation-state_9x16_v001_blocked_20260820-080250.mp4'
+media_exists: false
+media_generated: false
+media_uploaded: false
+objective: 'Show why a pattern’s prose, chart, schematic, measurement table, photograph, and video are different representations with different roles, scopes, and review limits rather than interchangeable proof.'
+audience: 'Independent knitwear designers and pattern publishers handling pattern prose, charts, schematics, measurements, tables, photographs, and destination-specific submissions.'
+form: 'Founder-proof tabletop explainer using original illustrative representation cards; no real pattern, current UI, private record, customer/tester material, publication form, live destination submission, copyrighted chart, schematic, table, photograph, video, or accessibility certificate.'
+tone: 'Quiet, precise, craft-respecting, local-first, and explicit about representation role, presence, scope, and review limit.'
+distribution_assumption: 'Organic Instagram Reels, TikTok, and YouTube Shorts; no paid placement assumed; revalidate at approval.'
+brief_tier: 'Director/Planner blocked package; not approved-for-generation.'
+hook: 'A pattern can have more formats and still leave a gap.'
+final_line: 'Name the representation—and what it cannot prove.'
+nearest_prior: 'normalization-state'
+material_difference: 'Representation role and presence for prose, chart, schematic, measurement table, photograph, video, and text alternative, with scope and review limit, rather than raw-to-canonical labels within one vocabulary or record.'
+product_truth:
+  proof_registry_entry: 'absent'
+  current_representation_surface_verified: false
+  current_role_scope_presence_surface_verified: false
+  current_destination_verified: false
+  approved_non_private_capture: false
+  generated_text_is_ui_truth: false
+  product_capability_claims_allowed: false
+proof_surface: 'REP-001 / DESIGN_ID / REPRESENTATION_TYPE / ROLE / PRESENT / SCOPE / SOURCE / AUDIENCE / REVIEW_LIMIT / REVIEWER / STATUS'
+representation_types:
+  - 'PROSE'
+  - 'CHART'
+  - 'SCHEMATIC'
+  - 'MEASUREMENT_TABLE'
+  - 'PHOTO'
+  - 'VIDEO'
+  - 'TEXT_ALTERNATIVE'
+representation_states:
+  - 'PRESENT'
+  - 'NOT_PROVIDED'
+  - 'REVIEW_REQUIRED'
+  - 'CONTEXT_ONLY'
+  - 'SCOPE_DECLARED'
+  - 'HUMAN_REVIEW_REQUIRED'
+human_evidence_gates:
+  - 'CALCULATION'
+  - 'GAUGE_REVIEW'
+  - 'TECHNICAL_EDITING'
+  - 'PHYSICAL_PRINT_REVIEW'
+  - 'CHART_READABILITY'
+  - 'SCHEMATIC_SCALE'
+  - 'TEST_KNITTING'
+  - 'ACCESSIBILITY_REVIEW'
+  - 'RIGHTS_PRIVACY_AND_CREDIT_REVIEW'
+  - 'PUBLICATION_DECISION'
+rights:
+  real_pattern_or_chart_allowed: false
+  real_schematic_or_table_allowed: false
+  real_photo_or_video_allowed: false
+  copyrighted_style_guide_excerpt_allowed: false
+  private_records_allowed: false
+  founder_voice_requires_internal_clearance: true
+  original_props_require_rights_log: true
+  third_party_asset_privacy_and_credit_required_if_used: true
+caption_audio:
+  narrator_family: 'one close dry founder voice; no mixed voices'
+  caption_on_review_required: true
+  caption_free_review_required: true
+  automatic_captions_are_draft_only: true
+  captions_may_cover_proof: false
+  captions_may_cover_hands_faces_numbers_controls: false
+  room_tone_continuity_required: true
+  parity_completeness_accessibility_sound_allowed: false
+platform:
+  instagram_reels: 'planned; recheck current profile, overlays, and actual preview at approval'
+  tiktok_organic: 'planned; human-edit captions and recheck accessibility, language, photosensitivity, and overlays'
+  youtube_shorts: 'planned; verify captions in Studio, audio rights, vertical upload rules, and actual preview'
+  paid_derivatives: 'not requested'
+acceptance_gates:
+  objective_audience_confirmed: false
+  fresh_wide_research_recorded: true
+  open_reviewer_orders_inspected: true
+  imported_continuity_inspected: true
+  angle_distinctness_documented: true
+  product_proof_supplied: false
+  destination_confirmed: false
+  script_complete: true
+  claim_ledger_complete: true
+  rights_ledger_complete: true
+  narrator_family_declared: true
+  caption_on_and_free_review_defined: true
+  audio_plan_defined: true
+  platform_recheck_complete: false
+  filename_reserved_unique: true
+  external_upload_authorized: false
+exact_generator_action: 'Do not generate or upload. Await a current versioned product-proof registry entry or approved non-private representation-state capture, confirm destination and rights/privacy, and rerun Director validation before re-authorization.'
+blocker: 'No current product-proof registry entry or approved non-private, rights-cleared capture verifies a representation-state surface; destination, asset rights/privacy, and current platform acceptance details are also unconfirmed.'
+source_research: 'research/2026-08-20-pass239-browser-findings.md'
+brief_path: 'briefs/SS_founder-proof_representation-state_9x16_v001_blocked_20260820-080250.md'
+script_path: 'scripts/SS_founder-proof_representation-state_9x16_v001_blocked_20260820-080250.md'
+platform_matrix_path: 'platforms/SS_founder-proof_representation-state_9x16_v001_matrix_20260820-080250.md'
+continuity_path: 'ledgers/20260820-representation-state.md'
