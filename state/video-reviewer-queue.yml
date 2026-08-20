@@ -1,25 +1,27 @@
 schema_version: 1
 queue_name: stitch-scale-video-reviewer
-last_scan_at: 2026-08-19T17:30:05Z
-last_reviewed_video_id: small-test-archive-connectivity-test
-last_reviewed_version: UNVERIFIED
-last_reviewed_at: 2026-08-19T17:30:05Z
+last_scan_at: 2026-08-20T17:19:00Z
+last_reviewed_video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+last_reviewed_version: v002
+last_reviewed_at: 2026-08-20T17:19:00Z
 last_outcome: BLOCKED
-batch_count: 2
+batch_count: 1
 batch_target: 5
-physical_assets_inspected: 4
-logical_items_reviewed: 2
-outcome_summary: "Real run inspected all four accessible Drive MP4s: one newly generated founder-receipt v001 and three byte-identical small-test archive-connectivity copies deduplicated to one logical item. Founder-receipt media score was 89.9% but BLOCKED for missing production evidence and platform/rights gates. Small-test duplicate group media score was 85.2% but BLOCKED as a non-production connectivity test. No public approval or remake order was issued."
-next_cursor_key: small-test-archive-connectivity-test|UNVERIFIED
-blocked_reason: "All currently accessible Drive assets were inspected. No additional valid production candidate remains after deduplicating the three small-test copies; next run must scan for new VIDEO GENERATOR output or newly committed production evidence."
-last_research_note: research/2026-08-19-video-review-run-173005-platform-accessibility.md
-last_review_record: reviews/small-test-duplicate-group/REV-small-test-duplicates-20260819T173005Z.md
+physical_assets_inspected: 5
+logical_items_reviewed: 3
+outcome_summary: "This run retrieved and inspected one new VIDEO GENERATOR output: ownership-receipt v002. Media quality was strong with a provisional weighted score of 86.0%, but the asset was BLOCKED because its v002 Drive identity lacks a version-matched manifest, checksum, caption/rights/audio records, and platform safe-zone QA. No remake order was issued; the blocker and exact evidence request were queued for VIDEO GENERATOR in the current conversation."
+next_cursor_key: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800|v002
+blocked_reason: "The next run must scan for new VIDEO GENERATOR output or newly supplied v002 production evidence. This asset cannot advance to director approval until its identity and evidence package are version-matched."
+last_research_note: research/2026-08-20-video-review-run-ownership-receipt-platform-accessibility.md
+last_review_record: reviews/ownership-receipt/REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z.md
 review_records:
   - reviews/founder-receipt/REV-founder-receipt-v001-20260819T173005Z.md
   - reviews/small-test-duplicate-group/REV-small-test-duplicates-20260819T173005Z.md
+  - reviews/ownership-receipt/REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z.md
 communication_events:
   - comms/outbox/MSG-20260819T173005Z-founder-receipt-video-review.yml
   - comms/outbox/MSG-20260819T173005Z-small-test-duplicate-review.yml
+  - comms/outbox/MSG-20260820T1715Z-ownership-receipt-v002-video-review.yml
 physical_assets:
   - drive_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
     filename: SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.mp4
@@ -37,5 +39,9 @@ physical_assets:
     filename: small-test.mp4
     sha256: 9c85c6ca006efa2a238ef2ed7b14380ab0188af6be17c2dbb41fdfc5b826837f
     logical_item: small-test-archive-connectivity-test
+  - drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+    filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+    sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+    logical_item: ownership-receipt-privacy-by-default
 continuation_rule: "Every run stays in the current conversation, reads this cursor, scans Google Drive and repository state for new VIDEO GENERATOR output since last_scan_at, prioritizes open remake orders then new output then never-reviewed eligible assets, resumes after next_cursor_key, processes up to five logical videos sequentially as time permits, and commits the cursor after every item and at batch end. Never create a separate chat or child task."
-updated_at: 2026-08-19T17:30:05Z
+updated_at: 2026-08-20T17:19:00Z
