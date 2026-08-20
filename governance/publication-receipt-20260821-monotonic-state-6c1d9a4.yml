@@ -1,0 +1,99 @@
+receipt_id: PUB-20260821-monotonic-state-6c1d9a4
+created_at: '2026-08-21T19:28:00+01:00'
+role: temporary-director
+firing: 221
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: e83b4fcf5548d0bf1cdf379098c5326aee9ba67b
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 6c1d9a4
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T192800-temporary-director-221.yml
+research_paths:
+  - research/2026-08-21-monotonic-review-state-transitions-1928.md
+  - research/2026-08-21-firing-221-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should V002 review state handle duplicate, late, retried, or out-of-order
+  callbacks so a terminal decision cannot be reopened, overwritten, or applied to the
+  wrong causal state?
+research_decision: >-
+  Require monotonic transitions with unique event IDs, causal predecessors, exact
+  provenance, authorized actor role, state version, timestamps, and complete evidence.
+  Terminal state is one-way and immutable. Late, stale, duplicate, retry, timeout,
+  heartbeat, or out-of-order events remain append-only non-terminal evidence and must
+  use explicit supersedes, revalidates, conflicts_with, or late_for links.
+review_state:
+  state_version: 0
+  current_state: video-ready-for-review
+  current_terminal_event_id: null
+  terminal_state_immutable: true
+  monotonic_transitions_required: true
+  causal_parent_required: true
+  authorized_actor_required: true
+  exact_provenance_required: true
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - late_callback
+  - stale_callback
+  - duplicate_callback
+  - retried_callback
+  - out_of_order_callback
+  - callback_without_parent_event
+  - callback_with_invalid_predecessor
+  - callback_for_another_video
+  - callback_for_another_drive_upload
+  - callback_with_different_sha256
+  - timeout
+  - heartbeat
+  - continuation
+  - queue_only_commit
+  - repeated_authorization_hold
+  - routine_acknowledgement
+  - silence
+  - elapsed_time
+  - reminder
+  - ownerless_escalation
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+next_action: >-
+  Independent Video Reviewer must publish one complete terminal packet with a unique
+  event ID, valid causal predecessor, exact V002 provenance, actor role, timestamp,
+  complete seven-dimension evidence, threshold comparison, and explicit decision.
+  Preserve all late, duplicate, retry, and out-of-order callbacks append-only with
+  explicit causal links. Human owner must name responsible owner, bounded checkpoint,
+  and escalation target. Keep the lane closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
