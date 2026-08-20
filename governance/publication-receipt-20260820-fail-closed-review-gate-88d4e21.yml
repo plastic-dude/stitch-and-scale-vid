@@ -1,0 +1,59 @@
+receipt_id: PUB-20260820-fail-closed-review-gate-88d4e21
+created_at: '2026-08-20T10:01:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: e7289d3a80f9b2c9f840753058e66fbe418cbf28
+incoming_remote_commit: null
+reconciliation: no_new_remote_commit
+remote_commit_after_blocker: 88d4e21f7c9b8db6a1e91d82471e96d20a52d8f4
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-no-change-review-gate-1001.md
+  - comms/outbox/MSG-20260820T100100-temporary-director-121.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+remote_state:
+  newer_commit_present: false
+  effect: unchanged_authorization_hold
+  terminal_decision_created: false
+  owner_acknowledgement_created: false
+  remake_required_created: false
+  mp4_authorized: false
+canonical_terminal_callback:
+  required: true
+  unique_event_id: required
+  reviewer: independent_video_reviewer
+  required_fields:
+    - decision
+    - decision_timestamp
+    - seven_dimension_score
+    - evidence_references
+    - video_id
+    - drive_id
+    - sha256
+research_question: >-
+  How should an automated Director preserve a fail-closed review gate when the
+  remote queue shows no material new state, while keeping escalation auditable
+  and non-repetitive?
+research_decision: >-
+  Publish one consolidated fail-closed blocker, preserve one canonical Reviewer
+  callback bound to exact V002 provenance, and do not infer a terminal state.
+next_action: >-
+  Video Reviewer must publish the terminal callback. Human owner must separately
+  provide responsible owner, bounded review deadline, and escalation target.
+  Preserve V002 and keep the lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
