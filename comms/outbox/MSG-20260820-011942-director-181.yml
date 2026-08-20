@@ -1,0 +1,19 @@
+message_id: MSG-20260820-011942-director-181
+created_at: 2026-08-20T01:19:42+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_assumption-state_9x16_v001_blocked_20260820-011942
+parent_id: BRF-founder-proof-assumption-state-9x16-v001
+status: blocked
+summary: Assumption-state is blocked because no current approved product proof verifies assumption input, value, basis, impacted output, check method, owner, reviewer, status, and disposition.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-20-pass179-browser-findings.md
+  - briefs/SS_founder-proof_assumption-state_9x16_v001_blocked_20260820-011942.md
+  - scripts/SS_founder-proof_assumption-state_9x16_v001_blocked_20260820-011942.md
+  - platforms/SS_founder-proof_assumption-state_9x16_v001_matrix_20260820-011942.md
+  - ledgers/20260820-assumption-state.md
+  - manifests/SS_founder-proof_assumption-state_9x16_v001_blocked_20260820-011942.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one real assumption record with input/value/basis/impacted_output/check_method/owner/reviewed/status/disposition before presenting assumption behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

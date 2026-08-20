@@ -7627,3 +7627,38 @@ No current product-proof registry or approved non-private capture verifies input
 [909]: https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology "NIST TN 1297 Appendix D.1 Terminology"
 [910]: https://www.acm.org/publications/policies/artifact-review-badging "ACM Artifact Review and Badging"
 [911]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council — Reading Instructions & Other Basics"
+
+
+## Wide-research Director question 179 — assumption state — 20260820-011942
+
+**Fresh research question.** Which assumptions about yarn, gauge, size, audience, data, or operating conditions are silently driving a result, and which of them need to be named and reviewed before anyone relies on it?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest hidden-assumption pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise assumption-card reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [912] | NIST, *Artificial Intelligence Risk Management Framework 1.0*, accessed 2026-08-20: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf | NIST identifies assumptions and related limitations about system purposes, uses, and risks as matters to document across a product lifecycle, supporting an explicit assumption card. | This does not prove that Stitch & Scale implements AI RMF, tracks assumptions, or provides formal risk assurance. |
+| [913] | W3C, *Data Quality Vocabulary*, accessed 2026-08-20: https://www.w3.org/TR/vocab-dqv/ | W3C presents a framework for describing data quality so users can judge fitness for purpose and includes measurements, annotations, policies, certificates, and provenance of quality metadata. | This does not prove that Stitch & Scale implements DQV, quality metrics, provenance, or fitness assessment. |
+| [914] | Craft Yarn Council, *Standard Yarn Weight System*, accessed 2026-08-20: https://www.craftyarncouncil.com/standards/yarn-weight-system | CYC labels yarn-weight gauge ranges as guidelines and says to follow the gauge stated in the pattern, supporting the distinction between a convenient category assumption and a checked project-specific condition. | This does not prove that Stitch & Scale computes yarn weight, gauge, fit, or pattern correctness. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from “the value appears” to “the assumptions driving this value are named, tested, assigned, and reviewed.” The fictional proof surface is `ASSUMPTION A-001 / INPUT / VALUE / BASIS / IMPACTED_OUTPUT / CHECK_METHOD / OWNER / REVIEWED / STATUS / DISPOSITION`.
+
+The selected angle is `assumption-state`, hook **“An unstated assumption is an unreviewed input.”** The final line is **“Name what this result assumes.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `scope-of-proof-state`, which asks whether proof is valid only for declared version, size, gauge, context, audience, test conditions, and exclusions. `assumption-state` changes the pain to whether the hidden inputs or beliefs driving a result are named, given a basis, tied to impacted outputs, assigned a check method and owner, reviewed, and dispositioned. It is not `uncertainty-state`, which asks how uncertain a value is; `context-state`, which asks whether situational context travels with an artifact; `scope-of-proof-state`, which asks where proof is valid; `data-minimization-state`, which asks whether a field is necessary; `evidence-chain-state`, which asks whether support is linked; `gauge-state`, which asks whether gauge is measured; or `sensitivity-state`, which asks how output changes when an input changes. The visual metaphor changes to an assumption card attached to a result with one impacted-output arrow and a pending-check marker, rather than a scope frame, uncertainty range, context card, minimization tray, support graph, gauge card, or propagation chain. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies assumption input, value, basis, impacted output, check method, owner, review, status, or disposition. The assumption card must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with assumption tracking, data-quality assessment, fitness-for-purpose assessment, provenance, yarn-weight interpretation, gauge, fit, or correctness. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [912]–[914]
+
+[912]: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf "NIST Artificial Intelligence Risk Management Framework 1.0"
+[913]: https://www.w3.org/TR/vocab-dqv/ "W3C Data Quality Vocabulary"
+[914]: https://www.craftyarncouncil.com/standards/yarn-weight-system "Craft Yarn Council — Standard Yarn Weight System"
