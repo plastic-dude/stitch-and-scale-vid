@@ -1,0 +1,46 @@
+message_id: MSG-20260820-004050-director-184
+message_type: director_handoff
+created_at: 2026-08-20T00:40:50+00:00
+from: director-planner
+campaign: founder-proof
+angle_slug: discoverability-state
+brief_id: BRF-founder-proof-discoverability-state-9x16-v001
+status: blocked
+subject: Pass 182 blocked — discoverability-state pending current product proof
+research:
+  note: research/2026-08-20-pass182-browser-findings.md
+  question: When a craft workflow contains many valid tasks, how does a person find the next needed action without memory or hunting?
+  sources: [921, 922, 923, 924, 925]
+  decision: Narrowed from broad mobile usability to next-action findability and honest action semantics.
+distinctness:
+  nearest_prior: readability-under-load
+  changed_pain: Visual/cognitive load versus a valid next action hidden among tasks, vague labels, unclear order, misleading statuses, or absent location cues.
+  changed_metaphor: Crowded tabletop of task cards becomes one surfaced action card with purpose, order rule, status, hint, and location.
+  hook: A task can exist and still be hard to find.
+  final_line: Name the next action where the work is.
+objective: Make the trust question of next-action findability visible without claiming that Stitch & Scale currently provides a task list, guided workflow, glossary, or accessibility conformance.
+audience: Independent knitwear designers and pattern publishers managing many human evidence tasks; secondary founding testers and reviewers.
+deliverables:
+  brief: briefs/SS_founder-proof_discoverability-state_9x16_v001_blocked_20260820-004050.md
+  script: scripts/SS_founder-proof_discoverability-state_9x16_v001_blocked_20260820-004050.md
+  platform_matrix: platforms/SS_founder-proof_discoverability-state_9x16_v001_matrix_20260820-004050.md
+  continuity: ledgers/20260820-discoverability-state.md
+  manifest: manifests/SS_founder-proof_discoverability-state_9x16_v001_blocked_20260820-004050.yml
+filename_reservation: SS_founder-proof_discoverability-state_9x16_v001_blocked_20260820-004050.mp4
+claim_risks:
+  - Do not claim Stitch & Scale provides a task list, guided next action, glossary, persistent location, status semantics, or mobile navigation surface.
+  - Do not claim WCAG conformance, accessibility improvement, memory improvement, error prevention, accuracy, outcomes, legal compliance, or formal assurance.
+  - Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  - Keep calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting separate.
+proof_blocker: No current product-proof registry entry or approved non-private rights-cleared capture verifies task purpose, order rule, status semantics, next action, hint, location, and review state.
+rights_blocker: No production assets, narrator, foley, or final platform profile are approved; use only original or cleared materials after review.
+platform_blocker: Destination platform and current safe-area/profile requirements are not confirmed.
+review_state:
+  reviews_checked: true
+  orders_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked and filename occupied; do not regenerate, overwrite, rename, or approve
+  release_gate_roster: blocked and filename occupied; do not infer authorization from generic human-gate proof
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_safe_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing the exact current task surface, confirm the destination platform, then rerun product, claims, rights, caption, audio, platform, continuity, filename, and Director gates.
