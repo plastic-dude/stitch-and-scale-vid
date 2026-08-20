@@ -1,0 +1,136 @@
+receipt_id: PUB-20260821-dimension-complete-b7e4c2a
+created_at: '2026-08-21T22:10:00+01:00'
+role: temporary-director
+firing: 230
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 5a8c3d1
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: b7e4c2a
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T221000-temporary-director-230.yml
+research_paths:
+  - research/2026-08-21-dimension-complete-review-uncertainty-2210.md
+  - research/2026-08-21-firing-230-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should the review gate handle a Reviewer aggregate score when one or more quality
+  dimensions lack evidence, have high uncertainty, or cannot be evaluated from a complete
+  execution history?
+research_decision: >-
+  Require dimension-complete review evidence. Each of the seven weighted dimensions must
+  have evidence identifiers, score, weight and contribution, method, inspected range,
+  limitations, uncertainty or confidence note, and supported status. Missing, unsupported,
+  contradictory, or high-uncertainty dimensions cannot be silently zeroed, omitted, imputed,
+  or hidden in an aggregate. Incomplete histories and inaccessible evidence are evidence
+  gaps, not quality signals, and require linked continuation or revalidation.
+scoring_contract:
+  dimension_count: 7
+  weights_percent:
+    story_purpose: 20
+    directing_visual: 15
+    proof_claims: 20
+    audio_voice: 15
+    captions_text: 10
+    technical_platform: 10
+    originality_brand: 10
+  score_total: required
+  weighted_total_recomputable: required
+  rounding_rule: required
+  threshold_percent: 65
+  threshold_comparison: required
+  explicit_terminal_decision: required
+  immutable_evidence_references: required
+evidence_completeness:
+  missing_dimension: non_terminal
+  unscored_dimension: non_terminal
+  unsupported_dimension: non_terminal
+  contradictory_dimension: non_terminal
+  high_uncertainty_without_contract_treatment: non_terminal
+  silently_zeroed_dimension: forbidden
+  silently_omitted_dimension: forbidden
+  silently_imputed_dimension: forbidden
+  silently_excluded_dimension: forbidden
+  aggregate_without_dimension_records: non_terminal
+  incomplete_execution_history: non_terminal
+  deleted_log_or_evidence: non_terminal
+  filtered_log_or_evidence: non_terminal
+  inaccessible_drive_object: non_terminal
+  uninspectable_frame_sequence: non_terminal
+required_terminal_fields:
+  - unique_event_id
+  - event_timestamp
+  - authorized_actor_identity
+  - independent_reviewer_role
+  - prior_event_id
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - artifact_manifest_version
+  - review_contract_version
+  - scoring_weights_version
+  - threshold_version
+  - evidence_schema_version
+  - evaluation_method_version
+  - seven_dimension_records
+  - dimension_evidence_references
+  - dimension_scores
+  - dimension_weights
+  - weighted_contributions
+  - evaluation_methods
+  - inspected_ranges
+  - limitations
+  - uncertainty_or_confidence_notes
+  - supported_status_per_dimension
+  - recomputable_weighted_total
+  - rounding_rule
+  - threshold_comparison
+  - explicit_terminal_decision
+  - immutable_evidence_references
+terminal_events_that_clear_lane:
+  - complete_dimension_complete_exact_provenance_independent_reviewer_approval
+  - complete_dimension_complete_exact_provenance_independent_reviewer_rejection
+  - complete_dimension_complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution_with_dimension_evidence
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append timeout and evidence-gap records with the current context, escalate the same
+    incident, preserve the lane as blocked, and do not infer terminal authorization.
+next_action: >-
+  Independent Video Reviewer must publish a complete exact-provenance packet with seven
+  dimension records, explicit uncertainty and limitations, recomputable weighted scoring,
+  threshold comparison, explicit outcome, and immutable evidence, or a linked continuation
+  or revalidation packet resolving gaps. Human owner must assign responsible owner, role,
+  bounded checkpoint, and escalation target. Keep the lane closed and do not create a brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
