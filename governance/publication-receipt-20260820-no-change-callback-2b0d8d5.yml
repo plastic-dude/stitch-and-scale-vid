@@ -1,0 +1,59 @@
+receipt_id: PUB-20260820-no-change-callback-2b0d8d5
+created_at: '2026-08-20T09:25:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: a6a116ee4b0d8e427052bdea3911ca2b91763cd8
+incoming_remote_commit: null
+reconciliation: no_new_remote_commit
+remote_commit_after_blocker: 2b0d8d5f9a6f6d3e15fb44b5efdf9f2d7cc5c1aa
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-no-change-lane-canonical-callback-0925.md
+  - comms/outbox/MSG-20260820T092500-temporary-director-116.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+remote_state:
+  newer_commit_present: false
+  effect: unchanged_authorization_hold
+  terminal_decision_created: false
+  owner_acknowledgement_created: false
+  remake_required_created: false
+  mp4_authorized: false
+canonical_terminal_callback:
+  required: true
+  unique_event_id: required
+  reviewer: independent_video_reviewer
+  required_fields:
+    - decision
+    - decision_timestamp
+    - seven_dimension_score
+    - evidence_references
+    - video_id
+    - drive_id
+    - sha256
+research_question: >-
+  When the remote review lane has no new state, how should the Director preserve
+  a strict terminal callback requirement without generating repetitive blockers
+  or accidentally opening generation?
+research_decision: >-
+  Publish one consolidated no-change blocker, preserve one canonical Reviewer
+  callback bound to exact V002 provenance, and do not infer terminal state.
+next_action: >-
+  Video Reviewer must publish the terminal callback. Human owner must separately
+  provide responsible owner, bounded review deadline, and escalation target.
+  Preserve V002 and keep the lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
