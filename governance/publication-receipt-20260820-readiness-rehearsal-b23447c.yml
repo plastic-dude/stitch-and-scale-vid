@@ -8,11 +8,12 @@ pre_publication_commit: df982b4ef388c1276d888beb72da1e73a5c40690
 incoming_remote_commit: null
 reconciliation: already_synchronized_before_director_commit
 commit_after_blocker: b23447cdbd6c434961143718669c9af9e2893ed7
+receipt_publication_commit: 509cf75d4972f5ca39944275143355fa004f3cde
 blocker_path: comms/outbox/MSG-20260820T165600-temporary-director-242.yml
 research_paths:
   - research/2026-08-20-operational-readiness-rehearsal-review-1656.md
   - research/2026-08-20-firing-242-source-notes.md
-publication_status: receipt-pending-final-verification
+publication_status: published-and-verified
 active_contract:
   video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
   drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
