@@ -1,0 +1,106 @@
+receipt_id: PUB-20260821-attested-evidence-5a8c3d1
+created_at: '2026-08-21T21:50:00+01:00'
+role: temporary-director
+firing: 229
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 98bdebc5f9f71f3988c8b08fee0d8dfed53c7b7d
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 5a8c3d1
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T215000-temporary-director-229.yml
+research_paths:
+  - research/2026-08-21-attested-review-evidence-integrity-2150.md
+  - research/2026-08-21-firing-229-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What evidence-integrity and independent-attestation requirements prevent a syntactically
+  complete Reviewer packet from clearing V002 when its origin, chain of custody, or
+  supporting inspection evidence cannot be verified?
+research_decision: >-
+  Require evidence-origin attestation and integrity validation. A terminal packet must
+  identify exact artifact and Drive object, SHA-256, evidence items, issuer or capture
+  source, capture timestamp, chain-of-custody or provenance reference, validation method
+  and result, reviewer identity and role, evaluation method, complete scores, threshold
+  comparison, explicit decision, and durable immutable evidence. A checksum, bare link,
+  provenance marker, or status alone is insufficient; missing or unverifiable evidence is
+  non-terminal and requires linked continuation or revalidation.
+evidence_attestation:
+  exact_artifact_identity: required
+  drive_object_identity: required
+  sha256: required
+  evidence_item_ids: required
+  evidence_issuer_or_capture_source: required
+  evidence_capture_timestamp: required
+  chain_of_custody_reference: required
+  provenance_manifest_reference: required
+  signature_or_validation_reference: required_when_available
+  validation_method: required
+  validation_result: required
+  reviewer_identity: required
+  reviewer_role: required
+  evaluation_method: required
+  immutable_evidence_references: required
+  durable_inspectable_storage: required
+  evidence_gap_record: required_if_missing
+integrity_rules:
+  checksum_match_does_not_prove_completeness: true
+  checksum_match_does_not_prove_independent_observation: true
+  checksum_match_does_not_prove_currentness: true
+  provenance_marker_does_not_prove_quality: true
+  signed_assertion_does_not_replace_reviewer_judgment: true
+  bare_link_is_not_evidence_validation: true
+  deleted_evidence_is_non_terminal: true
+  filtered_or_partial_evidence_is_non_terminal: true
+  expired_evidence_is_non_terminal: true
+  issuer_ambiguity_is_non_terminal: true
+  contradictory_evidence_is_non_terminal: true
+  missing_chain_of_custody_is_non_terminal: true
+  unverifiable_validation_is_non_terminal: true
+  evidence_gap_requires_linked_continuation_or_revalidation: true
+terminal_events_that_clear_lane:
+  - complete_attested_exact_provenance_independent_reviewer_approval
+  - complete_attested_exact_provenance_independent_reviewer_rejection
+  - complete_attested_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution_with_evidence_binding
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append timeout evidence and evidence-gap status with exact provenance, escalate the
+    same incident, preserve the lane as blocked, and do not infer terminal authorization.
+next_action: >-
+  Independent Video Reviewer must publish one complete attested exact-provenance terminal
+  packet or linked continuation/revalidation packet resolving evidence gaps. Human owner
+  must assign responsible owner, role, bounded checkpoint, and escalation target. Preserve
+  all evidence and gaps append-only, keep the lane closed, and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
