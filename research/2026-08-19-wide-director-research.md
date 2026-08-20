@@ -7592,3 +7592,38 @@ No current product-proof registry or approved non-private capture verifies proof
 [906]: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf "NIST Artificial Intelligence Risk Management Framework 1.0"
 [907]: https://csrc.nist.gov/pubs/sp/800/53/a/r5/final "NIST SP 800-53A Rev. 5: Assessing Security and Privacy Controls"
 [908]: https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important "Craft Yarn Council — Gauge and Why It Is Important"
+
+
+## Wide-research Director question 178 — replication state — 20260820-011244
+
+**Fresh research question.** Can another person independently reproduce or replicate a result from the preserved inputs, steps, environment, expected output, and reviewer evidence, or did it work only once for the original operator?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest independent-replication pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise exercise-and-delta reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [909] | NIST, *TN 1297 Appendix D.1 Terminology*, updated 2025; accessed 2026-08-20: https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology | NIST distinguishes repeatability under the same measurement conditions from reproducibility under changed conditions and says a valid reproducibility statement specifies the conditions changed. | This is metrology terminology, not proof that Stitch & Scale performs metrological studies or guarantees measurement results. |
+| [910] | ACM, *Artifact Review and Badging*, accessed 2026-08-20: https://www.acm.org/publications/policies/artifact-review-badging | ACM distinguishes repeatability, reproducibility, and replicability and describes artifact qualities such as documented, consistent, complete, and exercisable, alongside independent review. | This does not prove that Stitch & Scale has ACM badges, public artifacts, external reproduction, or validated results. |
+| [911] | Craft Yarn Council, *Reading Instructions & Other Basics*, accessed 2026-08-20: https://www.craftyarncouncil.com/read_instructions.html | CYC recommends reading the full relevant instructions, performing them, and using specified materials and gauge swatches before beginning, supporting a distinction between one author's run and another person's exercise of the same procedure. | This does not prove that Stitch & Scale provides complete instructions, checks gauge, or guarantees fit. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from “the result happened” to “another reviewer can exercise the same declared procedure from preserved inputs, steps, environment, expected output, exclusions, and reviewer evidence.” The fictional proof surface is `REPLICATION R-001 / INPUTS / STEPS / ENVIRONMENT / EXPECTED_OUTPUT / ACTUAL_OUTPUT / DELTA / REPLICATOR / CONDITIONS_CHANGED / REVIEWED / DISPOSITION`.
+
+The selected angle is `replication-state`, hook **“Worked once is not independently replicable.”** The final line is **“Show what another person can repeat.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `scope-of-proof-state`, which asks whether proof is valid only for declared version, size, gauge, context, audience, test conditions, and exclusions. `replication-state` changes the pain to whether another person can exercise a declared procedure from preserved inputs, steps, environment, expected output, and review evidence, and whether the actual result and delta are recorded. It is not `reproducibility-state` or `repeat-scope`, which are occupied concepts; `scope-of-proof-state`, which asks where proof is valid; `gauge-state`, which asks whether gauge is measured; `evidence-chain-state`, which asks whether claim support is linked; `reviewability-state`, which asks whether a record can be reviewed; or `test-knit-coverage`, which asks whether human test coverage exists. The visual metaphor changes to an exercise kit moving from author to independent replicator with an expected/actual delta, rather than a bounded proof frame, gauge card, support graph, review surface, or roster. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies inputs, steps, environment, expected output, actual output, delta, replicator, changed conditions, reviewer, or disposition. The exercise kit and result cards must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with repeatability, reproducibility, replicability, complete instructions, artifact badges, external validation, gauge, fit, or correctness. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [909]–[911]
+
+[909]: https://www.nist.gov/pml/nist-technical-note-1297/nist-tn-1297-appendix-d1-terminology "NIST TN 1297 Appendix D.1 Terminology"
+[910]: https://www.acm.org/publications/policies/artifact-review-badging "ACM Artifact Review and Badging"
+[911]: https://www.craftyarncouncil.com/read_instructions.html "Craft Yarn Council — Reading Instructions & Other Basics"
