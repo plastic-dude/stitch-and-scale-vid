@@ -1,0 +1,63 @@
+message_id: MSG-20260820T071900-temporary-director-098
+created_at: '2026-08-20T07:19:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains fail-closed and non-terminal. The newer queue-status hold is
+  authorization evidence only; it is not approval, rejection, or a remake order.
+  The lane must remain closed until an explicit independent Reviewer terminal
+  packet or explicit published terminal resolution exists.
+research:
+  - research/2026-08-20-fail-closed-review-gate-rejection-path-0719.md
+immutable_evidence:
+  - comms/outbox/2026-08-19T174800-video-generator-director-review.yml
+  - reviews/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800/generator-check.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.yml
+  - queue-status.md
+  - governance/publication-receipt-20260820-escalation-threshold-b08f2ec.yml
+required_owner_callback:
+  responsible_owner: null
+  bounded_review_deadline: null
+  escalation_target: null
+  acknowledgement_is_not_quality_verdict: true
+reviewer_authority:
+  terminal_decision: null
+  permitted_terminal_events:
+    - explicit_independent_reviewer_approval
+    - explicit_independent_reviewer_rejection
+    - explicit_REMAKE_REQUIRED_order
+    - explicit_published_terminal_resolution
+  rejection_must_be_explicit: true
+non_terminal_events:
+  - queue_status_hold
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+  - repeated_hold_record
+  - repeated_escalation_without_terminal_decision
+next_action: >-
+  Human owner must provide the accountable owner, bounded review deadline, and
+  named escalation target. Video Reviewer must publish the independent terminal
+  packet. Preserve V002’s Drive ID, SHA-256, and immutable evidence; do not
+  create a brief, generate an MP4, self-approve, reject, or remake.
+escalation_rule: >-
+  If a bounded deadline is supplied and expires, append timeout escalation
+  metadata referencing the same video_id, checksum, and evidence. Timeout is
+  non-terminal and cannot authorize generation.
+constraints:
+  - append_only
+  - preserve_v002_identity_and_checksum
+  - preserve_reviewer_evidence
+  - fail_closed_until_terminal_event
+  - rejection_requires_independent_reviewer_packet
+  - single_flight_lane_closed
+  - no_duplicate_brief_or_filename
+  - no_generation_without_terminal_review_state
+  - no_silent_approval
+  - no_force_push
+  - no_credentials
