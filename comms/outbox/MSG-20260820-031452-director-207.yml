@@ -1,0 +1,64 @@
+message_id: MSG-20260820-031452-director-207
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 204
+stamp: '20260820-031452'
+angle: fit-criteria-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_fit-criteria-state_9x16_v001_blocked_20260820-031452.mp4
+nearest_prior: impact-assessment-state
+hook: A result can be real and still not answer the question you need answered.
+final_line: Name the intended use, the test, and the limit of what passed.
+research_question: >-
+  How should an observed result be tested against explicit criteria for a specific
+  intended use without turning a partial check into universal proof?
+research_file: research/2026-08-20-pass204-browser-findings.md
+research_decision: >-
+  Require intended use, criteria, test, evidence, and limitations before assessing fit.
+research_sources:
+  - NIST validation requires objective evidence for a specific intended use or predefined tests and results.
+  - GOV.UK records acceptance criteria and supporting evidence for a user need.
+  - W3C says Easy Checks are a rough first review, not a complete accessibility evaluation.
+  - Craft Yarn Council keeps gauge, instructions, reading, and actual human craft checks distinct.
+objective: >-
+  Show that an observed result needs a named intended use, explicit criteria, a defined
+  test, supporting evidence, and stated limitations before anyone can say whether it fits,
+  without claiming that Stitch & Scale currently evaluates or certifies fit.
+audience: >-
+  Independent knitwear designers and pattern publishers coordinating calculations,
+  technical editing, physical print review, chart readability, schematic scale, test
+  knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+deliverables:
+  - briefs/SS_founder-proof_fit-criteria-state_9x16_v001_blocked_20260820-031452.md
+  - scripts/SS_founder-proof_fit-criteria-state_9x16_v001_blocked_20260820-031452.md
+  - platforms/SS_founder-proof_fit-criteria-state_9x16_v001_matrix_20260820-031452.md
+  - ledgers/20260820-fit-criteria-state.md
+  - manifests/SS_founder-proof_fit-criteria-state_9x16_v001_blocked_20260820-031452.yml
+  - research/2026-08-20-pass204-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-031452-director-207.yml
+proof_surface: FIT A-001 / INTENDED_USE / REQUIREMENTS_OR_CRITERIA / TEST / OBSERVED_RESULT / SUPPORTING_EVIDENCE / LIMITATIONS / FIT_STATUS / DISPOSITION
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact criteria-fit surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim fit evaluation, acceptance tests, requirement verification, accessibility
+  certification, suitability, usability, project-level classification, accuracy, outcomes,
+  adoption, pricing, credentials, testimonials, urgency, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected. Both remain blocked;
+  reserved filenames remain occupied; neither was regenerated, renamed, overwritten, or approved.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared proof-registry entry or
+  approved capture showing intended use, requirements or criteria, test, observed result,
+  supporting evidence, limitations, owner, fit status, and disposition; name the destination
+  platform; then rerun all Director gates.
