@@ -1,0 +1,85 @@
+receipt_id: PUB-20260821-explicit-consent-821b913
+created_at: '2026-08-21T17:20:00+01:00'
+role: temporary-director
+firing: 213
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: d9c9ef90bcf8317af27e86bcbd3f356a7e8db6b3
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 821b9131acf3aacca0ae422acb6c320ac3c98ef4
+head_equals_origin_main_after_blocker: true
+divergence_after_blocker: '0 0'
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T172000-temporary-director-213.yml
+research_paths:
+  - research/2026-08-21-explicit-consent-terminal-review-1720.md
+  - research/2026-08-21-firing-213-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What distinguishes an explicit, identity-bound terminal Reviewer action from
+  silence, reminders, acknowledgements, or other signals that must remain non-terminal?
+research_decision: >-
+  Require explicit identity-bound Reviewer consent with exact V002 provenance, full
+  seven-dimension score, threshold comparison, explicit outcome, and immutable
+  evidence. Silence, elapsed time, reminders, queue holds, and acknowledgements are
+  not consent and cannot clear the lane.
+terminal_events_that_clear_lane:
+  - explicit_exact_provenance_independent_reviewer_approval
+  - explicit_exact_provenance_independent_reviewer_rejection
+  - explicit_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - silence
+  - lack_of_objection
+  - elapsed_time
+  - reminder
+  - queue_hold
+  - queue_only_commit
+  - routine_acknowledgement
+  - director_acknowledgement
+  - generator_acknowledgement
+  - owner_acknowledgement_without_quality_verdict
+  - callback_without_explicit_decision
+  - callback_without_identity
+  - callback_without_exact_provenance
+  - callback_without_immutable_evidence
+  - stale_callback
+  - duplicate_callback
+  - timeout
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+next_action: >-
+  Independent Video Reviewer must publish one explicit terminal packet bound to exact
+  V002 provenance with unique event ID, timestamp, reviewer role, all seven weighted
+  scores, threshold comparison, explicit decision, and immutable evidence. Human owner
+  must name responsible owner, bounded deadline, and escalation target. Preserve and
+  escalate non-terminal signals without inferring consent. Keep the lane closed and
+  do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
