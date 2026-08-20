@@ -8,11 +8,12 @@ pre_publication_commit: 435366050049f30949f140f42211ed37f6677cc5
 incoming_remote_commit: null
 reconciliation: already_synchronized_before_director_commit
 commit_after_blocker: 1b940df1383d5a8ed41039ac5c70f5f798ca4f6c
+receipt_publication_commit: c06a05c1a765d910241d7210cb7f0084428ad1d5
 blocker_path: comms/outbox/MSG-20260820T164200-temporary-director-240.yml
 research_paths:
   - research/2026-08-20-accessibility-complete-video-review-1642.md
   - research/2026-08-20-firing-240-source-notes.md
-publication_status: receipt-pending-final-verification
+publication_status: published-and-verified
 active_contract:
   video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
   drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
