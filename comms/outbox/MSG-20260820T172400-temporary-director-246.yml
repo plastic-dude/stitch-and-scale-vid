@@ -1,0 +1,280 @@
+message_id: MSG-20260820T172400-temporary-director-246
+created_at: '2026-08-20T17:24:06+00:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains video-ready-for-review. The terminal transition path needs split-brain protection:
+  concurrent Reviewer, owner, retry, recovery, or stale-partition events must not create two valid
+  terminal outcomes or be resolved by last-write-wins. Terminal proposals require unique identity,
+  exact artifact and contract binding, strict ordering, authority evidence, idempotent commitment,
+  and quorum or equivalent single-writer protection. No quorum or ambiguous authority must fail closed.
+research:
+  - research/2026-08-20-quorum-split-brain-review-authority-1724.md
+  - research/2026-08-20-firing-246-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+canonical_incident:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  current_owner: null
+  latest_valid_event_id: null
+  latest_valid_event_type: none
+  append_only: true
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+terminal_consensus_contract:
+  contract_id: required
+  contract_version: required
+  exact_active_review_contract_binding: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  effective_timestamp_utc: required
+  policy_owner_identity: required
+  policy_owner_role: required
+  stakeholder_approval_reference: required
+  terminal_state_namespace: required
+  terminal_event_schema: required
+  authority_set_definition: required
+  quorum_rule_or_single_writer_rule: required
+  quorum_size: required_when_quorum
+  eligible_authority_members: required
+  authority_membership_version: required
+  membership_change_rule: required
+  failure_model: required
+  partition_behavior: required
+  no_quorum_behavior: required
+  ambiguity_behavior: required
+  conflict_behavior: required
+  adjudication_authority: required
+  exact_artifact_binding: required
+  contract_binding: required
+  causal_parent: required
+  unique_decision_id: required
+  unique_proposal_id: required
+  idempotency_key: required
+  monotonic_revision: required
+  proposal_sequence: required
+  commit_sequence: required
+  freshness_window: required
+  authority_witness: required
+  signer_identity: required
+  signer_role: required
+  signature_or_attestation: required
+  evidence_digest: required
+  reviewer_packet_digest: required
+  decision_payload_digest: required
+  commit_receipt: required
+  immutable_event_reference: required
+  replay_protection: required
+  duplicate_handling: required
+  out_of_order_handling: required
+  timeout_handling: required
+  retry_handling: required
+  restart_handling: required
+  recovery_handling: required
+  audit_readback: required
+proposal_rules:
+  every_terminal_proposal_unique: true
+  every_terminal_proposal_exact_provenance_bound: true
+  every_terminal_proposal_contract_bound: true
+  every_terminal_proposal_causal_parent_bound: true
+  every_terminal_proposal_idempotent: true
+  every_terminal_proposal_freshness_bound: true
+  every_terminal_proposal_authority_bound: true
+  every_terminal_proposal_evidence_bound: true
+  proposal_sequence_strictly_ordered: true
+  commit_sequence_strictly_ordered: true
+  proposal_numbers_never_reused: true
+  retry_uses_same_proposal_id: true
+  retry_does_not_create_new_authority: true
+  duplicate_proposal_deduplicated: true
+  duplicate_proposal_preserved: true
+  stale_proposal_non_terminal: true
+  expired_proposal_non_terminal: true
+  missing_parent_non_terminal: true
+  missing_digest_non_terminal: true
+  missing_authority_witness_non_terminal: true
+  missing_signature_non_terminal: true
+  unknown_proposal_type_non_terminal: true
+quorum_rules:
+  quorum_required_or_single_writer_explicit: true
+  quorum_intersection_property_required: true
+  quorum_membership_snapshot_required: true
+  quorum_membership_version_required: true
+  quorum_witnesses_persisted: true
+  quorum_witnesses_identity_bound: true
+  quorum_witnesses_role_bound: true
+  quorum_witnesses_contract_bound: true
+  quorum_witnesses_exact_artifact_bound: true
+  quorum_commit_is_atomic: true
+  quorum_commit_is_idempotent: true
+  quorum_commit_is_immutable: true
+  quorum_commit_is_replay_safe: true
+  minority_partition_may_not_commit: true
+  minority_partition_may_append_non_terminal_observation: true
+  no_quorum_is_not_success: true
+  no_quorum_is_not_terminal: true
+  no_quorum_opens_or_updates_incident: true
+  no_quorum_preserves_all_evidence: true
+  no_quorum_requires_revalidation: true
+single_writer_rules:
+  single_writer_allowed_only_if_explicit: true
+  single_writer_identity_required: true
+  single_writer_lease_or_fencing_required: true
+  single_writer_lease_freshness_required: true
+  single_writer_fencing_token_required: true
+  single_writer_stale_writer_rejected: true
+  single_writer_restart_revalidation_required: true
+  single_writer_partition_behavior_fail_closed: true
+  single_writer_recovery_revalidation_required: true
+  single_writer_may_not_be_generator: true
+  single_writer_may_not_be_director: true
+  single_writer_may_not_be_queue: true
+  single_writer_may_not_be_unqualified_owner: true
+split_brain_behavior:
+  competing_approval_and_rejection: preserve_both_non_terminal
+  competing_approval_and_remake: preserve_both_non_terminal
+  competing_rejection_and_remake: preserve_both_non_terminal
+  competing_reviewer_decisions: preserve_all_non_terminal
+  competing_owner_and_reviewer_events: preserve_all_non_terminal
+  partitioned_reviewers: preserve_all_non_terminal
+  stale_partition_commit: reject_non_terminal
+  delayed_commit: evaluate_freshness_and_parent
+  last_write_wins: forbidden_for_terminal_state
+  latest_timestamp_wins: forbidden_for_terminal_state
+  queue_order_wins: forbidden_for_terminal_state
+  retry_count_wins: forbidden_for_terminal_state
+  heartbeat_timeout_authorizes: false
+  heartbeat_timeout_elects_authority: false
+  scheduler_restart_elects_authority: false
+  recovery_probe_elects_authority: false
+  receipt_elects_authority: false
+  human_presence_elects_authority: false
+conflict_adjudication:
+  adjudication_record_id: required
+  adjudicator_identity: required
+  adjudicator_role: required
+  adjudicator_authority_basis: required
+  adjudicator_independence_basis: required
+  exact_contract_binding: required
+  exact_artifact_binding: required
+  competing_event_ids: required
+  competing_event_digests: required
+  causal_graph: required
+  authority_graph: required
+  membership_snapshot: required
+  freshness_comparison: required
+  evidence_comparison: required
+  reviewer_independence_comparison: required
+  decision_rule: required
+  decision_rationale: required
+  losing_proposals_preserved: true
+  discarded_evidence_deleted: false
+  adjudication_is_immutable: true
+  adjudication_is_idempotent: true
+  adjudication_does_not_rewrite_history: true
+  adjudication_does_not_create_new_brief_without_contract: true
+terminal_events_that_clear_lane:
+  - complete_quorum_backed_exact_provenance_independent_reviewer_approval
+  - complete_quorum_backed_exact_provenance_independent_reviewer_rejection
+  - complete_quorum_backed_exact_provenance_independent_REMAKE_REQUIRED_order
+  - complete_single_writer_fenced_exact_provenance_independent_terminal_decision
+  - explicit_contract_authorized_owner_resolution_with_conflict_adjudication
+non_terminal_events:
+  - heartbeat
+  - timeout
+  - retry
+  - scheduler_restart
+  - recovery_probe
+  - queue_replay
+  - receipt_publication
+  - quorum_unavailable
+  - quorum_lost
+  - minority_partition
+  - stale_partition
+  - competing_proposal
+  - competing_terminal_event
+  - conflict_record
+  - adjudication_pending
+  - missing_authority_witness
+  - missing_membership_snapshot
+  - missing_causal_parent
+  - missing_signature
+  - expired_proposal
+  - duplicate_proposal
+  - out_of_order_proposal
+  - bare_score
+  - aggregate_without_artifact_scope
+reviewer_independence:
+  quorum_does_not_replace_independent_reviewer: true
+  quorum_does_not_replace_exact_artifact_inspection: true
+  quorum_does_not_replace_complete_evidence: true
+  quorum_does_not_replace_score_recomputation: true
+  quorum_does_not_replace_separation_of_duties: true
+  generator_may_not_vote_on_own_output: true
+  director_may_not_vote_as_terminal_reviewer: true
+  queue_may_not_vote: true
+  machine_summary_may_not_vote: true
+  machine_score_may_not_vote: true
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Preserve all competing proposals and evidence, append the exact quorum, authority, membership,
+    freshness, or conflict defect with V002 provenance, open or update the same canonical incident,
+    and do not infer approval, rejection, remake authorization, publication, or a new brief.
+required_action: >-
+  Human owner must approve a versioned terminal-consensus contract. It must define quorum or an
+  equivalent fenced single writer, authority membership and versioning, unique proposals, strict
+  ordering, exact artifact and contract binding, causal parents, freshness, idempotency, conflict
+  preservation, adjudication authority, and fail-closed no-quorum behavior. Independent Reviewer
+  evidence and role separation remain mandatory. Keep the single-flight lane closed.
+anti_duplication_rule: >-
+  Do not create a new angle brief, duplicate plan, MP4, approval, rejection, or remake. A heartbeat,
+  timeout, retry, queue replay, receipt, quorum loss, recovery event, or conflict record is not
+  campaign authorization.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only one
+  operational-continuity blocker. If publication fails, write a publication-blocked record with
+  the error and both commit IDs, stop new angles, and escalate.
+constraints:
+  - quorum_or_fenced_single_writer
+  - split_brain_prevention
+  - strict_terminal_ordering
+  - unique_terminal_proposals
+  - conflict_preservation
+  - no_last_write_wins
+  - fail_closed_no_quorum
+  - exact_artifact_identity
+  - independent_review_required
+  - append_only
+  - evidence_preservation
+  - single_flight_lane_closed
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
