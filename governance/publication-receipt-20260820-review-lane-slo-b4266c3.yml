@@ -1,0 +1,177 @@
+receipt_id: PUB-20260820-review-lane-slo-b4266c3
+created_at: '2026-08-20T17:04:31+00:00'
+role: temporary-director
+firing: 243
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: cdb31202048de2f0672bf0314dabc01fa5ec4637
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: b4266c355ff1fbe14e99eff2111bfb487f7eec4a
+blocker_path: comms/outbox/MSG-20260820T170400-temporary-director-243.yml
+research_paths:
+  - research/2026-08-20-review-lane-slo-error-budget-1704.md
+  - research/2026-08-20-firing-243-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should a review lane measure reliability and latency, define acceptable non-terminal delay,
+  assign accountable ownership, and trigger bounded escalation or reliability work without turning
+  an SLO miss into approval authority?
+research_decision: >-
+  Require a versioned, owner-approved SLI/SLO and error-budget policy that separately measures
+  liveness, review latency, correctness, evidence completeness, and authorization safety. The policy
+  must specify measurement source, windows, exclusions, pause conditions, freshness, targets,
+  burn-rate thresholds, owner, and bounded response. Queue age, heartbeat freshness, SLO compliance,
+  error-budget burn, and escalation severity cannot authorize approval, rejection, remake, publication,
+  or MP4 generation.
+sli_slo_policy:
+  policy_id: required
+  policy_version: required
+  policy_status: owner_approved_or_draft_explicitly_labeled
+  policy_owner_identity: required
+  policy_owner_role: required
+  stakeholder_approval_reference: required
+  effective_timestamp_utc: required
+  review_date: required
+  change_rationale: required_on_update
+  historical_measurements_immutable: true
+  active_contract_binding: required
+  contract_video_id: required
+  contract_drive_file_id: required
+  contract_sha256: required
+  user_or_owner_outcome: required
+  measurement_source: required
+  measurement_window: required
+  inclusion_rule: required
+  exclusion_rule: required
+  pause_condition: required
+  clock_and_timezone: required
+  freshness_bound: required
+  aggregation_method: required
+  missing_data_rule: required
+  sampling_rule: required
+  target_value_or_range: required
+  error_budget_definition: required
+  burn_rate_definition: required
+  escalation_thresholds: required
+  response_policy: required
+  response_owner: required
+  checkpoint: required
+  review_and_refinement_process: required
+sli_dimensions:
+  liveness: separate_and_required
+  review_latency: separate_and_required
+  correctness: separate_and_required
+  evidence_completeness: separate_and_required
+  authorization_safety: separate_and_required
+sli_separation_rules:
+  liveness_does_not_prove_correctness: true
+  liveness_does_not_prove_evidence_completeness: true
+  liveness_does_not_prove_authorization_safety: true
+  review_latency_does_not_prove_approval: true
+  queue_age_does_not_prove_reviewer_authority: true
+  heartbeat_does_not_prove_terminal_decision: true
+  aggregate_metric_cannot_hide_critical_authorization_failure: true
+  authorization_safety_failure_overrides_availability_success: true
+  missing_measurement_is_not_success: true
+  missing_measurement_is_not_terminal: true
+error_budget_policy:
+  owner_approval_required: true
+  budget_unit: required
+  budget_window: required
+  burn_rate_window: required
+  exhaustion_condition: required
+  partial_burn_condition: required
+  excluded_events: required
+  exclusion_rationale: required
+  reliability_action_threshold: required
+  incident_threshold: required
+  owner_escalation_threshold: required
+  postmortem_or_learning_threshold: required
+  response_is_bounded: true
+  response_may_prioritize_reliability_work: true
+  response_may_request_staffing: true
+  response_may_trigger_rehearsal: true
+  response_may_open_incident: true
+  response_may_not_approve: true
+  response_may_not_reject: true
+  response_may_not_authorize_remake: true
+  response_may_not_publish: true
+  response_may_not_create_new_brief: true
+  response_may_not_authorize_mp4: true
+  response_does_not_rewrite_history: true
+change_and_refinement:
+  target_change_requires_version: true
+  target_change_requires_rationale: true
+  target_change_requires_owner_approval: true
+  target_change_requires_effective_timestamp: true
+  target_change_does_not_reclassify_past_events: true
+  contract_change_requires_revalidation: true
+  rubric_change_requires_revalidation: true
+  evidence_schema_change_requires_revalidation: true
+  platform_context_change_requires_revalidation: true
+  clock_or_timezone_change_requires_revalidation: true
+  measurement_source_change_requires_revalidation: true
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution
+non_terminal_events:
+  - heartbeat
+  - liveness_slo_met
+  - liveness_slo_missed
+  - review_latency_slo_met
+  - review_latency_slo_missed
+  - correctness_slo_met
+  - correctness_slo_missed
+  - evidence_completeness_slo_met
+  - evidence_completeness_slo_missed
+  - authorization_safety_slo_met
+  - authorization_safety_slo_missed
+  - error_budget_burn
+  - error_budget_exhaustion
+  - reliability_work_order
+  - staffing_request
+  - rehearsal_request
+  - postmortem_request
+  - incident_open
+  - escalation
+  - queue_age_update
+  - bare_score
+  - aggregate_without_artifact_scope
+next_action: >-
+  Human owner must approve a versioned policy defining review-lane SLIs, SLO targets, measurement
+  source, windows, exclusions, pause rules, freshness, error budgets, burn-rate thresholds, and
+  bounded responses. The policy must separately measure liveness, review latency, correctness,
+  evidence completeness, and authorization safety. Independent Reviewer must still publish a complete
+  exact-provenance terminal packet; SLOs and error budgets cannot substitute for it. Keep the
+  single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
