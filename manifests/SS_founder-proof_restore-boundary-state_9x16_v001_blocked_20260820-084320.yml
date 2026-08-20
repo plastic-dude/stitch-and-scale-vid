@@ -1,0 +1,64 @@
+schema_version: '1.0'
+pass_number: 244
+plan_id: 'SS-PLAN-20260820-RESTORE-BOUNDARY-STATE-V001'
+campaign: 'founder-proof'
+angle: 'restore-boundary-state'
+format: '9x16'
+version: 'v001'
+status: 'blocked'
+reserved_filename: 'SS_founder-proof_restore-boundary-state_9x16_v001_blocked_20260820-084320.mp4'
+video_id: 'VID-founder-proof-restore-boundary-state-9x16-v001'
+parent_decision: 'SS-PLAN-20260820-RESTORE-BOUNDARY-STATE-V001'
+nearest_prior_angle: 'review-question-state'
+brief_path: 'briefs/SS_founder-proof_restore-boundary-state_9x16_v001_blocked_20260820-084320.md'
+script_path: 'scripts/SS_founder-proof_restore-boundary-state_9x16_v001_blocked_20260820-084320.md'
+research_path: 'research/2026-08-20-pass244-browser-findings.md'
+platform_matrix_path: 'platforms/SS_founder-proof_restore-boundary-state_9x16_v001_matrix_20260820-084320.md'
+continuity_path: 'ledgers/20260820-restore-boundary-state.md'
+handoff_path: 'comms/outbox/MSG-20260820-084320-director-247.yml'
+media_exists: false
+media_generated: false
+media_uploaded: false
+external_archive_url: null
+external_file_id: null
+checksum_sha256: null
+rights_status: 'unverified'
+voice_status: 'one-narrator-family-planned-not-recorded'
+caption_status: 'caption-on-and-caption-free-planned-not-reviewed'
+audio_status: 'original-or-cleared-sound-required-not-cleared'
+platform_status: 'organic-destination-and-current-acceptance-unverified'
+product_truth:
+  product_proof_registry_entry: 'absent'
+  current_continuity_surface_verified: false
+  current_saved_copy_surface_verified: false
+  current_restore_test_surface_verified: false
+  approved_non_private_capture: false
+  current_destination_verified: false
+  rights_privacy_approved: false
+proof_surface: 'RBS-001 / COPY_ID / PROJECT / VERSION / SCOPE / DESTINATION / FILE_EXISTS / RESTORE_TARGET / RESTORE_ATTEMPT / OPENED / RIGHT_VERSION / SCOPE_MATCH / RESULT / LIMIT / STATUS'
+restore_states:
+  - 'COPY_RECORDED'
+  - 'PROJECT_DECLARED'
+  - 'VERSION_DECLARED'
+  - 'SCOPE_DECLARED'
+  - 'DESTINATION_UNRESOLVED'
+  - 'FILE_EXISTS_RECORDED'
+  - 'RESTORE_TARGET_DECLARED'
+  - 'RESTORE_ATTEMPT_UNRESOLVED'
+  - 'OPENED_UNVERIFIED'
+  - 'RIGHT_VERSION_UNVERIFIED'
+  - 'SCOPE_MATCH_UNVERIFIED'
+  - 'RESULT_UNRESOLVED'
+  - 'HUMAN_RESTORE_REVIEW_REQUIRED'
+claim_boundary:
+  saved_copy_is_not_restore_proof: true
+  restore_is_not_technical_editing: true
+  restore_is_not_test_knitting: true
+  restore_is_not_chart_readability: true
+  restore_is_not_schematic_scale: true
+  restore_is_not_physical_print_review: true
+  generated_text_is_not_product_truth: true
+  illustrative_prop_is_not_product_ui: true
+  no_revenue_adoption_accuracy_testimonial_pricing_or_urgency_claims: true
+exact_generator_action: 'Do not generate or upload. Await a current versioned continuity proof-registry entry or approved non-private capture for the exact saved-copy versus tested-restore surface, confirm destination and rights/privacy, and rerun Director validation before re-authorization.'
+blocker: 'No current product-proof registry entry or approved non-private capture verifies Stitch & Scale backup, export, restore, sync, archive, or recovery behavior; rights, destination, captions, audio, and acceptance remain unverified.'
