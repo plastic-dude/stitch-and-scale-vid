@@ -1,0 +1,69 @@
+message_id: MSG-20260820-035005-director-212
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 209
+stamp: '20260820-035005'
+angle: decision-rationale-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_decision-rationale-state_9x16_v001_blocked_20260820-035005.mp4
+nearest_prior: evidence-applicability-state
+hook: Applicable evidence still needs a visible reason.
+final_line: Show the evidence, the reason, the owner, and the limit of the decision.
+research_question: >-
+  How should a decision record the reasoning that connects applicable evidence to a
+  bounded disposition, so another reviewer can inspect the basis without mistaking
+  the decision for universal proof?
+research_file: research/2026-08-20-pass209-browser-findings.md
+research_decision: >-
+  Record applicable evidence, inference or reasoning, alternatives, uncertainty, owner,
+  scope, conditions, review trigger, bounded disposition, and follow-up.
+research_sources:
+  - UK Civil Service guidance describes exposing evidence and data so others can check reasoning and consider alternative interpretations.
+  - NIST RMF provides repeatable documented risk-process framing.
+  - W3C accessibility reporting separates scope, reviewers, methods, dates, results, recommendations, and follow-up.
+  - Craft Yarn Council keeps instructions, gauge, and human activities distinct.
+objective: >-
+  Show that applicable evidence still needs a recorded reasoning link, alternatives or
+  uncertainty, owner, scope, conditions, review trigger, and bounded disposition before
+  it can support a decision, without claiming that Stitch & Scale currently records
+  rationale or makes decisions explainable.
+audience: >-
+  Independent knitwear designers and pattern publishers coordinating calculations,
+  technical editing, physical print review, chart readability, schematic scale, test
+  knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+deliverables:
+  - briefs/SS_founder-proof_decision-rationale-state_9x16_v001_blocked_20260820-035005.md
+  - scripts/SS_founder-proof_decision-rationale-state_9x16_v001_blocked_20260820-035005.md
+  - platforms/SS_founder-proof_decision-rationale-state_9x16_v001_matrix_20260820-035005.md
+  - ledgers/20260820-decision-rationale-state.md
+  - manifests/SS_founder-proof_decision-rationale-state_9x16_v001_blocked_20260820-035005.yml
+  - research/2026-08-20-pass209-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-035005-director-212.yml
+proof_surface: RATIONALE A-001 / APPLICABLE_EVIDENCE / INFERENCE_OR_REASONING / ALTERNATIVES_CONSIDERED / UNCERTAINTY / DECISION_OWNER / DECISION_SCOPE / CONDITIONS / REVIEW_TRIGGER / BOUNDED_DISPOSITION / FOLLOW_UP
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact decision-rationale surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim rationale recording, audit or explainability support, current decision
+  controls, decision correctness, universality, accessibility conformance, suitability,
+  usability, project-level classification, accuracy, outcomes, adoption, pricing,
+  credentials, testimonials, urgency, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected. Both remain blocked;
+  reserved filenames remain occupied; neither was regenerated, renamed, overwritten, or approved.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared proof-registry entry or
+  approved capture showing applicable evidence, inference or reasoning, alternatives
+  considered, uncertainty, decision owner, decision scope, conditions, review trigger,
+  bounded disposition, and follow-up; name the destination platform; then rerun all
+  Director gates.
