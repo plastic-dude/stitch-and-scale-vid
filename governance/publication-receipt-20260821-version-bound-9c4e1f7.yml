@@ -1,0 +1,107 @@
+receipt_id: PUB-20260821-version-bound-9c4e1f7
+created_at: '2026-08-21T21:10:00+01:00'
+role: temporary-director
+firing: 227
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 27e5a886e3a4e9ef6931a92064759832f1d14f4f
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 9c4e1f7
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T211000-temporary-director-227.yml
+research_paths:
+  - research/2026-08-21-version-bound-review-contract-2110.md
+  - research/2026-08-21-firing-227-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should the review system prevent a Reviewer decision from being applied under the
+  wrong artifact version, scoring policy, evidence schema, or authorization contract
+  when those inputs can change over time?
+research_decision: >-
+  Require explicit version binding. A terminal Reviewer packet must identify exact V002
+  artifact and manifest identity, review-contract version, scoring-policy and weights
+  version, threshold version, evidence-schema version, reviewer-authorization version,
+  evaluation-method version, timestamp, complete score, and immutable evidence. An
+  unqualified or policy-mismatched callback is non-terminal. Any bound input change
+  before terminal authorization requires revalidation; published terminal evidence is
+  immutable and later policy cannot silently reinterpret it.
+version_binding:
+  artifact_manifest_version: required
+  artifact_video_id: required
+  artifact_drive_file_id: required
+  artifact_sha256: required
+  review_contract_version: required
+  scoring_weights_version: required
+  threshold_version: required
+  evidence_schema_version: required
+  reviewer_authorization_version: required
+  evaluation_timestamp: required
+  evaluation_method_version: required
+  unqualified_reference_non_terminal: true
+  policy_drift_requires_revalidation: true
+  immutable_terminal_history: true
+terminal_events_that_clear_lane:
+  - complete_version_bound_exact_provenance_independent_reviewer_approval
+  - complete_version_bound_exact_provenance_independent_reviewer_rejection
+  - complete_version_bound_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution_with_version_binding
+non_terminal_version_failures:
+  - missing_artifact_manifest_version
+  - missing_review_contract_version
+  - missing_scoring_weights_version
+  - missing_threshold_version
+  - missing_evidence_schema_version
+  - missing_reviewer_authorization_version
+  - unqualified_policy_reference
+  - policy_version_mismatch
+  - artifact_version_mismatch
+  - checksum_mismatch
+  - evaluation_method_version_mismatch
+  - later_policy_without_revalidation
+  - packet_for_another_video
+  - packet_for_another_drive_upload
+  - packet_with_different_sha256
+  - packet_without_complete_evidence
+  - packet_without_explicit_decision
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append timeout evidence under the active contract version, escalate the same incident,
+    preserve the lane as blocked, and do not infer terminal authorization.
+next_action: >-
+  Independent Video Reviewer must publish one complete version-bound exact-provenance
+  terminal packet or version-bound continuation packet. Human owner must assign a
+  responsible owner, role, bounded checkpoint, and escalation target. Preserve evidence
+  append-only, revalidate after policy drift, keep the single-flight lane closed, and do
+  not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
