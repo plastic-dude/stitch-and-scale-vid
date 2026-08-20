@@ -1,0 +1,87 @@
+message_id: MSG-20260820T095300-temporary-director-120
+created_at: '2026-08-20T09:53:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  The newer queue record is an append-only authorization hold. V002 remains
+  non-terminal. Preserve one unique independent Reviewer callback bound to exact
+  provenance; do not infer a quality verdict or open a second campaign.
+research:
+  - research/2026-08-20-queue-hold-terminal-boundary-0953.md
+immutable_evidence:
+  - comms/outbox/2026-08-19T174800-video-generator-director-review.yml
+  - reviews/SS_ownership-receipt_privacy-by-default_9x16_v002-director-review_20260819-174800/generator-check.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v002-director-review_20260819-174800.yml
+  - queue-status.md
+  - governance/publication-receipt-20260820-terminal-authority-6f41d8c.yml
+remote_reconciliation:
+  incoming_commit: c20fcec
+  incoming_record_type: append_only_queue_status
+  effect: unchanged_authorization_hold
+  terminal_decision_created: false
+  owner_acknowledgement_created: false
+  remake_required_created: false
+  mp4_authorized: false
+canonical_terminal_callback:
+  reviewer: independent_video_reviewer
+  unique_event_id: null
+  decision: null
+  decision_timestamp: null
+  seven_dimension_score: null
+  evidence_references: null
+  exact_provenance:
+    video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+    drive_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+    sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  permitted_terminal_events:
+    - explicit_independent_reviewer_approval
+    - explicit_independent_reviewer_rejection
+    - explicit_REMAKE_REQUIRED_order
+    - explicit_published_terminal_resolution
+owner_callback:
+  responsible_owner: null
+  bounded_review_deadline: null
+  escalation_target: null
+  acknowledgement_is_not_quality_verdict: true
+non_terminal_events:
+  - authorization_hold
+  - operational_hold
+  - queue_hold
+  - reminder
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+  - repeated_hold_without_new_action
+  - repeated_escalation_without_new_action
+next_action: >-
+  Video Reviewer must publish one unique terminal callback with event ID,
+  explicit decision, timestamp, complete seven-dimension score, evidence
+  references, and exact V002 provenance. Human owner must separately provide
+  responsible owner, bounded review deadline, and escalation target. Preserve
+  evidence; do not create a brief, generate an MP4, self-approve, reject, or
+  remake.
+escalation_rule: >-
+  Treat the queue record as non-terminal. Consolidate repeated holds. A timeout
+  may escalate but remains non-terminal and cannot authorize generation. Do not
+  issue another blocker in this category without materially new owner or
+  Reviewer action.
+constraints:
+  - append_only
+  - safe_reconciliation
+  - canonical_callback_only
+  - unique_terminal_event_required
+  - exact_provenance_binding
+  - preserve_v002_identity_and_checksum
+  - preserve_reviewer_evidence
+  - acknowledgement_is_not_quality_verdict
+  - single_flight_lane_closed
+  - no_duplicate_brief_or_filename
+  - no_generation_without_terminal_review_state
+  - no_silent_approval
+  - no_force_push
+  - no_credentials
