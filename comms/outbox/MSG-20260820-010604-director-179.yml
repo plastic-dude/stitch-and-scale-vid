@@ -1,0 +1,19 @@
+message_id: MSG-20260820-010604-director-179
+created_at: 2026-08-20T01:06:04+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_scope-of-proof-state_9x16_v001_blocked_20260820-010604
+parent_id: BRF-founder-proof-scope-of-proof-state-9x16-v001
+status: blocked
+summary: Scope-of-proof-state is blocked because no current approved product proof verifies valid-for version, size, gauge, context, audience, test conditions, exclusions, reviewer, and disposition.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-20-pass177-browser-findings.md
+  - briefs/SS_founder-proof_scope-of-proof-state_9x16_v001_blocked_20260820-010604.md
+  - scripts/SS_founder-proof_scope-of-proof-state_9x16_v001_blocked_20260820-010604.md
+  - platforms/SS_founder-proof_scope-of-proof-state_9x16_v001_matrix_20260820-010604.md
+  - ledgers/20260820-scope-of-proof-state.md
+  - manifests/SS_founder-proof_scope-of-proof-state_9x16_v001_blocked_20260820-010604.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one real proof scope with valid_for/version/size/gauge/context/audience/test_conditions/exclusions/reviewed/disposition before presenting scope-of-proof behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

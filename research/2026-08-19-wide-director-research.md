@@ -7557,3 +7557,38 @@ No current product-proof registry or approved non-private capture verifies claim
 [903]: https://www.nist.gov/itl/ai-risk-management-framework "NIST AI Risk Management Framework"
 [904]: https://www.w3.org/TR/prov-o/ "W3C PROV-O: The PROV Ontology"
 [905]: https://www.nist.gov/metrology/metrological-traceability "NIST Metrological Traceability"
+
+
+## Wide-research Director question 177 — scope of proof state — 20260820-010604
+
+**Fresh research question.** When proof is valid for one version, size, gauge, context, or audience, what prevents it from being generalized beyond the conditions actually tested?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest proof-scope pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise, scope-card reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [906] | NIST, *Artificial Intelligence Risk Management Framework 1.0*, accessed 2026-08-20: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf | NIST frames validity and reliability around intended goals and the design, development, use, and evaluation context of a system, supporting an explicit scope card rather than a universal proof claim. | This does not prove that Stitch & Scale implements AI RMF, performs validity testing, or guarantees generalizability. |
+| [907] | NIST, *SP 800-53A Rev. 5: Assessing Security and Privacy Controls*, published 2022 and planning note 2025; accessed 2026-08-20: https://csrc.nist.gov/pubs/sp/800/53/a/r5/final | NIST describes customizable assessment procedures that can be tailored to scope and organizational risk tolerance, supporting explicit assessment boundaries. | This does not prove that Stitch & Scale runs NIST assessments, has control evidence, or has a risk-authorization process. |
+| [908] | Craft Yarn Council, *Gauge and Why It Is Important*, accessed 2026-08-20: https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important | CYC explains that gauge is stitches and rows per inch, that the specified gauge should be achieved for the intended size, and that a swatch may require adjustment when measurement differs. | This does not prove that Stitch & Scale calculates, validates, grades, or guarantees gauge or fit. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from “proof exists” to “proof is declared for a specific version, size, gauge, context, audience, test condition, exclusion, reviewer, and disposition.” The fictional proof surface is `PROOF P-001 / VALID_FOR / VERSION / SIZE / GAUGE / CONTEXT / AUDIENCE / TEST_CONDITIONS / EXCLUSIONS / REVIEWED / DISPOSITION`.
+
+The selected angle is `scope-of-proof-state`, hook **“Proof in one scope is not proof everywhere.”** The final line is **“Name where this proof stops.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `evidence-chain-state`, which asks whether a claim is linked to exact field, evidence ID, source/version, activity, responsible agent, reviewer, limitation, link status, and disposition. `scope-of-proof-state` changes the pain to whether the linked proof is valid only for declared version, size, gauge, context, audience, test conditions, and exclusions, rather than being generalized to every case. It is not `applicability-state`, which asks whether a rule applies universally; `support-boundary`, which asks where support stops for a claim; `context-state`, which asks whether context travels with an artifact; `fitness-state`, which asks whether an artifact fits a purpose; `sufficiency-state`, which asks whether evidence is enough; `evidence-chain-state`, which asks whether support is linked; or `sensitivity-state`, which asks how input changes affect output. The visual metaphor changes to a proof card with a declared scope frame and an outside-scope grey field, rather than a support graph, applicability rule, boundary line, context card, fitness check, evidence sufficiency meter, or propagation chain. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies proof scope, version, size, gauge, context, audience, test conditions, exclusions, reviewer, or disposition. The scope card must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with generalizability, validity, reliability, assessment scope, grading, fit, gauge, or universal behavior. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [906]–[908]
+
+[906]: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf "NIST Artificial Intelligence Risk Management Framework 1.0"
+[907]: https://csrc.nist.gov/pubs/sp/800/53/a/r5/final "NIST SP 800-53A Rev. 5: Assessing Security and Privacy Controls"
+[908]: https://www.craftyarncouncil.com/blog/ydkwydk-gauge-and-why-its-important "Craft Yarn Council — Gauge and Why It Is Important"
