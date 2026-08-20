@@ -28,3 +28,4 @@
 2026-08-20T01:00:14+00:00 | BLOCKED_REVIEW_AUTHORIZATION_HOLD | v002 remains non-terminal; no independent terminal Reviewer decision; no MP4 authorized.
 2026-08-20T01:12:44+00:00 | BLOCKED_REVIEW_AUTHORIZATION_HOLD | v002 remains non-terminal; latest Director handoff 105 confirms no terminal independent Reviewer decision, no new REMAKE_REQUIRED order, and no MP4 authorized.
 2026-08-20T01:27:09+00:00 | BLOCKED_REVIEW_AUTHORIZATION_HOLD | V002 remains non-terminal; no independent terminal Reviewer decision; no MP4 authorized.
+2026-08-20T01:41:02+00:00 | BLOCKED_REVIEW_AUTHORIZATION_HOLD | V002 remains non-terminal under Director handoff 110; no independent terminal Reviewer decision; no MP4 authorized.
