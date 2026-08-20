@@ -1,0 +1,208 @@
+receipt_id: PUB-20260820-quorum-split-brain-68e5a6b
+created_at: '2026-08-20T17:24:06+00:00'
+role: temporary-director
+firing: 246
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 68e5a6b97541d5e6355259febbec3748af83a752
+incoming_remote_commit: db7eec5
+reconciliation: safe_non_ff_not_required_fast_forwarded_remote_before_director_commit
+commit_after_blocker: 68e5a6b97541d5e6355259febbec3748af83a752
+blocker_path: comms/outbox/MSG-20260820T172400-temporary-director-246.yml
+research_paths:
+  - research/2026-08-20-quorum-split-brain-review-authority-1724.md
+  - research/2026-08-20-firing-246-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  manifest_status: director-review
+  review_lane_status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+latest_reviewer_observation:
+  review_id: REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  reviewed_at: '2026-08-20T17:15:00Z'
+  reviewer: video-reviewer
+  status: BLOCKED
+  weighted_score_percent: 86.0
+  threshold_percent: 65
+  director_approval: false
+  terminal: false
+  remake_order_id: null
+  exact_drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  exact_sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  blocking_basis:
+    - v002_identity_and_manifest_evidence_gate
+    - version_matched_caption_and_platform_qa_absent
+    - rights_audio_declaration_absent
+    - safe_zone_coordinates_absent
+    - external_media_receipt_absent
+  ordered_generator_action_present: true
+  ordered_action_is_terminal: false
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  non_terminal_reviewer_block_record: true
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should V002 prevent conflicting Reviewer, owner, retry, or recovery events from producing two
+  terminal outcomes during a network partition, stale read, or split-brain condition?
+research_decision: >-
+  Require a versioned split-brain-safe terminal transition protocol. Each terminal proposal must have
+  a unique decision and proposal ID, exact artifact and contract binding, causal parent, monotonic
+  ordering, authority witness, freshness bound, idempotency key, and quorum or an equivalent fenced
+  single-writer commitment. Conflicting or ambiguous proposals are preserved and remain non-terminal;
+  last-write-wins, latest-timestamp-wins, queue order, retry count, heartbeat timeout, and recovery
+  success cannot decide terminal state. Quorum protects commitment safety but does not replace
+  independent Reviewer evidence or separation of duties.
+terminal_consensus_contract:
+  contract_id: required
+  contract_version: required
+  exact_active_review_contract_binding: required
+  authority_set_definition: required
+  quorum_rule_or_single_writer_rule: required
+  authority_membership_version: required
+  partition_behavior: required
+  no_quorum_behavior: required
+  ambiguity_behavior: required
+  conflict_behavior: required
+  adjudication_authority: required
+  exact_artifact_binding: required
+  contract_binding: required
+  causal_parent: required
+  unique_decision_id: required
+  unique_proposal_id: required
+  idempotency_key: required
+  monotonic_revision: required
+  proposal_sequence: required
+  commit_sequence: required
+  freshness_window: required
+  authority_witness: required
+  signer_identity: required
+  signer_role: required
+  signature_or_attestation: required
+  evidence_digest: required
+  reviewer_packet_digest: required
+  decision_payload_digest: required
+  immutable_event_reference: required
+  replay_protection: required
+  conflict_adjudication_record: required_when_conflict
+proposal_rules:
+  every_terminal_proposal_unique: true
+  every_terminal_proposal_exact_provenance_bound: true
+  every_terminal_proposal_contract_bound: true
+  every_terminal_proposal_causal_parent_bound: true
+  every_terminal_proposal_idempotent: true
+  every_terminal_proposal_freshness_bound: true
+  every_terminal_proposal_authority_bound: true
+  every_terminal_proposal_evidence_bound: true
+  proposal_sequence_strictly_ordered: true
+  commit_sequence_strictly_ordered: true
+  proposal_numbers_never_reused: true
+  retry_uses_same_proposal_id: true
+  duplicate_proposal_preserved: true
+  stale_proposal_non_terminal: true
+  missing_authority_witness_non_terminal: true
+quorum_rules:
+  quorum_required_or_single_writer_explicit: true
+  quorum_intersection_property_required: true
+  quorum_membership_snapshot_required: true
+  quorum_witnesses_persisted: true
+  quorum_commit_is_atomic: true
+  quorum_commit_is_idempotent: true
+  quorum_commit_is_immutable: true
+  minority_partition_may_not_commit: true
+  minority_partition_may_append_non_terminal_observation: true
+  no_quorum_is_not_success: true
+  no_quorum_is_not_terminal: true
+  no_quorum_preserves_all_evidence: true
+  no_quorum_requires_revalidation: true
+split_brain_behavior:
+  competing_terminal_events: preserve_all_non_terminal
+  partitioned_reviewers: preserve_all_non_terminal
+  stale_partition_commit: reject_non_terminal
+  last_write_wins: forbidden_for_terminal_state
+  latest_timestamp_wins: forbidden_for_terminal_state
+  queue_order_wins: forbidden_for_terminal_state
+  retry_count_wins: forbidden_for_terminal_state
+  heartbeat_timeout_authorizes: false
+  recovery_probe_elects_authority: false
+  receipt_elects_authority: false
+conflict_adjudication:
+  competing_event_ids: required
+  competing_event_digests: required
+  causal_graph: required
+  authority_graph: required
+  membership_snapshot: required
+  freshness_comparison: required
+  evidence_comparison: required
+  decision_rule: required
+  decision_rationale: required
+  losing_proposals_preserved: true
+  discarded_evidence_deleted: false
+  adjudication_is_immutable: true
+  adjudication_does_not_rewrite_history: true
+reviewer_independence:
+  quorum_does_not_replace_independent_reviewer: true
+  quorum_does_not_replace_exact_artifact_inspection: true
+  quorum_does_not_replace_complete_evidence: true
+  quorum_does_not_replace_score_recomputation: true
+  generator_may_not_vote_on_own_output: true
+  director_may_not_vote_as_terminal_reviewer: true
+  queue_may_not_vote: true
+  machine_summary_may_not_vote: true
+terminal_events_that_clear_lane:
+  - complete_quorum_backed_exact_provenance_independent_reviewer_approval
+  - complete_quorum_backed_exact_provenance_independent_reviewer_rejection
+  - complete_quorum_backed_exact_provenance_independent_REMAKE_REQUIRED_order
+  - complete_single_writer_fenced_exact_provenance_independent_terminal_decision
+  - explicit_contract_authorized_owner_resolution_with_conflict_adjudication
+non_terminal_events:
+  - heartbeat
+  - timeout
+  - retry
+  - scheduler_restart
+  - recovery_probe
+  - queue_replay
+  - receipt_publication
+  - quorum_unavailable
+  - quorum_lost
+  - minority_partition
+  - stale_partition
+  - competing_proposal
+  - competing_terminal_event
+  - conflict_record
+  - adjudication_pending
+  - missing_authority_witness
+  - missing_membership_snapshot
+  - missing_causal_parent
+  - missing_signature
+  - expired_proposal
+  - duplicate_proposal
+  - out_of_order_proposal
+  - reviewer_blocked_without_remake_order
+  - score_above_threshold_without_terminal_verdict
+next_action: >-
+  Video Generator must address the newly published non-terminal Reviewer BLOCKED record only through
+  a version-matched v002 evidence/manifest/QA publication and any explicitly ordered correction. The
+  Reviewer record does not authorize approval, rejection, remake, publication, or a new campaign.
+  Human owner must approve the terminal-consensus contract. Keep the single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
