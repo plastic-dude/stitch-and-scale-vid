@@ -1,0 +1,184 @@
+receipt_id: PUB-20260820-readiness-rehearsal-b23447c
+created_at: '2026-08-20T16:56:10+00:00'
+role: temporary-director
+firing: 242
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: df982b4ef388c1276d888beb72da1e73a5c40690
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: b23447cdbd6c434961143718669c9af9e2893ed7
+blocker_path: comms/outbox/MSG-20260820T165600-temporary-director-242.yml
+research_paths:
+  - research/2026-08-20-operational-readiness-rehearsal-review-1656.md
+  - research/2026-08-20-firing-242-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should the team prove that the Reviewer rubric, evidence schema, role authority, handoffs,
+  escalation path, and recovery controls are executable before relying on a live terminal decision
+  for V002?
+research_decision: >-
+  Require a version-bound, non-terminal readiness rehearsal using a clearly labeled test fixture or
+  shadow packet distinct from V002. It must exercise artifact identity, seven-dimension scoring,
+  threshold recomputation, uncertainty, accessibility, privacy, signer and role verification, stale
+  and duplicate events, handoff, escalation, publication recovery, and fail-closed behavior with
+  expected-versus-observed results. Failed paths require owned remediation and re-test. A passing
+  rehearsal proves process readiness only and never approves V002.
+readiness_contract:
+  rehearsal_id: required
+  rehearsal_state: non_terminal_test_only
+  test_fixture_or_shadow_packet: required
+  test_fixture_must_not_be_v002: true
+  fixture_video_id: required
+  fixture_checksum: required
+  fixture_provenance: required
+  fixture_label: required
+  label_must_state_non_terminal: true
+  rehearsal_owner: required
+  rehearsal_operator: required
+  independent_observer: required
+  start_timestamp_utc: required
+  end_timestamp_utc: required
+  playbook_version: required
+  publication_control_version: required
+  review_contract_version: required
+  rubric_version: required
+  scoring_weights_version: required
+  threshold_version: required
+  evidence_schema_version: required
+  environment_context: required
+  expected_result_set: required
+  observed_result_set: required
+  result_comparison: required
+  deviation_register: required
+  remediation_register: required
+  retest_requirement: required
+  expiry_or_freshness_rule: required
+  evidence_references: required
+rehearsal_scenarios:
+  exact_artifact_identity_resolution: required
+  checksum_mismatch: required
+  transformation_lineage_mismatch: required
+  seven_dimension_score_recomputation: required
+  threshold_boundary_case: required
+  per_dimension_uncertainty_capture: required
+  accessibility_evidence_gap: required
+  privacy_minimization_and_lineage: required
+  signer_role_mismatch: required
+  signature_or_attestation_failure: required
+  stale_event: required
+  duplicate_event: required
+  replayed_event: required
+  out_of_order_event: required
+  reviewer_handoff_without_acknowledgment: required
+  bounded_checkpoint_expiry: required
+  escalation_without_terminal_authority: required
+  fail_closed_on_ambiguous_state: required
+  publication_failure_recovery: required
+  concurrent_remote_commit_reconciliation: required
+expected_behavior:
+  test_event_is_non_terminal: true
+  test_event_cannot_clear_v002: true
+  test_event_cannot_authorize_mp4: true
+  test_event_cannot_create_new_brief: true
+  exact_identity_mismatch_blocks: true
+  stale_or_duplicate_event_is_preserved_and_non_terminal: true
+  role_mismatch_blocks: true
+  incomplete_score_blocks: true
+  threshold_not_recomputable_blocks: true
+  accessibility_or_privacy_gap_is_disclosed: true
+  missing_handoff_acknowledgment_blocks: true
+  checkpoint_expiry_appends_escalation: true
+  escalation_does_not_become_terminal: true
+  publication_failure_writes_publication_blocked: true
+  fail_closed_on_ambiguity: true
+result_comparison:
+  expected_per_scenario: required
+  observed_per_scenario: required
+  pass_fail_per_scenario: required
+  discrepancy_reason: required_when_mismatch
+  evidence_reference_per_scenario: required
+  operator_notes: required
+  independent_observer_confirmation: required
+remediation_contract:
+  failed_scenario_id: required
+  failure_class: required
+  severity: required
+  impact: required
+  root_or_contributing_cause: required
+  owner_identity: required
+  owner_role: required
+  corrective_action: required
+  due_checkpoint: required
+  evidence_of_fix: required
+  retest_id: required
+  retest_result: required
+  closure_authority: required
+  remediation_closure_is_not_v002_terminal_decision: true
+freshness_and_change_rules:
+  rehearsal_valid_until: required
+  invalidated_by_playbook_change: true
+  invalidated_by_publication_control_change: true
+  invalidated_by_review_contract_change: true
+  invalidated_by_rubric_change: true
+  invalidated_by_weight_or_threshold_change: true
+  invalidated_by_evidence_schema_change: true
+  invalidated_by_media_artifact_change: true
+  invalidated_by_platform_context_change: true
+  invalidated_by_role_or_authority_change: true
+  expired_rehearsal_is_non_terminal: true
+  revalidation_required_after_invalidation: true
+terminal_events_that_clear_lane:
+  - complete_current_readiness_backed_exact_provenance_independent_reviewer_approval
+  - complete_current_readiness_backed_exact_provenance_independent_reviewer_rejection
+  - complete_current_readiness_backed_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution_with_current_readiness_evidence
+non_terminal_events:
+  - rehearsal_started
+  - rehearsal_passed
+  - rehearsal_failed
+  - rehearsal_expired
+  - rehearsal_remediation_open
+  - rehearsal_remediation_closed
+  - test_fixture_decision
+  - shadow_packet_decision
+  - bare_score
+  - aggregate_without_artifact_scope
+  - readiness_note
+  - routine_reminder
+  - escalation_without_terminal_authority
+next_action: >-
+  Human owner must authorize a clearly labeled non-terminal readiness rehearsal on a test fixture or
+  shadow packet distinct from V002. Independent Reviewer and observer must record versioned expected
+  and observed results for identity, scoring, evidence, authority, accessibility, privacy, stale and
+  duplicate events, handoff, escalation, publication recovery, and fail-closed paths. Each failed
+  path requires owned remediation and re-test. Readiness evidence does not clear V002. Keep the
+  single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
