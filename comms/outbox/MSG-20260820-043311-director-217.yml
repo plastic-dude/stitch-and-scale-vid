@@ -1,0 +1,83 @@
+message_id: MSG-20260820-043311-director-217
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 214
+stamp: '20260820-043311'
+angle: substitution-authorization-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_substitution-authorization-state_9x16_v001_blocked_20260820-043311.mp4
+nearest_prior: record-estimate-state
+hook: A substitute can fit the gauge and still need a record.
+final_line: Name what fits, who confirmed it, where it is disclosed, and what remains to review.
+research_question: >-
+  When a knitwear project uses a yarn other than the named yarn, what must remain
+  explicit about material fit, gauge, fiber structure, dye lot, availability,
+  editor or publisher confirmation, disclosure, and test evidence before the
+  substitution can travel into a pattern or submission?
+research_file: research/2026-08-20-pass214-browser-findings.md
+browser_support_file: research/2026-08-20-pass214-cyc-browser-findings.md
+research_decision: >-
+  Select substitution-authorization-state: keep fit evidence, confirmation scope,
+  disclosure location, and human review visibly separate around a proposed substitute.
+research_sources:
+  - Craft Yarn Council says to reconfirm yarn and color selection with an editor or design director, check dye lots, confirm availability and sample size, keep notes, discuss alternatives, and match the project gauge with a swatch.
+  - Craft Yarn Council calls yarn-weight and gauge ranges guidelines and says to follow the pattern’s stated gauge.
+  - Knitty warns against substituting by gauge alone and recommends considering fiber content, structure, pattern behavior, row gauge, and a large substitution swatch.
+  - Knitty submission guidance separates yarn characteristics, alternates, pattern files, images, schematics, originality, and publication permission.
+objective: >-
+  Show that a yarn substitute needs separate fit evidence, confirmation scope,
+  disclosure location, and review evidence; do not collapse those into an approval claim.
+audience: >-
+  Independent knitwear designers and pattern publishers coordinating yarn choice,
+  swatches, pattern instructions, grading, technical editing, samples, test knitting,
+  submissions, and intended users.
+deliverables:
+  - briefs/SS_founder-proof_substitution-authorization-state_9x16_v001_blocked_20260820-043311.md
+  - scripts/SS_founder-proof_substitution-authorization-state_9x16_v001_blocked_20260820-043311.md
+  - platforms/SS_founder-proof_substitution-authorization-state_9x16_v001_matrix_20260820-043311.md
+  - ledgers/20260820-substitution-authorization-state.md
+  - manifests/SS_founder-proof_substitution-authorization-state_9x16_v001_blocked_20260820-043311.yml
+  - research/2026-08-20-pass214-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-043311-director-217.yml
+proof_surface: >-
+  SUB X-001 / DESIGN_ID / ORIGINAL_YARN / SUBSTITUTE_YARN / FIBER_AND_STRUCTURE /
+  GAUGE_TARGET / SWATCH_RESULT / ROW_GAUGE / CARE_OR_BEHAVIOR_NOTE /
+  DYE_LOT_OR_COLORWAY / AVAILABILITY_CHECK / CONFIRMING_ROLE / CONFIRMATION_SCOPE /
+  CONFIRMED_AT / DISCLOSURE_LOCATION / REVIEWER_OR_TESTER / REVIEW_RECORD / STATUS
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact substitution surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim that Stitch & Scale recommends, validates, approves, detects, or authorizes
+  a substitute; checks dye lots or availability; obtains permission; or replaces an editor,
+  technical editor, calculator, test knitter, physical print reviewer, chart-readability
+  reviewer, or schematic-scale reviewer. Do not claim identical fit, drape, durability,
+  care behavior, compatibility, correctness, accessibility, publication readiness, revenue,
+  adoption, accuracy, customer outcomes, pricing, credentials, testimonials, urgency, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+human_gates: >-
+  Preserve calculation, technical editing, physical print review, chart readability,
+  schematic scale, and test knitting as distinct human evidence gates.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected and remain blocked;
+  their reserved filenames remain occupied. Adjacent substitution-basis, gauge-reality,
+  gauge-state, material-trace, record-estimate-state, accountable-owner-state, and
+  cross-reference-state packages remain occupied and were not modified.
+review_state: >-
+  reviews/, orders/, and comms/inbox/ are absent at refresh; no open CRITICAL or HIGH
+  reviewer or remake order is present in the current repository.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Name the destination platform and provide a current, versioned, non-private, rights-cleared
+  product-proof registry entry or approved capture showing design ID, original yarn, substitute
+  yarn, fiber and structure, gauge target, swatch result, row gauge, care or behavior note,
+  dye lot or colorway, availability check, confirming role, confirmation scope, confirmed-at,
+  disclosure location, reviewer or tester, review record, and status; then rerun all Director gates.
