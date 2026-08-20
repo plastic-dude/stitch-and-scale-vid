@@ -1,0 +1,259 @@
+message_id: MSG-20260820T163500-temporary-director-239
+created_at: '2026-08-20T16:35:30+00:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains video-ready-for-review. Stakeholder updates must use one canonical, uncertainty-aware
+  status record bound to the exact artifact and incident. Every update must distinguish facts,
+  unknowns, impact, owner, checkpoint, escalation, and authorization boundaries. A hold, reminder,
+  heartbeat, research note, or queue update cannot imply approval, publication, remake, or MP4
+  authorization.
+research:
+  - research/2026-08-20-risk-communication-transparency-review-hold-1635.md
+  - research/2026-08-20-firing-239-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+canonical_incident:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  current_owner: null
+  communications_lead: null
+  operational_action_owner: null
+  checkpoint_deadline: null
+  escalation_target: null
+  closure_authority: null
+  latest_valid_event_id: null
+  latest_valid_event_type: none
+  append_only: true
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+canonical_status_record:
+  status_record_id: STATUS-V002-20260819-CANONICAL
+  version: required
+  audience: required
+  communication_author: required
+  author_role: required
+  created_timestamp_utc: required
+  supersedes_status_record_id: required_when_correction
+  correction_reason: required_when_correction
+  correction_author: required_when_correction
+  correction_timestamp_utc: required_when_correction
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  incident_id: required
+  current_state: required
+  state_source_evidence: required
+  known_facts: required
+  unknowns_and_uncertainties: required
+  impact_scope: required
+  user_or_campaign_impact: required
+  limitations: required
+  authorization_boundary: required
+  accountable_owner: required
+  owner_role: required
+  checkpoint_deadline: required
+  escalation_target: required
+  next_action: required
+  terminal_decision_present: required
+  immutable_evidence_references: required
+state_language_rules:
+  video_ready_for_review_is_not_approved: true
+  video_ready_for_review_is_not_published: true
+  under_review_is_not_approved: true
+  blocked_is_not_rejected: true
+  hold_is_not_remake_required: true
+  queue_update_is_not_terminal_review: true
+  research_note_is_not_terminal_review: true
+  owner_assignment_is_not_terminal_review: true
+  reminder_is_not_authorization: true
+  heartbeat_is_not_authorization: true
+  publication_receipt_is_not_reviewer_approval: true
+  no_quality_claim_without_evidence: true
+  no_adoption_claim_without_evidence: true
+  no_accuracy_claim_without_evidence: true
+  no_capability_claim_without_evidence: true
+  no_revenue_claim_without_evidence: true
+  no_completion_claim_without_terminal_state: true
+audience_consistency:
+  canonical_state_shared_across_audiences: required
+  authorization_boundary_shared_across_audiences: required
+  audience_specific_detail_allowed: true
+  audience_specific_state_allowed: false
+  audience_specific_terminal_decision_allowed: false
+  stakeholder_question_log: required
+  response_source_evidence: required
+correction_protocol:
+  silent_edit_or_deletion: forbidden
+  append_superseding_record: required
+  prior_record_id: required
+  correction_reason: required
+  corrected_text: required
+  correction_author: required
+  correction_timestamp_utc: required
+  affected_audience: required
+  linked_evidence: required
+  stale_or_contradictory_record_reconciled: required
+  correction_does_not_change_terminal_state_without_authorized_event: true
+communication_evidence:
+  exact_artifact_identity: required
+  source_commit_or_immutable_reference: required
+  source_evidence_paths: required
+  incident_ledger_head: required
+  current_contract_version: required
+  message_version: required
+  delivery_or_publication_reference: required
+  stakeholder_acknowledgment: required_when_required_by_policy
+scoring_contract:
+  dimension_count: 7
+  dimensions:
+    - id: story_purpose
+      weight_percent: 20
+      communication_scope: required
+      evidence: required
+      score: required
+    - id: directing_visual
+      weight_percent: 15
+      communication_scope: required
+      evidence: required
+      score: required
+    - id: proof_claims
+      weight_percent: 20
+      communication_scope: required
+      evidence: required
+      score: required
+    - id: audio_voice
+      weight_percent: 15
+      communication_scope: required
+      evidence: required
+      score: required
+    - id: captions_text
+      weight_percent: 10
+      communication_scope: required
+      evidence: required
+      score: required
+    - id: technical_platform
+      weight_percent: 10
+      communication_scope: required
+      evidence: required
+      score: required
+    - id: originality_brand
+      weight_percent: 10
+      communication_scope: required
+      evidence: required
+      score: required
+  limitations_per_dimension: required
+  uncertainty_or_confidence_per_dimension: required
+  weighted_total_recomputable: required
+  threshold_percent: 65
+  threshold_comparison: required
+  explicit_terminal_decision: required
+  immutable_evidence_references: required
+required_terminal_fields:
+  - unique_event_id
+  - communication_author_identity
+  - communication_author_role
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - incident_id
+  - current_state
+  - state_source_evidence
+  - known_facts
+  - unknowns_and_uncertainties
+  - impact_scope
+  - limitations
+  - authorization_boundary
+  - accountable_owner
+  - checkpoint_deadline
+  - escalation_target
+  - current_contract_version
+  - incident_ledger_head
+  - seven_dimension_records
+  - dimension_scores
+  - dimension_weights
+  - weighted_contributions
+  - limitations_per_dimension
+  - uncertainty_or_confidence_per_dimension
+  - recomputable_weighted_total
+  - threshold_comparison
+  - explicit_terminal_decision
+  - immutable_evidence_references
+terminal_events_that_clear_lane:
+  - complete_canonical_independent_reviewer_approval_with_status_update
+  - complete_canonical_independent_reviewer_rejection_with_status_update
+  - complete_canonical_independent_REMAKE_REQUIRED_order_with_status_update
+  - explicit_contract_authorized_owner_resolution_with_corrected_status_record
+non_terminal_events:
+  - status_update_only
+  - stakeholder_question
+  - reminder
+  - heartbeat
+  - queue_hold
+  - research_note
+  - publication_receipt
+  - owner_assignment
+  - correction_without_terminal_event
+  - audience_specific_claim
+  - unsupported_quality_claim
+  - unsupported_completion_claim
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append an uncertainty, communication, ownership, or correction-gap event with exact V002
+    provenance, preserve the canonical incident, communicate the unchanged authorization boundary,
+    and escalate without inferring terminal authority.
+required_action: >-
+  Human owner must assign a Communications Lead or accountable owner and publish one canonical
+  status record stating exact artifact identity, current state, known facts, unknowns, impact,
+  limitations, authorization boundary, owner, checkpoint, escalation target, and next action.
+  Independent Video Reviewer must publish the complete terminal packet before any update can state
+  approval, rejection, remake authorization, or publication. Corrections must be append-only and
+  linked to the superseded record. Keep the single-flight lane closed.
+anti_duplication_rule: >-
+  Do not create a new angle brief, duplicate plan, MP4, approval, rejection, or remake. Communication
+  cannot substitute for independent review authority.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only one
+  operational-continuity blocker. If publication fails, write a publication-blocked record with
+  the error and both commit IDs, stop new angles, and escalate.
+constraints:
+  - risk_communication
+  - stakeholder_transparency
+  - canonical_status
+  - uncertainty_disclosure
+  - audience_consistency
+  - append_only_corrections
+  - role_and_owner_clarity
+  - exact_artifact_identity
+  - independent_review_required
+  - evidence_preservation
+  - single_flight_lane_closed
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
