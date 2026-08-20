@@ -1,0 +1,182 @@
+manifest_version: '1.0'
+manifest_id: MAN-founder-proof-triage-state-9x16-v001-20260820-045957
+brief_id: BRF-founder-proof-triage-state-9x16-v001
+script_id: SCR-founder-proof-triage-state-9x16-v001
+matrix_id: MAT-founder-proof-triage-state-9x16-v001
+campaign: founder-proof
+angle: triage-state
+pass_number: 218
+stamp: '20260820-045957'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-explainer
+title: First found is not always first to fix.
+objective: >-
+  Show that the order of competing findings needs visible evidence, scope,
+  consequence, urgency signal, dependency, uncertainty, rationale, owner, and
+  review time; a first-in list or severity label is not enough.
+audience:
+  primary: >-
+    Independent knitwear designers, technical editors, test knitters, craft-business
+    operators, and pattern readers coordinating multiple findings across instructions,
+    sizes, charts, schematics, materials, and review gates.
+  secondary: designers, editors, testers, reviewers, and publication coordinators
+form: founder-proof-tabletop-triage-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: craft and pattern-workflow participants coordinating competing findings
+  tone: calm precise craft-respecting evidence-led non-alarmist
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not
+    be described as a knitter, knitwear designer, pattern designer, technical editor,
+    or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_triage_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    TRI X-001 / FINDING_ID / FINDING_TYPE / AFFECTED_SCOPE / EVIDENCE /
+    CONSEQUENCE / URGENCY_SIGNAL / DEPENDENCY / UNCERTAINTY /
+    PRIORITY_RATIONALE / ORDER / DECISION_OWNER / REVIEW_AT / STATUS
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+  priority_disclaimer: EXAMPLE — NOT A REAL PRIORITY DECISION
+research:
+  file: research/2026-08-20-pass218-browser-findings.md
+  question: >-
+    When several craft or pattern findings compete for attention, what evidence
+    should justify their order before a team treats one as urgent, blocks a release,
+    or starts remediation?
+  decision_changed: >-
+    Select triage-state: keep scope, consequence, urgency signal, dependency,
+    uncertainty, rationale, owner, review time, and status visible behind any order.
+  sources:
+    - id: R218-001
+      title: 'NIST — SP 800-30 Guide for Conducting Risk Assessments'
+      url: https://csrc.nist.gov/pubs/sp/800/30/r1/final
+      accessed: '2026-08-20'
+      limitation: Risk-assessment guidance used as a process analogy, not a knitwear publication standard.
+    - id: R218-002
+      title: 'CISA — BOD 26-04: Prioritizing Security Updates Based on Risk'
+      url: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk
+      accessed: '2026-08-20'
+      limitation: Applies to federal civilian cyber systems; not a Stitch & Scale mandate or capability.
+    - id: R218-003
+      title: 'Craft Yarn Council — Designer Pitfalls'
+      url: https://www.craftyarncouncil.com/pitfalls.html
+      accessed: '2026-08-20'
+      limitation: Industry guidance; it does not verify a current triage feature.
+    - id: R218-004
+      title: 'Craft Yarn Council — Congratulations! You’ve Received the Go Ahead'
+      url: https://www.craftyarncouncil.com/industry.html
+      accessed: '2026-08-20'
+      limitation: Industry guidance; publication-specific requirements may differ.
+concept_difference:
+  nearest_prior: remediation-state
+  changed_pain: >-
+    Several findings compete at once, but their order is not explainable from evidence,
+    scope, consequence, urgency signal, dependency, uncertainty, rationale, owner,
+    and review time.
+  hook: First found is not always first to fix.
+  visual_metaphor: >-
+    Five fictional finding cards arrive in a FIRST IN stack, then move to an evidence-bound
+    triage board where one card is provisionally ORDER: 01 — REVIEW REQUIRED while the others remain visible.
+  emotional_turn: 'Responsible ordering: urgency becomes explainable rather than loud.'
+  final_line: Name the evidence, the consequence, and why this finding goes first.
+dramatic_engine:
+  subject: five fictional finding cards for gauge, stitch count, measurement, chart, and schematic issues
+  desire: decide which finding deserves attention first without losing the others or inventing urgency
+  obstacle: all cards arrive together and the first-in stack competes with evidence
+  stakes: a weakly justified order can delay a wider-scope issue or overreact to a narrow issue
+  change: replace FIRST IN with an evidence-bound triage board
+  contradiction: a finding can be important without being first, and a first position can remain provisional
+  escalation:
+    - FIRST_IN
+    - AFFECTED_SCOPE
+    - CONSEQUENCE
+    - EVIDENCE
+    - URGENCY_SIGNAL
+    - DEPENDENCY
+    - UNCERTAINTY
+    - PRIORITY_RATIONALE
+    - ORDER_REVIEW_REQUIRED
+proof_surface: >-
+  TRI X-001 / FINDING_ID / FINDING_TYPE / AFFECTED_SCOPE / EVIDENCE /
+  CONSEQUENCE / URGENCY_SIGNAL / DEPENDENCY / UNCERTAINTY /
+  PRIORITY_RATIONALE / ORDER / DECISION_OWNER / REVIEW_AT / STATUS
+assets:
+  approved_assets: pending
+  permitted: original neutral cards, fictional pattern fragment or swatch, neutral tabletop, rights-cleared narrator, neutral foley
+  prohibited: real unpublished patterns, private tester comments, customer records, incident reports, publisher submissions, contracts, company names, personal identifiers, current UI captures, copyrighted patterns
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, proof cards, numbers, labels, logos, buttons, menus, or primary actions
+audio:
+  music: none unless rights-cleared and separately approved
+  motif: restrained card-arrival cues and neutral provisional-order hold
+  room_tone: record before and after each setup
+claims:
+  allowed:
+    - First found is not always first to fix.
+    - An evidence-based order can show scope, consequence, urgency signal, dependency, uncertainty, rationale, owner, and review time.
+    - A provisional order is a reasoned position, not a permanent truth.
+  prohibited:
+    - Stitch & Scale prioritizes findings, predicts impact, assigns urgency, recommends release order, blocks publication, or replaces human authority.
+    - Severity alone proves urgency or order.
+    - A fictional card is a real defect, consequence, customer outcome, or product decision.
+    - A triage board replaces calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting.
+    - Revenue, adoption, accuracy, customer outcomes, final pricing, credentials, testimonials, urgency, or capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact triage surface; destination platform, rights,
+  narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-triage-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  adjacent_remediation: ledgers/20260820-remediation-state.md
+  adjacent_priority: ledgers/2026-08-19-priority-state.md
+  adjacent_impact: ledgers/20260820-impact-assessment-state.md
+  adjacent_risk_trigger: ledgers/2026-08-19-risk-trigger.md
+  adjacent_failure_mode: ledgers/2026-08-19-failure-mode.md
+  adjacent_release_roster: ledgers/2026-08-19-release-gate-roster-continuity.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_triage-state_9x16_v001_matrix_20260820-045957.md
+filename:
+  reserved: SS_founder-proof_triage-state_9x16_v001_blocked_20260820-045957.mp4
+  overwrite: false
+  duplicate_check: passed
