@@ -1,0 +1,94 @@
+schema_version: "2.0"
+message_id: "MSG-20260820-114647-director-268"
+message_type: "director_handoff"
+created_at: "2026-08-20T11:46:47+00:00"
+pass_number: 265
+campaign: "founder-proof"
+angle_slug: "local-first-ownership-state"
+plan_id: "SS-PLAN-20260820-LOCAL-FIRST-OWNERSHIP-STATE-V001"
+state: "CONCEPT_BLOCKED"
+status: "blocked"
+
+summary: >-
+  Fresh research selected local-first-ownership-state: local primary data, sync, export,
+  backup, security, and storage status are separate questions. The concept uses original
+  paper responsibility cards and does not claim current Stitch & Scale storage, sync,
+  backup, recovery, persistence, security, or legal ownership behavior.
+
+research:
+  findings: "research/2026-08-20-pass265-browser-findings.md"
+  selection_boundary_audit: "research/2026-08-20-pass265-selection-boundary-audit.md"
+  sources:
+    - "https://www.inkandswitch.com/essay/local-first/"
+    - "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria"
+    - "https://web.dev/articles/persistent-storage"
+    - "https://localfirstweb.dev/"
+  source_limit: "External principles and browser behavior do not prove current Stitch & Scale product behavior, storage implementation, sync, backup, security, or legal ownership."
+
+artifacts:
+  brief: "briefs/SS_founder-proof_local-first-ownership-state_9x16_v001_blocked_20260820-114647.md"
+  script: "scripts/SS_founder-proof_local-first-ownership-state_9x16_v001_blocked_20260820-114647.md"
+  platform_matrix: "platforms/SS_founder-proof_local-first-ownership-state_9x16_v001_matrix_20260820-114647.md"
+  continuity_ledger: "ledgers/20260820-local-first-ownership-state.md"
+  manifest: "manifests/SS_founder-proof_local-first-ownership-state_9x16_v001_blocked_20260820-114647.yml"
+  reserved_media_filename: "SS_founder-proof_local-first-ownership-state_9x16_v001_blocked_20260820-114647.mp4"
+
+proof:
+  product_proof_present: false
+  primary_copy_verified: false
+  sync_verified: false
+  export_verified: false
+  backup_verified: false
+  persistence_verified: false
+  security_verified: false
+  rights_cleared: false
+  captions_reviewed: false
+  audio_reviewed: false
+  platform_reviewed: false
+  acceptance_complete: false
+
+blocker:
+  code: "MISSING_EXACT_STORAGE_OWNERSHIP_PROOF"
+  reason: "No current, approved, versioned, non-private proof verifies the exact primary-copy, sync, export, backup, persistence, storage-status, or security surface."
+  next_action: "Owner supplies the exact current proof-registry record or capture with browser/device context, privacy, rights, and destination; Director reruns validation."
+  owner: "owner"
+
+truth_boundary:
+  david_is_developer: true
+  late_mother_knitted: true
+  david_is_knitter: false
+  david_is_knitwear_designer: false
+  david_is_pattern_designer: false
+  david_is_technical_editor: false
+  david_is_test_knitter: false
+  local_primary_copy_claim: false
+  sync_claim: false
+  automatic_backup_claim: false
+  recovery_guarantee_claim: false
+  security_or_encryption_claim: false
+  persistent_storage_claim: false
+  universal_offline_claim: false
+  legal_ip_ownership_claim: false
+  illustrative_card_is_product_ui: false
+
+continuity:
+  imported_false_completion: "blocked_do_not_touch"
+  imported_false_completion_filename: "SS_founder-testers_false-completion_9x16_v001_blocked_20260819-030020.mp4"
+  imported_release_gate_roster: "blocked_do_not_touch"
+  imported_release_gate_roster_filename: "SS_founder-proof_release-gate-roster_9x16_v001_director-review_20260819-030616.mp4"
+  no_imported_concept_regenerated: true
+  no_imported_concept_overwritten: true
+  no_imported_concept_approved: true
+
+media:
+  generated: false
+  uploaded: false
+  generation_authorized: false
+  upload_authorized: false
+
+exact_generator_action: >-
+  Do not generate or upload. Await one current, versioned, approved, non-private proof-registry
+  record or capture for the exact storage/ownership surface, including primary-copy status,
+  sync status, export path, backup responsibility, persistence behavior, security wording,
+  browser/device context, privacy, rights, and destination; then rerun Director claim, asset,
+  rights, caption, audio, platform, filename, and acceptance validation.
