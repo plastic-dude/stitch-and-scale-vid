@@ -1,0 +1,80 @@
+message_id: MSG-20260820-051504-director-223
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 220
+stamp: '20260820-051504'
+angle: deadline-condition-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_deadline-condition-state_9x16_v001_blocked_20260820-051504.mp4
+nearest_prior: material-availability-state
+hook: A date is not a status.
+final_line: Name the date’s basis, the dependency, and what acceptance still needs.
+research_question: >-
+  What must a craft or pattern deadline record distinguish between requested-by,
+  committed-by, blocked-by, completed-at, accepted-at, and still-open conditions
+  before a team describes work as on time or complete?
+research_file: research/2026-08-20-pass220-browser-findings.md
+research_decision: >-
+  Select deadline-condition-state: keep date basis, request, commitment, dependency,
+  block, owner, completion, acceptance, open condition, and status visible.
+research_sources:
+  - Craft Yarn Council says most magazines and book publishers work six months in advance, asks designers to reconfirm materials and sample size, keep notes, and complete work on time.
+  - Craft Yarn Council separates the actual project, gauge swatch, electronic instructions, schematic, invoice, and return shipping as distinct submission materials.
+  - Craft Yarn Council’s designer pitfalls list includes missing records, incomplete instructions, missing charts or schematics, late submissions, missing measurements, incorrect math, missing stitch counts, gauge mismatch, missing quantities, and unscaled schematics.
+  - Atlassian’s general acceptance-criteria guidance describes clear, concise, testable conditions for completion and acceptance; it is not a Stitch & Scale product claim or a knitwear publication standard.
+objective: >-
+  Show that a date is not a status; preserve requested-by, committed-by, dependency,
+  blocked-by, owner, completed-at, accepted-at, acceptance criteria, open condition,
+  date basis, and status as separate fields.
+audience: >-
+  Independent knitwear designers, technical editors, test knitters, craft-business
+  operators, and pattern readers coordinating projects, submissions, and review gates.
+deliverables:
+  - briefs/SS_founder-proof_deadline-condition-state_9x16_v001_blocked_20260820-051504.md
+  - scripts/SS_founder-proof_deadline-condition-state_9x16_v001_blocked_20260820-051504.md
+  - platforms/SS_founder-proof_deadline-condition-state_9x16_v001_matrix_20260820-051504.md
+  - ledgers/20260820-deadline-condition-state.md
+  - manifests/SS_founder-proof_deadline-condition-state_9x16_v001_blocked_20260820-051504.yml
+  - research/2026-08-20-pass220-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-051504-director-223.yml
+proof_surface: >-
+  DUE D-001 / WORK_ID / DELIVERABLE / REQUESTED_BY / COMMITTED_BY / DEPENDENCY /
+  BLOCKED_BY / BLOCKED_AT / OWNER / COMPLETED_AT / ACCEPTED_AT /
+  ACCEPTANCE_CRITERIA / OPEN_CONDITION / DATE_BASIS / STATUS / REVIEW_RECORD
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact deadline-condition surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim that Stitch & Scale schedules work, predicts delivery, tracks deadlines,
+  marks tasks complete, verifies acceptance, manages dependencies, notifies users, or
+  guarantees publication timing. Do not claim that a date means on-time delivery,
+  correctness, acceptance, publication, or customer outcome. Do not use real project
+  schedules, private editor correspondence, invoices, contracts, customer commitments,
+  addresses, company names, personal identifiers, or copyrighted patterns. Do not claim
+  revenue, adoption, accuracy, customer outcomes, pricing, credentials, testimonials,
+  urgency, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+human_gates: >-
+  Preserve calculation, technical editing, physical print review, chart readability,
+  schematic scale, and test knitting as distinct human evidence gates.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected and remain blocked;
+  their reserved filenames remain occupied. Adjacent material availability, triage,
+  review expiry, handoff, completion boundary, and acceptance-criteria territory remains occupied and was not modified.
+review_state: >-
+  reviews/, orders/, and comms/inbox/ are absent at refresh; no open CRITICAL or HIGH
+  reviewer or remake order is present in the current repository.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Name the destination platform and provide a current, versioned, non-private, rights-cleared
+  product-proof registry entry or approved capture showing work ID, deliverable, requested-by,
+  committed-by, dependency, blocked-by, blocked-at, owner, completed-at, accepted-at, acceptance
+  criteria, open condition, date basis, status, and review record; then rerun all Director gates.
