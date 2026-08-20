@@ -1,0 +1,60 @@
+message_id: MSG-20260820-075226-director-234
+created_at: '2026-08-20T07:52:26+01:00'
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: MAN-founder-proof-evidence-status-state-9x16-v001-20260820-075226
+parent_id: BRF-founder-proof-evidence-status-state-9x16-v001
+status: blocked
+summary: >-
+  Pass 231 selects the materially distinct evidence-status-state concept, but no current product-proof registry or
+  approved capture verifies a Stitch & Scale status subject, scope, evidence-window, setter, supporting-record,
+  next-check, reviewer, and limitation surface.
+evidence:
+  - research/2026-08-20-pass231-browser-findings.md
+  - research/2026-08-20-pass231-selection-boundary-audit.md
+  - briefs/SS_founder-proof_evidence-status-state_9x16_v001_blocked_20260820-075226.md
+  - scripts/SS_founder-proof_evidence-status-state_9x16_v001_blocked_20260820-075226.md
+  - platforms/SS_founder-proof_evidence-status-state_9x16_v001_matrix_20260820-075226.md
+  - ledgers/20260820-evidence-status-state.md
+  - manifests/SS_founder-proof_evidence-status-state_9x16_v001_blocked_20260820-075226.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - repository HEAD a53e404a61535ba2a9298221cd68c66b70650670
+research_decision: >-
+  Atlassian describes a status report as a concise timely update of progress, risks, and next steps with report date,
+  gathered data, blockers, and actions. Knitty separates acceptance, hold, review, technical editing, test knitting,
+  and publication. CYC separates idea, sample, completed project, acceptance, contract, review, labels, swatches,
+  instructions, schematics, invoices, and return shipping. None of these sources proves a Stitch & Scale status surface,
+  freshness check, or approval capability.
+concept_difference: >-
+  Nearest prior is decision-basis-state, which concerns observation, source, derivation, assumption, roles, and open
+  questions beneath a decision. Pass 231 concerns what a status applies to, which evidence window supports it, who set it,
+  when it was set, which records can be checked, what next check can change it, and what remains outside its scope. It is
+  distinct from deadline condition, record purpose, capture freshness, verification, confidence, publication, and imported blocked concepts.
+hook: A status is not evidence until its scope is visible.
+final_line: Name what the status covers, when it was true, and what checks it still needs.
+proof_surface: >-
+  STATUS S-001 / DESIGN_ID / SUBJECT_ID / STATUS_VALUE / STATUS_SCOPE / EVIDENCE_WINDOW_START /
+  EVIDENCE_WINDOW_END / STATUS_SET_AT / STATUS_SET_BY / SUPPORTING_RECORDS / NEXT_CHECK /
+  REVIEWER / REVIEWED_AT / LIMITATIONS / STATUS
+status_boundary: >-
+  A status record cannot establish the truth of underlying evidence, technical editing, test-knit success,
+  rights clearance, publication approval, or user outcome.
+claims_boundary: >-
+  Do not claim that Stitch & Scale automates status, verifies freshness, checks evidence windows, tracks reviewers,
+  predicts readiness, validates technical editing, replaces test knitting, establishes rights clearance, or approves publication.
+rights_boundary: >-
+  Use only original abstract status cards, approved narrator, consented hand performance, and original or cleared card sound.
+  Every card must read ILLUSTRATIVE — NOT PRODUCT UI. No real pattern, sample, test-knit report, customer record,
+  publication decision, invoice, logo, or private data is cleared.
+review_and_audio: >-
+  One narrator family, human-verified caption-on and caption-free versions, mobile-safe captions that never cover cards,
+  dates, roles, records, status, logos, controls, or primary actions, and full-length audio QC.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared product-proof registry entry or approved capture for the exact
+  evidence-status surface, confirm destination platform and asset/privacy rights, then rerun product/data, status-scope,
+  evidence-window, claims, founder-truth, human-evidence, rights, narrator, caption, audio, platform, continuity,
+  filename, and Director gates.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+reserved_filename: SS_founder-proof_evidence-status-state_9x16_v001_blocked_20260820-075226.mp4
