@@ -1,0 +1,187 @@
+receipt_id: PUB-20260821-environment-bound-6f3a2c9
+created_at: '2026-08-21T23:50:00+01:00'
+role: temporary-director
+firing: 233
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: c4e8a1b
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 6f3a2c9
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T235000-temporary-director-233.yml
+research_paths:
+  - research/2026-08-21-environment-bound-review-validation-2350.md
+  - research/2026-08-21-firing-233-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What evidence is required before a Reviewer can generalize a quality judgment from one
+  viewing environment to all intended platform, device, browser, orientation, audio, and
+  export contexts?
+research_decision: >-
+  Require an environment-validation matrix. The terminal packet must identify player,
+  browser, device or viewport, orientation, display scale, audio path, export/container/
+  codec, caption treatment, platform render or upload checks where claimed, tested and
+  untested conditions, external-validity limits, evidence identifiers, and evaluation
+  times. A local-player result cannot silently generalize to all intended social-platform
+  contexts. Unsupported or inaccessible conditions require an evidence-gap or linked
+  revalidation event, not approval.
+environment_contract:
+  environment_matrix: required
+  player_identity: required
+  browser_identity: required_when_applicable
+  browser_version: required_when_available
+  device_identity_or_viewport: required
+  operating_system: required_when_available
+  orientation: required
+  display_scale_or_zoom: required_when_available
+  audio_path: required
+  headphones_or_speakers: required_when_available
+  export_container: required
+  video_codec: required
+  audio_codec: required_when_available
+  frame_rate: required_when_available
+  resolution_as_delivered: required
+  caption_or_subtitle_treatment: required
+  platform_render_or_upload_check: required_when_claimed
+  tested_conditions: required
+  untested_conditions: required
+  external_validity_limitations: required
+  evidence_identifiers: required
+  evaluation_start_time: required
+  evaluation_end_time: required
+platform_findings:
+  works_in_reviewer_player_only: limited_evidence
+  looks_fine_locally_only: limited_evidence
+  untested_platform: non_terminal_for_platform_claim
+  untested_device: non_terminal_for_device_claim
+  untested_orientation: non_terminal_for_orientation_claim
+  untested_audio_path: non_terminal_for_audio_claim
+  untested_export_or_codec: non_terminal_for_technical_claim
+  unknown_delivery_context: evidence_gap
+  silent_generalization: non_terminal
+  missing_external_validity_limitations: non_terminal
+  inaccessible_render: evidence_gap
+  missing_upload_or_platform_evidence_when_claimed: non_terminal
+known_environment_risks:
+  crop_or_safe_area_difference: evidence_required
+  caption_obstruction_or_reflow: evidence_required
+  text_legibility_or_contrast: evidence_required
+  audio_loudness_or_voice_mixing: evidence_required
+  audio_video_sync: evidence_required
+  color_or_gamma_difference: evidence_required
+  frame_rate_or_timing_difference: evidence_required
+  codec_or_container_behavior: evidence_required
+scoring_contract:
+  dimension_count: 7
+  weights_percent:
+    story_purpose: 20
+    directing_visual: 15
+    proof_claims: 20
+    audio_voice: 15
+    captions_text: 10
+    technical_platform: 10
+    originality_brand: 10
+  environment_scope_per_dimension: required
+  limitations_per_dimension: required
+  uncertainty_or_confidence_per_dimension: required
+  weighted_total_recomputable: required
+  threshold_percent: 65
+  threshold_comparison: required
+  explicit_terminal_decision: required
+  immutable_evidence_references: required
+required_terminal_fields:
+  - unique_event_id
+  - event_timestamp
+  - authorized_actor_identity
+  - independent_reviewer_role
+  - prior_event_id
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - artifact_manifest_version
+  - review_contract_version
+  - scoring_weights_version
+  - threshold_version
+  - evidence_schema_version
+  - evaluation_method_version
+  - environment_matrix
+  - player_identity
+  - browser_identity
+  - device_identity_or_viewport
+  - operating_system
+  - orientation
+  - display_scale_or_zoom
+  - audio_path
+  - export_container
+  - video_codec
+  - audio_codec
+  - frame_rate
+  - resolution_as_delivered
+  - caption_or_subtitle_treatment
+  - platform_render_or_upload_check
+  - tested_conditions
+  - untested_conditions
+  - external_validity_limitations
+  - known_environment_risk_findings
+  - evidence_identifiers
+  - evaluation_start_time
+  - evaluation_end_time
+  - seven_dimension_records
+  - dimension_scores
+  - dimension_weights
+  - weighted_contributions
+  - limitations_per_dimension
+  - uncertainty_or_confidence_per_dimension
+  - recomputable_weighted_total
+  - threshold_comparison
+  - explicit_terminal_decision
+  - immutable_evidence_references
+terminal_events_that_clear_lane:
+  - complete_environment_bound_exact_provenance_independent_reviewer_approval
+  - complete_environment_bound_exact_provenance_independent_reviewer_rejection
+  - complete_environment_bound_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution_with_environment_binding
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append timeout, environment-gap, and unsupported-generalization evidence with exact
+    provenance, escalate the same incident, preserve the lane as blocked, and do not infer
+    terminal authorization.
+next_action: >-
+  Independent Video Reviewer must publish one complete exact-provenance packet with an
+  environment matrix, tested-versus-untested disclosure, platform evidence where claimed,
+  external-validity limitations, all seven dimension records, recomputable scoring, threshold
+  comparison, explicit outcome, and immutable evidence, or a linked continuation or
+  revalidation packet resolving gaps. Human owner must assign owner, role, bounded checkpoint,
+  and escalation target. Keep the lane closed and do not create a brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
