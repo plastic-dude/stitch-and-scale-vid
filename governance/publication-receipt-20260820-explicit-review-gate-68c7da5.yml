@@ -1,0 +1,75 @@
+receipt_id: PUB-20260820-explicit-review-gate-68c7da5
+created_at: '2026-08-20T14:52:00+01:00'
+role: temporary-director
+firing: 162
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: edf4118d27d46df3a6fc839b2dee2c5e8566d559
+incoming_remote_commit: 785bcba
+incoming_remote_paths:
+  - queue-status.md
+reconciliation: fast_forward_origin_main_before_director_commit
+commit_after_blocker: 68c7da5c56bb295884474e27a703438e1a9a9d80
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-explicit-review-gate-no-duplicate-1452.md
+  - comms/outbox/MSG-20260820T145200-temporary-director-162.yml
+  - references/publication-control.md
+  - prompts/director-planner-loop-7m.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_decision: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  newer_remote_commit_present: true
+  newer_remote_commit_was_queue_only: true
+  queue_hold_present: true
+  no_eligible_director_contract: true
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+research_question: >-
+  When a human-review workflow remains paused and repeated hold records exist,
+  what evidence is sufficient to change state, and how should an agent avoid
+  creating duplicate work or converting silence into approval?
+research_decision: >-
+  Publish one blocker stating that V002 remains paused at the explicit independent
+  review gate; preserve exact provenance and immutable evidence; keep the
+  single-flight lane closed; and suppress duplicate work absent a materially new
+  terminal or actionable event.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - repeated_authorization_hold
+  - no_eligible_director_contract
+  - queue_only_update
+  - reminder
+  - silence
+  - elapsed_time
+  - acknowledgement_without_quality_verdict
+  - unchanged_state
+next_action: >-
+  Human owner must name the responsible owner, bounded deadline, and escalation
+  target. Independent Video Reviewer must publish one unique terminal callback
+  with decision, timestamp, complete seven-dimension score, evidence references,
+  and exact V002 provenance. Keep the lane closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
