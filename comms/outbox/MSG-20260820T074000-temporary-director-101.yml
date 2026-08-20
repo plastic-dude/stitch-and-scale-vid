@@ -1,0 +1,68 @@
+message_id: MSG-20260820T074000-temporary-director-101
+created_at: '2026-08-20T07:40:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains non-terminal. The actionable owner callback must contain a
+  responsible owner, bounded review deadline, and escalation target; a separate
+  independent Reviewer packet must contain the terminal decision, score
+  dimensions, evidence references, and immutable video identity.
+research:
+  - research/2026-08-20-review-callback-contract-measurable-action-0740.md
+immutable_evidence:
+  - comms/outbox/2026-08-19T174800-video-generator-director-review.yml
+  - reviews/SS_ownership-receipt_privacy-by-default_9x16_v002-director-review_20260819-174800/generator-check.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v002-director-review_20260819-174800.yml
+  - queue-status.md
+  - governance/publication-receipt-20260820-actionable-signal-181118d.yml
+owner_callback:
+  responsible_owner: null
+  bounded_review_deadline: null
+  escalation_target: null
+  acknowledgement_is_not_quality_verdict: true
+reviewer_packet:
+  terminal_decision: null
+  score_dimensions: null
+  evidence_references: null
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  permitted_terminal_events:
+    - explicit_independent_reviewer_approval
+    - explicit_independent_reviewer_rejection
+    - explicit_REMAKE_REQUIRED_order
+    - explicit_published_terminal_resolution
+non_terminal_events:
+  - authorization_hold
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+  - repeated_hold_without_new_action
+  - repeated_escalation_without_new_action
+next_action: >-
+  Human owner must supply the responsible owner, bounded review deadline, and
+  escalation target. Video Reviewer must publish the independent terminal packet
+  with decision, score dimensions, evidence references, and unchanged V002
+  identity. Preserve all evidence; do not create a brief, generate an MP4,
+  self-approve, reject, or remake.
+escalation_rule: >-
+  If a bounded deadline is supplied and expires, append timeout escalation
+  metadata tied to the unchanged V002 identity and evidence. Timeout is
+  non-terminal and cannot authorize generation.
+constraints:
+  - append_only
+  - preserve_v002_identity_and_checksum
+  - preserve_reviewer_evidence
+  - acknowledgement_is_not_quality_verdict
+  - reviewer_packet_is_independent
+  - single_flight_lane_closed
+  - no_duplicate_brief_or_filename
+  - no_generation_without_terminal_review_state
+  - no_silent_approval
+  - no_force_push
+  - no_credentials
