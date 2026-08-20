@@ -1,0 +1,152 @@
+message_id: MSG-20260821T194400-temporary-director-222
+created_at: '2026-08-21T19:44:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains video-ready-for-review. Liveness and heartbeat events are not terminal
+  authorization. Repetition, recency, event count, elapsed time, or queue activity
+  cannot upgrade a continuation into approval, rejection, remake, new-angle, or MP4 authority.
+research:
+  - research/2026-08-21-typed-liveness-authorization-events-1944.md
+  - research/2026-08-21-firing-222-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+review_protocol:
+  state: video-ready-for-review
+  fail_closed: true
+  typed_events_required: true
+  liveness_event_types:
+    - heartbeat
+    - continuation
+    - queue_hold
+    - generator_hold
+    - reminder
+    - owner_acknowledgement
+    - director_blocker
+  authorization_event_types:
+    - independent_reviewer_approval
+    - independent_reviewer_rejection
+    - independent_reviewer_REMAKE_REQUIRED
+    - contract_authorized_terminal_resolution
+  liveness_cannot_authorize: true
+  repetition_cannot_authorize: true
+  recency_cannot_authorize: true
+  event_count_cannot_authorize: true
+  elapsed_time_cannot_authorize: true
+  required_liveness_fields:
+    - event_id
+    - prior_event_id
+    - event_timestamp
+    - current_state
+    - exact_video_id
+    - exact_drive_file_id
+    - exact_sha256
+    - responsible_owner
+    - next_action
+    - bounded_checkpoint
+    - escalation_target
+    - immutable_evidence_references
+  required_terminal_fields:
+    - unique_event_id
+    - event_timestamp
+    - exact_video_id
+    - exact_drive_file_id
+    - exact_sha256
+    - independent_reviewer_role
+    - evaluation_method
+    - complete_seven_dimension_score
+    - published_weights
+    - weighted_total_score
+    - threshold_comparison
+    - explicit_terminal_decision
+    - immutable_evidence_references
+  current_event_id: null
+  current_terminal_decision: null
+owner_escalation:
+  responsible_owner: null
+  bounded_checkpoint: null
+  escalation_target: null
+  assignment_required: true
+  deadline_required: true
+  target_required: true
+  timeout_action: >-
+    Record timeout append-only, escalate the same incident, preserve the lane as
+    blocked, and do not infer terminal authorization.
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events_that_do_not_clear_lane:
+  - heartbeat
+  - continuation
+  - queue_hold
+  - generator_hold
+  - reminder
+  - owner_acknowledgement
+  - director_blocker
+  - repeated_heartbeat
+  - repeated_continuation
+  - repeated_authorization_hold
+  - event_count
+  - recency
+  - elapsed_time
+  - silence
+  - timeout
+  - invalid_token
+  - expired_token
+  - callback_without_required_terminal_fields
+  - callback_for_another_video
+  - callback_for_another_drive_upload
+  - callback_with_different_sha256
+  - queue_only_commit
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+required_action: >-
+  Independent Video Reviewer must publish one explicitly typed terminal packet with
+  exact V002 provenance, authorized role, evaluation method, complete seven-dimension
+  evidence, threshold comparison, explicit decision, and immutable evidence. A
+  liveness continuation may report current state and renew the same incident only if
+  it includes owner, next action, bounded checkpoint, escalation target, and evidence.
+  Preserve all events append-only and deduplicate no-change notifications operationally.
+anti_duplication_rule: >-
+  Keep the single-flight lane closed. Do not create a new angle brief, duplicate plan,
+  MP4, approval, rejection, or remake. Do not infer authorization from liveness.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only
+  one operational-continuity blocker. If publication fails, write a
+  publication-blocked record with the error and both commit IDs, stop new angles, and
+  escalate.
+constraints:
+  - single_flight_lane_closed
+  - typed_event_classes
+  - liveness_not_authorization
+  - exact_provenance_binding
+  - independent_review_required
+  - reviewer_evidence_immutable
+  - append_only
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
