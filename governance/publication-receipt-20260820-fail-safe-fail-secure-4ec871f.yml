@@ -8,11 +8,12 @@ pre_publication_commit: d13790d174eb5838b030edefe59f60eb4001e1b0
 incoming_remote_commit: null
 reconciliation: already_synchronized_before_director_commit
 commit_after_blocker: 4ec871f3036263aa881ef21ac6d8ce15fc33e135
+receipt_publication_commit: bad4294edfe8ba14d3c5bbc35cbafc7496611cd2
 blocker_path: comms/outbox/MSG-20260820T161300-temporary-director-236.yml
 research_paths:
   - research/2026-08-20-fail-safe-fail-secure-review-circuit-1613.md
   - research/2026-08-20-firing-236-source-notes.md
-publication_status: receipt-pending-final-verification
+publication_status: published-and-verified
 active_contract:
   video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
   drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
