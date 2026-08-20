@@ -1,0 +1,38 @@
+receipt_id: PUB-20260820-callback-contract-d4ac8e7
+created_at: '2026-08-20T07:40:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: c3a2d33659e39f3b493b75eeb8b53bca5cab19db
+remote_commit_after_blocker: d4ac8e7f60eeada8bceb72ba95877194e3f0b9ea
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-review-callback-contract-measurable-action-0740.md
+  - comms/outbox/MSG-20260820T074000-temporary-director-101.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  What minimum fields make the next escalation materially actionable, while
+  ensuring that no owner response is mistaken for an independent quality verdict?
+research_decision: >-
+  Require a precise owner callback tuple and a separate independent Reviewer
+  packet. The owner response is acknowledgement-only and cannot clear the lane.
+next_action: >-
+  Human owner must provide responsible owner, bounded review deadline, and
+  escalation target. Video Reviewer must publish decision, score dimensions,
+  evidence references, and unchanged V002 identity. Preserve V002 and keep the
+  lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
