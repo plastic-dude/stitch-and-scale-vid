@@ -1,0 +1,210 @@
+manifest_id: MAN-founder-proof-translation-state-9x16-v001-20260820-073132
+brief_id: BRF-founder-proof-translation-state-9x16-v001
+script_id: SCR-founder-proof-translation-state-9x16-v001
+matrix_id: MAT-founder-proof-translation-state-9x16-v001
+campaign: founder-proof
+angle: translation-state
+pass_number: 228
+stamp: '20260820-073132'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-proof-short
+title: A translated pattern is not just the same file in another language.
+objective: >-
+  Show why a translated or localized pattern needs a source, locale, unit, terminology, permission, and review trail,
+  without claiming Stitch & Scale currently translates, localizes, or certifies patterns.
+audience:
+  primary: >-
+    Independent knitwear designers, pattern publishers, technical editors, test knitters,
+    sample coordinators, and makers preparing multilingual or cross-locale pattern materials.
+  secondary: designers, editors, testers, reviewers, and publication coordinators
+form: founder-proof-tabletop-source-target-translation-trail-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: craft and knitwear workflow participants who need an honest source-to-target artifact trail
+  tone: calm precise craft-respecting rights-aware and explicit about translation versus technical review
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+product_truth:
+  current_translation_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    TRANSLATION T-001 / DESIGN_ID / SOURCE_ARTIFACT_ID / SOURCE_VERSION / SOURCE_LOCALE /
+    TARGET_ARTIFACT_ID / TARGET_LOCALE / LANGUAGE_OF_PARTS / DIRECTION / UNIT_SYSTEM /
+    ABBREVIATION_KEY / CHART_REFERENCE / SCHEMATIC_REFERENCE / PERMISSION_STATUS / RIGHTS_BASIS /
+    TRANSLATOR_OR_SOURCE / REVIEWER / REVIEWED_AT / TRANSLATION_STATUS / RELEASE_STATUS
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+  identity_boundary: >-
+    A translation record cannot prove semantic accuracy, technical correctness, chart equivalence, grading,
+    test-knit success, legal compliance, accessibility conformance, or publication approval.
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be described as a knitter,
+    knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - care review
+    - test knitting
+research:
+  file: research/2026-08-20-pass228-browser-findings.md
+  question: >-
+    When a knitwear pattern is translated or localized, what record preserves the source version, locale, units,
+    abbreviations, permissions, reviewer, and status without claiming translation quality, legal compliance, or publication approval?
+  decision_changed: >-
+    Select translation-state: isolate source/target artifact identity, locale, language metadata, units, abbreviations,
+    linked chart/schematic, permission, rights basis, reviewer, translation status, and release status.
+  sources:
+    - id: R228-001
+      title: 'Knitty — Design or Write For Knitty; updated June 17, 2026'
+      url: https://knitty.com/subguide.php
+      accessed: '2026-08-20'
+      evidence: A translation may require copyright-holder permission, a note that permission was granted, and a link to the original; the creator retains copyright.
+      limitation: One publication policy; not legal advice or universal licensing law.
+    - id: R228-002
+      title: 'W3C WAI — Understanding WCAG 2.2 SC 3.1.2 Language of Parts'
+      url: https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html
+      accessed: '2026-08-20'
+      evidence: Language of passages or phrases should be programmatically determinable for assistive technologies.
+      limitation: Accessibility guidance; not translation-quality or product proof.
+    - id: R228-003
+      title: 'W3C Internationalization — Authoring HTML techniques'
+      url: https://www.w3.org/International/techniques/authoring-html
+      accessed: '2026-08-20'
+      evidence: Document language metadata and text-processing language declarations are distinct concerns.
+      limitation: Web authoring guidance; not a knitwear translation validator.
+    - id: R228-004
+      title: 'Craft Yarn Council — Standards and Guidelines'
+      url: https://www.craftyarncouncil.com/standards
+      accessed: '2026-08-20'
+      evidence: Industry guidelines cover yarn/needle labeling, patterns, charts, abbreviations, and sizing.
+      limitation: Voluntary craft context; not universal law or translation certification.
+    - id: R228-005
+      title: 'Instagram Help — Reel size & aspect ratios'
+      url: https://help.instagram.com/1038071743007909
+      accessed: '2026-08-20'
+      evidence: Reels support 1.91:1 through 9:16, with minimum 30 fps and 720 pixels.
+      limitation: Recheck at approval; no upload authorized.
+    - id: R228-006
+      title: 'TikTok Support — Accessibility for your videos'
+      url: https://support.tiktok.com/en/using-tiktok/creating-videos/accessibility
+      accessed: '2026-08-20'
+      evidence: Auto-generated captions can be edited or removed.
+      limitation: Market/app support may vary; automatic captions are draft-only.
+    - id: R228-007
+      title: 'YouTube Help — Add subtitles & captions'
+      url: https://support.google.com/youtube/answer/2734796?hl=en
+      accessed: '2026-08-20'
+      evidence: Timed captions and meaningful non-speech cues are supported by the guidance.
+      limitation: Platform tooling does not replace human caption review or establish product accessibility.
+product_and_rights_decision: >-
+  No current product-proof registry or approved non-private capture verifies a Stitch & Scale translation surface.
+  Use original abstract source/target cards only; exclude real patterns, charts, schematics, translations, publication
+  assets, customer records, logos, and private data. Rights/privacy clearance remains required.
+concept_difference:
+  nearest_prior: visual-description-state
+  changed_pain: >-
+    A target-language pattern can look complete while its source version, permission, technical terms, units,
+    chart links, reviewer, and release status remain unknown.
+  hook: A translated pattern is not just the same file in another language.
+  visual_metaphor: >-
+    SOURCE PATTERN connects to TARGET LOCALE while the gate exposes source version, permission, units,
+    abbreviations, chart/schematic links, reviewer, and status.
+  emotional_turn: 'Responsible specificity: target-language confidence gives way to source, permission, terminology, and review.'
+  final_line: Name the source, the language, the permission, and the review.
+dramatic_engine:
+  subject: fictional source pattern and target-locale cards
+  desire: know which source artifact the target text came from and what permission and review apply
+  obstacle: target language is visible but source, permission, units, terms, linked files, reviewer, and status are unstated
+  stakes: a target-language file may travel as if approved, equivalent, or authorized; no real translation failure is claimed
+  change: 'replace TARGET FILE: READY with TRANSLATION: UNVERIFIED'
+  contradiction: a fluent-looking translation can still have an incomplete artifact trail
+  escalation:
+    - TARGET_LOCALE
+    - SOURCE_ARTIFACT_AND_VERSION
+    - PERMISSION_AND_RIGHTS_BASIS
+    - LANGUAGE_UNITS_AND_ABBREVIATIONS
+    - CHART_AND_SCHEMATIC_REFERENCES
+    - REVIEW_AND_RELEASE_STATUS
+    - 'TRANSLATION: UNVERIFIED'
+  final_image: >-
+    TRANSLATION: UNVERIFIED remains beside separate technical and human-gate cards;
+    every prop reads ILLUSTRATIVE — NOT PRODUCT UI.
+proof_surface: >-
+  TRANSLATION T-001 / DESIGN_ID / SOURCE_ARTIFACT_ID / SOURCE_VERSION / SOURCE_LOCALE /
+  TARGET_ARTIFACT_ID / TARGET_LOCALE / LANGUAGE_OF_PARTS / DIRECTION / UNIT_SYSTEM /
+  ABBREVIATION_KEY / CHART_REFERENCE / SCHEMATIC_REFERENCE / PERMISSION_STATUS / RIGHTS_BASIS /
+  TRANSLATOR_OR_SOURCE / REVIEWER / REVIEWED_AT / TRANSLATION_STATUS / RELEASE_STATUS
+assets:
+  approved_assets: pending
+  permitted: original abstract source/target cards, neutral tabletop, rights-cleared narrator, original card sound
+  prohibited: real pattern, chart, schematic, translation, publication asset, customer record, logo, private data, current UI capture
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover cards, technical terms, rights fields, status, logos, controls, or primary actions
+audio:
+  music: none unless original or separately rights-cleared and approved
+  motif: soft source-to-target card slide, held permission pause, silence on unverified status
+  room_tone: record before and after each setup
+claims:
+  allowed:
+    - A translation should identify its source and permission when the rights holder authorizes it.
+    - Language of passages can be identified for assistive technology.
+    - CYC guidelines cover patterns, charts, abbreviations, labels, and sizing.
+    - Translation status is separate from technical editing, chart readability, schematic scale, and test knitting.
+  prohibited:
+    - Stitch & Scale translates, localizes, converts units, preserves technical meaning, manages permission, validates translations, certifies accessibility, replaces technical editing, or approves publication.
+    - A fluent target file proves semantic accuracy, technical correctness, chart equivalence, grading, test-knit success, legal compliance, or publication acceptance.
+    - A permission note proves technical correctness or publication approval.
+    - A fictional source/target card is current product UI, customer data, or a real pattern record.
+    - David is an accountant, lawyer, translator, publisher, knitter, designer, pattern designer, technical editor, or tester.
+    - Revenue, adoption, accuracy, customer outcomes, final pricing, credentials, testimonials, urgency, or unverified capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - translation_surface_exactness
+  - claims_and_human_gate_separation
+  - founder_truth
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or approved capture verifies
+  the exact translation surface; destination platform, rights, narrator, caption, audio, privacy, and final
+  acceptance evidence remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-translation-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  nearest_prior: visual-description-state
+  adjacent_language: ledgers/2026-08-19-language-state.md
+  adjacent_caption: ledgers/2026-08-19-caption-state.md
+  adjacent_export_identity: ledgers/20260820-export-identity-state.md
+  adjacent_publication: ledgers/2026-08-20-publication-boundary-state.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_translation-state_9x16_v001_matrix_20260820-073132.md
+filename:
+  reserved: SS_founder-proof_translation-state_9x16_v001_blocked_20260820-073132.mp4
+  overwrite: false
+  duplicate_check: pending_validation

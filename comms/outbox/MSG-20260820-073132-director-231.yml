@@ -1,0 +1,60 @@
+message_id: MSG-20260820-073132-director-231
+created_at: '2026-08-20T07:31:32+01:00'
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: MAN-founder-proof-translation-state-9x16-v001-20260820-073132
+parent_id: BRF-founder-proof-translation-state-9x16-v001
+status: blocked
+summary: >-
+  Pass 228 selects the materially distinct translation-state concept, but no current product-proof registry or
+  approved capture verifies a Stitch & Scale source-to-target localization surface.
+evidence:
+  - research/2026-08-20-pass228-browser-findings.md
+  - research/2026-08-20-pass228-selection-boundary-audit.md
+  - briefs/SS_founder-proof_translation-state_9x16_v001_blocked_20260820-073132.md
+  - scripts/SS_founder-proof_translation-state_9x16_v001_blocked_20260820-073132.md
+  - platforms/SS_founder-proof_translation-state_9x16_v001_matrix_20260820-073132.md
+  - ledgers/20260820-translation-state.md
+  - manifests/SS_founder-proof_translation-state_9x16_v001_blocked_20260820-073132.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - repository HEAD 6ddaa306f5b2a68eefd9f80c57e59b3341b6fba2
+research_decision: >-
+  Knitty’s current June 17, 2026 guidance says a translation may require copyright-holder permission, a note that
+  permission was granted, and a link to the original; the creator retains copyright. W3C distinguishes language
+  metadata from language-of-parts declarations, and CYC describes guidelines for patterns, charts, abbreviations,
+  labels, and sizing. Current Instagram, TikTok, YouTube, and W3C sources set conservative mobile, caption, audio,
+  and accessibility gates. None of these sources proves a Stitch & Scale localization surface.
+concept_difference: >-
+  Nearest prior is visual-description-state, which concerns image-description scope. Pass 228 concerns a pattern
+  artifact moving from a source locale to a target locale: source artifact/version, locale, language metadata, units,
+  abbreviations, chart/schematic links, permission, rights basis, reviewer, translation status, and release status.
+  It is distinct from language/caption/audio, export-identity, publication-boundary, chart-parity, and imported blocked concepts.
+hook: A translated pattern is not just the same file in another language.
+final_line: Name the source, the language, the permission, and the review.
+proof_surface: >-
+  TRANSLATION T-001 / DESIGN_ID / SOURCE_ARTIFACT_ID / SOURCE_VERSION / SOURCE_LOCALE /
+  TARGET_ARTIFACT_ID / TARGET_LOCALE / LANGUAGE_OF_PARTS / DIRECTION / UNIT_SYSTEM /
+  ABBREVIATION_KEY / CHART_REFERENCE / SCHEMATIC_REFERENCE / PERMISSION_STATUS / RIGHTS_BASIS /
+  TRANSLATOR_OR_SOURCE / REVIEWER / REVIEWED_AT / TRANSLATION_STATUS / RELEASE_STATUS
+translation_boundary: >-
+  A translation record cannot prove semantic accuracy, technical correctness, chart equivalence, grading,
+  test-knit success, legal compliance, accessibility conformance, or publication approval.
+claims_boundary: >-
+  Do not claim that Stitch & Scale translates, localizes, converts units, preserves technical meaning, manages
+  permission, validates translations, certifies accessibility, replaces technical editing, or approves publication.
+rights_boundary: >-
+  Use only original abstract source/target cards, approved narrator, consented hand performance, and original or cleared
+  card sound. Every card must read ILLUSTRATIVE — NOT PRODUCT UI. No real pattern, chart, schematic, translation,
+  publication asset, customer record, logo, or private data is cleared.
+review_and_audio: >-
+  One narrator family, human-verified caption-on and caption-free versions, mobile-safe captions that never cover
+  cards, technical terms, rights fields, status, logos, controls, or primary actions, and full-length audio QC.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared product-proof registry entry or approved capture for
+  the exact translation surface, confirm destination platform and asset/privacy rights, then rerun product/data,
+  translation-scope, claims, founder-truth, human-evidence, rights, narrator, caption, audio, platform, continuity,
+  filename, and Director gates.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+reserved_filename: SS_founder-proof_translation-state_9x16_v001_blocked_20260820-073132.mp4
