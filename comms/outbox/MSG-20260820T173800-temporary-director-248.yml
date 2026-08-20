@@ -1,0 +1,344 @@
+message_id: MSG-20260820T173800-temporary-director-248
+created_at: '2026-08-20T17:38:20+00:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains non-terminal after Reviewer record REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  reported BLOCKED at 86.0% with no REMAKE_REQUIRED order. A v002 configuration baseline and drift
+  report are required across the Drive artifact, repository contract, manifest, Reviewer evidence,
+  captions and safe-zone settings, platform QA, rights/audio declaration, and Generator order. A
+  matching filename or checksum alone cannot prove that all configuration items are aligned.
+research:
+  - research/2026-08-20-configuration-drift-v002-review-gate-1738.md
+  - research/2026-08-20-firing-248-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  non_terminal_reviewer_block_record: true
+  latest_reviewer_record: REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  latest_reviewer_status: BLOCKED
+  latest_reviewer_weighted_score_percent: 86.0
+  latest_reviewer_remake_order_id: null
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+canonical_incident:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  current_owner: null
+  latest_valid_event_id: REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  latest_valid_event_type: reviewer_blocked_non_terminal
+  append_only: true
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+configuration_baseline_contract:
+  baseline_id: required
+  baseline_version: required
+  baseline_status: owner_approved_or_draft_explicitly_labeled
+  baseline_owner_identity: required
+  baseline_owner_role: required
+  baseline_approval_reference: required
+  effective_timestamp_utc: required
+  review_date: required
+  change_control_reference: required
+  exact_active_review_contract_binding: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  exact_filename: required
+  configuration_item_inventory: required
+  expected_value_digest: required
+  baseline_snapshot_digest: required
+  source_commit_or_record: required
+  source_timestamp_utc: required
+  freshness_bound: required
+  schema_version: required
+  evaluation_method: required
+  hermetic_evaluation: required
+  side_effects_during_evaluation: forbidden
+configuration_items:
+  approved_brief:
+    expected_reference: required
+    observed_reference: required
+    expected_digest: required
+    observed_digest: required
+    difference_type: required
+    freshness: required
+    owner: required
+    disposition: required
+    downstream_revalidation: required
+  source_contract:
+    expected_reference: required
+    observed_reference: required
+    expected_digest: required
+    observed_digest: required
+    difference_type: required
+    freshness: required
+    owner: required
+    disposition: required
+    downstream_revalidation: required
+  drive_media:
+    expected_filename: required
+    observed_filename: required
+    expected_drive_file_id: required
+    observed_drive_file_id: required
+    expected_sha256: required
+    observed_sha256: required
+    duration: required
+    dimensions: required
+    fps: required
+    codec: required
+    audio_format: required
+    difference_type: required
+    freshness: required
+    owner: required
+    disposition: required
+    downstream_revalidation: required
+  repository_manifest:
+    expected_reference: required
+    observed_reference: required
+    expected_status: required
+    observed_status: required
+    expected_drive_file_id: required
+    observed_drive_file_id: required
+    expected_sha256: required
+    observed_sha256: required
+    qa_status: required
+    difference_type: required
+    freshness: required
+    owner: required
+    disposition: required
+    downstream_revalidation: required
+  reviewer_packet:
+    expected_review_id: required
+    observed_review_id: required
+    expected_status: required
+    observed_status: required
+    expected_score: required
+    observed_score: required
+    expected_threshold: required
+    observed_threshold: required
+    expected_evidence_schema: required
+    observed_evidence_schema: required
+    difference_type: required
+    freshness: required
+    owner: required
+    disposition: required
+    downstream_revalidation: required
+  captions_and_safe_zone:
+    expected_caption_track_reference: required
+    observed_caption_track_reference: required
+    caption_on_evidence: required
+    caption_off_evidence: required
+    expected_safe_zone_profile: required
+    observed_safe_zone_profile: required
+    expected_coordinates: required
+    observed_coordinates: required
+    difference_type: required
+    freshness: required
+    owner: required
+    disposition: required
+    downstream_revalidation: required
+  platform_qa:
+    expected_platform_profile: required
+    observed_platform_profile: required
+    expected_resolution: required
+    observed_resolution: required
+    expected_aspect_ratio: required
+    observed_aspect_ratio: required
+    expected_codec: required
+    observed_codec: required
+    expected_audio_profile: required
+    observed_audio_profile: required
+    expected_runtime: required
+    observed_runtime: required
+    difference_type: required
+    freshness: required
+    owner: required
+    disposition: required
+    downstream_revalidation: required
+  rights_and_audio:
+    expected_declaration_reference: required
+    observed_declaration_reference: required
+    expected_voice_identity: required
+    observed_voice_identity: required
+    expected_media_rights: required
+    observed_media_rights: required
+    difference_type: required
+    freshness: required
+    owner: required
+    disposition: required
+    downstream_revalidation: required
+  generator_order:
+    expected_order_id: required
+    observed_order_id: required
+    expected_scope: required
+    observed_scope: required
+    expected_version: required
+    observed_version: required
+    expected_correction: required
+    observed_correction: required
+    difference_type: required
+    freshness: required
+    owner: required
+    disposition: required
+    downstream_revalidation: required
+drift_report:
+  report_id: required
+  report_version: required
+  baseline_id: required
+  baseline_digest: required
+  observed_snapshot_id: required
+  observed_snapshot_digest: required
+  observed_at_utc: required
+  source_identity: required
+  detection_started_at_utc: required
+  detection_completed_at_utc: required
+  detection_status: required
+  last_successful_detection_at_utc: required
+  stale_result_rejected: required
+  expected_value: required_per_item
+  observed_value: required_per_item
+  difference_type: required_per_item
+  property_path: required_per_difference
+  source_timestamp: required_per_item
+  freshness: required_per_item
+  evidence_reference: required_per_item
+  change_owner: required_per_difference
+  change_reason: required_per_difference
+  disposition: required_per_difference
+  impact_assessment: required_per_difference
+  downstream_contracts_affected: required_per_difference
+  revalidation_status: required_per_difference
+  unresolved_drift: required
+  unowned_drift: required
+  missing_baseline: required
+  missing_observation: required
+  report_immutable: true
+  report_readback: required
+  report_is_not_terminal_authority: true
+comparison_rules:
+  expected_and_observed_required: true
+  additions_identified: true
+  removals_identified: true
+  modifications_identified: true
+  missing_values_not_equal_to_compliant: true
+  stale_comparison_not_acceptable: true
+  checksum_match_not_sufficient_alone: true
+  filename_match_not_sufficient_alone: true
+  manifest_match_not_sufficient_alone: true
+  reviewer_score_not_configuration_proof: true
+  configuration_drift_is_not_auto_repaired: true
+  baseline_change_requires_change_control: true
+  drift_disposition_requires_owner: true
+  material_drift_requires_downstream_revalidation: true
+  unresolved_drift_is_non_terminal: true
+  unowned_drift_is_non_terminal: true
+  missing_baseline_is_non_terminal: true
+  missing_observation_is_non_terminal: true
+  stale_drift_result_is_non_terminal: true
+reconciliation_rules:
+  preserve_prior_baseline: true
+  preserve_prior_observations: true
+  preserve_prior_reviewer_evidence: true
+  publish_new_versioned_baseline: true
+  publish_new_versioned_manifest_when_changed: true
+  publish_append_only_drift_record: true
+  record_change_owner: true
+  record_change_rationale: true
+  record_effective_timestamp: true
+  identify_affected_contracts: true
+  revalidate_affected_review: true
+  revalidate_affected_platform_qa: true
+  revalidate_affected_generator_order: true
+  overwrite_prior_baseline: false
+  delete_drift_evidence: false
+  silently_repair_drive_asset: false
+  silently_repair_manifest: false
+  silently_reclassify_reviewer_record: false
+  drift_reconciliation_is_not_terminal: true
+  drift_reconciliation_does_not_authorize_mp4: true
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_configuration_consistent_independent_reviewer_approval
+  - complete_exact_provenance_configuration_consistent_independent_reviewer_rejection
+  - complete_exact_provenance_configuration_consistent_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution_after_drift_revalidation
+non_terminal_events:
+  - baseline_created
+  - baseline_updated_pending_approval
+  - drift_detection_started
+  - drift_detection_completed
+  - drift_detected
+  - drift_not_detected
+  - stale_drift_result
+  - missing_baseline
+  - missing_observation
+  - unowned_drift
+  - unresolved_drift
+  - drift_reconciliation
+  - versioned_manifest_update
+  - reviewer_blocked_without_remake_order
+  - score_above_threshold_without_terminal_verdict
+  - queue_hold
+  - heartbeat
+  - receipt_publication
+  - change_request
+  - revalidation_pending
+  - revalidation_complete_without_terminal_decision
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append the exact baseline, drift, freshness, ownership, or revalidation deficiency with V002
+    provenance, preserve all expected and observed values, open or update the same canonical incident,
+    assign a bounded reconciliation action and owner, and do not infer approval, rejection, remake
+    authorization, publication, or a new brief.
+required_action: >-
+  Human owner must approve a versioned v002 configuration baseline and drift report. Compare every
+  expected and observed configuration item field by field, reject stale results, identify additions,
+  removals, and modifications, assign an owner and rationale, and revalidate affected contracts after
+  any material change. The non-terminal Reviewer BLOCKED record must be handled only through its
+  explicit version-matched evidence/QA action. Keep the single-flight lane closed.
+anti_duplication_rule: >-
+  Do not create a new angle brief, duplicate plan, MP4, approval, rejection, or remake. A baseline,
+  drift report, configuration correction, manifest update, revalidation, queue record, or receipt is
+  not campaign authorization.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only one
+  operational-continuity blocker. If publication fails, write a publication-blocked record with
+  the error and both commit IDs, stop new angles, and escalate.
+constraints:
+  - approved_configuration_baseline
+  - configuration_drift_detection
+  - expected_observed_field_comparison
+  - stale_result_rejection
+  - controlled_change
+  - downstream_revalidation
+  - exact_artifact_identity
+  - independent_review_required
+  - append_only
+  - evidence_preservation
+  - single_flight_lane_closed
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
