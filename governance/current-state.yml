@@ -1,29 +1,29 @@
 schema_version: "2.0"
 state_id: "stitch-scale-video-current"
-updated_at: "2026-08-20T11:46:47+00:00"
+updated_at: "2026-08-20T11:53:11+00:00"
 workflow_owner: "director"
 operating_mode: "planning_only"
 video_generation_allowed: false
 video_upload_allowed: false
 current_work_item:
-  work_item_id: "SS-PLAN-20260820-LOCAL-FIRST-OWNERSHIP-STATE-V001"
-  angle_slug: "local-first-ownership-state"
+  work_item_id: "SS-PLAN-20260820-EXPENSE-SOURCE-STATE-V001"
+  angle_slug: "expense-source-state"
   campaign: "founder-proof"
   state: "CONCEPT_BLOCKED"
   owners:
     - "director"
-  objective: "Recruit a truthful founder-proof planning concept that distinguishes local working data, sync, export, backup, security, and storage status without overclaiming."
-  audience: "Independent knitwear designers and pattern publishers who need visible control over creative and business records."
+  objective: "Recruit a truthful founder-proof planning concept that keeps expense events, their sources, context, and evidence status visible before rollup."
+  audience: "Independent knitwear designers and pattern publishers maintaining design, sample, testing, publication, and sales records."
   format: "9x16 short-form social concept, planning only"
   current_artifacts:
-    - "research/2026-08-20-pass265-browser-findings.md"
-    - "research/2026-08-20-pass265-selection-boundary-audit.md"
-    - "briefs/SS_founder-proof_local-first-ownership-state_9x16_v001_blocked_20260820-114647.md"
-    - "scripts/SS_founder-proof_local-first-ownership-state_9x16_v001_blocked_20260820-114647.md"
-    - "platforms/SS_founder-proof_local-first-ownership-state_9x16_v001_matrix_20260820-114647.md"
-    - "ledgers/20260820-local-first-ownership-state.md"
-    - "manifests/SS_founder-proof_local-first-ownership-state_9x16_v001_blocked_20260820-114647.yml"
-    - "comms/outbox/MSG-20260820-114647-director-268.yml"
+    - "research/2026-08-20-pass266-browser-findings.md"
+    - "research/2026-08-20-pass266-selection-boundary-audit.md"
+    - "briefs/SS_founder-proof_expense-source-state_9x16_v001_blocked_20260820-115311.md"
+    - "scripts/SS_founder-proof_expense-source-state_9x16_v001_blocked_20260820-115311.md"
+    - "platforms/SS_founder-proof_expense-source-state_9x16_v001_matrix_20260820-115311.md"
+    - "ledgers/20260820-expense-source-state.md"
+    - "manifests/SS_founder-proof_expense-source-state_9x16_v001_blocked_20260820-115311.yml"
+    - "comms/outbox/MSG-20260820-115311-director-269.yml"
   proof:
     product_proof_present: false
     rights_cleared: false
@@ -32,16 +32,16 @@ current_work_item:
     platform_reviewed: false
     acceptance_complete: false
   blocker:
-    code: "MISSING_EXACT_STORAGE_OWNERSHIP_PROOF"
-    reason: "No current, approved, versioned, non-private proof verifies the exact primary-copy, sync, export, backup, persistence, storage-status, or security surface."
-    next_action: "Owner supplies the exact current proof-registry record or capture with browser/device context, privacy, rights, and destination; Director reruns validation."
+    code: "MISSING_EXACT_EXPENSE_SOURCE_PROOF"
+    reason: "No current, approved, versioned, non-private proof verifies the exact expense event, source note, project context, status label, stable identifier, or rollup lineage surface."
+    next_action: "Owner supplies the exact current proof-registry record or capture with privacy, rights, and destination; Director reruns validation."
     owner: "owner"
   media:
     generated: false
     uploaded: false
-    reserved_filename: "SS_founder-proof_local-first-ownership-state_9x16_v001_blocked_20260820-114647.mp4"
+    reserved_filename: "SS_founder-proof_expense-source-state_9x16_v001_blocked_20260820-115311.mp4"
   last_transition:
-    at: "2026-08-20T11:46:47+00:00"
+    at: "2026-08-20T11:53:11+00:00"
     by: "director"
     from: "RESEARCHED"
     to: "CONCEPT_BLOCKED"
