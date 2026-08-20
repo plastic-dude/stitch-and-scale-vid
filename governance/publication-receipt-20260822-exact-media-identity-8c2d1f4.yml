@@ -1,0 +1,176 @@
+receipt_id: PUB-20260822-exact-media-identity-8c2d1f4
+created_at: '2026-08-22T00:10:00+01:00'
+role: temporary-director
+firing: 234
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 6f3a2c9
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 8c2d1f4
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260822T001000-temporary-director-234.yml
+research_paths:
+  - research/2026-08-22-exact-media-identity-review-gate-0010.md
+  - research/2026-08-22-firing-234-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What artifact-identity and transformation-lineage evidence is required before a Reviewer
+  decision can be accepted as a decision about the exact V002 media object rather than an
+  altered, transcoded, recompressed, or platform-rendered derivative?
+research_decision: >-
+  Require exact artifact-identity verification and transformation lineage. The terminal
+  packet must bind evaluation to V002 video ID, Drive file ID, SHA-256, manifest identity,
+  byte-level or equivalent identity, evaluated-object classification, and chain of custody.
+  Every derivative must identify source, purpose, tool, version, settings, timestamp, output
+  identity/checksum, and relationship to source. A checksum mismatch, unresolved download,
+  altered manifest, missing transformation record, inaccessible source, or unverifiable custody
+  chain is a non-terminal evidence gap. A platform derivative may support environment evidence
+  but cannot replace the exact source object or silently change the active contract.
+artifact_identity_contract:
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  manifest_identity: required
+  byte_level_or_equivalent_identity: required
+  evaluated_object_classification: required
+  original_v002_file_or_derivative: required
+  source_artifact_identity_for_derivative: required_when_applicable
+  transformation_purpose: required_when_applicable
+  transformation_tool: required_when_applicable
+  transformation_tool_version: required_when_available
+  transformation_settings: required_when_applicable
+  transformation_timestamp: required_when_applicable
+  output_artifact_identity: required_when_applicable
+  output_checksum: required_when_applicable
+  relationship_to_source: required_when_applicable
+  chain_of_custody: required
+  download_identity: required
+  source_accessibility: required
+  evidence_identifiers: required
+  evaluation_start_time: required
+  evaluation_end_time: required
+identity_rules:
+  checksum_match: exact_v002_binding
+  checksum_mismatch: non_terminal
+  unresolved_download_identity: non_terminal
+  altered_manifest: non_terminal
+  missing_transformation_record: non_terminal
+  inaccessible_source: evidence_gap
+  unverifiable_chain_of_custody: non_terminal
+  silent_derivative_substitution: non_terminal
+  score_one_object_authorize_another: forbidden
+  platform_derivative_replaces_source: forbidden
+  platform_derivative_may_support_environment_observation: true
+  platform_derivative_changes_active_contract: false
+  attestation_without_supporting_artifacts: non_terminal
+  bare_link_without_identity: non_terminal
+scoring_contract:
+  dimension_count: 7
+  weights_percent:
+    story_purpose: 20
+    directing_visual: 15
+    proof_claims: 20
+    audio_voice: 15
+    captions_text: 10
+    technical_platform: 10
+    originality_brand: 10
+  artifact_scope_per_dimension: required
+  limitations_per_dimension: required
+  uncertainty_or_confidence_per_dimension: required
+  weighted_total_recomputable: required
+  threshold_percent: 65
+  threshold_comparison: required
+  explicit_terminal_decision: required
+  immutable_evidence_references: required
+required_terminal_fields:
+  - unique_event_id
+  - event_timestamp
+  - authorized_actor_identity
+  - independent_reviewer_role
+  - prior_event_id
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - artifact_manifest_version
+  - review_contract_version
+  - scoring_weights_version
+  - threshold_version
+  - evidence_schema_version
+  - evaluation_method_version
+  - manifest_identity
+  - byte_level_or_equivalent_identity
+  - evaluated_object_classification
+  - source_artifact_identity_for_derivative
+  - transformation_purpose
+  - transformation_tool
+  - transformation_tool_version
+  - transformation_settings
+  - transformation_timestamp
+  - output_artifact_identity
+  - output_checksum
+  - relationship_to_source
+  - chain_of_custody
+  - download_identity
+  - source_accessibility
+  - evidence_identifiers
+  - evaluation_start_time
+  - evaluation_end_time
+  - seven_dimension_records
+  - dimension_scores
+  - dimension_weights
+  - weighted_contributions
+  - limitations_per_dimension
+  - uncertainty_or_confidence_per_dimension
+  - recomputable_weighted_total
+  - threshold_comparison
+  - explicit_terminal_decision
+  - immutable_evidence_references
+terminal_events_that_clear_lane:
+  - complete_identity_verified_exact_provenance_independent_reviewer_approval
+  - complete_identity_verified_exact_provenance_independent_reviewer_rejection
+  - complete_identity_verified_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution_with_identity_binding
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append timeout, identity-gap, transformation-gap, or custody-gap evidence with exact
+    provenance, escalate the same incident, preserve the lane as blocked, and do not infer
+    terminal authorization.
+next_action: >-
+  Independent Video Reviewer must publish one complete exact-provenance packet proving the
+  evaluated artifact identity and any transformation lineage, with chain of custody, all seven
+  dimension records, recomputable scoring, threshold comparison, explicit outcome, and immutable
+  evidence, or a linked continuation or revalidation packet resolving identity gaps. Human owner
+  must assign owner, role, bounded checkpoint, and escalation target. Keep the lane closed and do
+  not create a brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
