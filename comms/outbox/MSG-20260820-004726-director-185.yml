@@ -1,0 +1,47 @@
+message_id: MSG-20260820-004726-director-185
+message_type: director_handoff
+created_at: 2026-08-20T00:47:26+00:00
+from: director-planner
+campaign: founder-proof
+angle_slug: resumption-state
+brief_id: BRF-founder-proof-resumption-state-9x16-v001
+status: blocked
+subject: Pass 183 blocked — resumption-state pending current product proof
+research:
+  note: research/2026-08-20-pass183-browser-findings.md
+  question: When a craft worker pauses a multi-step pattern or production task, what makes returning safe and intelligible rather than merely possible?
+  sources: [926, 927, 928, 929, 930]
+  decision: Narrowed from generic offline continuity or persistence to the first safe return after interruption.
+distinctness:
+  nearest_prior: offline-continuity
+  changed_pain: Work remains safe under network loss versus a person returning after a pause without a clear last-known step, saved/unsaved distinction, sequence context, or safe next action.
+  changed_metaphor: Connected/local state becomes a paused row of pattern cards with a bookmark, saved timestamp, unresolved card, and one return arrow.
+  hook: Saved is not the same as ready to resume.
+  final_line: Show the person where to begin again.
+objective: Make the trust question of safe re-entry after a pause visible without claiming that Stitch & Scale currently saves, resumes, checkpoints, or restores work.
+audience: Independent knitwear designers and pattern publishers moving between craft-production and human evidence tasks; secondary founding testers and reviewers.
+deliverables:
+  brief: briefs/SS_founder-proof_resumption-state_9x16_v001_blocked_20260820-004726.md
+  script: scripts/SS_founder-proof_resumption-state_9x16_v001_blocked_20260820-004726.md
+  platform_matrix: platforms/SS_founder-proof_resumption-state_9x16_v001_matrix_20260820-004726.md
+  continuity: ledgers/20260820-resumption-state.md
+  manifest: manifests/SS_founder-proof_resumption-state_9x16_v001_blocked_20260820-004726.yml
+filename_reservation: SS_founder-proof_resumption-state_9x16_v001_blocked_20260820-004726.mp4
+claim_risks:
+  - Do not claim Stitch & Scale saves, resumes, checkpoints, restores, or warns about unsaved work.
+  - Do not claim the product prevents duplicate work, loss, user error, WCAG failure, or accessibility barriers.
+  - Do not claim a timestamp alone proves a safe return point.
+  - Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  - Keep calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting separate.
+proof_blocker: No current product-proof registry entry or approved non-private rights-cleared capture verifies last-known step, saved/unsaved distinction, sequence context, next safe action, review state, and disposition.
+rights_blocker: No production assets, narrator, foley, or final platform profile are approved; use only original or cleared materials after review.
+platform_blocker: Destination platform and current safe-area/profile requirements are not confirmed.
+review_state:
+  reviews_checked: true
+  orders_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked and filename occupied; do not regenerate, overwrite, rename, or approve
+  release_gate_roster: blocked and filename occupied; do not infer authorization from generic human-gate proof
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_safe_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing the exact current re-entry surface, confirm the destination platform, then rerun product, claims, rights, caption, audio, platform, continuity, filename, and Director gates.
