@@ -1,0 +1,60 @@
+receipt_id: PUB-20260820-append-only-callback-b79edf4
+created_at: '2026-08-20T09:39:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_reconciliation_commit: 34acd2603f34924c811637306212a2ddbafbfbd1
+incoming_remote_commit: b79edf4c6d7aa8f0cb1ab246d72e498eeb8b2d73
+reconciliation: fast-forward
+remote_commit_after_blocker: b79edf4c6d7aa8f0cb1ab246d72e498eeb8b2d73
+merge_required: true
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - queue-status.md
+  - research/2026-08-20-append-only-reconciliation-canonical-callback-0939.md
+  - comms/outbox/MSG-20260820T093900-temporary-director-118.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+remote_reconciliation:
+  incoming_record_type: append_only_queue_status
+  effect: unchanged_authorization_hold
+  prior_handoff: 116
+  terminal_decision_created: false
+  owner_acknowledgement_created: false
+  remake_required_created: false
+  mp4_authorized: false
+canonical_terminal_callback:
+  required: true
+  unique_event_id: required
+  reviewer: independent_video_reviewer
+  required_fields:
+    - decision
+    - decision_timestamp
+    - seven_dimension_score
+    - evidence_references
+    - video_id
+    - drive_id
+    - sha256
+research_question: >-
+  How should a recurring Director reconcile a new append-only operational hold
+  while preserving immutable evidence and one exact terminal Reviewer callback?
+research_decision: >-
+  Reconcile the remote record, require a unique terminal Reviewer event bound to
+  V002 exact provenance, and consolidate repeated non-terminal holds.
+next_action: >-
+  Video Reviewer must publish the terminal callback. Human owner must separately
+  provide responsible owner, bounded review deadline, and escalation target.
+  Preserve V002 and keep the lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
