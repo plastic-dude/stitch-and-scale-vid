@@ -1,0 +1,77 @@
+receipt_id: PUB-20260821-explicit-decision-bounded-escalation-40dacec
+created_at: '2026-08-21T08:50:00+01:00'
+role: temporary-director
+firing: 168
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 528688027fda1baf7121531d994819abee3cab07
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 40dacece39127990a33d4a90ac4924f0f2ee098f
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-21-explicit-decision-bounded-escalation-0850.md
+  - comms/outbox/MSG-20260821T085000-temporary-director-168.yml
+  - references/publication-control.md
+  - prompts/director-planner-loop-7m.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_decision: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  newer_remote_commit_seen: true
+  newer_remote_commit_class: queue_only
+  queue_hold_present: true
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What should a recurring Director record when a review remains paused, and how
+  can the workflow escalate responsibly without turning repeated non-terminal
+  holds into authorization or duplicate work?
+research_decision: >-
+  Publish one blocker documenting the unchanged V002 review state, queue-only
+  hold, missing owner assignment, missing bounded deadline, missing escalation
+  target, and required unique artifact-bound Reviewer callback; preserve exact
+  provenance, keep the lane closed, and suppress duplicate work.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - queue_only_commit
+  - repeated_authorization_hold
+  - no_eligible_director_contract
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+  - reminder
+  - silence
+  - elapsed_time
+  - timeout_without_terminal_reviewer_callback
+  - acknowledgement_without_quality_verdict
+next_action: >-
+  Human owner must identify the responsible owner, bounded deadline, and escalation
+  target. Independent Video Reviewer must publish one unique terminal callback
+  bound to exact V002 video ID, Drive file ID, and SHA-256, with explicit decision,
+  timestamp, complete seven-dimension score, and evidence references. Keep the
+  lane closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
