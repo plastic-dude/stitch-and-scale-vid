@@ -1,0 +1,126 @@
+receipt_id: PUB-20260820-incident-severity-escalation-526f652
+created_at: '2026-08-20T16:21:38+00:00'
+role: temporary-director
+firing: 237
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 3f31fed1062ef0ba5fff1ef5535b0195e2f6ddb8
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 526f65239579bebe39e7d57911dba873318d9c54
+blocker_path: comms/outbox/MSG-20260820T162100-temporary-director-237.yml
+research_paths:
+  - research/2026-08-20-incident-severity-escalation-review-hold-1621.md
+  - research/2026-08-20-firing-237-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should the team classify and escalate a blocked multi-agent review lane so that a persistent
+  authorization hold receives accountable ownership and a bounded response, without turning routine
+  liveness messages or escalation reminders into terminal authority?
+research_decision: >-
+  Require a severity-classified, accountable escalation ladder for the canonical V002 incident.
+  Name an incident owner or commander, communications channel, operational action owner, current
+  impact, severity rationale, bounded checkpoint, escalation target, handoff acknowledgment, and
+  closure authority. Deduplicate repeated holds into the same incident. Escalation, reminder,
+  heartbeat, timeout, or owner assignment does not clear the lane or change Reviewer authority.
+incident_classification:
+  incident_id: REVIEW-HOLD-V002-20260819
+  incident_type: review-authorization-hold
+  severity: critical-pending-owner-assignment
+  severity_rationale: >-
+    The lane cannot safely authorize a terminal Reviewer outcome or downstream generation, and no
+    accountable owner, checkpoint, escalation target, or closure authority is currently recorded.
+  impact_scope: V002 review lane and all downstream single-flight generation
+  authorization_risk: elevated
+  evidence_integrity_risk: controlled_while_append_only_records_preserved
+  operational_impact: high
+  user_or_campaign_impact: bounded
+  classification_owner: null
+  checkpoint_deadline: null
+  escalation_target: null
+  closure_authority: null
+accountability_contract:
+  incident_commander_or_owner: required
+  communications_channel: required
+  operational_action_owner: required
+  severity_level: required
+  severity_rationale: required
+  current_impact: required
+  checkpoint_deadline: required
+  escalation_target: required
+  handoff_acknowledgment: required_when_handoff_occurs
+  closure_authority: required
+  owner_identity: required
+  role_identity: required
+  event_id: required
+  prior_event_id: required
+  timestamp_utc: required
+  active_contract_version: required
+  exact_artifact_identity: required
+  immutable_evidence_reference: required
+separation_of_duties:
+  queue_operator_becomes_independent_reviewer_by_escalation: false
+  director_becomes_independent_reviewer_by_escalation: false
+  generator_becomes_independent_reviewer_by_escalation: false
+  scheduler_becomes_independent_reviewer_by_escalation: false
+  independent_reviewer_required: true
+  owner_acknowledgment_required_for_closure: true
+closure_contract:
+  explicit_terminal_event_required: true
+  independent_reviewer_decision_or_authorized_owner_resolution_required: true
+  owner_acknowledgment_required: true
+  escalation_event_alone_closes_incident: false
+  reminder_closes_incident: false
+  heartbeat_closes_incident: false
+  timeout_closes_incident: false
+terminal_events_that_clear_lane:
+  - complete_severity_tracked_independent_reviewer_approval
+  - complete_severity_tracked_independent_reviewer_rejection
+  - complete_severity_tracked_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution_with_acknowledged_closure
+non_terminal_events:
+  - routine_hold
+  - duplicate_hold
+  - heartbeat
+  - reminder
+  - escalation_without_terminal_authority
+  - checkpoint_expiry
+  - owner_assignment_without_terminal_decision
+  - handoff_without_acknowledgment
+  - severity_classification_only
+  - bare_score
+next_action: >-
+  Human owner must assign an accountable incident commander or owner, communications channel,
+  operational action owner, severity rationale, bounded checkpoint, escalation target, and closure
+  authority for REVIEW-HOLD-V002-20260819. Independent Video Reviewer must publish the complete
+  artifact-identity-bound seven-dimension terminal packet. All duplicate holds and reminders must
+  correlate to the canonical incident. Escalation must preserve separation of duties and cannot
+  clear the lane.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
