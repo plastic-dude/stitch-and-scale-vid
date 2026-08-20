@@ -7662,3 +7662,38 @@ No current product-proof registry or approved non-private capture verifies assum
 [912]: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf "NIST Artificial Intelligence Risk Management Framework 1.0"
 [913]: https://www.w3.org/TR/vocab-dqv/ "W3C Data Quality Vocabulary"
 [914]: https://www.craftyarncouncil.com/standards/yarn-weight-system "Craft Yarn Council — Standard Yarn Weight System"
+
+
+## Wide-research Director question 180 — refusal state — 20260820-012655
+
+**Fresh research question.** When a workflow refuses a request, what makes the refusal usable and trustworthy: explicit scope, reason, responsible owner, safe next action, review state, and disposition?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest refusal-boundary pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = calm, specific refusal card with a usable next step; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [915] | NIST, *Privacy Framework*, accessed 2026-08-20: https://www.nist.gov/privacy-framework | NIST describes the Privacy Framework as a voluntary tool to help organizations improve individual privacy through enterprise risk management, motivating an explicit refusal scope and reason. | This does not prove that Stitch & Scale implements the Privacy Framework, manages privacy risk, or provides legal compliance. |
+| [916] | NIST, *SP 800-53 Rev. 5*, accessed 2026-08-20: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final | NIST lists Access Control and PII Processing and Transparency among control families and warns that mappings/crosswalks are not one-to-one and scope and intended use matter. | This does not prove that Stitch & Scale implements access enforcement, privacy controls, transparency, or framework compliance. |
+| [917] | GOV.UK Design System, *Error message*, accessed 2026-08-20: https://design-system.service.gov.uk/components/error-message/ | GOV.UK guidance says error messages should explain what went wrong and how to fix it, and permission/eligibility problems should be explained with useful next steps rather than treated as ordinary field errors. | This does not prove that Stitch & Scale has this component, follows GOV.UK patterns, or provides a safe alternative. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from “access denied” to “a refusal should expose its scope, reason, responsible owner, safe next action, review state, and disposition.” The fictional proof surface is `REFUSAL F-001 / REQUEST / SCOPE / REASON / OWNER / NEXT_SAFE_ACTION / REVIEWED / STATUS / DISPOSITION`.
+
+The selected angle is `refusal-state`, hook **“A refusal without a reason or safe next action is an ambiguous stop.”** The final line is **“Name what this refusal protects.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `access-state`, which asks whether a person or role can reach a resource. `refusal-state` changes the pain to whether a refusal itself is explicit and usable: what request was refused, what scope it protects, why, who owns the decision, what safe next action exists, whether it was reviewed, and how it was dispositioned. It is not `disclosure-state`, which asks what information is exposed; `audience-control-state`, which asks who may receive or see something; `exception-state`, which asks whether a deviation is governed; `error-state`, which asks how a validation failure is messaged; `permission-state`, which asks whether a permission exists; or `assumption-state`, which asks what hidden input drives a result. The visual metaphor changes to a refusal card with a protected-scope boundary and a single safe-next-action arrow, rather than an access gate, disclosure window, audience tray, exception card, error field, permission token, or assumption card. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies request, scope, reason, owner, safe next action, review, status, or disposition. The refusal card must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with access enforcement, permission messaging, privacy controls, eligibility decisions, error handling, safe alternatives, or compliance. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [915]–[917]
+
+[915]: https://www.nist.gov/privacy-framework "NIST Privacy Framework"
+[916]: https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final "NIST SP 800-53 Rev. 5, Updated 1"
+[917]: https://design-system.service.gov.uk/components/error-message/ "GOV.UK Design System — Error message"
