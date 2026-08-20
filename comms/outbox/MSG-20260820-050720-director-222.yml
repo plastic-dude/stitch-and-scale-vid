@@ -1,0 +1,82 @@
+message_id: MSG-20260820-050720-director-222
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 219
+stamp: '20260820-050720'
+angle: material-availability-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_material-availability-state_9x16_v001_blocked_20260820-050720.mp4
+nearest_prior: triage-state
+hook: A yarn name is not a material handoff.
+final_line: Name the material, the quantity, the window, and what still needs confirmation.
+research_question: >-
+  What must a knitwear material record preserve before a project can honestly describe
+  its yarn, color, quantity, dye lot, supplier confirmation, sample timing, and availability
+  as ready for a submission or handoff?
+research_file: research/2026-08-20-pass219-browser-findings.md
+research_decision: >-
+  Select material-availability-state: keep material identity, dye lot, quantity, source,
+  availability window, sample size, required-by timing, confirmer, open risk, and status visible.
+research_sources:
+  - Craft Yarn Council says to reconfirm yarn and color, check dye lots, reconfirm manufacturer availability for at least a year, reconfirm sample size, keep notes, and discuss material problems with the manufacturer or editor.
+  - Craft Yarn Council requires yarn type, yardage and weight, fiber content, quantities by size, accessories, measurements, and size-made information in project instructions.
+  - Craft Yarn Council’s designer pitfalls list includes missing colors and amounts, discontinued colors, missing accessories, gauge mismatch, missing records, incomplete instructions, and unscaled schematics.
+  - Craft Yarn Council standards describe shared labeling and pattern guidelines intended to help consumers select materials and complete projects.
+objective: >-
+  Show that a yarn name is not a material handoff; preserve yarn, color, dye lot,
+  fiber and weight, quantity by size, accessories, supplier/source, availability window,
+  sample size, required-by date, confirming role, and open material risk.
+audience: >-
+  Independent knitwear designers, technical editors, test knitters, craft-business
+  operators, and pattern readers coordinating materials, samples, instructions,
+  submissions, and handoffs.
+deliverables:
+  - briefs/SS_founder-proof_material-availability-state_9x16_v001_blocked_20260820-050720.md
+  - scripts/SS_founder-proof_material-availability-state_9x16_v001_blocked_20260820-050720.md
+  - platforms/SS_founder-proof_material-availability-state_9x16_v001_matrix_20260820-050720.md
+  - ledgers/20260820-material-availability-state.md
+  - manifests/SS_founder-proof_material-availability-state_9x16_v001_blocked_20260820-050720.yml
+  - research/2026-08-20-pass219-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-050720-director-222.yml
+proof_surface: >-
+  MAT A-001 / DESIGN_ID / MATERIAL_ID / YARN_OR_MATERIAL / COLORWAY / DYE_LOT /
+  FIBER_AND_WEIGHT / QUANTITY_BY_SIZE / ACCESSORIES / SUPPLIER_OR_SOURCE /
+  AVAILABILITY_CHECKED_AT / AVAILABILITY_WINDOW / SAMPLE_SIZE / REQUIRED_BY /
+  CONFIRMING_ROLE / OPEN_MATERIAL_RISK / STATUS
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact material-availability surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim that Stitch & Scale verifies inventory, predicts stock, confirms suppliers,
+  guarantees availability, recommends yarn, authorizes substitutions, manages purchasing,
+  prevents shortages, or establishes publication readiness. Do not claim that a listed yarn
+  is available, affordable, deliverable, or suitable without current evidence and scope.
+  Do not use real supplier records, private invoices, customer orders, addresses, company
+  names, personal identifiers, or copyrighted patterns. Do not claim revenue, adoption,
+  accuracy, customer outcomes, pricing, credentials, testimonials, urgency, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+human_gates: >-
+  Preserve calculation, technical editing, physical print review, chart readability,
+  schematic scale, and test knitting as distinct human evidence gates.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected and remain blocked;
+  their reserved filenames remain occupied. Adjacent triage, substitution, material trace,
+  gauge, record-estimate, quantity, price, and test-protocol territory remains occupied and was not modified.
+review_state: >-
+  reviews/, orders/, and comms/inbox/ are absent at refresh; no open CRITICAL or HIGH
+  reviewer or remake order is present in the current repository.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Name the destination platform and provide a current, versioned, non-private, rights-cleared
+  product-proof registry entry or approved capture showing design ID, material ID, yarn or material,
+  colorway, dye lot, fiber and weight, quantity by size, accessories, supplier/source, availability
+  checked at, availability window, sample size, required-by date, confirming role, open material risk,
+  and status; then rerun all Director gates.

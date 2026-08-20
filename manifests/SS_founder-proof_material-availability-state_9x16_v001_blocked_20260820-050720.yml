@@ -1,0 +1,178 @@
+manifest_version: '1.0'
+manifest_id: MAN-founder-proof-material-availability-state-9x16-v001-20260820-050720
+brief_id: BRF-founder-proof-material-availability-state-9x16-v001
+script_id: SCR-founder-proof-material-availability-state-9x16-v001
+matrix_id: MAT-founder-proof-material-availability-state-9x16-v001
+campaign: founder-proof
+angle: material-availability-state
+pass_number: 219
+stamp: '20260820-050720'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-explainer
+title: A yarn name is not a material handoff.
+objective: >-
+  Show that a yarn name is not a material handoff; preserve yarn, color, dye lot,
+  fiber and weight, quantity by size, accessories, supplier/source, availability
+  window, sample size, required-by date, confirming role, and open material risk.
+audience:
+  primary: >-
+    Independent knitwear designers, technical editors, test knitters, craft-business
+    operators, and pattern readers coordinating materials, samples, instructions,
+    submissions, and handoffs.
+  secondary: designers, editors, testers, reviewers, and publication coordinators
+form: founder-proof-tabletop-material-readiness-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: craft and pattern-workflow participants coordinating material handoffs
+  tone: calm precise craft-respecting practical transparent about unresolved readiness
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not
+    be described as a knitter, knitwear designer, pattern designer, technical editor,
+    or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_material_availability_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    MAT A-001 / DESIGN_ID / MATERIAL_ID / YARN_OR_MATERIAL / COLORWAY / DYE_LOT /
+    FIBER_AND_WEIGHT / QUANTITY_BY_SIZE / ACCESSORIES / SUPPLIER_OR_SOURCE /
+    AVAILABILITY_CHECKED_AT / AVAILABILITY_WINDOW / SAMPLE_SIZE / REQUIRED_BY /
+    CONFIRMING_ROLE / OPEN_MATERIAL_RISK / STATUS
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+  material_disclaimer: EXAMPLE — NOT A CURRENT SUPPLY RECORD
+research:
+  file: research/2026-08-20-pass219-browser-findings.md
+  question: >-
+    What must a knitwear material record preserve before a project can honestly describe
+    its yarn, color, quantity, dye lot, supplier confirmation, sample timing, and availability
+    as ready for a submission or handoff?
+  decision_changed: >-
+    Select material-availability-state: keep material identity, dye lot, quantity, source,
+    availability window, sample size, required-by timing, confirmer, open risk, and status visible.
+  sources:
+    - id: R219-001
+      title: 'Craft Yarn Council — Congratulations! You’ve Received the Go Ahead'
+      url: https://www.craftyarncouncil.com/industry.html
+      accessed: '2026-08-20'
+      limitation: Industry guidance; publication-specific requirements may differ.
+    - id: R219-002
+      title: 'Craft Yarn Council — Designer Pitfalls'
+      url: https://www.craftyarncouncil.com/pitfalls.html
+      accessed: '2026-08-20'
+      limitation: Industry guidance; it does not verify a current product feature.
+    - id: R219-003
+      title: 'Craft Yarn Council — Standards and Guidelines'
+      url: https://www.craftyarncouncil.com/standards
+      accessed: '2026-08-20'
+      limitation: Shared guidance and labeling standards; not a Stitch & Scale proof surface.
+concept_difference:
+  nearest_prior: triage-state
+  changed_pain: >-
+    A project can look ready while yarn, color, dye lot, quantity, source, availability window,
+    sample size, timing, confirmer, or open material risk remains unclear.
+  hook: A yarn name is not a material handoff.
+  visual_metaphor: >-
+    A polished READY project card reveals blank material-readiness lanes and changes to
+    MATERIAL CHECK: OPEN while separate human gates remain visible.
+  emotional_turn: 'Responsible readiness: tidy presentation gives way to visible confirmations and limits.'
+  final_line: Name the material, the quantity, the window, and what still needs confirmation.
+dramatic_engine:
+  subject: fictional project card and separate yarn, colorway, dye-lot, quantity, source, availability, sample, timing, confirmer, and open-risk cards
+  desire: know whether a material package can travel to the next human handoff without guessing
+  obstacle: a polished project card says READY while material lanes are blank
+  stakes: an incomplete material package can create confusion across instructions, samples, testing, submissions, and reader expectations
+  change: 'replace READY with MATERIAL CHECK: OPEN'
+  contradiction: a recognizable yarn name can still be insufficient for a handoff
+  escalation:
+    - READY
+    - DYE_LOT
+    - QUANTITY_BY_SIZE
+    - SUPPLIER_OR_SOURCE
+    - AVAILABILITY_WINDOW
+    - SAMPLE_SIZE
+    - REQUIRED_BY
+    - OPEN_MATERIAL_RISK
+    - MATERIAL_CHECK_OPEN
+proof_surface: >-
+  MAT A-001 / DESIGN_ID / MATERIAL_ID / YARN_OR_MATERIAL / COLORWAY / DYE_LOT /
+  FIBER_AND_WEIGHT / QUANTITY_BY_SIZE / ACCESSORIES / SUPPLIER_OR_SOURCE /
+  AVAILABILITY_CHECKED_AT / AVAILABILITY_WINDOW / SAMPLE_SIZE / REQUIRED_BY /
+  CONFIRMING_ROLE / OPEN_MATERIAL_RISK / STATUS
+assets:
+  approved_assets: pending
+  permitted: original neutral cards, fictional yarn or material labels, neutral tabletop, rights-cleared narrator, neutral foley
+  prohibited: real supplier records, private invoices, customer orders, addresses, company names, current UI captures, copyrighted patterns
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, proof cards, numbers, labels, logos, buttons, menus, or primary actions
+audio:
+  music: none unless rights-cleared and separately approved
+  motif: restrained card-confirmation cues and neutral material-check hold
+  room_tone: record before and after each setup
+claims:
+  allowed:
+    - A yarn name is not a material handoff.
+    - A material handoff can preserve identity, dye lot, quantity, source, availability window, sample size, timing, confirmer, open risk, and status.
+    - An open material question should remain visible as open.
+  prohibited:
+    - Stitch & Scale verifies inventory, predicts stock, confirms suppliers, guarantees availability, recommends yarn, authorizes substitutions, manages purchasing, prevents shortages, or establishes publication readiness.
+    - A listed yarn is available, affordable, deliverable, or suitable without current evidence and scope.
+    - A material record replaces gauge, calculation, technical editing, physical print review, chart readability, schematic scale, or test knitting.
+    - A fictional material card is a real supplier, invoice, customer order, or current product record.
+    - Revenue, adoption, accuracy, customer outcomes, final pricing, credentials, testimonials, urgency, or capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact material-availability surface; destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-material-availability-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  adjacent_triage: ledgers/20260820-triage-state.md
+  adjacent_substitution: ledgers/20260820-substitution-authorization-state.md
+  adjacent_material_trace: ledgers/2026-08-19-material-trace.md
+  adjacent_gauge: ledgers/2026-08-19-gauge-reality-continuity.md
+  adjacent_record_estimate: ledgers/20260820-record-estimate-state.md
+  adjacent_test_protocol: ledgers/20260820-test-protocol-state.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_material-availability-state_9x16_v001_matrix_20260820-050720.md
+filename:
+  reserved: SS_founder-proof_material-availability-state_9x16_v001_blocked_20260820-050720.mp4
+  overwrite: false
+  duplicate_check: passed
