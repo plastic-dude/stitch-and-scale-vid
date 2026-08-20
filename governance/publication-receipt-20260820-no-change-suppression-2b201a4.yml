@@ -1,0 +1,69 @@
+receipt_id: PUB-20260820-no-change-suppression-2b201a4
+created_at: '2026-08-20T10:46:00+01:00'
+role: temporary-director
+firing: 127
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 761673826b147d6ef30165cff3101d35facf781b
+incoming_remote_commit: null
+reconciliation: already_synchronized
+commit_after_blocker: 2b201a4c8994b3b98db7bd92f953e49d95347cd2
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-no-change-suppression-1046.md
+  - comms/outbox/MSG-20260820T104600-temporary-director-127.yml
+  - references/publication-control.md
+  - prompts/director-planner-loop-7m.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4aybB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_state:
+  newer_remote_commit_present: false
+  novel_owner_action: false
+  novel_reviewer_event: false
+  remake_required_order: false
+  publication_failure: false
+  mp4_authorized: false
+research_question: >-
+  How should a recurring governed workflow handle a fully synchronized no-change
+  state after an anti-duplication blocker has already been published, while
+  remaining fail-closed and preserving the need for an explicit human decision?
+research_decision: >-
+  Publish one state-preservation blocker, maintain the prior anti-duplication rule,
+  and keep V002 closed until explicit owner and independent Reviewer events exist.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - no_change
+  - authorization_hold
+  - operational_hold
+  - queue_status_append
+  - reminder
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+  - repeated_escalation_without_new_action
+next_action: >-
+  Human owner must provide responsible owner, bounded review deadline, and
+  escalation target. Independent Video Reviewer must publish one unique terminal
+  callback with event ID, explicit decision, timestamp, complete seven-dimension
+  score, evidence references, and exact V002 provenance. Keep the Generator lane
+  closed and suppress ordinary same-category blockers until materially new state.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
