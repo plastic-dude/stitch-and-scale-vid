@@ -1,0 +1,50 @@
+receipt_id: PUB-20260820-reconciliation-noise-8b1eb6a
+created_at: '2026-08-20T08:50:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_reconciliation_commit: c77f350417fc2f1f954e598f74448929463ff541
+incoming_remote_commit: 8b1eb6aeaf4a2d899cb0318f4d47d5bd244ebb65
+reconciliation: fast-forward
+remote_commit_after_blocker: 8b1eb6aeaf4a2d899cb0318f4d47d5bd244ebb65
+merge_required: true
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - queue-status.md
+  - research/2026-08-20-reconciliation-noise-boundary-0850.md
+  - comms/outbox/MSG-20260820T085000-temporary-director-111.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+remote_reconciliation:
+  incoming_record_type: append_only_queue_status
+  effect: operational_hold_only
+  terminal_decision_created: false
+  owner_acknowledgement_created: false
+  remake_required_created: false
+  mp4_authorized: false
+research_question: >-
+  How should the Director treat another remote operational hold so that safe
+  synchronization preserves evidence without creating an implicit terminal
+  decision or alert fatigue?
+research_decision: >-
+  Safely reconcile the remote record, require materially new owner or
+  independent Reviewer action, and consolidate repeated holds. Do not infer a
+  verdict from operational records.
+next_action: >-
+  Human owner must provide responsible owner, bounded review deadline, and
+  escalation target. Video Reviewer must publish one unique terminal event
+  bound to the exact V002 provenance tuple. Preserve V002 and keep the lane
+  closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
