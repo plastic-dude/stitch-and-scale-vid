@@ -1,0 +1,135 @@
+receipt_id: PUB-20260821-causal-chain-6b1d4e2
+created_at: '2026-08-21T20:50:00+01:00'
+role: temporary-director
+firing: 226
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: dee0e6c6082ca5f6beebadcb9beade5e78b97dd2
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 6b1d4e2
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T205000-temporary-director-226.yml
+research_paths:
+  - research/2026-08-21-causal-review-event-chain-2050.md
+  - research/2026-08-21-firing-226-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What minimum causal and identity fields prevent orphaned, duplicated, or mismatched
+  review records from being mistaken for valid state transitions or terminal authority?
+research_decision: >-
+  Require causal event chaining for the canonical V002 review incident. Every event must
+  have unique identity, timestamp, explicit type, actor identity and role, prior event
+  link or explicit root marker, exact provenance, state impact, and immutable evidence.
+  Orphaned, duplicated, mismatched, unauthorized, or incomplete records remain append-only
+  invalid attempts and cannot alter current state. No-change observations cannot renew a
+  lease, create a quorum, reset a terminal boundary, or clear the single-flight lane.
+causal_protocol:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  root_event_id: REVIEW-HOLD-V002-20260819-ROOT
+  latest_valid_event_id: null
+  latest_valid_event_type: none
+  append_only: true
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+  invalid_attempts_do_not_change_state: true
+  required_event_fields:
+    - unique_event_id
+    - event_timestamp
+    - event_type
+    - actor_identity
+    - actor_role
+    - prior_event_id_or_explicit_root_marker
+    - exact_video_id
+    - exact_drive_file_id
+    - exact_sha256
+    - current_state
+    - state_change_summary
+    - owner_change_summary
+    - checkpoint_change_summary
+    - escalation_change_summary
+    - terminal_decision
+    - immutable_evidence_references
+  required_terminal_fields:
+    - unique_event_id
+    - event_timestamp
+    - authorized_actor_identity
+    - independent_reviewer_role
+    - prior_event_id
+    - exact_video_id
+    - exact_drive_file_id
+    - exact_sha256
+    - evaluation_method
+    - complete_seven_dimension_score
+    - published_weights
+    - weighted_total_score
+    - threshold_comparison
+    - explicit_terminal_decision
+    - immutable_evidence_references
+  invalid_attempts:
+    - orphaned_event
+    - duplicate_event_id
+    - mismatched_video_id
+    - mismatched_drive_file_id
+    - mismatched_sha256
+    - unauthorized_actor
+    - unregistered_reviewer
+    - missing_prior_event
+    - incomplete_terminal_packet
+    - bare_score
+    - bare_status
+    - queue_only_commit
+    - no_change_observation
+    - duplicate_queue_hold
+    - repeated_authorization_hold
+    - heartbeat_without_state_change
+    - reminder_without_state_change
+    - continuation_without_new_information
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append timeout evidence with a causal link, escalate the same incident, preserve
+    the lane as blocked, and do not infer terminal authorization.
+next_action: >-
+  Human owner must assign responsible owner, role, bounded checkpoint, and escalation
+  target. Independent Video Reviewer must publish one complete exact-provenance terminal
+  packet or a causally linked continuation packet. Preserve every valid and invalid
+  attempt append-only. Keep the lane closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
