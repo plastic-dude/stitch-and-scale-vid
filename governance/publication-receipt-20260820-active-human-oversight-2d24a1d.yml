@@ -1,0 +1,176 @@
+receipt_id: PUB-20260820-active-human-oversight-2d24a1d
+created_at: '2026-08-20T17:10:07+00:00'
+role: temporary-director
+firing: 244
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 82ac02cfe2f150e45dc130085b210c02eacd6a07
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 2d24a1d099ba4cf0645e6287622afa8ba933e21e
+blocker_path: comms/outbox/MSG-20260820T171000-temporary-director-244.yml
+research_paths:
+  - research/2026-08-20-active-human-oversight-automation-bias-1710.md
+  - research/2026-08-20-firing-244-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should the V002 Reviewer demonstrate active, independent oversight rather than merely accepting
+  an AI-generated summary, score, provenance claim, or prior agent assertion?
+research_decision: >-
+  Require an auditable active-oversight protocol. The authorized Reviewer must independently inspect
+  the exact V002 artifact, capture a first-pass evidence view before relying on machine assistance,
+  disclose every machine-generated input and output, bind claims to evidence, challenge material
+  claims, reproduce the weighted score, preserve acceptance, rejection, override, dissent, conflicts,
+  uncertainty, and unresolved questions. Generated suggestions, prior agent records, Director claims,
+  queue state, and human presence remain advisory and non-terminal.
+active_oversight_contract:
+  oversight_protocol_id: required
+  oversight_protocol_version: required
+  authorized_reviewer_identity: required
+  authorized_reviewer_role: required
+  reviewer_independence_basis: required
+  reviewer_training_or_competence_evidence: required
+  evaluation_timestamp_utc: required
+  exact_artifact_inspection_event: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  protected_artifact_access_reference: required
+  direct_observation_record: required
+  independent_first_pass_before_ai_assistance: required
+  independent_first_pass_timestamp_utc: required
+  independent_first_pass_author: required
+  independent_first_pass_evidence_references: required
+  machine_assistance_used: required
+  machine_assistance_tool_and_version: required_when_used
+  machine_assistance_input_scope: required_when_used
+  machine_assistance_output_scope: required_when_used
+  machine_assistance_timestamp_utc: required_when_used
+  machine_assistance_purpose: required_when_used
+  generated_content_marked_advisory: true
+  generated_content_not_authority: true
+  prior_agent_assertion_marked_advisory: true
+  prior_score_marked_advisory: true
+  director_assertion_marked_advisory: true
+  queue_state_marked_advisory: true
+  claim_to_evidence_binding: required
+  material_claim_challenge: required
+  challenge_method: required
+  challenge_result: required
+  accepted_suggestion_rationale: required_when_accepted
+  rejected_suggestion_rationale: required_when_rejected
+  overridden_suggestion_rationale: required_when_overridden
+  reviewer_dissent_record: required_when_dissent
+  unresolved_question_record: required_when_unresolved
+  conflicting_evidence_record: required_when_conflict
+  limitation_record: required
+  uncertainty_or_confidence_per_dimension: required
+  score_recomputation: required
+  terminal_decision_rationale: required_for_terminal_event
+  immutable_evidence_references: required
+anti_automation_bias_controls:
+  reviewer_must_inspect_exact_artifact: true
+  reviewer_must_capture_direct_observations: true
+  reviewer_must_independently_form_initial_evidence_view: true
+  generated_summary_before_first_pass: prohibited_or_disclosed_and_mitigated
+  generated_score_before_first_pass: prohibited_or_disclosed_and_mitigated
+  generated_provenance_claim_before_verification: prohibited
+  prior_agent_decision_before_independent_evidence: advisory_only
+  reviewer_must_attempt_to_disconfirm_material_claims: required
+  reviewer_must_check_for_missing_evidence: required
+  reviewer_must_check_for_wrong_artifact: required
+  reviewer_must_check_for_stale_evidence: required
+  reviewer_must_check_for_caption_or_audio_obstruction: required
+  reviewer_must_check_for_privacy_or_accessibility_limitations: required
+  reviewer_must_record_ai_assistance_effect: required_when_used
+  reviewer_must_record_override_or_dissent: required_when_present
+  reviewer_must_preserve_unresolved_questions: required
+  reviewer_must_not_treat_human_presence_as_oversight: true
+  reviewer_must_not_treat_human_ack_as_independence: true
+  reviewer_must_not_treat_human_signature_as_sufficient: true
+role_separation:
+  director_may_plan_and_block: true
+  director_may_not_terminally_review_v002: true
+  generator_may_generate_only_authorized_contract: true
+  generator_may_not_review_own_output: true
+  reviewer_may_evaluate_v002: true
+  reviewer_may_not_accept_unverified_agent_assertion: true
+  reviewer_may_not_authorize_outside_role: true
+  queue_may_report_liveness: true
+  queue_may_not_authorize_terminal_state: true
+seven_dimension_review:
+  dimension_count: 7
+  direct_observation_required: true
+  claim_evidence_binding_required: true
+  challenge_record_required: true
+  limitations_per_dimension: required
+  uncertainty_or_confidence_per_dimension: required
+  weighted_total_recomputable: required
+  threshold_percent: 65
+  threshold_comparison: required
+  explicit_terminal_decision: required_for_terminal_event
+terminal_events_that_clear_lane:
+  - complete_active_oversight_exact_provenance_independent_reviewer_approval
+  - complete_active_oversight_exact_provenance_independent_reviewer_rejection
+  - complete_active_oversight_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution_with_active_oversight_evidence
+non_terminal_events:
+  - human_present
+  - human_acknowledgment
+  - human_signature_without_independent_evidence
+  - generated_summary
+  - generated_score
+  - generated_caption_transcript
+  - generated_provenance_assertion
+  - prior_agent_score
+  - director_assertion
+  - queue_heartbeat
+  - queue_status
+  - machine_confidence
+  - machine_explanation
+  - machine_recommendation
+  - reviewer_reading_prior_score
+  - reviewer_accepting_prior_score
+  - reviewer_rejecting_prior_score_without_direct_evidence
+  - disagreement_without_adjudication
+  - unresolved_question
+  - missing_artifact_access
+  - missing_first_pass
+  - missing_challenge_record
+  - missing_ai_assistance_disclosure
+  - bare_score
+next_action: >-
+  Human owner must ensure the independent Reviewer can inspect the exact V002 artifact. Reviewer must
+  record an independent first-pass evidence view before relying on machine assistance, disclose every
+  machine-generated input and output, challenge material claims, reproduce the weighted score, record
+  acceptance, rejection, override, dissent, uncertainty, conflicts, and unresolved questions, and
+  publish an immutable exact-provenance packet. Generated suggestions, prior agent records, queue
+  state, and human presence are advisory only. Keep the single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
