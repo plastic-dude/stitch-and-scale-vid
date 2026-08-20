@@ -1,0 +1,167 @@
+manifest_version: '1.0'
+manifest_id: MAN-founder-proof-accountable-owner-state-9x16-v001-20260820-040356
+brief_id: BRF-founder-proof-accountable-owner-state-9x16-v001
+script_id: SCR-founder-proof-accountable-owner-state-9x16-v001
+matrix_id: MAT-founder-proof-accountable-owner-state-9x16-v001
+campaign: founder-proof
+angle: accountable-owner-state
+stamp: '20260820-040356'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-explainer
+title: A named decision is not an owned decision until someone can accept responsibility for its scope and next action.
+objective: >-
+  Show that a conditional decision needs an accountable role, evidence supplier,
+  reviewer or checker, consulted human gate, condition monitor, and handback path,
+  without claiming that Stitch & Scale currently assigns, routes, or escalates decision ownership.
+audience:
+  primary: >-
+    Independent knitwear designers and pattern publishers coordinating calculations,
+    technical editing, physical print review, chart readability, schematic scale, test
+    knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+  secondary: founding testers and reviewers
+form: founder-proof-tabletop-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: independent knitwear designers and pattern publishers
+  tone: calm exact non-urgent role-aware
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be
+    described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_accountable_owner_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    OWNER A-001 / DECISION_ID / ACCOUNTABLE_ROLE / AUTHORITY_OR_SCOPE /
+    EVIDENCE_SUPPLIER / REVIEWER_OR_CHECKER / CONSULTED_HUMAN_GATE /
+    CONDITION_MONITOR / HAND_BACK_TRIGGER / COVERAGE_OR_DELEGATE / DISPOSITION /
+    REVIEW_RECORD
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+research:
+  file: research/2026-08-20-pass211-browser-findings.md
+  question: >-
+    How should accountability for a conditional decision be assigned, maintained, and
+    handed back when conditions change, so responsibility is not implied by a label or left with nobody?
+  decision_changed: >-
+    Identify accountable role, authority or scope, evidence supplier, reviewer or checker,
+    consulted human gate, condition monitor, handback trigger, coverage or delegate,
+    disposition, and review record.
+  sources:
+    - id: R211-001
+      title: 'NIST CSRC — Authorizing official Glossary'
+      url: https://csrc.nist.gov/glossary/term/authorizing_official
+      accessed: '2026-08-20'
+    - id: R211-002
+      title: 'ICO — Guide to accountability and governance'
+      url: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/
+      accessed: '2026-08-20'
+      limitation: Page marked under review because of legislative changes.
+    - id: R211-003
+      title: 'W3C WAI — Using Combined Expertise to Evaluate Web Accessibility'
+      url: https://www.w3.org/WAI/test-evaluate/combined-expertise/
+      accessed: '2026-08-20'
+    - id: R211-004
+      title: 'Craft Yarn Council — Congratulations! You’ve Received the Go Ahead'
+      url: https://www.craftyarncouncil.com/industry.html
+      accessed: '2026-08-20'
+concept_difference:
+  nearest_prior: decision-conditions-state
+  changed_pain: >-
+    A decision has conditions but nobody’s authority, evidence responsibility,
+    human-gate role, condition maintenance, or handback path is explicit.
+  hook: A named decision is not an owned decision until someone can accept responsibility for its scope and next action.
+  visual_metaphor: >-
+    Role cards surround a decision; accountable role is highlighted, evidence and
+    human-gate roles remain distinct, and a change flips the owner card to HAND BACK REQUIRED.
+  emotional_turn: 'Responsible clarity: name who can act and what happens if they cannot.'
+  final_line: Name who owns the decision, who checked it, and what happens when ownership must change.
+dramatic_engine:
+  subject: conditional decision card surrounded by distinct role cards
+  desire: make it possible for the right role to accept responsibility for the decision scope and next action
+  obstacle: accountable role, authority, evidence supplier, reviewer, consulted human gate, condition monitor, handback trigger, and coverage are missing or confused
+  stakes: a documented decision can remain without a clear responsible actor after conditions change
+  change: roles become explicit; a condition change flips the owner state to HAND BACK REQUIRED
+  contradiction: many people may contribute evidence while only an authorized role can accept the bounded decision
+  escalation:
+    - DECISION_ID
+    - ACCOUNTABLE_ROLE
+    - AUTHORITY_OR_SCOPE
+    - EVIDENCE_SUPPLIER
+    - REVIEWER_OR_CHECKER
+    - CONSULTED_HUMAN_GATE
+    - CONDITION_MONITOR
+    - HAND_BACK_TRIGGER
+    - COVERAGE_OR_DELEGATE
+    - DISPOSITION
+    - REVIEW_RECORD
+assets:
+  approved_assets: pending
+  permitted: original neutral cards, neutral tabletop, rights-cleared narrator, neutral foley
+  prohibited: copyrighted pattern excerpts, private records, customer names, logos, private messages, current UI captures
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, proof, tables, numbers, logos, buttons, menus, or primary actions
+audio:
+  music: none unless rights-cleared and separately approved
+  motif: restrained handback cue and neutral hold tone
+  room_tone: record before and after each setup
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_accountable-owner-state_9x16_v001_matrix_20260820-040356.md
+filename:
+  reserved: SS_founder-proof_accountable-owner-state_9x16_v001_blocked_20260820-040356.mp4
+  overwrite: false
+  duplicate_check: passed
+claims:
+  allowed:
+    - A bounded decision can distinguish accountable role, authority or scope, evidence supplier, reviewer, human gate, condition monitor, handback trigger, and coverage.
+    - Ownership should include a next action when conditions change or the named owner is unavailable.
+  prohibited:
+    - Stitch & Scale assigns roles, routes decisions, escalates ownership, maintains coverage, provides a roster, or exposes role-based permissions.
+    - A named role automatically has authority, or an evidence supplier is automatically the decision owner.
+    - Accountability replaces calculation, technical editing, print review, chart readability, schematic scale, or test knitting.
+    - WCAG conformance or guaranteed accessibility.
+    - Revenue, adoption, customer outcomes, pricing, credentials, testimonials, urgency, accuracy, or capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact accountable-owner surface; destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence also remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-accountable-owner-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate

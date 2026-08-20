@@ -1,0 +1,68 @@
+message_id: MSG-20260820-040356-director-214
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 211
+stamp: '20260820-040356'
+angle: accountable-owner-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_accountable-owner-state_9x16_v001_blocked_20260820-040356.mp4
+nearest_prior: decision-conditions-state
+hook: A named decision is not an owned decision until someone can accept responsibility for its scope and next action.
+final_line: Name who owns the decision, who checked it, and what happens when ownership must change.
+research_question: >-
+  How should accountability for a conditional decision be assigned, maintained, and
+  handed back when conditions change, so responsibility is not implied by a label or left with nobody?
+research_file: research/2026-08-20-pass211-browser-findings.md
+research_decision: >-
+  Identify accountable role, authority or scope, evidence supplier, reviewer or checker,
+  consulted human gate, condition monitor, handback trigger, coverage or delegate,
+  disposition, and review record.
+research_sources:
+  - NIST defines an authorizing official as a role with authority to formally assume responsibility.
+  - ICO accountability guidance requires demonstrable records and ongoing review; page marked under review because of legislative changes.
+  - W3C recommends diverse expertise and collaborative evaluation.
+  - Craft Yarn Council distributes responsibility across designer, editor, manufacturer, and recipient requirements.
+objective: >-
+  Show that a conditional decision needs an accountable role, evidence supplier,
+  reviewer or checker, consulted human gate, condition monitor, and handback path,
+  without claiming that Stitch & Scale currently assigns, routes, or escalates decision ownership.
+audience: >-
+  Independent knitwear designers and pattern publishers coordinating calculations,
+  technical editing, physical print review, chart readability, schematic scale, test
+  knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+deliverables:
+  - briefs/SS_founder-proof_accountable-owner-state_9x16_v001_blocked_20260820-040356.md
+  - scripts/SS_founder-proof_accountable-owner-state_9x16_v001_blocked_20260820-040356.md
+  - platforms/SS_founder-proof_accountable-owner-state_9x16_v001_matrix_20260820-040356.md
+  - ledgers/20260820-accountable-owner-state.md
+  - manifests/SS_founder-proof_accountable-owner-state_9x16_v001_blocked_20260820-040356.yml
+  - research/2026-08-20-pass211-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-040356-director-214.yml
+proof_surface: OWNER A-001 / DECISION_ID / ACCOUNTABLE_ROLE / AUTHORITY_OR_SCOPE / EVIDENCE_SUPPLIER / REVIEWER_OR_CHECKER / CONSULTED_HUMAN_GATE / CONDITION_MONITOR / HAND_BACK_TRIGGER / COVERAGE_OR_DELEGATE / DISPOSITION / REVIEW_RECORD
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact accountable-owner surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim role assignment, decision routing, escalation, coverage, roster,
+  role-based permissions, accessibility conformance, suitability, usability,
+  project-level classification, accuracy, outcomes, adoption, pricing, credentials,
+  testimonials, urgency, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected. Both remain blocked;
+  reserved filenames remain occupied; neither was regenerated, renamed, overwritten, or approved.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared proof-registry entry or
+  approved capture showing decision ID, accountable role, authority or scope, evidence
+  supplier, reviewer or checker, consulted human gate, condition monitor, handback trigger,
+  coverage or delegate, disposition, and review record; name the destination platform;
+  then rerun all Director gates.
