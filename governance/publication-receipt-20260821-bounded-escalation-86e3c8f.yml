@@ -1,0 +1,82 @@
+receipt_id: PUB-20260821-bounded-escalation-86e3c8f
+created_at: '2026-08-21T15:44:00+01:00'
+role: temporary-director
+firing: 207
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 46c1ff3d8f6531d0a4b8daebf34cf68a7ea89a85
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 86e3c8f45702b4f15fdafb50716349bc26efffe8
+head_equals_origin_main_after_blocker: true
+divergence_after_blocker: '0 0'
+publication_status: published-blocker
+verified_remote_paths_before_receipt:
+  - research/2026-08-21-bounded-owner-escalation-review-hold-1544.md
+  - comms/outbox/MSG-20260821T154400-temporary-director-207.yml
+  - prompts/director-planner-loop-7m.md
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  When a review callback remains absent across repeated scheduled inspections, what
+  makes escalation actionable without turning a non-terminal hold into an
+  unauthorized production decision?
+research_decision: >-
+  Convert the repeated hold into one actionable escalation contract with named
+  owner, bounded deadline, and escalation target. Keep the independent Reviewer as
+  the only quality decision-maker; preserve the fail-closed lane; and treat timeout
+  as escalation only.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - queue_only_commit
+  - repeated_authorization_hold
+  - reminder
+  - acknowledgement_without_quality_verdict
+  - silence
+  - elapsed_time
+  - timeout_without_terminal_reviewer_callback
+  - owner_acknowledgement_without_assignment
+  - callback_for_another_video
+  - callback_without_exact_provenance
+  - callback_missing_required_evidence
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+next_action: >-
+  Human owner must name the responsible owner, bounded deadline, and escalation
+  target. Independent Video Reviewer must publish one unique terminal callback
+  bound to exact V002 video ID, Drive file ID, and SHA-256, containing explicit
+  decision, timestamp, complete seven-dimension score, and evidence references.
+  If the deadline is missed, escalate the same incident while keeping the lane
+  fail-closed; do not infer approval, rejection, remake, or production authority.
+  Keep the lane closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
