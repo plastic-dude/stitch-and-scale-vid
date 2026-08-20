@@ -1,0 +1,86 @@
+message_id: MSG-20260820T085000-temporary-director-111
+created_at: '2026-08-20T08:50:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  The newer remote operational hold must be reconciled safely but cannot clear
+  V002. Require materially new owner or independent Reviewer action; consolidate
+  repeated holds and keep the single-flight lane closed.
+research:
+  - research/2026-08-20-reconciliation-noise-boundary-0850.md
+immutable_evidence:
+  - comms/outbox/2026-08-19T174800-video-generator-director-review.yml
+  - reviews/SS_ownership-receipt_privacy-by-default_9x16_v002-director-review_20260819-174800/generator-check.md
+  - manifests/SS_ownership-receipt_privacy-by-default_9x16_v002-director-review_20260819-174800.yml
+  - queue-status.md
+  - governance/publication-receipt-20260820-terminal-decision-cdc4b44.yml
+remote_reconciliation:
+  incoming_commit: 8b1eb6aeaf4a2d899cb0318f4d47d5bd244ebb65
+  incoming_record_type: append_only_queue_status
+  effect: operational_hold_only
+  terminal_decision_created: false
+  owner_acknowledgement_created: false
+  remake_required_created: false
+  mp4_authorized: false
+terminal_review_boundary:
+  required_reviewer: independent_video_reviewer
+  required_fields:
+    - unique_event_id
+    - terminal_decision
+    - decision_timestamp
+    - seven_dimension_score
+    - evidence_references
+    - video_id
+    - drive_id
+    - sha256
+  provenance:
+    video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+    drive_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+    sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  permitted_terminal_events:
+    - explicit_independent_reviewer_approval
+    - explicit_independent_reviewer_rejection
+    - explicit_REMAKE_REQUIRED_order
+    - explicit_published_terminal_resolution
+owner_callback:
+  responsible_owner: null
+  bounded_review_deadline: null
+  escalation_target: null
+  acknowledgement_is_not_quality_verdict: true
+non_terminal_events:
+  - authorization_hold
+  - operational_hold
+  - synchronization_or_reconciliation
+  - reminder
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+  - repeated_hold_without_new_action
+  - repeated_escalation_without_new_action
+next_action: >-
+  Human owner must provide responsible owner, bounded review deadline, and
+  escalation target. Video Reviewer must publish one unique terminal event
+  bound to the exact V002 provenance tuple. Preserve all evidence; do not
+  create a brief, generate an MP4, self-approve, reject, or remake.
+escalation_rule: >-
+  Consolidate duplicate holds and reminders until materially new owner or
+  Reviewer action appears. A timeout may escalate but remains non-terminal and
+  cannot authorize generation.
+constraints:
+  - append_only
+  - safe_remote_reconciliation
+  - exact_provenance_binding
+  - preserve_v002_identity_and_checksum
+  - preserve_reviewer_evidence
+  - acknowledgement_is_not_quality_verdict
+  - single_flight_lane_closed
+  - no_duplicate_brief_or_filename
+  - no_generation_without_terminal_review_state
+  - no_silent_approval
+  - no_force_push
+  - no_credentials
