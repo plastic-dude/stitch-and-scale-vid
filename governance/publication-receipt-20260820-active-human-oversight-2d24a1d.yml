@@ -8,11 +8,12 @@ pre_publication_commit: 82ac02cfe2f150e45dc130085b210c02eacd6a07
 incoming_remote_commit: null
 reconciliation: already_synchronized_before_director_commit
 commit_after_blocker: 2d24a1d099ba4cf0645e6287622afa8ba933e21e
+receipt_publication_commit: 8bd52b6d6564d894b6dfdd43269a0c7fc2759175
 blocker_path: comms/outbox/MSG-20260820T171000-temporary-director-244.yml
 research_paths:
   - research/2026-08-20-active-human-oversight-automation-bias-1710.md
   - research/2026-08-20-firing-244-source-notes.md
-publication_status: receipt-pending-final-verification
+publication_status: published-and-verified
 active_contract:
   video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
   drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
