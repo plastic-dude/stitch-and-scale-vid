@@ -1,0 +1,233 @@
+receipt_id: PUB-20260820-control-data-plane-41c2d32
+created_at: '2026-08-20T17:17:40+00:00'
+role: temporary-director
+firing: 245
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 6d608aa5fe188f09019195410941f919c14ab560
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 41c2d325313ad13840e1b61bfd5226e4af636549
+blocker_path: comms/outbox/MSG-20260820T171700-temporary-director-245.yml
+research_paths:
+  - research/2026-08-20-control-data-plane-review-authority-1717.md
+  - research/2026-08-20-firing-245-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How can the review system prevent queue, telemetry, administrative APIs, and recovery channels from
+  directly mutating V002 authorization state while remaining observable and recoverable during
+  control-plane degradation?
+research_decision: >-
+  Require a versioned control/data-plane boundary. Exact media and immutable evidence are data-plane
+  objects; queue, heartbeat, schedule, administrative, incident, escalation, receipt, and recovery
+  events are control-plane records. Control-plane events may report, route, or append non-terminal
+  state but may not directly approve, reject, require remake, publish, create a new brief, or authorize
+  MP4. Terminal judgment and transition authority must remain separate, identity-bound, complete,
+  idempotent, and auditable. Recovery must be pre-rehearsed, minimally scoped, preserve pre/post
+  snapshots, and fail closed on ambiguity or degradation.
+plane_separation_contract:
+  boundary_id: required
+  boundary_version: required
+  exact_contract_binding: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  effective_timestamp_utc: required
+  policy_owner_identity: required
+  policy_owner_role: required
+  stakeholder_approval_reference: required
+  control_plane_definition: required
+  data_plane_definition: required
+  judgment_plane_definition: required
+  terminal_transition_plane_definition: required
+  enforcement_point_definition: required
+  state_store_definition: required
+  protected_artifact_store_definition: required
+  read_path_definition: required
+  write_path_definition: required
+  control_to_data_path: required
+  data_to_control_observation_path: required
+  terminal_authority_path: required
+  recovery_path: required
+  audit_path: required
+  failure_boundary: required
+  ambiguity_behavior: required
+  revalidation_rule: required
+plane_roles:
+  control_plane:
+    may_report_or_route: true
+    may_append_operational_record: true
+    may_read_authoritative_state: bounded_and_logged
+    may_mutate_terminal_state: false
+    may_authorize_mp4: false
+    may_create_approved_brief: false
+    may_delete_evidence: false
+  review_data_plane:
+    integrity_binding: exact_provenance_required
+    transformation_lineage: required_for_derivative
+    may_be_replaced_by_queue_record: false
+    may_be_replaced_by_summary: false
+    may_be_replaced_by_heartbeat: false
+    may_be_replaced_by_receipt: false
+  judgment_plane:
+    authorized_actor: independent_reviewer_required
+    exact_artifact_inspection: required
+    score_recomputation: required
+    may_accept_control_plane_assertion_as_evidence: false
+    may_emit_terminal_decision: only_with_complete_contract
+  terminal_transition_plane:
+    separate_from_control_plane: true
+    separate_from_generator: true
+    separate_from_director: true
+    identity_bound_authority: required
+    exact_provenance: required
+    complete_evidence: required
+    immutable_event: required
+    idempotency_key: required
+    causal_parent: required
+    freshness_window: required
+    signature_or_attestation: required
+    may_be_triggered_by_queue_only: false
+    may_be_triggered_by_heartbeat_only: false
+    may_be_triggered_by_recovery_success_only: false
+    may_be_triggered_by_receipt_only: false
+control_plane_failure_behavior:
+  stale_response: preserve_and_mark_stale
+  timeout: append_non_terminal_hold
+  retry: idempotency_key_required
+  replayed_command: deduplicate_and_preserve
+  duplicate_command: deduplicate_and_preserve
+  out_of_order_command: preserve_and_non_terminal
+  partial_write: fail_closed_and_reconcile
+  remote_divergence: safe_merge_or_publication_blocked
+  missing_authority: fail_closed
+  ambiguous_state: fail_closed
+  unknown_event_type: preserve_and_non_terminal
+  missing_causal_parent: non_terminal
+  freshness_expired: non_terminal_revalidation_required
+  recovery_probe_success: liveness_only
+  control_plane_health_restored: not_terminal_authority
+  scheduler_restarted: not_terminal_authority
+  queue_replayed: not_terminal_authority
+  receipt_published: not_terminal_authority
+  evidence_store_unavailable: preserve_hold_and_escalate
+  terminal_store_unavailable: do_not_infer_terminal_state
+recovery_contract:
+  recovery_plan_id: required
+  recovery_plan_version: required
+  pre_rehearsed: required
+  rehearsal_reference: required
+  failure_modes: required
+  minimal_action_set: required
+  action_order: required
+  preconditions: required
+  postconditions: required
+  idempotency_keys: required
+  authorization_checks: required
+  rollback_or_abort_rule: required
+  protected_evidence_preservation: required
+  pre_recovery_state_snapshot: required
+  post_recovery_state_snapshot: required
+  state_difference: required
+  operator_identity: required
+  observer_identity: required
+  timestamps_utc: required
+  outcome: required
+  residual_uncertainty: required
+  recovery_does_not_clear_v002: true
+  recovery_does_not_authorize_mp4: true
+static_stability_rules:
+  preprovision_review_state_store: required
+  preprovision_protected_evidence_access: required
+  preprovision_terminal_transition_channel: required
+  do_not_depend_on_new_control_plane_resources_during_degradation: true
+  do_not_depend_on_scheduler_restart_for_authority: true
+  do_not_depend_on_queue_replay_for_authority: true
+  do_not_depend_on_receipt_republication_for_authority: true
+  bounded_append_path_during_degradation: required
+  read_only_authoritative_snapshot_during_degradation: preferred
+  recovery_actions_rehearsed_before_live_use: required
+  control_plane_recovery_is_not_review_approval: true
+observability_contract:
+  control_plane_events_separate: required
+  data_plane_evidence_separate: required
+  judgment_events_separate: required
+  terminal_events_separate: required
+  plane_identity_in_every_event: required
+  event_type_in_every_event: required
+  authority_class_in_every_event: required
+  exact_provenance_in_terminal_event: required
+  causal_parent_in_every_state_change: required
+  event_version_in_every_event: required
+  schema_version_in_every_event: required
+  clock_and_timezone: utc_required
+  event_ordering: causal_or_sequence_bound
+  missing_observation_is_not_success: true
+  aggregate_health_is_not_terminal_authority: true
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution
+non_terminal_events:
+  - queue_status
+  - heartbeat
+  - schedule_event
+  - administrative_request
+  - incident_record
+  - escalation
+  - publication_receipt
+  - recovery_probe
+  - retry_command
+  - control_plane_health_restored
+  - scheduler_restarted
+  - queue_replayed
+  - recovery_success
+  - evidence_store_health
+  - terminal_store_health
+  - read_only_snapshot
+  - stale_response
+  - timeout
+  - duplicate_command
+  - replayed_command
+  - out_of_order_command
+  - partial_write
+  - missing_authority
+  - ambiguous_state
+  - bare_score
+  - aggregate_without_artifact_scope
+next_action: >-
+  Human owner must approve a versioned plane-separation contract. Control-plane records must remain
+  append-only or version-checked and non-terminal. The protected V002 artifact and immutable evidence
+  must remain exact-provenance-bound. Terminal judgment and transition authority must be separate,
+  identity-bound, complete, idempotent, and auditable. Recovery must use a minimal pre-rehearsed action
+  set, preserve pre/post snapshots, and fail closed on ambiguity or control-plane degradation. Keep the
+  single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
