@@ -1,0 +1,83 @@
+message_id: MSG-20260820-043942-director-218
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 215
+stamp: '20260820-043942'
+angle: test-protocol-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_test-protocol-state_9x16_v001_blocked_20260820-043942.mp4
+nearest_prior: substitution-authorization-state
+hook: A test result needs the conditions that make it readable.
+final_line: Name what was tested, under which conditions, and what the result still cannot prove.
+research_question: >-
+  What must a knitwear test record preserve about inputs, method, conditions, scope,
+  observer, result, uncertainty, and limits before a test result can be interpreted or
+  repeated without being mistaken for publication clearance?
+research_file: research/2026-08-20-pass215-browser-findings.md
+research_decision: >-
+  Select test-protocol-state: keep question, scope, inputs, method, conditions,
+  observer, result, uncertainty, limit, and follow-up visible around a test record.
+research_sources:
+  - The National Academies distinguishes reproducibility from replicability, emphasizes visible inputs, methods, conditions, uncertainty, and limits, and cautions that exact reproduction does not guarantee correctness.
+  - NCBI Bookshelf summarizes the same report and separates a transparent or repeatable result from proof of correctness or generality.
+  - Craft Yarn Council requires reconfirming yarn and color, checking dye lots and availability, confirming sample size, keeping notes, completing a gauge swatch with stitch and row counts, and preserving instructions, measurements, schematics, and submission responsibilities.
+  - Craft Yarn Council’s hook-and-needle guidance says metric sizing is accurate and that a gauge swatch should be compared with the pattern gauge.
+objective: >-
+  Show that a test result needs a visible question, scope, inputs, method, conditions,
+  observer, result, uncertainty, and limit before anyone can interpret what it supports.
+audience: >-
+  Independent knitwear designers, technical editors, test knitters, craft-business
+  operators, and pattern readers coordinating pattern versions, sizes, materials,
+  swatches, instructions, charts, schematics, and review evidence.
+deliverables:
+  - briefs/SS_founder-proof_test-protocol-state_9x16_v001_blocked_20260820-043942.md
+  - scripts/SS_founder-proof_test-protocol-state_9x16_v001_blocked_20260820-043942.md
+  - platforms/SS_founder-proof_test-protocol-state_9x16_v001_matrix_20260820-043942.md
+  - ledgers/20260820-test-protocol-state.md
+  - manifests/SS_founder-proof_test-protocol-state_9x16_v001_blocked_20260820-043942.yml
+  - research/2026-08-20-pass215-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-043942-director-218.yml
+proof_surface: >-
+  TEST X-001 / QUESTION / DESIGN_ID / PATTERN_VERSION / SIZE_OR_SCOPE /
+  MATERIAL_AND_TOOL / METHOD / CONDITIONS / OBSERVER_OR_TESTER / STARTED_AT /
+  COMPLETED_AT / OBSERVATION / RESULT / UNCERTAINTY / LIMIT / FOLLOW_UP /
+  REVIEW_RECORD / STATUS
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact test-protocol surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim that Stitch & Scale runs, repeats, evaluates, scores, certifies, or
+  approves tests; detects missing protocol fields; guarantees reproducibility; proves
+  correctness; replaces calculation, technical editing, physical print review, chart
+  readability, schematic scale, or test knitting; or establishes publication readiness.
+  Do not claim that a favorable result proves every size, edge case, construction,
+  chart, schematic, fit, accessibility, compatibility, revenue, adoption, accuracy,
+  customer outcome, pricing, credential, testimonial, urgency, or capability.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+human_gates: >-
+  Preserve calculation, technical editing, physical print review, chart readability,
+  schematic scale, and test knitting as distinct human evidence gates.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected and remain blocked;
+  their reserved filenames remain occupied. Adjacent test-knit coverage lineage,
+  outcome-proof, acceptance-criteria, replication-state, gauge-state,
+  substitution-authorization-state, and record-estimate-state territory remains occupied
+  and was not modified.
+review_state: >-
+  reviews/, orders/, and comms/inbox/ are absent at refresh; no open CRITICAL or HIGH
+  reviewer or remake order is present in the current repository.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Name the destination platform and provide a current, versioned, non-private, rights-cleared
+  product-proof registry entry or approved capture showing question, design ID, pattern version,
+  size or scope, material and tool, method, conditions, observer or tester, start and completion
+  times, observation, result, uncertainty, limit, follow-up, review record, and status; then rerun
+  all Director gates.
