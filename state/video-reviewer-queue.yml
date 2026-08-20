@@ -1,6 +1,6 @@
 schema_version: 1
 queue_name: stitch-scale-video-reviewer
-last_scan_at: 2026-08-20T18:13:40Z
+last_scan_at: 2026-08-20T19:13:49Z
 last_reviewed_video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
 last_reviewed_version: v002
 last_reviewed_at: 2026-08-20T17:19:00Z
@@ -23,6 +23,7 @@ communication_events:
   - comms/outbox/MSG-20260819T173005Z-small-test-duplicate-review.yml
   - comms/outbox/MSG-20260820T1715Z-ownership-receipt-v002-video-review.yml
   - comms/outbox/MSG-20260820T181340Z-video-reviewer-no-new-output.yml
+  - comms/outbox/MSG-20260820T191349Z-video-reviewer-no-new-output.yml
 physical_assets:
   - drive_file_id: 1OEjnR6azlw73irrwWM-dEzSfu9FgsbFp
     filename: SS_founder-receipt_spreadsheet-11pm_16x9_v001_director-review_20260819-101800.mp4
@@ -45,4 +46,4 @@ physical_assets:
     sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
     logical_item: ownership-receipt-privacy-by-default
 continuation_rule: "Every run stays in the current conversation, reads this cursor, scans Google Drive and repository state for new VIDEO GENERATOR output since last_scan_at, prioritizes open remake orders then new output then never-reviewed eligible assets, resumes after next_cursor_key, processes up to five logical videos sequentially as time permits, and commits the cursor after every item and at batch end. Never create a separate chat or child task."
-updated_at: 2026-08-20T18:13:40Z
+updated_at: 2026-08-20T19:13:49Z
