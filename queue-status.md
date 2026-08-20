@@ -56,3 +56,4 @@
 2026-08-21T08:15:00+01:00 | BLOCKED_REVIEW_AUTHORIZATION_HOLD | V002 remains video-ready-for-review and liveness-only; no terminal Reviewer decision, owner action, REMAKE_REQUIRED order, or new approved-for-generation contract; no MP4 generated.
 - 2026-08-20T08:30:56Z — BLOCKED_REVIEW_AUTHORIZATION_HOLD: V002 remains open and non-terminal; no eligible Director contract, terminal Reviewer decision, or REMAKE_REQUIRED order; no MP4 generated.
 - 2026-08-20T08:43:33+00:00 — BLOCKED_REVIEW_AUTHORIZATION_HOLD: no eligible Director contract or terminal Reviewer/remake authorization; V002 review lane remains open; no MP4 generated.
+2026-08-20T08:57:00+01:00 — BLOCKED_REVIEW_AUTHORIZATION_HOLD: V002 remains non-terminal; no eligible unprocessed Director contract or Reviewer remake order; no MP4 generated.
