@@ -5,10 +5,11 @@ firing: 160
 repository: plastic-dude/stitch-and-scale-vid
 branch: main
 pre_publication_commit: 85b6f2783c62544fc901512480f857b823e07ee2
-incoming_remote_commit: null
-reconciliation: already_synchronized
+incoming_remote_commit: de1bfc43a466be023b471613022c4bd5c321c5cf
+reconciliation: safe_non_ff_merge_after_fast_forward_refused
 commit_after_blocker: 4379e84419f6ac065085d73d9d072cdbaa3fb25a
-head_equals_origin_main: true
+merge_commit_before_receipt_republication: b4205a0c8e318cf35bed0f2ecdf26b758266ffaf
+head_equals_origin_main: pending_final_push_verification
 divergence_left_right: '0 0'
 publication_status: published-blocker
 verified_remote_paths:
