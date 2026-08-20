@@ -1,0 +1,158 @@
+manifest_version: '1.0'
+manifest_id: MAN-founder-proof-impact-assessment-state-9x16-v001-20260820-030745
+brief_id: BRF-founder-proof-impact-assessment-state-9x16-v001
+script_id: SCR-founder-proof-impact-assessment-state-9x16-v001
+matrix_id: MAT-founder-proof-impact-assessment-state-9x16-v001
+campaign: founder-proof
+angle: impact-assessment-state
+stamp: '20260820-030745'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-explainer
+title: A change is an event. Its impact is a question. The decision needs evidence.
+objective: >-
+  Show that a change event is not itself an impact finding: record what changed,
+  which surface may be affected, what was observed, what evidence supports that
+  observation, and who owns the next decision, without claiming that Stitch & Scale
+  currently performs impact analysis.
+audience:
+  primary: >-
+    Independent knitwear designers and pattern publishers coordinating calculations,
+    technical editing, physical print review, chart readability, schematic scale, test
+    knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+  secondary: founding testers and reviewers
+form: founder-proof-tabletop-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: independent knitwear designers and pattern publishers
+  tone: calm exact non-urgent candid
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be
+    described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_impact_assessment_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    IMPACT A-001 / CHANGE_EVENT / AFFECTED_SURFACE / OBSERVED_RESULT /
+    ACCEPTANCE_CRITERIA / SUPPORTING_EVIDENCE / DECISION_OWNER / IMPACT_STATUS / DISPOSITION
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+research:
+  file: research/2026-08-20-pass203-browser-findings.md
+  question: >-
+    When a relevant change triggers review, how should the workflow distinguish the
+    event itself from the downstream evidence, scope, and decision it may affect?
+  decision_changed: >-
+    Separate the change event from affected surface, observed result, supporting evidence, and decision.
+  sources:
+    - id: R203-001
+      title: 'NIST CSRC Glossary — Security impact analysis'
+      url: https://csrc.nist.gov/glossary/term/security_impact_analysis
+      accessed: '2026-08-20'
+    - id: R203-002
+      title: 'NIST CSRC — Risk Management Framework'
+      url: https://csrc.nist.gov/projects/risk-management
+      accessed: '2026-08-20'
+    - id: R203-003
+      title: 'GOV.UK Publishing guidance — Identify user needs'
+      url: https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/plan-manage-content/identify-user-needs/
+      accessed: '2026-08-20'
+    - id: R203-004
+      title: 'Craft Yarn Council — Reading Instructions & Other Basics'
+      url: https://www.craftyarncouncil.com/read_instructions.html
+      accessed: '2026-08-20'
+concept_difference:
+  nearest_prior: review-trigger-state
+  changed_pain: >-
+    The trigger is mistaken for proof of what the change affected or what decision should follow.
+  hook: A change is an event. Its impact is a question. The decision needs evidence.
+  visual_metaphor: >-
+    A change card forks into affected surface, observed result, supporting evidence,
+    and decision lanes, with one or more lanes remaining pending.
+  emotional_turn: 'Humility: investigate rather than invent a consequence.'
+  final_line: Name what changed, what you observed, what supports it, and who decides what happens next.
+dramatic_engine:
+  subject: change card branching into four assessment lanes
+  desire: understand what the change actually touches without losing prior scope
+  obstacle: trigger is visible but affected surface, observed result, evidence, criteria, owner, and status are incomplete
+  stakes: a trigger can be repeated as an invented impact
+  change: trigger becomes a structured assessment packet and remains undecided until evidence and owner are visible
+  contradiction: a change may affect something without proving exactly what it affected
+  escalation:
+    - CHANGE_EVENT
+    - AFFECTED_SURFACE requested
+    - OBSERVED_RESULT separated
+    - SUPPORTING_EVIDENCE requested
+    - ACCEPTANCE_CRITERIA and DECISION_OWNER exposed
+    - IMPACT_STATUS PENDING
+    - DISPOSITION HOLD
+assets:
+  approved_assets: pending
+  permitted: original neutral cards, neutral tabletop, rights-cleared narrator, neutral foley
+  prohibited: copyrighted pattern excerpts, private records, customer names, logos, private messages, current UI captures
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, proof, tables, numbers, logos, buttons, menus, or primary actions
+audio:
+  music: none unless rights-cleared and separately approved
+  motif: restrained fork cue and neutral pending tone
+  room_tone: record before and after each setup
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_impact-assessment-state_9x16_v001_matrix_20260820-030745.md
+filename:
+  reserved: SS_founder-proof_impact-assessment-state_9x16_v001_blocked_20260820-030745.mp4
+  overwrite: false
+  duplicate_check: passed
+claims:
+  allowed:
+    - A change event and its downstream impact are different things.
+    - An impact packet can name affected surface, observed result, criteria, supporting evidence, owner, status, and disposition.
+  prohibited:
+    - Stitch & Scale performs impact analysis, detects affected records, calculates consequences, or automates decisions.
+    - A real material, requirement, or evidence change affected a specific surface.
+    - Impact analysis replaces technical editing, print review, chart readability, schematic scale, or test knitting.
+    - WCAG conformance or guaranteed accessibility.
+    - Revenue, adoption, customer outcomes, pricing, credentials, testimonials, urgency, accuracy, or capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact impact-assessment surface; destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence also remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-impact-assessment-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate

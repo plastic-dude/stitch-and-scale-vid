@@ -1,0 +1,66 @@
+message_id: MSG-20260820-030745-director-206
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 203
+stamp: '20260820-030745'
+angle: impact-assessment-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_impact-assessment-state_9x16_v001_blocked_20260820-030745.mp4
+nearest_prior: review-trigger-state
+hook: A change is an event. Its impact is a question. The decision needs evidence.
+final_line: Name what changed, what you observed, what supports it, and who decides what happens next.
+research_question: >-
+  When a relevant change triggers review, how should the workflow distinguish the
+  event itself from the downstream evidence, scope, and decision it may affect?
+research_file: research/2026-08-20-pass203-browser-findings.md
+research_decision: >-
+  Separate the change event from affected surface, observed result, supporting evidence, and decision.
+research_sources:
+  - NIST defines impact analysis as determining how far a change affected or may have affected a system state.
+  - NIST Risk Management Framework describes a repeatable and measurable risk-management process.
+  - GOV.UK records user needs, acceptance criteria, supporting evidence, and rationale.
+  - Craft Yarn Council keeps gauge, instructions, reading, and human craft checks distinct.
+objective: >-
+  Show that a change event is not itself an impact finding: record what changed,
+  which surface may be affected, what was observed, what evidence supports that
+  observation, and who owns the next decision, without claiming that Stitch & Scale
+  currently performs impact analysis.
+audience: >-
+  Independent knitwear designers and pattern publishers coordinating calculations,
+  technical editing, physical print review, chart readability, schematic scale, test
+  knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+deliverables:
+  - briefs/SS_founder-proof_impact-assessment-state_9x16_v001_blocked_20260820-030745.md
+  - scripts/SS_founder-proof_impact-assessment-state_9x16_v001_blocked_20260820-030745.md
+  - platforms/SS_founder-proof_impact-assessment-state_9x16_v001_matrix_20260820-030745.md
+  - ledgers/20260820-impact-assessment-state.md
+  - manifests/SS_founder-proof_impact-assessment-state_9x16_v001_blocked_20260820-030745.yml
+  - research/2026-08-20-pass203-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-030745-director-206.yml
+proof_surface: IMPACT A-001 / CHANGE_EVENT / AFFECTED_SURFACE / OBSERVED_RESULT / ACCEPTANCE_CRITERIA / SUPPORTING_EVIDENCE / DECISION_OWNER / IMPACT_STATUS / DISPOSITION
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact impact-assessment surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim impact analysis, affected-record detection, consequence calculation,
+  decision automation, suitability, usability, project-level classification, accuracy,
+  outcomes, adoption, pricing, credentials, testimonials, urgency, accessibility
+  conformance, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected. Both remain blocked;
+  reserved filenames remain occupied; neither was regenerated, renamed, overwritten, or approved.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared proof-registry entry or
+  approved capture showing change event, affected surface, observed result, acceptance
+  criteria, supporting evidence, decision owner, impact status, and disposition; name the
+  destination platform; then rerun all Director gates.
