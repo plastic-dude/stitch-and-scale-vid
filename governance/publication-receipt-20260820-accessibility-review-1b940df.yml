@@ -1,0 +1,158 @@
+receipt_id: PUB-20260820-accessibility-review-1b940df
+created_at: '2026-08-20T16:42:05+00:00'
+role: temporary-director
+firing: 240
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 435366050049f30949f140f42211ed37f6677cc5
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 1b940df1383d5a8ed41039ac5c70f5f798ca4f6c
+blocker_path: comms/outbox/MSG-20260820T164200-temporary-director-240.yml
+research_paths:
+  - research/2026-08-20-accessibility-complete-video-review-1642.md
+  - research/2026-08-20-firing-240-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What accessibility evidence must an independent Reviewer record for a promotional video so that
+  captions, non-speech audio, visual descriptions, readable placement, and equivalent access are
+  evaluated objectively and platform-specifically without confusing remediation evidence with
+  terminal campaign authorization?
+research_decision: >-
+  Require an accessibility-complete independent review packet. It must bind captions, descriptions,
+  alternative tracks, and platform derivatives to exact V002 provenance and record caption accuracy,
+  synchronization, meaningful non-speech audio, readability, contrast, non-obstruction, voice
+  intelligibility, visual-description or equivalent access, platform context, and transformation
+  lineage. Accessibility evidence or remediation cannot silently replace V002 or authorize a remake.
+accessibility_contract:
+  test_context: required
+  platform_profile: required
+  player_or_delivery_context: required
+  evaluated_artifact_classification: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  manifest_version: required
+  review_contract_version: required
+  accessibility_criteria_version: required
+  evaluator_identity: required
+  evaluator_role: required
+  evaluation_start_time_utc: required
+  evaluation_end_time_utc: required
+  evidence_references: required
+caption_requirements:
+  caption_presence: required
+  caption_mode_open_or_closed: required
+  caption_file_identity: required_when_external
+  caption_source_identity: required_when_external
+  caption_checksum: required_when_external
+  speech_completeness: required
+  synchronization: required
+  speaker_identification_when_needed: required
+  meaningful_non_speech_audio: required
+  music_or_sound_context: required_when_material
+  transcription_accuracy: required
+  automatic_caption_human_or_equivalent_confirmation: required
+  caption_readability: required
+  caption_contrast: required
+  caption_size: required
+  caption_position: required
+  caption_obstruction_check: required
+  caption_does_not_obscure_relevant_visuals: required
+  caption_does_not_obscure_product_proof: required
+  caption_does_not_obscure_key_text: required
+visual_description_requirements:
+  essential_visual_information_identified: required
+  scene_changes_described_when_material: required
+  on_screen_text_equivalent_access: required
+  visual_claims_available_through_audio_or_alternative: required
+  description_method_integrated_separate_audio_timed_text_or_alternative: required
+  player_support_for_description: required_when_applicable
+  description_timing: required_when_applicable
+  description_voice_distinguishable_when_separate: required_when_applicable
+  description_does_not_mix_or_mask_main_voice: required_when_applicable
+  description_lineage: required_when_applicable
+audio_and_text_requirements:
+  voice_intelligibility: required
+  voice_mixing_absent_or_explained: required
+  competing_generated_text_absent_or_scoped: required
+  text_overlay_obstruction_check: required
+  essential_text_available_in_audio_or_alternative: required
+  language_and_locale: required
+  audio_description_or_equivalent_access: required_when_material
+platform_context:
+  target_platform: required
+  target_device_or_player: required
+  caption_rendering_mode: required
+  safe_area_or_crop_context: required
+  accessibility_controls_available: required
+  platform_limitations: required
+  environment_evidence: required
+transformation_lineage:
+  derivative_present: required
+  source_video_id: required_when_derivative
+  source_drive_file_id: required_when_derivative
+  source_sha256: required_when_derivative
+  derivative_type: required_when_derivative
+  purpose: required_when_derivative
+  tool_and_version: required_when_derivative
+  settings: required_when_derivative
+  transformation_timestamp_utc: required_when_derivative
+  derivative_checksum: required_when_derivative
+  relationship_to_source: required_when_derivative
+  derivative_does_not_silently_replace_v002: true
+  derivative_does_not_authorize_remake: true
+  source_and_derivative_results_preserved: true
+terminal_events_that_clear_lane:
+  - complete_accessibility_evidence_exact_provenance_independent_reviewer_approval
+  - complete_accessibility_evidence_exact_provenance_independent_reviewer_rejection
+  - complete_accessibility_evidence_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution_with_accessibility_evidence
+non_terminal_events:
+  - caption_file_only
+  - description_file_only
+  - accessibility_observation_only
+  - accessibility_remediation_only
+  - platform_preview_only
+  - automatic_caption_without_confirmation
+  - missing_caption_scope
+  - missing_visual_description_scope
+  - obstruction_claim_without_evidence
+  - derivative_without_lineage
+  - bare_score
+  - routine_reminder
+next_action: >-
+  Independent Video Reviewer must publish one complete accessibility-evidence-bound packet covering
+  captions, meaningful non-speech audio, readability, obstruction, visual description or equivalent
+  access, voice intelligibility, competing text, platform context, exact artifact identity, and all
+  derivative lineage. Human owner must preserve source and derivative evidence and ensure any
+  remediation remains separate from V002 until a contract-valid terminal order exists. Keep the
+  single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
