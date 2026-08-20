@@ -1,0 +1,16 @@
+schema_version: "2.0"
+review_state_id: "stitch-scale-video-review-state"
+updated_at: "2026-08-20T00:00:00+00:00"
+source_directories:
+  reviewer_verdicts: "reviews/"
+  orders: "orders/"
+  remake_orders: "orders/remake/"
+  acknowledged_orders: "orders/acknowledged/"
+state: "NO_OPEN_REVIEWER_OR_REMAKE_ORDERS"
+open_orders: []
+critical_or_high_open: false
+new_creative_work_allowed: true
+acknowledgement_required_before_new_work: false
+absence_of_source_directories_is_not_authority: true
+next_scan: "At the start of every Director firing, refresh this record from the repository and preserve any reviewer evidence."
+priority_rule: "An open CRITICAL or HIGH remake order outranks new creative work and must be acknowledged before planning continues."

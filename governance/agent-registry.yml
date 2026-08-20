@@ -1,0 +1,124 @@
+schema_version: "2.0"
+registry_id: "stitch-scale-video-agents"
+effective_at: "2026-08-20T00:00:00+00:00"
+workflow_owner: "director"
+roles:
+  - id: "director"
+    name: "Director/Planner"
+    authority: "workflow_owner"
+    mode: "same_chat_recurring"
+    owns:
+      - "research_question"
+      - "angle_selection"
+      - "campaign_assumption"
+      - "brief_script_package"
+      - "blocker_and_next_action"
+      - "current_state_transition"
+      - "planning_commit"
+    may_not:
+      - "generate_video"
+      - "upload_video"
+      - "self_approve"
+      - "erase_reviewer_evidence"
+  - id: "researcher"
+    name: "Research subroutine"
+    authority: "bounded_advisor"
+    mode: "invoked_by_director"
+    returns:
+      - "question"
+      - "sources"
+      - "access_dates"
+      - "evidence"
+      - "uncertainty"
+      - "decision_changed"
+    may_not:
+      - "select_final_angle"
+      - "assert_product_behavior"
+      - "change_current_state"
+      - "approve_generation"
+  - id: "producer"
+    name: "Producer/Implementer"
+    authority: "downstream_operator"
+    mode: "manual_after_owner_approval"
+    requires:
+      - "state: GENERATION_ELIGIBLE"
+      - "owner_approval: true"
+      - "generation_scope_explicit: true"
+    may_not:
+      - "change_claims"
+      - "change_proof_state"
+      - "change_rights_state"
+      - "change_angle_without_director_review"
+  - id: "qa"
+    name: "QA/Reviewer"
+    authority: "gatekeeper"
+    mode: "invoked_by_director_or_owner"
+    checks:
+      - "schema"
+      - "claims"
+      - "rights_and_consent"
+      - "caption_on"
+      - "caption_free"
+      - "audio"
+      - "platform"
+      - "filename"
+      - "acceptance"
+    may_not:
+      - "rewrite_creative_intent"
+      - "bypass_blocker"
+      - "self_approve"
+      - "delete_failed_evidence"
+  - id: "owner"
+    name: "Product owner/Approver"
+    authority: "human_final"
+    mode: "human_decision"
+    owns:
+      - "product_proof"
+      - "rights_and_consent"
+      - "owner_approval"
+      - "irreversible_publication"
+    may_not:
+      - "delegate_signoff_implicitly"
+
+handoffs:
+  allowed:
+    - from: "director"
+      to: "researcher"
+      when: "fresh_research_needed"
+    - from: "researcher"
+      to: "director"
+      when: "evidence_memo_complete"
+    - from: "director"
+      to: "qa"
+      when: "package_ready_for_validation"
+    - from: "qa"
+      to: "director"
+      when: "verdict_complete"
+    - from: "director"
+      to: "owner"
+      when: "owner_decision_required"
+    - from: "owner"
+      to: "director"
+      when: "decision_recorded"
+    - from: "director"
+      to: "producer"
+      when: "generation_scope_explicit_and_owner_approved"
+    - from: "producer"
+      to: "qa"
+      when: "production_record_ready"
+  forbidden:
+    - "researcher_to_producer"
+    - "researcher_to_owner_without_director"
+    - "qa_to_producer_without_director"
+    - "producer_to_owner_as_approval_substitute"
+    - "any_agent_to_generation_without_owner_approval"
+    - "any_agent_to_upload_without_owner_approval"
+
+global_limits:
+  planning_only_current_scope: true
+  video_generation_allowed: false
+  video_upload_allowed: false
+  autonomous_generator_schedule: false
+  separate_chat_for_director: false
+  duplicate_current_state_authorities: false
+  imported_concepts_may_be_reopened_from_history_alone: false

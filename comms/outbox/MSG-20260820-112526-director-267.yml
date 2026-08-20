@@ -1,0 +1,90 @@
+message_id: "MSG-20260820-112526-director-267"
+message_type: "director_handoff"
+created_at: "2026-08-20T11:25:26+00:00"
+pass_number: 264
+campaign: "founder-proof"
+angle_slug: "outsider-position-state"
+plan_id: "SS-PLAN-20260820-OUTSIDER-POSITION-STATE-V001"
+status: "blocked"
+
+subject: "Pass 264 blocked: outsider-position-state pending exact product proof"
+
+summary: >-
+  Fresh wide research selected outsider-position-state: a developer can name a family
+  connection and motivation without borrowing maker identity, if the story explicitly
+  states role, knowledge limits, reviewer relationship, and the ask. The original paper
+  position card is illustrative only and does not establish current Stitch & Scale UI,
+  co-design, consent, roster, community ownership, compensation, or feedback outcomes.
+
+research:
+  findings: "research/2026-08-20-pass264-browser-findings.md"
+  selection_boundary_audit: "research/2026-08-20-pass264-selection-boundary-audit.md"
+  sources_used:
+    - "https://designjustice.mitpress.mit.edu/pub/cfohnud7"
+    - "https://www.ntd-ngonetwork.org/ethical-storytelling-an-approach-to-ensuring-truthful-community-representation-and-ownership"
+    - "https://academic.oup.com/bjsw/article/53/3/1352/6978611"
+    - "https://www.w3.org/TR/WCAG22/"
+    - "https://support.google.com/youtube/answer/2734796?hl=en"
+    - "https://ads.tiktok.com/help/article/creative-best-practices"
+  source_limit: "The BJSW article page was extraction-incomplete; no substantive claim is drawn from it. External frameworks are not product proof."
+
+artifacts:
+  brief: "briefs/SS_founder-proof_outsider-position-state_9x16_v001_blocked_20260820-112526.md"
+  script: "scripts/SS_founder-proof_outsider-position-state_9x16_v001_blocked_20260820-112526.md"
+  platform_matrix: "platforms/SS_founder-proof_outsider-position-state_9x16_v001_matrix_20260820-112526.md"
+  continuity_ledger: "ledgers/20260820-outsider-position-state.md"
+  manifest: "manifests/SS_founder-proof_outsider-position-state_9x16_v001_blocked_20260820-112526.yml"
+  reserved_media_filename: "SS_founder-proof_outsider-position-state_9x16_v001_blocked_20260820-112526.mp4"
+
+truth_boundary:
+  david_is_developer: true
+  late_mother_knitted: true
+  david_is_knitter: false
+  david_is_knitwear_designer: false
+  david_is_pattern_designer: false
+  david_is_technical_editor: false
+  david_is_test_knitter: false
+  family_connection_is_motivation_only: true
+  illustrative_card_is_product_ui: false
+  product_proof_present: false
+  co_design_workflow_verified: false
+  consent_workflow_verified: false
+  tester_roster_verified: false
+  community_ownership_verified: false
+  feedback_outcome_verified: false
+
+continuity:
+  imported_false_completion: "blocked_do_not_touch"
+  imported_false_completion_filename: "SS_founder-testers_false-completion_9x16_v001_blocked_20260819-030020.mp4"
+  imported_release_gate_roster: "blocked_do_not_touch"
+  imported_release_gate_roster_filename: "SS_founder-proof_release-gate-roster_9x16_v001_director-review_20260819-030616.mp4"
+  no_imported_concept_regenerated: true
+  no_imported_concept_overwritten: true
+  no_imported_concept_approved: true
+
+production_state:
+  not_generated: true
+  not_uploaded: true
+  generation_authorized: false
+  upload_authorized: false
+  current_product_capture_cleared: false
+  family_or_maker_assets_cleared: false
+  rights_verified: false
+  caption_on_review_complete: false
+  caption_free_review_complete: false
+  audio_review_complete: false
+  mobile_safe_zone_review_complete: false
+  owner_signoff: false
+
+generator_action: >-
+  Do not generate or upload. Await one current, versioned, approved, non-private proof
+  registry record or capture for the exact outsider-position or community-review surface,
+  including role, knowledge limit, reviewer relationship, ask, ownership/consent treatment,
+  status, privacy, rights, and destination; then rerun Director claim, asset, rights,
+  caption, audio, platform, filename, and acceptance validation.
+
+reviewer_notes:
+  - "Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or test knitter."
+  - "Do not present the paper card as current product UI or as a co-design, consent, roster, compensation, or community-ownership feature."
+  - "Keep technical editing, physical print review, chart readability, schematic scale, localization review, and test knitting as distinct human gates."
+  - "Use one narrator family; captions must not cover role, limit, reviewer, ask, hands, or footer."

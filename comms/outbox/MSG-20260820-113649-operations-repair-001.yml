@@ -1,0 +1,84 @@
+schema_version: "2.0"
+message_id: "MSG-20260820-113649-operations-repair-001"
+message_type: "operations_repair_handoff"
+created_at: "2026-08-20T11:36:49+00:00"
+repository: "plastic-dude/stitch-and-scale-vid"
+owner: "director"
+status: "REPAIR_READY_FOR_VALIDATION"
+
+summary: >-
+  The video space was simplified from repeated overlapping prompts and implicit
+  handoffs into a Director-owned state machine with four bounded roles, one current
+  state pointer, one explicit review-state record, and one canonical handoff schema.
+  The repair preserves planning-only operation: no video was generated or uploaded.
+
+root_causes:
+  - "Repeated Director instructions consumed context and created maintenance drift."
+  - "Director and Generator contracts used different operating assumptions and handoff shapes."
+  - "No compact role registry defined who owns research, production, QA, approval, or state transitions."
+  - "No explicit no-open-orders record existed; agents inferred state from absent directories."
+  - "The existing Director schedule was paused despite the desired same-chat recurring configuration."
+  - "Historical outbox volume encouraged agents to scan messages instead of reading one current pointer."
+
+new_authority:
+  contract: "governance/video-operations-contract.md"
+  role_registry: "governance/agent-registry.yml"
+  current_state: "governance/current-state.yml"
+  review_state: "governance/review-state.yml"
+  current_work_item: "governance/work-items/SS-PLAN-20260820-OUTSIDER-POSITION-STATE-V001.yml"
+  allowed_handoff_pattern: "Director owns workflow; Researcher, Producer, QA, and Owner receive bounded handoffs."
+  forbidden_pattern: "Peer agents must not create competing current states, bypass Director, or self-approve."
+
+state_machine:
+  canonical: "INTAKE -> RESEARCHED -> CONCEPT_BLOCKED -> PACKAGE_READY -> QA_REVIEW -> OWNER_APPROVAL -> GENERATION_ELIGIBLE -> GENERATED_REVIEW -> PUBLISH_ELIGIBLE -> PUBLISHED"
+  universal_stop: "Any state -> BLOCKED"
+  blocked_rule: "Exactly one primary reason code and one next action."
+
+changed_prompts:
+  director: "prompts/director-planner-loop-7m.md"
+  generator: "prompts/video-generator-loop-15m.md"
+  generator_mode: "manual_only; no autonomous recurring schedule"
+
+current_item:
+  work_item_id: "SS-PLAN-20260820-OUTSIDER-POSITION-STATE-V001"
+  state: "CONCEPT_BLOCKED"
+  blocker_code: "MISSING_EXACT_PRODUCT_PROOF"
+  next_action: "Owner supplies exact current proof-registry record or capture; Director reruns validation."
+  media_generated: false
+  media_uploaded: false
+  reserved_filename: "SS_founder-proof_outsider-position-state_9x16_v001_blocked_20260820-112526.mp4"
+
+schedule:
+  task_uid: "HlLWATF66Y8K479N37HY1S"
+  desired_interval_seconds: 420
+  desired_run_as_new_task: false
+  desired_run_mode: "full_auto"
+  desired_agent_task_mode: "max"
+  desired_timezone: "Africa/Lagos"
+  observed_before_repair: "paused"
+  required_action: "Update the existing schedule to enabled/active; do not create a second schedule."
+
+continuity:
+  false_completion: "blocked_do_not_touch"
+  false_completion_filename: "SS_founder-testers_false-completion_9x16_v001_blocked_20260819-030020.mp4"
+  release_gate_roster: "blocked_do_not_touch"
+  release_gate_roster_filename: "SS_founder-proof_release-gate-roster_9x16_v001_director-review_20260819-030616.mp4"
+
+safety:
+  planning_only: true
+  video_generation_allowed: false
+  video_upload_allowed: false
+  david_is_knitter: false
+  david_is_knitwear_designer: false
+  david_is_pattern_designer: false
+  david_is_technical_editor: false
+  technical_editing_separate_gate: true
+  physical_print_review_separate_gate: true
+  chart_readability_separate_gate: true
+  schematic_scale_separate_gate: true
+  test_knitting_separate_gate: true
+
+next_action: >-
+  Run the deterministic repair validator, review the staged diff, commit the governance
+  and prompt changes, publish the planning branch, then update the existing schedule and
+  verify its active same-chat/max configuration and zero-media invariant.

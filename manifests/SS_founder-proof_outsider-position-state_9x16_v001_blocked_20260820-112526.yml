@@ -1,0 +1,111 @@
+manifest_version: "1.0"
+plan_id: "SS-PLAN-20260820-OUTSIDER-POSITION-STATE-V001"
+pass_number: 264
+campaign: "founder-proof"
+angle_slug: "outsider-position-state"
+format: "9x16"
+version: "v001"
+status: "blocked"
+media_filename: "SS_founder-proof_outsider-position-state_9x16_v001_blocked_20260820-112526.mp4"
+media_generated: false
+media_uploaded: false
+generation_authorized: false
+upload_authorized: false
+
+research:
+  question: "How can a developer name limited lived craft experience, family motivation, and a product boundary without borrowing maker identity or turning personal history into authority?"
+  findings_file: "research/2026-08-20-pass264-browser-findings.md"
+  boundary_audit_file: "research/2026-08-20-pass264-selection-boundary-audit.md"
+  source_count: 6
+  current_product_proof_present: false
+  extraction_uncertainty_recorded: true
+
+creative:
+  brief_file: "briefs/SS_founder-proof_outsider-position-state_9x16_v001_blocked_20260820-112526.md"
+  script_file: "scripts/SS_founder-proof_outsider-position-state_9x16_v001_blocked_20260820-112526.md"
+  platform_matrix_file: "platforms/SS_founder-proof_outsider-position-state_9x16_v001_matrix_20260820-112526.md"
+  continuity_ledger_file: "ledgers/20260820-outsider-position-state.md"
+  narrator_count: 1
+  narrator_family: "single first-person founder narrator"
+  master_duration_seconds: 45
+  visual_surface: "original paper position card"
+  illustrative_footer_required: true
+  illustrative_footer_text: "ILLUSTRATIVE — NOT PRODUCT UI"
+
+claim_boundaries:
+  david_is_developer: true
+  late_mother_knitted: true
+  family_connection_is_motivation_only: true
+  david_is_knitter: false
+  david_is_knitwear_designer: false
+  david_is_pattern_designer: false
+  david_is_technical_editor: false
+  david_is_test_knitter: false
+  craft_authority_claim: false
+  community_representative_claim: false
+  current_product_ui_claim: false
+  co_design_feature_claim: false
+  consent_workflow_claim: false
+  tester_roster_claim: false
+  release_gate_claim: false
+  community_ownership_claim: false
+  compensation_claim: false
+  feedback_implementation_promise: false
+  customer_outcome_claim: false
+  adoption_claim: false
+  testimonial_claim: false
+  revenue_claim: false
+  accuracy_claim: false
+  pricing_claim: false
+  urgency_claim: false
+  capability_claim: false
+
+assets:
+  original_paper_card: true
+  blank_boundary_strips: true
+  neutral_pencil: true
+  real_family_photo: false
+  real_maker_photo: false
+  private_message: false
+  customer_story: false
+  community_quote: false
+  craft_artifact: false
+  product_capture: false
+  competitor_media: false
+  unlicensed_music: false
+  watermark: false
+  analytics: false
+  rights_verified: false
+  consent_verified: false
+  privacy_reviewed: false
+
+review_gates:
+  current_versioned_proof_registry_entry: false
+  exact_surface_proof: false
+  role_limit_reviewer_ask_status_verified: false
+  ownership_and_consent_verified: false
+  rights_cleared: false
+  caption_on_review: false
+  caption_free_review: false
+  audio_continuity_review: false
+  mobile_safe_zone_review: false
+  muted_comprehension_review: false
+  technical_editing_separate_gate: true
+  physical_print_review_separate_gate: true
+  chart_readability_separate_gate: true
+  schematic_scale_separate_gate: true
+  localization_review_separate_gate: true
+  test_knitting_separate_gate: true
+  owner_signoff: false
+
+continuity:
+  imported_false_completion_status: "blocked_do_not_touch"
+  imported_false_completion_filename: "SS_founder-testers_false-completion_9x16_v001_blocked_20260819-030020.mp4"
+  imported_release_gate_roster_status: "blocked_do_not_touch"
+  imported_release_gate_roster_filename: "SS_founder-proof_release-gate-roster_9x16_v001_director-review_20260819-030616.mp4"
+  imported_concepts_regenerated: false
+  imported_concepts_overwritten: false
+  imported_concepts_approved: false
+  related_roster_or_false_closure_claim: false
+
+next_action: "Supply one current, versioned, approved, non-private proof-registry record or capture for the exact outsider-position or community-review surface, including role, knowledge limit, reviewer relationship, ask, ownership/consent treatment, status, privacy, and rights; then rerun Director validation."
