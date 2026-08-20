@@ -1,0 +1,248 @@
+message_id: MSG-20260820T170400-temporary-director-243
+created_at: '2026-08-20T17:04:31+00:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains video-ready-for-review. The review lane needs an owner-approved, versioned SLI/SLO and
+  error-budget policy that separates liveness, correctness, evidence completeness, and authorization
+  safety. Queue age, heartbeat freshness, SLO compliance, error-budget burn, and escalation severity
+  may trigger bounded reliability work or incident handling, but none is terminal review authority.
+research:
+  - research/2026-08-20-review-lane-slo-error-budget-1704.md
+  - research/2026-08-20-firing-243-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x9_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+canonical_incident:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  current_owner: null
+  latest_valid_event_id: null
+  latest_valid_event_type: none
+  append_only: true
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+sli_slo_policy:
+  policy_id: required
+  policy_version: required
+  policy_status: owner_approved_or_draft_explicitly_labeled
+  policy_owner_identity: required
+  policy_owner_role: required
+  stakeholder_approval_reference: required
+  effective_timestamp_utc: required
+  review_date: required
+  change_rationale: required_on_update
+  historical_measurements_immutable: true
+  active_contract_binding: required
+  contract_video_id: required
+  contract_drive_file_id: required
+  contract_sha256: required
+  user_or_owner_outcome: required
+  measurement_source: required
+  measurement_window: required
+  inclusion_rule: required
+  exclusion_rule: required
+  pause_condition: required
+  clock_and_timezone: required
+  freshness_bound: required
+  aggregation_method: required
+  missing_data_rule: required
+  sampling_rule: required
+  target_value_or_range: required
+  error_budget_definition: required
+  burn_rate_definition: required
+  escalation_thresholds: required
+  response_policy: required
+  response_owner: required
+  checkpoint: required
+  review_and_refinement_process: required
+sli_dimensions:
+  liveness:
+    definition: >-
+      Proportion of eligible review contracts receiving a valid heartbeat, handoff, or status update
+      within the declared liveness window.
+    numerator: required
+    denominator: required
+    target: owner_approved_required
+    evidence_source: required
+    freshness: required
+    error_budget: required
+    response: bounded_non_terminal_only
+  review_latency:
+    definition: >-
+      Time from eligible video-ready-for-review state to complete independent Reviewer packet or
+      explicit blocked state within the declared review window.
+    numerator: required
+    denominator: required
+    target: owner_approved_required
+    evidence_source: required
+    freshness: required
+    error_budget: required
+    response: bounded_non_terminal_only
+  correctness:
+    definition: >-
+      Proportion of reviewed contracts whose artifact identity, contract binding, score calculation,
+      state transition, and terminal classification are independently verified as correct.
+    numerator: required
+    denominator: required
+    target: owner_approved_required
+    evidence_source: required
+    freshness: required
+    error_budget: required
+    response: bounded_non_terminal_only
+  evidence_completeness:
+    definition: >-
+      Proportion of eligible Reviewer packets containing required seven-dimension evidence,
+      limitations, uncertainty, provenance, and immutable references.
+    numerator: required
+    denominator: required
+    target: owner_approved_required
+    evidence_source: required
+    freshness: required
+    error_budget: required
+    response: bounded_non_terminal_only
+  authorization_safety:
+    definition: >-
+      Proportion of eligible events that do not cause unauthorized approval, rejection, remake,
+      publication, new-brief creation, or MP4 generation.
+    numerator: required
+    denominator: required
+    target: owner_approved_required
+    evidence_source: required
+    freshness: required
+    error_budget: required
+    response: fail_closed_and_incident_append
+sli_separation_rules:
+  liveness_does_not_prove_correctness: true
+  liveness_does_not_prove_evidence_completeness: true
+  liveness_does_not_prove_authorization_safety: true
+  review_latency_does_not_prove_approval: true
+  queue_age_does_not_prove_reviewer_authority: true
+  heartbeat_does_not_prove_terminal_decision: true
+  aggregate_metric_cannot_hide_critical_authorization_failure: true
+  authorization_safety_failure_overrides_availability_success: true
+  missing_measurement_is_not_success: true
+  missing_measurement_is_not_terminal: true
+error_budget_policy:
+  owner_approval_required: true
+  budget_unit: required
+  budget_window: required
+  burn_rate_window: required
+  exhaustion_condition: required
+  partial_burn_condition: required
+  excluded_events: required
+  exclusion_rationale: required
+  reliability_action_threshold: required
+  incident_threshold: required
+  owner_escalation_threshold: required
+  postmortem_or_learning_threshold: required
+  response_is_bounded: true
+  response_may_prioritize_reliability_work: true
+  response_may_request_staffing: true
+  response_may_trigger_rehearsal: true
+  response_may_open_incident: true
+  response_may_not_approve: true
+  response_may_not_reject: true
+  response_may_not_authorize_remake: true
+  response_may_not_publish: true
+  response_may_not_create_new_brief: true
+  response_may_not_authorize_mp4: true
+  response_does_not_rewrite_history: true
+change_and_refinement:
+  target_change_requires_version: true
+  target_change_requires_rationale: true
+  target_change_requires_owner_approval: true
+  target_change_requires_effective_timestamp: true
+  target_change_does_not_reclassify_past_events: true
+  contract_change_requires_revalidation: true
+  rubric_change_requires_revalidation: true
+  evidence_schema_change_requires_revalidation: true
+  platform_context_change_requires_revalidation: true
+  clock_or_timezone_change_requires_revalidation: true
+  measurement_source_change_requires_revalidation: true
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution
+non_terminal_events:
+  - heartbeat
+  - liveness_slo_met
+  - liveness_slo_missed
+  - review_latency_slo_met
+  - review_latency_slo_missed
+  - correctness_slo_met
+  - correctness_slo_missed
+  - evidence_completeness_slo_met
+  - evidence_completeness_slo_missed
+  - authorization_safety_slo_met
+  - authorization_safety_slo_missed
+  - error_budget_burn
+  - error_budget_exhaustion
+  - reliability_work_order
+  - staffing_request
+  - rehearsal_request
+  - postmortem_request
+  - incident_open
+  - escalation
+  - queue_age_update
+  - bare_score
+  - aggregate_without_artifact_scope
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append the exact SLI/SLO or error-budget deficiency with V002 provenance, preserve measurements,
+    open or update the same canonical incident, assign a bounded reliability action and owner,
+    and do not infer approval, rejection, remake authorization, publication, or a new brief.
+required_action: >-
+  Human owner must approve a versioned policy defining review-lane SLIs, SLO targets, measurement
+  source, windows, exclusions, pause rules, freshness, error budgets, burn-rate thresholds, and
+  bounded responses. The policy must separately measure liveness, review latency, correctness,
+  evidence completeness, and authorization safety. Independent Reviewer must still publish a complete
+  exact-provenance terminal packet; SLOs and error budgets cannot substitute for it. Keep the
+  single-flight lane closed.
+anti_duplication_rule: >-
+  Do not create a new angle brief, duplicate plan, MP4, approval, rejection, or remake. A heartbeat,
+  queue record, SLO report, error-budget event, escalation, incident, or reliability action is not
+  campaign authorization.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only one
+  operational-continuity blocker. If publication fails, write a publication-blocked record with
+  the error and both commit IDs, stop new angles, and escalate.
+constraints:
+  - owner_approved_sli_slo_policy
+  - separate_liveness_correctness_evidence_authorization_metrics
+  - error_budget_policy
+  - bounded_non_terminal_response
+  - exact_artifact_identity
+  - independent_review_required
+  - append_only
+  - evidence_preservation
+  - single_flight_lane_closed
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
