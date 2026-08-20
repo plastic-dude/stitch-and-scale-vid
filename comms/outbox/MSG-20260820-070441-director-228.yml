@@ -1,0 +1,63 @@
+message_id: MSG-20260820-070441-director-228
+created_at: '2026-08-20T07:04:41+01:00'
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: MAN-founder-proof-dye-lot-state-9x16-v001-20260820-070441
+parent_id: BRF-founder-proof-dye-lot-state-9x16-v001
+status: blocked
+summary: >-
+  Pass 225 selects the materially distinct dye-lot-state concept, but no current product-proof registry
+  or approved capture verifies a Stitch & Scale lot-level material identity surface.
+evidence:
+  - research/2026-08-20-pass225-browser-findings.md
+  - research/2026-08-20-pass225-selection-boundary-audit.md
+  - briefs/SS_founder-proof_dye-lot-state_9x16_v001_blocked_20260820-070441.md
+  - scripts/SS_founder-proof_dye-lot-state_9x16_v001_blocked_20260820-070441.md
+  - platforms/SS_founder-proof_dye-lot-state_9x16_v001_matrix_20260820-070441.md
+  - ledgers/20260820-dye-lot-state.md
+  - manifests/SS_founder-proof_dye-lot-state_9x16_v001_blocked_20260820-070441.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - repository HEAD 78b44e9c290db65cd54a2bd5a7ea29aadaf8a756
+research_decision: >-
+  Craft Yarn Council advises checking ball bands for a same dye lot, keeping notes, and preserving labels in a
+  submission package. Its yarn-label guidance explains that labels may contain dye-lot information and that batches
+  can differ. Lion Brand defines a dye lot as a dye batch and notes that different batches may vary under different
+  lighting and may not remain available. Hobbii recommends checking labels on arrival and saving brand, color, lot,
+  and gauge in a project journal. Knitty provides current Winter 2026 submission context but no urgency or affiliation.
+  Current Instagram, TikTok, YouTube, and W3C sources set conservative mobile, caption, audio, and accessibility gates.
+  None of these sources proves a Stitch & Scale material-lot surface.
+concept_difference: >-
+  Nearest prior is export-identity-state, which concerns whether a released file is the same reviewed artifact.
+  Pass 225 concerns which physical material lot was used or recorded for a design/sample. It is narrower than
+  material-trace and focuses on the contradiction same color is not the same lot; it does not repeat broad material
+  provenance, availability, substitution, sample custody, care, or export identity.
+hook: Same color is not the same lot.
+final_line: Name the material lot before the sample leaves your memory.
+proof_surface: >-
+  MATERIAL M-001 / DESIGN_ID / SAMPLE_ID / MATERIAL_NAME / BRAND_OR_SOURCE / FIBER_OR_CONTENT /
+  COLOR_NAME / COLOR_CODE / LOT_OR_DYE_LOT / LABEL_REFERENCE / QUANTITY / UNIT / ACQUIRED_AT /
+  USED_FROM / SUBSTITUTE_FLAG / OBSERVED_DIFFERENCE / CHECKED_AT / SOURCE_OR_BASIS / REVIEWER /
+  REVIEWED_AT / STATUS
+material_boundary: >-
+  A recorded lot can identify a material record but cannot prove color uniformity, fiber performance, gauge,
+  fit, care suitability, technical editing, test-knit success, or publication approval.
+claims_boundary: >-
+  Do not claim that Stitch & Scale records lots, attaches labels to designs, matches inventory, predicts color
+  continuity, validates fiber behavior, confirms gauge, determines care suitability, reconciles quantities, or guarantees outcomes.
+rights_boundary: >-
+  Use only original generic material cards, approved narrator, consented hand performance, and original or cleared
+  label/card sound. Every card must read ILLUSTRATIVE — NOT PRODUCT UI. No real label, supplier image, receipt,
+  pattern, customer material, barcode, screenshot, logo, or private record is cleared.
+review_and_audio: >-
+  One narrator family, human-verified caption-on and caption-free versions, mobile-safe captions that never cover
+  faces, hands, material cards, labels, numbers, proof fields, logos, controls, menus, or primary actions, and full-length
+  audio QC for doubled words, overlaps, drift, clipping, and room-tone jumps.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared product-proof registry entry or approved capture for
+  the exact material-lot surface, confirm destination platform and all asset/privacy rights, then rerun product/data,
+  material, claims, founder-truth, human-evidence, rights, narrator, caption, audio, platform, continuity, filename,
+  and Director gates.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+reserved_filename: SS_founder-proof_dye-lot-state_9x16_v001_blocked_20260820-070441.mp4
