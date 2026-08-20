@@ -1,0 +1,68 @@
+manifest_version: '1.0'
+plan_id: 'SS-PLAN-20260820-ATTRIBUTION-BOUNDARY-STATE-V001'
+pass_number: 255
+campaign_id: 'founder-proof'
+episode_id: 'EP-FOUND-ATTRIBUTION-BOUNDARY-STATE-V001'
+angle_slug: 'attribution-boundary-state'
+script_version: 'v001'
+brief_version: 'v001'
+status: 'blocked'
+objective: 'Recruit founding testers through a truthful founder-proof short about the difference between credit and permission for a specific use.'
+audience: 'Independent knitwear designers and pattern publishers managing instructions, charts, schematics, support resources, translations, images, and publication preparation.'
+form: 'Organic 9:16 founder-proof short for Instagram Reels, TikTok, and YouTube Shorts.'
+tone: 'First-person, quiet, specific, dry, craft-respectful, and cautious about rights certainty.'
+research_path: 'research/2026-08-20-pass255-browser-findings.md'
+selection_audit_path: 'research/2026-08-20-pass255-selection-boundary-audit.md'
+brief_path: 'briefs/SS_founder-proof_attribution-boundary-state_9x16_v001_blocked_20260820-101127.md'
+script_path: 'scripts/SS_founder-proof_attribution-boundary-state_9x16_v001_blocked_20260820-101127.md'
+platform_matrix_path: 'platforms/SS_founder-proof_attribution-boundary-state_9x16_v001_matrix_20260820-101127.md'
+continuity_path: 'ledgers/20260820-attribution-boundary-state.md'
+reserved_filename: 'SS_founder-proof_attribution-boundary-state_9x16_v001_blocked_20260820-101127.mp4'
+filename_status: 'reserved; no file generated; no overwrite permitted'
+media_status: 'not_generated'
+upload_status: 'not_uploaded'
+product_proof_status: 'missing_for_exact_attribution_permission_surface'
+proof_boundary: 'Illustrative paper prop only; fixed footer ILLUSTRATIVE — NOT PRODUCT UI.'
+rights_status: 'unverified_external_media_not_allowed'
+privacy_status: 'no_private_or_third_party_material_approved'
+voice_status: 'one_calm_first_person_narrator_family_required'
+caption_status: 'caption_on_and_caption_free_reviews_required'
+audio_status: 'original_or_cleared_audio_only; continuity_review_required'
+platform_status: 'platform_profiles_defined_but_current_acceptance_not_authorized'
+human_review_status: 'required_for_rights_permission_license_scope_modification_and_final_disposition'
+claim_boundary:
+  credit_is_not_permission: true
+  source_link_is_not_clearance: true
+  fair_use_or_legality_verdict: false
+  automatic_rights_clearance: false
+  automatic_license_validation: false
+  automatic_platform_clearance: false
+  current_product_rights_surface_verified: false
+  technical_editing_is_distinct: true
+  physical_print_review_is_distinct: true
+  chart_readability_is_distinct: true
+  schematic_scale_is_distinct: true
+  translation_review_is_distinct: true
+  test_knitting_is_distinct: true
+assets:
+  approved:
+    - 'Original paper USE CHECK card specified in the Director brief.'
+    - 'Repository references and research URLs as planning evidence only.'
+  prohibited:
+    - 'Real pattern text, chart, schematic, photograph, video, translation, URL, creator identity, logo, screenshot, private record, tester identity, or unlicensed music.'
+  product_capture: 'not_supplied'
+rights_ledger:
+  paper_use_check_card: 'internal_original_pending_production_signoff'
+  product_capture: 'unverified'
+  external_pattern_or_media: 'not_cleared'
+  music_and_sound: 'not_selected; original_or_cleared_only'
+acceptance_gates:
+  - 'Current versioned proof-registry entry or approved non-private capture for the exact attribution/permission surface.'
+  - 'Work identity, rightsholder/requested credit, source location, license or permission evidence, allowed use, channel, term, modification, and human rights review.'
+  - 'Privacy, destination, credit, and rights confirmation for every non-original asset.'
+  - 'No unsupported rights-clearing, fair-use, legal, automatic, or platform claims.'
+  - 'Imported false-completion and release-gate-roster remain untouched and blocked.'
+  - 'One narrator family; caption-on review; caption-free review; mobile safe-zone review; audio continuity review.'
+  - 'Technical editing, physical print review, chart readability, schematic scale, translation review, and test knitting remain separate human evidence gates.'
+  - 'Human sign-off on final disposition.'
+next_action: 'Do not generate or upload. Supply current versioned product proof for the exact attribution/permission surface, confirm destination and rights/privacy, then rerun Director validation.'
