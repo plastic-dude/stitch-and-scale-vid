@@ -1,0 +1,257 @@
+receipt_id: PUB-20260820-v002-media-attestation-0e67223
+created_at: '2026-08-20T17:52:11+00:00'
+role: temporary-director
+firing: 250
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 7c9e440e647133fef3f5d5e3a30352542fc40131
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 0e67223fe6464d28c3d3e2b973218a057d1c14fd
+blocker_path: comms/outbox/MSG-20260820T175200-temporary-director-250.yml
+research_paths:
+  - research/2026-08-20-v002-media-supply-chain-attestation-1752.md
+  - research/2026-08-20-firing-250-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  manifest_status: director-review
+  review_lane_status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+latest_reviewer_observation:
+  review_id: REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  reviewed_at: '2026-08-20T17:15:00Z'
+  reviewer: video-reviewer
+  status: BLOCKED
+  weighted_score_percent: 86.0
+  threshold_percent: 65
+  director_approval: false
+  terminal: false
+  remake_order_id: null
+  exact_drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  exact_sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  ordered_action_is_terminal: false
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  non_terminal_reviewer_block_record: true
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What provenance and attestation evidence is needed to show that V002’s MP4 and review object were
+  produced from the declared brief, script, UI capture, audio, captions, external media, tools, and
+  transformations without untracked substitutions?
+research_decision: >-
+  Require a versioned v002 supply-chain and media-pipeline attestation for the exact Drive asset and
+  every evidence-producing transformation. Enumerate top-level inputs and resolved dependencies,
+  identify the trusted builder or execution environment and invocation, bind output digest and
+  byproducts, record tool and codec versions, preserve ingredient lineage, and distinguish verified
+  fields from producer assertions and missing fields. Unknown or untrusted inputs, incomplete lineage,
+  stale or contradictory attestations, unsupported signer-builder pairs, and failed verification block
+  generation and publication without deleting the artifact or evidence. Attestation proves provenance
+  claims only and does not replace independent Reviewer judgment.
+attestation_contract:
+  attestation_id: required
+  attestation_version: required
+  attestation_status: owner_approved_or_draft_explicitly_labeled
+  attestation_owner_identity: required
+  attestation_owner_role: required
+  attestation_approval_reference: required
+  exact_active_review_contract_binding: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  exact_filename: required
+  output_subject_descriptor: required
+  output_digest_algorithm: required
+  output_digest: required
+  media_pipeline_id: required
+  media_pipeline_version: required
+  build_or_execution_type: required
+  builder_or_execution_environment_id: required
+  trusted_builder_scope: required
+  builder_version: required
+  invocation_id: required
+  started_at_utc: required
+  finished_at_utc: required
+  external_parameters: required
+  internal_parameters: required_when_used
+  resolved_dependencies: required
+  dependency_digest: required_per_dependency
+  dependency_media_type: required_per_dependency
+  dependency_role: required_per_dependency
+  source_repository_and_commit: required
+  approved_brief_digest: required
+  approved_script_digest: required
+  source_capture_digest: required
+  narration_audio_digest: required
+  caption_input_digest: required
+  external_media_inventory: required
+  rights_declaration_reference: required
+  tool_inventory: required
+  tool_version: required_per_tool
+  codec_parameters: required
+  container_parameters: required
+  platform_variant_inventory: required
+  transformation_sequence: required
+  transformation_operator_or_tool: required_per_transformation
+  transformation_input_digest: required_per_transformation
+  transformation_output_digest: required_per_transformation
+  transformation_timestamp_utc: required_per_transformation
+  transformation_purpose: required_per_transformation
+  byproducts: required
+  log_reference: required
+  manifest_reference: required
+  reviewer_packet_reference: required_when_reviewed
+  attestation_signer_identity: required
+  attestation_signer_role: required
+  attestation_signature_or_equivalent: required
+  signer_builder_pair_validation: required
+  trust_root_or_policy_reference: required
+  verification_method: required
+  verification_timestamp_utc: required
+  verified_fields: required
+  producer_asserted_fields: required
+  unverified_fields: required
+  missing_fields: required
+  contradiction_report: required
+  freshness_bound: required
+  immutable_attestation_record: required
+  attestation_readback: required
+  attestation_is_not_terminal_authority: true
+input_and_dependency_rules:
+  all_top_level_inputs_enumerated: true
+  all_resolved_dependencies_enumerated: true
+  untracked_input_forbidden: true
+  untracked_transformation_forbidden: true
+  unknown_dependency_non_terminal: true
+  missing_dependency_digest_non_terminal: true
+  missing_input_digest_non_terminal: true
+  unexpected_input_non_terminal: true
+  unexpected_tool_non_terminal: true
+  unexpected_builder_non_terminal: true
+  unexpected_external_media_non_terminal: true
+  dependency_substitution_non_terminal: true
+  source_commit_mismatch_non_terminal: true
+  brief_digest_mismatch_non_terminal: true
+  script_digest_mismatch_non_terminal: true
+  output_digest_mismatch_non_terminal: true
+  transformation_chain_gap_non_terminal: true
+  incomplete_ingredient_lineage_non_terminal: true
+  stale_attestation_non_terminal: true
+  contradictory_attestation_non_terminal: true
+  untrusted_signer_non_terminal: true
+  invalid_signature_non_terminal: true
+  unsupported_signer_builder_pair_non_terminal: true
+  producer_assertion_not_equivalent_to_verified_fact: true
+  checksum_does_not_prove_build_inputs: true
+  attestation_does_not_prove_product_claim_truth: true
+  attestation_does_not_replace_independent_reviewer: true
+media_lineage:
+  source_capture_is_ingredient: true
+  narration_audio_is_ingredient: true
+  caption_track_is_ingredient: true
+  external_media_is_ingredient: true
+  graphics_and_ui_capture_are_ingredients: true
+  edit_project_is_dependency: true
+  encoder_and_codec_are_dependencies: true
+  platform_transcode_is_transformation: true
+  caption_burn_in_is_transformation: true
+  audio_mix_is_transformation: true
+  crop_or_resize_is_transformation: true
+  derivative_is_new_subject: true
+  derivative_must_reference_parent_digest: true
+  parent_asset_must_be_preserved: true
+  missing_ingredient_provenance_is_uncertainty: true
+  missing_ingredient_provenance_is_not_clean_lineage: true
+verification_rules:
+  verify_subject_digest: true
+  verify_input_digests: true
+  verify_dependency_digests: true
+  verify_source_commit: true
+  verify_tool_identity_and_version: true
+  verify_builder_identity: true
+  verify_signer_identity: true
+  verify_signer_builder_pair: true
+  verify_signature_or_attestation: true
+  verify_transformation_sequence: true
+  verify_parent_child_digest_links: true
+  verify_timestamp_freshness: true
+  verify_expected_external_parameters: true
+  reject_unrecognized_external_parameters: true
+  verify_byproducts_and_logs: true
+  compare_manifest_to_attestation: true
+  compare_reviewer_packet_to_attestation: true
+  readback_exact_remote_records: true
+  verification_failure_blocks_generation: true
+  verification_failure_blocks_publication: true
+  verification_failure_is_not_terminal_rejection: true
+  verification_failure_is_not_terminal_remake: true
+  verification_failure_preserves_asset_and_evidence: true
+  verification_failure_opens_or_updates_incident: true
+attestation_scope:
+  exact_mp4: required
+  review_evidence: required
+  caption_and_safe_zone_evidence: required
+  platform_qa: required
+  rights_audio_evidence: required
+  manifest: required
+  generator_order: required_when_present
+  derivative_lineage: required_when_present
+  external_media_receipt: required
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_supply_chain_attested_independent_reviewer_approval
+  - complete_exact_provenance_supply_chain_attested_independent_reviewer_rejection
+  - complete_exact_provenance_supply_chain_attested_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution_after_attestation_verification
+non_terminal_events:
+  - attestation_created
+  - attestation_pending_approval
+  - attestation_verification
+  - missing_attestation_field
+  - unverified_attestation_field
+  - producer_assertion
+  - missing_dependency
+  - unknown_dependency
+  - dependency_mismatch
+  - tool_mismatch
+  - builder_mismatch
+  - signer_mismatch
+  - signature_failure
+  - transformation_gap
+  - incomplete_ingredient_lineage
+  - stale_attestation
+  - contradictory_attestation
+  - attestation_correction
+  - attestation_reverification
+  - reviewer_blocked_without_remake_order
+  - score_above_threshold_without_terminal_verdict
+  - queue_hold
+  - heartbeat
+  - receipt_publication
+next_action: >-
+  Human owner must approve a versioned v002 supply-chain and media-pipeline attestation. Enumerate
+  inputs, resolved dependencies, tools, builder or execution environment, invocation, transformations,
+  outputs, byproducts, signatures, verification fields, producer assertions, and missing fields.
+  Reject unknown or untrusted inputs, incomplete lineage, stale or contradictory attestations, and
+  unsupported signer-builder pairs. The non-terminal Reviewer BLOCKED record must be handled only
+  through its explicit version-matched evidence/QA action. Keep the single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
