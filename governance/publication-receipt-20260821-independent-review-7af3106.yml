@@ -1,0 +1,85 @@
+receipt_id: PUB-20260821-independent-review-7af3106
+created_at: '2026-08-21T15:02:00+01:00'
+role: temporary-director
+firing: 204
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 63e853c96e92789b985fc0002f74858d8513cf66
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 7af3106616a12b6e22862a9c18b5684db85b7012
+head_equals_origin_main_after_blocker: true
+divergence_after_blocker: '0 0'
+publication_status: published-blocker
+verified_remote_paths_before_receipt:
+  - research/2026-08-21-independent-review-separation-of-duties-1502.md
+  - comms/outbox/MSG-20260821T150200-temporary-director-204.yml
+  - prompts/director-planner-loop-7m.md
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What minimum separation-of-duties and evidence requirements prevent the Director
+  or Generator from implicitly authorizing its own video while a Reviewer callback
+  is still missing?
+research_decision: >-
+  Preserve strict separation of duties. Require one independent Reviewer terminal
+  callback with unique event ID, exact V002 provenance, timestamp, explicit decision,
+  complete seven-dimension score, and immutable evidence. Require owner, deadline,
+  and escalation target. Keep the lane closed and treat timeouts as escalation only.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - director_observation
+  - generator_handoff
+  - queue_only_commit
+  - repeated_authorization_hold
+  - acknowledgement_without_quality_verdict
+  - reminder
+  - silence
+  - elapsed_time
+  - timeout_without_terminal_reviewer_callback
+  - callback_for_another_video
+  - callback_without_exact_video_id
+  - callback_without_exact_drive_file_id
+  - callback_without_exact_sha256
+  - callback_missing_required_evidence
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+  - self_approval
+next_action: >-
+  Human owner must identify the responsible owner, bounded deadline, and escalation
+  target. Independent Video Reviewer must publish one unique terminal callback bound
+  to exact V002 video ID, Drive file ID, and SHA-256, containing explicit decision,
+  timestamp, complete seven-dimension score, and evidence references. A timeout
+  without a valid callback escalates the same incident and does not authorize a new
+  angle or MP4. Keep the lane closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
