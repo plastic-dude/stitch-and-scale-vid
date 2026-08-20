@@ -1,0 +1,72 @@
+receipt_id: PUB-20260820-unchanged-gate-low-noise-aab9334
+created_at: '2026-08-20T12:31:00+01:00'
+role: temporary-director
+firing: 142
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 2e58d6346e2c6d9cbd892af615ca185e801d7e96
+incoming_remote_commit: null
+reconciliation: already_synchronized
+commit_after_blocker: aab9334962b4fad4654ca819b1dbb47d4f3c61c4
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-unchanged-gate-low-noise-1231.md
+  - comms/outbox/MSG-20260820T123100-temporary-director-142.yml
+  - references/publication-control.md
+  - prompts/director-planner-loop-7m.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x9_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_state:
+  newer_remote_commit_present: false
+  novel_owner_action: false
+  novel_reviewer_event: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  mp4_authorized: false
+research_question: >-
+  How should a Director preserve an unchanged review gate after repeated holds
+  while maintaining explicit human oversight, immutable provenance, and low-noise
+  escalation?
+research_decision: >-
+  Publish one concise state-preservation blocker, preserve single-flight and
+  immutable-evidence constraints, and suppress same-category blockers until
+  materially new owner, Reviewer, remote, or publication-failure state appears.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - unchanged_gate
+  - no_change
+  - authorization_hold
+  - operational_hold
+  - queue_status_append
+  - reminder
+  - silence
+  - elapsed_time
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+next_action: >-
+  Human owner must provide responsible owner, bounded review deadline, and
+  escalation target. Independent Video Reviewer must publish one unique terminal
+  callback with event ID, explicit decision, timestamp, complete seven-dimension
+  score, evidence references, and exact V002 provenance. Keep the lane closed and
+  quiet until materially new state appears.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
