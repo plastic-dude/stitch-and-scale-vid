@@ -1,0 +1,158 @@
+receipt_id: PUB-20260820-non-repudiable-review-evidence-8e752b5
+created_at: '2026-08-20T16:27:58+00:00'
+role: temporary-director
+firing: 238
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: e6dfc76a3b2b26c55dd0456543529e6dc8af62c9
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 8e752b5dbe12746d5292bc3c326befce422ca580
+blocker_path: comms/outbox/MSG-20260820T162700-temporary-director-238.yml
+research_paths:
+  - research/2026-08-20-non-repudiable-review-evidence-1627.md
+  - research/2026-08-20-firing-238-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What evidence is required to make a terminal Reviewer or owner decision non-repudiable and
+  third-party verifiable, while preventing replay, stale-key use, payload substitution, or role
+  confusion from clearing the V002 review lane?
+research_decision: >-
+  Require non-repudiable terminal review evidence. The signed or equivalently verifiable packet
+  must bind the authorized signer and role to the exact decision payload and exact V002 artifact,
+  active contract, causal parent, freshness window, immutable evidence, and replay-unique event.
+  Verification must record signer identity, authorization context, key or credential reference,
+  algorithm/version, signed-payload digest, verification result, verifier identity, and key-status
+  or trust-chain evidence. Detached, stale, altered, replayed, role-incompatible, or incomplete
+  assertions are non-terminal.
+non_repudiation_contract:
+  signed_or_equivalently_verifiable_terminal_payload: required
+  signer_identity: required
+  signer_role: required
+  signer_authorization_context: required
+  reviewer_independence: required
+  key_or_credential_reference: required
+  signature_algorithm: required
+  signature_algorithm_version: required
+  signed_payload_digest: required
+  signature_value_or_verification_reference: required
+  verifier_identity: required
+  verification_result: required
+  verification_timestamp_utc: required
+  key_status_or_trust_chain_evidence: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  artifact_manifest_version: required
+  review_contract_version: required
+  scoring_weights_version: required
+  threshold_version: required
+  evidence_schema_version: required
+  canonical_incident_id: required
+  causal_parent_event_id: required
+  unique_event_id: required
+  issuance_timestamp_utc: required
+  observation_timestamp_utc: required
+  freshness_window: required
+  replay_nonce_or_idempotency_key: required
+  replay_check_result: required
+  immutable_evidence_references: required
+payload_binding_rules:
+  signature_covers_exact_terminal_payload: required
+  signature_covers_exact_artifact_identity: required
+  signature_covers_active_contract_version: required
+  signature_covers_causal_parent: required
+  detached_signature_without_payload_digest: non_terminal
+  signature_over_altered_payload: non_terminal
+  signature_over_stale_contract: non_terminal
+  signature_without_exact_artifact_scope: non_terminal
+  signature_from_unrecognized_role: non_terminal
+  signature_without_key_status: non_terminal
+  signature_without_verification_record: non_terminal
+  identity_assertion_without_authorization_context: non_terminal
+  signed_reminder: non_terminal
+  signed_heartbeat: non_terminal
+  signed_queue_hold: non_terminal
+key_and_trust_rules:
+  signer_role_binding: required
+  key_status_at_issuance: required
+  key_status_at_verification: required
+  revocation_or_expiry_check: required
+  trust_chain_or_policy_reference: required
+  verifier_independence: required
+  unrecognized_key: non_terminal
+  expired_key: non_terminal
+  revoked_key: non_terminal
+  unverifiable_key: non_terminal
+freshness_and_replay_rules:
+  unique_event_id: required
+  nonce_or_idempotency_key: required
+  causal_parent_event_id: required
+  issuance_time: required
+  observation_time: required
+  freshness_window: required
+  replay_check: required
+  reused_event_id: non_terminal
+  reused_nonce: non_terminal
+  stale_signature: non_terminal
+  duplicate_terminal_payload: preserve_and_reconcile
+  replayed_terminal_payload: non_terminal
+  deletion_of_prior_signature: forbidden
+  overwrite_of_verification_record: forbidden
+terminal_events_that_clear_lane:
+  - complete_non_repudiable_exact_provenance_independent_reviewer_approval
+  - complete_non_repudiable_exact_provenance_independent_reviewer_rejection
+  - complete_non_repudiable_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_non_repudiable_owner_resolution
+non_terminal_events:
+  - detached_signature
+  - altered_payload
+  - stale_contract_signature
+  - missing_artifact_scope
+  - unrecognized_role
+  - missing_key_status
+  - missing_verification_record
+  - identity_only_assertion
+  - signed_reminder
+  - signed_heartbeat
+  - signed_queue_hold
+  - reused_event_id
+  - reused_nonce
+  - stale_signature
+  - replayed_terminal_payload
+  - bare_score
+next_action: >-
+  Independent Video Reviewer must publish one complete non-repudiable terminal packet binding the
+  authorized signer and role to the exact V002 payload and artifact, with verifiable signature or
+  equivalent evidence, key-status/trust-chain context, freshness, causal parent, replay check, all
+  seven dimension records, recomputable scoring, threshold comparison, explicit outcome, and
+  immutable evidence. Human owner must ensure the signer authority and verification context are
+  independently attributable. Keep the single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
