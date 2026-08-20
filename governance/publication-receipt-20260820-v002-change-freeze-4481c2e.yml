@@ -1,0 +1,228 @@
+receipt_id: PUB-20260820-v002-change-freeze-4481c2e
+created_at: '2026-08-20T17:45:37+00:00'
+role: temporary-director
+firing: 249
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: d30e2d5922beb10fff3b474c1937be1c5f4879d8
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 4481c2e19cb97441888d6aba8b7fb2afb1b75444
+blocker_path: comms/outbox/MSG-20260820T174500-temporary-director-249.yml
+research_paths:
+  - research/2026-08-20-v002-change-freeze-emergency-exception-1745.md
+  - research/2026-08-20-firing-249-source-notes.md
+publication_status: receipt-pending-final-verification
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  filename: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800.mp4
+  manifest_status: director-review
+  review_lane_status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+latest_reviewer_observation:
+  review_id: REV-ownership-receipt-privacy-by-default-v002-20260820T1715Z
+  reviewed_at: '2026-08-20T17:15:00Z'
+  reviewer: video-reviewer
+  status: BLOCKED
+  weighted_score_percent: 86.0
+  threshold_percent: 65
+  director_approval: false
+  terminal: false
+  remake_order_id: null
+  exact_drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  exact_sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  ordered_action_is_terminal: false
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  non_terminal_reviewer_block_record: true
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should the active V002 review contract prevent a material artifact, rubric, evidence-schema,
+  manifest, platform, or rights/audio change from silently altering the evaluation boundary or
+  bypassing authorization under an urgent exception?
+research_decision: >-
+  Require a versioned change-freeze and emergency-exception protocol. Freeze material changes to the
+  exact artifact, contract, rubric, evidence schema, manifest, platform profile, captions/safe-zone,
+  rights/audio, authority membership, and terminal transition schema. Any exception must record narrow
+  scope, reason, authority, impact, isolated test, rollback or containment, expiry, and post-change
+  review. A material change requires fresh Reviewer restart or revalidation; prior scores and evidence
+  cannot silently transfer. Urgency, queue age, or a BLOCKED record is not authorization.
+change_freeze_contract:
+  freeze_id: required
+  freeze_version: required
+  freeze_status: owner_approved_or_draft_explicitly_labeled
+  freeze_owner_identity: required
+  freeze_owner_role: required
+  freeze_approval_reference: required
+  freeze_effective_timestamp_utc: required
+  freeze_expiry_or_review_date: required
+  exact_active_review_contract_binding: required
+  exact_video_id: required
+  exact_drive_file_id: required
+  exact_sha256: required
+  active_contract_digest: required
+  active_contract_snapshot: required
+  frozen_transition_set: required
+  allowed_non_mutating_observations: required
+  forbidden_mutations: required
+  emergency_exception_policy: required
+  post_change_revalidation_policy: required
+  immutable_change_ledger: required
+  readback_policy: required
+frozen_contract_items:
+  exact_drive_artifact: true
+  repository_manifest: true
+  approved_brief: true
+  source_contract: true
+  reviewer_rubric: true
+  reviewer_threshold: true
+  reviewer_evidence_schema: true
+  caption_profile: true
+  safe_zone_profile: true
+  platform_profile: true
+  rights_audio_requirements: true
+  generator_order_schema: true
+  terminal_transition_schema: true
+  authority_membership: true
+  provenance_binding: true
+emergency_exception:
+  exception_id: required
+  exception_status: required
+  requestor_identity: required
+  requestor_role: required
+  request_timestamp_utc: required
+  reason: required
+  urgency_claim: required
+  urgency_evidence: required
+  exact_scope: required
+  excluded_scope: required
+  affected_contract_items: required
+  affected_transition_set: required
+  exact_artifact_binding: required
+  active_contract_binding: required
+  security_impact_analysis: required
+  quality_impact_analysis: required
+  privacy_impact_analysis: required
+  platform_impact_analysis: required
+  provenance_impact_analysis: required
+  authority_impact_analysis: required
+  rollback_plan: required
+  containment_plan: required
+  test_fixture_or_isolated_derivative: required
+  test_environment: required
+  test_procedure: required
+  test_result: required
+  test_evidence_reference: required
+  independent_test_observer: required
+  approver_identity: required
+  approver_role: required
+  approver_authority_basis: required
+  separation_of_duties_check: required
+  effective_timestamp_utc: required
+  expiry_timestamp_utc: required
+  post_change_review_owner: required
+  revalidation_scope: required
+  restart_required_decision: required
+  rollback_or_revalidation_trigger: required
+  immutable_exception_record: required
+  exception_receipt: required
+  exception_is_not_terminal: true
+  exception_is_not_remake_authority: true
+  exception_is_not_mp4_authority: true
+  exception_is_not_new_campaign_authority: true
+change_classification:
+  material_change_requires_freeze: true
+  artifact_change: material
+  checksum_change: material
+  filename_change: material
+  manifest_change: material
+  rubric_change: material
+  threshold_change: material
+  evidence_schema_change: material
+  platform_profile_change: material
+  caption_safe_zone_change: material
+  rights_audio_change: material
+  authority_change: material
+  terminal_state_machine_change: material
+  emergency_label_does_not_reduce_materiality: true
+impact_and_test_rules:
+  change_impact_analysis_required: true
+  proposed_diff_required: true
+  expected_observed_comparison_required: true
+  isolated_fixture_required: true
+  v002_direct_mutation_during_test_forbidden: true
+  independent_test_observer_required: true
+  test_result_immutable: true
+  failed_test_blocks_exception: true
+  unknown_test_result_blocks_exception: true
+  rollback_or_containment_required: true
+  post_change_revalidation_required: true
+  affected_review_restart_or_revalidation_required: true
+  prior_score_cannot_be_inherited_across_material_change: true
+  prior_reviewer_evidence_preserved: true
+  prior_artifact_preserved: true
+  prior_contract_preserved: true
+release_controls:
+  reproducible_process_required: true
+  hermetic_evaluation_preferred: true
+  exact_source_revision_required: true
+  gated_approval_required: true
+  archived_change_report_required: true
+  independent_test_required: true
+  progressive_rollout_not_terminal: true
+  rollback_capability_required: true
+  release_label_unique: true
+  configuration_and_artifact_association_required: true
+  release_change_list_required: true
+  release_does_not_authorize_review: true
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_current_contract_independent_reviewer_approval
+  - complete_exact_provenance_current_contract_independent_reviewer_rejection
+  - complete_exact_provenance_current_contract_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_owner_resolution_after_change_revalidation
+non_terminal_events:
+  - change_freeze
+  - freeze_expiry
+  - emergency_exception_request
+  - emergency_exception_approved
+  - emergency_exception_denied
+  - emergency_exception_expired
+  - change_impact_analysis
+  - isolated_test
+  - rollback
+  - containment
+  - post_change_review
+  - review_restart_required
+  - revalidation_pending
+  - revalidation_complete_without_terminal_decision
+  - reviewer_blocked_without_remake_order
+  - score_above_threshold_without_terminal_verdict
+  - queue_hold
+  - heartbeat
+  - receipt_publication
+next_action: >-
+  Human owner must approve a versioned change-freeze and emergency-exception protocol. Any material
+  change must record scope, reason, authority, impact, isolated test, rollback or containment, expiry,
+  and post-change review. Material changes require fresh Reviewer restart or revalidation; prior
+  scores and evidence cannot silently transfer. The non-terminal Reviewer BLOCKED record must be
+  handled only through its explicit version-matched evidence/QA action. Keep the single-flight lane closed.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
