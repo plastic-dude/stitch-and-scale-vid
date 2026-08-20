@@ -1,0 +1,105 @@
+receipt_id: PUB-20260821-canonical-ledger-4e9a2c7
+created_at: '2026-08-21T20:32:00+01:00'
+role: temporary-director
+firing: 225
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 3e2e35bd1743b46c585f45759742ff4492ddfd6f
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 4e9a2c7
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T203200-temporary-director-225.yml
+research_paths:
+  - research/2026-08-21-canonical-review-incident-ledger-2032.md
+  - research/2026-08-21-firing-225-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How can repeated queue holds remain auditable without creating alert fatigue, duplicate
+  incident interpretations, or the false appearance that repeated no-change records
+  constitute new authorization evidence?
+research_decision: >-
+  Require a canonical active review incident and append-only event ledger. Each event
+  must have unique identity, timestamp, type, actor, causal link, exact provenance,
+  state and evidence fields. No-change observations are retained and linked to the
+  canonical incident but deduplicated from active notifications. They cannot create
+  authority, renew a lease without required fields, reset a terminal boundary, or clear
+  the single-flight lane.
+canonical_incident:
+  incident_id: REVIEW-HOLD-V002-20260819
+  canonical_record_id: CANONICAL-REVIEW-V002-20260819
+  current_state: video-ready-for-review
+  current_owner: null
+  checkpoint_deadline: null
+  escalation_target: null
+  missing_prerequisite: complete_exact_provenance_independent_reviewer_terminal_packet
+  latest_meaningful_event_id: null
+  latest_meaningful_event_type: none
+  no_change_observation_count: unbounded_append_only
+  active_notification_key: REVIEW-HOLD-V002-20260819
+  deduplication_scope: operational_notifications_only
+  evidence_deletion_forbidden: true
+  record_overwrite_forbidden: true
+  terminal_state_reset_forbidden: true
+  lease_renewal_by_no_change_forbidden: true
+  single_flight_clear_by_no_change_forbidden: true
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - repeated_authorization_hold
+  - duplicate_queue_hold
+  - routine_reminder
+  - routine_acknowledgement
+  - silence_observation
+  - elapsed_time_observation
+  - duplicate_blocker_without_new_state
+  - generator_hold_without_new_contract
+  - heartbeat_without_state_change
+  - continuation_without_new_owner_or_checkpoint
+  - timeout_repeat_without_new_escalation
+  - queue_only_commit
+  - no_change_commit
+  - owner_assignment_without_terminal_reviewer_packet
+  - acknowledged_handoff_without_terminal_reviewer_packet
+  - checkpoint_renewal_without_terminal_reviewer_packet
+  - missing_owner_assignment
+  - missing_checkpoint
+  - missing_escalation_target
+next_action: >-
+  Human owner must assign responsible owner, role, bounded checkpoint, and escalation
+  target. Independent Video Reviewer must publish one complete exact-provenance terminal
+  packet or linked continuation packet with current state, owner, next action, checkpoint,
+  escalation target, and immutable evidence. Preserve every event append-only and
+  deduplicate no-change notifications without deleting or overwriting evidence. Keep
+  the lane closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
