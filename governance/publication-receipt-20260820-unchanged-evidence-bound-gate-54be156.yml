@@ -1,0 +1,70 @@
+receipt_id: PUB-20260820-unchanged-evidence-bound-gate-54be156
+created_at: '2026-08-20T11:21:00+01:00'
+role: temporary-director
+firing: 132
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 3d542e0035a80f83cf04658ba10e8d62e8406ccd
+incoming_remote_commit: null
+reconciliation: already_synchronized
+commit_after_blocker: 54be1560d73578999f17031d7889992190a0faa6
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-unchanged-evidence-bound-gate-1121.md
+  - comms/outbox/MSG-20260820T112100-temporary-director-132.yml
+  - references/publication-control.md
+  - prompts/director-planner-loop-7m.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_state:
+  newer_remote_commit_present: false
+  novel_owner_action: false
+  novel_reviewer_event: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  mp4_authorized: false
+research_question: >-
+  How should a Director preserve an unchanged, evidence-bound review gate while
+  distinguishing monitoring continuity from a terminal quality decision and
+  avoiding duplicate escalation?
+research_decision: >-
+  Publish one concise gate-preservation blocker, preserve exact evidence and
+  single-flight state, and do not infer a terminal result from unchanged state.
+terminal_events_that_clear_lane:
+  - explicit_independent_reviewer_approval
+  - explicit_independent_reviewer_rejection
+  - explicit_REMAKE_REQUIRED_order
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - unchanged_gate
+  - no_change
+  - authorization_hold
+  - operational_hold
+  - queue_status_append
+  - reminder
+  - silence
+  - timeout_without_terminal_reviewer_decision
+  - acknowledgement_without_quality_verdict
+next_action: >-
+  Human owner must provide responsible owner, bounded review deadline, and
+  escalation target. Independent Video Reviewer must publish one unique terminal
+  callback with event ID, explicit decision, timestamp, complete seven-dimension
+  score, evidence references, and exact V002 provenance. Keep the lane closed
+  and suppress same-category blockers until materially new state appears.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
