@@ -1,0 +1,45 @@
+message_id: MSG-20260820-003537-director-183
+message_type: director_handoff
+created_at: 2026-08-20T00:35:37+00:00
+from: director-planner
+campaign: founder-proof
+angle_slug: provenance-state
+brief_id: BRF-founder-proof-provenance-state-9x16-v001
+status: blocked
+subject: Pass 181 blocked — provenance-state pending current product proof
+research:
+  note: research/2026-08-20-pass181-browser-findings.md
+  question: When a craft-business record changes, what makes its retained history inspectable rather than merely old?
+  sources: [918, 919, 920]
+  decision: Narrowed from generic archival retention to lineage of a changed record.
+distinctness:
+  nearest_prior: evidence-chain-state
+  changed_pain: Evidence supports a claim versus a changed record exposes its prior entity, change activity, source note, responsible agent, affected gate, and disposition.
+  changed_metaphor: Revision thread linking a note, sample, edit mark, test observation, and current page.
+  hook: A current file is not the history of how it changed.
+  final_line: Show what this version came from.
+objective: Teach a bounded trust question about changed craft records and invite qualified founding testers without claiming the product provides the proposed lineage surface.
+audience: Independent knitwear designers and pattern publishers; secondary founding testers and reviewers.
+deliverables:
+  brief: briefs/SS_founder-proof_provenance-state_9x16_v001_blocked_20260820-003537.md
+  script: scripts/SS_founder-proof_provenance-state_9x16_v001_blocked_20260820-003537.md
+  platform_matrix: platforms/SS_founder-proof_provenance-state_9x16_v001_matrix_20260820-003537.md
+  continuity: ledgers/20260820-provenance-state.md
+  manifest: manifests/SS_founder-proof_provenance-state_9x16_v001_blocked_20260820-003537.yml
+filename_reservation: SS_founder-proof_provenance-state_9x16_v001_blocked_20260820-003537.mp4
+claim_risks:
+  - Do not claim Stitch & Scale provides provenance, version lineage, immutable history, archival retention, automatic agent attribution, or formal assurance.
+  - Do not claim accuracy, accessibility conformance, legal compliance, reader success, revenue, adoption, pricing, credentials, testimonials, or urgency.
+  - Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  - Keep calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting separate.
+proof_blocker: No current product-proof registry entry or approved non-private rights-cleared capture verifies prior entity, change activity, source note, responsible agent, timestamp, current entity, affected gate, and disposition.
+rights_blocker: No production assets, narrator, foley, or final platform profile are approved; use only original or cleared materials after review.
+review_state:
+  reviews_checked: true
+  orders_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked and filename occupied; do not regenerate, overwrite, rename, or approve
+  release_gate_roster: blocked and filename occupied; do not infer authorization from generic human-gate proof
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_safe_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing the exact provenance surface, then rerun product, claims, rights, caption, audio, platform, continuity, filename, and Director gates.
