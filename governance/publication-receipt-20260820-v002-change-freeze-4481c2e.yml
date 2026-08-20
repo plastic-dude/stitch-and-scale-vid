@@ -8,11 +8,12 @@ pre_publication_commit: d30e2d5922beb10fff3b474c1937be1c5f4879d8
 incoming_remote_commit: null
 reconciliation: already_synchronized_before_director_commit
 commit_after_blocker: 4481c2e19cb97441888d6aba8b7fb2afb1b75444
+receipt_publication_commit: 1c402ef6086133b99a768ced8ddfb87ee62fcc9f
 blocker_path: comms/outbox/MSG-20260820T174500-temporary-director-249.yml
 research_paths:
   - research/2026-08-20-v002-change-freeze-emergency-exception-1745.md
   - research/2026-08-20-firing-249-source-notes.md
-publication_status: receipt-pending-final-verification
+publication_status: published-and-verified
 active_contract:
   video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
   drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
