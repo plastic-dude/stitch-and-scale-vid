@@ -8,11 +8,12 @@ pre_publication_commit: 6d608aa5fe188f09019195410941f919c14ab560
 incoming_remote_commit: null
 reconciliation: already_synchronized_before_director_commit
 commit_after_blocker: 41c2d325313ad13840e1b61bfd5226e4af636549
+receipt_publication_commit: 32697f763526fcda6fb99802d16fa5251655a692
 blocker_path: comms/outbox/MSG-20260820T171700-temporary-director-245.yml
 research_paths:
   - research/2026-08-20-control-data-plane-review-authority-1717.md
   - research/2026-08-20-firing-245-source-notes.md
-publication_status: receipt-pending-final-verification
+publication_status: published-and-verified
 active_contract:
   video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
   drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
