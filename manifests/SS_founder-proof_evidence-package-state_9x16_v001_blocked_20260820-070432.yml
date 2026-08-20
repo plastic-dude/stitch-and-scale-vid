@@ -1,0 +1,95 @@
+schema_version: '1.0'
+manifest_id: 'MNF-founder-proof-evidence-package-state-9x16-v001-20260820-070432'
+plan_id: 'BRF-founder-proof-evidence-package-state-9x16-v001'
+pass_number: 232
+campaign: 'founder-proof'
+angle: 'evidence-package-state'
+stamp: '20260820-070432'
+format: '9x16'
+version: 'v001'
+status: 'blocked'
+reserved_filename: 'SS_founder-proof_evidence-package-state_9x16_v001_blocked_20260820-070432.mp4'
+media_exists: false
+media_generated: false
+media_uploaded: false
+objective: 'Show why a named destination package must be checked as individual artifacts, rights records, and human evidence gates rather than treated as complete because one export or status card looks finished.'
+audience: 'Independent knitwear designers and pattern publishers preparing multi-size patterns, samples, charts, schematics, images, and destination-specific submission materials.'
+form: 'Founder-proof tabletop explainer with original illustrative envelope and artifact cards; no real pattern, sample, private record, current UI, customer record, publication decision, or third-party asset.'
+tone: 'Quiet, precise, craft-respecting, destination-aware, local-first, and explicit about present, absent, recorded, and unverified evidence.'
+distribution_assumption: 'Organic Instagram Reels, TikTok, and YouTube Shorts; no paid placement assumed; revalidate destination at approval.'
+brief_tier: 'Director/Planner blocked package; not approved-for-generation.'
+hook: 'A sealed package can still be missing the one file that matters.'
+final_line: 'Name the destination. Name every piece that has to travel with it.'
+nearest_prior: 'evidence-status-state'
+material_difference: 'Package membership and destination-specific artifact completeness, rights records, and human gates rather than status scope, evidence window, or setter.'
+product_truth:
+  proof_registry_entry: 'absent'
+  current_package_surface_verified: false
+  current_attachment_surface_verified: false
+  current_destination_verified: false
+  approved_non_private_capture: false
+  generated_text_is_ui_truth: false
+  product_capability_claims_allowed: false
+proof_surface: 'PACKAGE P-001 / DESTINATION / REQUIRED_ARTIFACTS / PATTERN_TEXT / IMAGES / SCHEMATIC / CHART / GAUGE_MATERIALS / RIGHTS_ORIGINALITY / AGREEMENT_INVOICE / RETURN_CUSTODY / HUMAN_GATES / MISSING_ITEM / PACKAGE_STATUS / LIMITATIONS'
+required_artifact_families:
+  - 'PATTERN_TEXT'
+  - 'IMAGES'
+  - 'SCHEMATIC'
+  - 'CHART'
+  - 'GAUGE_MATERIALS'
+  - 'RIGHTS_ORIGINALITY'
+  - 'AGREEMENT_INVOICE'
+  - 'RETURN_CUSTODY'
+human_evidence_gates:
+  - 'CALCULATION'
+  - 'TECHNICAL_EDITING'
+  - 'PHYSICAL_PRINT_REVIEW'
+  - 'CHART_READABILITY'
+  - 'SCHEMATIC_SCALE'
+  - 'TEST_KNITTING'
+  - 'PUBLICATION_DECISION'
+rights:
+  real_pattern_or_sample_allowed: false
+  third_party_images_or_charts_allowed: false
+  private_records_allowed: false
+  destination_forms_or_logos_allowed: false
+  founder_voice_requires_internal_clearance: true
+  original_props_require_rights_log: true
+caption_audio:
+  narrator_family: 'one close dry founder voice; no mixed voices'
+  caption_on_review_required: true
+  caption_free_review_required: true
+  automatic_captions_are_draft_only: true
+  captions_may_cover_proof: false
+  captions_may_cover_hands_faces_numbers_controls: false
+  room_tone_continuity_required: true
+  approval_or_urgency_sound_allowed: false
+platform:
+  instagram_reels: 'planned; exact safe-zone measurement unverified; recheck official guidance and actual preview'
+  tiktok_organic: 'planned; human-edit captions and recheck accessibility, language, photosensitivity, and overlays'
+  youtube_shorts: 'planned; verify captions in Studio, audio rights, vertical upload rules, and actual preview'
+  paid_derivatives: 'not requested'
+acceptance_gates:
+  objective_audience_confirmed: false
+  fresh_wide_research_recorded: true
+  open_reviewer_orders_inspected: true
+  imported_continuity_inspected: true
+  angle_distinctness_documented: true
+  product_proof_supplied: false
+  destination_confirmed: false
+  script_complete: true
+  claim_ledger_complete: true
+  rights_ledger_complete: true
+  narrator_family_declared: true
+  caption_on_and_free_review_defined: true
+  audio_plan_defined: true
+  platform_recheck_complete: false
+  filename_reserved_unique: true
+  external_upload_authorized: false
+exact_generator_action: 'Do not generate or upload. Await a current versioned product-proof registry entry or approved non-private package/attachment capture, confirm the destination, clear rights/privacy for every asset, and rerun Director validation before re-authorization.'
+blocker: 'No current product-proof registry entry or approved non-private, rights-cleared capture verifies an evidence-package or attachment-context surface; destination requirements and asset rights are also unconfirmed.'
+source_research: 'research/2026-08-20-pass232-browser-findings.md'
+brief_path: 'briefs/SS_founder-proof_evidence-package-state_9x16_v001_blocked_20260820-070432.md'
+script_path: 'scripts/SS_founder-proof_evidence-package-state_9x16_v001_blocked_20260820-070432.md'
+platform_matrix_path: 'platforms/SS_founder-proof_evidence-package-state_9x16_v001_matrix_20260820-070432.md'
+continuity_path: 'ledgers/20260820-evidence-package-state.md'
