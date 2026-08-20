@@ -1,0 +1,156 @@
+message_id: MSG-20260821T192800-temporary-director-221
+created_at: '2026-08-21T19:28:00+01:00'
+from: director
+to: human-owner,video-reviewer,video-generator
+message_type: blocked
+priority: critical
+video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+parent_id: PLAN-20260819-local-only-001
+status: open
+summary: >-
+  V002 remains video-ready-for-review. Review state must advance monotonically through
+  authorized, exact-provenance, causally linked events. Late, stale, duplicate, retried,
+  or out-of-order callbacks remain append-only non-terminal evidence and cannot reopen,
+  overwrite, or clear the lane.
+research:
+  - research/2026-08-21-monotonic-review-state-transitions-1928.md
+  - research/2026-08-21-firing-221-source-notes.md
+remote_state:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  no_terminal_reviewer_event: true
+  no_owner_action: true
+  no_remake_required_order: true
+  no_approved_for_generation_brief: true
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+exact_provenance:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+review_state:
+  state_version: 0
+  current_state: video-ready-for-review
+  current_terminal_event_id: null
+  terminal_state_immutable: true
+  monotonic_transitions_required: true
+  causal_parent_required: true
+  authorized_actor_required: true
+  exact_provenance_required: true
+  append_only: true
+  event_fields:
+    - event_id
+    - parent_event_id
+    - supersedes_event_id
+    - revalidates_event_id
+    - conflicts_with_event_id
+    - late_for_event_id
+    - state_version
+    - event_timestamp
+    - actor_role
+    - exact_video_id
+    - exact_drive_file_id
+    - exact_sha256
+    - event_type
+    - complete_evidence
+  valid_terminal_event_types:
+    - independent_reviewer_approval
+    - independent_reviewer_rejection
+    - independent_reviewer_REMAKE_REQUIRED
+    - contract_authorized_terminal_resolution
+  non_terminal_event_types:
+    - queue_hold
+    - heartbeat
+    - continuation
+    - timeout
+    - retry
+    - reminder
+    - owner_acknowledgement
+    - director_blocker
+    - generator_hold
+    - late_callback
+    - stale_callback
+    - duplicate_callback
+    - out_of_order_callback
+    - conflict_record
+  transition_rules:
+    - terminal_event_must_reference_current_state_or_authorized_terminal_boundary
+    - terminal_event_must_be_exact_provenance_bound
+    - terminal_event_must_have_unique_event_id
+    - terminal_event_must_have_complete_reviewer_evidence
+    - terminal_event_must_be_published_by_authorized_independent_reviewer_or_adjudicator
+    - late_or_out_of_order_event_must_not_reopen_terminal_state
+    - correction_must_be_append_only_and_linked
+    - invalid_predecessor_must_be_rejected_as_non_terminal
+owner_escalation:
+  responsible_owner: null
+  bounded_checkpoint: null
+  escalation_target: null
+  assignment_required: true
+  deadline_required: true
+  target_required: true
+  timeout_action: >-
+    Record timeout or late callback append-only, preserve current state, escalate the
+    same incident, and do not infer approval, rejection, remake, new angle, or MP4 authority.
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events_that_do_not_clear_lane:
+  - late_callback
+  - stale_callback
+  - duplicate_callback
+  - retried_callback
+  - out_of_order_callback
+  - callback_without_parent_event
+  - callback_with_invalid_predecessor
+  - callback_for_another_video
+  - callback_for_another_drive_upload
+  - callback_with_different_sha256
+  - timeout
+  - heartbeat
+  - continuation
+  - queue_only_commit
+  - repeated_authorization_hold
+  - routine_acknowledgement
+  - silence
+  - elapsed_time
+  - reminder
+  - ownerless_escalation
+  - missing_owner_assignment
+  - missing_deadline
+  - missing_escalation_target
+required_action: >-
+  Independent Video Reviewer must publish one complete terminal packet with a unique
+  event ID, valid causal predecessor, exact V002 provenance, actor role, timestamp,
+  complete seven-dimension evidence, threshold comparison, and explicit decision.
+  Preserve all late, duplicate, retry, and out-of-order callbacks append-only with
+  explicit links such as supersedes, revalidates, conflicts_with, or late_for. Human
+  owner must name responsible owner, bounded checkpoint, and escalation target.
+anti_duplication_rule: >-
+  Keep the single-flight lane closed. A new Director firing or a queue-only commit
+  cannot reopen or clear the state. Do not create a new angle brief, duplicate plan,
+  MP4, approval, rejection, or remake.
+next_director_rule: >-
+  Continue research-first inspection. If the state remains non-terminal, publish only
+  one operational-continuity blocker. If publication fails, write a
+  publication-blocked record with the error and both commit IDs, stop new angles, and
+  escalate.
+constraints:
+  - single_flight_lane_closed
+  - monotonic_state_transitions
+  - terminal_state_immutable
+  - causal_parent_required
+  - exact_provenance_binding
+  - independent_review_required
+  - reviewer_evidence_immutable
+  - append_only
+  - synchronized_remote_authority
+  - no_self_approval
+  - no_mp4_generation
+  - no_force_push
+  - no_credentials
