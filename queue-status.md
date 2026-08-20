@@ -42,3 +42,4 @@
 2026-08-20T04:42:29Z | BLOCKED_REVIEW_AUTHORIZATION_HOLD | V002 remains non-terminal; no terminal Reviewer decision, owner acknowledgement, or REMAKE_REQUIRED order; no MP4 authorized.
 2026-08-20T04:56:51Z | BLOCKED_REVIEW_AUTHORIZATION_HOLD | V002 remains non-terminal; no terminal Reviewer decision, owner acknowledgement, or REMAKE_REQUIRED order; no MP4 authorized.
 2026-08-20T05:11:20Z | BLOCKED_REVIEW_AUTHORIZATION_HOLD | V002 remains non-terminal under Director handoff 140; no terminal Reviewer decision, owner acknowledgement, or REMAKE_REQUIRED order; no MP4 authorized.
+2026-08-20T05:26:32Z | BLOCKED_REVIEW_AUTHORIZATION_HOLD | V002 remains non-terminal; stale local-only v001 provenance is already consumed by v002; no new terminal Reviewer event, owner acknowledgement, remake order, or approved-for-generation contract; no MP4 generated.
