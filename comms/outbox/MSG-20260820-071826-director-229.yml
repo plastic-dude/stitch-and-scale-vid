@@ -1,0 +1,60 @@
+message_id: MSG-20260820-071826-director-229
+created_at: '2026-08-20T07:18:26+01:00'
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: MAN-founder-proof-model-context-state-9x16-v001-20260820-071826
+parent_id: BRF-founder-proof-model-context-state-9x16-v001
+status: blocked
+summary: >-
+  Pass 226 selects the materially distinct model-context-state concept, but no current product-proof registry
+  or approved capture verifies a Stitch & Scale image-context surface.
+evidence:
+  - research/2026-08-20-pass226-browser-findings.md
+  - research/2026-08-20-pass226-selection-boundary-audit.md
+  - briefs/SS_founder-proof_model-context-state_9x16_v001_blocked_20260820-071826.md
+  - scripts/SS_founder-proof_model-context-state_9x16_v001_blocked_20260820-071826.md
+  - platforms/SS_founder-proof_model-context-state_9x16_v001_matrix_20260820-071826.md
+  - ledgers/20260820-model-context-state.md
+  - manifests/SS_founder-proof_model-context-state_9x16_v001_blocked_20260820-071826.yml
+  - ledgers/2026-08-19-imported-session-continuity.md
+  - repository HEAD 1fd2fbee33a49b7f8e512b3609e2417233110cb2
+research_decision: >-
+  Craft Yarn Council asks designers to reconfirm the sample garment size required to fit the photography model and
+  separates the project, swatch, instructions, schematic, labels, invoice, and return shipping. CYC sizing guidance
+  separates body measurements, completed-garment measurements, schematics, and ease, and calls the charts guidelines.
+  Knitty’s June 17, 2026 guidance asks wearable submissions to be shown on a correctly sized model in the intended way
+  and setting, distinguishing oversized from minimal-ease context. Current Instagram, TikTok, YouTube, and W3C sources
+  set conservative mobile, caption, audio, and accessibility gates. None of these sources proves a Stitch & Scale image-context surface.
+concept_difference: >-
+  Nearest prior is dye-lot-state, which concerns lot-level physical-material identity. Pass 226 concerns declared
+  context for a pictured sample: size made, model context, fit intention, pose/view, image purpose, rights scope,
+  and review status. It is distinct from fit-intent, fit-criteria-state, measurement-provenance, publication-boundary-state,
+  sample-return-state, and the imported blocked false-completion/release-gate-roster concepts.
+hook: A photo can show the garment and still hide the context.
+final_line: Name the context before the photo speaks for itself.
+proof_surface: >-
+  IMAGE I-001 / DESIGN_ID / SAMPLE_ID / GARMENT_SIZE_MADE / BODY_CONTEXT / MODEL_CONTEXT /
+  FINISHED_MEASUREMENTS / EASE_OR_FIT_INTENT / IMAGE_PURPOSE / POSE_OR_VIEW / CAPTURED_AT /
+  SOURCE_OR_BASIS / RIGHTS_SCOPE / REVIEWER / REVIEWED_AT / STATUS
+image_context_boundary: >-
+  An image-context record can describe the pictured sample but cannot prove fit, grading, comfort, size inclusion,
+  accessibility, technical editing, test-knit success, or publication acceptance.
+claims_boundary: >-
+  Do not claim that Stitch & Scale identifies garment size from a photo, matches a model, evaluates fit, verifies ease,
+  validates grading, measures a body, checks size inclusion, approves photography, or guarantees outcomes.
+rights_boundary: >-
+  Use only original abstract silhouettes, fictional context cards, approved narrator, consented hand performance,
+  and original or cleared card sound. Every card must read ILLUSTRATIVE — NOT PRODUCT UI. No real model, body,
+  garment, publication photo, customer record, pattern, logo, or private data is cleared.
+review_and_audio: >-
+  One narrator family, human-verified caption-on and caption-free versions, mobile-safe captions that never cover
+  faces, hands, cards, numbers, rights fields, logos, controls, menus, or primary actions, and full-length audio QC.
+next_action: >-
+  Provide a current, versioned, non-private, rights-cleared product-proof registry entry or approved capture for
+  the exact image-context surface, confirm destination platform and asset/privacy rights, then rerun product/data,
+  image-context, claims, founder-truth, human-evidence, rights, narrator, caption, audio, platform, continuity,
+  filename, and Director gates.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+reserved_filename: SS_founder-proof_model-context-state_9x16_v001_blocked_20260820-071826.mp4

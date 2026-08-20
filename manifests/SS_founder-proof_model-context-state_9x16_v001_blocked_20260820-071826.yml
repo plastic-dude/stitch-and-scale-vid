@@ -1,0 +1,227 @@
+manifest_id: MAN-founder-proof-model-context-state-9x16-v001-20260820-071826
+brief_id: BRF-founder-proof-model-context-state-9x16-v001
+script_id: SCR-founder-proof-model-context-state-9x16-v001
+matrix_id: MAT-founder-proof-model-context-state-9x16-v001
+campaign: founder-proof
+angle: model-context-state
+pass_number: 226
+stamp: '20260820-071826'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-proof-short
+title: A photo can show the garment and still hide the context.
+objective: >-
+  Show why a photographed sample needs declared size, model context, fit intention, and image purpose,
+  without claiming Stitch & Scale currently records, validates, or judges those fields.
+audience:
+  primary: >-
+    Independent knitwear designers, pattern publishers, technical editors, test knitters,
+    sample coordinators, and makers preparing images or submissions.
+  secondary: designers, editors, testers, reviewers, and publication coordinators
+form: founder-proof-tabletop-image-context-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: craft and knitwear workflow participants who need an honest image context record
+  tone: calm precise craft-respecting non-alarmist and explicit about context versus fit proof
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+product_truth:
+  current_image_context_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    IMAGE I-001 / DESIGN_ID / SAMPLE_ID / GARMENT_SIZE_MADE / BODY_CONTEXT / MODEL_CONTEXT /
+    FINISHED_MEASUREMENTS / EASE_OR_FIT_INTENT / IMAGE_PURPOSE / POSE_OR_VIEW / CAPTURED_AT /
+    SOURCE_OR_BASIS / RIGHTS_SCOPE / REVIEWER / REVIEWED_AT / STATUS
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+  identity_boundary: >-
+    An image-context record can describe the pictured sample but cannot prove fit, grading, comfort,
+    size inclusion, accessibility, technical editing, test-knit success, or publication acceptance.
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not be described as a
+    knitter, knitwear designer, pattern designer, technical editor, or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - care review
+    - test knitting
+research:
+  file: research/2026-08-20-pass226-browser-findings.md
+  question: >-
+    When a knitwear sample is photographed or shown, what records connect the garment size, model context,
+    intended fit, and image purpose without allowing a photo to imply a fit guarantee?
+  decision_changed: >-
+    Select model-context-state: isolate the declared context of a pictured sample and keep size made,
+    model context, fit intention, pose/view, image purpose, rights, and review separate from fit verdicts,
+    measurement provenance, grading, and publication approval.
+  sources:
+    - id: R226-001
+      title: 'Craft Yarn Council — Congratulations! You’ve Received the Go Ahead'
+      url: https://www.craftyarncouncil.com/industry.html
+      accessed: '2026-08-20'
+      evidence: >-
+        Designers are told to reconfirm the sample garment size required to fit the photography model and
+        not make the project to fit the designer unless that is the requested size.
+      limitation: General industry guidance; company/publication instructions take precedence.
+    - id: R226-002
+      title: 'Craft Yarn Council — Standard Body Measurements/Sizing'
+      url: https://www.craftyarncouncil.com/standards/body-sizing
+      accessed: '2026-08-20'
+      evidence: >-
+        Body measurements, completed-garment measurements, schematics, and ease are distinct concepts;
+        fit and length charts are guidelines and should be reviewed before beginning.
+      limitation: Sizing guidance is not a fit guarantee or product proof.
+    - id: R226-003
+      title: 'Knitty — Design or Write For Knitty; updated June 17, 2026'
+      url: https://knitty.com/subguide.php
+      accessed: '2026-08-20'
+      evidence: >-
+        Designers photograph submissions or arrange photography; wearable items should be shown on a
+        correctly sized model in the intended way and setting, with different context for oversized versus minimal ease.
+      limitation: One publication’s workflow; not urgency, affiliation, or a universal model standard.
+    - id: R226-004
+      title: 'Instagram Help — Reel size & aspect ratios'
+      url: https://help.instagram.com/1038071743007909
+      accessed: '2026-08-20'
+      evidence: Reels support 1.91:1 through 9:16, with minimum 30 fps and 720 pixels.
+      limitation: Recheck at approval; no upload is authorized.
+    - id: R226-005
+      title: 'TikTok Support — Accessibility for your videos'
+      url: https://support.tiktok.com/en/using-tiktok/creating-videos/accessibility
+      accessed: '2026-08-20'
+      evidence: Auto-generated captions can be edited or removed.
+      limitation: Market/app support may vary; automatic text is draft-only.
+    - id: R226-006
+      title: 'YouTube Help — Add subtitles & captions'
+      url: https://support.google.com/youtube/answer/2734796?hl=en
+      accessed: '2026-08-20'
+      evidence: Timed captions and meaningful non-speech cues are supported by the guidance.
+      limitation: Platform tooling does not replace human caption review or establish product accessibility.
+    - id: R226-007
+      title: 'W3C WAI — Understanding WCAG 2.2 SC 1.2.2 Captions'
+      url: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html
+      accessed: '2026-08-20'
+      evidence: Captions should carry speech and relevant non-speech information without obscuring important visual content.
+      limitation: Accessibility guidance, not universal conformance or platform certification.
+    - id: R226-008
+      title: 'Knitty — Winter 2026 seasonal submission context'
+      url: https://knitty.com/subguide.php
+      accessed: '2026-08-20'
+      evidence: The page lists Winter 2026 publication context and a September 15, 2026 submission deadline.
+      limitation: Publication-specific and time-sensitive; not urgency, affiliation, or campaign proof.
+product_and_rights_decision: >-
+  No current product-proof registry or approved non-private capture verifies a Stitch & Scale image-context
+  surface. Use original abstract silhouettes and fictional context cards only; exclude real models, bodies,
+  garments, publication photos, customer records, patterns, logos, and private data. Rights/privacy clearance remains required.
+concept_difference:
+  nearest_prior: dye-lot-state
+  nearest_sizing_prior: fit-intent
+  nearest_fit_boundary: fit-criteria-state
+  nearest_measurement_prior: measurement-provenance
+  nearest_publication_prior: publication-boundary-state
+  changed_pain: >-
+    A polished sample image can conceal which size was made, what model context it represents, what fit was intended,
+    why the image exists, and what rights or review status apply.
+  hook: A photo can show the garment and still hide the context.
+  visual_metaphor: >-
+    PHOTO CONTEXT opens from a posed silhouette to GARMENT_SIZE_MADE, MODEL_CONTEXT, EASE_OR_FIT_INTENT,
+    POSE_OR_VIEW, IMAGE_PURPOSE, and RIGHTS_SCOPE.
+  emotional_turn: 'Responsible specificity: visual confidence gives way to what the image does and does not prove.'
+  final_line: Name the context before the photo speaks for itself.
+dramatic_engine:
+  subject: a fictional PHOTO CONTEXT card attached to an abstract garment silhouette
+  desire: know which sample size and intended context the image represents
+  obstacle: size made, model context, fit intention, pose, purpose, rights, and review may be unstated
+  stakes: viewers may infer more from a photo than the record supports; no misfit, exclusion, or publication outcome is claimed
+  change: 'replace PHOTO = CONTEXT with PHOTO CONTEXT: UNVERIFIED'
+  contradiction: a polished image can still be an incomplete context record
+  escalation:
+    - PHOTO_CONTEXT
+    - GARMENT_SIZE_MADE
+    - MODEL_CONTEXT
+    - FINISHED_MEASUREMENTS_AND_EASE_OR_FIT_INTENT
+    - POSE_OR_VIEW_AND_IMAGE_PURPOSE
+    - RIGHTS_SCOPE_AND_REVIEW_STATUS
+    - 'PHOTO CONTEXT: UNVERIFIED'
+  final_image: >-
+    PHOTO CONTEXT: UNVERIFIED remains beside separate human evidence cards; every prop reads
+    ILLUSTRATIVE — NOT PRODUCT UI.
+proof_surface: >-
+  IMAGE I-001 / DESIGN_ID / SAMPLE_ID / GARMENT_SIZE_MADE / BODY_CONTEXT / MODEL_CONTEXT /
+  FINISHED_MEASUREMENTS / EASE_OR_FIT_INTENT / IMAGE_PURPOSE / POSE_OR_VIEW / CAPTURED_AT /
+  SOURCE_OR_BASIS / RIGHTS_SCOPE / REVIEWER / REVIEWED_AT / STATUS
+assets:
+  approved_assets: pending
+  permitted: original abstract silhouette, fictional context cards, neutral tabletop, rights-cleared narrator, consented hand actor, original card sound
+  prohibited: real model, body data, garment, publication photo, customer record, pattern, logo, private data, current UI capture
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, cards, numbers, rights fields, logos, buttons, menus, or primary actions
+audio:
+  music: none unless original or separately rights-cleared and approved
+  motif: quiet original camera-shutter imitation only if non-assertive, card slide, held silence on unverified status
+  room_tone: record before and after each setup
+claims:
+  allowed:
+    - A photo can show the garment and still hide the context.
+    - CYC asks designers to reconfirm sample size required to fit the photography model.
+    - Body measurements, finished-garment measurements, ease, and schematics are distinct sizing concepts.
+    - An image-context record is separate from fit, grading, technical editing, print, schematic, and test-knit proof.
+  prohibited:
+    - Stitch & Scale identifies garment size from a photo, matches a model to a sample, evaluates fit, verifies ease, validates grading, measures a body, checks size inclusion, approves photography, or guarantees outcomes.
+    - A photo proves fit, grading accuracy, size inclusion, comfort, accessibility, or publication acceptance.
+    - A fictional context card is current product UI, a real model record, publication asset, or customer data.
+    - David is an accountant, lawyer, publisher, knitter, designer, pattern designer, technical editor, or tester.
+    - Revenue, adoption, accuracy, customer outcomes, final pricing, credentials, testimonials, urgency, or unverified capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - image_context_surface_exactness
+  - claims_and_human_gate_separation
+  - founder_truth
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or approved capture verifies
+  the exact image-context surface; destination platform, rights, narrator, caption, audio, privacy, and final
+  acceptance evidence remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-model-context-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  nearest_prior: dye-lot-state
+  nearest_sizing_prior: fit-intent
+  nearest_fit_boundary: fit-criteria-state
+  nearest_measurement_prior: measurement-provenance
+  nearest_publication_prior: publication-boundary-state
+  adjacent_sample_return: ledgers/20260820-sample-return-state.md
+  adjacent_care_instruction: ledgers/20260820-care-instruction-state.md
+  adjacent_export_identity: ledgers/20260820-export-identity-state.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_model-context-state_9x16_v001_matrix_20260820-071826.md
+filename:
+  reserved: SS_founder-proof_model-context-state_9x16_v001_blocked_20260820-071826.mp4
+  overwrite: false
+  duplicate_check: pending_validation
