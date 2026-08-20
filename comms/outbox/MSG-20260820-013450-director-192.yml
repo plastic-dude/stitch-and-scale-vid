@@ -1,0 +1,47 @@
+message_id: MSG-20260820-013450-director-192
+message_type: director_handoff
+created_at: 2026-08-20T01:34:50+00:00
+from: director-planner
+campaign: founder-proof
+angle_slug: publication-boundary-state
+brief_id: BRF-founder-proof-publication-boundary-state-9x16-v001
+status: blocked
+subject: Pass 190 blocked — publication-boundary-state pending current product proof
+research:
+  note: research/2026-08-20-pass190-browser-findings.md
+  question: Before a craft-production output is published or handed off, what proves that the exact output, scope, review state, rights, and disposition are ready to transfer rather than merely resolved or partly closed?
+  sources: [961, 962, 963, 964, 965]
+  decision: Narrowed from surrounding-work closure to the exact output package and transfer scope at a publication or handoff boundary.
+distinctness:
+  nearest_prior: closure-scope-state
+  changed_pain: What remains open around one issue-level closure versus whether an exact output package is ready for a specific publication or handoff without silently expanding the approval.
+  changed_metaphor: Resolved card over neighboring craft-production cards becomes an output envelope that remains unsealed until its release boundary is explicit.
+  hook: Ready to hand off is not the same as resolved.
+  final_line: Name the exact output this approval releases.
+objective: Make the trust question of publication-boundary readiness visible without claiming that Stitch & Scale currently provides release approval, export assurance, publication controls, or handoff guarantees.
+audience: Independent knitwear designers and pattern publishers coordinating craft-production outputs and human evidence gates; secondary founding testers and reviewers.
+deliverables:
+  brief: briefs/SS_founder-proof_publication-boundary-state_9x16_v001_blocked_20260820-013450.md
+  script: scripts/SS_founder-proof_publication-boundary-state_9x16_v001_blocked_20260820-013450.md
+  platform_matrix: platforms/SS_founder-proof_publication-boundary-state_9x16_v001_matrix_20260820-013450.md
+  continuity: ledgers/20260820-publication-boundary-state.md
+  manifest: manifests/SS_founder-proof_publication-boundary-state_9x16_v001_blocked_20260820-013450.yml
+filename_reservation: SS_founder-proof_publication-boundary-state_9x16_v001_blocked_20260820-013450.mp4
+claim_risks:
+  - Do not claim Stitch & Scale provides release approval, export assurance, publication controls, or handoff guarantees.
+  - Do not claim one local resolution authorizes publication of the whole package.
+  - Do not claim WCAG conformance, accessibility outcomes, accuracy, legal compliance, or formal assurance.
+  - Do not describe David as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+  - Keep calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting separate.
+proof_blocker: No current product-proof registry entry or approved non-private rights-cleared capture verifies output ID, version, included components, excluded/open items, approvals, rights, platform profile, disposition, and transfer scope.
+rights_blocker: No production assets, narrator, foley, or final platform profile are approved; use only original or cleared materials after review.
+platform_blocker: Destination platform and current safe-area/profile requirements are not confirmed.
+review_state:
+  reviews_checked: true
+  orders_checked: true
+  critical_high_orders_open: false
+imported_continuity:
+  false_completion: blocked and filename occupied; do not regenerate, overwrite, rename, or approve
+  release_gate_roster: blocked and filename occupied; do not infer authorization from generic human-gate proof
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_safe_action: Provide a versioned, non-private, rights-cleared approved capture or proof-registry entry showing the exact current publication-boundary surface, confirm the destination platform, then rerun product, claims, rights, caption, audio, platform, continuity, filename, and Director gates.
