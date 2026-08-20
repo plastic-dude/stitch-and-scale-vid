@@ -1,0 +1,158 @@
+receipt_id: PUB-20260821-calibrated-scoring-c4e8a1b
+created_at: '2026-08-21T23:10:00+01:00'
+role: temporary-director
+firing: 232
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 91d4e2b
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: c4e8a1b
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T231000-temporary-director-232.yml
+research_paths:
+  - research/2026-08-21-calibrated-review-scoring-2310.md
+  - research/2026-08-21-firing-232-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayQk_b6nSheZ_yS_dFEC
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  What calibration and repeatability evidence is needed to ensure that a Reviewer’s
+  seven-dimension score reflects the published rubric rather than an unexamined or drifted
+  evaluator scale?
+research_decision: >-
+  Require a version-bound rubric and calibration context. The terminal packet must identify
+  contract, rubric, weights, threshold and evidence versions, calibration references and
+  anchors, reviewer competency or calibration check where applicable, independence status,
+  scoring procedure, per-dimension rationale and uncertainty, complete evidence, weighted
+  calculation, threshold comparison, explicit decision, and immutable evidence. Calibration
+  is measurement quality control, not terminal authority; it cannot average conflicts or
+  replace independent Reviewer authority. Obsolete, drifted, inconsistent, or uncalibrated
+  scoring is non-terminal until linked revalidation or authorized adjudication.
+review_rubric:
+  review_contract_version: required
+  scoring_rubric_version: required
+  scoring_weights_version: required
+  threshold_version: required
+  evidence_schema_version: required
+  calibration_reference_id: required
+  calibration_reference_version: required
+  calibration_anchor_examples_or_criteria: required
+  reviewer_competency_or_calibration_check: required_when_applicable
+  calibration_date: required_when_applicable
+  reviewer_independence_status: required
+  scoring_procedure: required
+  dimension_rationale: required
+  dimension_uncertainty_or_confidence: required
+  complete_evidence: required
+  weighted_total_recomputable: required
+  threshold_comparison: required
+  explicit_terminal_decision: required
+  immutable_evidence_references: required
+calibration_rules:
+  obsolete_rubric: non_terminal
+  changed_scale: non_terminal
+  unrecorded_anchor: non_terminal
+  inconsistent_procedure: non_terminal
+  evaluator_drift: non_terminal
+  material_interpretation_change: non_terminal
+  missing_calibration_context: non_terminal
+  missing_competency_context_when_required: non_terminal
+  calibration_is_not_terminal_authority: true
+  calibration_cannot_average_conflicts: true
+  calibration_cannot_replace_independent_reviewer: true
+  conflict_requires_append_only_record_and_authorized_resolution: true
+scoring_contract:
+  dimension_count: 7
+  weights_percent:
+    story_purpose: 20
+    directing_visual: 15
+    proof_claims: 20
+    audio_voice: 15
+    captions_text: 10
+    technical_platform: 10
+    originality_brand: 10
+  per_dimension_evidence: required
+  per_dimension_rationale: required
+  per_dimension_uncertainty_or_confidence: required
+  weighted_total_recomputable: required
+  threshold_percent: 65
+  threshold_comparison: required
+  explicit_terminal_decision: required
+  immutable_evidence_references: required
+required_terminal_fields:
+  - unique_event_id
+  - event_timestamp
+  - authorized_actor_identity
+  - independent_reviewer_role
+  - prior_event_id
+  - exact_video_id
+  - exact_drive_file_id
+  - exact_sha256
+  - artifact_manifest_version
+  - review_contract_version
+  - scoring_rubric_version
+  - scoring_weights_version
+  - threshold_version
+  - evidence_schema_version
+  - calibration_reference_id
+  - calibration_reference_version
+  - calibration_anchor_examples_or_criteria
+  - reviewer_competency_or_calibration_check
+  - calibration_date
+  - reviewer_independence_status
+  - scoring_procedure
+  - seven_dimension_records
+  - dimension_rationales
+  - dimension_uncertainty_or_confidence
+  - dimension_evidence_references
+  - weighted_contributions
+  - recomputable_weighted_total
+  - threshold_comparison
+  - explicit_terminal_decision
+  - immutable_evidence_references
+terminal_events_that_clear_lane:
+  - complete_calibrated_exact_provenance_independent_reviewer_approval
+  - complete_calibrated_exact_provenance_independent_reviewer_rejection
+  - complete_calibrated_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution_with_calibration_binding
+owner_escalation:
+  responsible_owner: null
+  responsible_owner_role: null
+  checkpoint_deadline: null
+  escalation_target: null
+  timeout_action: >-
+    Append timeout, calibration-gap, or disagreement evidence with exact provenance,
+    escalate the same incident, preserve the lane as blocked, and do not infer terminal
+    authorization.
+next_action: >-
+  Independent Video Reviewer must publish one complete exact-provenance packet bound to the
+  active rubric and calibration context, with reproducible seven-dimension scoring,
+  uncertainty, threshold comparison, explicit outcome, and immutable evidence, or linked
+  revalidation or authorized adjudication. Human owner must assign owner, role, bounded
+  checkpoint, and escalation target. Keep the lane closed and do not create a brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
