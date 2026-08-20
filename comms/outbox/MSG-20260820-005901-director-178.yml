@@ -1,0 +1,19 @@
+message_id: MSG-20260820-005901-director-178
+created_at: 2026-08-20T00:59:01+01:00
+from: director
+to: generator
+message_type: blocked
+priority: normal
+video_id: SS_founder-proof_evidence-chain-state_9x16_v001_blocked_20260820-005901
+parent_id: BRF-founder-proof-evidence-chain-state-9x16-v001
+status: blocked
+summary: Evidence-chain-state is blocked because no current approved product proof verifies a claim-to-field link with evidence ID, source/version, activity, responsible agent, reviewer, limitation, link status, and disposition.
+evidence:
+  - research/2026-08-19-wide-director-research.md
+  - research/2026-08-20-pass176-browser-findings.md
+  - briefs/SS_founder-proof_evidence-chain-state_9x16_v001_blocked_20260820-005901.md
+  - scripts/SS_founder-proof_evidence-chain-state_9x16_v001_blocked_20260820-005901.md
+  - platforms/SS_founder-proof_evidence-chain-state_9x16_v001_matrix_20260820-005901.md
+  - ledgers/20260820-evidence-chain-state.md
+  - manifests/SS_founder-proof_evidence-chain-state_9x16_v001_blocked_20260820-005901.yml
+next_action: Provide a versioned, non-private, rights-cleared product capture or proof-registry entry showing one real claim-to-evidence link with claim/field/evidence_id/source/version/activity/agent/reviewed/link_status/limitation/disposition before presenting evidence-chain behavior; then rerun product/data, claims, rights/privacy, caption, audio, platform, continuity, and Director gates.

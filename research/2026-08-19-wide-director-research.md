@@ -7522,3 +7522,38 @@ No current product-proof registry or approved non-private capture verifies statu
 [900]: https://csrc.nist.gov/pubs/sp/800/92/final "NIST SP 800-92: Guide to Computer Security Log Management"
 [901]: https://www.w3.org/TR/dwbp/ "W3C Data on the Web Best Practices"
 [902]: https://www.gov.uk/government/publications/architectural-decision-record-framework/architectural-decision-record-framework "GOV.UK Architectural Decision Record Framework"
+
+
+## Wide-research Director question 176 — evidence chain state — 20260820-005901
+
+**Fresh research question.** When a claim is made, what evidence shows exactly which field, source, version, activity, responsible person, and review supports it rather than merely placing evidence nearby?
+
+**Campaign assumption.** No active brief was requested. The sensible classification is a standard single-video founder-proof / product-trust explainer for independent knitwear designers, founding testers, and reviewers: objective = education and tester recruitment through an honest claim-support pain; audience = independent knitwear designers and potential founding testers; form = 45-second 9:16 social cut; tone = quiet, precise, chain-of-support reveal; distribution = TikTok, Instagram Reels, YouTube Shorts, and internal review; brief tier = standard production brief; status = blocked pending product proof.
+
+### Sources and evidence
+
+| Ref | Source / accessed | Evidence used | Uncertainty / boundary |
+|---|---|---|---|
+| [903] | NIST, *AI Risk Management Framework*, accessed 2026-08-20: https://www.nist.gov/itl/ai-risk-management-framework | NIST describes a voluntary framework for managing risks associated with AI and incorporating trustworthiness considerations into design, development, use, and evaluation. | This does not prove that Stitch & Scale uses AI RMF, makes AI claims, or has a formal assurance process. |
+| [904] | W3C, *PROV-O: The PROV Ontology*, Recommendation 2013; accessed 2026-08-20: https://www.w3.org/TR/prov-o/ | PROV-O distinguishes entities, activities, and agents and provides relations for use, generation, derivation, attribution, responsibility, and provenance interchange across systems and contexts. | This does not prove that Stitch & Scale implements PROV-O, provenance interchange, or entity/activity/agent records. |
+| [905] | NIST, *Metrological Traceability*, accessed 2026-08-20: https://www.nist.gov/metrology/metrological-traceability | NIST defines traceability as an unbroken documented chain to a reference and states that traceability alone does not guarantee fitness for purpose; providers must support traceability claims. | This is metrology guidance, not proof that Stitch & Scale provides calibration, measurement traceability, fitness, certification, or accurate craft outcomes. |
+
+### Research synthesis and changed decision
+
+The research changes the concept from “evidence exists near a claim” to “the claim is linked to the exact field, source/version, activity, responsible agent, reviewer, limitation, and disposition that support it.” The fictional proof surface is `CLAIM C-001 / FIELD / EVIDENCE_ID / SOURCE / VERSION / ACTIVITY / AGENT / REVIEWED / LINK_STATUS / LIMITATION / DISPOSITION`.
+
+The selected angle is `evidence-chain-state`, hook **“Evidence present is not evidence linked.”** The final line is **“Show what supports this exact claim.”** No current product capture or proof-registry record was supplied.
+
+### Distinctness decision
+
+The nearest prior angle is `evidence-coverage`, which asks whether the necessary evidence surfaces are covered. `evidence-chain-state` changes the pain to whether each claim is linked to the exact field, evidence ID, source/version, activity, responsible agent, reviewer, limitation, and disposition. It is not `evidence-over-output`, which asks whether evidence is placed before a result; `evidence-type`, which asks what kind of evidence is used; `support-boundary`, which asks where support stops; `measurement-provenance`, which asks where a measurement came from; `provenance-chain`, which asks the origin chain of an artifact; `status-history-state`, which asks how a status was reached; or `reviewability-state`, which asks whether a record can be reviewed. The visual metaphor changes to claim nodes connected to exact evidence cards with one broken support link, rather than an evidence coverage grid, output card, evidence taxonomy, boundary line, measurement chain, origin chain, status rail, or review surface. No imported reservation is reopened, renamed, overwritten, or consumed.
+
+### Product and campaign reconciliation
+
+No current product-proof registry or approved non-private capture verifies claim-to-field linkage, evidence IDs, source/version, activity, responsible agent, reviewer, limitation, link status, or disposition. The evidence cards must remain fictional and must not resemble current Stitch & Scale UI. The product is not credited with provenance graphs, traceability, calibration, evidence linkage, assurance, fitness for purpose, or certification. David remains a developer whose late mother knitted; he is not described as a knitter, knitwear designer, pattern designer, technical editor, or tester. Calculation, technical editing, physical print review, chart readability, schematic scale, and test knitting remain separate human evidence gates.
+
+### References [903]–[905]
+
+[903]: https://www.nist.gov/itl/ai-risk-management-framework "NIST AI Risk Management Framework"
+[904]: https://www.w3.org/TR/prov-o/ "W3C PROV-O: The PROV Ontology"
+[905]: https://www.nist.gov/metrology/metrological-traceability "NIST Metrological Traceability"
