@@ -1,0 +1,37 @@
+receipt_id: PUB-20260820-decision-log-6cafe82
+created_at: '2026-08-20T07:26:00+01:00'
+role: temporary-director
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: a058194978ca31fa306812ac79d4972c40848106
+remote_commit_after_blocker: 6cafe828887b93973416f5dd78711d8df629a2c8
+merge_required: false
+head_equals_origin_main: true
+divergence_left_right: '0 0'
+publication_status: published-blocker
+verified_remote_paths:
+  - research/2026-08-20-decision-log-anti-starvation-0726.md
+  - comms/outbox/MSG-20260820T072600-temporary-director-099.yml
+  - references/publication-control.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_acknowledgement: absent
+  remake_required_order: absent
+  single_flight: preserved
+research_question: >-
+  How can the Director keep repeated review-hold notifications actionable without
+  allowing them to become alert fatigue or an implicit decision log?
+research_decision: >-
+  Consolidate non-terminal reminders into one actionable callback request. The
+  next meaningful record must be a new owner/reviewer action or terminal packet.
+next_action: >-
+  Human owner must provide accountable owner, bounded review deadline, and
+  escalation target. Video Reviewer must publish a new independent terminal
+  packet. Preserve V002 and keep the lane closed.
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
