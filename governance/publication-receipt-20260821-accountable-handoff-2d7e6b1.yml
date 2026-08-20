@@ -1,0 +1,100 @@
+receipt_id: PUB-20260821-accountable-handoff-2d7e6b1
+created_at: '2026-08-21T20:16:00+01:00'
+role: temporary-director
+firing: 224
+repository: plastic-dude/stitch-and-scale-vid
+branch: main
+pre_publication_commit: 632220875c2163b89b78fe76df5a162bc626a35b
+incoming_remote_commit: null
+reconciliation: already_synchronized_before_director_commit
+commit_after_blocker: 2d7e6b1
+authority_commit_after_receipt: pending
+publication_status: receipt-pending-final-verification
+blocker_path: comms/outbox/MSG-20260821T201600-temporary-director-224.yml
+research_paths:
+  - research/2026-08-21-accountable-review-checkpoint-handoff-2016.md
+  - research/2026-08-21-firing-224-source-notes.md
+active_contract:
+  video_id: SS_ownership-receipt_privacy-by-default_9x16_v002_director-review_20260819-174800
+  drive_file_id: 115eXCYWx1zP4ayB7Qs_ISOGP-4KbgxO2
+  sha256: cb6a701bf55bb1066a8d7083a3378c93eb99c8354814f2ab5435e5fce92787c5
+  status: video-ready-for-review
+  terminal_reviewer_decision: absent
+  owner_action: absent
+  remake_required_order: absent
+  approved_for_generation_contract: absent
+  single_flight: preserved
+remote_observation:
+  origin_checked_after_fetch: true
+  queue_hold_present: true
+  queue_hold_class: BLOCKED_REVIEW_AUTHORIZATION_HOLD
+  terminal_reviewer_event: false
+  owner_action: false
+  remake_required_order: false
+  approved_for_generation_brief: false
+  publication_failure: false
+  operational_continuity_only: true
+  mp4_authorized: false
+research_question: >-
+  How should an unresolved review incident assign and transfer accountability so a
+  missing owner or ambiguous handoff cannot persist indefinitely while preserving the
+  independent Reviewer’s terminal authority boundary?
+research_decision: >-
+  Require a named responsible owner and role, acknowledged handoff, bounded checkpoint,
+  escalation target, exact V002 provenance, and immutable evidence. Missing ownership,
+  expired checkpoint, or unacknowledged handoff escalates the same incident and remains
+  blocked. Ownership coordinates work but cannot replace independent quality authority.
+accountability_protocol:
+  incident_id: REVIEW-HOLD-V002-20260819
+  current_state: video-ready-for-review
+  responsible_owner: null
+  responsible_owner_role: null
+  owner_acknowledgement_event_id: null
+  predecessor_owner: null
+  successor_owner: null
+  handoff_acknowledged_at: null
+  checkpoint_deadline: null
+  escalation_target: null
+  ownership_is_not_quality_authority: true
+  fail_closed: true
+  append_only: true
+terminal_events_that_clear_lane:
+  - complete_exact_provenance_independent_reviewer_approval
+  - complete_exact_provenance_independent_reviewer_rejection
+  - complete_exact_provenance_independent_REMAKE_REQUIRED_order
+  - explicit_contract_authorized_terminal_resolution
+  - explicit_published_terminal_resolution_per_contract
+non_terminal_events:
+  - owner_assignment_without_terminal_reviewer_packet
+  - owner_acknowledgement
+  - handoff_without_successor_acknowledgement
+  - handoff_without_exact_provenance
+  - checkpoint_renewal
+  - continuation_without_new_checkpoint
+  - queue_hold
+  - heartbeat
+  - reminder
+  - director_blocker
+  - generator_hold
+  - timeout
+  - silence
+  - elapsed_time
+  - callback_for_another_video
+  - callback_for_another_drive_upload
+  - callback_with_different_sha256
+  - missing_owner_assignment
+  - missing_checkpoint
+  - missing_escalation_target
+next_action: >-
+  Human owner must assign responsible owner and role, checkpoint deadline, escalation
+  target, and next action. Any handoff must identify predecessor and successor, effective
+  time, accepted state, and successor acknowledgement. Independent Video Reviewer must
+  publish one complete exact-provenance terminal packet or a linked continuation packet.
+  Expiry or missing acknowledgement escalates the same incident and keeps the lane
+  blocked. Keep the lane closed and do not create a new brief.
+no_new_brief: true
+no_mp4_generated: true
+no_self_approval: true
+no_evidence_deleted: true
+no_force_push: true
+no_credentials: true
