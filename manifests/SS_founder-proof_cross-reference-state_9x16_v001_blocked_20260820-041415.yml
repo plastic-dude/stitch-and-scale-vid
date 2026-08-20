@@ -1,0 +1,187 @@
+manifest_version: '1.0'
+manifest_id: MAN-founder-proof-cross-reference-state-9x16-v001-20260820-041415
+brief_id: BRF-founder-proof-cross-reference-state-9x16-v001
+script_id: SCR-founder-proof-cross-reference-state-9x16-v001
+matrix_id: MAT-founder-proof-cross-reference-state-9x16-v001
+campaign: founder-proof
+angle: cross-reference-state
+pass_number: 212
+stamp: '20260820-041415'
+status: blocked
+format:
+  aspect_ratio: '9:16'
+  duration_seconds: 45
+  delivery_class: mobile-first-social-explainer
+title: A pointer is not a path.
+objective: >-
+  Show that a cross-reference in a knitwear instruction needs an exact target,
+  scope, version, row or step, action, and return point, without claiming that
+  Stitch & Scale currently resolves, parses, highlights, or validates cross-references.
+audience:
+  primary: >-
+    Independent knitwear designers and pattern publishers coordinating calculations,
+    technical editing, physical print review, chart readability, schematic scale,
+    test knitting, samples, swatches, revisions, tester feedback, submissions,
+    and intended users.
+  secondary: founding testers and reviewers
+form: founder-proof-tabletop-reference-explainer
+assumption:
+  objective: evidence-led founder proof
+  audience: independent knitwear designers and pattern publishers
+  tone: calm exact quiet reader-respecting
+  distribution: organic 9:16 social placements; destination unconfirmed
+  brief_tier: director-planner-blocked
+founder_truth:
+  david: >-
+    David is a developer whose late mother knitted. He does not knit and must not
+    be described as a knitter, knitwear designer, pattern designer, technical editor,
+    or tester.
+  human_gates:
+    - calculation
+    - technical editing
+    - physical print review
+    - chart readability
+    - schematic scale
+    - test knitting
+product_truth:
+  current_cross_reference_surface_verified: false
+  proof_registry_entry: absent
+  approved_capture: absent
+  illustrative_surface: >-
+    REF X-001 / SOURCE_SECTION / SOURCE_SIZE_OR_SCOPE / SOURCE_ROW_OR_STEP /
+    POINTER_TEXT / TARGET_SECTION / TARGET_VERSION / TARGET_SIZE_OR_SCOPE /
+    TARGET_ROW_OR_STEP / ACTION_AT_TARGET / RETURN_POINT / EXCEPTION_OR_OPEN_GATE /
+    REVIEW_RECORD
+  disclaimer: ILLUSTRATIVE — NOT PRODUCT UI
+research:
+  file: research/2026-08-20-pass212-browser-findings.md
+  question: >-
+    When a knitwear instruction points elsewhere, what must remain explicit for a
+    reader to find the exact target, preserve size or section context, and return
+    to the next action, especially on a mobile screen or after interruption?
+  decision_changed: >-
+    Select cross-reference-state: make source section, source scope, pointer text,
+    target section, target version, target scope, target row or step, action, return
+    point, exception, and review record visible as distinct fields.
+  sources:
+    - id: R212-001
+      title: 'Craft Yarn Council — How to Read a Knitting Pattern'
+      url: https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern
+      accessed: '2026-08-20'
+    - id: R212-002
+      title: 'W3C — Making Content Usable for People with Cognitive and Learning Disabilities'
+      url: https://www.w3.org/TR/coga-usable/
+      accessed: '2026-08-20'
+      limitation: Supplemental Working Group Note beyond WCAG conformance.
+    - id: R212-003
+      title: 'W3C — Web Content Accessibility Guidelines (WCAG) 2.1'
+      url: https://www.w3.org/TR/WCAG21/
+      accessed: '2026-08-20'
+    - id: R212-004
+      title: 'TikTok Ads — TikTok Auction In-Feed Ads'
+      url: https://ads.tiktok.com/help/article/tiktok-auction-in-feed-ads
+      accessed: '2026-08-20'
+      limitation: Paid in-feed advertising guidance, not organic-post rules.
+    - id: R212-005
+      title: 'YouTube Help — Upload YouTube Shorts'
+      url: https://support.google.com/youtube/answer/12779649?hl=en&co=GENIE.Platform%3DDesktop
+      accessed: '2026-08-20'
+    - id: R212-006
+      title: 'Meta Business Help — About text overlays and the safe zone for ads in Stories and Reels'
+      url: https://www.facebook.com/business/help/980593475366490
+      accessed: '2026-08-20'
+      limitation: Paid-ad guidance; page served in a Chinese locale during research.
+concept_difference:
+  nearest_prior: accountable-owner-state
+  changed_pain: >-
+    A source instruction points elsewhere while leaving the exact target, scope,
+    version, row or step, action, and return point unspecified.
+  hook: A pointer is not a path.
+  visual_metaphor: >-
+    A source card points at two similar target cards; missing target, scope, version,
+    action, and return fields leave the route amber.
+  emotional_turn: 'Recoverable clarity: the reader can name the target and return point instead of guessing.'
+  final_line: Name the target, the scope, and where the reader returns.
+proof_surface: >-
+  REF X-001 / SOURCE_SECTION / SOURCE_SIZE_OR_SCOPE / SOURCE_ROW_OR_STEP /
+  POINTER_TEXT / TARGET_SECTION / TARGET_VERSION / TARGET_SIZE_OR_SCOPE /
+  TARGET_ROW_OR_STEP / ACTION_AT_TARGET / RETURN_POINT / EXCEPTION_OR_OPEN_GATE /
+  REVIEW_RECORD
+dramatic_engine:
+  subject: one fictional source instruction pointing toward a target instruction
+  desire: let the reader reach the exact target and return to the next action without guessing
+  obstacle: pointer omits target section, version, size or scope, row or step, action, and return point
+  stakes: a reader can continue from the wrong target or lose their place; illustrative only
+  change: pointer is bounded with target, scope, version, action, return point, and exception
+  contradiction: concise instructions save space while increasing the need for visible context
+  escalation:
+    - POINTER_TEXT
+    - TARGET_SECTION
+    - TARGET_VERSION
+    - TARGET_SIZE_OR_SCOPE
+    - TARGET_ROW_OR_STEP
+    - ACTION_AT_TARGET
+    - RETURN_POINT
+    - EXCEPTION_OR_OPEN_GATE
+    - REVIEW_RECORD
+assets:
+  approved_assets: pending
+  permitted: original neutral cards, neutral tabletop, rights-cleared narrator, neutral foley
+  prohibited: real pattern excerpts, copyrighted charts, private records, customer names, logos, private messages, current UI captures
+  rights_clearance: required before generation
+voice:
+  narrator_family: one approved narrator family only
+  status: pending approval
+captions:
+  caption_on_review: required
+  caption_free_review: required
+  human_review: required
+  safe_area: pending destination confirmation
+  obstruction_rule: captions must not cover faces, hands, proof, cards, labels, numbers, logos, buttons, menus, or primary actions
+audio:
+  music: none unless rights-cleared and separately approved
+  motif: restrained arrival cue and neutral unresolved hold tone
+  room_tone: record before and after each setup
+platform:
+  destination: unconfirmed
+  matrix: platforms/SS_founder-proof_cross-reference-state_9x16_v001_matrix_20260820-041415.md
+filename:
+  reserved: SS_founder-proof_cross-reference-state_9x16_v001_blocked_20260820-041415.mp4
+  overwrite: false
+  duplicate_check: passed
+claims:
+  allowed:
+    - Cross-references benefit from an explicit target, scope, version, action, and return point.
+    - Abbreviations and same-as instructions can require reader inference.
+  prohibited:
+    - Stitch & Scale resolves, parses, highlights, detects, validates, or restores cross-references.
+    - Any pointer is automatically correct because it names a chart or section.
+    - Cross-reference records replace calculation, technical editing, print review, chart readability, schematic scale, or test knitting.
+    - The product or video meets WCAG or guarantees accessibility, comprehension, correctness, or usability.
+    - Revenue, adoption, accuracy, customer outcomes, pricing, credentials, testimonials, urgency, or capabilities.
+acceptance_gates:
+  - product_truth_and_current_proof
+  - claims_and_founder_truth
+  - human_evidence_boundaries
+  - rights_and_privacy
+  - narrator_family
+  - caption_on
+  - caption_free
+  - audio_and_room_tone
+  - destination_platform
+  - mobile_readability
+  - filename_and_continuity
+  - director_reauthorization
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact cross-reference surface; destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+continuity:
+  ledger: ledgers/20260820-cross-reference-state.md
+  imported_continuity: ledgers/2026-08-19-imported-session-continuity.md
+  adjacent_comparison_basis: ledgers/2026-08-20-comparison-basis.md
+  adjacent_reader_handoff: ledgers/2026-08-19-reader-handoff-continuity.md
+  adjacent_repeat_scope: ledgers/2026-08-19-repeat-scope.md
+  imported_false_completion: blocked_and_occupied_do_not_regenerate
+  imported_release_gate_roster: blocked_and_occupied_do_not_regenerate

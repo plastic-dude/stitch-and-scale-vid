@@ -1,0 +1,81 @@
+message_id: MSG-20260820-041415-director-215
+message_type: director-planner-handoff
+from: director
+owner: plastic-dude
+repository: plastic-dude/stitch-and-scale-vid
+branch: director/publication-readiness-second-shift-20260819
+pass: 212
+stamp: '20260820-041415'
+angle: cross-reference-state
+campaign: founder-proof
+status: blocked
+reserved_filename: SS_founder-proof_cross-reference-state_9x16_v001_blocked_20260820-041415.mp4
+nearest_prior: accountable-owner-state
+hook: A pointer is not a path.
+final_line: Name the target, the scope, and where the reader returns.
+research_question: >-
+  When a knitwear instruction points elsewhere, what must remain explicit for a reader
+  to find the exact target, preserve size or section context, and return to the next action,
+  especially on a mobile screen or after interruption?
+research_file: research/2026-08-20-pass212-browser-findings.md
+research_decision: >-
+  Select cross-reference-state: make source section, source scope, pointer text, target
+  section, target version, target scope, target row or step, action, return point, exception,
+  and review record visible as distinct fields.
+research_sources:
+  - Craft Yarn Council explains compressed knitwear notation and the reader inference required by “work same as left piece, reversing shaping”.
+  - W3C cognitive guidance recommends clear headings, boundaries, context restoration, and reduced memory dependence, especially when attention is interrupted or mobile use splits attention.
+  - WCAG 2.1 covers mobile web content but does not prove Stitch & Scale conformance.
+  - TikTok and Meta safe-zone sources are paid-ad guidance and do not establish organic-post rules.
+  - YouTube confirms square or vertical Shorts upload guidance and rights obligations for protected material.
+objective: >-
+  Show that a cross-reference in a knitwear instruction needs an exact target, scope,
+  version, row or step, action, and return point, without claiming that Stitch & Scale
+  currently resolves, parses, highlights, or validates cross-references.
+audience: >-
+  Independent knitwear designers and pattern publishers coordinating calculations,
+  technical editing, physical print review, chart readability, schematic scale, test
+  knitting, samples, swatches, revisions, tester feedback, submissions, and intended users.
+deliverables:
+  - briefs/SS_founder-proof_cross-reference-state_9x16_v001_blocked_20260820-041415.md
+  - scripts/SS_founder-proof_cross-reference-state_9x16_v001_blocked_20260820-041415.md
+  - platforms/SS_founder-proof_cross-reference-state_9x16_v001_matrix_20260820-041415.md
+  - ledgers/20260820-cross-reference-state.md
+  - manifests/SS_founder-proof_cross-reference-state_9x16_v001_blocked_20260820-041415.yml
+  - research/2026-08-20-pass212-browser-findings.md
+  - ledgers/angle-ledger.md
+  - comms/outbox/MSG-20260820-041415-director-215.yml
+proof_surface: >-
+  REF X-001 / SOURCE_SECTION / SOURCE_SIZE_OR_SCOPE / SOURCE_ROW_OR_STEP /
+  POINTER_TEXT / TARGET_SECTION / TARGET_VERSION / TARGET_SIZE_OR_SCOPE /
+  TARGET_ROW_OR_STEP / ACTION_AT_TARGET / RETURN_POINT / EXCEPTION_OR_OPEN_GATE /
+  REVIEW_RECORD
+blocker: >-
+  No current versioned, non-private, rights-cleared product-proof registry entry or
+  approved capture verifies the exact cross-reference surface. Destination platform,
+  rights, narrator, caption, audio, and final acceptance evidence remain unconfirmed.
+claims_risk: >-
+  Do not claim that Stitch & Scale resolves, parses, highlights, detects, validates,
+  or restores cross-references; do not claim correctness, reader comprehension,
+  mobile accessibility, WCAG conformance, usability, accuracy, adoption, outcomes,
+  pricing, credentials, testimonials, urgency, or capabilities.
+founder_truth: >-
+  David is a developer whose late mother knitted; he does not knit and must not be
+  described as a knitter, knitwear designer, pattern designer, technical editor, or tester.
+human_gates: >-
+  Preserve calculation, technical editing, physical print review, chart readability,
+  schematic scale, and test knitting as distinct human evidence gates.
+continuity: >-
+  Imported false-completion and release-gate-roster were inspected and remain blocked;
+  their reserved filenames remain occupied. Existing comparison-basis, reader-handoff,
+  repeat-scope, and context-state packages remain occupied adjacent territory and were not modified.
+review_state: >-
+  reviews/, orders/, and comms/inbox/ are absent at refresh; no open CRITICAL or HIGH
+  reviewer or remake order is present in the current repository.
+exact_generator_action: Do not generate or upload. Await Director re-authorization after proof and gate validation.
+next_action: >-
+  Name the destination platform and provide a current, versioned, non-private, rights-cleared
+  product-proof registry entry or approved capture showing source section, source size or scope,
+  source row or step, pointer text, target section, target version, target size or scope, target
+  row or step, action at target, return point, exception or open gate, and review record; then
+  rerun all Director gates.
