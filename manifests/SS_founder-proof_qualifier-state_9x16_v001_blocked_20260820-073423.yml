@@ -1,0 +1,94 @@
+schema_version: '1.0'
+manifest_id: 'MNF-founder-proof-qualifier-state-9x16-v001-20260820-073423'
+plan_id: 'BRF-founder-proof-qualifier-state-9x16-v001'
+pass_number: 235
+campaign: 'founder-proof'
+angle: 'qualifier-state'
+stamp: '20260820-073423'
+format: '9x16'
+version: 'v001'
+status: 'blocked'
+reserved_filename: 'SS_founder-proof_qualifier-state_9x16_v001_blocked_20260820-073423.mp4'
+media_exists: false
+media_generated: false
+media_uploaded: false
+objective: 'Show why a craft value needs its qualifier—required, optional, estimated, conditional, unknown, or not applicable—before a viewer treats it as a universal fact or instruction.'
+audience: 'Independent knitwear designers and pattern publishers handling multi-size patterns, materials, gauges, charts, schematics, samples, and submissions.'
+form: 'Founder-proof tabletop explainer using original illustrative value and qualifier cards; no real pattern, current UI, private record, customer/tester material, publication form, or live measurement.'
+tone: 'Quiet, precise, craft-respecting, local-first, and explicit about scope, source, stage, and limits.'
+distribution_assumption: 'Organic Instagram Reels, TikTok, and YouTube Shorts; no paid placement assumed; revalidate at approval.'
+brief_tier: 'Director/Planner blocked package; not approved-for-generation.'
+hook: 'A number without its qualifier is an unfinished instruction.'
+final_line: 'Keep the qualifier beside the value.'
+nearest_prior: 'editability-state'
+material_difference: 'The semantic qualifier attached to one field or value—required, optional, estimate, unknown, not applicable—with scope, unit, size, stage, source, date, limitation, and human check, rather than whether a source or artifact may be edited or released.'
+product_truth:
+  proof_registry_entry: 'absent'
+  current_qualifier_surface_verified: false
+  current_value_context_surface_verified: false
+  current_destination_verified: false
+  approved_non_private_capture: false
+  generated_text_is_ui_truth: false
+  product_capability_claims_allowed: false
+proof_surface: 'QUALIFIER Q-001 / FIELD / VALUE / QUALIFIER / SCOPE / UNIT / SIZE / STAGE / SOURCE / AS_OF / LIMITATION / HUMAN_CHECK / STATUS'
+qualifier_states:
+  - 'REQUIRED'
+  - 'OPTIONAL'
+  - 'ESTIMATE'
+  - 'CONDITIONAL'
+  - 'UNKNOWN'
+  - 'NOT_APPLICABLE'
+human_evidence_gates:
+  - 'CALCULATION'
+  - 'GAUGE_REVIEW'
+  - 'TECHNICAL_EDITING'
+  - 'PHYSICAL_PRINT_REVIEW'
+  - 'CHART_READABILITY'
+  - 'SCHEMATIC_SCALE'
+  - 'TEST_KNITTING'
+  - 'PUBLICATION_DECISION'
+rights:
+  real_pattern_or_sample_allowed: false
+  real_charts_or_schematics_allowed: false
+  real_measurements_or_private_records_allowed: false
+  publication_forms_or_logos_allowed: false
+  founder_voice_requires_internal_clearance: true
+  original_props_require_rights_log: true
+caption_audio:
+  narrator_family: 'one close dry founder voice; no mixed voices'
+  caption_on_review_required: true
+  caption_free_review_required: true
+  automatic_captions_are_draft_only: true
+  captions_may_cover_proof: false
+  captions_may_cover_hands_faces_numbers_controls: false
+  room_tone_continuity_required: true
+  certainty_or_approval_sound_allowed: false
+platform:
+  instagram_reels: 'planned; recheck current profile, overlays, and actual preview at approval'
+  tiktok_organic: 'planned; human-edit captions and recheck accessibility, language, photosensitivity, and overlays'
+  youtube_shorts: 'planned; verify captions in Studio, audio rights, vertical upload rules, and actual preview'
+  paid_derivatives: 'not requested'
+acceptance_gates:
+  objective_audience_confirmed: false
+  fresh_wide_research_recorded: true
+  open_reviewer_orders_inspected: true
+  imported_continuity_inspected: true
+  angle_distinctness_documented: true
+  product_proof_supplied: false
+  destination_confirmed: false
+  script_complete: true
+  claim_ledger_complete: true
+  rights_ledger_complete: true
+  narrator_family_declared: true
+  caption_on_and_free_review_defined: true
+  audio_plan_defined: true
+  platform_recheck_complete: false
+  filename_reserved_unique: true
+  external_upload_authorized: false
+exact_generator_action: 'Do not generate or upload. Await a current versioned product-proof registry entry or approved non-private qualifier/value capture, confirm destination and rights, and rerun Director validation before re-authorization.'
+blocker: 'No current product-proof registry entry or approved non-private, rights-cleared capture verifies a qualifier/value surface; destination, asset rights, and current platform acceptance details are also unconfirmed.'
+source_research: 'research/2026-08-20-pass235-browser-findings.md'
+brief_path: 'briefs/SS_founder-proof_qualifier-state_9x16_v001_blocked_20260820-073423.md'
+script_path: 'scripts/SS_founder-proof_qualifier-state_9x16_v001_blocked_20260820-073423.md'
+platform_matrix_path: 'platforms/SS_founder-proof_qualifier-state_9x16_v001_matrix_20260820-073423.md'
+continuity_path: 'ledgers/20260820-qualifier-state.md'
