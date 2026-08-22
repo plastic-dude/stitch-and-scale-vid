@@ -22,6 +22,12 @@ The document has five jobs. First, it defines what Stitch & Scale is ultimately 
 
 A scheduled interval is not a command to loop forever. Each firing must produce one bounded, durable deliverable, record what was learned, identify what remains uncertain, hand off the next action, and stop. This boundary follows the orchestration principle that a multi-agent workflow should minimize unnecessary handoff overhead, use standardized interfaces, avoid unbounded delegation, and make the critical path observable.[1]
 
+## 1.1 Exact owner-supplied source bundle
+
+Every recurring Stitch & Scale agent must read and reconcile the exact owner-supplied research bundle before research, planning, coding, generation, review, or a clean-result claim. The canonical published copy is `https://github.com/plastic-dude/stitch-and-scale-pro/tree/main/docs/source-bundle/stitch_scale_bundle-2026-08-22`. The required pass includes `README.md`, `source-sha256s.txt`, and all 15 raw files under `original/`, read in full and checked against the recorded SHA-256 values. The compact `assimilation.md`, `docs/archive-digest.md`, prior chat memory, and any local attachment are aids only; none replaces the raw pass.
+
+Each firing must record a `bundle_read_receipt` with the bundle SHA, all raw paths read, and one decision-relevant finding. If the canonical copy, any raw file, or its hashes cannot be verified, or if the full read is incomplete, the agent must stop with `BLOCKED` or `UNVERIFIED` and must not create a clean-result, approval, publication, or generation claim. This gate makes the source available and auditable; it cannot honestly claim that an agent comprehended text it did not read.
+
 ## 2. The project end goal
 
 ### 2.1 The product’s real job
